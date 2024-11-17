@@ -36,15 +36,21 @@ Au milieu du XIXe siècle, Gustav Fechner fonde le premier laboratoire de psycho
 
 Il s'agit donc d'étudier comment la perception change lorsque l'on fait varier les propriétés physiques du stimulus perçu. Autrement dit, la psychophysique jette un pont entre le monde physique d'une part et la sphère des représentations mentales d'autre part. Il est utile de s'arrêter sur cette distinction dans le cas de la psychoacoustique pour préciser le vocabulaire qui sera utilisé dans la suite de ce cours.
 
-L'acoustique est la science des sons, objets physiques qui sont caractérisés par certaines de leurs propriétés mesurables comme l'**intensité** ou la **fréquence**. La psychoacoustique, en revanche, étudie la perception des sons. Elle cherche donc à relier l'objet physique à la représentation mentale que l'auditeur·ice s'en fait. Cette représentation, ou **percept** appartient au niveau cognitif. A chaque caractéristique physique du son correspond potentiellemnt une représentation de cette caractéristique dans l'esprit du sujet. On distingue ainsi l'intensité, caractéristique physique, de l'intensité perçue, aussi appelée **sonie** ; de même il faut différentier la fréquence de la "fréquence perçue", ou **hauteur tonale** (nous y reviendrons au cours 3). Le langage courant ne fait le plus souvent pas la distinction entre les propriétés d'un objet et les propriétés de notre perception de cet objet -- on parle ainsi de la couleur d'une fleur alors que la couleur n'est que le corrélat perceptuel des longueurs d'onde réfléchies par cette fleur. Néanmoins, cette distinction est fondamentale si l'on souhaite mener une étude approfondie de la perception.
+L'acoustique est la science des sons, objets physiques qui sont caractérisés par certaines de leurs propriétés mesurables comme l'**intensité** ou la **fréquence**. La psychoacoustique, en revanche, étudie la perception des sons. Elle cherche donc à relier l'objet physique à la représentation mentale que l'auditeur·ice s'en fait. Cette représentation, ou **percept** appartient au niveau cognitif. A chaque caractéristique physique du son correspond potentiellemnt une représentation de cette caractéristique dans l'esprit du sujet. On distingue ainsi l'intensité, caractéristique physique, de l'intensité perçue, aussi appelée **sonie** ; de même il faut différentier la fréquence de la "fréquence perçue", ou **hauteur tonale** (nous y reviendrons au cours 3). Le langage courant ne fait le plus souvent pas la distinction entre les propriétés d'un objet et les propriétés de notre perception de cet objet -- on parle ainsi de la couleur d'une fleur alors que la couleur n'est que le corrélat perceptuel des longueurs d'onde réfléchies par cette fleur. Néanmoins, cette distinction conceptuelle est fondamentale si l'on souhaite mener une étude approfondie de la perception.
 
 ![Schéma de l'approche psychophysique](Psychophysique2.jpg "Schéma de l'approche psychophysique").
 
 Comme indiqué plus haut, la psychophysique s'intéresse aux relations quantitatives entre monde physique et monde cognitif. On cherche le plus souvent à établir une fonction entre la **dimension physique d’intérêt** et une certaine variable cognitive correspondant au comportement externe mesuré. 
 
-![Fonction psychophysique](function.jpg "Fonction psychophysique").
+![Fonction psychophysique](function.png "Fonction psychophysique").
 
 La relation entre dimension physique et comportement peeut en théorie suivre n'importe quelle fonction. Néanmoins nous nous intéresserons par la suite à une fonction particulière, la fonction psychométrique, qui relie la dimension à une proportion de réponses entre 0% et 100%.
 
 ## L'expérience de psychoacoustique
+
+La psychoacoustique est une science expérimentale : elle teste la validité de ses hypothèses et modèles en mettant au point des expériences quantifiables et reproductibles, menées sur un échantillon représentatif de population.
+
+Une expérience est composée d’une série d’**essais**. À chaque essai, on présente un ou plusieurs **stimuli** (c'est à dire un ou plusieurs sons) au sujet, qui doit réaliser une **tâche** simple et donner une **réponse**. Dans certains cas le nombre total d’essais composant l'expérience peut être très élevé pour obtenir une mesure suffisament fiable.
+
+![expérience psychophysique](expérience.png "expérience psychophysique").
 

@@ -54,3 +54,4 @@ Une expérience est composée d’une série d’**essais**. À chaque essai, on
 
 ![expérience psychophysique](expérience.png "expérience psychophysique").
 
+Il est possible d'imaginer un nombre potentiellement infini d'expériences suivant cette structure. Dans la suite de ce chapitre nous proposerons une méthode pour choisir une expérience permettant d’obtenir un indicateur fiable du phénomène perceptif étudié. Pour ceci, nous décrirons une typologie des approches expérimentales de la perception, qui se déploie selon quatre axes : les **stimuli**, la **méthode expérimentale**, la **tâche**, et le **paradigme expérimental**. Cette typologie est utile non seulement pour mettre au point des expérience, mais également pour identifier rapidement le type d'expérience utilisé dans un article et les résultats qu'il est possible d'en attendre.

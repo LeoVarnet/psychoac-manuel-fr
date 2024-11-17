@@ -18,7 +18,7 @@ Ce manuel a pour vocation de fournir une introduction à la psychoacoustique, la
 
 Cet ouvrage est publié sous une licence [CC-BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/). Si vous remarquez une erreur, n'hésitez pas à la signaler sur la [page GitHub](https://github.com/LeoVarnet/psychoacoustique) de cette ressource éducative ouverte.
 
-![A description of the image 2](images/web/Cc-by-nc-sa-120.png)
+![A description of the image 2](../static/Cc-by-nc-sa_icon.svg.png)
 
 **Sommaire**
 

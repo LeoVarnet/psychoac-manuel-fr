@@ -43,6 +43,7 @@ L'acoustique est la science des sons, objets physiques qui sont caractérisés p
 Comme indiqué plus haut, la psychophysique s'intéresse aux relations quantitatives entre monde physique et monde cognitif. On cherche le plus souvent à établir une fonction entre la **dimension physique d’intérêt** et une certaine variable cognitive correspondant au comportement externe mesuré. 
 
 ![Fonction psychophysique](function.png "Fonction psychophysique").
+<img src="function.png" alt="Fonction psychophysique" width="200"/>
 
 La relation entre dimension physique et comportement peeut en théorie suivre n'importe quelle fonction. Néanmoins nous nous intéresserons par la suite à une fonction particulière, la fonction psychométrique, qui relie la dimension à une proportion de réponses entre 0% et 100%.
 
@@ -50,8 +51,8 @@ La relation entre dimension physique et comportement peeut en théorie suivre n'
 
 La psychoacoustique est une science expérimentale : elle teste la validité de ses hypothèses et modèles en mettant au point des expériences quantifiables et reproductibles, menées sur un échantillon représentatif de population.
 
-Une expérience est composée d’une série d’**essais**. À chaque essai, on présente un ou plusieurs **stimuli** (c'est à dire un ou plusieurs sons) au sujet, qui doit réaliser une **tâche** simple et donner une **réponse**. Dans certains cas le nombre total d’essais composant l'expérience peut être très élevé pour obtenir une mesure suffisament fiable.
+La structure d'une expérience est le plus souvent décrite de la façon suivante. Une expérience est composée d’une série d’**essais**. À chaque essai, on présente un ou plusieurs **stimuli** (c'est à dire un ou plusieurs sons) au sujet, qui doit réaliser une **tâche** simple et donner une **réponse**. Dans certains cas le nombre total d’essais composant l'expérience peut être très élevé pour obtenir une mesure suffisament fiable.
 
 ![expérience psychophysique](expérience.png "expérience psychophysique").
 
-Il est possible d'imaginer un nombre potentiellement infini d'expériences suivant cette structure. Dans la suite de ce chapitre nous proposerons une méthode pour choisir une expérience permettant d’obtenir un indicateur fiable du phénomène perceptif étudié. Pour ceci, nous décrirons une typologie des approches expérimentales de la perception, qui se déploie selon quatre axes : les **stimuli**, la **méthode expérimentale**, la **tâche**, et le **paradigme expérimental**. Cette typologie est utile non seulement pour mettre au point des expérience, mais également pour identifier rapidement le type d'expérience utilisé dans un article et les résultats qu'il est possible d'en attendre.
+Il est possible d'imaginer un nombre potentiellement infini d'expériences suivant cette structure. Dans la suite de ce chapitre nous proposerons une méthode pour choisir une expérience permettant d'obtenir un indicateur fiable du phénomène perceptif étudié. Pour ceci, nous décrirons une typologie des approches expérimentales de la perception, qui se déploie selon quatre axes : les **stimuli**, la **méthode expérimentale**, la **tâche**, et le **paradigme expérimental**. Cette typologie est utile non seulement pour mettre au point des expériences adaptée à l'étude d'une question de recherche particulière, mais également pour identifier rapidement le type d'expérience utilisé dans un article et les résultats qu'il est possible d'en attendre. 

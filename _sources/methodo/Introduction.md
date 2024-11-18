@@ -26,6 +26,8 @@ Il s'agit en réalité d'user pour étudier l'esprit humain de la même approche
 
 !["Psychophysique.jpg"](Psychophysique.jpg)
 
+<img src="https://github.com/LeoVarnet/psychoac-manuel-fr/blob/main/lecture/methodo/Psychophysique.jpg" alt="Schéma de l'approche psychophysique" class="bg-primary mb-1" width="400px"> 
+
 <img src="Psychophysique.jpg" alt="Schéma de l'approche psychophysique" width="400"/>
 
 |<img src="Psychophysique.jpg" alt="Schéma de l'approche psychophysique" width="400"/>|

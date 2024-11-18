@@ -1,6 +1,6 @@
 # Stimuli et dimension
 
-Le premier aspect à considérer lors de la mise en place d'une expérience de psychoacoustique est le **choix des stimuli**. Parmi les quatre caractéristiques décrites dans ce chapitre, le stimulus est sans nul doute le plus simple à déterminer puisqu'il découle directement de la question scientifique considérée. Néanmoins, il est important de s'arrêter sur les principes qui doivent guider le choix des stimuli. Ceci nous donnera également l'occasion de présenter très brièvement le cadre de la Théorie de la détection du signal.
+Le premier aspect à considérer lors de la mise en place d'une expérience de psychoacoustique est le **choix des stimuli**. Parmi les quatre caractéristiques décrites dans ce chapitre, le stimulus est sans nul doute la plus simple à déterminer puisqu'elle découle directement de la question scientifique considérée. Néanmoins, il est important de s'arrêter sur les principes qui doivent guider le choix des stimuli. Ceci nous donnera également l'occasion de présenter très brièvement le cadre de la Théorie de la détection du signal.
 
 ## Choix des stimuli et de la dimension d'intérêt
 

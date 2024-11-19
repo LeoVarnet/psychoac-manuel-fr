@@ -16,4 +16,6 @@ Une question qui se pose alors est de relier théoriquement la dimension d’int
 
 Pour illustrer les objectifs et méthodes de la TDS, considérons la situation suivante :
 
-Nous sommes en possession d'un appareil permettant de mesurer l'énergie $E$ d'un son. Au moyen de ce système nous analysons des stimuli de durée fixe composés soit d'un bruit seul (<span style="color:rgb(14,0,192)">**B**</span>) soit d'un bruit et d'un ton (<span style="color:rgb(255,0,0)">**B+T**</span>). Nouus souhaitons déterminer, sur la base de cette mesure d'énergie, si le ton était présent ou non.
+Nous sommes en possession d'un appareil permettant de mesurer l'énergie $E$ d'un son. Au moyen de ce système nous analysons des stimuli de durée fixe composés soit d'un bruit seul (<span style="color:rgb(14,0,192)">**B**</span>) soit d'un bruit et d'un ton (<span style="color:rgb(255,0,0)">**B+T**</span>). Nous souhaitons déterminer, sur la base de cette mesure d'énergie, si le ton était présent ou non.
+
+Pour simplifier le problème, nous supposons que le ton a une énergie mesurée de 1 (dans une unité arbitraire), notée *d'*, et que l'énergie du bruit suit une distribution gaussienne avec un écart-type de 1. On peut alors représenter la situation par la figure suivante.

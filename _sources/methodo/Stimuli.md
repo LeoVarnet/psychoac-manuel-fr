@@ -16,4 +16,4 @@ Une question qui se pose alors est de relier théoriquement la dimension d’int
 
 Pour illustrer les objectifs et méthodes de la TDS, considérons la situation suivante :
 
-Nous sommes en possession d'un appareil permettant de mesurer la puissance d'un son. Au moyen de ce système nous analysons des  stimuli de durée fixe composés d'un bruit soit seul soit accompagné d'un ton
+Nous sommes en possession d'un appareil permettant de mesurer l'énergie $E$ d'un son. Au moyen de ce système nous analysons des stimuli de durée fixe composés soit d'un bruit seul (<span style="color:rgb(14,0,192)">**B**</span>) soit d'un bruit et d'un ton (<span style="color:rgb(255,0,0)">**B+T**</span>). Nouus souhaitons déterminer, sur la base de cette mesure d'énergie, si le ton était présent ou non.

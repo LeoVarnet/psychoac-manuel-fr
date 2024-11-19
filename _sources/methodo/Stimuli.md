@@ -12,4 +12,6 @@ De façon plus générale la construction des questions psychophysiques elles-m�
 
 ## Un bref aperçu de la Théorie de la détection du signal
 
-Une question qui se pose alors est de relier théoriquement la dimension d’intérêt des stimuli et la capacité d’un système quelconque à percevoir ces stimuli.
+Une question qui se pose alors est de relier théoriquement la dimension d’intérêt des stimuli et la capacité d’un système à percevoir ces stimuli. Il s'agit d'une question est centrale pour la **théorie de la détection du signal**, cadre mathématique dérivé de la théorie de l’information, et permettant de modéliser la capacité d’un système à séparer l’information du bruit. Cette théorie fut initialement développée pour les systèmes radar, mais rapidement appliqué à la perception humaine. [Green & Swets, 1966].
+
+Pour illustrer les objectifs et méthodes de la TDS, considérons l'exemple suivant :

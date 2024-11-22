@@ -31,7 +31,7 @@ Il s'agit en réalité d'user pour étudier l'esprit humain de la même approche
 ---
 name: Psychophysique.jpg
 :alt: Schéma de l'approche béhavioriste
-:width: 400px
+:height: 150px
 :align: center
 ---
 *Schéma de l'approche béhavioriste. En haut, caractérisation d'une boîte noire électronique au moyen de ses courants d'entrée et de sortie. En bas caractérisation du système auditif humain en établissant la relation entre entrée (son) et sortie (comportement).*

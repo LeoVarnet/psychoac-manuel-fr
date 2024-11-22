@@ -36,7 +36,7 @@ align: center
 
 Dans la situation décrite ci-dessus, il est possible, dans une certaine mesure, de détecter la présence ou l'absence du signal cible à partir de la valeur d'énergie **E** totale. Ainsi, pour une valeur de E = 7 on peut répondre de façon assez certaine que le signal cible était présent, tandis qu'une valeur E = 4 nous indique plutôt que le signal cible était absent. Pour des valeurs intermédiaires il est plus difficile de donner une réponse tranchée, mais une règle optimale dans ce cas serait de répondre "ton présent" pour toute valeur de E supérieure à 5.5, et ton absent sinon. Un calcul de probabilité permet de démontrer que l'application de cette règle dans la situation décrite précédemment produit 64% de réponses correctes en moyenne.
 
-On peut à présent se demander comment ce pourcentage évolue en fonction de la difficulté de la tâche. Ici, le niveau de difficulté dépend directement de *d'*, la différence entre le son avec ou sans le signal. Cette distance entre les deux gaussienne jouera ici le rôle de **variable d'intérêt**. À nouveau, il est possible de montrer par le calcul que la probabilité de détection en fonction de *d'* suit une loi cumulative gaussienne :
+On peut à présent se demander comment ce pourcentage évolue en fonction de la difficulté de la tâche. Ici, le niveau de difficulté dépend directement de *d'*, la différence entre le son avec ou sans le signal. Cette distance entre les deux gaussienne jouera ici le rôle de **variable d'intérêt**. À nouveau, il est possible de montrer par le calcul que la probabilité de détection en fonction de *d'* suit une loi cumulative gaussienne, aussi appelée fonction logistique :
 
 $$ p_{détect}(d') = 1/{1=e^{-(\alpha + \beta \cdot d'}} $$
 
@@ -54,6 +54,54 @@ align: center
 
 <br /> 
 
-Lorsque la distance entre les deux gaussiennes augmente la tâche devient de plus en plus simple à réaliser -- et effectivement le pourcentage de détections tend alors vers 100%. Au contraire lorsqu'on diminue l'énergie du ton jusqu'à *d' = 0* (un signal cible d'énergie nulle, autrement dit une tâche de détection impossible à réaliser) la probabilité chute à 50%, ce qui correspond au pourcentage de bonnes réponses obtenu en répondant au hasard.
+Lorsque la distance entre les deux gaussiennes augmente, autrement dit lorsque les deux stimuli à différencier deviennent de plus en plus distincts, la tâche devient de plus en plus simple à réaliser. En effet, la fonction indique que le pourcentage de détections tend alors vers 100%. Au contraire lorsqu'on diminue l'énergie du ton jusqu'à *d' = 0* -- un signal cible d'énergie nulle, autrement dit une tâche de détection impossible à réaliser -- la probabilité chute à 50%, ce qui correspond au pourcentage de bonnes réponses obtenu en répondant au hasard. Cette fonction reliant la dimension d'intérêt au pourcentage de réponses est appelée **fonction psychométrique** et joue un rôle central dans la mesure en psychophysique comme on le verra dans la partie Méthode.
 
-Notez que dans l'exemple choisi, *d'* est toujours positif car il n'aurait pas de sens que l'énergie du signal+bruit soit moindre que celle du bruit seul. Néanmoins dans d'autres situations, il peut être pertinent de continuer la courbe auquel cas on obtient la loi cumulative gaussienne complète, couvrant des probabilités de 0% à 100%.
+Notez que dans l'exemple choisi, *d'* est toujours positif car il n'aurait pas de sens que l'énergie du signal+bruit soit moindre que celle du bruit seul. Néanmoins dans d'autres situations, il peut être pertinent de continuer la courbe auquel cas on obtient la fonction psychométrique complète, couvrant des probabilités de 0% à 100%.
+
+<br /> 
+
+```{figure} SDT3.png
+---
+name: SDT3.png
+alt: Fonction psychométrique
+height: 400px
+align: center
+---
+*Exemple de fonction psychométrique complète*
+```
+
+<br /> 
+
+D'après l'équation ci-dessus, la forme de la fonction psychométrique est déterminée par deux paramètres, <span style="color:rgb(237,125,49)">$\alpha$</span> et <span style="color:rgb(204,0,153)">$\beta$</span>[^1]. 
+
+<br /> 
+
+```{figure} SDT4.png
+---
+name: SDT4.png
+alt: Fonction psychométrique: effet de alpha
+height: 400px
+align: center
+---
+*Effet du paramètre alpha sur la fonction psychométrique.*
+```
+
+<br /> 
+
+
+<br /> 
+
+```{figure} SDT5.png
+---
+name: SDT5.png
+alt: Fonction psychométrique: effet de beta
+height: 400px
+align: center
+---
+*Effet du paramètre beta sur la fonction psychométrique.*
+```
+
+<br /> 
+
+
+[^1] De façon générale, on utilise généralement une équation incluant deux paramètres supplémentaires qui permettent de rentre compte des possibles erreurs d'inattention du sujet qui l'empêcheraient d'atteindre 100% de réponses correctes même dans le cas d'une tâche extrêmement simple. 

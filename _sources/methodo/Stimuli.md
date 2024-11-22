@@ -38,7 +38,7 @@ Dans la situation décrite ci-dessus, il est possible, dans une certaine mesure,
 
 On peut à présent se demander comment ce pourcentage évolue en fonction de la difficulté de la tâche. Ici, le niveau de difficulté dépend directement de *d'*, la différence entre le son avec ou sans le signal. Cette distance entre les deux gaussienne jouera ici le rôle de **variable d'intérêt**. À nouveau, il est possible de montrer par le calcul que la probabilité de détection en fonction de *d'* suit une loi cumulative gaussienne :
 
-$ p_{détect}(d') = 1/{1=e^{-(\alpha + \beta \cdot d'}}$
+$$ p_{détect}(d') = 1/{1=e^{-(\alpha + \beta \cdot d'}} $$
 
 <br /> 
 
@@ -53,3 +53,7 @@ align: center
 ```
 
 <br /> 
+
+Lorsque la distance entre les deux gaussiennes augmente la tâche devient de plus en plus simple à réaliser -- et effectivement le pourcentage de détections tend alors vers 100%. Au contraire lorsqu'on diminue l'énergie du ton jusqu'à *d' = 0* (un signal cible d'énergie nulle, autrement dit une tâche de détection impossible à réaliser) la probabilité chute à 50%, ce qui correspond au pourcentage de bonnes réponses obtenu en répondant au hasard.
+
+Notez que dans l'exemple choisi, *d'* est toujours positif car il n'aurait pas de sens que l'énergie du signal+bruit soit moindre que celle du bruit seul. Néanmoins dans d'autres situations, il peut être pertinent de continuer la courbe auquel cas on obtient la loi cumulative gaussienne complète, couvrant des probabilités de 0% à 100%.

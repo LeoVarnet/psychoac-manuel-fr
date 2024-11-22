@@ -433,7 +433,7 @@ d’un système à séparer l’information du bruit. Cette théorie fut initial
 <br /> 
 <p>Dans la situation décrite ci-dessus, il est possible, dans une certaine mesure, de détecter la présence ou l’absence du signal cible à partir de la valeur d’énergie <strong>E</strong> totale. Ainsi, pour une valeur de E = 7 on peut répondre de façon assez certaine que le signal cible était présent, tandis qu’une valeur E = 4 nous indique plutôt que le signal cible était absent. Pour des valeurs intermédiaires il est plus difficile de donner une réponse tranchée, mais une règle optimale dans ce cas serait de répondre “ton présent” pour toute valeur de E supérieure à 5.5, et ton absent sinon. Un calcul de probabilité permet de démontrer que l’application de cette règle dans la situation décrite précédemment produit 64% de réponses correctes en moyenne.</p>
 <p>On peut à présent se demander comment ce pourcentage évolue en fonction de la difficulté de la tâche. Ici, le niveau de difficulté dépend directement de <em>d’</em>, la différence entre le son avec ou sans le signal. Cette distance entre les deux gaussienne jouera ici le rôle de <strong>variable d’intérêt</strong>. À nouveau, il est possible de montrer par le calcul que la probabilité de détection en fonction de <em>d’</em> suit une loi cumulative gaussienne :</p>
-<p>$ p_{détect}(d’) = 1/{1=e^{-(\alpha + \beta \cdot d’}}$</p>
+<p>$$ p_{détect}(d’) = 1/{1=e^{-(\alpha + \beta \cdot d’}} $$</p>
 <br /> 
 <figure class="align-center" id="sdt2-png">
 <a class="reference internal image-reference" href="../_images/SDT2.png"><img alt="Lien entre fonction psychométrique et difficulté de la tâche" src="../_images/SDT2.png" style="height: 400px;" /></a>
@@ -442,6 +442,8 @@ d’un système à séparer l’information du bruit. Cette théorie fut initial
 </figcaption>
 </figure>
 <br /> 
+<p>Lorsque la distance entre les deux gaussiennes augmente la tâche devient de plus en plus simple à réaliser – et effectivement le pourcentage de détections tend alors vers 100%. Au contraire lorsqu’on diminue l’énergie du ton jusqu’à <em>d’ = 0</em> (un signal cible d’énergie nulle, autrement dit une tâche de détection impossible à réaliser) la probabilité chute à 50%, ce qui correspond au pourcentage de bonnes réponses obtenu en répondant au hasard.</p>
+<p>Notez que dans l’exemple choisi, <em>d’</em> est toujours positif car il n’aurait pas de sens que l’énergie du signal+bruit soit moindre que celle du bruit seul. Néanmoins dans d’autres situations, il peut être pertinent de continuer la courbe auquel cas on obtient la loi cumulative gaussienne complète, couvrant des probabilités de 0% à 100%.</p>
 </section>
 </section>
 

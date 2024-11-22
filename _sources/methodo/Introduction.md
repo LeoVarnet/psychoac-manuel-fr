@@ -104,16 +104,18 @@ La psychophysique va donc suivre une autre voie. Plutôt que de s'intéresser à
 
 Il s'agit en réalité d'user pour étudier l'esprit humain de la même approche que pour étudier un système électronique. Supposons que l’on possède une « boîte noire », renfermant une machinerie mystérieuse, à laquelle nous n’avons accès qu’en imposant un courant électrique en entrée et en mesurant un courant électrique en sortie, avec interdiction formelle de démonter la boîte. Dans ce cas, la seule méthode disponible pour caractériser les processus qui ont lieu à l'intérieur de la boîte est d'envoyer différents signaux électriques en entrée, et de mesurer la sortie. En utilisant une variété de signaux électriques suffisamment grande on peut espérer ainsi caractériser entièrement le système, voire même inférer son fonctionnement. Le problème auquel sont confrontés les psychophysicien·nes est très similaire. Ils et elles souhaitent caractériser cette boîte noire mystérieuse et impossible à ouvrir qu'est le cerveau humain. Dans cette situation, l'entrée est le son qui parvient à l’oreille d’un individu, et la sortie sa réaction comportementale. On mesure cette dernière en termes de proportion de réponses correctes, de pourcentage de réponses "1", de temps de réponses, etc.
 
-!["Psychophysique.jpg"](Psychophysique.jpg)
-<br /> 
-<img src="https://github.com/LeoVarnet/psychoac-manuel-fr/blob/main/lecture/methodo/Psychophysique.jpg" alt="Schéma de l'approche psychophysique" class="bg-primary mb-1" width="400px"/> 
-<br /> 
-<img src="Psychophysique.jpg" alt="Schéma de l'approche psychophysique" width="400"/>
-<br /> 
-|<img src="Psychophysique.jpg" alt="Schéma de l'approche psychophysique" width="400"/>|
-|:--:| 
-|*Schéma de l'approche béhavioriste. En haut, caractérisation d'une boîte noire électronique au moyen de ses courants d'entrée et de sortie. En bas caractérisation du système auditif humain en établissant la relation entre entrée (son) et sortie (comportement).*|
-<br /> 
+```{figure} Psychophysique.jpg
+---
+name: Psychophysique.jpg
+:alt: Schéma de l'approche béhavioriste
+:class: bg-primary mb-1
+:width: 400px
+:align: center
+---
+*Schéma de l'approche béhavioriste. En haut, caractérisation d'une boîte noire électronique au moyen de ses courants d'entrée et de sortie. En bas caractérisation du système auditif humain en établissant la relation entre entrée (son) et sortie (comportement).*
+
+```
+
 En résumé, la psychophysique cherche à déduire le fonctionnement interne du système à partir de son comportement externe (entrée-sortie). Dans ce cours, nous nous baserons donc uniquement sur les réponses clavier de nos sujets à des tâches auditives très simples.
 
 ## Objectif de l'approche psychophysique

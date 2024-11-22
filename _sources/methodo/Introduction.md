@@ -106,6 +106,21 @@ name: Psychophysique.jpg
 
 <br /> 
 
+
+<br /> 
+
+```{figure} Psychophysique.jpg
+---
+height: 150px
+name: Psychophysique.jpg
+---
+ The legend consists of all elements after the caption. 
+e.g. your original text:
+*Schéma de l'approche béhavioriste. En haut, caractérisation d'une boîte noire électronique au moyen de ses courants d'entrée et de sortie. En bas caractérisation du système auditif humain en établissant la relation entre entrée (son) et sortie (comportement).*
+```
+
+<br /> 
+
 En résumé, la psychophysique cherche à déduire le fonctionnement interne du système à partir de son comportement externe (entrée-sortie). Dans ce cours, nous nous baserons donc uniquement sur les réponses clavier de nos sujets à des tâches auditives très simples.
 
 ## Objectif de l'approche psychophysique
@@ -122,6 +137,21 @@ name: Fechner.jpg
 :align: center
 ---
 *Portrait de Gustav Fechner (1801–1887), fondateur de la psychophysique.*
+```
+
+<br /> 
+
+
+<br /> 
+
+```{figure} Psychophysique.jpg
+---
+height: 150px
+name: Psychophysique.jpg
+---
+ The legend consists of all elements after the caption. 
+e.g. your original text:
+*Schéma de l'approche béhavioriste. En haut, caractérisation d'une boîte noire électronique au moyen de ses courants d'entrée et de sortie. En bas caractérisation du système auditif humain en établissant la relation entre entrée (son) et sortie (comportement).*
 ```
 
 <br /> 
@@ -144,6 +174,20 @@ name: Psychophysique2.jpg
 
 <br /> 
 
+<br /> 
+
+```{figure} Psychophysique.jpg
+---
+height: 150px
+name: Psychophysique.jpg
+---
+ The legend consists of all elements after the caption. 
+e.g. your original text:
+*Schéma de l'approche béhavioriste. En haut, caractérisation d'une boîte noire électronique au moyen de ses courants d'entrée et de sortie. En bas caractérisation du système auditif humain en établissant la relation entre entrée (son) et sortie (comportement).*
+```
+
+<br /> 
+
 Comme indiqué plus haut, la psychophysique s'intéresse aux relations quantitatives entre monde physique et monde cognitif. On cherche le plus souvent à établir une fonction entre la **dimension physique d’intérêt** et une certaine variable cognitive correspondant au comportement externe mesuré. 
 
 <br /> 
@@ -156,6 +200,21 @@ name: function.png
 :align: center
 ---
 *Exemple d'une fonction psychophysique quelconque.*
+```
+
+<br /> 
+
+
+<br /> 
+
+```{figure} Psychophysique.jpg
+---
+height: 150px
+name: Psychophysique.jpg
+---
+ The legend consists of all elements after the caption. 
+e.g. your original text:
+*Schéma de l'approche béhavioriste. En haut, caractérisation d'une boîte noire électronique au moyen de ses courants d'entrée et de sortie. En bas caractérisation du système auditif humain en établissant la relation entre entrée (son) et sortie (comportement).*
 ```
 
 <br /> 
@@ -182,4 +241,17 @@ name: expérience.png
 
 <br /> 
 
+<br /> 
+
+```{figure} Psychophysique.jpg
+---
+height: 150px
+name: Psychophysique.jpg
+---
+ The legend consists of all elements after the caption. 
+e.g. your original text:
+*Schéma de l'approche béhavioriste. En haut, caractérisation d'une boîte noire électronique au moyen de ses courants d'entrée et de sortie. En bas caractérisation du système auditif humain en établissant la relation entre entrée (son) et sortie (comportement).*
+```
+
+<br /> 
 Il est possible d'imaginer un nombre potentiellement infini d'expériences suivant cette structure. Dans la suite de ce chapitre nous proposerons une méthode pour choisir une expérience permettant d'obtenir un indicateur fiable du phénomène perceptif étudié. Pour ceci, nous décrirons une typologie des approches expérimentales de la perception, qui se déploie selon quatre axes : les **stimuli**, la **méthode expérimentale**, la **tâche**, et le **paradigme expérimental**. Cette typologie est utile non seulement pour mettre au point des expériences adaptée à l'étude d'une question de recherche particulière, mais également pour identifier rapidement le type d'expérience utilisé dans un article et les résultats qu'il est possible d'en attendre. 

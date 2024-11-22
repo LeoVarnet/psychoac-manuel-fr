@@ -1,7 +1,11 @@
 Different options for the psychophysique1 file:
+
 !["Psychophysique.jpg"](Psychophysique.jpg)
+
 <br /> 
+
 <br /> 
+
 ```{image} Psychophysique.jpg
 :alt: psychophysique
 :class: bg-primary mb-1
@@ -12,7 +16,9 @@ Different options for the psychophysique1 file:
 :alt: alternate text
 :align: right
 ```
+
 <br /> 
+
 ```{figure} Psychophysique.jpg
 ---
 height: 150px
@@ -22,11 +28,15 @@ name: Psychophysique.jpg
 e.g. your original text:
 *Schéma de l'approche béhavioriste. En haut, caractérisation d'une boîte noire électronique au moyen de ses courants d'entrée et de sortie. En bas caractérisation du système auditif humain en établissant la relation entre entrée (son) et sortie (comportement).*
 ```
+
 <br /> 
+
 Pure html for the Fechner file:
 <img src="Fechner.jpg" alt="Gustav Fechner" width="200px">
 *Portrait de Gustav Fechner (1801–1887), fondateur de la psychophysique.*
+
 <br /> 
+
 ```{image} Psychophysique2.jpg
 :alt: Schéma de l'approche psychophysique
 :class: bg-primary mb-1
@@ -34,7 +44,9 @@ Pure html for the Fechner file:
 :align: center
 ```
 *Illustration de la distinction entre propriétés du monde physique et propriété du monde cognitif.*
+
 <br /> 
+
 ```{figure} function.png
 ---
 height: 150px
@@ -42,7 +54,9 @@ name: function.jpg
 ---
 *Exemple d'une fonction psychophysique quelconque.*
 ```
+
 <br /> 
+
 ```{figure} expérience.png
 ---
 height: 150px

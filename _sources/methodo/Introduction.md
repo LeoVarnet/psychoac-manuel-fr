@@ -111,7 +111,7 @@ align: center
 
 ```{figure} Psychophysique.jpg
 ---
-height: 150px
+height: 400px
 name: Psychophysique.jpg
 ---
  The legend consists of all elements after the caption. 

@@ -12,13 +12,44 @@ De façon plus générale la construction des questions psychophysiques elles-m�
 
 ## Un bref aperçu de la Théorie de la détection du signal
 
-Une question qui se pose alors est de relier théoriquement la dimension d’intérêt des stimuli et la capacité d'un système à percevoir ces stimuli. Il s'agit d'une question est centrale pour la **théorie de la détection du signal**, cadre mathématique dérivé de la théorie de l’information, et permettant de modéliser la capacité d’un système à séparer l’information du bruit. Cette théorie fut initialement développée pour les systèmes radar, mais rapidement appliqué à la perception humaine. [Green & Swets, 1966].
+Une question qui se pose alors est de relier théoriquement la dimension d’intérêt des stimuli et la capacité d'un système à percevoir ces stimuli. Il s'agit d'une question centrale pour la **théorie de la détection du signal**, cadre mathématique dérivé de la théorie de l'information, et permettant de modéliser la capacité d’un système à séparer l’information du bruit. Cette théorie fut initialement développée pour les systèmes radar, mais rapidement appliqué à la perception humaine. [Green & Swets, 1966].
 
 Pour illustrer les objectifs et méthodes de la TDS, considérons la situation suivante :
 
 Nous sommes en possession d'un appareil permettant de mesurer l'énergie **E** d'un son. Au moyen de ce système nous analysons des stimuli de durée fixe composés soit d'un bruit seul (<span style="color:rgb(14,0,192)">**B**</span>) soit d'un bruit et d'un signal sonore cible (<span style="color:rgb(255,0,0)">**B+T**</span>). Nous souhaitons déterminer, sur la base de cette mesure d'énergie, si le signal sonore était présent ou non.
 
-Pour simplifier le problème, nous supposons que le signal à détecter a une énergie mesurée de 1 (dans une unité arbitraire), notée *d'*, et que l'énergie du bruit suit une distribution gaussienne avec un écart-type de 1. On peut alors représenter la situation par la figure suivante.
+Pour simplifier le problème, nous supposons que le signal à détecter a une énergie mesurée de 1 (dans une unité arbitraire), notée *d'*, et que l'énergie du bruit suit une distribution gaussienne avec un écart-type de 1. On peut alors représenter la situation par la figure suivante:
 
-Dans la situation décrite ci-dessus, il est possible, dans une certaine mesure, de détecter la présence ou l'absence du signal cible à partir de la valeur d'énergie **E** totale. Ainsi, pour une valeur de E = 7 on peut répondre de façon assez certaine que le signal cible était présent, tandis qu'une valeur E = 4 nous indique plutôt que le signal cible était absent. Pour des valeurs intermédiaires il est plus difficile de donner une réponse tranchée, mais une règle optimale dans ce cas serait de répondre "ton présent" pour toute valeur de E supérieure à 5.5, et ton absent sinon.
+<br /> 
 
+```{figure} SDT1.png
+---
+name: SDT1.png
+alt: Schéma de la Théorie de la détection du signal
+height: 300px
+align: center
+---
+*Schéma de de la Théorie de la détection du signal. Les courbes rouge et bleue représentent respectivement les probabilités de mesurer une valeur particulière d'énergie E pour le bruit seul ou pour le bruit+signal*
+```
+
+<br /> 
+
+Dans la situation décrite ci-dessus, il est possible, dans une certaine mesure, de détecter la présence ou l'absence du signal cible à partir de la valeur d'énergie **E** totale. Ainsi, pour une valeur de E = 7 on peut répondre de façon assez certaine que le signal cible était présent, tandis qu'une valeur E = 4 nous indique plutôt que le signal cible était absent. Pour des valeurs intermédiaires il est plus difficile de donner une réponse tranchée, mais une règle optimale dans ce cas serait de répondre "ton présent" pour toute valeur de E supérieure à 5.5, et ton absent sinon. Un calcul de probabilité permet de démontrer que l'application de cette règle dans la situation décrite précédemment produit 64% de réponses correctes en moyenne.
+
+On peut à présent se demander comment ce pourcentage évolue en fonction de la difficulté de la tâche. Ici, le niveau de difficulté dépend directement de *d'*, la différence entre le son avec ou sans le signal. Cette distance entre les deux gaussienne jouera ici le rôle de **variable d'intérêt**. À nouveau, il est possible de montrer par le calcul que la probabilité de détection en fonction de *d'* suit une loi cumulative gaussienne :
+
+$ p_{détect}(d') = 1/{1=e^{-(\alpha + \beta \cdot d'}}$
+
+<br /> 
+
+```{figure} SDT2.png
+---
+name: SDT2.png
+alt: Lien entre fonction psychométrique et difficulté de la tâche
+height: 400px
+align: center
+---
+*Calcul de la fonction psychométrique pour la situation décrite précédemment*
+```
+
+<br /> 

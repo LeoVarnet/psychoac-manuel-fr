@@ -74,6 +74,8 @@ align: center
 
 D'après l'équation ci-dessus, la forme de la fonction psychométrique est déterminée par deux paramètres, <span style="color:rgb(237,125,49)">$\alpha$</span> et <span style="color:rgb(204,0,153)">$\beta$</span>[^1]. 
 
+<span style="color:rgb(237,125,49)">$\alpha$</span> détermine le **seuil à 50%** de la fonction psychométrique, c'est à dire le niveau de la dimension d'intérêt à partir duquel on obtient plus de 50% de réponses correctes. Modifier ce paramètre revient donc à déplacer latéralement la fonction.
+
 <br /> 
 
 ```{figure} SDT4.png
@@ -88,6 +90,7 @@ align: center
 
 <br /> 
 
+<span style="color:rgb(204,0,153)">$\beta$</span> détermine la **pente** de la fonction psychométrique, c'est à dire la sensibilité du système aux variations de la dimension d'intérêt. Pour de faibles valeurs de <span style="color:rgb(204,0,153)">$\beta$</span>, le pourcentage de réponses change peu lorsqu'on modifie la dimension d'intérêt (sensibilité faibles). Pour de fortes valeurs de pente en revanche, le pourcentage de réponses bascule brutalement de sa valeur minimum à sa valeur maximum dans un petit intervalle de la dimension d'inrêt (sensibilité élevé).
 
 <br /> 
 
@@ -104,4 +107,4 @@ align: center
 <br /> 
 
 
-[^1] De façon générale, on utilise généralement une équation incluant deux paramètres supplémentaires qui permettent de rentre compte des possibles erreurs d'inattention du sujet qui l'empêcheraient d'atteindre 100% de réponses correctes même dans le cas d'une tâche extrêmement simple. 
+[^1] De façon générale, on utilise généralement une équation incluant deux paramètres supplémentaires qui permettent de rentre compte des possibles erreurs d'inattention du sujet qui l'empêcheraient d'atteindre 100% de réponses correctes même dans le cas d'une tâche extrêmement simple, et du fait que le minimum de la fonction psychométrique peut être différent d'une expérience à l'autre. 

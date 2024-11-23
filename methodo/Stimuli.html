@@ -453,7 +453,7 @@ d’un système à séparer l’information du bruit. Cette théorie fut initial
 <p>Notez que dans l’exemple choisi, <em>d’</em> est toujours positif car il n’aurait pas de sens que l’énergie du signal+bruit soit moindre que celle du bruit seul. Néanmoins dans d’autres situations, il peut être pertinent de continuer la courbe auquel cas on obtient la fonction psychométrique complète, couvrant des probabilités de 0% à 100% (voir figure suivante).</p>
 <br /> 
 <figure class="align-center" id="sdt3-png">
-<a class="reference internal image-reference" href="../_images/SDT3.png"><img alt="Fonction psychométrique" src="../_images/SDT3.png" style="height: 300px;" /></a>
+<a class="reference internal image-reference" href="../_images/SDT3.png"><img alt="Fonction psychométrique" src="../_images/SDT3.png" style="height: 200px;" /></a>
 <figcaption>
 <p><span class="caption-number">Fig. 8 </span><span class="caption-text"><em>Exemple de fonction psychométrique complète</em></span><a class="headerlink" href="#sdt3-png" title="Link to this image">#</a></p>
 </figcaption>
@@ -482,7 +482,7 @@ d’un système à séparer l’information du bruit. Cette théorie fut initial
 </section>
 <section id="fonction-psychometrique-humaine">
 <h3>Fonction psychométrique humaine<a class="headerlink" href="#fonction-psychometrique-humaine" title="Link to this heading">#</a></h3>
-<p>Ce cadre théorique s’applique non seulement aux appareils de détection, mais également à l’humain, et se généralise à l’ensemble des expériences psychophysiques que nous allons rencontrer dans ce cours : pour des individus réalisant une tâche psychophysique, le pourcentage de réponses en fonction de la dimension d’intérêt suit (généralement) une fonction psychométrique logistique qu’il est possible de caractériser en termes de sensibilité et de seuil.</p>
+<p>Ce cadre théorique s’applique non seulement aux appareils de détection comme celui décrit précédemment, mais également à l’humain, et se généralise à l’ensemble des expériences psychophysiques que nous allons rencontrer dans ce cours : pour des individus réalisant une tâche psychophysique, le pourcentage de réponses en fonction de la dimension d’intérêt suit (généralement) une fonction psychométrique logistique qu’il est possible de caractériser en termes de sensibilité et de seuil.</p>
 <p>Voici par exemple les performances de sujets réalisant une tâche de détection de ton dans le bruit. Contrairement à l’exemple précédent, la dimension d’intérêt n’est pas la distance entre la gaussienne du bruit et celle du bruit + signal, mais le rapport signal sur bruit (RSB). Lorsque le RSB est élevé la tâche est facile et les performances avoisinent donc les 100%. En revanche, lorsque le RSB tend vers $-\inf$, les performances décroissent jusqu’au niveau du hasard, 50%. De même que dans le cas du détecteur électronique, on peut donc caractériser la perception humaine sur cette tâche en la décrivant par une valeur de seuil (on préférera ici le seuil à 75%) et une valeur de sensibilité. On utilise pour cela une <strong>régression logistique</strong>, procédure statistique qui permet d’ajuster une fonction logistique (la courbe continue) à un ensemble de données mesurées (les points) malgré la variabilité inhérente aux mesures empiriques chez l’humain.[^3]</p>
 <br /> 
 <figure class="align-center" id="sdt6-png">
@@ -501,7 +501,7 @@ d’un système à séparer l’information du bruit. Cette théorie fut initial
 </figcaption>
 </figure>
 <br /> 
-<p>Finalement, la figure suivante présente un troisième exemple de fonction psychométrique humaine, cette fois pour une tâche de détection de ton pur <em>dans le silence</em>.</p>
+<p>Finalement, la figure suivante présente un troisième exemple de fonction psychométrique humaine, cette fois pour une tâche de détection de ton pur <em>dans le silence</em>. En conséquence, la dimension d’intérêt n’est plus le RSB, mais l’énergie du signal en dB. Malgré l’absence de bruit de fond, on retrouve la forme sigmoïde caractéristique de la fonction psychométrique. La raison en est que le traitement sensoriel par le système auditif est lui-même bruité – par exemple, la transmission d’information dans les neurones est un processus partiellement aléatoire. On peut donc se ramener à la situation des deux gaussiennes décrites plus haut si l’on considère non plus le signal sonore parvenant au détecteur ou à l’oreille, mais l’influx nerveux conduisant à la décision “ton présent” ou “ton absent”.</p>
 <br /> 
 <figure class="align-center" id="sdt7-png">
 <a class="reference internal image-reference" href="../_images/SDT7.png"><img alt="Fonction psychométrique humaine 2" src="../_images/SDT7.png" style="height: 300px;" /></a>
@@ -510,6 +510,7 @@ d’un système à séparer l’information du bruit. Cette théorie fut initial
 </figcaption>
 </figure>
 <br /> 
+<p>Au travers de la fonction psychométrique, la Théorie de la détection du signal nous offre donc un cadre mathématique permettant relier le stimulus, et plus précisément sa dimension d’intérêt, à un pourcentage de réponses dans une tâche donnée. Elle répond donc parfaitement à l’objectif de la psychophysique qui est de <a class="reference external" href="https://leovarnet.github.io/psychoac-manuel-fr/methodo/Introduction.html#l-esprit-humain-vu-comme-une-boite-noire">relier monde physique et comportement observable</a>. Dans la section suivante nous allons nous appuyer sur la fonction psychométrique pour décrire différentes méthodes expérimentales développées par les psychophysicien·nes.</p>
 <p>[^1] De façon générale, on utilise généralement une équation incluant deux paramètres supplémentaires qui permettent de rentre compte des possibles erreurs d’inattention du sujet qui l’empêcheraient d’atteindre 100% de réponses correctes même dans le cas d’une tâche extrêmement simple, et du fait que le minimum de la fonction psychométrique peut être différent d’une expérience à l’autre.</p>
 <p>[^2] Il s’agit d’une présentation minimale de l’approche TDS. En réalité une analyse complète devrait de plus distinguer deux types d’erreurs commises par le système : les Miss (le signal était présent mais n’a pas été détecté) et les False Alarms (détection du signal en son absence).</p>
 <p>[^3] En théorie, l’équation de la fonction psychométrique en fonction du RSB n’est pas la même que celle en fonction du <em>d’</em>. Néanmoins, en pratique, les chercheur·euses se limitent le plus souvent à l’équation de la loi logistique décrite plus haut.</p>

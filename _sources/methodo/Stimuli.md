@@ -12,7 +12,7 @@ De façon plus générale la construction des questions psychophysiques elles-m�
 
 ## Un bref aperçu de la Théorie de la détection du signal
 
-Une question qui se pose alors est de relier théoriquement la dimension d’intérêt des stimuli et la capacité d'un système à percevoir ces stimuli. Il s'agit d'une question centrale pour la **théorie de la détection du signal**, cadre mathématique dérivé de la théorie de l'information, et permettant de modéliser la capacité d’un système à séparer l’information du bruit. Cette théorie fut initialement développée pour les systèmes radar, mais rapidement appliqué à la perception humaine. [Green & Swets, 1966].
+Une question qui se pose alors est de relier théoriquement la dimension d'intérêt des stimuli et la capacité d'un système à percevoir ces stimuli. Il s'agit d'une question centrale pour la **théorie de la détection du signal**, cadre mathématique dérivé de la théorie de l'information, et permettant de modéliser la capacité d’un système à séparer l’information du bruit. Cette théorie fut initialement développée pour les systèmes radar, mais rapidement appliqué à la perception humaine. [Green & Swets, 1966].
 
 Pour illustrer les objectifs et méthodes de la TDS, considérons la situation suivante :
 
@@ -106,5 +106,54 @@ align: center
 
 <br /> 
 
+Pour revenir à notre exemple du détecteur de signal sonore, nous pouvons caractériser entièrement[^2] ses performances en traçant sa fonction psychométrique ou, alternativement, en indiquant son seuil à 50% et sa sensibilité, pour la dimension d'intérêt considérée.
+
+Ce cadre théorique s'applique non seulement aux appareils de détection, mais également à l'humain, et se généralise à l'ensemble des expériences psychophysiques que nous allons rencontrer dans ce cours : pour des individus réalisant une tâche psychophysique, le pourcentage de bonnes réponses en fonction de la dimension d'intérêt suit une fonction psychométrique logistique qu'il est possible de caractériser en termes de sensibilité et de seuil.
+
+
+<br /> 
+
+```{figure} SDT6.png
+---
+name: SDT6.png
+alt: Fonction psychométrique humaine 1
+height: 400px
+align: center
+---
+*Exemple de fonction psychométrique pour la détection de ton dans le bruit par l'humain.*
+```
+
+<br /> 
+
+
+<br /> 
+
+```{figure} SDT7.png
+---
+name: SDT7.png
+alt: Fonction psychométrique humaine 2
+height: 400px
+align: center
+---
+*Exemple de fonction psychométrique pour la détection de ton dans le silence par l'humain.*
+```
+
+<br /> 
+
+<br /> 
+
+```{figure} SDT8.png
+---
+name: SDT8.png
+alt: Fonction psychométrique humaine 1
+height: 400px
+align: center
+---
+*Exemple de fonction psychométrique pour la détection de ton dans le bruit par l'humain.*
+```
+
+<br /> 
 
 [^1] De façon générale, on utilise généralement une équation incluant deux paramètres supplémentaires qui permettent de rentre compte des possibles erreurs d'inattention du sujet qui l'empêcheraient d'atteindre 100% de réponses correctes même dans le cas d'une tâche extrêmement simple, et du fait que le minimum de la fonction psychométrique peut être différent d'une expérience à l'autre. 
+
+[^2] Il s'agit d'une présentation minimale de l'approche TDS. En réalité une analyse complète devrait de plus distinguer deux types d'erreurs commises par le système : les Miss (le signal était présent mais n'a pas été détecté) et les False Alarms (détection du signal en son absence).

@@ -395,7 +395,11 @@
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#choix-des-stimuli-et-de-la-dimension-d-interet">Choix des stimuli et de la dimension d’intérêt</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#un-bref-apercu-de-la-theorie-de-la-detection-du-signal">Un bref aperçu de la Théorie de la détection du signal</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#un-bref-apercu-de-la-theorie-de-la-detection-du-signal">Un bref aperçu de la Théorie de la détection du signal</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#fonction-psychometrique-theorique">Fonction psychométrique théorique</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#fonction-psychometrique-humaine">Fonction psychométrique humaine</a></li>
+</ul>
+</li>
 </ul>
             </nav>
         </div>
@@ -420,6 +424,9 @@
 <h2>Un bref aperçu de la Théorie de la détection du signal<a class="headerlink" href="#un-bref-apercu-de-la-theorie-de-la-detection-du-signal" title="Link to this heading">#</a></h2>
 <p>Une question qui se pose alors est de relier théoriquement la dimension d’intérêt des stimuli et la capacité d’un système à percevoir ces stimuli. Il s’agit d’une question centrale pour la <strong>théorie de la détection du signal</strong>, cadre mathématique dérivé de la théorie de l’information, et permettant de modéliser la capacité
 d’un système à séparer l’information du bruit. Cette théorie fut initialement développée pour les systèmes radar, mais rapidement appliqué à la perception humaine. [Green &amp; Swets, 1966].</p>
+<p>[ajouter deux mots sur l’historique]</p>
+<section id="fonction-psychometrique-theorique">
+<h3>Fonction psychométrique théorique<a class="headerlink" href="#fonction-psychometrique-theorique" title="Link to this heading">#</a></h3>
 <p>Pour illustrer les objectifs et méthodes de la TDS, considérons la situation suivante :</p>
 <p>Nous sommes en possession d’un appareil permettant de mesurer l’énergie <strong>E</strong> d’un son. Au moyen de ce système nous analysons des stimuli de durée fixe composés soit d’un bruit seul (<span style="color:rgb(14,0,192)"><strong>B</strong></span>) soit d’un bruit et d’un signal sonore cible (<span style="color:rgb(255,0,0)"><strong>B+T</strong></span>). Nous souhaitons déterminer, sur la base de cette mesure d’énergie, si le signal sonore était présent ou non.</p>
 <p>Pour simplifier le problème, nous supposons que le signal à détecter a une énergie mesurée de 1 (dans une unité arbitraire), notée <em>d’</em>, et que l’énergie du bruit suit une distribution gaussienne avec un écart-type de 1. On peut alors représenter la situation par la figure suivante:</p>
@@ -471,8 +478,12 @@ d’un système à séparer l’information du bruit. Cette théorie fut initial
 </figcaption>
 </figure>
 <br /> 
-<p>Pour revenir à notre exemple du détecteur de signal sonore, nous pouvons caractériser entièrement[^2] ses performances en traçant sa fonction psychométrique ou, alternativement, en indiquant son seuil à 50% et sa sensibilité, pour la dimension d’intérêt considérée.</p>
-<p>Ce cadre théorique s’applique non seulement aux appareils de détection, mais également à l’humain, et se généralise à l’ensemble des expériences psychophysiques que nous allons rencontrer dans ce cours : pour des individus réalisant une tâche psychophysique, le pourcentage de bonnes réponses en fonction de la dimension d’intérêt suit une fonction psychométrique logistique qu’il est possible de caractériser en termes de sensibilité et de seuil.</p>
+<p>Dans les paragraphes qui précèdent nous avons justifié théoriquement l’origine de la fonction psychométrique, pour l’exemple d’un détecteur électronique de signal sonore. Sachant que la fonction suit l’équation particulière décrite plus haut, nous pouvons caractériser empiriquement les performances de l’appareil en traçant sa fonction psychométrique ou, de façon équivalente, en indiquant son seuil à 50% et sa sensibilité, pour la dimension d’intérêt considérée.[^2]</p>
+</section>
+<section id="fonction-psychometrique-humaine">
+<h3>Fonction psychométrique humaine<a class="headerlink" href="#fonction-psychometrique-humaine" title="Link to this heading">#</a></h3>
+<p>Ce cadre théorique s’applique non seulement aux appareils de détection, mais également à l’humain, et se généralise à l’ensemble des expériences psychophysiques que nous allons rencontrer dans ce cours : pour des individus réalisant une tâche psychophysique, le pourcentage de réponses en fonction de la dimension d’intérêt suit (généralement) une fonction psychométrique logistique qu’il est possible de caractériser en termes de sensibilité et de seuil.</p>
+<p>Voici par exemple les performances de sujets réalisant une tâche de détection de ton dans le bruit. Contrairement à l’exemple précédent, la dimension d’intérêt n’est pas la distance entre la gaussienne du bruit et celle du bruit + signal, mais le rapport signal sur bruit (RSB). Lorsque le RSB est élevé la tâche est facile et les performances avoisinent donc les 100%. En revanche, lorsque le RSB tend vers $-\inf$</p>
 <br /> 
 <figure class="align-center" id="sdt6-png">
 <a class="reference internal image-reference" href="../_images/SDT6.png"><img alt="Fonction psychométrique humaine 1" src="../_images/SDT6.png" style="height: 400px;" /></a>
@@ -499,6 +510,7 @@ d’un système à séparer l’information du bruit. Cette théorie fut initial
 <br /> 
 <p>[^1] De façon générale, on utilise généralement une équation incluant deux paramètres supplémentaires qui permettent de rentre compte des possibles erreurs d’inattention du sujet qui l’empêcheraient d’atteindre 100% de réponses correctes même dans le cas d’une tâche extrêmement simple, et du fait que le minimum de la fonction psychométrique peut être différent d’une expérience à l’autre.</p>
 <p>[^2] Il s’agit d’une présentation minimale de l’approche TDS. En réalité une analyse complète devrait de plus distinguer deux types d’erreurs commises par le système : les Miss (le signal était présent mais n’a pas été détecté) et les False Alarms (détection du signal en son absence).</p>
+</section>
 </section>
 </section>
 
@@ -568,7 +580,11 @@ d’un système à séparer l’information du bruit. Cette théorie fut initial
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#choix-des-stimuli-et-de-la-dimension-d-interet">Choix des stimuli et de la dimension d’intérêt</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#un-bref-apercu-de-la-theorie-de-la-detection-du-signal">Un bref aperçu de la Théorie de la détection du signal</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#un-bref-apercu-de-la-theorie-de-la-detection-du-signal">Un bref aperçu de la Théorie de la détection du signal</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#fonction-psychometrique-theorique">Fonction psychométrique théorique</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#fonction-psychometrique-humaine">Fonction psychométrique humaine</a></li>
+</ul>
+</li>
 </ul>
   </nav></div>
 

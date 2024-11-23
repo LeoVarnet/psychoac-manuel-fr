@@ -14,6 +14,10 @@ De façon plus générale la construction des questions psychophysiques elles-m�
 
 Une question qui se pose alors est de relier théoriquement la dimension d'intérêt des stimuli et la capacité d'un système à percevoir ces stimuli. Il s'agit d'une question centrale pour la **théorie de la détection du signal**, cadre mathématique dérivé de la théorie de l'information, et permettant de modéliser la capacité d’un système à séparer l’information du bruit. Cette théorie fut initialement développée pour les systèmes radar, mais rapidement appliqué à la perception humaine. [Green & Swets, 1966].
 
+[ajouter deux mots sur l'historique]
+
+### Fonction psychométrique théorique
+
 Pour illustrer les objectifs et méthodes de la TDS, considérons la situation suivante :
 
 Nous sommes en possession d'un appareil permettant de mesurer l'énergie **E** d'un son. Au moyen de ce système nous analysons des stimuli de durée fixe composés soit d'un bruit seul (<span style="color:rgb(14,0,192)">**B**</span>) soit d'un bruit et d'un signal sonore cible (<span style="color:rgb(255,0,0)">**B+T**</span>). Nous souhaitons déterminer, sur la base de cette mesure d'énergie, si le signal sonore était présent ou non.
@@ -106,10 +110,13 @@ align: center
 
 <br /> 
 
-Pour revenir à notre exemple du détecteur de signal sonore, nous pouvons caractériser entièrement[^2] ses performances en traçant sa fonction psychométrique ou, alternativement, en indiquant son seuil à 50% et sa sensibilité, pour la dimension d'intérêt considérée.
+Dans les paragraphes qui précèdent nous avons justifié théoriquement l'origine de la fonction psychométrique, pour l'exemple d'un détecteur électronique de signal sonore. Sachant que la fonction suit l'équation particulière décrite plus haut, nous pouvons caractériser empiriquement les performances de l'appareil en traçant sa fonction psychométrique ou, de façon équivalente, en indiquant son seuil à 50% et sa sensibilité, pour la dimension d'intérêt considérée.[^2]
 
-Ce cadre théorique s'applique non seulement aux appareils de détection, mais également à l'humain, et se généralise à l'ensemble des expériences psychophysiques que nous allons rencontrer dans ce cours : pour des individus réalisant une tâche psychophysique, le pourcentage de bonnes réponses en fonction de la dimension d'intérêt suit une fonction psychométrique logistique qu'il est possible de caractériser en termes de sensibilité et de seuil.
+### Fonction psychométrique humaine
 
+Ce cadre théorique s'applique non seulement aux appareils de détection, mais également à l'humain, et se généralise à l'ensemble des expériences psychophysiques que nous allons rencontrer dans ce cours : pour des individus réalisant une tâche psychophysique, le pourcentage de réponses en fonction de la dimension d'intérêt suit (généralement) une fonction psychométrique logistique qu'il est possible de caractériser en termes de sensibilité et de seuil.
+
+Voici par exemple les performances de sujets réalisant une tâche de détection de ton dans le bruit. Contrairement à l'exemple précédent, la dimension d'intérêt n'est pas la distance entre la gaussienne du bruit et celle du bruit + signal, mais le rapport signal sur bruit (RSB). Lorsque le RSB est élevé la tâche est facile et les performances avoisinent donc les 100%. En revanche, lorsque le RSB tend vers $-\inf$ 
 
 <br /> 
 

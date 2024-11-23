@@ -60,7 +60,7 @@ align: center
 
 Lorsque la distance entre les deux gaussiennes augmente, autrement dit lorsque les deux stimuli à différencier deviennent de plus en plus distincts, la tâche devient de plus en plus simple à réaliser. En effet, la fonction indique que le pourcentage de détections tend alors vers 100%. Au contraire lorsqu'on diminue l'énergie du ton jusqu'à *d' = 0* -- un signal cible d'énergie nulle, autrement dit une tâche de détection impossible à réaliser -- la probabilité chute à 50%, ce qui correspond au pourcentage de bonnes réponses obtenu en répondant au hasard. Cette fonction reliant la dimension d'intérêt au pourcentage de réponses est appelée **fonction psychométrique** et joue un rôle central dans la mesure en psychophysique comme on le verra dans la partie Méthode.
 
-Notez que dans l'exemple choisi, *d'* est toujours positif car il n'aurait pas de sens que l'énergie du signal+bruit soit moindre que celle du bruit seul. Néanmoins dans d'autres situations, il peut être pertinent de continuer la courbe auquel cas on obtient la fonction psychométrique complète, couvrant des probabilités de 0% à 100%.
+Notez que dans l'exemple choisi, *d'* est toujours positif car il n'aurait pas de sens que l'énergie du signal+bruit soit moindre que celle du bruit seul. Néanmoins dans d'autres situations, il peut être pertinent de continuer la courbe auquel cas on obtient la fonction psychométrique complète, couvrant des probabilités de 0% à 100% (voir figure suivante).
 
 <br /> 
 
@@ -116,7 +116,7 @@ Dans les paragraphes qui précèdent nous avons justifié théoriquement l'origi
 
 Ce cadre théorique s'applique non seulement aux appareils de détection, mais également à l'humain, et se généralise à l'ensemble des expériences psychophysiques que nous allons rencontrer dans ce cours : pour des individus réalisant une tâche psychophysique, le pourcentage de réponses en fonction de la dimension d'intérêt suit (généralement) une fonction psychométrique logistique qu'il est possible de caractériser en termes de sensibilité et de seuil.
 
-Voici par exemple les performances de sujets réalisant une tâche de détection de ton dans le bruit. Contrairement à l'exemple précédent, la dimension d'intérêt n'est pas la distance entre la gaussienne du bruit et celle du bruit + signal, mais le rapport signal sur bruit (RSB). Lorsque le RSB est élevé la tâche est facile et les performances avoisinent donc les 100%. En revanche, lorsque le RSB tend vers $-\inf$ 
+Voici par exemple les performances de sujets réalisant une tâche de détection de ton dans le bruit. Contrairement à l'exemple précédent, la dimension d'intérêt n'est pas la distance entre la gaussienne du bruit et celle du bruit + signal, mais le rapport signal sur bruit (RSB). Lorsque le RSB est élevé la tâche est facile et les performances avoisinent donc les 100%. En revanche, lorsque le RSB tend vers $-\inf$, les performances décroissent jusqu'au niveau du hasard, 50%. De même que dans le cas du détecteur électronique, on peut donc caractériser la perception humaine sur cette tâche en la décrivant par une valeur de seuil (on préférera ici le seuil à 75%) et une valeur de sensibilité. Pour cela, une utilise une **régression logistique** procédure statistique qui permet d'ajuster une fonction logistique (la courbe continue) à un ensemble de données mesurées (les points) malgré la variabilité inhérente aux mesures empiriques chez l'humain.[^3]
 
 <br /> 
 
@@ -132,20 +132,7 @@ align: center
 
 <br /> 
 
-
-<br /> 
-
-```{figure} SDT7.png
----
-name: SDT7.png
-alt: Fonction psychométrique humaine 2
-height: 400px
-align: center
----
-*Exemple de fonction psychométrique pour la détection de ton dans le silence par l'humain.*
-```
-
-<br /> 
+La figure suivante illustre un autre exemple d'application de la régression logistique, toujours dans le cadre d'une tâche de détection de ton dans le bruit avec le RSB comme dimension d'intérêt. Les différents symboles correspondent ici aux données collectées sur différents sujets. Une fonction psychométrique est ajustée individuellement pour chaque participant·e, puis caractérisée par son seuil à 80 %. Ce seuil, reporté sur l'axe des abscisses, sert ensuite de mesure simplifiée pour comparer les performances des participants. Ainsi, on constate ici que le sujet S5 se distingue par des performances nettement supérieures à celles de ses pairs, car le RSB auquel il·elle atteint 80 % de réponses correctes est nettement inférieur.
 
 <br /> 
 
@@ -161,6 +148,25 @@ align: center
 
 <br /> 
 
+Finalement, la figure suivante présente un troisième exemple de fonction psychométrique humaine, cette fois pour une tâche de détection de ton pur *dans le silence*.
+
+<br /> 
+
+```{figure} SDT7.png
+---
+name: SDT7.png
+alt: Fonction psychométrique humaine 2
+height: 400px
+align: center
+---
+*Exemple de fonction psychométrique pour la détection de ton dans le silence par l'humain.*
+```
+
+<br /> 
+
+
 [^1] De façon générale, on utilise généralement une équation incluant deux paramètres supplémentaires qui permettent de rentre compte des possibles erreurs d'inattention du sujet qui l'empêcheraient d'atteindre 100% de réponses correctes même dans le cas d'une tâche extrêmement simple, et du fait que le minimum de la fonction psychométrique peut être différent d'une expérience à l'autre. 
 
 [^2] Il s'agit d'une présentation minimale de l'approche TDS. En réalité une analyse complète devrait de plus distinguer deux types d'erreurs commises par le système : les Miss (le signal était présent mais n'a pas été détecté) et les False Alarms (détection du signal en son absence).
+
+[^3] En théorie, l'équation de la fonction psychométrique en fonction du RSB n'est pas la même que celle en fonction du *d'*. Néanmoins, en pratique, les chercheur·euses se limitent le plus souvent à l'équation de la loi logistique décrite plus haut.

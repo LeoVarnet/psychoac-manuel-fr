@@ -453,7 +453,7 @@ d’un système à séparer l’information du bruit. Cette théorie fut initial
 <p>Notez que dans l’exemple choisi, <em>d’</em> est toujours positif car il n’aurait pas de sens que l’énergie du signal+bruit soit moindre que celle du bruit seul. Néanmoins dans d’autres situations, il peut être pertinent de continuer la courbe auquel cas on obtient la fonction psychométrique complète, couvrant des probabilités de 0% à 100% (voir figure suivante).</p>
 <br /> 
 <figure class="align-center" id="sdt3-png">
-<a class="reference internal image-reference" href="../_images/SDT3.png"><img alt="Fonction psychométrique" src="../_images/SDT3.png" style="height: 400px;" /></a>
+<a class="reference internal image-reference" href="../_images/SDT3.png"><img alt="Fonction psychométrique" src="../_images/SDT3.png" style="height: 300px;" /></a>
 <figcaption>
 <p><span class="caption-number">Fig. 8 </span><span class="caption-text"><em>Exemple de fonction psychométrique complète</em></span><a class="headerlink" href="#sdt3-png" title="Link to this image">#</a></p>
 </figcaption>
@@ -483,7 +483,7 @@ d’un système à séparer l’information du bruit. Cette théorie fut initial
 <section id="fonction-psychometrique-humaine">
 <h3>Fonction psychométrique humaine<a class="headerlink" href="#fonction-psychometrique-humaine" title="Link to this heading">#</a></h3>
 <p>Ce cadre théorique s’applique non seulement aux appareils de détection, mais également à l’humain, et se généralise à l’ensemble des expériences psychophysiques que nous allons rencontrer dans ce cours : pour des individus réalisant une tâche psychophysique, le pourcentage de réponses en fonction de la dimension d’intérêt suit (généralement) une fonction psychométrique logistique qu’il est possible de caractériser en termes de sensibilité et de seuil.</p>
-<p>Voici par exemple les performances de sujets réalisant une tâche de détection de ton dans le bruit. Contrairement à l’exemple précédent, la dimension d’intérêt n’est pas la distance entre la gaussienne du bruit et celle du bruit + signal, mais le rapport signal sur bruit (RSB). Lorsque le RSB est élevé la tâche est facile et les performances avoisinent donc les 100%. En revanche, lorsque le RSB tend vers $-\inf$, les performances décroissent jusqu’au niveau du hasard, 50%. De même que dans le cas du détecteur électronique, on peut donc caractériser la perception humaine sur cette tâche en la décrivant par une valeur de seuil (on préférera ici le seuil à 75%) et une valeur de sensibilité. Pour cela, une utilise une <strong>régression logistique</strong> procédure statistique qui permet d’ajuster une fonction logistique (la courbe continue) à un ensemble de données mesurées (les points) malgré la variabilité inhérente aux mesures empiriques chez l’humain.[^3]</p>
+<p>Voici par exemple les performances de sujets réalisant une tâche de détection de ton dans le bruit. Contrairement à l’exemple précédent, la dimension d’intérêt n’est pas la distance entre la gaussienne du bruit et celle du bruit + signal, mais le rapport signal sur bruit (RSB). Lorsque le RSB est élevé la tâche est facile et les performances avoisinent donc les 100%. En revanche, lorsque le RSB tend vers $-\inf$, les performances décroissent jusqu’au niveau du hasard, 50%. De même que dans le cas du détecteur électronique, on peut donc caractériser la perception humaine sur cette tâche en la décrivant par une valeur de seuil (on préférera ici le seuil à 75%) et une valeur de sensibilité. On utilise pour cela une <strong>régression logistique</strong>, procédure statistique qui permet d’ajuster une fonction logistique (la courbe continue) à un ensemble de données mesurées (les points) malgré la variabilité inhérente aux mesures empiriques chez l’humain.[^3]</p>
 <br /> 
 <figure class="align-center" id="sdt6-png">
 <a class="reference internal image-reference" href="../_images/SDT6.png"><img alt="Fonction psychométrique humaine 1" src="../_images/SDT6.png" style="height: 400px;" /></a>
@@ -495,7 +495,7 @@ d’un système à séparer l’information du bruit. Cette théorie fut initial
 <p>La figure suivante illustre un autre exemple d’application de la régression logistique, toujours dans le cadre d’une tâche de détection de ton dans le bruit avec le RSB comme dimension d’intérêt. Les différents symboles correspondent ici aux données collectées sur différents sujets. Une fonction psychométrique est ajustée individuellement pour chaque participant·e, puis caractérisée par son seuil à 80 %. Ce seuil, reporté sur l’axe des abscisses, sert ensuite de mesure simplifiée pour comparer les performances des participants. Ainsi, on constate ici que le sujet S5 se distingue par des performances nettement supérieures à celles de ses pairs, car le RSB auquel il·elle atteint 80 % de réponses correctes est nettement inférieur.</p>
 <br /> 
 <figure class="align-center" id="sdt8-png">
-<a class="reference internal image-reference" href="../_images/SDT8.png"><img alt="Fonction psychométrique humaine 1" src="../_images/SDT8.png" style="height: 400px;" /></a>
+<a class="reference internal image-reference" href="../_images/SDT8.png"><img alt="Fonction psychométrique humaine 1" src="../_images/SDT8.png" style="height: 300px;" /></a>
 <figcaption>
 <p><span class="caption-number">Fig. 12 </span><span class="caption-text"><em>Exemple de fonction psychométrique pour la détection de ton dans le bruit par l’humain.</em></span><a class="headerlink" href="#sdt8-png" title="Link to this image">#</a></p>
 </figcaption>
@@ -504,7 +504,7 @@ d’un système à séparer l’information du bruit. Cette théorie fut initial
 <p>Finalement, la figure suivante présente un troisième exemple de fonction psychométrique humaine, cette fois pour une tâche de détection de ton pur <em>dans le silence</em>.</p>
 <br /> 
 <figure class="align-center" id="sdt7-png">
-<a class="reference internal image-reference" href="../_images/SDT7.png"><img alt="Fonction psychométrique humaine 2" src="../_images/SDT7.png" style="height: 400px;" /></a>
+<a class="reference internal image-reference" href="../_images/SDT7.png"><img alt="Fonction psychométrique humaine 2" src="../_images/SDT7.png" style="height: 300px;" /></a>
 <figcaption>
 <p><span class="caption-number">Fig. 13 </span><span class="caption-text"><em>Exemple de fonction psychométrique pour la détection de ton dans le silence par l’humain.</em></span><a class="headerlink" href="#sdt7-png" title="Link to this image">#</a></p>
 </figcaption>

@@ -68,7 +68,7 @@ Notez que dans l'exemple choisi, *d'* est toujours positif car il n'aurait pas d
 ---
 name: SDT3.png
 alt: Fonction psychométrique
-height: 400px
+height: 300px
 align: center
 ---
 *Exemple de fonction psychométrique complète*
@@ -116,7 +116,7 @@ Dans les paragraphes qui précèdent nous avons justifié théoriquement l'origi
 
 Ce cadre théorique s'applique non seulement aux appareils de détection, mais également à l'humain, et se généralise à l'ensemble des expériences psychophysiques que nous allons rencontrer dans ce cours : pour des individus réalisant une tâche psychophysique, le pourcentage de réponses en fonction de la dimension d'intérêt suit (généralement) une fonction psychométrique logistique qu'il est possible de caractériser en termes de sensibilité et de seuil.
 
-Voici par exemple les performances de sujets réalisant une tâche de détection de ton dans le bruit. Contrairement à l'exemple précédent, la dimension d'intérêt n'est pas la distance entre la gaussienne du bruit et celle du bruit + signal, mais le rapport signal sur bruit (RSB). Lorsque le RSB est élevé la tâche est facile et les performances avoisinent donc les 100%. En revanche, lorsque le RSB tend vers $-\inf$, les performances décroissent jusqu'au niveau du hasard, 50%. De même que dans le cas du détecteur électronique, on peut donc caractériser la perception humaine sur cette tâche en la décrivant par une valeur de seuil (on préférera ici le seuil à 75%) et une valeur de sensibilité. Pour cela, une utilise une **régression logistique** procédure statistique qui permet d'ajuster une fonction logistique (la courbe continue) à un ensemble de données mesurées (les points) malgré la variabilité inhérente aux mesures empiriques chez l'humain.[^3]
+Voici par exemple les performances de sujets réalisant une tâche de détection de ton dans le bruit. Contrairement à l'exemple précédent, la dimension d'intérêt n'est pas la distance entre la gaussienne du bruit et celle du bruit + signal, mais le rapport signal sur bruit (RSB). Lorsque le RSB est élevé la tâche est facile et les performances avoisinent donc les 100%. En revanche, lorsque le RSB tend vers $-\inf$, les performances décroissent jusqu'au niveau du hasard, 50%. De même que dans le cas du détecteur électronique, on peut donc caractériser la perception humaine sur cette tâche en la décrivant par une valeur de seuil (on préférera ici le seuil à 75%) et une valeur de sensibilité. On utilise pour cela une **régression logistique**, procédure statistique qui permet d'ajuster une fonction logistique (la courbe continue) à un ensemble de données mesurées (les points) malgré la variabilité inhérente aux mesures empiriques chez l'humain.[^3]
 
 <br /> 
 
@@ -140,7 +140,7 @@ La figure suivante illustre un autre exemple d'application de la régression log
 ---
 name: SDT8.png
 alt: Fonction psychométrique humaine 1
-height: 400px
+height: 300px
 align: center
 ---
 *Exemple de fonction psychométrique pour la détection de ton dans le bruit par l'humain.*
@@ -156,7 +156,7 @@ Finalement, la figure suivante présente un troisième exemple de fonction psych
 ---
 name: SDT7.png
 alt: Fonction psychométrique humaine 2
-height: 400px
+height: 300px
 align: center
 ---
 *Exemple de fonction psychométrique pour la détection de ton dans le silence par l'humain.*

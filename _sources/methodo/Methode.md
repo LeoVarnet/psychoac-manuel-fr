@@ -76,6 +76,60 @@ align: center
 
 Cette expérience extrêmement simple suit la **méthode des limites descendante**, qui consiste à choisir un niveau de départ facile sur la dimension d'intérêt puis à augmenter progressivement la difficulté d'un essai à l'autre par pas constant jusqu'à ce que le participant ou la participante ne soit plus en mesure de réaliser la tâche demandée. À l'inverse, la **méthode des limites ascendante** part d'un niveau bas pour s'arrêter dès que le participant parvient à effectuer la tâche.
 
-L'intérêt évident de la méthode des limites est qu'elle permet de \_mesurer un seuil en un temps très court\_ : une descente ou une montée représente une dizaine d'essais, selon le choix du niveau de départ et de la taille du pas, et on répète habituellement trois fois la mesure pour s'assurer de la stabilité du seuil, parfois en alternant méthodes ascendante et descendante.
+L'intérêt évident de la méthode des limites est qu'elle permet de mesurer un seuil en un temps très court : une descente ou une montée représentent une dizaine d'essais, selon le choix du niveau de départ et de la taille du pas, et on répète habituellement trois fois la mesure pour s'assurer de la stabilité du seuil, parfois en alternant méthodes ascendante et descendante. La figure suivante illustre une mesure composée de 6 répétitions, ascendantes et descendantes, en réduisant progressivement la taille du pas pour obtenir une meilleure précision.
 
-En revanche cette méthode présente également un important désavantage : le caractère subjectif de la définition du seuil pour cette raison la méthode des limites est classée parmi les **méthodes subjectives**)
+<br /> 
+
+```{figure} MethodeLimite.png
+---
+name: MethodeLimite.png
+alt: Méthode des limites
+width: 400px
+align: center
+---
+*Enchaînement de méthodes de limites ascendantes et descendantes alternées autour d'un même seuil de détection. Dans cet exemple, la taille du pas est réduite après chaque série descendante puis ascendante.*
+```
+
+<br /> 
+
+En revanche cette méthode présente également un désavantage majeur : le caractère subjectif de la définition du seuil. Pour s'en rendre compte, représentons la situation du point de vue de la fonction psychométrique. Considérons dans un premier temps un cas de forte sensibilité, c'est à dire de pente abrupte. Le seuil de détection correspond à la zone très étroite de la pente.
+
+<br /> 
+
+```{figure} MethodeLimite2.png
+---
+name: MethodeLimite2.png
+alt: Fonction psychométrique abrupte
+width: 400px
+align: center
+---
+*Fonction psychométrique dans un cas de forte sensibilité.*
+```
+
+<br /> 
+
+Cette fonction psychométrique est parcourue par la méthode des limites ascendante ou descendante jusqu'à découvrir le seuil de détection qui se traduit par un changement dans les réponses du participant ou de la participante.
+
+<br /> 
+
+```{figure} MethodeLimiteMontante.png
+---
+name: MethodeLimiteMontante.png
+alt: Fonction psychométrique, méthode des limites ascendante
+width: 400px
+align: center
+---
+*Fonction psychométrique dans un cas de forte sensibilité, parcourue selon la méthode des limites ascendante.*
+```
+
+```{figure} MethodeLimiteDescendante.png
+---
+name: MethodeLimiteDescendante.png
+alt: Fonction psychométrique, méthode des limites descendante
+width: 400px
+align: center
+---
+*Fonction psychométrique dans un cas de forte sensibilité, parcourue selon la méthode des limites descendante.*
+```
+
+<br /> 

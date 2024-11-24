@@ -38,24 +38,44 @@ align: center
 
 <br /> 
 
+Voici une démo de mesure d'audiogramme. La figure suivante représente les résultats moyens obtenus sur cette démo. Pour plus de simplicité, le seuil de détection n'est pas exprimé en dB mais directement en nombre de tons successifs perçus.
+
+```
 <iframe src="https://github.com/LeoVarnet/psychoac-manuel-fr/blob/main/lecture/methodo/audiogramme.mp3" height="100" width="400" name="iframename">Démo audiogramme</iframe>
+```
 
 <br /> 
 
 ```{figure} Audiogramme2.png
 ---
 name: Audiogramme2.png
-alt: Réalisation d'un audiogramme
+alt: Résultats moyens
 width: 400px
 align: center
 ---
-*Démonstration de la mesure d'un audiogramme.*
+*Résultats moyens obtenus sur la démo précédente.*
+```
+
+<br /> 
+
+Voici un tracé stylisé des courbes d'audiogramme typiques de 3 tranches d'âge. Globalement, comme vous avez pu vous en rendre compte dans la démo, les seuils d'audibilité tonale chez l'humain sont meilleurs autour de 1 à 2 kHz. Au contraire, notre acuité auditive est mauvaise lorsque l'on s'approche des limites de l'audition humaine (20 Hz et 20 kHz).
+
+<br /> 
+
+```{figure} Audiogramme3.png
+---
+name: Audiogramme3.png
+alt: Audiogrammes typiques
+width: 400px
+align: center
+---
+*Exemple d'audiogrammes typiques pour 3 tranches d'âge.*
 ```
 
 <br /> 
 
 Cette expérience extrêmement simple suit la **méthode des limites descendante**, qui consiste à choisir un niveau de départ facile sur la dimension d'intérêt puis à augmenter progressivement la difficulté d'un essai à l'autre par pas constant jusqu'à ce que le participant ou la participante ne soit plus en mesure de réaliser la tâche demandée. À l'inverse, la **méthode des limites ascendante** part d'un niveau bas pour s'arrêter dès que le participant parvient à effectuer la tâche.
 
-L'intérêt évident de la méthode des limites est qu'elle permet de _mesurer un seuil en un temps très court_ : une descente ou une montée représente une dizaine d'essais, selon le choix du niveau de départ et de la taille du pas, et on répète habituellement trois fois la mesure pour s'assurer de la stabilité du seuil, parfois en alternant méthodes ascendante et descendante.
+L'intérêt évident de la méthode des limites est qu'elle permet de \_mesurer un seuil en un temps très court\_ : une descente ou une montée représente une dizaine d'essais, selon le choix du niveau de départ et de la taille du pas, et on répète habituellement trois fois la mesure pour s'assurer de la stabilité du seuil, parfois en alternant méthodes ascendante et descendante.
 
 En revanche cette méthode présente également un important désavantage : le caractère subjectif de la définition du seuil pour cette raison la méthode des limites est classée parmi les **méthodes subjectives**)

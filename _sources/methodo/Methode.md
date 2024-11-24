@@ -134,8 +134,7 @@ align: center
 
 <br /> 
 
-Imaginons à présent que la sensibilité soit plus faible, c'est à dire que la pente de la fonction psychométrique soit plus douce. Il est alors difficile de définir un seuil, celui-ci pouvant être placé arbitrairement à n'importe quel endroit dans la région de la pente. En pratique, l'expérience 
-
+Imaginons à présent que la sensibilité soit plus faible, c'est à dire que la pente de la fonction psychométrique soit plus douce. Il est alors difficile de définir -- et donc de mesurer -- précisément le seuil, celui-ci pouvant être placé arbitrairement à n'importe quel endroit dans la région de la pente. En pratique, l'expérience peut donner des résultats très variables d'un sujet à l'autre, voire pour un même sujet.
 
 <br /> 
 
@@ -150,3 +149,5 @@ align: center
 ```
 
 <br /> 
+
+Il est donc conseillé d'user de la méthode des limites de préférence pour des tâches ou la sensibilité est forte, ou à défaut, de vérifier que la mesure de seuil est relativement stable.

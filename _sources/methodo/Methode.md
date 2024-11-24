@@ -1,6 +1,6 @@
 # Méthode expérimentale
 
-Fixer la **méthode** de l'expérience revient à déterminer comment les stimuli évoluent d'un essai au suivant : sont-ils toujours identiques, varient-ils en fonction des réponses précédentes, ou indépendamment des réponses ?Cette section présente les quatre méthodes les plus courantes, en les reliant au moyen de la fonction psychométrique.
+Fixer la **méthode** de l'expérience revient à déterminer comment les stimuli évoluent d'un essai au suivant : sont-ils toujours identiques, varient-ils en fonction des réponses précédentes, ou indépendamment des réponses ? Ce choix est guidé par des contraintes pratiques, mais également par le type de mesure que l'on souhaite obtenir : mesure de seuil, de performance, ou de sensibilité ? Cette section présente les quatre méthodes les plus courantes, en les reliant au moyen de la fonction psychométrique.
 
 <br /> 
 
@@ -38,7 +38,7 @@ align: center
 
 <br /> 
 
-<iframe src="https://github.com/LeoVarnet/psychoac-manuel-fr/blob/main/lecture/methodo/audiogramme.mp3" height="100" width="200" name="iframename">Démo audiogramme</iframe>
+<iframe src="https://github.com/LeoVarnet/psychoac-manuel-fr/blob/main/lecture/methodo/audiogramme.mp3" height="100" width="400" name="iframename">Démo audiogramme</iframe>
 
 <br /> 
 

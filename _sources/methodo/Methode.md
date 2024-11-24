@@ -22,7 +22,7 @@ Les méthodes sont classées en deux groupes : méthodes **adaptatives et non-ad
 
 Supposons que nous voulions mesurer les **seuils d’audibilité tonale** (*pure-tone thresholds*) d'un individu, c'est à dire le niveau sonore minimal auquel il est capable de détecter la présence d'un ton à une fréquence donnée, quelle serait la façon la plus simple et rapide de procéder ?
 
-La solution à cette question est **l'audiogramme**, un protocole classique et extrêmement courant pratiqué notamment par les ORL pour mesurer les pertes auditives éventuelles de leurs patient·es. Pour réaliser un audiogramme, on installe la personne dans une cabine insonorisée et on lui diffuse des bips à une certaine fréquence en lui demandant de lever la main à chaque fois qu'elle en perçoit un. Le premier bip est diffusé à un volume sonore facile, puis à chaque bonne réponse le volume sonore est réduit jusqu'à ce que l'individu ne soit plus en mesure de détecter le bip. On considère alors qu'on a atteint le seuil de détection pour la fréquence testée. Cette procédure est alors reproduite pour un large panel de fréquences, pour une oreille puis pour l'autre, de manière à caractériser de la façon la plus complète l'audition de chaque oreille sur tout le spectre sonore.
+La réponse à cette question est **l'audiogramme**, un protocole classique et extrêmement courant pratiqué notamment par les ORL pour mesurer les pertes auditives éventuelles de leurs patient·es. Pour réaliser un audiogramme, on installe la personne dans une cabine insonorisée et on lui diffuse des bips à une certaine fréquence en lui demandant de lever la main à chaque fois qu'elle en perçoit un. Le premier bip est diffusé à un volume sonore facile, puis à chaque bonne réponse le volume sonore est réduit jusqu'à ce que l'individu ne soit plus en mesure de détecter le bip. On considère alors qu'on a atteint le seuil de détection pour la fréquence testée. Cette procédure est alors reproduite pour un large panel de fréquences, pour une oreille puis pour l'autre, de manière à caractériser de la façon la plus complète l'audition de chaque oreille sur tout le spectre sonore.
 
 <br /> 
 
@@ -100,7 +100,7 @@ En revanche cette méthode présente également un désavantage majeur : le cara
 ---
 name: MethodeLimite2.png
 alt: Fonction psychométrique abrupte
-width: 400px
+width: 500px
 align: center
 ---
 *Fonction psychométrique dans un cas de forte sensibilité.*
@@ -116,7 +116,7 @@ Cette fonction psychométrique est parcourue par la méthode des limites ascenda
 ---
 name: MethodeLimiteMontante.png
 alt: Fonction psychométrique, méthode des limites ascendante
-width: 400px
+width: 500px
 align: center
 ---
 *Fonction psychométrique dans un cas de forte sensibilité, parcourue selon la méthode des limites ascendante.*
@@ -126,10 +126,27 @@ align: center
 ---
 name: MethodeLimiteDescendante.png
 alt: Fonction psychométrique, méthode des limites descendante
-width: 400px
+width: 500px
 align: center
 ---
 *Fonction psychométrique dans un cas de forte sensibilité, parcourue selon la méthode des limites descendante.*
+```
+
+<br /> 
+
+Imaginons à présent que la sensibilité soit plus faible, c'est à dire que la pente de la fonction psychométrique soit plus douce. Il est alors difficile de définir un seuil, celui-ci pouvant être placé arbitrairement à n'importe quel endroit dans la région de la pente. En pratique, l'expérience 
+
+
+<br /> 
+
+```{figure} MethodeLimiteMontante2.png
+---
+name: MethodeLimiteMontante2.png
+alt: Fonction psychométrique de faible pente, méthode des limites ascendante
+width: 500px
+align: center
+---
+*Fonction psychométrique dans un cas de faible sensibilité, parcourue selon la méthode des limites ascendante.*
 ```
 
 <br /> 

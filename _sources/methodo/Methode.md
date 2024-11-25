@@ -154,7 +154,9 @@ Il est donc conseillé d'user de la méthode des limites de préférence pour de
 
 ## Escalier psychophysique 
 
-L'escalier psychophysique est une amélioration de la méthode des limites visant à estimer un seuil perceptif défini sur une base objective, c'est à dire statistiquement. Plutôt que de considérer le seuil comme une valeur 
+L'escalier psychophysique est une amélioration de la méthode des limites visant à estimer un seuil perceptif défini sur une base objective, c'est à dire statistiquement. Plutôt que de considérer le seuil comme une valeur frontière au delà de laquelle le stimulus devient subitement inaudible, comme c'est le cas pour la methode des limites, l'escalier psychophysique définit le seuil comme une valeur correspondant à un certain pourcentage de réponses (on parle alors de **seuil à X%**).
+
+L'escalier psychophysique **1-up-1-down** suit une règle adaptative très simple. Comme pour la méthode des limites descendante, une valeur de départ "facile" est choisie. Après chaque bonne réponse, le niveau de difficulté est augmenté d'un pas le long de la dimension d'intérêt. Au contraire, après chaque mauvaise réponse, le niveau de difficulté est diminué d'un pas.
 
 
 

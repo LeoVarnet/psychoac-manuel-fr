@@ -1,5 +1,7 @@
 # Méthode expérimentale
 
+## Qu'est-ce que la méthode expérimentale ?
+
 Fixer la **méthode** de l'expérience revient à déterminer comment les stimuli évoluent d'un essai au suivant : sont-ils toujours identiques, varient-ils en fonction des réponses précédentes, ou indépendamment des réponses ? Ce choix est guidé par des contraintes pratiques, mais également par le type de mesure que l'on souhaite obtenir : mesure de seuil, de performance, ou de sensibilité ? Cette section présente les quatre méthodes les plus courantes, en les reliant au moyen de la fonction psychométrique.
 
 <br /> 
@@ -159,5 +161,18 @@ L'escalier psychophysique est une amélioration de la méthode des limites visan
 L'escalier psychophysique **1-up-1-down** suit une règle adaptative très simple. Comme pour la méthode des limites descendante, une valeur de départ "facile" est choisie. Après chaque bonne réponse, le niveau de difficulté est augmenté d'un pas le long de la dimension d'intérêt. Au contraire, après chaque mauvaise réponse, le niveau de difficulté est diminué d'un pas.
 
 
+<br /> 
+
+```{figure} staircase.jpg
+---
+name: staircase.jpg
+alt: Déroulement d'une expérience avec la méthode staircase
+width: 500px
+align: center
+---
+*Exemples d'évolution de la dimension d'intérêt (ici le niveau sonore, "stimulus level") dans le cas d'un escalier psychophysique. Les carrés noirs correspondent aux réponses "j'ai entendu le son", les ronds blancs aux réponses "je n'ai pas entendu le son". L'escalier A correspond à une règle 1-up-1-down, le B à une règle 1-up-3-down. Notez que dans ces deux exemples, la taille de pas change au cours de l'escalier.*
+```
+
+<br /> 
 
 

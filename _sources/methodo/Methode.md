@@ -160,6 +160,7 @@ L'escalier psychophysique est une amélioration de la méthode des limites visan
 
 L'escalier psychophysique **1-up-1-down** suit une règle adaptative très simple. Comme pour la méthode des limites descendante, une valeur de départ "facile" est choisie. Après chaque bonne réponse, le niveau de difficulté est augmenté d'un pas le long de la dimension d'intérêt. Au contraire, après chaque mauvaise réponse, le niveau de difficulté est diminué d'un pas.
 
+La partie A de la figure suivante illustre le déroulement d'une mesure de seuil de détection au moyen de la règle 1-up-1-down. Le début de l'escalier est semblable à la méthode des limites descendantes : le niveau du stimulus est diminué par pas successifs tant que le sujet parvient à  détecter celui-ci correctement (symboles noirs). Contrairement à la méthode des limites en revanche l'expérience ne s'interrompt pas au moment où le sujet donne la première réponse négative (symbole blanc), mais un nouveau stimulus est présenté avec un niveau rehaussé de la valeur d'un pas. L'expérience continue en suivant cette règle, si bien que le niveau finit par osciller autour d'une certaine valeur. Cette valeur correspond au seuil de détection à 50%, c'est à dire le niveau sonore pour lequel le stimulus est détecté 50% du temps (c'est-à-dire avec une probabilité de 50%).
 
 <br /> 
 
@@ -174,5 +175,18 @@ align: center
 ```
 
 <br /> 
+
+Il est très simple de démontrer que l'escalier 1-down-1-up converge vers le seuil à 50%. En effet, à l'équilibre la probabilité de 
+monter doit être égale à la probabilité de descendre, soit 
+
+p(monter) = p(descendre)
+p(stimulus détecté) = p(stimulus non-détecté)
+p(stimulus détecté) = 1 - p(stimulus détecté)
+p(stimulus détecté) = 0.5
+
+L'escalier 1-down-1-up offre donc une manière relativement efficace d'évaluer le seuil à 50%. L'estimation d'un seuil nécessite habituellement une trentaine d'essais, une durée qui peut varier selon la valeur de départ de l'escalier et le degré de précision souhaité. Il est également possible, comme illustré sur la figure, de réduire la taille du pas au cours de l'escalier de façon à combiner convergence rapide et estimation précise.
+
+Notez que le seuil à 50% estimé par cette méthode ne possède a priori aucune propriété particulière, du point de vue perceptif, comparé par exemple au seuil à 53% ou à 70%. Il s'agit simplement d'un pourcentage arbitraire mais qui permet de définir le seuil de façon univoque. Néanmoins certaines questions de recherche peuvent nécessiter d'estimer un seuil plus élevé -- ainsi par exemple si le niveau de la chance est à 50% viser le seuil à 50% est inutile.
+
 
 

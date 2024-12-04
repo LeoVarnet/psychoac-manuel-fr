@@ -42,7 +42,9 @@ Dans la situation décrite ci-dessus, il est possible, dans une certaine mesure,
 
 On peut à présent se demander comment ce pourcentage évolue en fonction de la difficulté de la tâche. Ici, le niveau de difficulté dépend directement de *d'*, la différence entre le son avec ou sans le signal. Cette distance entre les deux gaussienne jouera ici le rôle de **variable d'intérêt**. À nouveau, il est possible de montrer par le calcul que la probabilité de détection en fonction de *d'* suit une loi cumulative gaussienne, aussi appelée fonction logistique :
 
-$$ p_{détect}(d') = 1/{1=e^{-(\alpha + \beta \cdot d'}} $$
+\begin{gather*}
+p_{détect}(d') = 1/{1=e^{-(\alpha + \beta \cdot d'}}
+\end{gather*}
 
 <br /> 
 

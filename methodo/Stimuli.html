@@ -61,6 +61,8 @@
     <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>window.MathJax = {"TeX": {"Macros": {"N": "\\mathbb{N}", "floor": ["\\lfloor#1\\rfloor", 1], "bmat": ["\\left[\\begin{array}"], "emat": ["\\end{array}\\right]"]}}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'methodo/Stimuli';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
@@ -440,7 +442,10 @@ d’un système à séparer l’information du bruit. Cette théorie fut initial
 <br /> 
 <p>Dans la situation décrite ci-dessus, il est possible, dans une certaine mesure, de détecter la présence ou l’absence du signal cible à partir de la valeur d’énergie <strong>E</strong> totale. Ainsi, pour une valeur de E = 7 on peut répondre de façon assez certaine que le signal cible était présent, tandis qu’une valeur E = 4 nous indique plutôt que le signal cible était absent. Pour des valeurs intermédiaires il est plus difficile de donner une réponse tranchée, mais une règle optimale dans ce cas serait de répondre “ton présent” pour toute valeur de E supérieure à 5.5, et ton absent sinon. Un calcul de probabilité permet de démontrer que l’application de cette règle dans la situation décrite précédemment produit 64% de réponses correctes en moyenne.</p>
 <p>On peut à présent se demander comment ce pourcentage évolue en fonction de la difficulté de la tâche. Ici, le niveau de difficulté dépend directement de <em>d’</em>, la différence entre le son avec ou sans le signal. Cette distance entre les deux gaussienne jouera ici le rôle de <strong>variable d’intérêt</strong>. À nouveau, il est possible de montrer par le calcul que la probabilité de détection en fonction de <em>d’</em> suit une loi cumulative gaussienne, aussi appelée fonction logistique :</p>
-<p>$$ p_{détect}(d’) = 1/{1=e^{-(\alpha + \beta \cdot d’}} $$</p>
+<div class="amsmath math notranslate nohighlight">
+\[\begin{gather*}
+p_{détect}(d') = 1/{1=e^{-(\alpha + \beta \cdot d'}}
+\end{gather*}\]</div>
 <br /> 
 <figure class="align-center" id="sdt2-png">
 <a class="reference internal image-reference" href="../_images/SDT2.png"><img alt="Lien entre fonction psychométrique et difficulté de la tâche" src="../_images/SDT2.png" style="height: 400px;" /></a>

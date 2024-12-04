@@ -60,6 +60,17 @@ align: center
 
 <br /> 
 
+$\alpha$
+
+$$
+\alpha
+$$
+
+```{math}
+:label: my_label
+w_{t+1} = (1 + r_{t+1}) s(w_t) + y_{t+1}
+```
+
 Lorsque la distance entre les deux gaussiennes augmente, autrement dit lorsque les deux stimuli à différencier deviennent de plus en plus distincts, la tâche devient de plus en plus simple à réaliser. En effet, la fonction indique que le pourcentage de détections tend alors vers 100%. Au contraire lorsqu'on diminue l'énergie du ton jusqu'à *d' = 0* -- un signal cible d'énergie nulle, autrement dit une tâche de détection impossible à réaliser -- la probabilité chute à 50%, ce qui correspond au pourcentage de bonnes réponses obtenu en répondant au hasard. Cette fonction reliant la dimension d'intérêt au pourcentage de réponses est appelée **fonction psychométrique** et joue un rôle central dans la mesure en psychophysique comme on le verra dans la partie Méthode.
 
 Notez que dans l'exemple choisi, *d'* est toujours positif car il n'aurait pas de sens que l'énergie du signal+bruit soit moindre que celle du bruit seul. Néanmoins dans d'autres situations, il peut être pertinent de continuer la courbe auquel cas on obtient la fonction psychométrique complète, couvrant des probabilités de 0% à 100% (voir figure suivante).

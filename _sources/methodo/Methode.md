@@ -179,7 +179,7 @@ align: center
 Il est très simple de démontrer que l'escalier 1-down-1-up converge vers le seuil à 50%. En effet, à l'équilibre la probabilité de monter doit être égale à la probabilité de descendre, soit 
 
 \begin{gather*}
-p(monter) = p(descendre)\\
+p(descendre) = p(monter)\\
 p(détection) = p(non-détection)\\
 p(détection) = 1 - p(détection)\\
 p(détection) = 0.5\\
@@ -189,8 +189,17 @@ L'escalier 1-down-1-up offre donc une manière relativement efficace d'évaluer 
 
 Notez que le seuil à 50% estimé par cette méthode ne possède a priori aucune propriété particulière, du point de vue perceptif, comparé par exemple au seuil à 53% ou à 70%. Il s'agit simplement d'un pourcentage arbitraire mais qui permet de définir le seuil de façon univoque. Néanmoins certaines questions de recherche peuvent nécessiter d'estimer un seuil plus élevé. Ainsi, par exemple, pour une expérience où les sujets obtiennent déjà un score de 50% en l'absence de stimulus viser le seuil de détection à 50% serait absurde -- on préférera alors caractériser la perception au moyen du seuil à 75%.
 
-Fort heureusement, la méthode de l'escalier psychophysique n'est pas restreinte à un unique point de convergence possible. Il est possible d'atteindre n'importe quel seuil en changeant la règle de progression. Ainsi par exemple, pour 
+Fort heureusement, la méthode de l'escalier psychophysique n'est pas restreinte à un unique point de convergence possible. Il est possible d'atteindre n'importe quel seuil en changeant la règle de progression. Ainsi par exemple, appliquer une règle de **3-down-1-up** telle que celle illustrée dans la partie B de la figure précédente permet de viser le seuil à 79.4%. En effet,
 
+\begin{gather*}
+p(descendre) = p(monter)\\
+p(détection)^{3} = p(non-détection)\\
+p(détection)^{3} = 1 - p(détection)^{3}\\
+p(détection)^{3} = 0.5\\
+p(détection) = 0.794
+\end{gather*}
 
+Une autre possibilité consiste à définir des pas asymétriques pour les montées et les descentes.
 
+En résumé, l'escalier psychophysique permet de parcourir la fonction psychométrique jusqu'à atteindre un pourcentage de réponses prédéfini. La
 

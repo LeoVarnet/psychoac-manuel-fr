@@ -176,21 +176,20 @@ align: center
 
 <br /> 
 
-Il est très simple de démontrer que l'escalier 1-down-1-up converge vers le seuil à 50%. En effet, à l'équilibre la probabilité de 
-monter doit être égale à la probabilité de descendre, soit 
+Il est très simple de démontrer que l'escalier 1-down-1-up converge vers le seuil à 50%. En effet, à l'équilibre la probabilité de monter doit être égale à la probabilité de descendre, soit 
 
-$$
-p(\text{monter}) = p(\text{descendre})\\
-p(\text{stimulus détecté}) = p(\text{stimulus non-détecté})\\
-p(\text{stimulus détecté}) = 1 - p(\text{stimulus détecté})\\
-p(\text{stimulus détecté}) = 0.5\\
-$$
+\begin{gather*}
+p(monter) = p(descendre)\\
+p(détection) = p(non-détection)\\
+p(détection) = 1 - p(détection)\\
+p(détection) = 0.5\\
+\end{gather*}
 
 L'escalier 1-down-1-up offre donc une manière relativement efficace d'évaluer le seuil à 50%. L'estimation d'un seuil nécessite habituellement une trentaine d'essais, une durée qui peut varier selon la valeur de départ de l'escalier et le degré de précision souhaité. Il est également possible, comme illustré sur la figure, de réduire la taille du pas au cours de l'escalier de façon à combiner convergence rapide et estimation précise.
 
 Notez que le seuil à 50% estimé par cette méthode ne possède a priori aucune propriété particulière, du point de vue perceptif, comparé par exemple au seuil à 53% ou à 70%. Il s'agit simplement d'un pourcentage arbitraire mais qui permet de définir le seuil de façon univoque. Néanmoins certaines questions de recherche peuvent nécessiter d'estimer un seuil plus élevé. Ainsi, par exemple, pour une expérience où les sujets obtiennent déjà un score de 50% en l'absence de stimulus viser le seuil de détection à 50% serait absurde -- on préférera alors caractériser la perception au moyen du seuil à 75%.
 
-Fort heureusement, la méthode de l'escalier psychophysique n'est pas restreinte à un unique point de convergence possible. Il est possible d'atteindre n'importe quel seuil en changeant la règle de progression.
+Fort heureusement, la méthode de l'escalier psychophysique n'est pas restreinte à un unique point de convergence possible. Il est possible d'atteindre n'importe quel seuil en changeant la règle de progression. Ainsi par exemple, pour 
 
 
 

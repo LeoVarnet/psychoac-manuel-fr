@@ -43,7 +43,7 @@ Dans la situation décrite ci-dessus, il est possible, dans une certaine mesure,
 On peut à présent se demander comment ce pourcentage évolue en fonction de la difficulté de la tâche. Ici, le niveau de difficulté dépend directement de *d'*, la différence entre le son avec ou sans le signal. Cette distance entre les deux gaussienne jouera ici le rôle de **variable d'intérêt**. À nouveau, il est possible de montrer par le calcul que la probabilité de détection en fonction de *d'* suit une loi cumulative gaussienne, aussi appelée fonction logistique :
 
 \begin{gather*}
-p_{détect}(d') = 1/{1=e^{-(\alpha + \beta \cdot d')}}
+p_{détect}(d') = \frac{1}{1+e^{-(\alpha + \beta \cdot d')}}
 \end{gather*}
 
 <br /> 
@@ -59,17 +59,6 @@ align: center
 ```
 
 <br /> 
-
-$\alpha$
-
-$$
-\alpha
-$$
-
-```{math}
-:label: my_label
-w_{t+1} = (1 + r_{t+1}) s(w_t) + y_{t+1}
-```
 
 Lorsque la distance entre les deux gaussiennes augmente, autrement dit lorsque les deux stimuli à différencier deviennent de plus en plus distincts, la tâche devient de plus en plus simple à réaliser. En effet, la fonction indique que le pourcentage de détections tend alors vers 100%. Au contraire lorsqu'on diminue l'énergie du ton jusqu'à *d' = 0* -- un signal cible d'énergie nulle, autrement dit une tâche de détection impossible à réaliser -- la probabilité chute à 50%, ce qui correspond au pourcentage de bonnes réponses obtenu en répondant au hasard. Cette fonction reliant la dimension d'intérêt au pourcentage de réponses est appelée **fonction psychométrique** et joue un rôle central dans la mesure en psychophysique comme on le verra dans la partie Méthode.
 
@@ -89,9 +78,9 @@ align: center
 
 <br /> 
 
-D'après l'équation ci-dessus, la forme de la fonction psychométrique est déterminée par deux paramètres, <span style="color:rgb(237,125,49)">$\alpha$</span> et <span style="color:rgb(204,0,153)">$\beta$</span>[^1]. 
+D'après l'équation ci-dessus, la forme de la fonction psychométrique est déterminée par deux paramètres, <span style="color:rgb(237,125,49)">α</span> et <span style="color:rgb(204,0,153)">β</span>[^1]. 
 
-<span style="color:rgb(237,125,49)">$\alpha$</span> détermine le **seuil à 50%** de la fonction psychométrique, c'est à dire le niveau de la dimension d'intérêt à partir duquel on obtient plus de 50% de réponses correctes. Modifier ce paramètre revient donc à déplacer latéralement la fonction.
+<span style="color:rgb(237,125,49)">α</span> détermine le **seuil à 50%** de la fonction psychométrique, c'est à dire le niveau de la dimension d'intérêt à partir duquel on obtient plus de 50% de réponses correctes. Modifier ce paramètre revient donc à déplacer latéralement la fonction.
 
 <br /> 
 
@@ -107,7 +96,7 @@ align: center
 
 <br /> 
 
-<span style="color:rgb(204,0,153)">$\beta$</span> détermine la **pente** de la fonction psychométrique, c'est à dire la sensibilité du système aux variations de la dimension d'intérêt. Pour de faibles valeurs de <span style="color:rgb(204,0,153)">$\beta$</span>, le pourcentage de réponses change peu lorsqu'on modifie la dimension d'intérêt (sensibilité faibles). Pour de fortes valeurs de pente en revanche, le pourcentage de réponses bascule brutalement de sa valeur minimum à sa valeur maximum dans un petit intervalle de la dimension d'inrêt (sensibilité élevé).
+<span style="color:rgb(204,0,153)">β</span> détermine la **pente** de la fonction psychométrique, c'est à dire la sensibilité du système aux variations de la dimension d'intérêt. Pour de faibles valeurs de <span style="color:rgb(204,0,153)">β</span>, le pourcentage de réponses change peu lorsqu'on modifie la dimension d'intérêt (sensibilité faibles). Pour de fortes valeurs de pente en revanche, le pourcentage de réponses bascule brutalement de sa valeur minimum à sa valeur maximum dans un petit intervalle de la dimension d'inrêt (sensibilité élevé).
 
 <br /> 
 

@@ -179,10 +179,12 @@ align: center
 Il est très simple de démontrer que l'escalier 1-down-1-up converge vers le seuil à 50%. En effet, à l'équilibre la probabilité de 
 monter doit être égale à la probabilité de descendre, soit 
 
-p(monter) = p(descendre)
-p(stimulus détecté) = p(stimulus non-détecté)
-p(stimulus détecté) = 1 - p(stimulus détecté)
-p(stimulus détecté) = 0.5
+$$
+p(\text{monter}) = p(\text{descendre})\\
+p(\text{stimulus détecté}) = p(\text{stimulus non-détecté})\\
+p(\text{stimulus détecté}) = 1 - p(\text{stimulus détecté})\\
+p(\text{stimulus détecté}) = 0.5\\
+$$
 
 L'escalier 1-down-1-up offre donc une manière relativement efficace d'évaluer le seuil à 50%. L'estimation d'un seuil nécessite habituellement une trentaine d'essais, une durée qui peut varier selon la valeur de départ de l'escalier et le degré de précision souhaité. Il est également possible, comme illustré sur la figure, de réduire la taille du pas au cours de l'escalier de façon à combiner convergence rapide et estimation précise.
 

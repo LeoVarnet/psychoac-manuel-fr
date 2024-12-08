@@ -209,6 +209,8 @@ L'inconvénient de l'adaptabilité, en revanche, est que tous les sujets ne rece
 
 Une façon extrêmement simple de comparer deux groupes dans les mêmes conditions expérimentales est de réaliser une **mesure de performance**. On choisit alors simplement un niveau fixe de la dimension d'intérêt -- qui n'est donc à proprement parler plus une variable de l'expérience -- et on mesure le pourcentage de bonnes réponses de chaque groupe à ce niveau. Cette expérience peut bien sûr nécessiter d'insérer autant d'essais correspondant à la réponse "non". Par exemple, on peut mesurer rapidement les capacités de détection de ton pur à 5 dB SPL en présentant une dizaine de ces stimuli, alternés aléatoirement avec autant d'essais sans ton, et en mesurant le pourcentage de réponses correctes.
 
-De la même manière, il est possible de comparer 
+De la même manière, il est possible au moyen de la mesure de performance de comparer deux conditions toutes choses égales par ailleurs (par exemple la détection d'un ton pur à 5 dB SPL ou du même ton pur en présence de bruit).
+
+Il faut néanmoins souligner un écueil potentiel de cette méthode.
 
 

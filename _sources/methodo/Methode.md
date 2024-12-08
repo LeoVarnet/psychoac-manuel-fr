@@ -211,6 +211,13 @@ Une façon extrêmement simple de comparer deux groupes dans les mêmes conditio
 
 De la même manière, il est possible au moyen de la mesure de performance de comparer deux conditions toutes choses égales par ailleurs (par exemple la détection d'un ton pur à 5 dB SPL ou du même ton pur en présence de bruit).
 
-Il faut néanmoins souligner un écueil potentiel de cette méthode.
+Il faut néanmoins souligner un écueil potentiel de cette méthode. Si le niveau choisi sur la dimension d'intérêt est trop élevé (tâche trop facile) ou trop bas (tâche trop difficile), les performances mesurées seront proches du plafond ou du plancher respectivement et il ne sera pas possible de différencier les deux conditions. La mesure de performance nécessite donc quelques connaissances préalables pour fixer judicieusement le niveau de difficulté de l'expérience.
+
+## Méthode des stimuli constants 
+
+Fondamentalement, la méthode des stimuli constants consiste en une simple série de mesures de performances. Plutôt que de mesurer le taux de bonnes réponses pour un niveau unique de la dimension d'intérêt, on définit un ensemble de 10 à 15 niveaux, également répartis, et on présente des essais correspondant à ces différents niveaux dans un ordre aléatoire. Ceci permet donc d'échantillonner la fonction psychométrique en plusieurs points. Il devient alors possible d'utiliser des méthodes statistiques pour estimer la pente et le seuil à n'importe quel pourcentage de réponses correctes.
+
+La méthode des stimuli constants offre ainsi une caractérisation plus complète possible de la fonction psychométrique, comparée aux méthodes des limites ou de l'escalier psychophysique qui ne visent qu'à estimer un seuil, ou la mesure de performance qui ne donne qu'un aperçu ponctuel de la fonction. Elle est en revanche plus coûteuse en temps : la mesure de performance unique nécessitant une trentaine d'essais, la méthode des stimuli constants requiert 300 à 450 essais au total.
+
 
 

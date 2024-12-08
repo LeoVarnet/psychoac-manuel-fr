@@ -201,5 +201,14 @@ p(détection) = 0.794
 
 Une autre possibilité consiste à définir des pas asymétriques pour les montées et les descentes.
 
-En résumé, l'escalier psychophysique permet de parcourir la fonction psychométrique jusqu'à atteindre un pourcentage de réponses prédéfini. La
+En résumé, l'escalier psychophysique permet de parcourir la fonction psychométrique jusqu'à atteindre un pourcentage de réponses prédéfini. Le seuil à X% correspond alors à la position en ordonnée une fois l'équilibre atteint. L'escalier est donc un moyen d'obtenir une mesure relativement rapide de seuil qui est par ailleurs définie statistiquement et donc valable quelle que soit la pente de la fonction psychométrique. Cette méthode est par ailleurs adaptative ce qui permet d'optimiser le nombre d'essais nécessaires pour mesurer le seuil (habituellement une trentaine). 
+
+L'inconvénient de l'adaptabilité, en revanche, est que tous les sujets ne recevront pas exactement le même ensemble de stimuli: celles et ceux qui ont plus de difficultés à réaliser la tâche auront des stimuli plus faciles que les individus plus performants. Ce déséquilibre peut poser problème, par exemple si l'on souhaite comparer deux groupes dans les mêmes conditions expérimentales. Ceci nous incite donc à considérer des méthodes non-adaptatives.
+
+## La mesure de performance 
+
+Une façon extrêmement simple de comparer deux groupes dans les mêmes conditions expérimentales est de réaliser une **mesure de performance**. On choisit alors simplement un niveau fixe de la dimension d'intérêt -- qui n'est donc à proprement parler plus une variable de l'expérience -- et on mesure le pourcentage de bonnes réponses de chaque groupe à ce niveau. Cette expérience peut bien sûr nécessiter d'insérer autant d'essais correspondant à la réponse "non". Par exemple, on peut mesurer rapidement les capacités de détection de ton pur à 5 dB SPL en présentant une dizaine de ces stimuli, alternés aléatoirement avec autant d'essais sans ton, et en mesurant le pourcentage de réponses correctes.
+
+De la même manière, il est possible de comparer 
+
 

@@ -357,12 +357,12 @@ alt: Résumé des différentes méthodes psychophysiques
 width: 900px
 align: center
 ---
-*.......*
+*Comparaison des différentes méthodes expérimentales du point de vue de l'exploration de la fonction psychométrique*
 ```
 
 <br /> 
 
-On peut également se représenter la situation du point de vue temporel
+On peut également représenter le déroulement temporel des quatre méthodes expérimentales.
 
 <br /> 
 
@@ -373,14 +373,15 @@ alt: Résumé des différentes méthodes psychophysiques
 width: 900px
 align: center
 ---
-*.......*
+*Comparaison des différentes méthodes expérimentales du point de vue du déroulement de l'experience.*
 ```
 
 <br /> 
-
+ 
+Bien que cette figure ne le fasse pas apparaître, notez que, comme la mesure de performance, les méthodes adaptatives peuvent comporter des essais sans stimuli de façon à ne pas encourager les participants et participantes à répondre "oui" sans avoir réellement perçu le son.
 
 ## D'autres méthodes psychophysiques
 
-Dans un souci de concision, je me suis jusqu'ici volontairement concentré sur 4 méthodes extrêmement courantes, en faisant l'impasse sur d'autres. Néanmoins il peut être utile de garder à l'esprit une catégorie de méthodes adaptatives un peu particulières pour lesquelles le sujet est directement impliqué dans le choix des stimuli. 
+Dans un souci de concision, je me suis jusqu'ici volontairement limité à ma description de quatre méthodes extrêmement courantes, en faisant l'impasse sur d'autres. Notamment, je n'ai pas mentionné Néanmoins il peut être utile de garder à l'esprit une catégorie de méthodes adaptatives un peu particulières pour lesquelles le sujet est directement impliqué dans le choix des stimuli. 
 
 

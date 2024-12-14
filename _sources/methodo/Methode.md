@@ -219,5 +219,8 @@ Fondamentalement, la méthode des stimuli constants consiste en une simple séri
 
 La méthode des stimuli constants offre ainsi une caractérisation plus complète possible de la fonction psychométrique, comparée aux méthodes des limites ou de l'escalier psychophysique qui ne visent qu'à estimer un seuil, ou la mesure de performance qui ne donne qu'un aperçu ponctuel de la fonction. Elle est en revanche plus coûteuse en temps : la mesure de performance unique nécessitant une trentaine d'essais, la méthode des stimuli constants requiert 300 à 450 essais au total.
 
+## D'autres méthodes psychophysiques
+
+Dans un souci de concision, je me suis jusqu'ici volontairement concentré sur 4 méthodes extrêmement courantes, en faisant l'impasse sur d'autres. Néanmoins il peut être utile de garder à l'esprit une catégorie de méthodes adaptatives un peu particulières pour lesquelles le sujet est directement impliqué dans le choix des stimuli. 
 
 

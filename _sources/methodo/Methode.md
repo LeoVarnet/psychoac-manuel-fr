@@ -340,9 +340,13 @@ align: center
 
 La méthode des stimuli constants offre ainsi une caractérisation plus complète possible de la fonction psychométrique, comparée aux méthodes des limites ou de l'escalier psychophysique qui ne visent qu'à estimer un seuil, ou la mesure de performance qui ne donne qu'un aperçu ponctuel de la fonction. Elle est en revanche plus coûteuse en temps : la mesure de performance unique nécessitant une trentaine d'essais, la méthode des stimuli constants requiert 300 à 450 essais au total. Ainsi, il serait par exemple déraisonnable d'espérer mesurer un audiogramme au moyen de la méthode des stimuli constants. En effet, cela nécessiterait de réaliser une caractérisation de la fonction psychométrique pour chaque fréquence pour laquelle on souhaite caractériser le seuil, soit plusieurs milliers d'essais.
 
-## Comparaison des méthodes psychophysique
+## Comparaison des méthodes expérimentales 
 
-En résumé, le choix d'une méthode psychophysique particulière est guidé par plusieurs facteurs. Tout d'abord, le type de mesure visée : souhaite-t-on obtenir un pourcentage moyen de réponse, un seuil, ou une mesure de sensibilité ? ...
+En résumé, le choix d'une méthode expérimentale particulière est guidé par plusieurs facteurs. Tout d'abord, le type de mesure visée : souhaite-t-on obtenir un pourcentage moyen de réponse, un seuil, ou une mesure de sensibilité ? La méthode des stimuli constants donne accès à ces trois informations, en revanche les méthodes adaptatives sont restreintes à des estimations de seuil (on peut en théorie  estimer une sensibilité à partir de l'escalier psychophysique mais cette mesure est peu précise et donc déconseillée), et la mesure de performance ne fournit qu'un pourcentage de réponses.
+
+Un autre critère important pour guider le choix d'une méthode particulière est la durée de l'expérience. En effet les études impliquant un nombre élevé de conditions, ou des participants et participantes particulièrement fatiguables, seront limitées sur le nombre d'essais maximum par estimation. Bien que le nombre d'essais dépende également du degré de précision souhaité, on peut estimer grossièrement que la mesure de performance et la méthode des limites nécessitent 20-30 essais, l'escalier psychophysique une cinquantaine d'essais, et la méthode des stimuli constants plusieurs centaines d'essais. Il faut noter que la durée totale de l'expérience dépend également d'autres facteurs, notamment le nombre de stimuli présentés à chaque essais, comme nous le verrons aux chapitres suivants.
+
+On l'a vu, chaque méthode correspond à une façon particulière de parcourir la fonction psychométrique.
 
 <br /> 
 
@@ -357,6 +361,8 @@ align: center
 ```
 
 <br /> 
+
+On peut également se représenter la situation du point de vue temporel
 
 <br /> 
 

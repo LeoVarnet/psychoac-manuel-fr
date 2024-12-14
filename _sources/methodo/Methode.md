@@ -306,7 +306,7 @@ Notez en revanche que les comparaisons basées sur une méthode adaptative — c
 
 ## Méthode des stimuli constants 
 
-Fondamentalement, la méthode des stimuli constants consiste en une série de mesures de performances le long de la dimension d'intérêt. Plutôt que de mesurer le taux de bonnes réponses pour un niveau unique de la dimension d'intérêt, on définit un continuum de 10 à 15 niveaux, régulièrement espacés, et on présente des essais correspondant à ces différents niveaux dans un ordre aléatoire. Ceci permet donc d'échantillonner la fonction psychométrique en plusieurs points. Il devient alors possible d'utiliser des méthodes statistiques pour ajuster une fonction logistique aux données obtenues pour estimer la pente et le seuil à n'importe quel pourcentage de réponses correctes.
+Fondamentalement, la **méthode des stimuli constants** consiste en une série de mesures de performances le long de la dimension d'intérêt. Plutôt que de mesurer le taux de bonnes réponses pour un niveau unique de la dimension d'intérêt, on définit un continuum de 10 à 15 niveaux, régulièrement espacés, et on présente des essais correspondant à ces différents niveaux dans un ordre aléatoire. Ceci permet donc d'échantillonner la fonction psychométrique en plusieurs points. Il devient alors possible d'utiliser des méthodes statistiques pour ajuster une fonction logistique aux données collectées pour estimer la pente et le seuil à n'importe quel pourcentage de réponses correctes. La méthode des stimuli constants est donc la seule méthode permettant d'obtenir une estimation de la sensibilité.
 
 <br /> 
 
@@ -324,12 +324,11 @@ align: center
 
 Voici un exemple de méthode des stimuli constants dans la situation de détection de tons purs à une fréquence donnée. Comme attendu, les pourcentages de détection sont proches de 0 lorsque le ton est présenté à un niveau extrêmement faible (< 3 dB SPL). Puis les performances croissent avec le niveau sonore jusqu'à atteindre le maximum de 100%. La courbe totale suit une fonction psychométrique telle que décrite au chapitre précédent.
 
-
 <br /> 
 
-```{figure} STD7.png
+```{figure} SDT7.png
 ---
-name: STD7.png
+name: SDT7.png
 alt: Méthode des stimuli constants appliquée à la détection de ton pur
 width: 500px
 align: center
@@ -341,22 +340,9 @@ align: center
 
 La méthode des stimuli constants offre ainsi une caractérisation plus complète possible de la fonction psychométrique, comparée aux méthodes des limites ou de l'escalier psychophysique qui ne visent qu'à estimer un seuil, ou la mesure de performance qui ne donne qu'un aperçu ponctuel de la fonction. Elle est en revanche plus coûteuse en temps : la mesure de performance unique nécessitant une trentaine d'essais, la méthode des stimuli constants requiert 300 à 450 essais au total. Ainsi, il serait par exemple déraisonnable d'espérer mesurer un audiogramme au moyen de la méthode des stimuli constants. En effet, cela nécessiterait de réaliser une caractérisation de la fonction psychométrique pour chaque fréquence pour laquelle on souhaite caractériser le seuil, soit plusieurs milliers d'essais.
 
-## Conclusions
+## Comparaison des méthodes psychophysique
 
-
-<br /> 
-
-```{figure} AllMethods.png
----
-name: AllMethods.png
-alt: Résumé des différentes méthodes psychophysiques
-width: 500px
-align: center
----
-*.......*
-```
-
-<br /> 
+En résumé, le choix d'une méthode psychophysique particulière est guidé par plusieurs facteurs. Tout d'abord, le type de mesure visée : souhaite-t-on obtenir un pourcentage moyen de réponse, un seuil, ou une mesure de sensibilité ? ...
 
 <br /> 
 
@@ -364,13 +350,28 @@ align: center
 ---
 name: AllMethods2.png
 alt: Résumé des différentes méthodes psychophysiques
-width: 500px
+width: 900px
 align: center
 ---
 *.......*
 ```
 
 <br /> 
+
+<br /> 
+
+```{figure} AllMethods.png
+---
+name: AllMethods.png
+alt: Résumé des différentes méthodes psychophysiques
+width: 900px
+align: center
+---
+*.......*
+```
+
+<br /> 
+
 
 ## D'autres méthodes psychophysiques
 

@@ -401,7 +401,7 @@
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#escalier-psychophysique">Escalier psychophysique</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#la-mesure-de-performance">La mesure de performance</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#methode-des-stimuli-constants">Méthode des stimuli constants</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#conclusions">Conclusions</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#comparaison-des-methodes-psychophysique">Comparaison des méthodes psychophysique</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#d-autres-methodes-psychophysiques">D’autres méthodes psychophysiques</a></li>
 </ul>
             </nav>
@@ -602,7 +602,7 @@ p(détection) = 0.794
 </section>
 <section id="methode-des-stimuli-constants">
 <h2>Méthode des stimuli constants<a class="headerlink" href="#methode-des-stimuli-constants" title="Link to this heading">#</a></h2>
-<p>Fondamentalement, la méthode des stimuli constants consiste en une série de mesures de performances le long de la dimension d’intérêt. Plutôt que de mesurer le taux de bonnes réponses pour un niveau unique de la dimension d’intérêt, on définit un continuum de 10 à 15 niveaux, régulièrement espacés, et on présente des essais correspondant à ces différents niveaux dans un ordre aléatoire. Ceci permet donc d’échantillonner la fonction psychométrique en plusieurs points. Il devient alors possible d’utiliser des méthodes statistiques pour ajuster une fonction logistique aux données obtenues pour estimer la pente et le seuil à n’importe quel pourcentage de réponses correctes.</p>
+<p>Fondamentalement, la <strong>méthode des stimuli constants</strong> consiste en une série de mesures de performances le long de la dimension d’intérêt. Plutôt que de mesurer le taux de bonnes réponses pour un niveau unique de la dimension d’intérêt, on définit un continuum de 10 à 15 niveaux, régulièrement espacés, et on présente des essais correspondant à ces différents niveaux dans un ordre aléatoire. Ceci permet donc d’échantillonner la fonction psychométrique en plusieurs points. Il devient alors possible d’utiliser des méthodes statistiques pour ajuster une fonction logistique aux données collectées pour estimer la pente et le seuil à n’importe quel pourcentage de réponses correctes. La méthode des stimuli constants est donc la seule méthode permettant d’obtenir une estimation de la sensibilité.</p>
 <br /> 
 <figure class="align-center" id="stimconst1-png">
 <a class="reference internal image-reference" href="../_images/StimConst1.png"><img alt="Fonction psychométrique et méthode des stimuli constants" src="../_images/StimConst1.png" style="width: 500px;" /></a>
@@ -613,30 +613,31 @@ p(détection) = 0.794
 <br /> 
 <p>Voici un exemple de méthode des stimuli constants dans la situation de détection de tons purs à une fréquence donnée. Comme attendu, les pourcentages de détection sont proches de 0 lorsque le ton est présenté à un niveau extrêmement faible (&lt; 3 dB SPL). Puis les performances croissent avec le niveau sonore jusqu’à atteindre le maximum de 100%. La courbe totale suit une fonction psychométrique telle que décrite au chapitre précédent.</p>
 <br /> 
-<figure class="align-center" id="std7-png">
-<a class="reference internal image-reference" href="methodo/STD7.png"><img alt="Méthode des stimuli constants appliquée à la détection de ton pur" src="methodo/STD7.png" style="width: 500px;" /></a>
+<figure class="align-center" id="sdt7-png">
+<a class="reference internal image-reference" href="../_images/SDT7.png"><img alt="Méthode des stimuli constants appliquée à la détection de ton pur" src="../_images/SDT7.png" style="width: 500px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 31 </span><span class="caption-text"><em>Exemple de fonction psychométrique estimée par la méthode des stimuli constants, dans le cas de la tâche de détection de ton pur dans le silence.</em></span><a class="headerlink" href="#std7-png" title="Link to this image">#</a></p>
+<p><span class="caption-number">Fig. 31 </span><span class="caption-text"><em>Exemple de fonction psychométrique estimée par la méthode des stimuli constants, dans le cas de la tâche de détection de ton pur dans le silence.</em></span><a class="headerlink" href="#sdt7-png" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
 <br /> 
 <p>La méthode des stimuli constants offre ainsi une caractérisation plus complète possible de la fonction psychométrique, comparée aux méthodes des limites ou de l’escalier psychophysique qui ne visent qu’à estimer un seuil, ou la mesure de performance qui ne donne qu’un aperçu ponctuel de la fonction. Elle est en revanche plus coûteuse en temps : la mesure de performance unique nécessitant une trentaine d’essais, la méthode des stimuli constants requiert 300 à 450 essais au total. Ainsi, il serait par exemple déraisonnable d’espérer mesurer un audiogramme au moyen de la méthode des stimuli constants. En effet, cela nécessiterait de réaliser une caractérisation de la fonction psychométrique pour chaque fréquence pour laquelle on souhaite caractériser le seuil, soit plusieurs milliers d’essais.</p>
 </section>
-<section id="conclusions">
-<h2>Conclusions<a class="headerlink" href="#conclusions" title="Link to this heading">#</a></h2>
+<section id="comparaison-des-methodes-psychophysique">
+<h2>Comparaison des méthodes psychophysique<a class="headerlink" href="#comparaison-des-methodes-psychophysique" title="Link to this heading">#</a></h2>
+<p>En résumé, le choix d’une méthode psychophysique particulière est guidé par plusieurs facteurs. Tout d’abord, le type de mesure visée : souhaite-t-on obtenir un pourcentage moyen de réponse, un seuil, ou une mesure de sensibilité ? …</p>
 <br /> 
-<figure class="align-center" id="allmethods-png">
-<a class="reference internal image-reference" href="../_images/AllMethods.png"><img alt="Résumé des différentes méthodes psychophysiques" src="../_images/AllMethods.png" style="width: 500px;" /></a>
+<figure class="align-center" id="allmethods2-png">
+<a class="reference internal image-reference" href="../_images/AllMethods2.png"><img alt="Résumé des différentes méthodes psychophysiques" src="../_images/AllMethods2.png" style="width: 900px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 32 </span><span class="caption-text"><em>…….</em></span><a class="headerlink" href="#allmethods-png" title="Link to this image">#</a></p>
+<p><span class="caption-number">Fig. 32 </span><span class="caption-text"><em>…….</em></span><a class="headerlink" href="#allmethods2-png" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
 <br /> 
 <br /> 
-<figure class="align-center" id="allmethods2-png">
-<a class="reference internal image-reference" href="../_images/AllMethods2.png"><img alt="Résumé des différentes méthodes psychophysiques" src="../_images/AllMethods2.png" style="width: 500px;" /></a>
+<figure class="align-center" id="allmethods-png">
+<a class="reference internal image-reference" href="../_images/AllMethods.png"><img alt="Résumé des différentes méthodes psychophysiques" src="../_images/AllMethods.png" style="width: 900px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 33 </span><span class="caption-text"><em>…….</em></span><a class="headerlink" href="#allmethods2-png" title="Link to this image">#</a></p>
+<p><span class="caption-number">Fig. 33 </span><span class="caption-text"><em>…….</em></span><a class="headerlink" href="#allmethods-png" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
 <br /> 
@@ -717,7 +718,7 @@ p(détection) = 0.794
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#escalier-psychophysique">Escalier psychophysique</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#la-mesure-de-performance">La mesure de performance</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#methode-des-stimuli-constants">Méthode des stimuli constants</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#conclusions">Conclusions</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#comparaison-des-methodes-psychophysique">Comparaison des méthodes psychophysique</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#d-autres-methodes-psychophysiques">D’autres méthodes psychophysiques</a></li>
 </ul>
   </nav></div>

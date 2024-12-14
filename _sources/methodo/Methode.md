@@ -232,23 +232,145 @@ align: center
 
 <br /> 
 
-L'escalier psychophysique est donc un moyen d'obtenir une mesure relativement rapide de seuil qui est par ailleurs définie statistiquement et donc valable quelle que soit la pente de la fonction psychométrique. Cette méthode est par ailleurs adaptative ce qui permet d'optimiser le nombre d'essais nécessaires pour mesurer le seuil (habituellement entre 30 et 50). Autre avantage notable : la méthode de l'escalier est relativement flexible et fonctionne même si la stratégie du sujet n'est pas stable dans le temps. Finalement, comme nous le détaillerons plus loin, en visant un niveau de difficulté donné la méthode de l'escalier permet d'éviter l'effet plafond.
+L'escalier psychophysique est donc un moyen d'obtenir une mesure relativement rapide de seuil qui est par ailleurs définie statistiquement et donc valable quelle que soit la pente de la fonction psychométrique. Cette méthode est par ailleurs adaptative ce qui permet d'optimiser le nombre d'essais nécessaires pour mesurer le seuil (habituellement entre 30 et 50). Autre avantage notable : la méthode de l'escalier est relativement flexible et fonctionne même si la stratégie du sujet n'est pas stable dans le temps, auquel cas l'escalier continuera simplement de suivre le point d'équilibre mouvant. Finalement, comme nous le détaillerons plus loin, en visant un niveau de difficulté donné la méthode de l'escalier permet d'éviter l'effet plafond.
 
 L'inconvénient des méthodes adaptatives, en revanche, est que tous les sujets ne recevront pas exactement le même ensemble de stimuli: celles et ceux qui ont plus de difficultés à réaliser la tâche auront des stimuli plus faciles que les individus plus performants. Ce déséquilibre peut poser problème, par exemple si l'on souhaite comparer deux groupes dans les mêmes conditions expérimentales. Ceci nous incite donc à considérer des méthodes non-adaptatives.
 
 ## La mesure de performance 
 
-Une façon extrêmement simple de comparer deux groupes dans les mêmes conditions expérimentales est de réaliser une **mesure de performance**. On choisit alors simplement un niveau fixe de la dimension d'intérêt -- qui n'est donc à proprement parler plus une variable de l'expérience -- et on mesure le pourcentage de bonnes réponses de chaque groupe à ce niveau. Cette expérience peut bien sûr nécessiter d'insérer autant d'essais correspondant à la réponse "non". Par exemple, on peut mesurer rapidement les capacités de détection de ton pur à 5 dB SPL en présentant une dizaine de ces stimuli, alternés aléatoirement avec autant d'essais sans ton, et en mesurant le pourcentage de réponses correctes.
+Une façon extrêmement simple et intuitive de comparer deux groupes dans les mêmes conditions expérimentales est de réaliser une **mesure de performance**. On choisit alors simplement un niveau fixe de la dimension d'intérêt -- qui n'est donc à proprement parler plus une "variable" de l'expérience -- et on mesure le pourcentage de bonnes réponses de chaque groupe à ce niveau. Cette expérience peut bien sûr nécessiter d'insérer des essais correspondant à la réponse "non", c'est à dire des stimuli où le signal à détecter est absent, pour éviter que les sujets soient tentés de répondre systématiquement "oui" sans réellement percevoir le stimulus. Par exemple, on peut mesurer rapidement les capacités de détection de ton pur à 5 dB SPL en présentant une dizaine de stimuli à ce niveau sonore, alternés aléatoirement avec autant d'essais où le ton est absent, et en mesurant le pourcentage de réponses correctes total.
 
-De la même manière, il est possible au moyen de la mesure de performance de comparer deux conditions toutes choses égales par ailleurs (par exemple la détection d'un ton pur à 5 dB SPL ou du même ton pur en présence de bruit).
+<br /> 
+
+```{figure} psychoperf1.png
+---
+name: psychoperf1.png
+alt: Fonction psychométrique et mesure de performance
+width: 500px
+align: center
+---
+*Lien entre la mesure de performance et la fonction psychométrique. On présente ici des stimuli à un niveau arbitraire représenté par la flèche bleue. La méthode nous permet de mesurer la valeur correspondante de la fonction psychométrique, c'est à dire le pourcentage de réponses correctes pour ce niveau particulier.*
+```
+
+<br /> 
+
+De la même manière, il est possible au moyen de la mesure de performance de comparer deux conditions, toutes choses égales par ailleurs (par exemple la détection d'un ton pur à 5 dB SPL ou du même ton pur en présence de bruit).
+
+<br /> 
+
+```{figure} psychoperf2.png
+---
+name: psychoperf2.png
+alt: Fonction psychométrique et comparaison de performances
+width: 500px
+align: center
+---
+*Exemple de comparaison de performances entre deux conditions ou deux groupes (sybolisés par les fonctions psychométriques rouge et noire). Pour un niveau donné, les performances sont différentes ce qui indique que les fonctions psychométriques sous-jacentes le sont également.*
+```
+
+<br /> 
+
+La figure suivante illustre les résultats d'une mesure de performance pour la reconnaissance de parole par différents groupes dans différentes conditions expérimentales.
+
+<br /> 
+
+```{figure} perf.png
+---
+name: perf.png
+alt: Exemple de mesure de performances
+width: 500px
+align: center
+---
+*Exemple de mesures de performance en compréhension de parole réalisée chez différents groupes de sujets (symbolisés par les différentes couleurs) et dans différentes conditions epérimentales (dans le silence, dans le bruit, etc...)*
+```
+
+<br /> 
 
 Il faut néanmoins souligner un écueil potentiel de cette méthode. Si le niveau choisi sur la dimension d'intérêt est trop élevé (tâche trop facile) ou trop bas (tâche trop difficile), les performances mesurées seront proches du plafond ou du plancher respectivement et il ne sera pas possible de différencier les deux conditions. La mesure de performance nécessite donc quelques connaissances préalables pour fixer judicieusement le niveau de difficulté de l'expérience.
 
+<br /> 
+
+```{figure} psychoperf3.png
+---
+name: psychoperf3.png
+alt: Fonction psychométrique et comparaison de performances dans un cas d'effet plafond
+width: 500px
+align: center
+---
+*Exemple de comparaison de performances dans un cas d'effet plafond. Le niveau choisi étant trop simple, les deux groupes obtiennent une performance proche de 100% et il est alors impossible de les distinguer, bien que les fonctions psychométriques sous-jacentes soient en réalité différentes.*
+```
+
+<br /> 
+
+Notez en revanche que les comparaisons basées sur une méthode adaptative — c'est-à-dire fondées sur une mesure de seuil — ne présentent pas cette limitation, car le niveau de performance est déterminé par l'expérimentateur ou l’expérimentatrice. Cependant, de façon générale, les mesures de performance et les mesures de seuil ne fournissent qu'une vision très restreinte de la fonction psychométrique, limitée à un point unique. Pour caractériser la perception de manière plus exhaustive, il peut être préférable d’adopter la méthode des stimuli constants.
+
 ## Méthode des stimuli constants 
 
-Fondamentalement, la méthode des stimuli constants consiste en une simple série de mesures de performances. Plutôt que de mesurer le taux de bonnes réponses pour un niveau unique de la dimension d'intérêt, on définit un ensemble de 10 à 15 niveaux, également répartis, et on présente des essais correspondant à ces différents niveaux dans un ordre aléatoire. Ceci permet donc d'échantillonner la fonction psychométrique en plusieurs points. Il devient alors possible d'utiliser des méthodes statistiques pour estimer la pente et le seuil à n'importe quel pourcentage de réponses correctes.
+Fondamentalement, la méthode des stimuli constants consiste en une série de mesures de performances le long de la dimension d'intérêt. Plutôt que de mesurer le taux de bonnes réponses pour un niveau unique de la dimension d'intérêt, on définit un continuum de 10 à 15 niveaux, régulièrement espacés, et on présente des essais correspondant à ces différents niveaux dans un ordre aléatoire. Ceci permet donc d'échantillonner la fonction psychométrique en plusieurs points. Il devient alors possible d'utiliser des méthodes statistiques pour ajuster une fonction logistique aux données obtenues pour estimer la pente et le seuil à n'importe quel pourcentage de réponses correctes.
 
-La méthode des stimuli constants offre ainsi une caractérisation plus complète possible de la fonction psychométrique, comparée aux méthodes des limites ou de l'escalier psychophysique qui ne visent qu'à estimer un seuil, ou la mesure de performance qui ne donne qu'un aperçu ponctuel de la fonction. Elle est en revanche plus coûteuse en temps : la mesure de performance unique nécessitant une trentaine d'essais, la méthode des stimuli constants requiert 300 à 450 essais au total.
+<br /> 
+
+```{figure} StimConst1.png
+---
+name: StimConst1.png
+alt: Fonction psychométrique et méthode des stimuli constants
+width: 500px
+align: center
+---
+*Fonction psychométrique parcourue par la méthode des stimuli constants. Les différentes mesures de performances correspondant à 7 niveaux de la dimension d'intérêt permettent d'échantillonner la fonction psychométrique, puis de déterminer sa pente ou son seuil à X%*
+```
+
+<br /> 
+
+Voici un exemple de méthode des stimuli constants dans la situation de détection de tons purs à une fréquence donnée. Comme attendu, les pourcentages de détection sont proches de 0 lorsque le ton est présenté à un niveau extrêmement faible (< 3 dB SPL). Puis les performances croissent avec le niveau sonore jusqu'à atteindre le maximum de 100%. La courbe totale suit une fonction psychométrique telle que décrite au chapitre précédent.
+
+
+<br /> 
+
+```{figure} STD7.png
+---
+name: STD7.png
+alt: Méthode des stimuli constants appliquée à la détection de ton pur
+width: 500px
+align: center
+---
+*Exemple de fonction psychométrique estimée par la méthode des stimuli constants, dans le cas de la tâche de détection de ton pur dans le silence.*
+```
+
+<br /> 
+
+La méthode des stimuli constants offre ainsi une caractérisation plus complète possible de la fonction psychométrique, comparée aux méthodes des limites ou de l'escalier psychophysique qui ne visent qu'à estimer un seuil, ou la mesure de performance qui ne donne qu'un aperçu ponctuel de la fonction. Elle est en revanche plus coûteuse en temps : la mesure de performance unique nécessitant une trentaine d'essais, la méthode des stimuli constants requiert 300 à 450 essais au total. Ainsi, il serait par exemple déraisonnable d'espérer mesurer un audiogramme au moyen de la méthode des stimuli constants. En effet, cela nécessiterait de réaliser une caractérisation de la fonction psychométrique pour chaque fréquence pour laquelle on souhaite caractériser le seuil, soit plusieurs milliers d'essais.
+
+## Conclusions
+
+
+<br /> 
+
+```{figure} AllMethods.png
+---
+name: AllMethods.png
+alt: Résumé des différentes méthodes psychophysiques
+width: 500px
+align: center
+---
+*.......*
+```
+
+<br /> 
+
+<br /> 
+
+```{figure} AllMethods2.png
+---
+name: AllMethods2.png
+alt: Résumé des différentes méthodes psychophysiques
+width: 500px
+align: center
+---
+*.......*
+```
+
+<br /> 
 
 ## D'autres méthodes psychophysiques
 

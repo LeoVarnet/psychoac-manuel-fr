@@ -382,6 +382,6 @@ Bien que cette figure ne le fasse pas apparaître, notez que, comme la mesure de
 
 ## D'autres méthodes psychophysiques
 
-Dans un souci de concision, je me suis jusqu'ici volontairement limité à ma description de quatre méthodes extrêmement courantes, en faisant l'impasse sur d'autres. Notamment, je n'ai pas mentionné Néanmoins il peut être utile de garder à l'esprit une catégorie de méthodes adaptatives un peu particulières pour lesquelles le sujet est directement impliqué dans le choix des stimuli. 
+Dans un souci de concision, je me suis jusqu'ici volontairement limité à ma description de quatre méthodes extrêmement courantes, en faisant l'impasse sur d'autres. En particulier,je n'ai pas jugé utile de mentionner la **méthode des ajustements**, souvent mentionnée dans les manuels mais peu utilisée en pratique. Ici, le sujet fait varier lui-même le stimulis le long de la dimension d'intérêt afin de la placer au niveau qu'il juge être la limite de son seuil de détection. Il s'agit donc d'une forme particulière de méthode adaptative dans laquelle le participant ou la participante agit directement sur le choix des stimuli présentés. La **double-passe** est une méthode non adaptative qui vise à estimer le "bruit interne", c'est à dire le degré de variabilité des réponses des sujets. Elle consiste à présenter le même ensemble de stimuli à deux reprises et à comparer si les réponses étaient identiques entre la première passe et la seconde.
 
 

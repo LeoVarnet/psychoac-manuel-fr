@@ -201,9 +201,40 @@ p(détection) = 0.794
 
 Une autre possibilité consiste à définir des pas asymétriques pour les montées et les descentes.
 
-En résumé, l'escalier psychophysique permet de parcourir la fonction psychométrique jusqu'à atteindre un pourcentage de réponses prédéfini. Le seuil à X% correspond alors à la position en ordonnée une fois l'équilibre atteint. L'escalier est donc un moyen d'obtenir une mesure relativement rapide de seuil qui est par ailleurs définie statistiquement et donc valable quelle que soit la pente de la fonction psychométrique. Cette méthode est par ailleurs adaptative ce qui permet d'optimiser le nombre d'essais nécessaires pour mesurer le seuil (habituellement une trentaine). 
+En résumé, l'escalier psychophysique permet de parcourir la fonction psychométrique jusqu'à converger vers un pourcentage de réponses prédéfini. Le seuil à X% correspond alors à la position en ordonnée une fois l'équilibre atteint. 
 
-L'inconvénient de l'adaptabilité, en revanche, est que tous les sujets ne recevront pas exactement le même ensemble de stimuli: celles et ceux qui ont plus de difficultés à réaliser la tâche auront des stimuli plus faciles que les individus plus performants. Ce déséquilibre peut poser problème, par exemple si l'on souhaite comparer deux groupes dans les mêmes conditions expérimentales. Ceci nous incite donc à considérer des méthodes non-adaptatives.
+<br /> 
+
+```{figure} psychostaircase1.png
+---
+name: psychostaircase1.png
+alt: Fonction psychométrique et méthode de l'escalier psychophysique
+width: 500px
+align: center
+---
+*Fonction psychométrique parcourue selon la méthode de l'escalier psychophysique. La règle appliquée dans cet exemple est un two-down-one-up.*
+```
+
+<br /> 
+
+
+<br /> 
+
+```{figure} psychostaircase2.png
+---
+name: psychostaircase1.png
+alt: Fonction psychométrique et méthode de l'escalier psychophysique
+width: 500px
+align: center
+---
+*Lecture du seuil une fois la convergence de l'escalier atteinte. La règle du two-down-one-up est à l'équilibre lorsque la probabilité de réponse correcte est de 70.7%. Le seuil à 70.7% correspond alors à la valeur de la dimension d'intérêt au niveau de la convergence.*
+```
+
+<br /> 
+
+L'escalier psychophysique est donc un moyen d'obtenir une mesure relativement rapide de seuil qui est par ailleurs définie statistiquement et donc valable quelle que soit la pente de la fonction psychométrique. Cette méthode est par ailleurs adaptative ce qui permet d'optimiser le nombre d'essais nécessaires pour mesurer le seuil (habituellement entre 30 et 50). Autre avantage notable : la méthode de l'escalier est relativement flexible et fonctionne même si la stratégie du sujet n'est pas stable dans le temps. Finalement, comme nous le détaillerons plus loin, en visant un niveau de difficulté donné la méthode de l'escalier permet d'éviter l'effet plafond.
+
+L'inconvénient des méthodes adaptatives, en revanche, est que tous les sujets ne recevront pas exactement le même ensemble de stimuli: celles et ceux qui ont plus de difficultés à réaliser la tâche auront des stimuli plus faciles que les individus plus performants. Ce déséquilibre peut poser problème, par exemple si l'on souhaite comparer deux groupes dans les mêmes conditions expérimentales. Ceci nous incite donc à considérer des méthodes non-adaptatives.
 
 ## La mesure de performance 
 

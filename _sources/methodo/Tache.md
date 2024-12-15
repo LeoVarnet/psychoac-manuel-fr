@@ -1,5 +1,13 @@
 # Tâche et instructions
 
+## Qu'est-ce que la tâche psychophysique ?
+
+Choisir la **tâche** dans une expérience psychophysique revient à déterminer ce que les participants et participantes doivent faire des sons qu'ils écoutent : faut-il les comparer, les comprendre, chercher à identifier une caractéristique particulière ? Autrement dit il s'agit essentiellement des instructions données aux sujets au début de l'expérience. Cependant il est à noter que les instructions dependent également du paradigme psychophysique, décrit plus loin.
+
+## Tâche de détection 
+
+Jusqu'à ce point du manuel nous n'avons considéré qu'un seul type de tâche, la **détection**, correspondant à des instructions du type "avez-vous entendu un son ?" (comme dans le cas de l'audiogramme : "avez-vous entendu un bip sonore ?") ou, plus généralement, "le stimulus que vous venez d'écouter possédait-il telle caractéristique particulière" (par exemple : "ce bip est-il modulé ou non ?").
+
 Seuils de détection (= seuils absolus)
 
 Seuil de détection : Pour un stimulus donné, le niveau minimal auquel il est perceptible

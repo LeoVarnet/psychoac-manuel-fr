@@ -8,13 +8,7 @@ Choisir la **tâche** dans une expérience psychophysique revient à déterminer
 
 Jusqu'à ce point du manuel nous n'avons considéré qu'un seul type de tâche, la **détection**, correspondant à des instructions du type "avez-vous entendu un son ?" (comme dans le cas de l'audiogramme : "avez-vous entendu un bip sonore ?") ou, plus généralement, "le stimulus que vous venez d'écouter possédait-il telle caractéristique particulière" (par exemple : "ce bip est-il modulé ou non ?").
 
-Seuils de détection (= seuils absolus)
-
-Seuil de détection : Pour un stimulus donné, le niveau minimal auquel il est perceptible
-
-« Avez-vous entendu un son ? »
-
-(ou « avez-vous entendu telle caractéristique du son ? », comme dans le cas de la TMTF) 
+L'expérience peut alors prendre la forme suivante :
 
 <br /> 
 
@@ -25,20 +19,18 @@ alt: Schéma de l'expérience psychophysique, tâche de détection
 width: 400px
 align: center
 ---
-*Rappel : schéma de la structure d'une expérience psychoacoustique dans le cas d'une tâche de détection.*
+*Schéma de la structure d'une expérience psychoacoustique dans le cas d'une tâche de détection.*
 ```
 
 <br /> 
 
-Seuils de discrimination 
-(= Differential Limens DL = Just Noticeable Difference JND)
-Seuil de discrimination : La plus petite variation perceptible d’un stimulus donné
+Combinée à une mesure de seuil, la tâche de détection permet d'estimer des **seuils de détection**, aussi appelés **seuils absolus**. Le seuil de détection correspond donc, pour un stimulus donné, au niveau minimal auquel il est perceptible -- ou auquel il est perceptible à X%.
 
-« Les deux sons étaient-ils les mêmes ? »
+## Tâche de discrimination 
 
-(ou « telle caractéristique était-elle identique entre les deux sons ») 
+La tâche de **discrimination**, aussi appelée **"same/different"**, necessite au minimum 2 stimuli par essais. L'objectif du participant ou de la participante est de déterminer si les deux sons étaient les mêmes, ou différents (instructions de type : « Les deux sons que vous venez d'entendre étaient-ils identiques ? »). Comme pour le seuil de détection, l'instruction peut également ne porter que sur une caractéristique particulière des stimuli en faisant abstraction des autres aspects, ou sur l'appartenance ou non à une même catégorie.
 
-
+L'expérience peut se dérouler de la façon suivante :
 
 <br /> 
 
@@ -53,6 +45,10 @@ align: center
 ```
 
 <br /> 
+
+Dans le cas d'une mesure de seuil, on obtient ainsi le **seuil de discrimination** ou **seuil différentiel**, aussi appelé **differential limens** (DL) ou **Just noticeable difference** (JND). Il s'agit de la plus petite variation perceptible d’un stimulus donné.
+
+
 
 Audiogramme       vs.       Courbes isosoniques
 

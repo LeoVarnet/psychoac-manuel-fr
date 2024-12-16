@@ -19,7 +19,7 @@ alt: Schéma de l'expérience psychophysique, tâche de détection
 width: 400px
 align: center
 ---
-*Schéma de la structure d'une expérience psychoacoustique dans le cas d'une tâche de détection.*
+*Schéma de la structure d'une expérience psychoacoustique dans le cas d'une tâche de détection (paradigme yes/no).*
 ```
 
 <br /> 
@@ -30,7 +30,7 @@ Combinée à une mesure de seuil, la tâche de détection permet d'estimer des *
 
 La tâche de **discrimination**, aussi appelée **"same/different"**, necessite au minimum 2 stimuli par essais. L'objectif du participant ou de la participante est de déterminer si les deux sons étaient les mêmes, ou différents (instructions de type : « Les deux sons que vous venez d'entendre étaient-ils identiques ? »). Comme pour la détection, l'instruction peut également ne porter que sur une caractéristique particulière des stimuli en faisant abstraction des autres aspects (par exemple : « Les deux sons que vous venez d'entendre étaient-ils modulés à la même fréquence ? »), ou sur l'appartenance ou non à une même catégorie (par exemple : « Les deux sons que vous venez d'entendre ont-ils été produits par le même objet  ? »).
 
-L'expérience de discrimination peut se dérouler de la façon suivante :
+L'expérience de discrimination se déroule de la façon suivante (dans le cas d'un paradigme yes/no, voir chapitre suivant) :
 
 <br /> 
 
@@ -41,14 +41,14 @@ alt: Schéma de l'expérience psychophysique, tâche de discrimination
 width: 400px
 align: center
 ---
-*Rappel : schéma de la structure d'une expérience psychoacoustique dans le cas d'une tâche de discrimination.*
+*Schéma de la structure d'une expérience psychoacoustique dans le cas d'une tâche de discrimination (paradigme yes/no).*
 ```
 
 <br /> 
 
 Dans le cas d'une mesure de seuil, on obtient ainsi le **seuil de discrimination** aussi appelé **seuil différentiel**,  **differential limens** (DL) ou **Just noticeable difference** (JND). Il s'agit de la plus petite variation perceptible d’un stimulus donné.
 
-Au chapitre précédent, nous avons évoqué le seuil d'audibilité tonale, exemple de seuils de détection consistant à présenter des tons purs d'intensité décroissante jusqu'à ce que le participant ou la participante ne parvienne plus à les détecter (méthode des limites). La répétion de cette mesure de seuils pour des tons de différentes fréquences permet de tracer l'audiogramme et ainsi de démontrer que, au niveau liminaire, l’intensité perçue dépend de la fréquence.
+Au chapitre précédent, nous avons évoqué le seuil d'audibilité tonale, cas particulier de seuils de détection de tons purs. On peut le mesurer en présentant des tons purs d'intensité décroissante jusqu'à ce que le participant ou la participante ne parvienne plus à les détecter (méthode des limites + tâche de détection). La répétion de cette mesure de seuils pour des tons de différentes fréquences permet de tracer l'audiogramme et ainsi de démontrer que, au niveau liminaire, l’intensité perçue dépend de la fréquence.
 
 Audiogramme       vs.       Courbes isosoniques
 

@@ -43,7 +43,7 @@ align: center
 Voici une démo de mesure d'audiogramme. La figure suivante représente les résultats moyens obtenus sur cette démo. Pour plus de simplicité, le seuil de détection n'est pas exprimé en dB mais directement en nombre de tons successifs perçus.
 
 <audio controls>
-  <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/methodo/audiogramme.mp3" type="audio/mp3">
+  <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/methodo/isosonique.wav" type="audio/wav">
 </audio>
 
 <br /> 

@@ -16,7 +16,7 @@ Sensible à la question des enjeux liés à la discrimination sexiste par le lan
 
 ## Un mot sur l'auteur
 
-Je m'appelle **Léo Varnet**, et je suis Chargé de Recherche CNRS, affilié au Laboratoire des Système Perceptifs de l'École Normale Supérieure de Paris. Mes recherches portent sur l'audition humaine et le langage, avec un accent particulier sur l'interface entre ces deux domaines. Je m'intéresse notamment au développement de techniques statistiques et de traitement de signal pour étudier divers aspects de la perception auditive. Pour plus d'informations sur mes recherches, n'hésitez pas à consuler mon site personnel [https://dbao.leo-varnet.fr/about-me/](De Bouche À Oreille).
+Je m'appelle **Léo Varnet**, et je suis Chargé de Recherche CNRS, affilié au Laboratoire des Système Perceptifs de l'École Normale Supérieure de Paris. Mes recherches portent sur l'audition humaine et le langage, avec un accent particulier sur l'interface entre ces deux domaines. Je m'intéresse notamment au développement de techniques statistiques et de traitement de signal pour étudier divers aspects de la perception auditive. Pour plus d'informations sur mes recherches, n'hésitez pas à consuler mon site personnel [De Bouche À Oreille](https://dbao.leo-varnet.fr/).
 
 ## Remerciements
 

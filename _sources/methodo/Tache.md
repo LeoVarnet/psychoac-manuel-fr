@@ -50,9 +50,31 @@ Dans le cas d'une mesure de seuil, on obtient ainsi le **seuil de discrimination
 
 Au chapitre précédent, nous avons évoqué le seuil d'audibilité tonale, cas particulier de seuils de détection de tons purs. On peut le mesurer en présentant des tons purs d'intensité décroissante jusqu'à ce que le participant ou la participante ne parvienne plus à les détecter (méthode des limites + tâche de détection). La répétion de cette mesure de seuils pour des tons de différentes fréquences permet de tracer l'audiogramme et ainsi de démontrer que, au niveau liminaire, l’intensité perçue dépend de la fréquence.
 
-En revanche, cette expérience ne permet pas de déterminer si le même phénomène se produit à des niveaux supraliminaires (au dessus du seuil de perception) : la perception de l'intensité à des niveaux élevés dépend-elle de la fréquence ? Pour le savoir, il est nécessaire de réaliser une seconde expérience, très similaire à la première mais basée sur une tâche de discrimination. Le protocole expérimental est le même, à une différence près : deux sons sont présentés à chaque essais et la tâche consiste à indiquer s'ils étaient de même intensité ou non. Le premier son est un stimulus de référence, identique pour tous les essais, ici un ton pur à 1 kHz et à une intensité fixe (p.ex. 60 dB SPL). Le second son est le véritable stimulus de test, un ton pur à la fréquence testée (p.ex. 2 kHz), et d'intensité variable. Après avoir écouté les deux sons, le participant ou la participante doit indiquer s'ils étaient à la même intensité ou non. On suit la méthode des limites pour déterminer le seuil de discrimination, le niveau du ton testé pour lequel il est jugé à la même intensité que le son de référence. 
+En revanche, cette expérience ne permet pas de déterminer si le même phénomène se produit à des niveaux supraliminaires (au dessus du seuil de perception) : la perception de l'intensité à des niveaux élevés dépend-elle de la fréquence ? Pour le savoir, il est nécessaire de réaliser une seconde expérience, très similaire à la première mais basée sur une tâche de discrimination. Le protocole expérimental est le même, à une différence près : deux sons sont présentés à chaque essais et la tâche consiste à indiquer s'ils étaient de même intensité ou non. Le premier son est un stimulus de référence, identique pour tous les essais, ici un ton pur à 1 kHz et à une intensité fixe (p.ex. 60 dB SPL). Le second son est le véritable stimulus de test, un ton pur à la fréquence testée (p.ex. 500 Hz), et d'intensité variable. Après avoir écouté les deux sons, le participant ou la participante doit indiquer s'ils étaient à la même intensité ou non. On suit la méthode des limites pour déterminer le seuil de discrimination, le niveau du ton testé pour lequel il est jugé à la même intensité que le son de référence. 
+
+Voici une démo de la mesure de seuil de discrimination décrite ci-dessus.
+
+<audio controls>
+  <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/methodo/audiogramme.mp3" type="audio/mp3">
+</audio>
 
 Ce deuxième protocole expérimental, lorsqu'il est répété pour un certain nombre de fréquences test, permet de tracer la **courbe isosonique** pour l'intensité de référence. En répliquant la procédure pour différentes intensités de référence, on obtient ainsi un faisceau de courbes isosoniques qui offrent un aperçu de la perception de l'intensité selon les fréquences.
+
+<br /> 
+
+```{figure} Isosonique.png
+---
+name: Isosonique.png
+alt: Courbes isosoniques
+width: 400px
+align: center
+---
+*Courbes isosoniques.*
+```
+
+<br /> 
+
+
 
 Choix de la tâche psychophysique
 

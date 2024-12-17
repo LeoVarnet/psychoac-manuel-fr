@@ -377,7 +377,9 @@
 <button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <i class="fa-solid fa-magnifying-glass fa-lg"></i>
 </button>
-
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
 </div></div>
       
     </div>
@@ -393,6 +395,16 @@
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Bienvenue !</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#introduction-generale-a-la-psychoacoustique">Introduction générale à la psychoacoustique</a></li>
+</ul>
+
+            </nav>
         </div>
     </div>
 </div>
@@ -402,18 +414,19 @@
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <div class="toctree-wrapper compound">
+  <section id="bienvenue">
+<h1>Bienvenue !<a class="headerlink" href="#bienvenue" title="Link to this heading">#</a></h1>
+<div class="toctree-wrapper compound">
 </div>
 <p><img alt="diler logo" src="../_images/logo.png" /></p>
-<p><strong>Introduction générale à la psychoacoustique</strong></p>
+</section>
+<section id="introduction-generale-a-la-psychoacoustique">
+<h1>Introduction générale à la psychoacoustique<a class="headerlink" href="#introduction-generale-a-la-psychoacoustique" title="Link to this heading">#</a></h1>
 <p><em>Léo Varnet</em></p>
 <p>Ce manuel a pour vocation de fournir une introduction à la psychoacoustique, la science qui explore la manière dont le système auditif humain perçoit et interprète les sons qui nous entourent. Il s’adresse aux étudiant·es en psychologie, en audiologie, ou en acoustique, ingénieur·es du son, musicien·nes ou simplement à toute personne passionnée par le monde de l’audio. Plutôt que de dresser un panorama exhaustif des différentes problématiques du domaine, j’ai choisi de mettre l’accent sur ce qui fait la grande cohérence de cette discipline : sa méthodologie. Le premier chapitre sera dédié à présenter les bases de l’experimentation psychophysique, et le second à décrire le fonctionnement général du système auditif humain et sa modélisation. Ces deux aspects, méthodologie et modélisation, seront ensuite mis en oeuvre dans les chapitres suivants pour aborder diverses problématiques psychoacoustiques “classiques”. Au chapitre 3, nous étudierons les mécanismes qui régissent notre perception de caractéristiques simples des sons : l’intensité, la hauteur, le timbre, et la localisation. Au chapitre 4, nous nous intéresserons à un type de stimuli sonore extrêmement utile pour les humains : les sons de parole. Nous verrons en particulier comment les phonèmes, unités de base du langage oral, sont décodés par le cerveau. Finalement, le chapitre 5 traitera de mécanismes cognitifs plus complexes grâce auxquels notre cerveau analyse les sons que nous percevons et les organise en sources sonores distinctes.</p>
 <p>Le but de ce cours est non seulement d’introduire certaines notions nécessaires pour comprendre le fonctionnement de la perception auditive, mais également de fournir des clés pour construire ses propres expériences de psychoacoustique, et des outils pour répondre à des questions pratiques telles que “comment prédire l’intensité perçue?”</p>
 <p>Cet ouvrage est publié sous une licence <a class="reference external" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC-BY-NC-SA</a>. Si vous remarquez une erreur, n’hésitez pas à la signaler sur la <a class="reference external" href="https://github.com/LeoVarnet/psychoacoustique">page GitHub</a> de cette ressource éducative ouverte.</p>
 <p><img alt="CC-BY-NC-SA" src="../_images/Cc-by-nc-sa_icon.svg.png" /></p>
-<p><strong>Sommaire</strong></p>
-<section id="bienvenue">
-<h1>Bienvenue !<a class="headerlink" href="#bienvenue" title="Link to this heading">#</a></h1>
 <aside class="margin sidebar">
 <p class="sidebar-title"></p>
 <div class="admonition warning">
@@ -470,6 +483,24 @@
             </div>
             
             
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Bienvenue !</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#introduction-generale-a-la-psychoacoustique">Introduction générale à la psychoacoustique</a></li>
+</ul>
+
+  </nav></div>
+
+</div></div>
               
             
           </div>

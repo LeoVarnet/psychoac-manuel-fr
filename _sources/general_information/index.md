@@ -1,4 +1,6 @@
 
+# Bienvenue !
+
 ```{toctree}
 ---
 hidden: true
@@ -7,10 +9,10 @@ titlesonly: true
 ---
 ```
 
+
 ![diler logo](../static/logo.png)
 
-
-**Introduction générale à la psychoacoustique**
+# Introduction générale à la psychoacoustique
 
 *Léo Varnet*
 
@@ -18,15 +20,10 @@ Ce manuel a pour vocation de fournir une introduction à la psychoacoustique, la
 
 Le but de ce cours est non seulement d'introduire certaines notions nécessaires pour comprendre le fonctionnement de la perception auditive, mais également de fournir des clés pour construire ses propres expériences de psychoacoustique, et des outils pour répondre à des questions pratiques telles que "comment prédire l’intensité perçue?"
 
-
 Cet ouvrage est publié sous une licence [CC-BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/). Si vous remarquez une erreur, n'hésitez pas à la signaler sur la [page GitHub](https://github.com/LeoVarnet/psychoacoustique) de cette ressource éducative ouverte.
 
 ![CC-BY-NC-SA](../static/Cc-by-nc-sa_icon.svg.png)
 
-**Sommaire**
-
-
-# Bienvenue !
 
 ````{margin}
 ```{warning}

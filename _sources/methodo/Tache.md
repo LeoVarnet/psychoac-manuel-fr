@@ -55,7 +55,7 @@ En revanche, cette expérience ne permet pas de déterminer si le même phénom�
 Voici une démo de la mesure de seuil de discrimination décrite ci-dessus.
 
 <audio controls>
-  <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/methodo/audiogramme.mp3" type="audio/mp3">
+  <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/methodo/isosonique.wav" type="audio/wav">
 </audio>
 
 Ce deuxième protocole expérimental, lorsqu'il est répété pour un certain nombre de fréquences test, permet de tracer la **courbe isosonique** pour l'intensité de référence. En répliquant la procédure pour différentes intensités de référence, on obtient ainsi un faisceau de courbes isosoniques qui offrent un aperçu de la perception de l'intensité selon les fréquences.

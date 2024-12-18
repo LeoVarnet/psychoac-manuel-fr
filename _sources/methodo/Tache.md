@@ -8,7 +8,7 @@ Choisir la **tâche** dans une expérience psychophysique revient à déterminer
 
 Jusqu'à ce point du manuel nous n'avons considéré qu'un seul type de tâche, la **détection**, correspondant à des instructions du type "avez-vous entendu un son ?" (comme dans le cas de l'audiogramme : "avez-vous entendu un bip sonore ?") ou, plus généralement, "le stimulus que vous venez d'écouter possédait-il telle caractéristique particulière" (par exemple : "ce bip est-il modulé ou non ?").
 
-L'expérience peut alors prendre la forme suivante :
+L'expérience prend alors la forme suivante, dans le cas de l'audiogramme :
 
 <br /> 
 
@@ -19,18 +19,18 @@ alt: Schéma de l'expérience psychophysique, tâche de détection
 width: 400px
 align: center
 ---
-*Schéma de la structure d'une expérience psychoacoustique dans le cas d'une tâche de détection (paradigme yes/no).*
+*Schéma de la structure d'une expérience psychoacoustique dans le cas d'une tâche de détection (avec un paradigme yes/no).*
 ```
 
 <br /> 
 
-Combinée à une mesure de seuil, la tâche de détection permet d'estimer des **seuils de détection**, aussi appelés **seuils absolus**. Le seuil de détection correspond donc, pour un stimulus donné, au niveau minimal auquel il est perceptible -- ou auquel il est perceptible à X%.
+Combinée à une mesure de seuil, la tâche de détection permet d'estimer des **seuils de détection**, aussi appelés **seuils absolus**. Le seuil de détection correspond donc, pour un stimulus donné, au niveau minimal auquel il est perceptible -- ou auquel il est perceptible avec une précision de X%.
 
 ## Tâche de discrimination 
 
-La tâche de **discrimination**, aussi appelée **"same/different"**, necessite au minimum 2 stimuli par essais. L'objectif du participant ou de la participante est de déterminer si les deux sons étaient les mêmes, ou différents (instructions de type : « Les deux sons que vous venez d'entendre étaient-ils identiques ? »). Comme pour la détection, l'instruction peut également ne porter que sur une caractéristique particulière des stimuli en faisant abstraction des autres aspects (par exemple : « Les deux sons que vous venez d'entendre étaient-ils modulés à la même fréquence ? »), ou sur l'appartenance ou non à une même catégorie (par exemple : « Les deux sons que vous venez d'entendre ont-ils été produits par le même objet  ? »).
+La tâche de **discrimination**, aussi appelée **"same/different"**, necessite au minimum deux stimuli par essais. L'objectif du participant ou de la participante est de déterminer si les deux sons étaient les mêmes, ou différents (instructions du type : « Les deux sons que vous venez d'entendre étaient-ils identiques ? »). Comme pour la détection, l'instruction peut également ne porter que sur une caractéristique particulière des stimuli en faisant abstraction des autres aspects (par exemple : « Les deux sons que vous venez d'entendre étaient-ils modulés à la même fréquence ? »), ou sur l'appartenance ou non à une même catégorie (par exemple : « Les deux sons que vous venez d'entendre ont-ils été produits par le même objet  ? »).
 
-L'expérience de discrimination se déroule de la façon suivante (dans le cas d'un paradigme yes/no, voir chapitre suivant) :
+Voici un exemple de déroulement d'une expérience de discrimination :
 
 <br /> 
 
@@ -41,14 +41,28 @@ alt: Schéma de l'expérience psychophysique, tâche de discrimination
 width: 400px
 align: center
 ---
-*Schéma de la structure d'une expérience psychoacoustique dans le cas d'une tâche de discrimination (paradigme yes/no).*
+*Schéma de la structure d'une expérience psychoacoustique dans le cas d'une tâche de discrimination, avec un paradigme yes/no.*
 ```
 
 <br /> 
 
-Dans le cas d'une mesure de seuil, on obtient ainsi le **seuil de discrimination** aussi appelé **seuil différentiel**,  **differential limens** (DL) ou **Just noticeable difference** (JND). Il s'agit de la plus petite variation perceptible d’un stimulus donné.
+Dans le cas d'une mesure de seuil, on obtient ainsi le **seuil de discrimination** aussi appelé **seuil différentiel**, ***differential limens*** (DL) ou ***just noticeable difference*** (JND). Il s'agit de la plus petite variation perceptible d’un stimulus donné.
 
-Au chapitre précédent, nous avons évoqué le seuil d'audibilité tonale, cas particulier de seuils de détection de tons purs. On peut le mesurer en présentant des tons purs d'intensité décroissante jusqu'à ce que le participant ou la participante ne parvienne plus à les détecter (méthode des limites + tâche de détection). La répétion de cette mesure de seuils pour des tons de différentes fréquences permet de tracer l'audiogramme et ainsi de démontrer que, au niveau liminaire, l’intensité perçue dépend de la fréquence.
+Au chapitre précédent, nous avons évoqué le seuil d'audibilité tonale, cas particulier de seuils de détection de tons purs. Comme nous l'avons vu, on peut le mesurer en présentant des tons purs d'intensité décroissante jusqu'à ce que le participant ou la participante ne parvienne plus à les détecter (méthode des limites + tâche de détection). La répétion de cette mesure de seuils pour des tons de différentes fréquences permet de tracer l'audiogramme et ainsi de démontrer que, au niveau liminaire, l’intensité perçue dépend de la fréquence. Par exemple, comme on peut le lire sur la figure suivante, un ton pur à 20 dB SPL sera audible ou non selon que sa fréquence est 50 Hz ou 500 Hz.
+
+<br /> 
+
+```{figure} Audiogramme4.png
+---
+name: Audiogramme4.png
+alt: Audiogramme
+width: 400px
+align: center
+---
+*Rappel : tracé de l'audiogramme.*
+```
+
+<br /> 
 
 En revanche, cette expérience ne permet pas de déterminer si le même phénomène se produit à des niveaux supraliminaires (au dessus du seuil de perception) : la perception de l'intensité à des niveaux élevés dépend-elle de la fréquence ? Pour le savoir, il est nécessaire de réaliser une seconde expérience, très similaire à la première mais basée sur une tâche de discrimination. Le protocole expérimental est le même, à une différence près : deux sons sont présentés à chaque essais et la tâche consiste à indiquer s'ils étaient de même intensité ou non. Le premier son est un stimulus de référence, identique pour tous les essais, ici un ton pur à 1 kHz et à une intensité fixe (p.ex. 60 dB SPL). Le second son est le véritable stimulus de test, un ton pur à la fréquence testée (p.ex. 500 Hz), et d'intensité variable. Après avoir écouté les deux sons, le participant ou la participante doit indiquer s'ils étaient à la même intensité ou non. On suit la méthode des limites pour déterminer le seuil de discrimination, le niveau du ton testé pour lequel il est jugé à la même intensité que le son de référence. 
 
@@ -58,7 +72,7 @@ Voici une démo de la mesure de seuil de discrimination décrite ci-dessus.
   <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/methodo/isosonique.wav" type="audio/wav">
 </audio>
 
-Ce deuxième protocole expérimental, lorsqu'il est répété pour un certain nombre de fréquences test, permet de tracer la **courbe isosonique** pour l'intensité de référence. En répliquant la procédure pour différentes intensités de référence, on obtient ainsi un faisceau de courbes isosoniques qui offrent un aperçu de la perception de l'intensité selon les fréquences.
+Ce deuxième protocole expérimental, lorsqu'il est répété pour un certain nombre de fréquences test, permet de tracer la **courbe isosonique** pour l'intensité de référence. En répliquant la procédure pour différentes intensités de référence, on obtient ainsi un faisceau de courbes isosoniques qui offrent un aperçu de la perception de l'intensité selon les fréquences à différents niveaux sonores.
 
 <br /> 
 
@@ -66,24 +80,27 @@ Ce deuxième protocole expérimental, lorsqu'il est répété pour un certain no
 ---
 name: Isosonique.png
 alt: Courbes isosoniques
-width: 400px
+width: 500px
 align: center
 ---
-*Courbes isosoniques.*
+*Courbes isosoniques typiques. Chaque courbe bleue est mesurée relativement à un ton de référence à 1 kHz et dont l'intensité est indiquée en orange. La courbe la plus basse (en vert) correspond aux seuils auditifs mesurés précédemment par l'audiogramme. Chaque courbe indique donc un ensemble de tons purs perçus comme ayant la même intensité.*
 ```
 
 <br /> 
 
+## Choix de la tâche psychophysique
 
+On peut distinguer quatre grands types de tâches psychophysiques :
 
-Choix de la tâche psychophysique
+- **Détection** : Pouvez-vous l’entendre ? Pouvez-vous entendre telle caractéristique ?
+- **Discrimination** : Pouvez-vous entendre la différence avec cet autre stimulus ?
+- **Catégorisation** ou **identification** : À quelle catégorie appartient le son que vous venez d'entendre ? Est-ce plutôt un X, un Y, ou un Z ?
+- **Reconnaissance** ou **intelligibilité** : Quel est le son que vous venez d'entendre ? Pouvez vous répéter ce que vous avez compris ?
 
-Détection : Pouvez-vous l’entendre ? Pouvez-vous entendre telle caractéristique ?
-Discrimination : Pouvez-vous entendre la différence avec cet autre stimulus ?
-Catégorisation/identification : Est-ce plutôt un X ou un Y ? (si seulement deux catégories, équivalent à une détection)
+Il convient de souligner à ce stade qu'il existe un recouvrement partiel entre ces différentes tâches. Ainsi, une tâche de détection d'un signal particulier peut être considérée comme une catégorisation du stimulus entre les deux catégories "signal présent" et "signal absent". De même, si on ne considère qu'un ensemble restreint de son possibles, la reconnaissance est assimilable à une catégorisation. Cette redondance reste toutefois sans grande conséquence, à condition que la tâche soit clairement définie.
 
-…et, pour des sons de parole,
-Intelligibilité : Répétez le stimulus que vous venez d’entendre
+En revanche, un point plus problématique réside dans le fait que la tâche ne décrit pas seulement le protocole expérimental en lui-même, mais également la manière dont le participant ou la participante exécute les instructions qui lui sont données. Si l'on considère une tâche de discrimination nécessitant de comparer un stimulus et un signal cible de référence présenté à chaque essai. Il est possible de réaliser effectivement cette tâche comme une discrimination, mais une alternative possible consisterait à ignorer le signal de référence -- puisque celui-ci est identique d'un essai à l'autre -- et à écouter uniquement sur le stimulus. Cela reviendrait alors à effectuer une tâche de détection. En pratique, il est important pour l'expérimentateur ou l'expérimentatrice d'envisager toutes les stratégies possibles pour réaliser la tâche, et éventuellement de mettre en place des contrôles pour éliminer certaines stratégies jugées indésirables (par exemple, dans la tâche décrite ci-dessus, changer régulièrement le signal cible pour contraindre le participant ou la participante à prêter attention à la référence). 
+
 
 Combinables avec les 4 méthodes vues précédemment. Par exemple, on peut mesurer un seuil de discrimination par méthode des limites ou un seuil de discrimination à X % avec un escalier psychophysique.
 
@@ -95,6 +112,7 @@ Les tâches de détection et de catégorisation nécessitent de décrire le stim
 On peut alors utiliser la tâche de discrimination pour donner des instructions implicites
 …mais on doit alors présenter deux fois plus de stimuli
 
+Ajouter le fait que 
 
 
 

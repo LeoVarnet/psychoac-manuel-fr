@@ -12,9 +12,9 @@ Instruction : « Avez-vous entendu un son ? »
 
 <br /> 
 
-```{figure} ExpeYN.jpg
+```{figure} ExpeYN.png
 ---
-name: ExpeYN.jpg
+name: ExpeYN.png
 alt: Schéma de l'expérience yes/no
 height: 400px
 align: center
@@ -42,9 +42,9 @@ Instruction : « Sélectionnez l’intervalle contenant le ton »
 
 <br /> 
 
-```{figure} ExpeFC.jpg
+```{figure} ExpeFC.png
 ---
-name: ExpeFC.jpg
+name: ExpeFC.png
 alt: Schéma de l'expérience forced choice
 height: 400px
 align: center

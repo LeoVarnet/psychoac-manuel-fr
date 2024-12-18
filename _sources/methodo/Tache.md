@@ -87,5 +87,15 @@ Intelligibilité : Répétez le stimulus que vous venez d’entendre
 
 Combinables avec les 4 méthodes vues précédemment. Par exemple, on peut mesurer un seuil de discrimination par méthode des limites ou un seuil de discrimination à X % avec un escalier psychophysique.
 
+Exemple : perception des paysages sonores
+
+Instructions implicites
+
+Les tâches de détection et de catégorisation nécessitent de décrire le stimulus-cible au sujet. Dans certains cas on ne souhaite pas donner trop de détails (car stimuli trop complexes, ou risque de rendre le comportement du sujet moins naturel, d’imposer la « grille de lecture » de l’expérimentateur·ice)
+On peut alors utiliser la tâche de discrimination pour donner des instructions implicites
+…mais on doit alors présenter deux fois plus de stimuli
+
+
+
 
 

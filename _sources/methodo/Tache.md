@@ -28,7 +28,7 @@ Combinée à une mesure de seuil, la tâche de détection permet d'estimer des *
 
 ## Tâche de discrimination 
 
-La tâche de **discrimination**, aussi appelée **"same/different"**, necessite au minimum deux stimuli par essais. L'objectif du participant ou de la participante est de déterminer si les deux sons étaient les mêmes, ou différents (instructions du type : « Les deux sons que vous venez d'entendre étaient-ils identiques ? »). Comme pour la détection, l'instruction peut également ne porter que sur une caractéristique particulière des stimuli en faisant abstraction des autres aspects (par exemple : « Les deux sons que vous venez d'entendre étaient-ils modulés à la même fréquence ? »), ou sur l'appartenance ou non à une même catégorie (par exemple : « Les deux sons que vous venez d'entendre ont-ils été produits par le même objet  ? »).
+La tâche de **discrimination**, aussi appelée ***same/different***, necessite au minimum deux stimuli par essais. L'objectif du participant ou de la participante est de déterminer si les deux sons étaient les mêmes, ou différents (instructions du type : « Les deux sons que vous venez d'entendre étaient-ils identiques ? »). Comme pour la détection, l'instruction peut également ne porter que sur une caractéristique particulière des stimuli en faisant abstraction des autres aspects (par exemple : « Les deux sons que vous venez d'entendre étaient-ils modulés à la même fréquence ? »), ou sur l'appartenance ou non à une même catégorie (par exemple : « Les deux sons que vous venez d'entendre ont-ils été produits par le même objet  ? »).
 
 Voici un exemple de déroulement d'une expérience de discrimination :
 
@@ -93,13 +93,18 @@ align: center
 On peut distinguer quatre grands types de tâches psychophysiques :
 
 - **Détection** : Pouvez-vous l’entendre ? Pouvez-vous entendre telle caractéristique ?
-- **Discrimination** : Pouvez-vous entendre la différence avec cet autre stimulus ?
+- **Discrimination** ou ***same/different*** : Pouvez-vous entendre la différence avec cet autre stimulus ?
 - **Catégorisation** ou **identification** : À quelle catégorie appartient le son que vous venez d'entendre ? Est-ce plutôt un X, un Y, ou un Z ?
 - **Reconnaissance** ou **intelligibilité** : Quel est le son que vous venez d'entendre ? Pouvez vous répéter ce que vous avez compris ?
 
 Il convient de souligner à ce stade qu'il existe un recouvrement partiel entre ces différentes tâches. Ainsi, une tâche de détection d'un signal particulier peut être considérée comme une catégorisation du stimulus entre les deux catégories "signal présent" et "signal absent". De même, si on ne considère qu'un ensemble restreint de son possibles, la reconnaissance est assimilable à une catégorisation. Cette redondance reste toutefois sans grande conséquence, à condition que la tâche soit clairement définie.
 
 En revanche, un point plus problématique réside dans le fait que la tâche ne décrit pas seulement le protocole expérimental en lui-même, mais également la manière dont le participant ou la participante exécute les instructions qui lui sont données. Si l'on considère une tâche de discrimination nécessitant de comparer un stimulus et un signal cible de référence présenté à chaque essai. Il est possible de réaliser effectivement cette tâche comme une discrimination, mais une alternative possible consisterait à ignorer le signal de référence -- puisque celui-ci est identique d'un essai à l'autre -- et à écouter uniquement sur le stimulus. Cela reviendrait alors à effectuer une tâche de détection. En pratique, il est important pour l'expérimentateur ou l'expérimentatrice d'envisager toutes les stratégies possibles pour réaliser la tâche, et éventuellement de mettre en place des contrôles pour éliminer certaines stratégies jugées indésirables (par exemple, dans la tâche décrite ci-dessus, changer régulièrement le signal cible pour contraindre le participant ou la participante à prêter attention à la référence). 
+
+Tout comme pour les stimuli, si le choix d'une tâche particulière est avant tout guidé par la question scientifique considérée, d'autres critères peuvent également entrer en jeu. En particulier, la tâche de discrimination présente une particularité, comparativement aux tâches de détection ou de catégorisation.
+
+an attractive feature of the oddity task is that the observer need
+not know the basis on which the stimuli differ
 
 
 Combinables avec les 4 méthodes vues précédemment. Par exemple, on peut mesurer un seuil de discrimination par méthode des limites ou un seuil de discrimination à X % avec un escalier psychophysique.

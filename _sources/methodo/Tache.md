@@ -107,19 +107,7 @@ Tout comme pour les stimuli, si le choix d'une tâche particulière est avant to
 On peut alors utiliser la tâche de discrimination pour donner des instructions implicites. En effet, il suffit pour cette tâche de demander à identifier le son différent -- sans nécessairement préciser en quoi.
 En contrepartie, la tâche de détection nécessite de présenter un stimulus de plus à chaque essai ce qui peut rallonger considérablement l'expérience.
 
-la tâche de discrimination présente une particularité intéressante, comparativement aux tâches de détection ou de catégorisation : le sujet n'a pas nécessairement besoin de savoir *en quoi* les stimuli sont différents pour réaliser la tâche.
-
-
-
-Combinables avec les 4 méthodes vues précédemment. Par exemple, on peut mesurer un seuil de discrimination par méthode des limites ou un seuil de discrimination à X % avec un escalier psychophysique.
+Les quatre tâches psychophysiques sont combinables avec les 4 méthodes vues précédemment. Par exemple, on peut mesurer seuil d'intelligibilité à 50% avec un escalier psychophysique (celui-ci est appelé *speech reception threshold*, SRT).
 
 Exemple : perception des paysages sonores
-
-Instructions implicites
-
-
-Ajouter le fait que 
-
-
-
 

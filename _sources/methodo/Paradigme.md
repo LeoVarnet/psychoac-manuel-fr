@@ -31,7 +31,7 @@ Le paradigme du choix forcé offre un moyen d'obtenir une mesure **indépendante
 ## Le paradigme du choix forcé
 
 Voici une seconde expérience permettant elle aussi de mesurer les seuils d'audibilité tonale :
-À chaque essai, deux stimuli successifs sont présentés dans un ordre aléatoire, l’un étant un ton cible l’autre un silence. (Pour identifier l'intervalle contenant le silence, on peut indiquer le debut de chaque stimulus par une lumière ou un léger signal sonore). Après ces deux stimuli, l'instruction qui s'affiche à l'écran est : « Sélectionnez l’intervalle contenant le ton »
+À chaque essai, deux stimuli successifs sont présentés dans un ordre aléatoire, l’un étant un ton cible l’autre un silence. (Pour identifier l'intervalle contenant le silence, on peut indiquer le debut de chaque stimulus par une lumière ou un léger signal sonore). Après ces deux stimuli, la consigne donnée au sujet est de sélectionner l’intervalle contenant le ton. Deux boutons de réponse sont disponibles pour indiquer si le ton de trouvait en première position ou en deuxième position.
 
 <audio controls>
   <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/methodo/2AFC.wav" type="audio/wav">
@@ -46,12 +46,14 @@ alt: Schéma de l'expérience forced choice
 height: 400px
 align: center
 ---
-*.......*
+*Structure de l'expérience de mesure des seuils d'audibilité tonale en paradigme de choix forcé (méthode des limites, tâche de détection, paradigme 2AFC)**
 ```
 
 <br /> 
 
-Le principe : 2 détections, comparées l’une avec l’autre. Le biais de réponse éventuel s’applique de la même façon aux deux stimuli, et ainsi se compense dans le choix de l’intervalle.
+Cette seconde expérience repose sur la même tâche et la même méthode que la précédente, en revanche le paradigme est différent : il s'agit d'un **choix forcé à deux alternatives**.
+
+Une propriété intéressante de ce paradigme, comparé au yes/no, est son immunité aux effets de biais. Fondamentalementalement, chaque essai de l'expérience décrite ci-dessus consiste non pas en une tâche de détection, mais en deux détections successives (une pour chaque stimulus présentés) qui sont ensuite comparées l'une avec l'autre. De fait, le biais de réponse éventuel s’applique de la même façon aux deux stimuli, et ainsi se compense dans le choix de l’intervalle.
 
 Paradigme du choix forcé à 2 alternatives (2AFC) : chaque essai contient 2 stimuli successifs, la tâche consiste à en sélectionner un.
 Le choix forcé à 3 alternatives (3AFC) est parfois également utilisé.

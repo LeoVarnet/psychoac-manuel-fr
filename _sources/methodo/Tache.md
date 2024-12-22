@@ -101,10 +101,14 @@ Il convient de souligner à ce stade qu'il existe un recouvrement partiel entre 
 
 En revanche, un point plus problématique réside dans le fait que la tâche ne décrit pas seulement le protocole expérimental en lui-même, mais également la manière dont le participant ou la participante exécute les instructions qui lui sont données. Si l'on considère une tâche de discrimination nécessitant de comparer un stimulus et un signal cible de référence présenté à chaque essai. Il est possible de réaliser effectivement cette tâche comme une discrimination, mais une alternative possible consisterait à ignorer le signal de référence -- puisque celui-ci est identique d'un essai à l'autre -- et à écouter uniquement sur le stimulus. Cela reviendrait alors à effectuer une tâche de détection. En pratique, il est important pour l'expérimentateur ou l'expérimentatrice d'envisager toutes les stratégies possibles pour réaliser la tâche, et éventuellement de mettre en place des contrôles pour éliminer certaines stratégies jugées indésirables (par exemple, dans la tâche décrite ci-dessus, changer régulièrement le signal cible pour contraindre le participant ou la participante à prêter attention à la référence). 
 
-Tout comme pour les stimuli, si le choix d'une tâche particulière est avant tout guidé par la question scientifique considérée, d'autres critères peuvent également entrer en jeu. En particulier, la tâche de discrimination présente une particularité, comparativement aux tâches de détection ou de catégorisation.
+Tout comme pour les stimuli, si le choix d'une tâche particulière est avant tout guidé par la question scientifique considérée, d'autres critères peuvent également entrer en jeu. En particulier, les tâches de détection et de catégorisation nécessitent de décrire précisément le stimulus-cible au sujet. Dans certains cas, on ne souhaite pas donner trop de détails dans les instructions, notamment :
+- lorsque les stimuli sont trop complexes pour être décrits de façon succincte et compréhensible par des personnes extérieures au domaine
+- ou s'il y a un risque de rendre ainsi le comportement du sujet moins naturel, ou d’imposer une « grille de lecture » particulière 
+On peut alors utiliser la tâche de discrimination pour donner des instructions implicites. En effet, il suffit pour cette tâche de demander à identifier le son différent -- sans nécessairement préciser en quoi.
+En contrepartie, la tâche de détection nécessite de présenter un stimulus de plus à chaque essai ce qui peut rallonger considérablement l'expérience.
 
-an attractive feature of the oddity task is that the observer need
-not know the basis on which the stimuli differ
+la tâche de discrimination présente une particularité intéressante, comparativement aux tâches de détection ou de catégorisation : le sujet n'a pas nécessairement besoin de savoir *en quoi* les stimuli sont différents pour réaliser la tâche.
+
 
 
 Combinables avec les 4 méthodes vues précédemment. Par exemple, on peut mesurer un seuil de discrimination par méthode des limites ou un seuil de discrimination à X % avec un escalier psychophysique.
@@ -113,9 +117,6 @@ Exemple : perception des paysages sonores
 
 Instructions implicites
 
-Les tâches de détection et de catégorisation nécessitent de décrire le stimulus-cible au sujet. Dans certains cas on ne souhaite pas donner trop de détails (car stimuli trop complexes, ou risque de rendre le comportement du sujet moins naturel, d’imposer la « grille de lecture » de l’expérimentateur·ice)
-On peut alors utiliser la tâche de discrimination pour donner des instructions implicites
-…mais on doit alors présenter deux fois plus de stimuli
 
 Ajouter le fait que 
 

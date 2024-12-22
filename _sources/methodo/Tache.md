@@ -101,6 +101,8 @@ Il convient de souligner à ce stade qu'il existe un recouvrement partiel entre 
 
 En revanche, un point plus problématique réside dans le fait que la tâche ne décrit pas seulement le protocole expérimental en lui-même, mais également la manière dont le participant ou la participante exécute les instructions qui lui sont données. Si l'on considère une tâche de discrimination nécessitant de comparer un stimulus et un signal cible de référence présenté à chaque essai. Il est possible de réaliser effectivement cette tâche comme une discrimination, mais une alternative possible consisterait à ignorer le signal de référence -- puisque celui-ci est identique d'un essai à l'autre -- et à écouter uniquement sur le stimulus. Cela reviendrait alors à effectuer une tâche de détection. En pratique, il est important pour l'expérimentateur ou l'expérimentatrice d'envisager toutes les stratégies possibles pour réaliser la tâche, et éventuellement de mettre en place des contrôles pour éliminer certaines stratégies jugées indésirables (par exemple, dans la tâche décrite ci-dessus, changer régulièrement le signal cible pour contraindre le participant ou la participante à prêter attention à la référence). 
 
+Les quatre tâches psychophysiques sont combinables avec les 4 méthodes vues précédemment. Par exemple, on peut mesurer seuil d'intelligibilité à 50% avec un escalier psychophysique (celui-ci est appelé *speech reception threshold*, SRT) avec un escalier psychophysique 1-up-1-down couplé à une tâche d'intelligibilité.
+
 Tout comme pour les stimuli, si le choix d'une tâche particulière est avant tout guidé par la question scientifique considérée, d'autres critères peuvent également entrer en jeu. En particulier, les tâches de détection et de catégorisation nécessitent de décrire précisément le stimulus-cible au sujet. Dans certains cas, on ne souhaite pas donner trop de détails dans les instructions, notamment :
 - lorsque les stimuli sont trop complexes pour être décrits de façon succincte et compréhensible par des personnes extérieures au domaine
 - ou s'il y a un risque de rendre ainsi le comportement du sujet moins naturel, ou d’imposer une « grille de lecture » particulière 
@@ -108,7 +110,7 @@ Tout comme pour les stimuli, si le choix d'une tâche particulière est avant to
 On peut alors utiliser la tâche de discrimination pour donner des instructions implicites. En effet, il suffit pour cette tâche de demander à identifier le son différent -- sans nécessairement préciser en quoi.
 En contrepartie, la tâche de détection nécessite de présenter un stimulus de plus à chaque essai ce qui peut rallonger considérablement l'expérience.
 
-Les quatre tâches psychophysiques sont combinables avec les 4 méthodes vues précédemment. Par exemple, on peut mesurer seuil d'intelligibilité à 50% avec un escalier psychophysique (celui-ci est appelé *speech reception threshold*, SRT).
+
 
 Exemple : perception des paysages sonores
 

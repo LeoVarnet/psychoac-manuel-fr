@@ -2,13 +2,11 @@
 
 ## Qu'est-ce que le paradigme expérimental ?
 
-Le **paradigme expérimental** est un paramètre de l'expérience moins intuitif que la tâche et la méthode, décrites précédemment. Il s'agit ici essentiellement de définir l'organisation des stimuli au sein d'un essai. Comme nous le verrons, il a une influence sur la gamme de performances atteignables, et sur les biais de réponse potentiels des participants et participantes.
+Le **paradigme expérimental** est un paramètre de l'expérience moins intuitif que la tâche et la méthode, décrites précédemment. Il s'agit ici essentiellement de définir l'organisation des stimuli au sein d'un essai. Comme nous le verrons, ce choix a une influence sur la gamme de performances atteignables, et sur les biais de réponse potentiels des participants et participantes.
 
 ## Le paradigme yes/no 
 
-Exemple pour une expérience de mesure des seuils auditifs (tâche de détection de ton pur) :
-Présentation d’un stimulus par essai (ton ou silence)
-Instruction : « Avez-vous entendu un son ? »
+Considérons à nouveau l'expérience de mesure des seuils d'audibilité tonale qui constitue le fil rouge de ce chapitre. À chaque essai, un stimulus unique est joué (ton pur à la fréquence cible ou silence) et le sujet doit indiquer si il a perçu un son.
 
 <br /> 
 
@@ -19,12 +17,12 @@ alt: Schéma de l'expérience yes/no
 height: 400px
 align: center
 ---
-*.......*
+*Rappel : structure de l'expérience de mesure des seuils d'audibilité tonale (méthode des limites, tâche de détection, paradigme yes/no)*
 ```
 
 <br /> 
 
-paradigme Yes/No = la tâche demande de classer l’essai de façon binaire et repose (le plus souvent)sur un seul stimulus/essai.
+Cette expérience constitue un bon exemple de **paradigme yes/no** : il s'agit pour le sujet de la tâche consiste à classer l’essai de façon binaire et repose (le plus souvent)sur un seul stimulus/essai.
 
 Problème : la mesure obtenue par paradigme yes/no est dépendante du critère (criterion-dependent), c’est-à-dire que le résultat peut être influencé par les biais de réponse.
 Par exemple, un individu peu sûr de lui (qui répond très facilement « non ») va obtenir des seuils d’audibilité plus faible, indépendamment de ses capacités perceptives.

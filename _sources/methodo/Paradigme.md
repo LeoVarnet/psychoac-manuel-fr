@@ -26,13 +26,12 @@ Cette expérience constitue un bon exemple de **paradigme yes/no** : il s'agit p
 
 Un problème se pose néanmoins : la mesure obtenue par paradigme yes/no est **dépendante du critère** (*criterion-dependent*), c’est-à-dire que le résultat peut être influencé par les biais de réponse de l'individu. Ainsi, une personne peu sûre d'elle (qui répond très facilement « non » lorsqu'elle n'est pas absolument certaine d'avoir perçu le ton) obtiendra des seuils d’audibilité globalement plus faible que la moyenne, indépendamment de ses capacités perceptives. Ceci signifie que notre mesure psychophysique est polluée par des caractéristiques psychologiques "haut-niveau" du sujet, telles que la confiance en soi, qui ne devraient pas entrer ici en compte.
 
-Comment améliorer le paradigme pour obtenir une mesure indépendante du critère (criterion-free) ?
+Le paradigme du choix forcé offre un moyen d'obtenir une mesure **indépendante du critère** (*criterion-free*) ?
 
 ## Le paradigme du choix forcé
 
-Une autre façon de mesurer les seuils auditifs :
-Deux stimuli successifs, l’un étant un ton l’autre un silence, dans un ordre aléatoire. 
-Instruction : « Sélectionnez l’intervalle contenant le ton »
+Voici une seconde expérience permettant elle aussi de mesurer les seuils d'audibilité tonale :
+À chaque essai, deux stimuli successifs sont présentés dans un ordre aléatoire, l’un étant un ton cible l’autre un silence. (Pour identifier l'intervalle contenant le silence, on peut indiquer le debut de chaque stimulus par une lumière ou un léger signal sonore). Après ces deux stimuli, l'instruction qui s'affiche à l'écran est : « Sélectionnez l’intervalle contenant le ton »
 
 <audio controls>
   <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/methodo/2AFC.wav" type="audio/wav">

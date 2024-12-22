@@ -104,6 +104,7 @@ En revanche, un point plus problématique réside dans le fait que la tâche ne 
 Tout comme pour les stimuli, si le choix d'une tâche particulière est avant tout guidé par la question scientifique considérée, d'autres critères peuvent également entrer en jeu. En particulier, les tâches de détection et de catégorisation nécessitent de décrire précisément le stimulus-cible au sujet. Dans certains cas, on ne souhaite pas donner trop de détails dans les instructions, notamment :
 - lorsque les stimuli sont trop complexes pour être décrits de façon succincte et compréhensible par des personnes extérieures au domaine
 - ou s'il y a un risque de rendre ainsi le comportement du sujet moins naturel, ou d’imposer une « grille de lecture » particulière 
+
 On peut alors utiliser la tâche de discrimination pour donner des instructions implicites. En effet, il suffit pour cette tâche de demander à identifier le son différent -- sans nécessairement préciser en quoi.
 En contrepartie, la tâche de détection nécessite de présenter un stimulus de plus à chaque essai ce qui peut rallonger considérablement l'expérience.
 

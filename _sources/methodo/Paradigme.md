@@ -2,7 +2,7 @@
 
 ## Qu'est-ce que le paradigme expérimental ?
 
-Le **paradigme expérimental** est un paramètre de l'expérience moins intuitif que la tâche et la méthode, décrites précédemment. Il s'agit ici essentiellement de définir l'organisation des stimuli au sein d'un essai. Comme nous le verrons, ce choix a une influence sur la gamme de performances atteignables, et sur les biais de réponse potentiels des participants et participantes.
+Le **paradigme expérimental** est un paramètre de l'expérience moins intuitif que la tâche et la méthode, décrites précédemment. Il s'agit ici essentiellement de définir l'organisation des stimuli au sein d'un essai. Comme nous le verrons, ce choix a une influence sur la gamme de performances atteignables, et sur les biais de réponse potentiels des participants et participantes. Dans ce chapitre nous décrirons les deux paradigmes principaux : le yes/no et le choix forcé.
 
 ## Le paradigme yes/no 
 
@@ -53,15 +53,17 @@ align: center
 
 Cette seconde expérience repose sur la même tâche et la même méthode que la précédente, en revanche le paradigme est différent : il s'agit d'un **choix forcé à deux alternatives**.
 
-Une propriété intéressante de ce paradigme, comparé au yes/no, est son immunité aux effets de biais. Fondamentalementalement, chaque essai de l'expérience décrite ci-dessus consiste non pas en une tâche de détection, mais en deux détections successives (une pour chaque stimulus présentés) qui sont ensuite comparées l'une avec l'autre. De ce fait, le biais de réponse éventuel s’applique de la même façon aux deux stimuli, et ainsi se compense dans le choix de l’intervalle. Par exemple une personne réticente à répondre "j'ai entendu le ton" à moins d'être absolument certain de sa réponse devra néanmoins détecter un ton sur les deux stimuli présentés à chaque essai 
+Une propriété intéressante de ce paradigme, comparé au yes/no, est son immunité aux effets de biais. Fondamentalementalement, chaque essai de l'expérience décrite ci-dessus consiste non pas en une tâche de détection, mais en deux détections successives (une pour chaque stimulus présentés) qui sont ensuite comparées l'une avec l'autre. De ce fait, le biais de réponse éventuel s’applique de la même façon aux deux stimuli, et ainsi se compense dans le choix de l’intervalle. Considérons à nouveau l'exemple de la personne réticente à répondre "j'ai entendu le ton" à moins d'être absolument certaine de sa réponse. Comme on l'a vu ses résultats dans un paradigme yes/no seront affectés par cette stratégie de réponse particulière. Dans un paradigme de choix forcé, en revanche, cette personne n'aura pas d'autre choix que de sélectionner le stimulus qui lui semble le plus vraisemblable, contrecarrant ainsi son aversion à donner des réponses incertaines.
+
+Les termes "yes/no" et "choix forcé" sont mal choisis car ils induisent souvent les débutant·es (et parfois les scientifiques plus aguerri·es) en confusion. Ainsi un paradigme yes/no ne correspond **pas** à une tâche à laquelle on répond par oui ou par non, mais à un **type d'expérience où une seule des alternatives possibles est présentée à chaque essai**. De la même manière, le choix forcé ne correspond **pas** à une tâche avec un ensemble restreint de réponses possibles, mais à un **type d'expérience où toutes les alternatives possibles sont présentées à chaque essai**.
+
+
 
 Paradigme du choix forcé à 2 alternatives (2AFC) : chaque essai contient 2 stimuli successifs, la tâche consiste à en sélectionner un.
 Le choix forcé à 3 alternatives (3AFC) est parfois également utilisé.
 
 
-Attention à la terminologie ! 
-paradigme yes/no = tâche où une seule des alternatives possibles est présentée à chaque essai ≠ tâche où l’on répond par oui ou non 
-paradigme du choix forcé = tâche où toutes les alternatives possibles sont présentées à chaque essai ≠ tâche avec un ensemble restreint de réponses possibles
+
 
 
 ## Yes/no vs. choix forcé

@@ -10,6 +10,8 @@ Ce manuel suit la structure du cours "Perception et Psychoacoustique", que j'ens
 
 Cet ouvrage est publié sous une licence [CC-BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/). Si vous remarquez une erreur, n'hésitez pas à la signaler sur la [page GitHub](https://github.com/LeoVarnet/psychoacoustique) de cette ressource ouverte.
 
+J'ai créé ce cours en m'appuyant sur le template pour Jupyter notebook mis à disposition par [Diler](https://diler-digitell.github.io/examples.html), un projet porté par l'Université de Francfort.
+
 ## Langage inclusif
 
 Sensible à la question des enjeux liés à la discrimination sexiste par le langage, et ayant moi-même contribué à la déjà riche littérature psycholinguistique démontrant l'influence des formes d'écriture sur les biais des représentations genrées, j'ai choisi de rédiger cet ouvrage en écriture inclusive. Pour cela, j'ai eu recours à plusieurs stratégies de rédaction : remplacement du masculin générique (*chercheurs*) par des termes épicènes (*scientifiques*) ou des doublons (*chercheurs et chercheuses*), occasionnellement abrégés au moyen d'un point médian (*chercheur·euses*), et usage de la règle de proximité consistant à accorder en genre et en nombre l'adjectif ou le participe passé avec le substantif le plus proche qu'il qualifie, que celui-ci soit féminin ou masculin.
@@ -25,4 +27,4 @@ Je m'appelle **Léo Varnet**, et je suis Chargé de Recherche CNRS, affilié au 
 
 ## Remerciements
 
-Merci à Jean-Pierre Varnet pour le travail de relecture.
+Merci à Jean-Pierre Varnet pour le travail de relecture. Merci à Michael Ernst pour l'aide à l'utilisation du template Diler.

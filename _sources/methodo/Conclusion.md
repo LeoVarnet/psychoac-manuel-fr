@@ -1,6 +1,11 @@
 
 # Conclusions
 
+La psychoacoustique est une branche de la psychophysique, l'étude scientifique de la perception, dont elle a hérité la méthodologie rigoureuse.
+
+Tout d'abord,
+
+
 Résumé : l’expérience en psychoacoustique
 
 Série d’essais, composés d’un ou plusieurs stimuli variables, sur lesquels on réalise une tâche

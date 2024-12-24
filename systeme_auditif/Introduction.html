@@ -184,6 +184,7 @@
 </details></li>
 <li class="toctree-l1 current active has-children"><a class="reference internal" href="main.html">Chapitre 2 : Physiologie du système auditif</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
 <li class="toctree-l2 current active"><a class="current reference internal" href="#">Introduction</a></li>
+
 <li class="toctree-l2"><a class="reference internal" href="Externe.html">Système auditif externe</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Central.html">Système auditif central</a></li>
 </ul>
@@ -374,7 +375,9 @@
 <button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <i class="fa-solid fa-magnifying-glass fa-lg"></i>
 </button>
-
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
 </div></div>
       
     </div>
@@ -390,6 +393,19 @@
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Introduction</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#une-approche-par-la-modelisation">Une approche par la modélisation</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ouvrir-la-boite-noire">Ouvrir la boîte noire</a></li>
+</ul>
+</li>
+</ul>
+
+            </nav>
         </div>
     </div>
 </div>
@@ -402,8 +418,13 @@
   <section id="introduction">
 <h1>Introduction<a class="headerlink" href="#introduction" title="Link to this heading">#</a></h1>
 <p>Ce second chapitre vise à donner un aperçu global de la hiérarchie de traitement du système auditif humain depuis l’oreille externe jusqu’au cortex auditif. Ceci nous permettra d’introduire certains concepts importants pour la suite du cours, notamment les notions de pattern d’excitation, de tonotopie et de codage temporel, et de représentation multirésolution.</p>
-<p>Appréhender le fonctionnement du système auditif humain est une étape assez ardue pour les psychoacousticien·nes en devenir. Cela nécessite en effet de se familiariser avec des systèmes organiques aussi divers que la cochlée et le cortex auditif, chacun assez complexe pour bénéficier de manuels intégralement dédiés, et pour faire encore l’objet à l’heure actuelle d’intenses recherches. En tant qu’étudiant, je me suis longtemps senti débordé par la complexité de cet objet. Ce n’est que lorsque j’ai commencé à essayer de le modéliser que l’organisation générale et les fonctions de chaque partie me sont apparues plus clairement. En effet, le travail de modélisation contraint à simplifier les traitements les plus complexes pour ne conserver que l’essentiel du système décrit. J’ai don</p>
-<p>Approche par la modelisation</p>
+</section>
+<section id="une-approche-par-la-modelisation">
+<h1>Une approche par la modélisation<a class="headerlink" href="#une-approche-par-la-modelisation" title="Link to this heading">#</a></h1>
+<p>Appréhender le fonctionnement du système auditif humain est une étape assez ardue pour les psychoacousticien·nes en devenir. Cela nécessite en effet de se familiariser avec des systèmes organiques aussi divers que la cochlée et le cortex auditif, chacun assez complexe pour bénéficier de manuels intégralement dédiés, et pour faire encore l’objet à l’heure actuelle d’intenses recherches. En tant qu’étudiant, je me suis longtemps senti débordé par la complexité de cet objet. Ce n’est que lorsque j’ai commencé à essayer de le modéliser que l’organisation générale et les fonctions de chaque partie me sont apparues plus clairement. En effet, le travail de modélisation contraint à simplifier les traitements les plus complexes pour ne conserver que l’essentiel du système décrit. J’ai donc suivi ici le même principe : présenter chaque étape du traitement auditif de façon extrêmement succincte et en proposer un modèle simple. A l’issue de ce chapitre, nous aurons donc mis en place un modèle fonctionnel du système auditif humain. Bien que celui-ci ommette bon nombre de boucles de feedback et de non-linéarités, il est suffisant pour rendre compte d’un certain nombre de phénomènes perceptifs comme on le verra au chapitre suivant.</p>
+<section id="ouvrir-la-boite-noire">
+<h2>Ouvrir la boîte noire<a class="headerlink" href="#ouvrir-la-boite-noire" title="Link to this heading">#</a></h2>
+<p>Il peut sembler de prime abord contradictoire de consacrer le deuxième chapitre de ce manuel à la description de l’organisation du système auditif, alors que nous avons insisté en introduction du chapitre 1 sur l’approche spécifique de la psychophysique qui consiste à considérer l’esprit humain comme une boîte noire inviolable. Il ne s’agit pourtant pas d’une erreur. L’approche behavioriste fondée sur l’étude des comportements observables demeure notre boussole dans l’exploration de l’audition humaine. En particulier, elle reste la seule source possible d’information quant au contenu des percepts : aucune mesure de neurophysiologie ne peut deduire de façon définitive ce que le sujet perçoit</p>
 <p>Plan:
 1 Système auditif externe
 (ou périphérique)
@@ -432,6 +453,7 @@ cortex auditif, …</p>
 <br />
 <p>Simulations dans ce cours générées grâce aux toolboxes AMT (https://amtoolbox.org/)
 et TMST (https://github.com/LeoVarnet/TMST)</p>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -488,6 +510,27 @@ et TMST (https://github.com/LeoVarnet/TMST)</p>
             </div>
             
             
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Introduction</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#une-approche-par-la-modelisation">Une approche par la modélisation</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ouvrir-la-boite-noire">Ouvrir la boîte noire</a></li>
+</ul>
+</li>
+</ul>
+
+  </nav></div>
+
+</div></div>
               
             
           </div>

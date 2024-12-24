@@ -374,7 +374,9 @@
 <button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <i class="fa-solid fa-magnifying-glass fa-lg"></i>
 </button>
-
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
 </div></div>
       
     </div>
@@ -390,6 +392,17 @@
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#oreille-externe">Oreille externe</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#oreille-moyenne">Oreille moyenne</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#modelisation-de-l-oreille-externe-moyenne">Modélisation de l’oreille externe-moyenne</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#oreille-interne">Oreille interne</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -401,6 +414,56 @@
                   
   <section id="systeme-auditif-externe">
 <h1>Système auditif externe<a class="headerlink" href="#systeme-auditif-externe" title="Link to this heading">#</a></h1>
+<br /> 
+<figure class="align-center" id="syst-ext-jpg">
+<a class="reference internal image-reference" href="systeme_auditif/syst_ext_1.jpg"><img alt="Systeme auditif externe" src="systeme_auditif/syst_ext_1.jpg" style="height: 400px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 44 </span><span class="caption-text"><em>…</em></span><a class="headerlink" href="#syst-ext-jpg" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<br />
+<section id="oreille-externe">
+<h2>Oreille externe<a class="headerlink" href="#oreille-externe" title="Link to this heading">#</a></h2>
+<br /> 
+<figure class="align-center" id="id1">
+<a class="reference internal image-reference" href="systeme_auditif/syst_ext_2.jpg"><img alt="Systeme auditif externe - oreille externe" src="systeme_auditif/syst_ext_2.jpg" style="height: 400px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 45 </span><span class="caption-text"><em>…</em></span><a class="headerlink" href="#id1" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<br />
+<p>Forme du pavillon auriculaire (et donc fonction de transfert) unique à chaque personne
+Pavillon + conduit permettent l’amplification du son dans la région 2 kHz (~ +10 dB)
+Filtrage directionnel, indice puissant pour la localisation des sons (e.g. HRTF)</p>
+</section>
+<section id="oreille-moyenne">
+<h2>Oreille moyenne<a class="headerlink" href="#oreille-moyenne" title="Link to this heading">#</a></h2>
+<br /> 
+<figure class="align-center" id="id2">
+<a class="reference internal image-reference" href="systeme_auditif/syst_ext_3.jpg"><img alt="Systeme auditif externe - oreille moyenne" src="systeme_auditif/syst_ext_3.jpg" style="height: 400px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 46 </span><span class="caption-text"><em>…</em></span><a class="headerlink" href="#id2" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<br />
+<p>Conversion de l’onde sonore à l’interface entre deux milieux : air et périlymphe
+Amplification du son (+20 dB ~1 kHz)
+Réflexe stapédien</p>
+</section>
+<section id="modelisation-de-l-oreille-externe-moyenne">
+<h2>Modélisation de l’oreille externe-moyenne<a class="headerlink" href="#modelisation-de-l-oreille-externe-moyenne" title="Link to this heading">#</a></h2>
+<p>Modélisation par deux filtres successifs :
+filtre d’oreille externe / filtre d’oreille moyenne</p>
+<p>Modélisation par un seul filtre d’oreille externe-moyenne</p>
+</section>
+<section id="oreille-interne">
+<h2>Oreille interne<a class="headerlink" href="#oreille-interne" title="Link to this heading">#</a></h2>
+<p>Composée principalement de :
+cochlée
+nerf auditif
+(+ système vestibulaire)</p>
+<p>La cochlée est l’organe qui réalise la décomposition spectrale du son</p>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -457,6 +520,25 @@
             </div>
             
             
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#oreille-externe">Oreille externe</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#oreille-moyenne">Oreille moyenne</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#modelisation-de-l-oreille-externe-moyenne">Modélisation de l’oreille externe-moyenne</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#oreille-interne">Oreille interne</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>

@@ -41,6 +41,10 @@ align: center
 
 En résumé, la psychophysique cherche à déduire le fonctionnement interne du système à partir de son comportement externe (entrée-sortie). Dans ce cours, nous nous baserons donc uniquement sur les réponses clavier de nos sujets à des tâches auditives très simples.
 
+> L'idéologie de la boîte noire est l'idéologie de toute investigation scientifique. Nous apprenons à connaître la molécule d'ADN en la sondant de différentes manières et en observant comment elle réagit ; nous apprenons à connaître le cancer, les tremblements de terre et l'inflation de la même manière. Il est souvent utile d' "ouvrir" la boîte noire lorsque l'on s'intéresse à des objets macroscopiques, en envoyant des sondes à l'intérieur de l'objet (comme un scalpel) [...]. La question doit être, comme le dit Hofstadter : Quelles sont les sondes les plus directement pertinentes pour la question à laquelle nous voulons répondre ? *(Douglas Hofstadter & Daniel Dennett, Vues de l'esprit)*
+
+Si notre question est de savoir comme dans notre cas quel est le contenu de la perception d'autrui, nous ne trouverons pas de sonde plus directe et plus pertinente que celle que nous utilisons tous les jours pour savoir ce qu'une personne perçoit et ressent : regarder comment elle réagit. L'approche psychophysique consiste simplement à transformer ce principe banal en une expérimentation de laboratoire.
+
 ## Objectif de l'approche psychophysique
 
 Au milieu du XIXe siècle, Gustav Fechner fonde le premier laboratoire de psychophysique. Il définit cette dernière comme une science exacte cherchant à établir les relations quantitatives entre le stimulus et la sensation que celui-ci produit, et insiste sur l'importance de développer une méthodologie spécifique pour mesurer ces sensations [Elemente der Psychophysik, 1860]. 

@@ -61,7 +61,10 @@ Les termes "yes/no" et "choix forcé" sont mal choisis car ils induisent souvent
 
 L'expérience en choix forcé décrite plus haut comporte deux stimuli différents présentés dans deux intervalles successifs, la consigne consistant à en sélectionner un. On appelle donc ce paradigme **choix forcé à 2 intervalles et 2 alternatives** (2I-2AFC), souvent abrégé en 2AFC. Il est possible de réaliser la même tâche de détection en 3I-2AFC, auquel cas il s'agira de sélectionner le signal cible parmi trois intervalles successifs en ordre aléatoire. 
 
-Cette dernière version du choix forcé ne doit pas être confondue avec la discrimination en choix forcé.
+Cette deuxième version du choix forcé possède la même propriété d'être insensible au biais. Son intérêt principal par rapport au 2I-2AFC réside en sa difficulté plus élevée. Ainsi une expérience qui paraît trop évidente aux participantes et participants avec deux intervalles peut devenir plus engageante avec trois intervalles ou plus.
+
+
+qu'elle est plus ne doit pas être confondue avec la discrimination en choix forcé.
 
 Certe deuxième version du choix forcé conduit à des performances différentes, : chaque essai contient 2 stimuli successifs, la tâche consiste à en sélectionner un.
 Le choix forcé à 3 alternatives (3AFC) est parfois également utilisé.

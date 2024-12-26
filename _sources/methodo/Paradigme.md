@@ -59,22 +59,6 @@ En réalité, le choix forcé ne supprime pas tout risque de biais, mais déplac
 
 Les termes "yes/no" et "choix forcé" se sont imposés suite à l'ouvrage fondateur de Green et Swets. Cette terminologie est néanmoins malheureuse car elle induit souvent les débutant·es (et parfois les scientifiques plus aguerri·es) en confusion. Ainsi un paradigme yes/no ne correspond **pas** à une tâche à laquelle on répond par oui ou par non, mais à un **type d'expérience où une seule des alternatives possibles est présentée à chaque essai**. De la même manière, le choix forcé ne correspond **pas** à une tâche avec un ensemble restreint de réponses possibles, mais à un **type d'expérience où toutes les alternatives possibles sont présentées à chaque essai**, la consigne consistant à sélectionner l'un des sons (réponses du type : "premier intervalle", "deuxième intervalle").
 
-## Différentes variantes du choix forcé 
-
-L'expérience en choix forcé décrite plus haut comporte deux stimuli différents présentés dans deux intervalles successifs, la consigne consistant à en sélectionner un. On appelle donc ce paradigme **choix forcé à 2 intervalles et 2 alternatives** (2I-2AFC), souvent abrégé en 2AFC. Il est possible de réaliser la même tâche de détection en 3I-2AFC, auquel cas il s'agira de sélectionner le signal cible parmi trois intervalles successifs en ordre aléatoire. 
-
-Cette deuxième version du choix forcé possède la même propriété d'être insensible au biais. Son intérêt principal par rapport au 2I-2AFC réside en sa difficulté plus élevée. Ainsi une expérience qui paraît trop évidente aux participantes et participants avec deux intervalles peut devenir plus engageante avec trois intervalles ou plus.
-
-
-qu'elle est plus ne doit pas être confondue avec la discrimination en choix forcé.
-
-Certe deuxième version du choix forcé conduit à des performances différentes, : chaque essai contient 2 stimuli successifs, la tâche consiste à en sélectionner un.
-Le choix forcé à 3 alternatives (3AFC) est parfois également utilisé.
-
-Choix forcé+discrimination 
-
-
-
 ## Yes/no vs. choix forcé
 
 Pour l’audiométrie, le paradigme yes-no conduit à une sous-estimation des seuils d’audibilité tonale de ~2 dB par rapport au paradigme choix forcé.
@@ -111,6 +95,14 @@ align: center
 Le choix forcé est indépendant du critère… mais expérience 2 fois plus longue qu’un yes/no !
 
 Le pourcentage de chance est aussi différent, et la difficulté de la tâche
+
+## Différentes variantes du choix forcé 
+
+L'expérience en choix forcé décrite plus haut comporte deux stimuli différents présentés dans deux intervalles successifs, la consigne consistant à en sélectionner un. On appelle donc ce paradigme **choix forcé à 2 intervalles et 2 alternatives** (2I-2AFC), souvent abrégé en 2AFC. Il est possible de réaliser la même tâche de détection en 3I-2AFC, auquel cas il s'agira de sélectionner le signal cible parmi trois intervalles successifs en ordre aléatoire. 
+
+Comme tout choix forcé, le 3I-2AFC est insensible aux effets de critere. Son intérêt principal par rapport au 2I-2AFC réside en sa difficulté plus élevée. Ainsi une expérience qui paraît trop évidente aux participantes et participants avec deux intervalles peut devenir plus engageante avec trois intervalles ou plus. 
+
+Une autre variante utile du choix forcé est sa combinaison avec la tâche de discrimination (souvent appelé**paradigme oddball**). Dans ce cas, trois intervalles sont présentés successivement dans un ordre aléatoire, l'un contenant un son différent des deux autres. La tâche consiste à les discriminer en indiquant quel intervalle contenait le son différent  (par exemple, un essai A-A-B a pour réponse correcte "troisième intervalle", un essai B-A-B "deuxième intervalle") [[notez la différence avec la détection en 3I-2AFC où le sujet sait par avance quel]]. Cet experience combine les avantages du choix forcé et de la discrimination : elle est indépendante du critère et implicite. Cependant elle est également plus longue.
 
 ## Exemples d’expériences pour la mesure du seuil de détection des modulation
 

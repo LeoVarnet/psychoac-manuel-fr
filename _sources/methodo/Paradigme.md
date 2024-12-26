@@ -61,9 +61,11 @@ Les termes "yes/no" et "choix forcé" se sont imposés suite à l'ouvrage fondat
 
 ## Yes/no vs. choix forcé
 
-Le choix forcé est indépendant du critère… mais expérience 2 fois plus longue qu’un yes/no !
+La principale raison qui peut nous faire préférer le paradigme de choix forcé au yes/no durant la conception d'une expérience est donc l'importance pour nos conclusions des possibles effets de critères. Si la tâche envisagée invite particulièrement à donner une réponse plus souvent qu'une autre, ou s'il est important pour notre étude de contrôler précisément les biais des sujets, il est préférable d'opter pour le choix forcé.
 
-Le pourcentage de chance est aussi différent, et la difficulté de la tâche
+Cette insensibilité au critère a cependant un prix : comparé au yes/no le choix forcé nécessite de présenter un stimulus supplémentaire par essai, et donc de rallonger la durée de l'expérience. Il n'est donc pas conseillé pour des protocoles déjà longs ou pour des participants ou participantes fatiguables.
+
+Un autre aspect diffère entre les deux paradigmes : le niveau de difficulté est plus élevé pour le yes/no que le choix forcé. En effet, il serait théoriquement possible de réaliser la tâche en choix forcé en écoutant uniquement le premier intervalle et en omettant le second, ce qui correspondrait en réalité à l'expérience correspondante en yes/no. Lorsque l'on prête attention aux deux intervalles du choix forcé, on accumule donc plus d'information que dans le paradigme yes/no.
 
 Pour l’audiométrie, le paradigme yes-no conduit à une sous-estimation des seuils d’audibilité tonale de ~2 dB par rapport au paradigme choix forcé.
 (= dans l’audiogramme classique les individus sont biaisés, ils ont globalement tendance à sous-évaluer leur capacité à détecter les tons)

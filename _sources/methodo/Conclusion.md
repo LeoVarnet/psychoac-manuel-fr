@@ -1,7 +1,7 @@
 
 # Conclusions
 
-La psychoacoustique est une branche de la psychophysique, l'étude scientifique de la perception, dont elle a hérité la méthodologie rigoureuse.
+La psychoacoustique est une branche de la psychophysique, l'étude scientifique de la perception, dont elle a hérité la méthodologie rigoureuse. Il pourrait sembler étrange à première vue que des sensations aussi diverses que détecter un bip sonore, identifier le son d'un instrument de musique, différencier des nuances de couleur, comprendre la voix de notre interlocuteur ou de notre interlocutrice, reconnaître un parfum ou un objet, localiser si un bruit de moteur vient de la gauche ou de la droite, ou encore catégoriser différents cépages de vin, puissent être étudiées dans des conditions de laboratoire au moyen d'un seul et même outil. C'est pourtant ce que permet la psychophysique en envisageant la perception comme un système de détection du signal, qu'il s'agit de caractériser depuis l'extérieur 
 
 Tout d'abord,
 

@@ -5,6 +5,7 @@ La psychoacoustique est une branche de la psychophysique, l'étude scientifique 
 
 Tout d'abord,
 
+> Un “processus interne” a besoin de critères externes.[…] Ne te demande pas : « Que se passe-t-il dans mon propre cas ? » — Demande : « Que sais-je des autres ? » *(Wittgenstein, Recherches philosophiques)*
 
 Résumé : l’expérience en psychoacoustique
 

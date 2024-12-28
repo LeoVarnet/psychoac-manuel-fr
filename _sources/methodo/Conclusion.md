@@ -1,17 +1,19 @@
 
-# Conclusions
+# Conclusion 
 
-En 1966, explorant un cadre statistique sur la communication radar, Green et Swets notent
+Il pourrait sembler étrange à première vue qu'un seul et même cadre théorique permette de rendre compte et d'étudier des phénomènes aussi divers que la perception d'un bip sonore, la reconnaissance d'une voix ou d'un objet, la discrimination de nuances de couleur, ou encore  l'identification d'un parfum ou d'un cépage de vin. C'est pourtant ce que permet la psychophysique, offrant une boîte à outils pour investiguer scientifiquement tous les aspects de la perception humaine, dans des conditions de laboratoire. 
 
-> La généralité de la théorie [de la détection du signal] nous a suggéré qu'elle pourrait également s'appliquer à la perception humaine. *(Green & Swets, Signal Detection Theory and psychophysics)*
+Pour cela, il est nécessaire de se détacher de la phénoménologie de la perception ("qu'est-ce que cela fait de percevoir telle couleur ou tel son") pour s'intéresser à l'analyse de de l'individu percevant "depuis l'extérieur", c'est-à-dire sur la base de ses comportements observables.
 
-Et effectivement, il pourrait sembler étrange à première vue que des sensations aussi diverses que détecter un bip sonore, identifier le son d'un instrument de musique, différencier des nuances de couleur, comprendre la voix de notre interlocuteur ou de notre interlocutrice, reconnaître un parfum ou un objet, localiser si un bruit de moteur vient de la gauche ou de la droite, ou encore catégoriser différents cépages de vin, puissent être étudiées dans des conditions de laboratoire au moyen d'un seul et même outil. C'est pourtant ce que permet la psychophysique en envisageant la perception comme un système de détection du signal, qu'il s'agit de caractériser depuis l'extérieur 
+> Un “processus interne” a besoin de critères externes.[…] Ne te demande pas : « Que se passe-t-il dans mon propre cas ? » — Demande : « Que sais-je des autres ? » *(Wittgenstein, Recherches philosophiques)*
+
+envisageant la perception comme un système de détection du signal, qu'il s'agit de caractériser depuis l'extérieur 
 
 La psychoacoustique est une branche de la psychophysique, l'étude scientifique de la perception, dont elle a hérité la méthodologie rigoureuse. 
 
 Tout d'abord,
 
-> Un “processus interne” a besoin de critères externes.[…] Ne te demande pas : « Que se passe-t-il dans mon propre cas ? » — Demande : « Que sais-je des autres ? » *(Wittgenstein, Recherches philosophiques)*
+
 
 Résumé : l’expérience en psychoacoustique
 

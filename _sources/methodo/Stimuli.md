@@ -12,9 +12,9 @@ De façon plus générale la construction des questions psychophysiques elles-m�
 
 ## Un bref aperçu de la Théorie de la détection du signal
 
-Une question qui se pose alors est de relier théoriquement la dimension d'intérêt des stimuli et la capacité d'un système à percevoir ces stimuli. Il s'agit d'une question centrale pour la **théorie de la détection du signal**, cadre mathématique dérivé de la théorie de l'information, et permettant de modéliser la capacité d’un système à séparer l’information du bruit. Cette théorie fut initialement développée pour les systèmes radar, mais rapidement appliqué à la perception humaine. [Green & Swets, 1966].
+Une question qui se pose alors est de relier théoriquement la dimension d'intérêt des stimuli et la capacité d'un système à percevoir ces stimuli. Il s'agit d'une question centrale pour la **théorie de la détection du signal**, cadre mathématique dérivé de la théorie de l'information, et permettant de modéliser la capacité d’un système à séparer l’information du bruit. Cette théorie fut initialement développée pour les systèmes radar, mais rapidement appliqué à la perception humaine. [Green & Swets, 1966]
 
-[ajouter deux mots sur l'historique]
+> Bien que [son développement] ait été motivé par des problèmes liés aux radars, la théorie de la détection du signal est une théorie généraliste. [...] Cette généralité nous a conduit à penser qu'elle pourrait être également pertinente pour la détection d'un signal par un être  humain. [...] La théorie de la détection du signal offre un cadre d'analyse permettant une description réaliste du comportement de l'observateur·ice humain·e dans un grand nombre de tâches perceptuelles. (Green & Swets)
 
 ### Fonction psychométrique théorique
 

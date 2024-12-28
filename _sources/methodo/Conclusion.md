@@ -3,7 +3,7 @@
 
 Il pourrait sembler étrange à première vue qu'un seul et même cadre théorique permette de rendre compte et d'étudier des phénomènes aussi divers que la perception d'un bip sonore, la reconnaissance d'une voix ou d'un objet, la discrimination de nuances de couleur, ou encore  l'identification d'un parfum ou d'un cépage de vin. C'est pourtant ce que permet la psychophysique, offrant une boîte à outils pour investiguer scientifiquement tous les aspects de la perception humaine, dans des conditions de laboratoire. 
 
-Pour cela, il est nécessaire de se détacher des questions de phénoménologie de la perception ("qu'est-ce que cela fait de percevoir telle couleur ou tel son ?") pour s'intéresser à une analyse "depuis l'extérieur" de l'individu percevant, c'est-à-dire sur la base de ses comportements observables.
+Pour cela, il est nécessaire de se détacher des questions de phénoménologie de la perception ("qu'est-ce que cela fait de percevoir telle couleur ou tel son ?") pour s'intéresser à une analyse "depuis l'extérieur" de l'individu percevant, c'est-à-dire sur la base de ses comportements observables. 
 
 Cette approche behavioriste peut paraître surprenante aux néophytes, mais elle est en réalité très proche de la façon dont nous jugeons ordinairement de la perception. Comme le note Wittgenstein, nous apprenons le sens des termes de sensation, comme "douleur", non seulement en ressentant la douleur à la première personne, mais en découvrant que les personnes autour de nous ressentent également de la douleur. Or, nous n'avons jamais directement accès aux sensations éprouvées par autrui, nous pouvons seulement regarder comment celui-ci réagit aux stimulations. La douleur et les autres sensations ne sont donc pas seulement définies comme des ressentis subjectifs mais également comme des comportements observables objectifs. 
 
@@ -19,29 +19,19 @@ Tout d'abord,
 
 
 
-Résumé : l’expérience en psychoacoustique
+## L’expérience en psychoacoustique
 
-Série d’essais, composés d’un ou plusieurs stimuli variables, sur lesquels on réalise une tâche
+Comme nous l'avons vu dans ce chapitre, l'expérience de psychoacoustique est formée par une série d’essais, chacun composé d’un ou plusieurs stimuli variables, sur lesquels le participant ou la participante réalise une tâche. Décrire l'expérience nécessite (entre autres) de préciser quatre aspects : 
+- **Stimuli & dimension d’intérêt** : choix d’une famille particulière de stimuli
+- **Tâche psychophysique** : bien que les contours et dénominations soient parfois un peu floues, on distingue essentiellement quatre types de tâches : détection, discrimination, catégorisation, reconnaissance 
+- **Méthode psychophysique** : la méthode peut être adaptative (p.ex. méthode des limites ou escalier psychophysique) ou non-adaptative (p.ex. méthode des stimuli constant ou mesure de performance)
+- **Paradigme psychophysique** : deux paradigmes ont été décrits dans ce chapitre, le paradigme yes/no et le paradigme du choix forcé
 
-Stimuli & dimension d’intérêt : choix d’une famille de stimuli
+## Mesures psychophysiques courantes
 
-Paradigme psychophysique :
-paradigme yes/no 
-paradigme du choix forcé
+Comme on l'a vu, le choix d'une méthode expérimentale est principalement (mais pas exclusivement) guidé par le type de mesure visé. On peut ainsi caractériser la perception en termes de seuil, de performance, ou de sensibilité. Ces trois mesures sont en réalité trois façons de regarder la même fonction psychométrique sous-jacente.
 
-Méthode psychophysique :
-méthode des limites
-escalier psychophysique
-méthode des stimuli constant
-mesure de performance
-
-Tâche psychophysique :
-détection 
-discrimination 
-catégorisation 
-intelligibilité
-
-Résumé : mesures psychophysiques courantes
+Il est ensuite possible de répéter cette mesure, soit en variant la population testée -- par exemple pour comparer la perception entre deux groupes de sujets --, soit en 
 
 Pour n’importe quels tâches, stimuli ou paradigme :
 Seuil ou seuil à X%

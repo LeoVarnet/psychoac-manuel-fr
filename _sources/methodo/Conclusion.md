@@ -5,7 +5,11 @@ Il pourrait sembler étrange à première vue qu'un seul et même cadre théoriq
 
 Pour cela, il est nécessaire de se détacher de la phénoménologie de la perception ("qu'est-ce que cela fait de percevoir telle couleur ou tel son") pour s'intéresser à l'analyse de de l'individu percevant "depuis l'extérieur", c'est-à-dire sur la base de ses comportements observables.
 
+Cette approche behavioriste est surprenante au premier abord, mais elle est en réalité très proche de la façon dont nous jugeons ordinairement de la perception. Comme le note Wittgenstein, les termes de sensation, comme "douleur", sont des termes que nous apprenons non seulement en ressentant la douleur, mais en découvrant que les personnes autour de nous ressentent également de la douleur. Or, nous n'avons jamais directement accès aux sensations éprouvées par autrui, nous pouvons seulement regarder comment celui-ci réagit aux stimulations. La douleur et les autres sensations ne sont donc pas seulement définis comme des ressentis subjectifs mais également comme des comportements observables particuliers. 
+
 > Un “processus interne” a besoin de critères externes.[…] Ne te demande pas : « Que se passe-t-il dans mon propre cas ? » — Demande : « Que sais-je des autres ? » *(Wittgenstein, Recherches philosophiques)*
+
+Ce behaviorisme est appuyé par plusieurs autres principes. Notamment le réductionnisme 
 
 envisageant la perception comme un système de détection du signal, qu'il s'agit de caractériser depuis l'extérieur 
 

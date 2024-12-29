@@ -31,15 +31,9 @@ Comme nous l'avons vu dans ce chapitre, l'expérience de psychoacoustique est fo
 
 On l'a vu, le choix d'une méthode expérimentale est principalement (mais pas exclusivement) guidé par le type de mesure visé. On peut ainsi caractériser la perception en termes de seuil, de performance, ou de sensibilité. Ces trois mesures sont en réalité trois façons de regarder la même fonction psychométrique sous-jacente.
 
-Il est ensuite possible de répéter cette mesure, en variant soit la population testée -- par exemple pour comparer la perception entre deux groupes de sujets --, soit la condition expérimentale, pour obtenir un tableau plus complet du phénomène. Dans le cas de l'audiogramme, par exemple, la mesure de seuil d'audibilité tonale était répétée pour différentes fréquences (idem pour la TMTF dans le cas des seuils de détection de modulations). Cette fonction représentant les seuils de détection pour une famille de stimuli est appelée **fonction de transfert**, par analogie avec les fonctions de transfert mesurées en électronique. Cette dénomination ne doit pas néanmoins laisser sous-entendre que la relation entrée sortie est nécessairement linéaire.
+Il est ensuite possible de répéter cette mesure, en variant soit la population testée -- par exemple pour comparer la perception entre deux groupes de sujets -- soit la condition expérimentale, pour obtenir un tableau plus complet du phénomène. Dans le cas de l'audiogramme, par exemple, la mesure de seuil d'audibilité tonale est répétée pour différentes fréquences (idem pour la TMTF dans le cas des seuils de détection de modulations). Cette fonction représentant les seuils de détection pour une famille de stimuli est appelée **fonction de transfert**, par analogie avec les fonctions de transfert mesurées en électronique. Cette dénomination ne sous-entend néanmoins pas que la relation entrée-sortie est nécessairement linéaire. En réalité, nous avons déjà vu que ce n'est pas le cas pour la perception de l'intensité : les courbes isosoniques tracent un faisceau globalement cohérent mais ne sont pas exactement parallèles les unes aux autres comme on l'attendrait d'un processus lineaire.
 
-Pour n’importe quels tâches, stimuli ou paradigme :
-Seuil ou seuil à X%
-Performance (p.ex. pourcentage correct)
-Sensibilité
-Fonction de transfert (e.g. audiogramme, TMTF) = seuils de détection pour une famille de stimuli
-
-et Seuils masqués et fonction de transfert masquée (cf. cours 3)
+Ces mesures psychophysique peuvent être complétées par des mesures conjointes. Tout d'abord, le **temps de réaction** (ou temps de réponse) des sujets dans ces expériences offre une information complémentaire sur les processus cognitifs sous-jacents. 
 
 Mesures conjointes
 Temps de réaction (chronométrie)
@@ -50,6 +44,12 @@ Electrocorticographie (ECoG)
 Mesures chez le nourrisson (head turn, …)
 Neurophysiologie Animale
 …
+
+## L'approche, cinquième aspect de l'expérience psychophysique 
+
+et Seuils masqués et fonction de transfert masquée (cf. cours 3)
+
+
 
 L’expérience de psychoacoustique
 

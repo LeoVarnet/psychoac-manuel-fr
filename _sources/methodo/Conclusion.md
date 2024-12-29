@@ -29,9 +29,9 @@ Comme nous l'avons vu dans ce chapitre, l'expérience de psychoacoustique est fo
 
 ## Mesures psychophysiques courantes
 
-Comme on l'a vu, le choix d'une méthode expérimentale est principalement (mais pas exclusivement) guidé par le type de mesure visé. On peut ainsi caractériser la perception en termes de seuil, de performance, ou de sensibilité. Ces trois mesures sont en réalité trois façons de regarder la même fonction psychométrique sous-jacente.
+On l'a vu, le choix d'une méthode expérimentale est principalement (mais pas exclusivement) guidé par le type de mesure visé. On peut ainsi caractériser la perception en termes de seuil, de performance, ou de sensibilité. Ces trois mesures sont en réalité trois façons de regarder la même fonction psychométrique sous-jacente.
 
-Il est ensuite possible de répéter cette mesure, soit en variant la population testée -- par exemple pour comparer la perception entre deux groupes de sujets --, soit en 
+Il est ensuite possible de répéter cette mesure, en variant soit la population testée -- par exemple pour comparer la perception entre deux groupes de sujets --, soit la condition expérimentale, pour obtenir un tableau plus complet du phénomène. Dans le cas de l'audiogramme, par exemple, la mesure de seuil d'audibilité tonale était répétée pour différentes fréquences (idem pour la TMTF dans le cas des seuils de détection de modulations). Cette fonction représentant les seuils de détection pour une famille de stimuli est appelée **fonction de transfert**, par analogie avec les fonctions de transfert mesurées en électronique.
 
 Pour n’importe quels tâches, stimuli ou paradigme :
 Seuil ou seuil à X%

@@ -33,7 +33,10 @@ On l'a vu, le choix d'une méthode expérimentale est principalement (mais pas e
 
 Il est ensuite possible de répéter cette mesure, en variant soit la population testée -- par exemple pour comparer la perception entre deux groupes de sujets -- soit la condition expérimentale, pour obtenir un tableau plus complet du phénomène. Dans le cas de l'audiogramme, par exemple, la mesure de seuil d'audibilité tonale est répétée pour différentes fréquences (idem pour la TMTF dans le cas des seuils de détection de modulations). Cette fonction représentant les seuils de détection pour une famille de stimuli est appelée **fonction de transfert**, par analogie avec les fonctions de transfert mesurées en électronique. Cette dénomination ne sous-entend néanmoins pas que la relation entrée-sortie est nécessairement linéaire. En réalité, nous avons déjà vu que ce n'est pas le cas pour la perception de l'intensité : les courbes isosoniques tracent un faisceau globalement cohérent mais ne sont pas exactement parallèles les unes aux autres comme on l'attendrait d'un processus lineaire.
 
-Ces mesures psychophysique peuvent être complétées par des mesures conjointes. Tout d'abord, le **temps de réaction** (ou temps de réponse) des sujets dans ces expériences offre une information complémentaire sur les processus cognitifs sous-jacents. 
+Ces mesures psychophysique peuvent être complétées par des mesures conjointes. 
+- Tout d'abord, la **chronométrie mentale** : le **temps de réaction** (ou plus généralement le temps de réponse) des sujets dans les expériences psychophysiques offre une information complémentaire sur les processus cognitifs sous-jacents. Par exemple, le temps mis pour reconnaître un mot dans le bruit est légèrement plus long que pour le même mot dans le silence, indiquant que des traitements supplémentaires sont impliqués dans la décision.
+- L'**occulométrie** (*eye-tracking*) consiste à mesurer différentes informations sur les yeux des sujets pendant la réalisation de la tâche (dilatation de la pupille, microsaccades, trajectoire du regard, temps de fixation) qui peuvent apporter des indications sur les processus cognitifs -- y compris liés à l'audition. Ainsi, par exemple une attention renforcée à un stimulus auditif se traduit par une dilatation de la pupille.
+- Les 
 
 Mesures conjointes
 Temps de réaction (chronométrie)

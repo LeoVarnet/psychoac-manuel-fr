@@ -36,19 +36,13 @@ Il est ensuite possible de répéter cette mesure, en variant soit la population
 Ces mesures psychophysique peuvent être complétées par des mesures conjointes. 
 - Tout d'abord, la **chronométrie mentale** : le **temps de réponse** des sujets dans les expériences psychophysiques offre une information complémentaire sur les processus cognitifs sous-jacents. Par exemple, le temps mis pour reconnaître un mot dans le bruit est légèrement plus long que pour le même mot dans le silence, indiquant un effort d'écoute accru voire des traitements supplémentaires dans le cas de la compréhension dans le bruit. La comparaison des temps de réponse peut mettre en évidence des différences très fines entre des conditions pour lesquelles les performances semblent identiques.
 - L'**occulométrie** (*eye-tracking*) consiste à mesurer différentes informations sur les yeux des sujets pendant la réalisation de la tâche (dilatation de la pupille, microsaccades, trajectoire du regard, temps de fixation) qui peuvent apporter des indications sur les processus cognitifs -- y compris liés à l'audition. Ainsi, par exemple une attention renforcée à un stimulus auditif peut se traduire par une dilatation mesurable de la pupille.
-- La **neuroimagerie**, l'observation de l'activité du cerveau, qui regroupe divers outils avec des précisions temporelles et spatiales plus ou moins grandes : **électroencéphalographie** (EEG), **magnetoencéphalographie** (MEG), **électrocorticographie** (ECoG), etc.
-
-Mesures conjointes
-Temps de réaction (chronométrie)
-Eye-tracking (oculométrie)
-Electroencéphalographie (EEG)
-Magnétoencéphalographie (MEG)
-Electrocorticographie (ECoG)
-Mesures chez le nourrisson (head turn, …)
-Neurophysiologie Animale
-…
+- La **neuroimagerie**, l'observation de l'activité du cerveau, qui regroupe divers outils avec des précisions temporelles et spatiales plus ou moins grandes : **électroencéphalographie** (EEG), **magnetoencéphalographie** (MEG), **électrocorticographie** (ECoG), etc. Comme nous le verrons au chapitre suivant, ce genre de données est compléementaire de celles de la psychophysique : alors que les secondes nous renseignent sur ce qui est perçu *in fine* par l'individu, les premières donnent un aperçu des traitements réalisés.
+- Il est également possible de réaliser des expériences de psychophysique chez le nourrisson. Bien sûr, ce dernier ne pouvant pas donner de réponse concernant les sons qu'il perçoit, il est nécessaire d'adapter le protocole expérimental. On peut pour cela d'appuyer sur deux mesures indirectes de l'intérêt que le bébé porte aux stimuli qui lui sont présentés : la **succion non-nutritive** (le nourrisson attentif tête à un rythme plus rapide) et la **mesure de temps de regard** ou *head-turn paradigm* (le nourrisson surpris par un son fixe la source de ce son)
+- Il est également possible d'appliquer les méthodes de la psychophysique pour étudier la perception chez les animaux (**éthologie**). Comme dans le cas précédent, le protocole doit être adapté pour recueillir une "réponse" de l'animal au son qui lui est proposé. On s'appuie le plus souvent sur un **paradigme *go/no-go*** (réaction de l'animal au stimulus vs. absence de réaction).
 
 ## L'approche, cinquième aspect de l'expérience psychophysique 
+
+Les quatre dimensions de l'expérience psychophysique décrites dans ce chapitre sont utiles pour décrire 
 
 et Seuils masqués et fonction de transfert masquée (cf. cours 3)
 

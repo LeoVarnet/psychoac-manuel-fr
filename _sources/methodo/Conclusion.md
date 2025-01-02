@@ -46,27 +46,36 @@ Finalement, la psychophysique étant à l'origine des sciences cognitives, son a
 
 Le principe du test consiste, en résumé, à évaluer si la machine peut produire des interactions langagières suffisamment réalistes pour induire en erreur son interlocuteur·ice humain·e. Ainsi, plutôt que d'analyser le fonctionnement interne de la machine, Turing propose d'utiliser son comportement observable comme un critère pour juger de ses capacités cognitives.
 
-## L'approche, cinquième aspect de l'expérience psychophysique 
+## Mettre au point une expérience de psychoacoustique
 
-Les quatre dimensions de l'expérience psychophysique décrites dans ce chapitre sont utiles pour décrire 
+La psychoacoustique est une science expérimentale : elle s'appuie sur des expériences pour tester des hypothèses et modèles. Ces expériences doivent de plus être reproductibles par tout scientifique du domaine souhaitant vérifier les résultats obtenus, d'où l'utilité d'une typologie des protocoles expérimentaux telle que celle développée dans ce chapitre, qui permet de communiquer de façon claire et concise les choix méthodologiques et le déroulement exact de l'expérience.
 
-et Seuils masqués et fonction de transfert masquée (cf. cours 3)
+Résumons les éléments vus dans ce chapitre, sous la forme d'une série de questions que les psychoacousticien·nes pourront se poser avant de mettre au point une expérience.
 
-
-
-L’expérience de psychoacoustique
+- *Comment isoler le phénomène qui m’intéresse ?* On applique le principe de réductionnisme au stimuli, et à la tâche.
 
 Premier objectif des psychoacousticien·nes : construire une expérience permettant d’obtenir un indicateur fiable du phénomène perceptif étudié. 
 
 Comment isoler l’aspect qui m’intéresse ?
 De quel type de mesure ai-je besoin ?
-Obtenir une mesure suffisamment précise mais sans être trop longue, au risque de fatiguer les participant∙es
-Faut-il que l’expérience soit indépendante du critère ? (= sans biais individuels) 
-Faut-il que l’expérience soit implicite ? (= sans imposer ma grille de lecture aux sujets)
+Obtenir une mesure suffisamment précise mais sans être trop longue, au risque de fatiguer les participant∙es
+Faut-il que l’expérience soit indépendante du critère ? (= sans biais individuels) 
+Faut-il que l’expérience soit implicite ? (= sans imposer ma grille de lecture aux sujets)
 
 
 
 
+
+
+
+
+## L'approche, cinquième aspect de l'expérience psychophysique 
+
+Les quatre dimensions de l'expérience psychophysique décrites dans ce chapitre sont utiles pour décrire le déroulement de l'expérience. En revanche, elles ne spécifient pas l'**approche** utilisée, autrement dit le type de raisonnement qui fonde l'expérience. Plusieurs de ces approches seront décrites dans les chapitres suivants, néanmoins voici une liste non-exhaustive :
+- approche par masquage (cf. chapitre 3)
+- approche par filtrage (cf chapitre 4)
+- approche par synthèse (cf chapitre 4)
+- ...
 
 
 

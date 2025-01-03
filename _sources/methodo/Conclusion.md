@@ -3,7 +3,7 @@
 
 ## Mettre au point une expérience de psychoacoustique
 
-La psychoacoustique est une science expérimentale : elle s'appuie sur des expériences pour tester des hypothèses et modèles concernant un phénomène perceptif, en reproduisant celui-ci en laboratoire. Ces expériences doivent de plus être reproductibles par les scientifiques du domaine souhaitant compléter l'étude ou vérifier les résultats obtenus, d'où l'utilité d'une typologie des protocoles expérimentaux pour communiquer de façon claire et concise les choix méthodologiques effectués et le déroulement exact de l'expérience.
+La psychoacoustique est une science expérimentale : elle s'appuie sur des expériences pour tester des hypothèses et modèles concernant certains phénomènes perceptifs, en reproduisant ceux-ci en laboratoire de façon contrôlée. Ces expériences doivent de plus être reproductibles par les scientifiques du domaine souhaitant compléter l'étude ou vérifier les résultats obtenus, d'où l'utilité d'une typologie des protocoles expérimentaux pour communiquer de façon claire et concise les choix méthodologiques effectués et le déroulement exact de l'expérience.
 
 Comme nous l'avons vu dans ce chapitre, l'expérience de psychoacoustique est formée d'une série d’essais, chacun composé d’un ou plusieurs stimuli variables, sur lesquels le participant ou la participante réalise une tâche. Décrire l'expérience nécessite (entre autres) de préciser quatre aspects : 
 - **Stimuli & dimension d’intérêt** : choix d’une famille particulière de stimuli.
@@ -11,7 +11,7 @@ Comme nous l'avons vu dans ce chapitre, l'expérience de psychoacoustique est fo
 - **Méthode psychophysique** : la méthode peut être adaptative (p.ex. méthode des limites ou escalier psychophysique) ou non-adaptative (p.ex. méthode des stimuli constant ou mesure de performance).
 - **Paradigme psychophysique** : deux paradigmes ont été décrits dans ce chapitre, le paradigme yes/no et le paradigme du choix forcé.
 
-Mettre au point une expérience pour tester un phénomène perceptif particulier consiste en premier lieu à fixer ces paramètres méthodologiques en se posant une série de questions, notamment :
+Mettre au point une expérience pour tester un phénomène perceptif particulier consiste en premier lieu à se poser une série de questions, pour fixer ces paramètres méthodologiques. En particulier :
 
 - Comment isoler le phénomène qui m’intéresse ? Comment appliquer le principe de réductionnisme à mes stimuli et ma tâche ?
 - De quel type de mesure ai-je besoin ? Un seuil, un pourcentage de performance, une sensibilité ?

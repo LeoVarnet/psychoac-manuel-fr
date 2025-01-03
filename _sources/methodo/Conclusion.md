@@ -50,17 +50,13 @@ Le principe du test consiste, en résumé, à évaluer si la machine peut produi
 
 La psychoacoustique est une science expérimentale : elle s'appuie sur des expériences pour tester des hypothèses et modèles. Ces expériences doivent de plus être reproductibles par tout scientifique du domaine souhaitant vérifier les résultats obtenus, d'où l'utilité d'une typologie des protocoles expérimentaux telle que celle développée dans ce chapitre, qui permet de communiquer de façon claire et concise les choix méthodologiques et le déroulement exact de l'expérience.
 
-Résumons les éléments vus dans ce chapitre, sous la forme d'une série de questions que les psychoacousticien·nes pourront se poser avant de mettre au point une expérience.
+Résumons les éléments vus dans ce chapitre, sous la forme d'une série de questions que les psychoacousticien·nes pourront se poser avant de mettre au point une expérience. Les réponses à ces différentes interrogations conduiront à préférer un choix méthodologique à un autre.
 
-- *Comment isoler le phénomène qui m’intéresse ?* On applique le principe de réductionnisme au stimuli, et à la tâche.
-
-Premier objectif des psychoacousticien·nes : construire une expérience permettant d’obtenir un indicateur fiable du phénomène perceptif étudié. 
-
-Comment isoler l’aspect qui m’intéresse ?
-De quel type de mesure ai-je besoin ?
-Obtenir une mesure suffisamment précise mais sans être trop longue, au risque de fatiguer les participant∙es
-Faut-il que l’expérience soit indépendante du critère ? (= sans biais individuels) 
-Faut-il que l’expérience soit implicite ? (= sans imposer ma grille de lecture aux sujets)
+- Comment isoler le phénomène qui m’intéresse ? Comment appliquer le principe de réductionnisme à mes stimuli et ma tâche ?
+- De quel type de mesure ai-je besoin ? Un seuil, un pourcentage de performance, une sensibilité ?
+- Quelle est la priorité, entre la précision de la mesure et la durée de l'expérience ? Dois-je préférer une méthode et un paradigme necessitant peu d'essais (p.ex. nombreuses répétitions de la mesure dans différentes conditions, ou groupe de sujets particulièrement fatiguables) ?
+- Est-il important de s'assurer que la mesure soit indépendante du critère, c'est-à-dire qu'elle ne soit pas soumise à l'influence des biais de réponse individuels ? 
+- Faut-il que les instructions données aux sujets soient implicites ?
 
 
 

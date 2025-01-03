@@ -19,36 +19,13 @@ Mettre au point une expérience pour tester un phénomène perceptif particulier
 - Est-il important de s'assurer que la mesure soit indépendante du critère, c'est-à-dire qu'elle ne soit pas soumise à l'influence des biais de réponse individuels ? 
 - Faut-il que les instructions données aux sujets soient implicites ?
 - La tâche est-elle trop difficile ou trop facile ? Risque-t-elle de conduire à des performances plafond ou plancher ?
-
-## sdt
-
-Il pourrait sembler étrange à première vue qu'un seul et même cadre théorique permette de rendre compte et d'étudier des phénomènes aussi divers que la perception d'un bip sonore, la reconnaissance d'une voix ou d'un objet, la discrimination de nuances de couleur, ou encore  l'identification d'un parfum ou d'un cépage de vin. C'est pourtant ce que permet la psychophysique, offrant une boîte à outils pour investiguer scientifiquement tous les aspects de la perception humaine, dans des conditions de laboratoire. 
-
-Pour cela, il est nécessaire de se détacher des questions de phénoménologie de la perception ("qu'est-ce que cela fait de percevoir telle couleur ou tel son ?") pour s'intéresser à une analyse "depuis l'extérieur" de l'individu percevant, c'est-à-dire sur la base de ses comportements observables. 
-
-Cette approche behavioriste peut paraître surprenante aux néophytes, mais elle est en réalité très proche de la façon dont nous jugeons ordinairement de la perception. Comme le note Wittgenstein, nous apprenons le sens des termes de sensation, comme "douleur", non seulement en ressentant la douleur à la première personne, mais en découvrant que les personnes autour de nous ressentent également de la douleur. Or, nous n'avons jamais directement accès aux sensations éprouvées par autrui, nous pouvons seulement regarder comment celui-ci réagit aux stimulations. La douleur et les autres sensations ne sont donc pas seulement définies comme des ressentis subjectifs mais également comme des comportements observables objectifs. 
-
-> Un “processus interne” a besoin de critères externes.[…] Ne te demande pas : « Que se passe-t-il dans mon propre cas ? » — Demande : « Que sais-je des autres ? » *(Wittgenstein, Recherches philosophiques)*
-
-Dans la psychophysique, ce behaviorisme est appuyé par plusieurs autres principes. En premier lieu, le réductionnisme : on souhaite isoler au maximum le phénomène à étudier de façon à ce que notre mesure ne soit pas perturbée par d'autres facteurs dans lames stimuli, ou par la mise en œuvre d'autres mécanismes cognitifs chez le sujet lors de la réalisation de la tâche.
-
-envisageant la perception comme un système de détection du signal, qu'il s'agit de caractériser depuis l'extérieur 
-
-La psychoacoustique est une branche de la psychophysique, l'étude scientifique de la perception, dont elle a hérité la méthodologie rigoureuse. 
-
-Tout d'abord,
-
-
-
-## L’expérience en psychoacoustique
-
-
+- Existe-t-il des stratégies permettant de résoudre la tâche différemment de la façon souhaitée ?
 
 ## Mesures psychophysiques courantes
 
-On l'a vu, le choix d'une méthode expérimentale est principalement (mais pas exclusivement) guidé par le type de mesure visé. On peut ainsi caractériser la perception en termes de seuil, de performance, ou de sensibilité. Ces trois mesures sont en réalité trois façons de regarder la même fonction psychométrique sous-jacente.
+On l'a vu, le choix d'une méthode expérimentale est notamment guidé par le type de mesure visé. On peut ainsi caractériser la perception en termes de seuil, de performance, ou de sensibilité. Ces trois mesures sont en réalité trois façons de regarder la même fonction psychométrique sous-jacente.
 
-Il est ensuite possible de répéter cette mesure, en variant soit la population testée -- par exemple pour comparer la perception entre deux groupes de sujets -- soit la condition expérimentale, pour obtenir un tableau plus complet du phénomène. Dans le cas de l'audiogramme, par exemple, la mesure de seuil d'audibilité tonale est répétée pour différentes fréquences (idem pour la TMTF dans le cas des seuils de détection de modulations). Cette fonction représentant les seuils de détection pour une famille de stimuli est appelée **fonction de transfert**, par analogie avec les fonctions de transfert mesurées en électronique. Cette dénomination ne sous-entend néanmoins pas que la relation entrée-sortie est nécessairement linéaire. En réalité, nous avons déjà vu que ce n'est pas le cas pour la perception de l'intensité : les courbes isosoniques tracent un faisceau globalement cohérent mais ne sont pas exactement parallèles les unes aux autres comme on l'attendrait d'un processus lineaire.
+Il est possible d'effectuer cette mesure de façon répétée, en variant soit la population testée -- par exemple pour comparer deux groupes de sujets -- soit la condition expérimentale, pour obtenir un tableau plus complet du phénomène. Dans le cas de l'audiogramme, par exemple, la mesure de seuil d'audibilité tonale est réitérée pour différentes fréquences (idem pour la TMTF dans le cas des seuils de détection de modulations). Cette fonction représentant les seuils de détection pour une famille de stimuli est appelée **fonction de transfert**, par analogie avec les fonctions de transfert mesurées en électronique. Cette dénomination ne sous-entend néanmoins pas que la relation entrée-sortie est nécessairement linéaire. En réalité, nous avons déjà vu que ce n'est pas le cas pour la perception de l'intensité : les courbes isosoniques tracent un faisceau globalement cohérent mais ne sont pas exactement parallèles les unes aux autres comme on l'attendrait d'un processus lineaire.
 
 Ces mesures psychophysique peuvent être complétées par des mesures conjointes. 
 - Tout d'abord, la **chronométrie mentale** : le **temps de réponse** des sujets dans les expériences psychophysiques offre une information complémentaire sur les processus cognitifs sous-jacents. Par exemple, le temps mis pour reconnaître un mot dans le bruit est légèrement plus long que pour le même mot dans le silence, indiquant un effort d'écoute accru voire des traitements supplémentaires dans le cas de la compréhension dans le bruit. La comparaison des temps de réponse peut mettre en évidence des différences très fines entre des conditions pour lesquelles les performances semblent identiques.
@@ -77,6 +54,24 @@ Les quatre dimensions de l'expérience psychophysique décrites dans ce chapitre
 - approche par filtrage (cf chapitre 4)
 - approche par synthèse (cf chapitre 4)
 - ...
+
+## sdt
+
+Il pourrait sembler étrange à première vue qu'un seul et même cadre théorique permette de rendre compte et d'étudier des phénomènes aussi divers que la perception d'un bip sonore, la reconnaissance d'une voix ou d'un objet, la discrimination de nuances de couleur, ou encore  l'identification d'un parfum ou d'un cépage de vin. C'est pourtant ce que permet la psychophysique, offrant une boîte à outils pour investiguer scientifiquement tous les aspects de la perception humaine, dans des conditions de laboratoire. 
+
+Pour cela, il est nécessaire de se détacher des questions de phénoménologie de la perception ("qu'est-ce que cela fait de percevoir telle couleur ou tel son ?") pour s'intéresser à une analyse "depuis l'extérieur" de l'individu percevant, c'est-à-dire sur la base de ses comportements observables. 
+
+Cette approche behavioriste peut paraître surprenante aux néophytes, mais elle est en réalité très proche de la façon dont nous jugeons ordinairement de la perception. Comme le note Wittgenstein, nous apprenons le sens des termes de sensation, comme "douleur", non seulement en ressentant la douleur à la première personne, mais en découvrant que les personnes autour de nous ressentent également de la douleur. Or, nous n'avons jamais directement accès aux sensations éprouvées par autrui, nous pouvons seulement regarder comment celui-ci réagit aux stimulations. La douleur et les autres sensations ne sont donc pas seulement définies comme des ressentis subjectifs mais également comme des comportements observables objectifs. 
+
+> Un “processus interne” a besoin de critères externes.[…] Ne te demande pas : « Que se passe-t-il dans mon propre cas ? » — Demande : « Que sais-je des autres ? » *(Wittgenstein, Recherches philosophiques)*
+
+Dans la psychophysique, ce behaviorisme est appuyé par plusieurs autres principes. En premier lieu, le réductionnisme : on souhaite isoler au maximum le phénomène à étudier de façon à ce que notre mesure ne soit pas perturbée par d'autres facteurs dans lames stimuli, ou par la mise en œuvre d'autres mécanismes cognitifs chez le sujet lors de la réalisation de la tâche.
+
+envisageant la perception comme un système de détection du signal, qu'il s'agit de caractériser depuis l'extérieur 
+
+La psychoacoustique est une branche de la psychophysique, l'étude scientifique de la perception, dont elle a hérité la méthodologie rigoureuse. 
+
+Tout d'abord,
 
 
 

@@ -2,7 +2,7 @@
 
 ## Qu'est-ce que le paradigme expérimental ?
 
-Le **paradigme expérimental** est un paramètre de l'expérience moins intuitif que la tâche et la méthode, décrites précédemment. Il s'agit ici essentiellement de définir l'organisation des stimuli au sein d'un essai et le type de réponses attendu. Comme nous le verrons, ce choix a une influence sur la gamme de performances atteignables, et sur les biais de réponse potentiels des participants et participantes. Dans ce chapitre nous décrirons les deux paradigmes principaux : le yes/no et le choix forcé.
+Le **paradigme expérimental** est un paramètre de l'expérience moins intuitif que la tâche et la méthode, décrites précédemment. Il s'agit ici essentiellement de définir l'organisation des stimuli au sein d'un essai et le type de réponse attendu. Comme nous le verrons, ce choix a une influence sur la gamme de performances atteignables, et sur les potentiels biais de réponse des participants et participantes. Dans ce chapitre nous décrirons les deux paradigmes les plus courants: le yes/no et le choix forcé.
 
 ## Le paradigme yes/no 
 

@@ -13,9 +13,9 @@ Comme nous l'avons vu dans ce chapitre, l'expérience de psychoacoustique est fo
 
 Mettre au point une expérience pour tester un phénomène perceptif particulier consiste en premier lieu à se poser une série de questions, pour fixer ces paramètres méthodologiques. En particulier :
 
-- Comment isoler le phénomène qui m’intéresse ? Comment appliquer le principe de réductionnisme à mes stimuli et ma tâche ?
+- Comment isoler le phénomène étudié ? Comment appliquer le principe de réductionnisme à mes stimuli et ma tâche ?
 - De quel type de mesure ai-je besoin ? Un seuil, un pourcentage de performance, une sensibilité ?
-- Quelle est la priorité, entre la précision de la mesure et la durée de l'expérience ? Dois-je préférer une méthode et un paradigme necessitant peu d'essais (p.ex. nombreuses répétitions de la mesure dans différentes conditions, ou groupe de sujets particulièrement fatiguables) ?
+- Quelle est la priorité, entre la précision de la mesure et la durée de l'expérience ? Dois-je préférer une méthode et un paradigme necessitant peu d'essais (p.ex. dans le cas de nombreuses répétitions de la mesure dans différentes conditions, ou de sujets particulièrement fatiguables) ?
 - Est-il important de s'assurer que la mesure soit indépendante du critère, c'est-à-dire qu'elle ne soit pas soumise à l'influence des biais de réponse individuels ? 
 - Faut-il que les instructions données aux sujets soient implicites ?
 - La tâche est-elle trop difficile ou trop facile ? Risque-t-elle de conduire à des performances plafond ou plancher ?
@@ -40,16 +40,9 @@ Finalement, la psychophysique étant à l'origine des sciences cognitives, son a
 
 Le principe du test consiste, en résumé, à évaluer si la machine peut produire des interactions langagières suffisamment réalistes pour induire en erreur son interlocuteur·ice humain·e. Ainsi, plutôt que d'analyser le fonctionnement interne de la machine, Turing propose d'utiliser son comportement observable comme un critère pour juger de ses capacités cognitives.
 
-
-
-
-
-
-
-
 ## L'approche, cinquième aspect de l'expérience psychophysique 
 
-Les quatre dimensions de l'expérience psychophysique décrites dans ce chapitre sont utiles pour décrire le déroulement de l'expérience. En revanche, elles ne spécifient pas l'**approche** utilisée, autrement dit le type de raisonnement qui fonde l'expérience. Plusieurs de ces approches seront décrites dans les chapitres suivants, néanmoins voici une liste non-exhaustive :
+Les quatre dimensions de l'expérience psychophysique décrites dans ce chapitre sont utiles pour décrire le déroulement de l'expérience. En revanche, elles ne spécifient pas l'**approche** utilisée, autrement dit le type de raisonnement qui amène à réaliser l'expérience. Plusieurs de ces approches seront décrites dans les chapitres suivants, néanmoins voici une liste non-exhaustive :
 - approche par masquage (cf. chapitre 3)
 - approche par filtrage (cf chapitre 4)
 - approche par synthèse (cf chapitre 4)

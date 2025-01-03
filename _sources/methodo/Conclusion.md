@@ -1,6 +1,27 @@
 
 # Conclusion 
 
+## Mettre au point une expérience de psychoacoustique
+
+La psychoacoustique est une science expérimentale : elle s'appuie sur des expériences pour tester des hypothèses et modèles. Ces expériences doivent de plus être reproductibles par tout scientifique du domaine souhaitant vérifier les résultats obtenus, d'où l'utilité d'une typologie des protocoles expérimentaux telle que celle développée dans ce chapitre, qui permet de communiquer de façon claire et concise les choix méthodologiques et le déroulement exact de l'expérience.
+
+Comme nous l'avons vu dans ce chapitre, l'expérience de psychoacoustique est formée par une série d’essais, chacun composé d’un ou plusieurs stimuli variables, sur lesquels le participant ou la participante réalise une tâche. Décrire l'expérience nécessite (entre autres) de préciser quatre aspects : 
+- **Stimuli & dimension d’intérêt** : choix d’une famille particulière de stimuli.
+- **Tâche psychophysique** : bien que les contours et dénominations soient parfois un peu floues, on distingue essentiellement quatre types de tâches : détection, discrimination, catégorisation, reconnaissance.
+- **Méthode psychophysique** : la méthode peut être adaptative (p.ex. méthode des limites ou escalier psychophysique) ou non-adaptative (p.ex. méthode des stimuli constant ou mesure de performance).
+- **Paradigme psychophysique** : deux paradigmes ont été décrits dans ce chapitre, le paradigme yes/no et le paradigme du choix forcé.
+
+Mettre au point une expérience pour tester un phénomène perceptif particulier consiste en premier lieu à se poser une série de questions. Les réponses conduiront à préférer un choix méthodologique à un autre.
+
+- Comment isoler le phénomène qui m’intéresse ? Comment appliquer le principe de réductionnisme à mes stimuli et ma tâche ?
+- De quel type de mesure ai-je besoin ? Un seuil, un pourcentage de performance, une sensibilité ?
+- Quelle est la priorité, entre la précision de la mesure et la durée de l'expérience ? Dois-je préférer une méthode et un paradigme necessitant peu d'essais (p.ex. nombreuses répétitions de la mesure dans différentes conditions, ou groupe de sujets particulièrement fatiguables) ?
+- Est-il important de s'assurer que la mesure soit indépendante du critère, c'est-à-dire qu'elle ne soit pas soumise à l'influence des biais de réponse individuels ? 
+- Faut-il que les instructions données aux sujets soient implicites ?
+- La tâche est-elle trop difficile ou trop facile ? Risque-t-elle de conduire à des performances plafond ou plancher ?
+
+## sdt
+
 Il pourrait sembler étrange à première vue qu'un seul et même cadre théorique permette de rendre compte et d'étudier des phénomènes aussi divers que la perception d'un bip sonore, la reconnaissance d'une voix ou d'un objet, la discrimination de nuances de couleur, ou encore  l'identification d'un parfum ou d'un cépage de vin. C'est pourtant ce que permet la psychophysique, offrant une boîte à outils pour investiguer scientifiquement tous les aspects de la perception humaine, dans des conditions de laboratoire. 
 
 Pour cela, il est nécessaire de se détacher des questions de phénoménologie de la perception ("qu'est-ce que cela fait de percevoir telle couleur ou tel son ?") pour s'intéresser à une analyse "depuis l'extérieur" de l'individu percevant, c'est-à-dire sur la base de ses comportements observables. 
@@ -21,11 +42,7 @@ Tout d'abord,
 
 ## L’expérience en psychoacoustique
 
-Comme nous l'avons vu dans ce chapitre, l'expérience de psychoacoustique est formée par une série d’essais, chacun composé d’un ou plusieurs stimuli variables, sur lesquels le participant ou la participante réalise une tâche. Décrire l'expérience nécessite (entre autres) de préciser quatre aspects : 
-- **Stimuli & dimension d’intérêt** : choix d’une famille particulière de stimuli
-- **Tâche psychophysique** : bien que les contours et dénominations soient parfois un peu floues, on distingue essentiellement quatre types de tâches : détection, discrimination, catégorisation, reconnaissance 
-- **Méthode psychophysique** : la méthode peut être adaptative (p.ex. méthode des limites ou escalier psychophysique) ou non-adaptative (p.ex. méthode des stimuli constant ou mesure de performance)
-- **Paradigme psychophysique** : deux paradigmes ont été décrits dans ce chapitre, le paradigme yes/no et le paradigme du choix forcé
+
 
 ## Mesures psychophysiques courantes
 
@@ -45,18 +62,6 @@ Finalement, la psychophysique étant à l'origine des sciences cognitives, son a
 > Je propose de considérer la question « Les machines peuvent-elles penser ? ». [...] Au lieu de [philosopher sur la définition du terme "penser"], je remplacerai cette question par une autre, intrinsèquement liée, mais qui s'exprime dans des termes dépourvus d'ambiguïté. La nouvelle forme du problème peut être décrite comme un jeu qu nous appellerons "le jeu de l'imitation". *(Turing, the imitation game)*
 
 Le principe du test consiste, en résumé, à évaluer si la machine peut produire des interactions langagières suffisamment réalistes pour induire en erreur son interlocuteur·ice humain·e. Ainsi, plutôt que d'analyser le fonctionnement interne de la machine, Turing propose d'utiliser son comportement observable comme un critère pour juger de ses capacités cognitives.
-
-## Mettre au point une expérience de psychoacoustique
-
-La psychoacoustique est une science expérimentale : elle s'appuie sur des expériences pour tester des hypothèses et modèles. Ces expériences doivent de plus être reproductibles par tout scientifique du domaine souhaitant vérifier les résultats obtenus, d'où l'utilité d'une typologie des protocoles expérimentaux telle que celle développée dans ce chapitre, qui permet de communiquer de façon claire et concise les choix méthodologiques et le déroulement exact de l'expérience.
-
-Résumons les éléments vus dans ce chapitre, sous la forme d'une série de questions que les psychoacousticien·nes pourront se poser avant de mettre au point une expérience. Les réponses à ces différentes interrogations conduiront à préférer un choix méthodologique à un autre.
-
-- Comment isoler le phénomène qui m’intéresse ? Comment appliquer le principe de réductionnisme à mes stimuli et ma tâche ?
-- De quel type de mesure ai-je besoin ? Un seuil, un pourcentage de performance, une sensibilité ?
-- Quelle est la priorité, entre la précision de la mesure et la durée de l'expérience ? Dois-je préférer une méthode et un paradigme necessitant peu d'essais (p.ex. nombreuses répétitions de la mesure dans différentes conditions, ou groupe de sujets particulièrement fatiguables) ?
-- Est-il important de s'assurer que la mesure soit indépendante du critère, c'est-à-dire qu'elle ne soit pas soumise à l'influence des biais de réponse individuels ? 
-- Faut-il que les instructions données aux sujets soient implicites ?
 
 
 

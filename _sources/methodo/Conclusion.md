@@ -3,15 +3,15 @@
 
 ## Mettre au point une expérience de psychoacoustique
 
-La psychoacoustique est une science expérimentale : elle s'appuie sur des expériences reproduisant en laboratoire un phénomène d'intérêt pour tester des hypothèses et modèles. Ces expériences doivent de plus être reproductibles par tout scientifique du domaine souhaitant vérifier les résultats obtenus, d'où l'utilité d'une typologie des protocoles expérimentaux telle que celle développée dans ce chapitre, qui permet de communiquer de façon claire et concise les choix méthodologiques et le déroulement exact de l'expérience.
+La psychoacoustique est une science expérimentale : elle s'appuie sur des expériences pour tester des hypothèses et modèles concernant un phénomène perceptif, en reproduisant celui-ci en laboratoire. Ces expériences doivent de plus être reproductibles par les scientifiques du domaine souhaitant compléter l'étude ou vérifier les résultats obtenus, d'où l'utilité d'une typologie des protocoles expérimentaux pour communiquer de façon claire et concise les choix méthodologiques effectués et le déroulement exact de l'expérience.
 
-Comme nous l'avons vu dans ce chapitre, l'expérience de psychoacoustique est formée par une série d’essais, chacun composé d’un ou plusieurs stimuli variables, sur lesquels le participant ou la participante réalise une tâche. Décrire l'expérience nécessite (entre autres) de préciser quatre aspects : 
+Comme nous l'avons vu dans ce chapitre, l'expérience de psychoacoustique est formée d'une série d’essais, chacun composé d’un ou plusieurs stimuli variables, sur lesquels le participant ou la participante réalise une tâche. Décrire l'expérience nécessite (entre autres) de préciser quatre aspects : 
 - **Stimuli & dimension d’intérêt** : choix d’une famille particulière de stimuli.
 - **Tâche psychophysique** : bien que les contours et dénominations soient parfois un peu floues, on distingue essentiellement quatre types de tâches : détection, discrimination, catégorisation, reconnaissance.
 - **Méthode psychophysique** : la méthode peut être adaptative (p.ex. méthode des limites ou escalier psychophysique) ou non-adaptative (p.ex. méthode des stimuli constant ou mesure de performance).
 - **Paradigme psychophysique** : deux paradigmes ont été décrits dans ce chapitre, le paradigme yes/no et le paradigme du choix forcé.
 
-Mettre au point une expérience pour tester un phénomène perceptif particulier consiste en premier lieu à se poser une série de questions. Les réponses conduiront à préférer un choix méthodologique à un autre.
+Mettre au point une expérience pour tester un phénomène perceptif particulier consiste en premier lieu à fixer ces paramètres méthodologiques en se posant une série de questions, notamment :
 
 - Comment isoler le phénomène qui m’intéresse ? Comment appliquer le principe de réductionnisme à mes stimuli et ma tâche ?
 - De quel type de mesure ai-je besoin ? Un seuil, un pourcentage de performance, une sensibilité ?

@@ -98,6 +98,9 @@ align: center
 
 <br /> 
 
+## Une mesure de performance commune : d'
+
+Les paragraphes précédents ont souligné une difficulté dans l'utilisation des paradigmes : ceux-ci peuvent être plus faciles ou plus difficiles de façon inhérente, ce qui rend difficile la comparaison de mesures entre les deux paradigmes 
 
 ## Différentes variantes du choix forcé 
 

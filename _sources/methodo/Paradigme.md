@@ -22,7 +22,7 @@ align: center
 
 <br /> 
 
-Cette expérience constitue un bon exemple de **paradigme yes/no** : il s'agit pour le sujet de répondre simplement à la tâche en classant l'essai de façon binaire selon la tâche demandée  ("présent/absent", "catégorie A"/"catégorie B", "identique/différent"). Le yes/no et repose sur un seul stimulus par essai, sauf dans le cas de la tâche de discrimination qui nécessite deux stimuli.
+Cette expérience constitue un bon exemple de **paradigme yes/no** : il s'agit pour le sujet de répondre simplement à la tâche en classant l'essai de façon binaire selon la tâche demandée  ("présent/absent", "catégorie A"/"catégorie B", "identique/différent"). Le yes/no repose sur un seul stimulus par essai, sauf dans le cas de la tâche de discrimination qui nécessite deux stimuli.
 
 Un problème se pose néanmoins : la mesure obtenue par paradigme yes/no est **dépendante du critère** (*criterion-dependent*), c’est-à-dire que le résultat peut être influencé par les biais de réponse de l'individu. Ainsi, une personne peu sûre d'elle (qui répond très facilement « non » lorsqu'elle n'est pas absolument certaine d'avoir perçu le ton) obtiendra des seuils d’audibilité globalement plus faible que la moyenne, indépendamment de ses capacités perceptives. Ceci signifie que notre mesure psychophysique est polluée par des caractéristiques psychologiques "haut-niveau" du sujet, telles que la confiance en soi, qui ne devraient pas entrer ici en compte.
 
@@ -31,7 +31,7 @@ Un moyen d'obtenir une mesure **indépendante du critère** (*criterion-free*) 
 ## Le paradigme du choix forcé
 
 Voici une seconde expérience permettant elle aussi de mesurer les seuils d'audibilité tonale :
-À chaque essai, deux stimuli successifs sont présentés dans un ordre aléatoire, l’un étant un ton cible l’autre un silence. Le debut de chaque intervalle peut être indiqué par une lumière ou un léger signal sonore. Après ces deux stimuli, la consigne donnée au sujet est de sélectionner l’intervalle contenant le ton. Deux boutons de réponse sont disponibles pour indiquer si le ton de trouvait en première position ou en deuxième position.
+À chaque essai, deux stimuli successifs sont présentés dans un ordre aléatoire, l’un étant un ton cible l’autre un silence. Le début de chaque intervalle peut être indiqué par une lumière ou un léger signal sonore. Après ces deux stimuli, la consigne donnée au sujet est de sélectionner l’intervalle contenant le ton. Deux boutons de réponse sont disponibles pour indiquer si le ton de trouvait en première position ou en deuxième position.
 
 <audio controls>
   <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/methodo/2AFC.wav" type="audio/wav">

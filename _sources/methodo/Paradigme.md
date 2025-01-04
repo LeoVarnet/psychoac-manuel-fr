@@ -100,7 +100,9 @@ align: center
 
 ## Une mesure de performance commune : d'
 
-Les paragraphes précédents ont souligné une difficulté dans l'utilisation des paradigmes : ceux-ci peuvent être plus faciles ou plus difficiles de façon inhérente, ce qui rend difficile la comparaison de mesures entre les deux paradigmes 
+Dans le paragraphe précédent, nous avons souligné que l'utilisation d'un paradigme ou d'un autre conduit à changer la difficulté de l'expérience, toutes choses égales par ailleurs. Ceci peut être un atout, par exemple pour rendre plus praticable une tâche difficile. Mais cette difficulté variable est également une contrainte du point de vue des scientifiques car elle complexifie la comparaison de résultats obtenus au moyen de paradigmes différents.
+
+Heureusement, la théorie de la détection du signal permet ici de remettre tous les paradigmes sur une base commune.
 
 ## Différentes variantes du choix forcé 
 

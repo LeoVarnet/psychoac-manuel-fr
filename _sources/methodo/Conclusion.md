@@ -42,7 +42,7 @@ Le principe du test consiste, en résumé, à évaluer si la machine peut produi
 
 ## L'approche, cinquième aspect de l'expérience psychophysique 
 
-Les quatre dimensions de l'expérience psychophysique décrites dans ce chapitre sont utiles pour décrire le déroulement de l'expérience. En revanche, elles ne spécifient pas l'**approche** utilisée, autrement dit le type de raisonnement qui amène à réaliser l'expérience. Plusieurs de ces approches seront décrites dans les chapitres suivants, néanmoins voici une liste non-exhaustive :
+Les quatre dimensions de l'expérience psychophysique que nous avons détaillé dans ce chapitre sont utiles pour décrire le déroulement de l'expérience. En revanche, elles ne spécifient pas l'**approche** utilisée, autrement dit le type de raisonnement qui amène à réaliser l'expérience. Plusieurs de ces approches seront décrites dans les chapitres suivants, néanmoins voici une liste non-exhaustive :
 - approche par masquage (cf. chapitre 3)
 - approche par filtrage (cf chapitre 4)
 - approche par synthèse (cf chapitre 4)
@@ -52,11 +52,7 @@ Les quatre dimensions de l'expérience psychophysique décrites dans ce chapitre
 
 Il pourrait sembler étrange à première vue qu'un seul et même cadre théorique permette de rendre compte et d'étudier des phénomènes aussi divers que la perception d'un bip sonore, la reconnaissance d'une voix ou d'un objet, la discrimination de nuances de couleur, ou encore  l'identification d'un parfum ou d'un cépage de vin. C'est pourtant ce que permet la psychophysique, offrant une boîte à outils pour investiguer scientifiquement tous les aspects de la perception humaine, dans des conditions de laboratoire. 
 
-Pour cela, il est nécessaire de se détacher des questions de phénoménologie de la perception ("qu'est-ce que cela fait de percevoir telle couleur ou tel son ?") pour s'intéresser à une analyse "depuis l'extérieur" de l'individu percevant, c'est-à-dire sur la base de ses comportements observables. 
-
-Cette approche behavioriste peut paraître surprenante aux néophytes, mais elle est en réalité très proche de la façon dont nous jugeons ordinairement de la perception. Comme le note Wittgenstein, nous apprenons le sens des termes de sensation, comme "douleur", non seulement en ressentant la douleur à la première personne, mais en découvrant que les personnes autour de nous ressentent également de la douleur. Or, nous n'avons jamais directement accès aux sensations éprouvées par autrui, nous pouvons seulement regarder comment celui-ci réagit aux stimulations. La douleur et les autres sensations ne sont donc pas seulement définies comme des ressentis subjectifs mais également comme des comportements observables objectifs. 
-
-> Un “processus interne” a besoin de critères externes.[…] Ne te demande pas : « Que se passe-t-il dans mon propre cas ? » — Demande : « Que sais-je des autres ? » *(Wittgenstein, Recherches philosophiques)*
+> Un “processus interne” a besoin de critères externes.*(Ludwig Wittgenstein, Recherches philosophiques)*
 
 Dans la psychophysique, ce behaviorisme est appuyé par plusieurs autres principes. En premier lieu, le réductionnisme : on souhaite isoler au maximum le phénomène à étudier de façon à ce que notre mesure ne soit pas perturbée par d'autres facteurs dans lames stimuli, ou par la mise en œuvre d'autres mécanismes cognitifs chez le sujet lors de la réalisation de la tâche.
 

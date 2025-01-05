@@ -2,7 +2,7 @@
 
 ## Qu'est-ce que la méthode expérimentale ?
 
-Fixer la **méthode** de l'expérience revient à déterminer comment les stimuli évoluent d'un essai au suivant : sont-ils toujours identiques, varient-ils en fonction des réponses précédentes, ou indépendamment des réponses ? Ce choix est guidé par des contraintes pratiques, mais également par le type de mesure que l'on souhaite obtenir : mesure de seuil, de performance, ou de sensibilité ? Cette section présente les quatre méthodes les plus courantes, en les reliant au moyen de la fonction psychométrique.
+Fixer la **méthode** de l'expérience revient à déterminer comment les stimuli évoluent d'un essai au suivant : sont-ils toujours identiques, varient-ils en fonction des réponses précédentes, ou indépendamment des réponses ? Ce choix est guidé par des contraintes pratiques, mais également par le type de mesure que l'on souhaite obtenir : mesure de seuil, de performance, ou de sensibilité ? Cette section présente les quatre méthodes les plus courantes, en les reliant à la fonction psychométrique décrite précédemment.
 
 <br /> 
 
@@ -22,9 +22,9 @@ Les méthodes sont classées en deux groupes : **méthodes adaptatives** (les st
 
 ## Méthode des limites
 
-Supposons que nous voulions mesurer les **seuils d’audibilité tonale** (*pure-tone thresholds*) d'un individu, c'est à dire le niveau sonore minimal auquel il est capable de détecter la présence d'un ton pur à une fréquence donnée, quelle serait la façon la plus simple et rapide de procéder ?
+Supposons que nous voulions mesurer le **seuil d’audibilité tonale** (*pure-tone threshold*) d'un individu, c'est à dire le niveau sonore minimal auquel il est capable de détecter la présence d'un ton pur à une fréquence donnée, quelle serait la façon la plus simple et rapide de procéder ?
 
-La réponse à cette question est **l'audiogramme**, un protocole classique et extrêmement courant pratiqué notamment par les ORL pour mesurer les pertes auditives éventuelles de leurs patient·es. Pour réaliser un audiogramme, on installe la personne dans une cabine insonorisée et on lui diffuse des bips à une certaine fréquence en lui demandant de lever la main à chaque fois qu'elle en perçoit un. Le premier bip est diffusé à un volume sonore facile, puis à chaque bonne réponse le volume sonore est réduit jusqu'à ce que l'individu ne soit plus en mesure de détecter le bip. On considère alors qu'on a atteint le seuil de détection pour la fréquence testée. Cette procédure est alors reproduite pour un large panel de fréquences, pour une oreille puis pour l'autre, de manière à caractériser de la façon la plus complète l'audition de chaque oreille sur tout le spectre sonore.
+La réponse à cette question est **l'audiogramme**, un protocole classique et extrêmement courant, pratiqué notamment par les ORL pour détecter et mesurer les pertes auditives éventuelles de leurs patient·es. Pour réaliser un audiogramme, on installe le sujet, muni d'un casque audio, dans une cabine insonorisée en lui demandant de lever la main à chaque fois qu'elle perçoit un son. Au moyen d'un audiomètre, l'expérimentateur·ice contrôle la diffusion de bips à une certaine fréquence (p.ex. 1 kHz) dans une oreille du sujet (p.ex. l'oreille droite). Le premier son est diffusé à une intensité sonore confortable. Si le sujet indique comme attendu qu'il a détecté le bip, on réduit l'intensité d'un nombre de décibels fixé puis on recommence. À chaque bonne réponse le volume sonore est progressivement réduit jusqu'à ce que l'individu ne soit plus en mesure de détecter le bip. On considère alors qu'on a atteint le seuil de détection pour la fréquence testée et l'oreille testée. Cette procédure est alors reproduite pour un large panel de fréquences, pour une oreille puis pour l'autre, de manière à caractériser de la façon la plus complète l'audition de chaque oreille sur tout le spectre sonore.
 
 <br /> 
 

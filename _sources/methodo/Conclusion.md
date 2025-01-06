@@ -43,9 +43,14 @@ Le principe du test consiste, en résumé, à évaluer si la machine peut produi
 ## L'approche, cinquième aspect de l'expérience psychophysique 
 
 Les quatre dimensions de l'expérience psychophysique que nous avons détaillé dans ce chapitre sont utiles pour décrire le déroulement de l'expérience. En revanche, elles ne spécifient pas l'**approche** utilisée, autrement dit le type de raisonnement qui amène à réaliser l'expérience. Plusieurs de ces approches seront décrites dans les chapitres suivants, néanmoins voici une liste non-exhaustive :
+- approche par filtrage (cf. chapitre 4)
+- approche par distortion
+- approche par renforcement
 - approche par masquage (cf. chapitre 3)
-- approche par filtrage (cf chapitre 4)
-- approche par synthèse (cf chapitre 4)
+- approche par synthèse (cf. chapitre 4)
+- approche par conflit
+- approche par adaptation
+- approche par roving
 - ...
 
 ## sdt

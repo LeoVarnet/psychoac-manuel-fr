@@ -16,33 +16,30 @@
     document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
     document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
   </script>
-  <!--
-    this give us a css class that will be invisible only if js is disabled
-  -->
-  <noscript>
-    <style>
-      .pst-js-only { display: none !important; }
-
-    </style>
-  </noscript>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="../_static/styles/theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
-<link href="../_static/styles/pydata-sphinx-theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+  <link href="../_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
 
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=03e43079" />
-    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=a3416100" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=eba8b062" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
     <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
   
-  <!-- So that users can add custom icons -->
-  <script src="../_static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
-<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
 
     <script src="../_static/documentation_options.js?v=9eb32ce0"></script>
     <script src="../_static/doctools.js?v=9a2dae69"></script>
@@ -68,7 +65,6 @@
     <link rel="prev" title="Chapitre 1 : Méthodologie de la psychophysique et de la psychoacostique" href="main.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
-  <meta name="docsearch:version" content="" />
   </head>
   
   
@@ -84,8 +80,19 @@
     <i class="fa-solid fa-arrow-up"></i>Back to top</button>
 
   
-  <dialog id="pst-search-dialog">
-    
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
 <form class="bd-search d-flex align-items-center"
       action="../search.html"
       method="get">
@@ -93,6 +100,7 @@
   <input type="search"
          class="form-control"
          name="q"
+         id="search-input"
          placeholder="Search this book..."
          aria-label="Search this book..."
          autocomplete="off"
@@ -100,8 +108,8 @@
          autocapitalize="off"
          spellcheck="false"/>
   <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
-</form>
-  </dialog>
+</form></div>
+  </div>
 
   <div class="pst-async-banner-revealer d-none">
   <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
@@ -117,8 +125,7 @@
       
       
       
-      <dialog id="pst-primary-sidebar-modal"></dialog>
-      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+      <div class="bd-sidebar-primary bd-sidebar">
         
 
   
@@ -148,17 +155,21 @@
     
     
     <img src="../_static/logo.png" class="logo__image only-light" alt="Psychoacoustique et perception, une introduction - Home"/>
-    <img src="../_static/logo.png" class="logo__image only-dark pst-js-only" alt="Psychoacoustique et perception, une introduction - Home"/>
+    <script>document.write(`<img src="../_static/logo.png" class="logo__image only-dark" alt="Psychoacoustique et perception, une introduction - Home"/>`);</script>
   
   
 </a></div>
         <div class="sidebar-primary-item">
 
-<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
- <i class="fa-solid fa-magnifying-glass"></i>
- <span class="search-button__default-text">Search</span>
- <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
-</button></div>
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
         <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
         
@@ -197,14 +208,9 @@
   
   
   <div class="sidebar-primary-items__end sidebar-primary__section">
-      <div class="sidebar-primary-item">
-<div id="ethical-ad-placement"
-      class="flat"
-      data-ea-publisher="readthedocs"
-      data-ea-type="readthedocs-sidebar"
-      data-ea-manual="true">
-</div></div>
   </div>
+  
+  <div id="rtd-footer-container"></div>
 
 
       </div>
@@ -365,16 +371,24 @@
 
 
 
-<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
-  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
-  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
-  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
-</button>
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script>
 
 
-<button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+<script>
+document.write(`
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <i class="fa-solid fa-magnifying-glass fa-lg"></i>
-</button>
+  </button>
+`);
+</script>
 <button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <span class="fa-solid fa-list"></span>
 </button>
@@ -420,14 +434,14 @@
 <p>On conçoit dès lors à quel point le projet psychophysique de bâtir une <strong>science de la perception</strong>, est ambitieux puisqu’il nécessite de <strong>s’abstraire de la subjectivité de l’expérience sensible</strong>.</p>
 <section id="l-introspection-une-approche-insatisfaisante">
 <h2>L’introspection, une approche insatisfaisante<a class="headerlink" href="#l-introspection-une-approche-insatisfaisante" title="Link to this heading">#</a></h2>
-<p>Il existe plusieurs façon d’appréhender et d’étudier la perception. Une première possibilité, qui a été explorée très tôt par les philosophes, est l’<strong>introspection</strong>. Il s’agit de se demander ce que nous éprouvons lorsque nous percevons tel objet, et de décrire ce ressenti subjectif de la façon la plus complète possible afin de tenter de transmettre au mieux les subtilités de notre expérience sensible. On peut également réaliser une introspection sur un échantillon de population, en demandant à des participant·es de décrire avec leurs propres mots le son qui leur est proposé, puis en réalisant des analyses linguistiques sur leurs réponses. Cette approche n’est cependant pas satisfaisante du point de vue de la psychophysique, pour plusieurs raisons :</p>
+<p>Il existe plusieurs façon d’appréhender et d’étudier la perception. Une première possibilité, qui a été explorée très tôt par les philosophes, est l’<strong>introspection</strong>. Il s’agit de se demander ce que nous éprouvons lorsque nous percevons tel objet, et de décrire ce ressenti subjectif de la façon la plus complète possible afin de tenter de transmettre au mieux les subtilités de notre expérience sensible. La même méthodologie peut être appliquée à un échantillon de population, en demandant à des participant·es de décrire avec leurs propres mots le son qui leur est proposé, puis en réalisant des analyses linguistiques sur leurs réponses. Cette approche n’est cependant pas satisfaisante du point de vue de la psychophysique, pour plusieurs raisons :</p>
 <ul class="simple">
 <li><p>Les humains peuvent se tromper sur leurs propres perceptions, comme dans le cas des illusions perceptuelles.</p></li>
-<li><p>Une grande partie du traitement perceptuel est inaccessible à la conscience, et il ne peut donc être rapporté par l’individu.</p></li>
+<li><p>Une grande partie du traitement perceptuel est inaccessible à la conscience, et ne peut donc être rapportée par l’individu.</p></li>
 <li><p>Il existe des limites linguistiques à la capacité de décrire avec précision nos expériences sensorielles.</p></li>
 <li><p>Les résultats obtenus par l’approche introspective sont difficilement quantifiables.</p></li>
 </ul>
-<p>Pour ces différentes raisons, l’introspection et les méthodes apparentées comme le questionnaire ne sont pas considérées comme valides par la psychophysique. Ces approches fournissent indubitablement un moyen d’appréhender la perception – elles sont d’ailleurs employées par la phénoménologie [[Sensory perception]], une autre discipline qui s’intéresse à la perception – mais elles n’offrent pas les garanties d’objectivités recherchées par la psychophysique. Pour cette raison nous les écarterons délibérément de notre boîte à outils.</p>
+<p>Pour ces différentes raisons, l’introspection et les méthodes apparentées comme le questionnaire sont considérées comme peu fiables par la psychophysique. Ces approches fournissent indubitablement un moyen d’appréhender la perception – elles sont d’ailleurs employées par la phénoménologie [[Sensory perception]], une autre discipline qui s’intéresse à la perception – mais elles n’offrent pas les garanties d’objectivités recherchées par la psychophysique. Pour cette raison nous les écarterons délibérément de notre boîte à outils.</p>
 </section>
 <section id="l-esprit-humain-vu-comme-une-boite-noire">
 <h2>L’esprit humain vu comme une boîte noire<a class="headerlink" href="#l-esprit-humain-vu-comme-une-boite-noire" title="Link to this heading">#</a></h2>
@@ -435,21 +449,22 @@
 <blockquote>
 <div><p>Il nous faut rejeter ici ce préjugé qui fait de l’amour, de la haine ou de la colère des « réalités intérieures » accessibles à un seul témoin, celui qui les éprouve. Colère, honte, haine, amour ne sont pas des faits psychiques cachés au plus profond de la conscience d’autrui, ce sont des types de comportement ou des styles de conduite visibles du dehors. Ils sont sur ce visage ou dans ces gestes et non pas cachés derrière eux. La psychologie n’a commencé de se développer que le jour où elle a renoncé à distinguer le corps et l’esprit, où elle a abandonné les deux méthodes corrélatives de l’observation intérieure et de la psychologie physiologique […] Les « faits psychiques », — la colère, la peur par exemple, — ne pouvaient être directement connus que du dedans et par celui qui les éprouvait. On tenait pour évident que je ne puis, du dehors, saisir que les signes corporels de la colère ou de la peur, et que, pour interpréter ces signes, je dois recourir à la connaissance que j’ai de la colère ou de la peur en moi-même et par introspection. Les psychologues [expérimentaux] font remarquer que l’introspection, en réalité, ne me donne presque rien. <em>(Maurice Merleau-Ponty, Sens et non-sens)</em></p>
 </div></blockquote>
-<p>Il s’agit en réalité d’user pour étudier l’esprit humain de la même approche que pour étudier un système électronique. Supposons que l’on possède une « boîte noire » renfermant un mystérieux système électronique auquel nous n’avons accès qu’en imposant un courant électrique en entrée et en mesurant un courant électrique en sortie, avec interdiction formelle de démonter la boîte. Dans ce cas, la seule méthode disponible pour caractériser les processus qui ont lieu à l’intérieur de la boîte est d’envoyer différents signaux électriques en entrée, et de mesurer la sortie. En utilisant une variété de signaux électriques suffisamment grande on peut espérer ainsi caractériser entièrement le système, voire même inférer son fonctionnement. Le problème auquel sont confrontés les psychophysicien·nes est très similaire. Ils et elles souhaitent caractériser cette boîte noire mystérieuse et impossible à ouvrir qu’est le cerveau humain. Dans cette situation, l’entrée est le son qui parvient à l’oreille d’un individu, et la sortie sa réaction comportementale. On mesure cette dernière en termes de proportion de réponses correctes, de pourcentage de réponses “1”, de temps de réponses, etc.</p>
+<p>Il s’agit en réalité d’user pour étudier l’esprit humain de la même approche que pour étudier un système électronique. Supposons que l’on possède une « boîte noire » renfermant un mystérieux système électronique auquel nous n’avons accès qu’en imposant un courant électrique en entrée et en mesurant un courant électrique en sortie, avec interdiction formelle de démonter la boîte. Dans ce cas, la seule méthode disponible pour caractériser les processus qui ont lieu à l’intérieur de la boîte est d’envoyer différents signaux électriques en entrée, et de mesurer la sortie. En utilisant une variété de signaux électriques suffisamment grande on peut espérer ainsi caractériser entièrement le système, voire même inférer son fonctionnement. Le problème auquel nous est confrontée la psychophysique est très similaire : caractériser cette boîte noire mystérieuse et impossible à ouvrir qu’est le cerveau humain. Dans cette situation, l’entrée est le son qui parvient à l’oreille d’un individu, et la sortie sa réaction comportementale (ou réponse comportementale). Contrairement au résultat de l’introspection, les réactions se quantifient de façon simple en termes de proportion de réponses correctes, de pourcentage de réponses “1”, de temps de réponses, etc.</p>
 <br /> 
 <figure class="align-center" id="psychophysique-jpg">
-<a class="reference internal image-reference" href="../_images/Psychophysique.jpg"><img alt="Schéma de l'approche béhavioriste" src="../_images/Psychophysique.jpg" style="height: 400px;" /></a>
+<a class="reference internal image-reference" href="../_images/Psychophysique.jpg"><img alt="Schéma de l'approche béhavioriste" src="../_images/Psychophysique.jpg" style="height: 400px;" />
+</a>
 <figcaption>
 <p><span class="caption-number">Fig. 1 </span><span class="caption-text"><em>Schéma de l’approche béhavioriste. En haut, caractérisation d’une boîte noire électronique au moyen de ses courants d’entrée et de sortie. En bas caractérisation du système auditif humain en établissant la relation entre entrée (son) et sortie (comportement).</em></span><a class="headerlink" href="#psychophysique-jpg" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
 <br /> 
-<p>En résumé, la psychophysique cherche à déduire le fonctionnement interne du système à partir de son comportement externe (entrée-sortie). Dans ce cours, nous nous baserons donc uniquement sur les réponses clavier de nos sujets à des tâches auditives très simples.</p>
+<p>En résumé, la psychophysique cherche à déduire le fonctionnement interne du système à partir de son comportement externe (entrée-sortie). Dans ce cours, nous nous baserons donc uniquement sur l’analyse des réponses clavier d’individus soumis à des tâches auditives très simples.</p>
 <p>Cette approche behavioriste peut paraître surprenante aux néophytes, mais elle est en réalité très proche de la façon dont nous jugeons ordinairement de la perception. Comme le note Wittgenstein, nous apprenons le sens des termes de sensation, comme “douleur”, non seulement en ressentant la douleur à la première personne, mais en découvrant que les individus autour de nous ressentent également de la douleur. Or, nous n’avons jamais directement accès aux sensations éprouvées par autrui, nous pouvons seulement regarder comment celui-ci réagit aux stimulations. La douleur et les autres sensations ne sont donc pas uniquement définies comme des ressentis subjectifs (“qu’est-ce que cela me fait d’éprouver de la douleur”) mais également comme des comportements observables objectifs (“comment les autres réagissent lorsqu’ils et elles ressentent de la douleur”).</p>
 <blockquote>
 <div><p>Ne te demande pas : « Que se passe-t-il dans mon propre cas ? » — Demande : « Que sais-je des autres ? » <em>(Wittgenstein, Recherches philosophiques)</em></p>
 </div></blockquote>
-<p>En réalité, l’approche behavioriste est conforme avec la façon dont les sciences expérimentales étudient généralement leurs objets d’étude, la différence principale étant que ceux-ci ne sont ordinairement pas doués non doués d’une conscience :</p>
+<p>En réalité, l’approche behavioriste est conforme avec la façon dont les sciences expérimentales étudient généralement leurs objets d’étude, la différence principale étant que ceux-ci ne sont ordinairement pas doués d’une conscience :</p>
 <blockquote>
 <div><p>L’idéologie de la boîte noire est l’idéologie de toute investigation scientifique. Nous apprenons à connaître la molécule d’ADN en la sondant de différentes manières et en observant comment elle réagit ; nous apprenons à connaître le cancer, les tremblements de terre et l’inflation de la même manière. Il est souvent utile d’ “ouvrir” la boîte noire lorsque l’on s’intéresse à des objets macroscopiques, en envoyant des sondes à l’intérieur de l’objet (comme un scalpel) […]. La question doit être, comme le dit Hofstadter : Quelles sont les sondes les plus directement pertinentes pour la question à laquelle nous voulons répondre ? <em>(Douglas Hofstadter &amp; Daniel Dennett, Vues de l’esprit)</em></p>
 </div></blockquote>
@@ -460,46 +475,50 @@
 <p>Au milieu du XIXe siècle, Gustav Fechner fonde le premier laboratoire de psychophysique. Il définit cette dernière comme une science exacte cherchant à établir les relations quantitatives entre le stimulus et la sensation que celui-ci produit, et insiste sur l’importance de développer une méthodologie spécifique pour mesurer ces sensations [Elemente der Psychophysik, 1860].</p>
 <br /> 
 <figure class="align-center" id="fechner-jpg">
-<a class="reference internal image-reference" href="../_images/Fechner.jpg"><img alt="Gustav Fechner" src="../_images/Fechner.jpg" style="width: 300px;" /></a>
+<a class="reference internal image-reference" href="../_images/Fechner.jpg"><img alt="Gustav Fechner" src="../_images/Fechner.jpg" style="width: 300px;" />
+</a>
 <figcaption>
 <p><span class="caption-number">Fig. 2 </span><span class="caption-text"><em>Portrait de Gustav Fechner (1801–1887), fondateur de la psychophysique.</em></span><a class="headerlink" href="#fechner-jpg" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
 <br /> 
 <p>Il s’agit donc d’étudier comment la perception change lorsque l’on fait varier les propriétés physiques du stimulus perçu. Autrement dit, la psychophysique jette un pont entre le monde physique d’une part et la sphère des représentations mentales d’autre part. Il est utile de s’arrêter sur cette distinction dans le cas de la psychoacoustique pour préciser le vocabulaire qui sera utilisé dans la suite de ce cours.</p>
-<p>L’acoustique est la science des sons, objets physiques qui sont caractérisés par certaines de leurs propriétés mesurables comme l’<strong>intensité</strong> ou la <strong>fréquence</strong>. La psychoacoustique, en revanche, étudie la perception des sons. Elle cherche donc à relier l’objet physique à la représentation mentale que l’auditeur·ice s’en fait. Cette représentation, ou <strong>percept</strong> appartient au niveau cognitif. A chaque caractéristique physique du son correspond potentiellemnt une représentation de cette caractéristique dans l’esprit du sujet. On distingue ainsi l’intensité, caractéristique physique, de l’intensité perçue, aussi appelée <strong>sonie</strong> ; de même il faut différentier la fréquence de la “fréquence perçue”, ou <strong>hauteur tonale</strong> (nous y reviendrons au cours 3). Le langage courant ne fait le plus souvent pas la distinction entre les propriétés d’un objet et les propriétés de notre perception de cet objet – on parle ainsi de la couleur d’une fleur alors que la couleur n’est que le corrélat perceptuel des longueurs d’onde réfléchies par cette fleur. Néanmoins, cette distinction conceptuelle est fondamentale si l’on souhaite mener une étude approfondie de la perception.</p>
+<p>L’acoustique est la science des sons, objets physiques qui sont caractérisés par certaines de leurs propriétés mesurables comme l’<strong>intensité</strong> ou la <strong>fréquence</strong>. La psychoacoustique, en revanche, étudie la perception des sons. Elle cherche donc à relier l’objet physique à la représentation mentale que l’auditeur·ice s’en fait. Cette représentation, ou <strong>percept</strong> appartient au niveau cognitif. A chaque caractéristique physique du son correspond potentiellemnt une représentation de cette caractéristique dans l’esprit du sujet. On distingue ainsi l’intensité, caractéristique physique, de l’intensité perçue, aussi appelée <strong>sonie</strong> ; de même il faut différentier la fréquence de la “fréquence perçue”, ou <strong>hauteur tonale</strong> (nous y reviendrons au cours 3). Le langage courant ne fait le plus souvent pas la distinction entre les propriétés d’un objet et les propriétés de notre perception de cet objet – on parle ainsi de la couleur d’une fleur alors que la couleur n’est que le corrélat perceptuel des longueurs d’onde diffusées par cette fleur. Néanmoins, cette distinction conceptuelle est fondamentale si l’on souhaite mener une étude approfondie de la perception.</p>
 <br /> 
 <figure class="align-center" id="psychophysique2-jpg">
-<a class="reference internal image-reference" href="../_images/Psychophysique2.jpg"><img alt="Schéma de l'approche psychophysique" src="../_images/Psychophysique2.jpg" style="width: 700px;" /></a>
+<a class="reference internal image-reference" href="../_images/Psychophysique2.jpg"><img alt="Schéma de l'approche psychophysique" src="../_images/Psychophysique2.jpg" style="width: 700px;" />
+</a>
 <figcaption>
 <p><span class="caption-number">Fig. 3 </span><span class="caption-text"><em>Illustration de la distinction entre propriétés du monde physique et propriété du monde cognitif.</em></span><a class="headerlink" href="#psychophysique2-jpg" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
 <br /> 
-<p>Comme indiqué plus haut, la psychophysique s’intéresse aux relations quantitatives entre monde physique et monde cognitif. On cherche le plus souvent à établir une fonction entre la <strong>dimension physique d’intérêt</strong> et une certaine variable cognitive correspondant au comportement externe mesuré.</p>
+<p>Comme indiqué plus haut, la psychophysique s’intéresse aux relations quantitatives entre monde physique et monde cognitif. On cherche le plus souvent à établir une fonction entre une certaine <strong>dimension physique d’intérêt</strong> et une variable cognitive correspondant au comportement externe mesuré.</p>
 <br /> 
 <figure class="align-center" id="function-png">
-<a class="reference internal image-reference" href="../_images/function.png"><img alt="Fonction psychophysique quelconque" src="../_images/function.png" style="width: 300px;" /></a>
+<a class="reference internal image-reference" href="../_images/function.png"><img alt="Fonction psychophysique quelconque" src="../_images/function.png" style="width: 300px;" />
+</a>
 <figcaption>
 <p><span class="caption-number">Fig. 4 </span><span class="caption-text"><em>Exemple d’une fonction psychophysique quelconque.</em></span><a class="headerlink" href="#function-png" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
 <br /> 
-<p>La relation entre dimension physique et comportement peeut en théorie suivre n’importe quelle fonction. Néanmoins nous nous intéresserons par la suite à une fonction particulière, la fonction psychométrique, qui relie la dimension à une proportion de réponses entre 0% et 100%.</p>
+<p>La relation entre dimension physique et comportement peut en théorie suivre n’importe quelle fonction. Néanmoins nous nous intéresserons par la suite à une fonction particulière, la fonction psychométrique, qui relie la dimension à une proportion de réponses entre 0% et 100%.</p>
 </section>
 <section id="l-experience-de-psychoacoustique">
 <h2>L’expérience de psychoacoustique<a class="headerlink" href="#l-experience-de-psychoacoustique" title="Link to this heading">#</a></h2>
 <p>La psychoacoustique est une science expérimentale : elle teste la validité de ses hypothèses et modèles en mettant au point des expériences quantifiables et reproductibles, menées sur un échantillon représentatif de population.</p>
-<p>La structure d’une expérience est le plus souvent décrite de la façon suivante. Une expérience est composée d’une série d’<strong>essais</strong>. À chaque essai, on présente un ou plusieurs <strong>stimuli</strong> (c’est à dire un ou plusieurs sons) au sujet, qui doit réaliser une <strong>tâche</strong> simple et donner une <strong>réponse</strong>. Dans certains cas le nombre total d’essais composant l’expérience peut être très élevé pour obtenir une mesure suffisament fiable.</p>
+<p>La structure d’une expérience est le plus souvent décrite de la façon suivante. Une expérience est composée d’une série d’<strong>essais</strong>. À chaque essai, on présente un ou plusieurs <strong>stimuli</strong> (c’est à dire un ou plusieurs sons) au sujet, qui doit réaliser une <strong>tâche</strong> simple et donner une <strong>réponse</strong>. Dans certains cas le nombre total d’essais composant l’expérience peut être très élevé, de l’ordre de plusieurs milliers, pour obtenir une mesure suffisament fiable.</p>
 <br /> 
 <figure class="align-center" id="experience-png">
-<a class="reference internal image-reference" href="../_images/expérience.png"><img alt="Schéma de l'expérience psychophysique" src="../_images/exp%C3%A9rience.png" style="width: 400px;" /></a>
+<a class="reference internal image-reference" href="../_images/expérience.png"><img alt="Schéma de l'expérience psychophysique" src="../_images/exp%C3%A9rience.png" style="width: 400px;" />
+</a>
 <figcaption>
 <p><span class="caption-number">Fig. 5 </span><span class="caption-text"><em>Schéma de la structure d’une expérience psychoacoustique.</em></span><a class="headerlink" href="#experience-png" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
 <br /> 
-<p>Il est possible d’imaginer un nombre potentiellement infini d’expériences suivant cette structure. Dans la suite de ce chapitre nous proposerons une méthode pour choisir une expérience permettant d’obtenir un indicateur fiable du phénomène perceptif étudié. Pour ceci, nous décrirons une typologie des approches expérimentales de la perception, qui se déploie selon quatre axes : les <strong>stimuli</strong>, la <strong>méthode expérimentale</strong>, la <strong>tâche</strong>, et le <strong>paradigme expérimental</strong>. Cette typologie est utile non seulement pour mettre au point des expériences adaptée à l’étude d’une question de recherche particulière, mais également pour identifier rapidement le type d’expérience utilisé dans un article et les résultats qu’il est possible d’en attendre.</p>
+<p>Il est possible d’imaginer un nombre potentiellement infini d’expériences suivant cette structure. Dans la suite de ce chapitre nous proposerons une stratégie pour choisir une expérience permettant d’obtenir un indicateur fiable du phénomène perceptif étudié. Pour ceci, nous décrirons une typologie des approches expérimentales de la perception, qui se déploie selon quatre axes : les <strong>stimuli</strong>, la <strong>méthode expérimentale</strong>, la <strong>tâche</strong>, et le <strong>paradigme expérimental</strong>. Cette typologie est utile non seulement pour mettre au point des expériences adaptée à l’étude d’une question de recherche particulière, mais également pour identifier rapidement le type d’expérience utilisé dans un article et les résultats qu’il est possible d’en attendre.</p>
 </section>
 </section>
 
@@ -558,8 +577,7 @@
             
             
               
-                <dialog id="pst-secondary-sidebar-modal"></dialog>
-                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
 
 
   <div class="sidebar-secondary-item">
@@ -620,8 +638,8 @@ By Léo Varnet
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script defer src="../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf"></script>
-<script defer src="../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf"></script>
+  <script src="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
 
   <footer class="bd-footer">
   </footer>

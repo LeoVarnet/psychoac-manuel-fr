@@ -16,33 +16,30 @@
     document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
     document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
   </script>
-  <!--
-    this give us a css class that will be invisible only if js is disabled
-  -->
-  <noscript>
-    <style>
-      .pst-js-only { display: none !important; }
-
-    </style>
-  </noscript>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="../_static/styles/theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
-<link href="../_static/styles/pydata-sphinx-theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+  <link href="../_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
 
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=03e43079" />
-    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=a3416100" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=eba8b062" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
     <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
   
-  <!-- So that users can add custom icons -->
-  <script src="../_static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
-<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
 
     <script src="../_static/documentation_options.js?v=9eb32ce0"></script>
     <script src="../_static/doctools.js?v=9a2dae69"></script>
@@ -68,7 +65,6 @@
     <link rel="prev" title="Méthode expérimentale" href="Methode.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
-  <meta name="docsearch:version" content="" />
   </head>
   
   
@@ -84,8 +80,19 @@
     <i class="fa-solid fa-arrow-up"></i>Back to top</button>
 
   
-  <dialog id="pst-search-dialog">
-    
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
 <form class="bd-search d-flex align-items-center"
       action="../search.html"
       method="get">
@@ -93,6 +100,7 @@
   <input type="search"
          class="form-control"
          name="q"
+         id="search-input"
          placeholder="Search this book..."
          aria-label="Search this book..."
          autocomplete="off"
@@ -100,8 +108,8 @@
          autocapitalize="off"
          spellcheck="false"/>
   <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
-</form>
-  </dialog>
+</form></div>
+  </div>
 
   <div class="pst-async-banner-revealer d-none">
   <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
@@ -117,8 +125,7 @@
       
       
       
-      <dialog id="pst-primary-sidebar-modal"></dialog>
-      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+      <div class="bd-sidebar-primary bd-sidebar">
         
 
   
@@ -148,17 +155,21 @@
     
     
     <img src="../_static/logo.png" class="logo__image only-light" alt="Psychoacoustique et perception, une introduction - Home"/>
-    <img src="../_static/logo.png" class="logo__image only-dark pst-js-only" alt="Psychoacoustique et perception, une introduction - Home"/>
+    <script>document.write(`<img src="../_static/logo.png" class="logo__image only-dark" alt="Psychoacoustique et perception, une introduction - Home"/>`);</script>
   
   
 </a></div>
         <div class="sidebar-primary-item">
 
-<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
- <i class="fa-solid fa-magnifying-glass"></i>
- <span class="search-button__default-text">Search</span>
- <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
-</button></div>
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
         <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
         
@@ -197,14 +208,9 @@
   
   
   <div class="sidebar-primary-items__end sidebar-primary__section">
-      <div class="sidebar-primary-item">
-<div id="ethical-ad-placement"
-      class="flat"
-      data-ea-publisher="readthedocs"
-      data-ea-type="readthedocs-sidebar"
-      data-ea-manual="true">
-</div></div>
   </div>
+  
+  <div id="rtd-footer-container"></div>
 
 
       </div>
@@ -365,16 +371,24 @@
 
 
 
-<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
-  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
-  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
-  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
-</button>
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script>
 
 
-<button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+<script>
+document.write(`
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <i class="fa-solid fa-magnifying-glass fa-lg"></i>
-</button>
+  </button>
+`);
+</script>
 <button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <span class="fa-solid fa-list"></span>
 </button>
@@ -425,7 +439,8 @@
 <p>L’expérience prend alors la forme suivante, dans le cas de l’audiogramme :</p>
 <br /> 
 <figure class="align-center" id="expedetect-png">
-<a class="reference internal image-reference" href="../_images/ExpeDetect.png"><img alt="Schéma de l'expérience psychophysique, tâche de détection" src="../_images/ExpeDetect.png" style="width: 400px;" /></a>
+<a class="reference internal image-reference" href="../_images/ExpeDetect.png"><img alt="Schéma de l'expérience psychophysique, tâche de détection" src="../_images/ExpeDetect.png" style="width: 400px;" />
+</a>
 <figcaption>
 <p><span class="caption-number">Fig. 34 </span><span class="caption-text"><em>Schéma de la structure d’une expérience psychoacoustique dans le cas d’une tâche de détection (avec un paradigme yes/no).</em></span><a class="headerlink" href="#expedetect-png" title="Link to this image">#</a></p>
 </figcaption>
@@ -439,7 +454,8 @@
 <p>Voici un exemple de déroulement d’une expérience de discrimination :</p>
 <br /> 
 <figure class="align-center" id="expediscrim-png">
-<a class="reference internal image-reference" href="../_images/ExpeDiscrim.png"><img alt="Schéma de l'expérience psychophysique, tâche de discrimination" src="../_images/ExpeDiscrim.png" style="width: 400px;" /></a>
+<a class="reference internal image-reference" href="../_images/ExpeDiscrim.png"><img alt="Schéma de l'expérience psychophysique, tâche de discrimination" src="../_images/ExpeDiscrim.png" style="width: 400px;" />
+</a>
 <figcaption>
 <p><span class="caption-number">Fig. 35 </span><span class="caption-text"><em>Schéma de la structure d’une expérience psychoacoustique dans le cas d’une tâche de discrimination, avec un paradigme yes/no.</em></span><a class="headerlink" href="#expediscrim-png" title="Link to this image">#</a></p>
 </figcaption>
@@ -449,7 +465,8 @@
 <p>Au chapitre précédent, nous avons évoqué le seuil d’audibilité tonale, cas particulier de seuils de détection de tons purs. Comme nous l’avons vu, on peut le mesurer en présentant des tons purs d’intensité décroissante jusqu’à ce que le participant ou la participante ne parvienne plus à les détecter (méthode des limites + tâche de détection). La répétion de cette mesure de seuils pour des tons de différentes fréquences permet de tracer l’audiogramme et ainsi de démontrer que, au niveau liminaire, l’intensité perçue dépend de la fréquence. Par exemple, comme on peut le lire sur la figure suivante, un ton pur à 20 dB SPL sera audible ou non selon que sa fréquence est 50 Hz ou 500 Hz.</p>
 <br /> 
 <figure class="align-center" id="audiogramme4-png">
-<a class="reference internal image-reference" href="../_images/Audiogramme4.png"><img alt="Audiogramme" src="../_images/Audiogramme4.png" style="width: 400px;" /></a>
+<a class="reference internal image-reference" href="../_images/Audiogramme4.png"><img alt="Audiogramme" src="../_images/Audiogramme4.png" style="width: 400px;" />
+</a>
 <figcaption>
 <p><span class="caption-number">Fig. 36 </span><span class="caption-text"><em>Rappel : tracé de l’audiogramme.</em></span><a class="headerlink" href="#audiogramme4-png" title="Link to this image">#</a></p>
 </figcaption>
@@ -463,7 +480,8 @@
 <p>Ce deuxième protocole expérimental, lorsqu’il est répété pour un certain nombre de fréquences test, permet de tracer la <strong>courbe isosonique</strong> pour l’intensité de référence. En répliquant la procédure pour différentes intensités de référence, on obtient ainsi un faisceau de courbes isosoniques qui offrent un aperçu de la perception de l’intensité selon les fréquences à différents niveaux sonores.</p>
 <br /> 
 <figure class="align-center" id="isosonique-png">
-<a class="reference internal image-reference" href="../_images/Isosonique.png"><img alt="Courbes isosoniques" src="../_images/Isosonique.png" style="width: 500px;" /></a>
+<a class="reference internal image-reference" href="../_images/Isosonique.png"><img alt="Courbes isosoniques" src="../_images/Isosonique.png" style="width: 500px;" />
+</a>
 <figcaption>
 <p><span class="caption-number">Fig. 37 </span><span class="caption-text"><em>Courbes isosoniques typiques. Chaque courbe bleue est mesurée relativement à un ton de référence à 1 kHz et dont l’intensité est indiquée en orange. La courbe la plus basse (en vert) correspond aux seuils auditifs mesurés précédemment par l’audiogramme. Chaque courbe indique donc un ensemble de tons purs perçus comme ayant la même intensité.</em></span><a class="headerlink" href="#isosonique-png" title="Link to this image">#</a></p>
 </figcaption>
@@ -548,8 +566,7 @@ En contrepartie, la tâche de détection nécessite de présenter un stimulus de
             
             
               
-                <dialog id="pst-secondary-sidebar-modal"></dialog>
-                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
 
 
   <div class="sidebar-secondary-item">
@@ -610,8 +627,8 @@ By Léo Varnet
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script defer src="../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf"></script>
-<script defer src="../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf"></script>
+  <script src="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
 
   <footer class="bd-footer">
   </footer>

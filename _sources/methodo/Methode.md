@@ -40,11 +40,13 @@ align: center
 
 <br /> 
 
-Voici une démo de mesure d'audiogramme. La figure suivante représente les résultats moyens obtenus sur cette démo. Pour plus de simplicité, le seuil de détection n'est pas exprimé en dB mais directement en nombre de tons successifs perçus.
+Voici un exemple de mesure d'audiogramme. Sept fréquences sont testées successivement : 125 Hz, 250 Hz, 500 Hz, 1000 Hz, 2000 Hz, 4000 Hz, et 8000 Hz. Pour chacune, deux mesures sont réalisées correspondant à 11 tons purs d'intensité décroissante. La mesure du seuil d'intensité tonale nécessite de maîtriser exactement le volume sonore absolu auquel sont diffusés les sons, ce qui n'est pas le cas ici. Néanmoins, vous pouvez obtenir un aperçu de la sensibilité relative de votre oreille aux différentes fréquences en comptant le nombre de tons dans chaque série.
 
 <audio controls>
   <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/methodo/demo_audiogram.mp3" type="audio/wav">
 </audio>
+
+La figure suivante représente les résultats moyens obtenus sur cette petite expérience. Pour plus de simplicité, le seuil de détection n'est pas exprimé en dB mais directement en nombre de tons successifs perçus.
 
 <br /> 
 
@@ -76,9 +78,9 @@ align: center
 
 <br /> 
 
-Cette expérience extrêmement simple suit la **méthode des limites descendante**, qui consiste à choisir un niveau de départ facile sur la dimension d'intérêt puis à augmenter progressivement la difficulté d'un essai à l'autre par pas constant jusqu'à ce que le participant ou la participante ne soit plus en mesure de réaliser la tâche demandée. À l'inverse, la **méthode des limites ascendante** part d'un niveau bas pour s'arrêter dès que le participant parvient à effectuer la tâche.
+Cette expérience extrêmement simple suit la **méthode des limites descendante**, qui consiste à choisir un niveau de départ facile sur la dimension d'intérêt puis à augmenter progressivement la difficulté d'un essai à l'autre par pas constant jusqu'à ce que le participant ou la participante ne soit plus en mesure de réaliser la tâche demandée. À l'inverse, la **méthode des limites ascendante** part d'un niveau bas pour s'arrêter dès que le participant ou la participante parvient à effectuer la tâche.
 
-L'intérêt évident de la méthode des limites est qu'elle permet de mesurer un seuil en un temps très court : une descente ou une montée représentent une dizaine d'essais, selon le choix du niveau de départ et de la taille du pas, et on répète habituellement trois fois la mesure pour s'assurer de la stabilité du seuil, parfois en alternant méthodes ascendante et descendante. La figure suivante illustre une mesure composée de 6 répétitions, ascendantes et descendantes, en réduisant progressivement la taille du pas pour obtenir une meilleure précision.
+L'intérêt évident de la méthode des limites est qu'elle permet de mesurer un seuil en un temps très court : une descente ou une montée représentent une dizaine d'essais, selon le choix du niveau de départ et de la taille du pas, et on répète habituellement trois fois la mesure pour s'assurer de la stabilité du seuil, parfois en alternant méthodes ascendante et descendante. La figure et l'exemple sonore suivants illustrent une mesure composée de 6 répétitions, ascendantes et descendantes, en réduisant progressivement la taille du pas pour obtenir une meilleure précision.
 
 <br /> 
 
@@ -93,6 +95,10 @@ align: center
 ```
 
 <br /> 
+
+<audio controls>
+  <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/methodo/demo_limits.mp3" type="audio/wav">
+</audio>
 
 En revanche cette méthode présente également un désavantage majeur : le caractère subjectif de la définition du seuil. Pour s'en rendre compte, représentons la situation du point de vue de la fonction psychométrique. Considérons dans un premier temps un cas de forte sensibilité, c'est à dire de pente abrupte. Le seuil de détection correspond à la zone très étroite de la pente.
 
@@ -175,6 +181,16 @@ align: center
 ```
 
 <br /> 
+
+Les deux exemples audio suivants correspondent aux parties A et B de la figure ci-dessus. Chaque essai est suivi d'un signal sonore indiquant la réponse positive ou négative du sujet.
+
+<audio controls>
+  <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/methodo/demo_staircase1.mp3" type="audio/wav">
+</audio>
+
+<audio controls>
+  <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/methodo/demo_staircase2.mp3" type="audio/wav">
+</audio>
 
 Il est très simple de démontrer que l'escalier 1-down-1-up converge vers le seuil à 50%. En effet, à l'équilibre la probabilité de monter doit être égale à la probabilité de descendre, soit 
 
@@ -322,7 +338,13 @@ align: center
 
 <br /> 
 
-Voici un exemple de méthode des stimuli constants dans la situation de détection de tons purs à une fréquence donnée. Comme attendu, les pourcentages de détection sont proches de 0 lorsque le ton est présenté à un niveau extrêmement faible (< 3 dB SPL). Puis les performances croissent avec le niveau sonore jusqu'à atteindre le maximum de 100%. La courbe totale suit une fonction psychométrique telle que décrite au chapitre précédent.
+Voici un exemple de méthode des stimuli constants dans la situation de détection de tons purs à la fréquence de 1000 Hz. Douze niveaux sonores différents sont présentés dans un ordre aléatoire, la tâche du sujet consistant à indiquer après chaque essai s'il a perçu ou non un son. Chaque niveau est présenté un total de trois fois.
+
+<audio controls>
+  <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/methodo/demo_constantstimuli.mp3" type="audio/wav">
+</audio>
+
+La figure ci-dessous résume les résultats de l'expérience précédente. Comme attendu, les pourcentages de détection sont proches de 0 lorsque le ton est présenté à un niveau extrêmement faible (< 3 dB SPL). Puis les performances s'améliorent avec le niveau sonore jusqu'à atteindre le maximum de 100%. La courbe totale suit une fonction psychométrique telle que décrite au chapitre précédent.
 
 <br /> 
 

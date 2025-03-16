@@ -40,7 +40,7 @@ align: center
 
 <br /> 
 
-Voici un exemple de mesure d'audiogramme. Sept fréquences sont testées successivement : 125 Hz, 250 Hz, 500 Hz, 1000 Hz, 2000 Hz, 4000 Hz, et 8000 Hz. Pour chacune, deux mesures sont réalisées correspondant à 11 tons purs d'intensité décroissante. La mesure du seuil d'intensité tonale nécessite de maîtriser exactement le volume sonore absolu auquel sont diffusés les sons, ce qui n'est pas le cas ici. Néanmoins, vous pouvez obtenir un aperçu de la sensibilité relative de votre oreille aux différentes fréquences en comptant le nombre de bips que vous percevez dans chaque série. Plus votre oreille est sensible à une fréquence donnée plus vous devriez être capable de dénombrer de tons successifs dans les séries correspondante.
+Voici un exemple de mesure d'audiogramme. Sept fréquences sont testées successivement : 125 Hz, 250 Hz, 500 Hz, 1000 Hz, 2000 Hz, 4000 Hz, et 8000 Hz. Pour chacune, deux mesures sont réalisées correspondant à 11 tons purs d'intensité décroissante. La mesure exacte du seuil d'audibilité tonale nécessite de maîtriser exactement le volume sonore auquel sont diffusés les sons, ce qui n'est pas le cas ici. Néanmoins, vous pouvez obtenir un aperçu de la sensibilité relative de votre oreille aux différentes fréquences en comptant le nombre de bips que vous percevez dans chaque série. Plus votre oreille est sensible à une fréquence donnée plus vous devriez être capable de dénombrer de tons successifs dans les séries correspondante.
 
 <audio controls>
   <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/methodo/demo_audiogram.mp3" type="audio/wav">

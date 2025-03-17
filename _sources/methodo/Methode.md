@@ -100,9 +100,13 @@ align: center
   <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/methodo/demo_limits.mp3" type="audio/wav">
 </audio>
 
-Notons d'ores et déjà qu'il est facile d'appliquer la même méthode à d'autres tâches psychoacoustiques. Voici par exemple le même exemple que précédemment mais dans le cas d'une tâche de détection des modulations (instruction : "indiquez si vous avez perçu que le son vibre"). La dimension d'intérêt variée d'un essai à l'autre est dans ce cas l'ampleur des fluctuations, des modifications plus fines étant plus difficiles à détecter.
+Notons d'ores et déjà qu'il est facile d'appliquer la même méthode à d'autres tâches psychoacoustiques. Voici par exemple le même enchaînement de méthodes de limites ascendantes et descendantes que précédemment, cette fois dans le cas d'une tâche de détection des modulations (instruction données au sujet : "indiquez si vous avez perçu une vibration dans le son"). La dimension d'intérêt variée d'un essai à l'autre est dans ce cas l'ampleur des fluctuations, des modulations plus fines étant plus difficiles à détecter.
 
-XXX
+<audio controls>
+  <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/methodo/demo_limitsAM.mp3" type="audio/wav">
+</audio>
+
+Nous reviendrons dans les sections suivantes sur la notion de tâche psychophysique, et comment la combiner avec différentes méthodes.
 
 On pourrait reprocher à cette expérience -- comme à toutes celles que nous verrons par la suite dans ce chapitre -- de ne pas tenir compte des biais d'attente du participant ou de la participante : lors d'une série descendante, par exemple, le fait de s'attendre à entendre le bip suivant facilite très certainement sa détection. Dans le pire de cas, un sujet "tricheur" pourrait décider de répondre toujours "j'ai entendu le bip" pour obtenir des résultats arbitrairement elevés. Il est néanmoins aisé de contrecarrer ces stratégies en insérant des essais sans bips, répartis aléatoirement, et pour lesquels la réponse correcte serait donc "je n'ai pas entendu de son". Si ces essais sont aussi nombreux que les essais présentant un bip, nous sommes assuré·es que la mesure obtenue ne sera pas affectée par les biais d'attente.
 

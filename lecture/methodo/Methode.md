@@ -166,7 +166,7 @@ align: center
 
 <br /> 
 
-Il est donc conseillé d'user de la méthode des limites de préférence pour des tâches ou la sensibilité est forte, ou à défaut, de vérifier que la mesure de seuil est relativement stable. Alternativement, il est possible de se tourner vers la méthode de l'escalier psychophysique pour obtenir une meilleure définition du seuil, indépendante de la sensibilité.
+Il est donc conseillé d'user de la méthode des limites de préférence pour des tâches où la sensibilité est forte ou, à défaut, de vérifier que la mesure de seuil est relativement stable. Alternativement, il est possible de se tourner vers la méthode de l'escalier psychophysique pour obtenir une meilleure définition du seuil, indépendante de la sensibilité.
 
 ## Escalier psychophysique 
 
@@ -174,7 +174,7 @@ L'escalier psychophysique est une amélioration de la méthode des limites visan
 
 L'escalier psychophysique **1-up-1-down** suit une règle adaptative très simple. Comme pour la méthode des limites descendante, une valeur de départ "facile" est choisie. Après chaque bonne réponse, le niveau de difficulté est augmenté d'un pas le long de la dimension d'intérêt. Au contraire, après chaque mauvaise réponse, le niveau de difficulté est diminué d'un pas.
 
-La partie A de la figure suivante illustre le déroulement d'une mesure de seuil de détection au moyen de la règle 1-up-1-down. Le début de l'escalier est semblable à la méthode des limites descendantes : le niveau du stimulus est diminué par pas successifs tant que le sujet parvient à  détecter celui-ci correctement (symboles noirs). Contrairement à la méthode des limites en revanche l'expérience ne s'interrompt pas au moment où le sujet donne la première réponse négative (symbole blanc), mais un nouveau stimulus est présenté avec un niveau rehaussé de la valeur d'un pas. L'expérience continue en suivant cette règle, si bien que le niveau finit par osciller autour d'une certaine valeur. Cette valeur correspond au seuil de détection à 50%, c'est à dire le niveau sonore pour lequel le stimulus est détecté 50% du temps (c'est-à-dire avec une probabilité de 50%).
+La partie A de la figure suivante illustre le déroulement d'une mesure de seuil de détection au moyen de la règle 1-up-1-down. Le début de l'escalier est semblable à la méthode des limites descendantes : le niveau du stimulus est diminué par pas successifs tant que le sujet parvient à  détecter celui-ci correctement (symboles noirs). En revanche, contrairement à la méthode des limites, l'expérience ne s'interrompt pas au moment où le sujet donne la première réponse négative (symbole blanc), mais un nouveau stimulus est présenté avec un niveau rehaussé de la valeur d'un pas. L'expérience continue en suivant cette règle, si bien que le niveau finit par osciller autour d'une certaine valeur. Cette valeur correspond au seuil de détection à 50%, c'est à dire le niveau sonore pour lequel le stimulus est détecté 50% du temps (c'est-à-dire avec une probabilité de 50%).
 
 <br /> 
 
@@ -190,7 +190,7 @@ align: center
 
 <br /> 
 
-Les deux exemples audio suivants correspondent aux parties A et B de la figure ci-dessus. Chaque essai est suivi d'un signal sonore indiquant la réponse positive ou négative du sujet.
+Les deux exemples audio suivants correspondent aux parties A et B de la figure ci-dessus. Comme précédemment, chaque essai est suivi d'un signal sonore indiquant la réponse positive ou négative du sujet.
 
 <audio controls>
   <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/methodo/demo_staircase1.mp3" type="audio/wav">
@@ -200,7 +200,7 @@ Les deux exemples audio suivants correspondent aux parties A et B de la figure c
   <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/methodo/demo_staircase2.mp3" type="audio/wav">
 </audio>
 
-Il est très simple de démontrer que l'escalier 1-down-1-up converge vers le seuil à 50%. En effet, à l'équilibre, la probabilité de monter doit être égale à la probabilité de descendre, soit :
+Il est très simple de démontrer que l'escalier 1-down-1-up converge vers le seuil à 50%. En effet, à l'équilibre, la probabilité de monter est égale à la probabilité de descendre, soit :
 
 \begin{gather*}
 p(descendre) = p(monter)\\
@@ -211,7 +211,7 @@ p(détection) = 0.5\\
 
 L'escalier 1-down-1-up offre donc une manière relativement efficace d'évaluer le seuil à 50%. L'estimation d'un seuil nécessite habituellement une trentaine d'essais, une durée qui peut varier selon la valeur de départ de l'escalier et le degré de précision souhaité. Il est également possible, comme illustré sur la figure, de réduire la taille du pas au cours de l'escalier de façon à combiner convergence rapide et estimation précise.
 
-Notez que le seuil à 50% estimé par cette méthode ne possède a priori aucune propriété particulière, du point de vue perceptif, comparé par exemple au seuil à 53% ou à 70%. Il s'agit simplement d'un pourcentage arbitraire mais qui permet de définir le seuil de façon univoque. Néanmoins certaines questions de recherche peuvent nécessiter d'estimer un seuil plus élevé. Ainsi, par exemple, pour une expérience où les sujets obtiennent déjà un score de 50% en l'absence de stimulus viser le seuil de détection à 50% serait absurde -- on préférera alors caractériser la perception au moyen du seuil à 75%.
+Notez que le seuil à 50% estimé par cette méthode ne possède a priori aucune propriété particulière du point de vue perceptif, comparé par exemple au seuil à 53% ou à 70%. Il s'agit simplement d'un pourcentage arbitraire mais qui permet de définir le seuil de façon univoque. Néanmoins certaines questions de recherche peuvent nécessiter d'estimer un seuil plus élevé. Ainsi, par exemple, pour une expérience où les sujets obtiennent déjà un score de 50% en l'absence de stimulus viser le seuil de détection à 50% serait absurde -- on préférera alors caractériser la perception au moyen du seuil à 75%.
 
 Fort heureusement, la méthode de l'escalier psychophysique n'est pas restreinte à un unique point de convergence possible. Il est possible d'atteindre n'importe quel seuil en changeant la règle de progression. Ainsi par exemple, appliquer une règle de **3-down-1-up** telle que celle illustrée dans la partie B de la figure précédente permet de viser le seuil à 79.4%. En effet,
 

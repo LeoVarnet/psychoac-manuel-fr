@@ -40,6 +40,12 @@ Finalement, la psychophysique étant à l'origine des sciences cognitives, son a
 
 Le principe du test consiste, en résumé, à évaluer si la machine peut produire des interactions langagières suffisamment réalistes pour induire en erreur son interlocuteur·ice humain·e. Ainsi, plutôt que d'analyser le fonctionnement interne de la machine, Turing propose d'utiliser son comportement observable comme un critère pour juger de ses capacités cognitives.
 
+## Et la naturalité dans tout ça ?
+
+comme on l'a vu, le réductionnisme est un principe de base de la psychophysique. Ceci ne va pourtant pas de soi. En effet le réductionnisme s'oppose à la naturalité.
+
+continuum naturalité - reductionnisme : exemples avec perception de l'intensité (pièce d'orchestre, instrument seul, instrument synthétique, instrument synthétique jouant une note, ton pur)
+
 ## L'approche, cinquième aspect de l'expérience psychophysique 
 
 Les quatre dimensions de l'expérience psychophysique que nous avons détaillé dans ce chapitre sont utiles pour décrire le déroulement de l'expérience. En revanche, elles ne spécifient pas l'**approche** utilisée, autrement dit le type de raisonnement qui amène à réaliser l'expérience. Plusieurs de ces approches seront décrites dans les chapitres suivants. Elles incluent notamment :

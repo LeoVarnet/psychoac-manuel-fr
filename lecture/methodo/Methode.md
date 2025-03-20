@@ -264,7 +264,7 @@ L'inconvénient des méthodes adaptatives, en revanche, est que tous les sujets 
 
 ## La mesure de performance 
 
-Une façon extrêmement simple et intuitive de comparer deux groupes dans les mêmes conditions expérimentales est de réaliser une **mesure de performance**. On choisit alors simplement un niveau fixe de la dimension d'intérêt -- qui n'est donc à proprement parler plus une "variable" de l'expérience -- et on mesure le pourcentage de bonnes réponses de chaque groupe à ce niveau. Comme nous l'avons souligné précédemment, cette expérience peut bien sûr nécessiter d'insérer des essais correspondant à la réponse "non", c'est à dire des stimuli où le signal à détecter est absent, pour éviter que les sujets soient tentés de répondre systématiquement "oui" sans réellement percevoir le stimulus. Par exemple, on peut mesurer rapidement les capacités de détection de ton pur à 5 dB SPL en présentant une dizaine de stimuli à ce niveau sonore, alternés aléatoirement avec autant d'essais où le ton est absent, et en mesurant le pourcentage de réponses correctes total.
+Une façon extrêmement simple et intuitive de comparer deux groupes dans les mêmes conditions expérimentales est de réaliser une **mesure de performance**. On choisit alors simplement un niveau fixe de la dimension d'intérêt -- qui n'est donc à proprement parler plus une "variable" de l'expérience -- et on mesure le pourcentage de bonnes réponses de chaque groupe à ce niveau. Comme nous l'avons souligné précédemment, cette expérience peut bien sûr nécessiter d'insérer des essais correspondant à la réponse "non", c'est à dire des stimuli où le signal à détecter est absent, pour éviter que les sujets soient tentés de répondre systématiquement "oui" sans réellement percevoir le stimulus. Par exemple, on peut mesurer rapidement les capacités de détection de ton pur à 5 dB SPL en présentant une dizaine de stimuli à ce niveau sonore, alternés aléatoirement avec autant d'essais où le ton est absent, et en mesurant le pourcentage de réponses correctes total. Ceci revient en réalité à mesurer la valeur de la fonction psychométrique en un point unique :
 
 <br /> 
 
@@ -280,7 +280,7 @@ align: center
 
 <br /> 
 
-De la même manière, il est possible au moyen de la mesure de performance de comparer deux conditions, toutes choses égales par ailleurs (par exemple la détection d'un ton pur à 5 dB SPL ou du même ton pur en présence de bruit).
+De la même manière, il est possible au moyen de la mesure de performance de comparer deux conditions, toutes choses égales par ailleurs (par exemple la détection d'un ton pur à 5 dB SPL ou du même ton pur en présence de bruit). Dans l'exemple suivant, les deux conditions correspondent à deux fonctions psychométriques de couleurs différentes :
 
 <br /> 
 
@@ -296,7 +296,7 @@ align: center
 
 <br /> 
 
-La figure suivante illustre les résultats d'une mesure de performance pour la reconnaissance de parole par différents groupes dans différentes conditions expérimentales.
+La figure suivante illustre les résultats d'une mesure de performance pour la reconnaissance de parole par trois groupes dans quatre conditions expérimentales. Ceci conduit donc à 3 x 4 = 12 mesures de performance, qui peuvent ensuite être comparées deux à deux.
 
 <br /> 
 
@@ -328,7 +328,7 @@ align: center
 
 <br /> 
 
-Notez en revanche que les comparaisons basées sur une méthode adaptative -- c'est-à-dire fondées sur une mesure de seuil -- ne présentent pas cette limitation, car le niveau de performance est déterminé par l'expérimentateur ou l’expérimentatrice. Cependant, de façon générale, les mesures de performance et les mesures de seuil ne fournissent qu'une vision très restreinte de la fonction psychométrique, limitée à un point unique. Pour caractériser la perception de manière plus exhaustive, il peut être préférable d’adopter la méthode des stimuli constants.
+Notez en revanche que les comparaisons basées sur une méthode adaptative -- c'est-à-dire visant une mesure de seuil -- ne présentent pas cette limitation, car le niveau de performance est déterminé par l'expérimentateur ou l’expérimentatrice. Cependant, de façon générale, les mesures de performance et les mesures de seuil ne fournissent qu'une vision très restreinte de la fonction psychométrique, limitée à un point unique. Pour caractériser la perception de manière plus exhaustive, il peut être préférable d’adopter la méthode des stimuli constants.
 
 ## Méthode des stimuli constants 
 

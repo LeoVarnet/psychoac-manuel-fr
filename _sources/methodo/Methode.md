@@ -332,7 +332,7 @@ Notez en revanche que les comparaisons basées sur une méthode adaptative -- c'
 
 ## Méthode des stimuli constants 
 
-Fondamentalement, la **méthode des stimuli constants** consiste en une série de mesures de performances le long de la dimension d'intérêt. Plutôt que de mesurer le taux de bonnes réponses pour un niveau unique de la dimension d'intérêt, on définit un continuum de 10 à 15 niveaux, régulièrement espacés, et on présente des essais correspondant à ces différents niveaux dans un ordre aléatoire. Ceci permet donc d'échantillonner la fonction psychométrique en plusieurs points. Il devient alors possible d'utiliser des méthodes statistiques pour ajuster une fonction logistique aux données collectées pour estimer la pente et le seuil à n'importe quel pourcentage de réponses correctes. La méthode des stimuli constants est donc la seule méthode permettant d'obtenir une estimation de la sensibilité.
+La **méthode des stimuli constants** consiste simplement à réitérer la mesure de performance en différents points le long de la dimension d'intérêt. Plutôt que de mesurer le taux de bonnes réponses pour un niveau unique, on définit un continuum de 10 à 15 niveaux, régulièrement espacés, et on présente des essais correspondant à ces différents niveaux dans un ordre aléatoire. Ceci permet d'échantillonner la fonction psychométrique en plusieurs points, de façon à visualiser le profil général de la courbe. Il est ensuite possible d'utiliser des méthodes statistiques pour ajuster une fonction logistique aux données collectées et estimer la pente et le seuil à n'importe quel pourcentage de réponses correctes. La méthode des stimuli constants est donc _la seule méthode permettant d'obtenir une estimation de la sensibilité_.
 
 <br /> 
 
@@ -354,7 +354,7 @@ Voici un exemple de méthode des stimuli constants dans la situation de détecti
   <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/methodo/demo_constantstimuli.mp3" type="audio/wav">
 </audio>
 
-La figure ci-dessous résume les résultats de l'expérience précédente. Comme attendu, les pourcentages de détection sont proches de 0 lorsque le ton est présenté à un niveau extrêmement faible (< 3 dB SPL). Puis les performances s'améliorent avec le niveau sonore jusqu'à atteindre le maximum de 100%. La courbe totale suit une fonction psychométrique telle que décrite au chapitre précédent.
+La figure ci-dessous résume les résultats moyens obtenus dans l'expérience précédente : les points correspondent aux performances mesurées et la courbe à la fonction ajustée sur la base de ces données. Comme attendu, les pourcentages de détection sont proches de 0 lorsque le ton est présenté à un niveau extrêmement faible (< 3 dB SPL). Puis les performances s'améliorent avec le niveau sonore jusqu'à atteindre le maximum de 100%. La courbe totale suit une fonction psychométrique telle que décrite au chapitre précédent.
 
 <br /> 
 
@@ -370,7 +370,7 @@ align: center
 
 <br /> 
 
-La méthode des stimuli constants offre ainsi une caractérisation plus complète possible de la fonction psychométrique, comparée aux méthodes des limites ou de l'escalier psychophysique qui ne visent qu'à estimer un seuil, ou la mesure de performance qui ne donne qu'un aperçu ponctuel de la fonction. Elle est en revanche plus coûteuse en temps : la mesure de performance unique nécessitant une trentaine d'essais, la méthode des stimuli constants requiert 300 à 450 essais au total. Ainsi, il serait par exemple déraisonnable d'espérer mesurer un audiogramme au moyen de la méthode des stimuli constants. En effet, cela nécessiterait de réaliser une caractérisation de la fonction psychométrique pour chaque fréquence pour laquelle on souhaite caractériser le seuil, soit plusieurs milliers d'essais.
+La méthode des stimuli constants offre ainsi la caractérisation la plus complète possible de la fonction psychométrique, au contraire des méthodes des limites ou de l'escalier psychophysique qui ne visent qu'à estimer un seuil, et de la mesure de performance qui ne fournit la valeur de la fonction psychométrique qu'en un point unique. Elle est en revanche plus coûteuse en temps : la mesure de performance unique nécessitant une trentaine d'essais, la méthode des stimuli constants requiert 300 à 450 essais au total. Ainsi, il serait par exemple déraisonnable d'espérer mesurer un audiogramme au moyen de la méthode des stimuli constants. En effet, cela nécessiterait de réaliser une caractérisation de la fonction psychométrique pour chaque fréquence pour laquelle on souhaite caractériser le seuil, soit plusieurs milliers d'essais.
 
 ## Comparaison des méthodes expérimentales 
 
@@ -378,7 +378,7 @@ En résumé, le choix d'une méthode expérimentale particulière est guidé par
 
 Un autre critère important pour guider le choix d'une méthode particulière est la durée de l'expérience. En effet les études impliquant un nombre élevé de conditions, ou des participants et participantes particulièrement fatiguables, seront limitées sur le nombre d'essais maximum par estimation. Bien que le nombre d'essais dépende également du degré de précision souhaité, on peut estimer grossièrement que la mesure de performance et la méthode des limites nécessitent 20-30 essais, l'escalier psychophysique une cinquantaine d'essais, et la méthode des stimuli constants plusieurs centaines d'essais. Il faut noter que la durée totale de l'expérience dépend également d'autres facteurs, notamment le nombre de stimuli présentés à chaque essais, comme nous le verrons aux chapitres suivants.
 
-On l'a vu, chaque méthode correspond à une façon particulière de parcourir la fonction psychométrique.
+Comme nous l'avons vu, chaque méthode correspond à une façon particulière de parcourir la fonction psychométrique :
 
 <br /> 
 
@@ -410,10 +410,8 @@ align: center
 
 <br /> 
  
-Bien que cette figure ne le fasse pas apparaître, notez que, comme la mesure de performance, les méthodes adaptatives peuvent comporter des essais sans stimuli de façon à ne pas encourager les participants et participantes à répondre "oui" sans avoir réellement perçu le son.
+Bien que cette figure ne le fasse pas apparaître explicitement, notez que, comme la mesure de performance, les méthodes adaptatives peuvent comporter des essais sans stimuli de façon à ne pas encourager les participants et participantes à répondre "oui" sans avoir réellement perçu le son.
 
 ## D'autres méthodes psychophysiques
 
-Dans un souci de concision, je me suis jusqu'ici volontairement limité à ma description de quatre méthodes extrêmement courantes, en faisant l'impasse sur d'autres. En particulier,je n'ai pas jugé utile de mentionner la **méthode des ajustements**, souvent mentionnée dans les manuels mais peu utilisée en pratique. Ici, le sujet fait varier lui-même le stimulis le long de la dimension d'intérêt afin de la placer au niveau qu'il juge être la limite de son seuil de détection. Il s'agit donc d'une forme particulière de méthode adaptative dans laquelle le participant ou la participante agit directement sur le choix des stimuli présentés. La **double-passe** est une méthode non adaptative qui vise à estimer le "bruit interne", c'est à dire le degré de variabilité des réponses des sujets. Elle consiste à présenter le même ensemble de stimuli à deux reprises et à comparer si les réponses étaient identiques entre la première passe et la seconde.
-
-
+Dans un souci de concision, je me suis jusqu'ici volontairement limité à ma description de quatre méthodes extrêmement courantes, en faisant l'impasse sur d'autres. En particulier, je n'ai pas jugé utile de mentionner la **méthode des ajustements**, souvent évoquée dans les manuels mais relativement peu utilisée en pratique. Il s'agit d'une mesure adaptative dans laquelle le sujet fait varier lui-même le stimuli le long de la dimension d'intérêt afin de le placer au niveau qu'il juge être la limite de son seuil de détection. Ce type de protocole est très intéractif et donc agréable du point de vue des participants et participantes, en revanche elle est particulièrement subjective et sujette aux différentes formes de biais évoqués plus haut. La **double-passe** est une méthode non adaptative qui vise à estimer le "bruit interne", c'est à dire le degré de variabilité des réponses des sujets. Elle consiste à présenter le même ensemble de stimuli à deux reprises et à comparer si les réponses étaient identiques entre la première passe et la seconde. Finalement, notez qu'il est possible d'utiliser la méthode des stimuli constants sur deux dimensions d'intérêt simultanément, en définissant un continuum de stimuli bidimensionnel. La **corrélation inverse** est une forme de généralisation de cette approche à des continuum de dimensionnalité très élevée (parfois des milliers de dimensions étudiées conjointement), en introduisant un échantillonnage aléatoire le long de chaque dimension.

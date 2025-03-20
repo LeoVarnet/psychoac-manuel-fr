@@ -1,3 +1,3 @@
 # Intro 
 
-
+Structure du cours

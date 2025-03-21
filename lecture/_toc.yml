@@ -12,6 +12,7 @@ chapters:
   - file: methodo/Tache
   - file: methodo/Paradigme
   - file: methodo/Conclusion
+  - file: methodo/Bibliographie
 - file: systeme_auditif/main
   sections:
   - file: systeme_auditif/Introduction

@@ -1,4 +1,4 @@
-# Tâche et instructions
+ c # Tâche et instructions
 
 ## Qu'est-ce que la tâche psychophysique ?
 
@@ -111,6 +111,8 @@ En revanche, un point plus problématique réside dans le fait que la tâche ne 
 
 Les tâches de détection et de catégorisation nécessitent de décrire précisément le ou les stimuli-cible au sujet pour qu'il soit en mesure de réaliser l'expérience. Dans certains cas, on ne souhaite pas donner trop de détails dans les instructions, notamment lorsque les stimuli sont trop complexes pour être décrits de façon succincte et compréhensible par des personnes extérieures au domaine, ou s'il y a un risque de rendre ainsi le comportement du sujet moins naturel ou d’imposer une « grille de lecture » particulière. On peut alors utiliser la tâche de discrimination pour donner des **instructions implicites**. En effet, il suffit pour cette tâche de demander à identifier le son différent -- sans nécessairement préciser en quoi consiste la différence.
 En contrepartie, la tâche de discrimination nécessite de présenter un stimulus de plus à chaque essai ce qui peut rallonger considérablement l'expérience.
+
+Prenons l'exemple d'une étude de la perception des paysages sonores naturels : les êtres humains sont-ils capables de reconnaître leur environnement sur la seule base de l'information acoustique qui leur parvient ? Nous avons à notre disposition des enregistrements réalisés dans différents biotopes, dont nous nous servirons comme stimuli. Une première option, assezf intuitive, consiste à proposer une tâche de catégorisation : Chaque essai consiste en un seul enregistrement, et   
 
 
 

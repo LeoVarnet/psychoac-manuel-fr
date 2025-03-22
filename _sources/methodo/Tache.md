@@ -90,18 +90,26 @@ align: center
 
 ## Choix de la tâche psychophysique
 
-On peut distinguer quatre grands types de tâches psychophysiques :
+On distingue quatre grands types de tâches psychophysiques :
 
 - **Détection** : Pouvez-vous l’entendre ? Pouvez-vous entendre telle caractéristique ?
 - **Discrimination** ou ***same/different*** : Pouvez-vous entendre la différence avec cet autre stimulus ?
 - **Catégorisation** ou **identification** : À quelle catégorie appartient le son que vous venez d'entendre ? Est-ce plutôt un X, un Y, ou un Z ?
 - **Reconnaissance** ou **intelligibilité** : Quel est le son que vous venez d'entendre ? Pouvez vous répéter ce que vous avez compris ?
 
+Notez que la désignation de ces différentes tâches est malheureusement fluctuante dans la littérature scientifique, le terme "discrimination" étant parfois utilisé en référence à des tâches de catégorisation.
+
+Comme illustré par la comparaison entre l'audiogramme (méthode des limites + détection) et les courbes isosonique (méthode des limites + discrimination), les quatre tâches psychophysiques ci-dessus sont combinables avec les 4 méthodes psychophysiques vues précédemment. Par exemple, on peut mesurer seuil d'intelligibilité à 50% avec un escalier psychophysique 1-up-1-down couplé à une tâche d'intelligibilité. La valeur obtenue est appelée *speech reception threshold* (SRT) et est très couramment utilisée en psycholinguistique.
+
+Comme pour les stimuli au chapitre précédent, le choix d'un type particulier de tâche est avant tout guidé par la question de recherche : les scientifiques travaillant sur la compréhension des sons de parole privilégient par exemple les tâches d'intelligibilité, plus proches de la situation quotidienne de communication, mais peuvent être amené·es à utiliser des tâches de catégorisation, discrimination, voire de détection, pour explorer certains aspects spécifiques des mécanismes de décodage des sons. Cependant d'autres facteurs peuvent entrer en jeu comme détaillé dans les sections suivantes.
+
+## Tâches et stratégies 
+
 Il convient de souligner à ce stade qu'il existe un recouvrement partiel entre ces différentes tâches. Ainsi, une tâche de détection d'un signal particulier peut être considérée comme une catégorisation du stimulus entre les deux catégories "signal présent" et "signal absent". De même, si l'on ne considère qu'un ensemble restreint de son possibles, la reconnaissance est assimilable à une forme de catégorisation. Cette redondance reste toutefois sans grande conséquence, à condition que la tâche soit clairement définie.
 
 En revanche, un point plus problématique réside dans le fait que la tâche ne décrit pas seulement le protocole expérimental en lui-même, mais également la manière dont le participant ou la participante exécute les instructions qui lui sont données. Considérons par exemple une tâche de discrimination nécessitant de comparer un stimulus et un signal cible de référence présenté à chaque essai. Il est possible de réaliser effectivement cette tâche comme une discrimination, mais une alternative possible consisterait à ignorer le signal de référence -- puisque celui-ci est identique d'un essai à l'autre -- et à écouter uniquement sur le stimulus. Cela reviendrait alors à effectuer une tâche de détection. Cette distinction est importante car elle implique des processus cognitifs potentiellement distincts, et se traduit par des performances différentes. En pratique, il est donc important pour l'expérimentateur ou l'expérimentatrice d'envisager toutes les stratégies possibles pour réaliser la tâche, et éventuellement de mettre en place des contrôles pour éliminer certaines stratégies jugées indésirables (par exemple, dans la tâche décrite ci-dessus, changer régulièrement le signal cible pour contraindre le participant ou la participante à prêter attention à la référence). 
 
-Les quatre tâches psychophysiques sont combinables avec les 4 méthodes vues précédemment. Par exemple, on peut mesurer seuil d'intelligibilité à 50% avec un escalier psychophysique avec un escalier psychophysique 1-up-1-down couplé à une tâche d'intelligibilité. La valeur obtenue est appelée *speech reception threshold* (SRT) et est très couramment utilisée en psycholinguistique.
+
 
 Tout comme pour les stimuli, si le choix d'une tâche particulière est avant tout guidé par la question scientifique considérée, d'autres critères peuvent également entrer en jeu. En particulier, les tâches de détection et de catégorisation nécessitent de décrire précisément le stimulus-cible au sujet. Dans certains cas, on ne souhaite pas donner trop de détails dans les instructions, notamment lorsque les stimuli sont trop complexes pour être décrits de façon succincte et compréhensible par des personnes extérieures au domaine, ou s'il y a un risque de rendre ainsi le comportement du sujet moins naturel, ou d’imposer une « grille de lecture » particulière. On peut alors utiliser la tâche de discrimination pour donner des **instructions implicites**. En effet, il suffit pour cette tâche de demander à identifier le son différent -- sans nécessairement préciser en quoi consiste la différence.
 En contrepartie, la tâche de discrimination nécessite de présenter un stimulus de plus à chaque essai ce qui peut rallonger considérablement l'expérience.

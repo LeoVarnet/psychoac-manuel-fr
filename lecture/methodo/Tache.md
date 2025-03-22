@@ -116,7 +116,11 @@ Prenons l'exemple d'une étude de la perception des paysages sonores naturels. N
 
 XXX 
 
-Cette expérience conduit effectivement à une mesure de performance qui reflète la capacité du sujet à identifier les différents environnements sur la base du son. On pourrait néanmoins lui reprocher d'imposer des catégories de réponse arbitraires aux participants et participantes : pourquoi n'existe-t-il pas de bouton "jungle", pourquoi "forêt de conifères" et non "forêt" ou "forêt de pins" ?
+Cette expérience conduit effectivement à une mesure de performance qui reflète la capacité du sujet à identifier les différents environnements sur la base du son. On pourrait néanmoins lui reprocher d'imposer des catégories de réponse arbitraires : pourquoi n'existe-t-il pas de bouton "jungle", pourquoi "forêt de conifères" et non "forêt" ou "forêt de pins" ?
 
+Il est possible de contourner ce problème en utilisant une tâche de discrimination. Ceci nécessite de présenter non plus un stimulus mais deux stimuli à chaque essai. L'instruction donnée aux participants et participantes est alors d'indiquer si les deux sons ont été enregistrés au même endroit. Voici un exemple de série d'essais pour cette seconde expérience.
 
+XXX 
+
+Là encore, les résultats donnent une indication sur la capacité des sujets à percevoir les environnements sur la base des sons. Néanmoins, contrairement à la première option, aucune grille de lecture ne leur est imposé pour catégoriser les stimuli.
 

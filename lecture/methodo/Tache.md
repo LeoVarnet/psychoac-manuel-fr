@@ -1,4 +1,4 @@
- c # Tâche et instructions
+# Tâche et instructions
 
 ## Qu'est-ce que la tâche psychophysique ?
 
@@ -116,5 +116,7 @@ Prenons l'exemple d'une étude de la perception des paysages sonores naturels. N
 
 XXX 
 
-Cette expérience conduit effectivement à une mesure de performance qui reflète la capacité du sujet à identifier les différents environnements sur la base du son. Pourtant, on pourrait critiquer ces résultats 
+Cette expérience conduit effectivement à une mesure de performance qui reflète la capacité du sujet à identifier les différents environnements sur la base du son. On pourrait néanmoins lui reprocher d'imposer des catégories de réponse arbitraires aux participants et participantes : pourquoi n'existe-t-il pas de bouton "jungle", pourquoi "forêt de conifères" et non "forêt" ou "forêt de pins" ?
+
+
 

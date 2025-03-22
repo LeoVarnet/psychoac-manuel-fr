@@ -93,11 +93,9 @@ align: center
 On distingue quatre grands types de tâches psychophysiques :
 
 - **Détection** : Pouvez-vous l’entendre ? Pouvez-vous entendre telle caractéristique ?
-- **Discrimination** ou ***same/different*** : Pouvez-vous entendre la différence avec cet autre stimulus ?
+- **Discrimination** ou ***same/different*** : Pouvez-vous entendre la différence avec cet autre stimulus ? (Attention, le terme *discrimination* est parfois également utilisé dans la littérature scientifique pour désigner des tâches de catégorisation.)
 - **Catégorisation** ou **identification** : À quelle catégorie appartient le son que vous venez d'entendre ? Est-ce plutôt un X, un Y, ou un Z ?
 - **Reconnaissance** ou **intelligibilité** : Quel est le son que vous venez d'entendre ? Pouvez vous répéter ce que vous avez compris ?
-
-Notez que la désignation de ces différentes tâches est malheureusement fluctuante dans la littérature scientifique, le terme "discrimination" étant parfois utilisé en référence à des tâches de catégorisation.
 
 Comme illustré par la comparaison entre l'audiogramme (méthode des limites + détection) et les courbes isosonique (méthode des limites + discrimination), les quatre tâches psychophysiques ci-dessus sont combinables avec les 4 méthodes psychophysiques vues précédemment. Par exemple, on peut mesurer seuil d'intelligibilité à 50% avec un escalier psychophysique 1-up-1-down couplé à une tâche d'intelligibilité. La valeur obtenue est appelée *speech reception threshold* (SRT) et est très couramment utilisée en psycholinguistique.
 

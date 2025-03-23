@@ -4,6 +4,8 @@
 
 Le **paradigme expérimental** est un paramètre de l'expérience moins intuitif que la tâche et la méthode, décrites précédemment. Il s'agit ici essentiellement de définir l'organisation des stimuli au sein d'un essai et le type de réponse attendu. Comme nous le verrons, ce choix a une influence sur la gamme de performances atteignables, et sur les potentiels biais de réponse des participants et participantes. Dans ce chapitre nous décrirons les deux paradigmes les plus courants: le yes/no et le choix forcé.
 
+Nous nous limiterons ici au cas des réponses binaires, donc aux tâches de détection, catégorisation et discrimination.
+
 ## Le paradigme yes/no 
 
 Considérons à nouveau l'expérience de mesure des seuils d'audibilité tonale qui constitue le fil rouge de ce chapitre. À chaque essai, un stimulus unique est joué (ton pur à la fréquence cible ou silence) et le sujet doit indiquer si il a ou non perçu un son.
@@ -24,7 +26,7 @@ align: center
 
 Cette expérience constitue un bon exemple de **paradigme yes/no** : il s'agit pour le sujet de classer l'essai de façon binaire selon les deux catégories correspondant à la tâche ("présent/absent" pour une détection, "catégorie A"/"catégorie B" pour une catégorisation, "identique/différent" pour une discrimination). Le yes/no repose sur un seul stimulus par essai, sauf dans le cas de la tâche de discrimination qui nécessite deux stimuli.
 
-Un problème se pose néanmoins : la mesure obtenue par paradigme yes/no est **dépendante du critère** (*criterion-dependent*), c’est-à-dire que le résultat peut être influencé par les biais de réponse de l'individu. Ainsi, une personne peu sûre d'elle (qui répond très facilement « non » lorsqu'elle n'est pas absolument certaine d'avoir perçu le ton) obtiendra des seuils d’audibilité globalement plus faible que la moyenne, indépendamment de ses capacités perceptives. Ceci signifie que notre mesure psychophysique est polluée par des caractéristiques psychologiques "haut-niveau" du sujet, telles que la confiance en soi, qui ne devraient pas entrer ici en compte. De même, dans une tâche de catégorisation entre les sons "bateau" et "bapeau", la première réponse pourrait être sélectionnée plus fréquemment simplement du fait qu'il s'agit d'un mot courant.
+Un problème se pose néanmoins : la mesure obtenue par paradigme yes/no est **dépendante du critère** (*criterion-dependent*), c’est-à-dire que le résultat peut être influencé par les biais de réponse de l'individu. Ainsi, une personne peu sûre d'elle (qui répond très facilement « non » lorsqu'elle n'est pas absolument certaine d'avoir perçu le ton) obtiendra des seuils d’audibilité globalement plus faible que la moyenne, indépendamment de ses capacités perceptives. Ceci signifie que notre mesure psychophysique est polluée par des caractéristiques psychologiques "haut-niveau" du sujet, telles que la confiance en soi, qui ne devraient pas entrer en compte pour un test perceptif. De même, dans une tâche de catégorisation entre les sons "bateau" et "bapeau", la première réponse pourrait être sélectionnée plus fréquemment simplement du fait qu'il s'agit d'un mot courant.
 
 Un moyen d'obtenir une mesure **indépendante du critère** (*criterion-free*) est d'opter pour un paradigme du choix forcé.
 
@@ -32,6 +34,8 @@ Un moyen d'obtenir une mesure **indépendante du critère** (*criterion-free*) 
 
 Voici une seconde expérience permettant elle aussi de mesurer les seuils d'audibilité tonale :
 À chaque essai, deux stimuli successifs sont présentés dans un ordre aléatoire, l’un étant un ton cible l’autre un silence. Le sujet entend donc deux **intervalles** successifs, soit ton puis silence, soit silence puis ton. Le début de chaque intervalle peut être indiqué par une lumière ou un léger signal sonore. Après ces deux stimuli, la consigne donnée au sujet est de sélectionner l’intervalle contenant le ton : deux boutons de réponse sont disponibles pour indiquer si le ton de trouvait en première position ou en deuxième position. Puis, comme précédemment, on réduit l'intensité du ton et on entame un nouvel essai.
+
+Xxxx
 
 <audio controls>
   <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/methodo/2AFC.wav" type="audio/wav">
@@ -51,13 +55,15 @@ align: center
 
 <br /> 
 
-Cette seconde expérience repose sur la même tâche et la même méthode que la précédente, en revanche le paradigme est différent : il s'agit d'un **choix forcé à deux alternatives**.
+Cette seconde expérience repose sur la même tâche et la même méthode que la précédente, en revanche le paradigme est différent : il s'agit d'un **choix forcé à deux intervalles**.
 
-Une propriété intéressante de ce paradigme, comparé au yes/no, est son insensibilité aux biais potentiels des participants et participantes. Ceci peut être démontré par la Théorie de la Détection du Signal. Intuitivement, chaque essai de l'expérience décrite ci-dessus consiste non pas en une tâche de détection, comme c'est le cas du yes/no, mais en deux détections successives (une pour chaque stimulus présenté) qui sont ensuite comparées l'une avec l'autre. De ce fait, le biais de réponse éventuel s’applique de la même façon aux deux stimuli, et ainsi se compense dans le choix de l’intervalle. Considérons à nouveau l'exemple de la personne réticente à répondre "j'ai entendu le ton" à moins d'être absolument certaine de sa réponse. Comme on l'a vu ses résultats dans un paradigme yes/no seront affectés par cette stratégie de réponse particulière. Dans un paradigme de choix forcé, en revanche, cette personne n'aura pas d'autre choix que de sélectionner le stimulus qui lui semble le plus vraisemblable, contrecarrant ainsi son aversion à donner des réponses incertaines.
+Une propriété intéressante de ce paradigme, comparé au yes/no, est son insensibilité aux biais potentiels des participants et participantes. Ceci peut être démontré par la Théorie de la Détection du Signal. Intuitivement, chaque essai de l'expérience décrite ci-dessus consiste non pas en une tâche de détection, comme c'est le cas du yes/no, mais en deux détections successives (une pour chaque stimulus présenté) qui sont ensuite comparées l'une avec l'autre. De ce fait, les biais de réponse éventuels s’appliquent de la même façon aux deux stimuli, et ainsi se compensent dans le choix de l’intervalle. Considérons à nouveau l'exemple de la personne réticente à répondre "j'ai entendu le ton" à moins d'être absolument certaine de sa réponse. Comme on l'a vu ses résultats dans un paradigme yes/no seront affectés par cette stratégie de réponse particulière. Dans un paradigme de choix forcé, en revanche, cette personne n'aura pas d'autre choix que de sélectionner le stimulus qui lui semble le plus vraisemblable, contrecarrant ainsi son aversion à donner des réponses incertaines.
 
-En réalité, le choix forcé ne supprime pas tout risque de biais, mais déplace le problème sur une dimension moins critique. Il est en effet possible que le sujet soit biaisé en faveur d'un intervalle particulier, répondant par exemple plus souvent "premier intervalle" que "deuxième intervalle". Néanmoins ce phénomène est moins critique pour l'interprétation des résultats que le biais du yes/no, car il affecte autant la détection des stimuli cibles que des stimuli non-cible.
+En réalité, le choix forcé ne supprime pas tout risque de biais, mais déplace le problème sur une dimension secondaire. Il est en effet possible que le sujet soit biaisé en faveur d'un intervalle particulier, répondant par exemple plus souvent "premier intervalle" que "deuxième intervalle". Néanmoins ce phénomène est moins critique pour l'interprétation des résultats que le biais du yes/no, car il affecte autant la détection des stimuli cibles que des stimuli non-cible.
 
 Les termes "yes/no" et "choix forcé" se sont imposés suite à l'ouvrage fondateur de Green et Swets. Cette terminologie est néanmoins malheureuse car elle induit souvent les débutant·es (et parfois les scientifiques plus aguerri·es) en confusion. Ainsi un paradigme yes/no ne correspond **pas** à une tâche à laquelle on répond par oui ou par non, mais à un **type d'expérience où une seule des alternatives possibles est présentée à chaque essai**. De la même manière, le choix forcé ne correspond **pas** à une tâche avec un ensemble restreint de réponses possibles, mais à un **type d'expérience où toutes les alternatives possibles sont présentées à chaque essai**, la consigne consistant à sélectionner l'un des sons (réponses du type : "premier intervalle", "deuxième intervalle").
+
+Le terme de choix forcé est particulièrement mal utilisé dans la littérature. Pour plus de précisions on préférera donc spécifier la dénomination complète : **"choix forcé à 2 intervalles et à deux alternatives"**, ou **2I-2AFC**.
 
 ## Yes/no vs. choix forcé
 

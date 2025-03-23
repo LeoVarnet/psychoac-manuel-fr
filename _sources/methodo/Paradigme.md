@@ -32,14 +32,7 @@ Un moyen d'obtenir une mesure **indépendante du critère** (*criterion-free*) 
 
 ## Le paradigme du choix forcé
 
-Voici une seconde expérience permettant elle aussi de mesurer les seuils d'audibilité tonale :
-À chaque essai, deux stimuli successifs sont présentés dans un ordre aléatoire, l’un étant un ton cible l’autre un silence. Le sujet entend donc deux **intervalles** successifs, soit ton puis silence, soit silence puis ton. Le début de chaque intervalle peut être indiqué par une lumière ou un léger signal sonore. Après ces deux stimuli, la consigne donnée au sujet est de sélectionner l’intervalle contenant le ton : deux boutons de réponse sont disponibles pour indiquer si le ton de trouvait en première position ou en deuxième position. Puis, comme précédemment, on réduit l'intensité du ton et on entame un nouvel essai.
-
-Xxxx
-
-<audio controls>
-  <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/methodo/2AFC.wav" type="audio/wav">
-</audio>
+Voici une seconde expérience permettant elle aussi de mesurer les seuils d'audibilité tonale : à chaque essai, deux stimuli successifs sont présentés dans un ordre aléatoire, l’un étant un ton cible l’autre un silence. Le sujet entend donc deux **intervalles** successifs, soit ton puis silence, soit silence puis ton. Le début de chaque intervalle peut être indiqué par une lumière ou un léger signal sonore. Après ces deux stimuli, la consigne donnée au sujet est de sélectionner l’intervalle contenant le ton : deux boutons de réponse sont disponibles pour indiquer si le ton de trouvait en première position ou en deuxième position. Puis, comme précédemment, on réduit l'intensité du ton et on entame un nouvel essai.
 
 <br /> 
 
@@ -55,7 +48,19 @@ align: center
 
 <br /> 
 
-Cette seconde expérience repose sur la même tâche et la même méthode que la précédente, en revanche le paradigme est différent : il s'agit d'un **choix forcé à deux intervalles**.
+La démo suivante permet d'écouter cette expérience. Chacun des deux intervalles est indiqué par un bip aigu, suivi soit du ton cible soit du silence. 
+
+<audio controls>
+  <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/methodo/demo_2AFC.mp3" type="audio/wav">
+</audio>
+
+Cette expérience repose sur la même tâche et la même méthode que la précédente, en revanche le paradigme est différent : il s'agit d'un **choix forcé à deux intervalles** (ou, plus précisément, un "choix forcé à 2 intervalles et à deux alternatives", 2I2AFC).
+
+Voici un second exemple de choix forcé à deux intervalles, correspondant cette fois à la tâche de détection des modulations (voir [Méthode expérimentale](https://leovarnet.github.io/psychoac-manuel-fr/methodo/Methode.html)). Les deux stimuli étant clairement audibles, il n'est pas nécessaire ici de marquer le début des intervalles par un bip aigu. Les sujets doivent indiquer *lequel des deux sons était fluctuant*.
+
+<audio controls>
+  <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/methodo/demo_2AFC.mp3" type="audio/wav">
+</audio>
 
 Une propriété intéressante de ce paradigme, comparé au yes/no, est son insensibilité aux biais potentiels des participants et participantes. Ceci peut être démontré par la Théorie de la Détection du Signal. Intuitivement, chaque essai de l'expérience décrite ci-dessus consiste non pas en une tâche de détection, comme c'est le cas du yes/no, mais en deux détections successives (une pour chaque stimulus présenté) qui sont ensuite comparées l'une avec l'autre. De ce fait, les biais de réponse éventuels s’appliquent de la même façon aux deux stimuli, et ainsi se compensent dans le choix de l’intervalle. Considérons à nouveau l'exemple de la personne réticente à répondre "j'ai entendu le ton" à moins d'être absolument certaine de sa réponse. Comme on l'a vu ses résultats dans un paradigme yes/no seront affectés par cette stratégie de réponse particulière. Dans un paradigme de choix forcé, en revanche, cette personne n'aura pas d'autre choix que de sélectionner le stimulus qui lui semble le plus vraisemblable, contrecarrant ainsi son aversion à donner des réponses incertaines.
 

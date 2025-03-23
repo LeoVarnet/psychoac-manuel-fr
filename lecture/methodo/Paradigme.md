@@ -56,29 +56,27 @@ La démo suivante permet d'écouter cette expérience. Chacun des deux intervall
 
 Cette expérience repose sur la même tâche et la même méthode que la précédente, en revanche le paradigme est différent : il s'agit d'un **choix forcé à deux intervalles** (ou, plus précisément, un "choix forcé à 2 intervalles et à deux alternatives", 2I2AFC).
 
-Voici un second exemple de choix forcé à deux intervalles, correspondant cette fois à la tâche de détection des modulations (voir [Méthode expérimentale](https://leovarnet.github.io/psychoac-manuel-fr/methodo/Methode.html)). Les deux stimuli étant clairement audibles, il n'est pas nécessaire ici de marquer le début des intervalles par un bip aigu. Les sujets doivent indiquer *lequel des deux sons était fluctuant*.
-
-<audio controls>
-  <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/methodo/demo_2AFC_AM.mp3" type="audio/wav">
-</audio>
-
 Une propriété intéressante de ce paradigme, comparé au yes/no, est son insensibilité aux biais potentiels des participants et participantes. Ceci peut être démontré par la Théorie de la Détection du Signal. Intuitivement, chaque essai de l'expérience décrite ci-dessus consiste non pas en une tâche de détection, comme c'est le cas du yes/no, mais en deux détections successives (une pour chaque stimulus présenté) qui sont ensuite comparées l'une avec l'autre. De ce fait, les biais de réponse éventuels s’appliquent de la même façon aux deux stimuli, et ainsi se compensent dans le choix de l’intervalle. Considérons à nouveau l'exemple de la personne réticente à répondre "j'ai entendu le ton" à moins d'être absolument certaine de sa réponse. Comme on l'a vu ses résultats dans un paradigme yes/no seront affectés par cette stratégie de réponse particulière. Dans un paradigme de choix forcé, en revanche, cette personne n'aura pas d'autre choix que de sélectionner le stimulus qui lui semble le plus vraisemblable, contrecarrant ainsi son aversion à donner des réponses incertaines.
 
 En réalité, le choix forcé ne supprime pas tout risque de biais, mais déplace le problème sur une dimension secondaire. Il est en effet possible que le sujet soit biaisé en faveur d'un intervalle particulier, répondant par exemple plus souvent "premier intervalle" que "deuxième intervalle". Néanmoins ce phénomène est moins critique pour l'interprétation des résultats que le biais du yes/no, car il affecte autant la détection des stimuli cibles que des stimuli non-cible.
 
 Les termes "yes/no" et "choix forcé" se sont imposés suite à l'ouvrage fondateur de Green et Swets. Cette terminologie est néanmoins malheureuse car elle induit souvent les débutant·es (et parfois les scientifiques plus aguerri·es) en confusion. Ainsi un paradigme yes/no ne correspond **pas** à une tâche à laquelle on répond par oui ou par non, mais à un **type d'expérience où une seule des alternatives possibles est présentée à chaque essai**. De la même manière, le choix forcé ne correspond **pas** à une tâche avec un ensemble restreint de réponses possibles, mais à un **type d'expérience où toutes les alternatives possibles sont présentées à chaque essai**, la consigne consistant à sélectionner l'un des sons (réponses du type : "premier intervalle", "deuxième intervalle").
 
-Le terme de choix forcé est particulièrement mal utilisé dans la littérature. Pour plus de précisions on préférera donc spécifier la dénomination complète : **"choix forcé à 2 intervalles et à deux alternatives"**, ou **2I-2AFC**.
+Voici un second exemple de choix forcé à deux intervalles, correspondant cette fois à la tâche de détection des modulations (voir [Méthode expérimentale](https://leovarnet.github.io/psychoac-manuel-fr/methodo/Methode.html)). Les deux stimuli étant clairement audibles, il n'est pas nécessaire ici de marquer le début des intervalles par un bip aigu. Les sujets doivent indiquer *lequel des deux sons était fluctuant*.
+
+<audio controls>
+  <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/methodo/demo_2AFC_AM.mp3" type="audio/wav">
+</audio>
 
 ## Yes/no vs. choix forcé
 
-La principale raison qui peut nous faire préférer le paradigme de choix forcé au yes/no durant la conception d'une expérience est donc l'importance pour nos conclusions des possibles effets de critères. Si la tâche envisagée invite particulièrement à donner une réponse plus souvent qu'une autre, ou s'il est important pour notre étude de contrôler précisément les biais des sujets, il est préférable d'opter pour le choix forcé.
+La principale raison qui peut nous pousser à préférer le paradigme de choix forcé au yes/no lors de la conception d'une expérience est le risque d'effets de critères. Si la tâche envisagée invite particulièrement à donner une réponse plus souvent qu'une autre, ou s'il est important pour notre étude de contrôler précisément les biais des sujets, il est préférable d'opter pour le choix forcé.
 
-Cette insensibilité au critère a cependant un prix : comparé au yes/no le choix forcé nécessite de présenter un stimulus supplémentaire par essai, et donc de rallonger la durée de l'expérience. Il n'est donc pas conseillé pour des protocoles déjà longs ou pour des participants ou participantes fatiguables.
+Cette insensibilité au critère a cependant un prix : comparé au yes/no, le choix forcé nécessite de présenter un stimulus supplémentaire par essai, et donc de rallonger la durée de l'expérience. Il n'est donc pas conseillé pour des protocoles déjà longs ou pour des participants ou participantes fatiguables.
 
-Un autre aspect diffère entre les deux paradigmes : le niveau de difficulté est plus élevé pour le yes/no que le choix forcé. En effet, il serait théoriquement possible de réaliser la tâche en choix forcé en écoutant uniquement le premier intervalle et en omettant le second, ce qui correspondrait en réalité à la même expérience en paradigme yes/no. Lorsque l'on prête attention aux deux intervalles du choix forcé, on accumule donc plus d'information que dans le paradigme yes/no.
+Un autre aspect diffère entre les deux paradigmes : le niveau de difficulté est plus élevé pour le yes/no que le choix forcé. En effet, il serait théoriquement possible de réaliser la tâche en choix forcé en écoutant uniquement le premier intervalle et en omettant le second, ce qui correspondrait en réalité à la même expérience en paradigme yes/no. Lorsque l'on prête attention aux deux intervalles du choix forcé, on accumule donc plus d'information que dans le paradigme yes/no. En conséquence, la tâche apparaît comme relativement plus facile.
 
-Pour l’audiométrie, le paradigme yes-no conduit à une sous-estimation des seuils d’audibilité tonale de ~2 dB par rapport au paradigme choix forcé.
+Ces deux aspects conduisent à une différence mesurable entre des seuils obtenus par un paradigme yes/no ou un paradigme de choix forcé. Pour l’audiométrie, le paradigme yes-no conduit à une sous-estimation des seuils d’audibilité tonale de ~2 dB par rapport au paradigme choix forcé.
 (= dans l’audiogramme classique les individus sont biaisés, ils ont globalement tendance à sous-évaluer leur capacité à détecter les tons)
 
 <br /> 

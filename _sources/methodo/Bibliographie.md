@@ -19,3 +19,5 @@ the name **Jupyter**  references the three programming languages supported by Ju
 
 <iframe src="http://bookwyrm.social/list/3864/embed/456fbb59d22247558fe3a9ae478727bd" id="bookwyrm_list_embed" width="400" height="600" title="Science & épistémologie"></iframe>
 
+
+<iframe src="[https://www.youtube.com/embed/c-bemNZ-IqA](http://bookwyrm.social/list/3864/embed/456fbb59d22247558fe3a9ae478727bd)" name="Open Science Video" scrolling="yes" frameborder="1" marginheight="0px" marginwidth="0px" height="400px" width="600px" allowfullscreen></iframe>

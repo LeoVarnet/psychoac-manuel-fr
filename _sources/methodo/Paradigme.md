@@ -76,40 +76,9 @@ Cette insensibilité au critère a cependant un prix : comparé au yes/no, le ch
 
 Un autre aspect diffère entre les deux paradigmes : le niveau de difficulté est plus élevé pour le yes/no que le choix forcé. En effet, il serait théoriquement possible de réaliser la tâche en choix forcé en écoutant uniquement le premier intervalle et en omettant le second, ce qui correspondrait en réalité à la même expérience en paradigme yes/no. Lorsque l'on prête attention aux deux intervalles du choix forcé, on accumule donc plus d'information que dans le paradigme yes/no. En conséquence, la tâche apparaît comme relativement plus facile.
 
-Ces deux aspects conduisent à une différence mesurable entre des seuils obtenus par un paradigme yes/no ou un paradigme de choix forcé. Pour l’audiométrie, le paradigme yes-no conduit à une sous-estimation des seuils d’audibilité tonale de ~2 dB par rapport au paradigme choix forcé.
-(= dans l’audiogramme classique les individus sont biaisés, ils ont globalement tendance à sous-évaluer leur capacité à détecter les tons)
-
-<br /> 
-
-```{figure} YNvsFC.png
----
-name: YNvsFC.png
-alt: Comparaison yes/no vs Forced Choice
-height: 400px
-align: center
----
-*.......*
-```
-
-<br /> 
-
-<br /> 
-
-```{figure} YNvsFC_2.png
----
-name: YNvsFC_2.png
-alt: Comparaison yes/no vs Forced Choice
-height: 400px
-align: center
----
-*.......*
-```
-
-<br /> 
-
 ## Une mesure de performance commune : d'
 
-Dans le paragraphe précédent, nous avons souligné que l'utilisation d'un paradigme ou d'un autre conduit à changer la difficulté de l'expérience, toutes choses égales par ailleurs. Ceci peut être un atout, par exemple pour rendre plus praticable une tâche difficile. Mais cette difficulté variable est également une contrainte du point de vue des scientifiques car elle complique la comparaison de résultats obtenus au moyen de paradigmes différents.
+Dans le paragraphe précédent, nous avons souligné que l'utilisation d'un paradigme ou d'un autre affecte la difficulté de l'expérience, toutes choses égales par ailleurs. Ceci peut être un atout, par exemple pour rendre plus accessible une tâche difficile. Mais cette différence de difficulté est également une contrainte car elle complique la comparaison de résultats obtenus au moyen de paradigmes différents.
 
 Heureusement, la théorie de la détection du signal permet ici de remettre tous les paradigmes sur une base commune. En effet, elle fournit une nouvelle mesure de performance appelée d', qui, contrairement au pourcentage de réponses correctes, est indépendante du paradigme. Ce d' correspond en réalité à l'écart entre les deux gaussiennes que nous avions définies au chapitre Stimulus et dimensions. Les formules permettant de calculer le d' mettent en jeu un certain nombre de paramètres qui dépassent le cadre de ce cours. Néanmoins, les lecteurs et lectrices intéressées pourront les trouver dans tous les manuels de théorie de la détection du signal.
 

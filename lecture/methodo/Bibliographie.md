@@ -25,4 +25,4 @@ the name **Jupyter**  references the three programming languages supported by Ju
 <iframe src="https://bookwyrm.social/list/3864/embed/456fbb59d22247558fe3a9ae478727bd" name="Open Science Video" scrolling="yes" frameborder="1" marginheight="0px" marginwidth="0px" height="400px" width="600px" allowfullscreen></iframe>
 
 
-<iframe src="http://bookwyrm.social/list/3868/embed/792d8ad607604cc38b7fd24d6f981d26" name="Open Science Video" scrolling="yes" frameborder="1" marginheight="0px" marginwidth="0px" height="1000px" width="600px" allowfullscreen></iframe>
+<iframe src="https://bookwyrm.social/list/3868/embed/792d8ad607604cc38b7fd24d6f981d26" name="Open Science Video" scrolling="yes" frameborder="1" marginheight="0px" marginwidth="0px" height="1000px" width="800px" allowfullscreen></iframe>

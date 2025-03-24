@@ -148,3 +148,4 @@ align: center
 
 Là encore, les résultats donnent une indication sur la capacité des sujets à percevoir les environnements sur la base des sons. Néanmoins, contrairement à la première option, aucune grille de lecture ne leur est imposé pour catégoriser les stimuli. Comme nous le verrons au chapitre 3, l'analyse des données ainsi recueillies permet d'explorer la structure de l'espace perceptuel mobilisé par les participants et participantes.
 
+La tâche psychophysique indique "quoi faire" avec les stimuli. Elle ne détermine cependant pas sous quelle forme donner la réponse, ni combien de stimuli sont présentés au cours d'un même essai. Ainsi, si la plupart des expériences basées sur des tâches de détection ne comportent qu'un seul son à détecter par essai, d'autres peuvent en comporter deux voire même trois. Ces aspects sont déterminés par le paradigme expérimental, que nous verrons à la section suivante.

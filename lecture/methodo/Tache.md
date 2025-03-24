@@ -117,6 +117,7 @@ Prenons l'exemple d'une étude de la perception des paysages sonores naturels. N
 <audio controls>
   <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/methodo/Soundscape_yesno.mp3" type="audio/wav">
 </audio>
+
 ```{figure} Soundscape_categorisation.png
 ---
 name: Soundscape_categorisation.png

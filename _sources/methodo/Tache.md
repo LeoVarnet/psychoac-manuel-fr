@@ -131,7 +131,7 @@ align: center
   <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/methodo/Soundscape_yesno.mp3" type="audio/wav">
 </audio>
 
-Cette expérience conduit effectivement à une mesure de performance qui reflète la capacité du sujet à identifier les différents environnements sur la base du son. On pourrait néanmoins lui reprocher d'imposer des catégories de réponse arbitraires : pourquoi n'existe-t-il pas de bouton "jungle", pourquoi "forêt de conifères" et non "forêt" ou "forêt de pins" ?
+Cette expérience conduit effectivement à une mesure de performance qui reflète la capacité du sujet à identifier les différents environnements sur la base du son. On pourrait néanmoins lui reprocher d'imposer des catégories de réponse arbitraires : pourquoi n'existe-t-il pas de bouton "jungle", pourquoi "savane de chênes" et non "savane" ?
 
 Il est possible de contourner ce problème en utilisant une tâche de discrimination. Ceci nécessite de présenter non plus un stimulus mais deux stimuli à chaque essai. L'instruction donnée aux participants et participantes est alors d'indiquer si les deux sons ont été enregistrés au même endroit. Voici un exemple de série d'essais pour cette seconde expérience. Après chaque paire de sons, un silence de trois seconde vous laisse le temps de décider si les deux stimuli provenaient ou non du même lieu.
 
@@ -152,5 +152,5 @@ align: center
   <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/methodo/Soundscape_2AFC.mp3" type="audio/wav">
 </audio>
 
-Là encore, les résultats donnent une indication sur la capacité des sujets à percevoir les environnements sur la base des sons. Néanmoins, contrairement à la première option, aucune grille de lecture ne leur est imposé pour catégoriser les stimuli.
+Là encore, les résultats donnent une indication sur la capacité des sujets à percevoir les environnements sur la base des sons. Néanmoins, contrairement à la première option, aucune grille de lecture ne leur est imposé pour catégoriser les stimuli. Comme nous le verrons au chapitre 3, l'analyse des données ainsi recueillies permet d'explorer la structure de l'espace perceptuel mobilisé par les participants et participantes.
 

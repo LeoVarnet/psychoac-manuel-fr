@@ -112,14 +112,14 @@ En revanche, un point plus problématique réside dans le fait que la tâche ne 
 Les tâches de détection et de catégorisation nécessitent de décrire précisément le ou les stimuli-cible au sujet pour qu'il soit en mesure de réaliser l'expérience. Dans certains cas, on ne souhaite pas donner trop de détails dans les instructions, notamment lorsque les stimuli sont trop complexes pour être décrits de façon succincte et compréhensible par des personnes extérieures au domaine, ou s'il y a un risque de rendre ainsi le comportement du sujet moins naturel ou d’imposer une « grille de lecture » particulière. On peut alors utiliser la tâche de discrimination pour donner des **instructions implicites**. En effet, il suffit pour cette tâche de demander à identifier le son différent -- sans nécessairement préciser en quoi consiste la différence.
 En contrepartie, la tâche de discrimination nécessite de présenter un stimulus de plus à chaque essai ce qui peut rallonger considérablement l'expérience.
 
-Prenons l'exemple d'une étude de la perception des paysages sonores naturels. Nous disposons d'enregistrements réalisés dans différents biotopes, dont nous nous servirons comme stimuli. Comment mesurer la capacité des êtres humains à reconnaître leur environnement sur la seule base de l'information acoustique qui leur parvient ?Une première option, assez intuitive, consiste à proposer une tâche de catégorisation : Chaque essai consiste en un seul enregistrement, correspondant à un biotope particulier parmis N possibles (savane, forêt de conifères, ...). Le sujet doit ensuite indiquer à quelle catégorie appartient le stimulus en appuyant sur les touches 1 à N. La démo suivante correspond à une série de 6 essais avec les 4 biotopes mentionnés plus haut. Tentez de les identifier avant de regarder les réponses correctes ci dessous.
+Prenons l'exemple d'une étude de la perception des paysages sonores naturels. Nous disposons d'enregistrements réalisés dans différents biotopes, dont nous nous servirons comme stimuli. Comment mesurer la capacité des êtres humains à reconnaître leur environnement sur la seule base de l'information acoustique qui leur parvient ?Une première option, assez intuitive, consiste à proposer une tâche de catégorisation : Chaque essai consiste en un seul enregistrement, correspondant à un biotope particulier parmis N possibles. Le sujet doit ensuite indiquer à quelle catégorie appartient le stimulus en appuyant sur les touches 1 à N. La démo suivante correspond à une série de 6 essais avec 4 environnements possibles : "prairie bordée de séquoias", "bordure de torrent", "maquis", "savane de chênes". Chaque stimulus dure 5 secondes, après quoi le sujet appuie sur un bouton pour indiquer lequel des quatre environnements il pense avoir reconnu.
 
 <br /> 
 
-```{figure} Soundscape_yesno.png
+```{figure} Soundscape_categorisation.png
 ---
-name: Soundscape_yesno.png
-alt: Soundscape_yesno
+name: Soundscape_categorisation.png
+alt: Soundscape_categorisation
 width: 500px
 align: center
 ---
@@ -133,15 +133,14 @@ align: center
 
 Cette expérience conduit effectivement à une mesure de performance qui reflète la capacité du sujet à identifier les différents environnements sur la base du son. On pourrait néanmoins lui reprocher d'imposer des catégories de réponse arbitraires : pourquoi n'existe-t-il pas de bouton "jungle", pourquoi "forêt de conifères" et non "forêt" ou "forêt de pins" ?
 
-Il est possible de contourner ce problème en utilisant une tâche de discrimination. Ceci nécessite de présenter non plus un stimulus mais deux stimuli à chaque essai. L'instruction donnée aux participants et participantes est alors d'indiquer si les deux sons ont été enregistrés au même endroit. Voici un exemple de série d'essais pour cette seconde expérience.
-
+Il est possible de contourner ce problème en utilisant une tâche de discrimination. Ceci nécessite de présenter non plus un stimulus mais deux stimuli à chaque essai. L'instruction donnée aux participants et participantes est alors d'indiquer si les deux sons ont été enregistrés au même endroit. Voici un exemple de série d'essais pour cette seconde expérience. Après chaque paire de sons, un silence de trois seconde vous laisse le temps de décider si les deux stimuli provenaient ou non du même lieu.
 
 <br /> 
 
-```{figure} Soundscape_2AFC.png
+```{figure} Soundscape_discrimination.png
 ---
-name: Soundscape_2AFC.png
-alt: Soundscape_2AFC
+name: Soundscape_discrimination.png
+alt: Soundscape_discrimination
 width: 500px
 align: center
 ---

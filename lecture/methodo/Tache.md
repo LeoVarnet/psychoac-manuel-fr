@@ -69,7 +69,7 @@ En revanche, cette expérience ne permet pas de déterminer si le même phénom�
 Voici une démo de la mesure de seuil de discrimination décrite ci-dessus. Pour chaque essai le premier ton correspond à la référence à 1000 Hz, d'intensité fixe. Le deuxième ton, à une fréquence test de 500 Hz, est présenté à des intensités décroissantes. Il s'agit de déterminer le point dans la série où les deux sons sont perçus comme ayant des intensités égales.
 
 <audio controls>
-  <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/methodo/demo_isosonique.mp3" type="audio/wav">
+  <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/methodo/demo_isoloudness.mp3" type="audio/wav">
 </audio>
 
 Ce deuxième protocole expérimental, lorsqu'il est répété pour un certain nombre de fréquences test, permet de tracer la **courbe isosonique** pour l'intensité de référence. En répliquant la procédure pour différentes intensités de référence, on obtient ainsi un faisceau de courbes isosoniques qui offrent un aperçu de la perception de l'intensité selon les fréquences à différents niveaux sonores. Nous reviendrons sur l'interprétation de ces courbes au chapitre 3.

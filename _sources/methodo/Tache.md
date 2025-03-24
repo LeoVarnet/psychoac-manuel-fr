@@ -114,13 +114,44 @@ En contrepartie, la tâche de discrimination nécessite de présenter un stimulu
 
 Prenons l'exemple d'une étude de la perception des paysages sonores naturels. Nous disposons d'enregistrements réalisés dans différents biotopes, dont nous nous servirons comme stimuli. Comment mesurer la capacité des êtres humains à reconnaître leur environnement sur la seule base de l'information acoustique qui leur parvient ?Une première option, assez intuitive, consiste à proposer une tâche de catégorisation : Chaque essai consiste en un seul enregistrement, correspondant à un biotope particulier parmis N possibles (savane, forêt de conifères, ...). Le sujet doit ensuite indiquer à quelle catégorie appartient le stimulus en appuyant sur les touches 1 à N. La démo suivante correspond à une série de 6 essais avec les 4 biotopes mentionnés plus haut. Tentez de les identifier avant de regarder les réponses correctes ci dessous.
 
-XXX 
+<br /> 
+
+```{figure} Soundscape_yesno.png
+---
+name: Soundscape_yesno.png
+alt: Soundscape_yesno
+width: 500px
+align: center
+---
+*Expérience de reconnaissance de paysages sonores naturels avec une tâche de catégorisation.*
+```
+
+<br /> 
+<audio controls>
+  <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/methodo/Soundscape_yesno.mp3" type="audio/wav">
+</audio>
 
 Cette expérience conduit effectivement à une mesure de performance qui reflète la capacité du sujet à identifier les différents environnements sur la base du son. On pourrait néanmoins lui reprocher d'imposer des catégories de réponse arbitraires : pourquoi n'existe-t-il pas de bouton "jungle", pourquoi "forêt de conifères" et non "forêt" ou "forêt de pins" ?
 
 Il est possible de contourner ce problème en utilisant une tâche de discrimination. Ceci nécessite de présenter non plus un stimulus mais deux stimuli à chaque essai. L'instruction donnée aux participants et participantes est alors d'indiquer si les deux sons ont été enregistrés au même endroit. Voici un exemple de série d'essais pour cette seconde expérience.
 
-XXX 
+
+<br /> 
+
+```{figure} Soundscape_2AFC.png
+---
+name: Soundscape_2AFC.png
+alt: Soundscape_2AFC
+width: 500px
+align: center
+---
+*Expérience de reconnaissance de paysages sonores naturels avec une tâche de discrimination.*
+```
+
+<br /> 
+<audio controls>
+  <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/methodo/Soundscape_2AFC.mp3" type="audio/wav">
+</audio>
 
 Là encore, les résultats donnent une indication sur la capacité des sujets à percevoir les environnements sur la base des sons. Néanmoins, contrairement à la première option, aucune grille de lecture ne leur est imposé pour catégoriser les stimuli.
 

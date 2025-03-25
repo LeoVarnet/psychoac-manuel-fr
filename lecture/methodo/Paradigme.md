@@ -94,6 +94,13 @@ Comme tout choix forcé, le 3I-2AFC est insensible aux effets de critere. Son in
 
 Une autre variante utile du choix forcé est sa combinaison avec la tâche de discrimination (souvent appelé **paradigme *oddball***). Dans ce cas, trois intervalles sont présentés successivement dans un ordre aléatoire, l'un contenant un son différent des deux autres. La tâche consiste à les discriminer en indiquant quel intervalle contenait le son différent  (par exemple, un essai A-A-B a pour réponse correcte "troisième intervalle", un essai B-A-B "deuxième intervalle"). Notez la différence avec la détection en 3I-2AFC où le sujet sait par avance quelle est la cible recherchée, tandis qu'il s'agit dans le *oddball* d'identifier un stimulus qui diffère des autres. Cet experience combine les avantages du choix forcé et de la discrimination : elle est indépendante du critère et implicite. Cependant elle est également plus longue puisqu'elle nécessite de diffuser 3 stimuli par essai.
 
+A titre d'exemple, considérons à nouveau le cas de la reconnaissance de paysages sonores naturels. Au chapitre précédent nous avons vu qu'il était préférable de fonder notre approche sur une tâche de discrimination plutôt que de catégorisation, pour ne pas imposer de catégories d'environnement arbitraires. Cependant, comme on peut s'en rendre compte en écoutant la démo, un écueil possible est alors que *tous* les stimuli semblent provenir de lieux différents, ce qui remettrait en cause notre expérience :
+
+Xxxx
+
+En d'autres termes, la mesure est dépendante du critère et les sujets peuvent être biaisés en faveur de la réponse "différents lieux". Il est possible pour palier ce problème de changer de paradigme expérimental, en passant d'un yes/no à un choix forcé. L'expérience devient alors un *odball*
+
+
 ## Exemples d’expériences pour la mesure du seuil de détection des modulation
 
 Récapitulons à présent les différentes combinaisons de paradigmes et de tâches que nous avons envisagé dans ce chapitre. Pour cela, 

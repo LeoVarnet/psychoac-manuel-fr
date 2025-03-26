@@ -98,11 +98,16 @@ A titre d'exemple, considérons à nouveau le cas de la reconnaissance de paysag
 
 Xxxx
 
-En d'autres termes, la mesure est dépendante du critère et les sujets peuvent être biaisés en faveur de la réponse "différents lieux". Il est possible pour palier ce problème de changer de paradigme expérimental, en passant d'un yes/no à un choix forcé. L'expérience devient alors un *odball*
+En d'autres termes, la mesure est dépendante du critère et les sujets peuvent être biaisés en faveur de la réponse "différents lieux". Il est possible pour palier ce problème de changer de paradigme expérimental, en passant d'un yes/no à un choix forcé. L'expérience devient alors un paradigme *odball* : à chaque essai 3 enregistrements sont présentés dans un ordre aléatoire, deux d'entre eux provenant d'un même lieu, et le troisième d'un lieu different. L'objectif des participants et participantes est d'indiquer lequel des trois sons provient d'un environnement différent des deux autres.
 
+Voici une illustration des deux premiers essais de cette expérience, chacun composé de trois stimuli.
+
+xxxxx
+
+Ce protocole expérimental a, comme le précédent, l'avantage d'être implicite (expliquer la tâche aux sujets ne nécessite pas de leur indiquer quels types de paysages sonores ont été enregistrés) mais il est de plus indépendant du critère. En effet, les sujets ne peuvent pas être biaisés et répondre plus ou moins fréquemment que les sons sont différents, puisqu'ils doivent nécessairement choisir à chaque essai un stimulus différent et deux stimuli identiques.
 
 ## Exemples d’expériences pour la mesure du seuil de détection des modulation
 
-Récapitulons à présent les différentes combinaisons de paradigmes et de tâches que nous avons envisagé dans ce chapitre. Pour cela, 
+Récapitulons à présent les différentes combinaisons de paradigmes et de tâches que nous avons envisagées dans ce chapitre. Pour cela, nous nous appuierons à nouveau sur l'exemple de la mesure des seuils de détection des modulations, déjà évoqué.
 
 

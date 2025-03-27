@@ -132,12 +132,12 @@ Ce protocole expérimental a, comme le précédent, l'avantage d'être implicite
 
 ## Exemples d’expériences pour la mesure du seuil de détection des modulation
 
-Récapitulons à présent les différentes combinaisons de paradigmes et de tâches que nous avons envisagées dans ce chapitre. Pour cela, nous nous appuierons à nouveau sur l'exemple de la mesure des seuils de détection des modulations, déjà évoqué.
+Récapitulons à présent les différentes combinaisons de paradigmes et de tâches que nous avons envisagées dans ce chapitre. Pour cela, nous nous appuierons sur un exemple abstrait comparant des sons "bleu clair" et des sons "bleu fonçé" de la mesure des seuils de détection des modulations, déjà évoqué.
 
 | Exemple de déroulement d'un essai  | Instructions | Paradigme + tâche | Propriétés |
 | :--------------- |:---------------|:-----|:-----|
-| ![speaker dark blue](https://www.iconsdb.com/icons/preview/royal-blue/speaker-xl.png) | Répondre "modulé" ou "non modulé" | Yes/no + détection |  |
-| ![speaker dark blue](https://www.iconsdb.com/icons/preview/royal-blue/speaker-xl.png)   ![speaker light blue](https://www.iconsdb.com/icons/preview/caribbean-blue/speaker-xl.png) | Sélectionnez le stimulus modulé | Choix forcé 2I2A + détection | indépendant du critère |
+| ![speaker dark blue](https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Speaker_Icon_gray.svg/120px-Speaker_Icon_gray.svg.png?20090403010237) | Répondre "modulé" ou "non modulé" | Yes/no + détection |  |
+| ![speaker dark blue](https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Speaker_Icon.svg/120px-Speaker_Icon.svg.png?20190828181118)   ![speaker light blue](https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Speaker_Icon.svg/120px-Speaker_Icon.svg.png?20190828181118) | Sélectionnez le stimulus modulé | Choix forcé 2I2A + détection | indépendant du critère |
 | ![speaker dark blue](https://www.iconsdb.com/icons/preview/royal-blue/speaker-xl.png)   ![speaker dark blue](https://www.iconsdb.com/icons/preview/royal-blue/speaker-xl.png) | Répondre « identiques » ou « différents » |    Yes/no + discrimination | implicite |
 | ![speaker light blue](https://www.iconsdb.com/icons/preview/caribbean-blue/speaker-xl.png)   ![speaker dark blue](https://www.iconsdb.com/icons/preview/royal-blue/speaker-xl.png)   ![speaker dark blue](https://www.iconsdb.com/icons/preview/royal-blue/speaker-xl.png) | Sélectionnez le stimulus modulé | Choix forcé 3I2A + détection | indépendant du critère |
 | ![speaker light blue](https://www.iconsdb.com/icons/preview/caribbean-blue/speaker-xl.png)   ![speaker dark blue](https://www.iconsdb.com/icons/preview/royal-blue/speaker-xl.png)   ![speaker dark blue](https://www.iconsdb.com/icons/preview/royal-blue/speaker-xl.png) | Sélectionnez le stimulus différent | Choix forcé 3I2A + discrimination | implicite et indépendant du critère |

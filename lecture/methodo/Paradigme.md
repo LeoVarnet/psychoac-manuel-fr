@@ -132,7 +132,7 @@ Ce protocole expérimental a, comme le précédent, l'avantage d'être implicite
 
 ## Exemples d’expériences pour la mesure du seuil de détection des modulation
 
-Récapitulons à présent les différentes combinaisons de paradigmes et de tâches que nous avons envisagées dans ce chapitre. Pour cela, nous nous appuierons sur un exemple abstrait comparant des sons "bleu" et des sons "orange". Ces deux couleurs peuvent correspondre par exemple à "bip" vs. "silence" dans le cas de l'audiogramme, à "ton modulé" vs. "ton non-modulé" dans le cas de la mesure des seuils de détection des modulations, ou encore à "savane" vs. "prairie" dans le cas de la perception des paysages sonores naturels.
+Récapitulons à présent les différentes combinaisons de paradigmes et de tâches que nous avons envisagées dans ce chapitre. Pour cela, nous nous appuierons sur un exemple abstrait comparant des sons "bleus" et des sons "orange". Ces deux couleurs peuvent correspondre par exemple à "bip" vs. "silence" dans le cas de l'audiogramme, à "ton modulé" vs. "ton non-modulé" dans le cas de la mesure des seuils de détection des modulations, ou encore à "savane" vs. "prairie" dans le cas de la perception des paysages sonores naturels.
 
 | Exemple de déroulement d'un essai  | Instructions | Paradigme + tâche | Propriétés |
 | :--------------- |:---------------|:-----|:-----|

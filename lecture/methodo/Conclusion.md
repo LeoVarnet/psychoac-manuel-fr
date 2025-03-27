@@ -11,7 +11,7 @@ Comme nous l'avons vu dans ce chapitre, l'expérience de psychoacoustique est fo
 - **Méthode psychophysique** : la méthode peut être adaptative (p.ex. méthode des limites ou escalier psychophysique) ou non-adaptative (p.ex. méthode des stimuli constant ou mesure de performance).
 - **Paradigme psychophysique** : deux paradigmes ont été décrits dans ce chapitre, le paradigme yes/no et le paradigme du choix forcé.
 
-Mettre au point une expérience pour tester un phénomène perceptif particulier consiste en premier lieu à se poser une série de questions, pour fixer ces paramètres méthodologiques. En particulier :
+Pour mettre au point une expérience destinée à tester un phénomène perceptif particulier, il convient en premier lieu de se poser une série de questions :
 
 - Comment isoler le phénomène étudié ? Comment appliquer le principe de réductionnisme à mes stimuli et ma tâche ?
 - De quel type de mesure ai-je besoin ? Un seuil, un pourcentage de performance, une sensibilité ?
@@ -23,9 +23,15 @@ Mettre au point une expérience pour tester un phénomène perceptif particulier
 
 ## Mesures psychophysiques courantes
 
-On l'a vu, le choix d'une méthode expérimentale est notamment guidé par le type de mesure visé. On peut ainsi caractériser la perception en termes de seuil, de performance, ou de sensibilité. Ces trois mesures sont en réalité trois façons de regarder la même fonction psychométrique sous-jacente.
+On l'a vu, le choix d'une méthode expérimentale est notamment guidé par le type de mesure visé. On peut ainsi caractériser la perception en termes de **seuil**, de **performance**, ou de **sensibilité**. Ces trois mesures sont en réalité trois façons d'envisager la même fonction psychométrique sous-jacente.
 
 Il est possible d'effectuer cette mesure de façon répétée, en variant soit la population testée, par exemple pour comparer deux groupes de sujets, soit la condition expérimentale, pour obtenir un tableau plus complet du phénomène. Dans le cas de l'audiogramme, par exemple, la mesure de seuil d'audibilité tonale est réitérée pour différentes fréquences (idem pour la TMTF dans le cas des seuils de détection de modulations). Cette fonction représentant les seuils de détection pour une famille de stimuli est appelée **fonction de transfert**, par analogie avec les fonctions de transfert mesurées en électronique. Cette dénomination ne sous-entend néanmoins pas que la relation entrée-sortie est nécessairement linéaire. En réalité, nous avons déjà vu que ce n'est pas le cas pour la perception de l'intensité : les courbes isosoniques tracent un faisceau globalement cohérent mais ne sont pas exactement parallèles les unes aux autres comme on l'attendrait d'un processus lineaire.
+
+Finalement, la psychophysique et les sciences cognitives étudient des phénomènes qui sont par essence cachés dans l'esprit des individus. Ainsi le rôle de la mesure est double : non seulement quantifier, comme dans toute science experimentale, mais aussi plus fondamentalement révéler des mécanismes invisibles à l'observation directe. 
+
+> étudier un mécanisme c'est avant tout inventer un indicateur 
+
+## behaviorisme 
 
 Ces mesures psychophysique peuvent être complétées par des mesures conjointes. 
 - Tout d'abord, la **chronométrie mentale** : le **temps de réponse** des sujets dans les expériences psychophysiques offre une information complémentaire sur les processus cognitifs sous-jacents. Par exemple, le temps mis pour reconnaître un mot dans le bruit est légèrement plus long que pour le même mot dans le silence, indiquant un effort d'écoute accru ou des traitements supplémentaires dans le cas de la compréhension dans le bruit. La comparaison des temps de réponse peut mettre en évidence des différences très fines entre des conditions pour lesquelles les performances semblent identiques.

@@ -31,7 +31,11 @@ Finalement, la psychophysique et les sciences cognitives étudient des phénomè
 
 > étudier un mécanisme c'est avant tout inventer un indicateur 
 
-## behaviorisme 
+## behaviorisme
+
+> N'admettre que ce dont on peut faire l'expérience et rendre justice à tout ce qui peut faire l'objet d'expérience
+
+Aussi un garde fou contre les théories psychologiques fumeuses
 
 Ces mesures psychophysique peuvent être complétées par des mesures conjointes. 
 - Tout d'abord, la **chronométrie mentale** : le **temps de réponse** des sujets dans les expériences psychophysiques offre une information complémentaire sur les processus cognitifs sous-jacents. Par exemple, le temps mis pour reconnaître un mot dans le bruit est légèrement plus long que pour le même mot dans le silence, indiquant un effort d'écoute accru ou des traitements supplémentaires dans le cas de la compréhension dans le bruit. La comparaison des temps de réponse peut mettre en évidence des différences très fines entre des conditions pour lesquelles les performances semblent identiques.

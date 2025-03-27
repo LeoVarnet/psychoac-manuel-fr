@@ -96,13 +96,37 @@ Une autre variante utile du choix forcé est sa combinaison avec la tâche de di
 
 A titre d'exemple, considérons à nouveau le cas de la reconnaissance de paysages sonores naturels. Au chapitre précédent nous avons vu qu'il était préférable de fonder notre approche sur une tâche de discrimination plutôt que de catégorisation, pour ne pas imposer de catégories d'environnement arbitraires. Cependant, comme on peut s'en rendre compte en écoutant la démo, un écueil possible est alors que **tous** les stimuli semblent provenir de lieux différents, ce qui remettrait en cause notre expérience :
 
-Xxxx
+<audio controls>
+  <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/methodo/Soundscape_2AFC.mp3" type="audio/wav">
+</audio>
+
+```{figure} Soundscape_discrimination.png
+---
+name: Soundscape_discrimination.png
+alt: Soundscape_discrimination
+width: 500px
+align: center
+---
+*Expérience de reconnaissance de paysages sonores naturels avec une tâche de discrimination et un paradigme yes/no.*
+```
 
 En d'autres termes, la mesure est dépendante du critère et les sujets peuvent être biaisés en faveur de la réponse "différents lieux". Il est possible pour palier ce problème de changer de paradigme expérimental, en passant d'un yes/no à un choix forcé. L'expérience devient alors un paradigme *oddball* : à chaque essai 3 enregistrements sont présentés dans un ordre aléatoire, deux d'entre eux provenant d'un même lieu, et le troisième d'un lieu different. L'objectif des participants et participantes est d'indiquer lequel des trois sons provient d'un environnement différent des deux autres.
 
 Voici une illustration des deux premiers essais de cette expérience, chacun composé de trois stimuli.
 
-xxxxx
+<audio controls>
+  <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/methodo/Soundscape_oddball.mp3" type="audio/wav">
+</audio>
+
+```{figure} Soundscape_oddball.png
+---
+name: Soundscape_oddball.png
+alt: Soundscape_oddball
+width: 500px
+align: center
+---
+*Expérience de reconnaissance de paysages sonores naturels avec une tâche de discrimination et un paradigme de choix forcé (c'est à dire, paradigme *oddball*).*
+```
 
 Ce protocole expérimental a, comme le précédent, l'avantage d'être implicite (expliquer la tâche aux sujets ne nécessite pas de leur indiquer quels types de paysages sonores ont été enregistrés) mais il est de plus indépendant du critère. En effet, les sujets ne peuvent pas être biaisés et répondre plus ou moins fréquemment que les sons sont différents, puisqu'ils doivent nécessairement choisir à chaque essai un stimulus différent et deux stimuli identiques.
 
@@ -110,8 +134,10 @@ Ce protocole expérimental a, comme le précédent, l'avantage d'être implicite
 
 Récapitulons à présent les différentes combinaisons de paradigmes et de tâches que nous avons envisagées dans ce chapitre. Pour cela, nous nous appuierons à nouveau sur l'exemple de la mesure des seuils de détection des modulations, déjà évoqué.
 
-| Stimuli présentés dans un essai  | Instructions | Paradigme + tâche |
-| :--------------- |:---------------|:-----|
-| ![Un joli tigre](https://upload.wikimedia.org/wikipedia/commons/5/56/Tiger.50.jpg) |   ce texte        |  Aligné à droite |
-| ![Un joli tigre](https://upload.wikimedia.org/wikipedia/commons/5/56/Tiger.50.jpg)![Un joli tigre](https://upload.wikimedia.org/wikipedia/commons/5/56/Tiger.50.jpg)  | est             |   Aligné à droite |
-| Aligné à gauche  | centré          |    Aligné à droite |
+| Exemple de déroulement d'un essai  | Instructions | Paradigme + tâche | Propriétés |
+| :--------------- |:---------------|:-----|:-----|
+| ![speaker dark blue](https://www.iconsdb.com/icons/preview/royal-blue/speaker-xl.png) | Répondre "modulé" ou "non modulé" | Yes/no + détection |  |
+| ![speaker dark blue](https://www.iconsdb.com/icons/preview/royal-blue/speaker-xl.png)   ![speaker light blue](https://www.iconsdb.com/icons/preview/caribbean-blue/speaker-xl.png) | Sélectionnez le stimulus modulé | Choix forcé 2I2A + détection | indépendant du critère |
+| ![speaker dark blue](https://www.iconsdb.com/icons/preview/royal-blue/speaker-xl.png)   ![speaker dark blue](https://www.iconsdb.com/icons/preview/royal-blue/speaker-xl.png) | Répondre « identiques » ou « différents » |    Yes/no + discrimination | implicite |
+| ![speaker light blue](https://www.iconsdb.com/icons/preview/caribbean-blue/speaker-xl.png)   ![speaker dark blue](https://www.iconsdb.com/icons/preview/royal-blue/speaker-xl.png)   ![speaker dark blue](https://www.iconsdb.com/icons/preview/royal-blue/speaker-xl.png) | Sélectionnez le stimulus modulé | Choix forcé 3I2A + détection | indépendant du critère |
+| ![speaker light blue](https://www.iconsdb.com/icons/preview/caribbean-blue/speaker-xl.png)   ![speaker dark blue](https://www.iconsdb.com/icons/preview/royal-blue/speaker-xl.png)   ![speaker dark blue](https://www.iconsdb.com/icons/preview/royal-blue/speaker-xl.png) | Sélectionnez le stimulus différent | Choix forcé 3I2A + discrimination | implicite et indépendant du critère |

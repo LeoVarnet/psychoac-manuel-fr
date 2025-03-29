@@ -27,15 +27,35 @@ On l'a vu, le choix d'une méthode expérimentale est notamment guidé par le ty
 
 Il est possible d'effectuer cette mesure de façon répétée, en variant soit la population testée, par exemple pour comparer deux groupes de sujets, soit la condition expérimentale, pour obtenir un tableau plus complet du phénomène. Dans le cas de l'audiogramme, par exemple, la mesure de seuil d'audibilité tonale est réitérée pour différentes fréquences (idem pour la TMTF dans le cas des seuils de détection de modulations). Cette fonction représentant les seuils de détection pour une famille de stimuli est appelée **fonction de transfert**, par analogie avec les fonctions de transfert mesurées en électronique. Cette dénomination ne sous-entend néanmoins pas que la relation entrée-sortie est nécessairement linéaire. En réalité, nous avons déjà vu que ce n'est pas le cas pour la perception de l'intensité : les courbes isosoniques tracent un faisceau globalement cohérent mais ne sont pas exactement parallèles les unes aux autres comme on l'attendrait d'un processus lineaire.
 
-Finalement, la psychophysique et les sciences cognitives étudient des phénomènes qui sont par essence cachés dans l'esprit des individus. Ainsi le rôle de la mesure est double : non seulement quantifier, comme dans toute science experimentale, mais aussi plus fondamentalement révéler des mécanismes invisibles à l'observation directe. 
+La psychophysique et les sciences cognitives étudient des phénomènes qui sont par essence cachés dans l'esprit des individus. Ainsi le rôle de la mesure est double : non seulement quantifier, comme dans toute science experimentale, mais aussi plus fondamentalement révéler des mécanismes invisibles à l'observation directe. 
 
-> étudier un mécanisme c'est avant tout inventer un indicateur 
+## Mesurer le comportement humain
 
-## behaviorisme
+Ceci passe par une approche behavioriste, c'est à basée sur la mesure des comportements
 
 > N'admettre que ce dont on peut faire l'expérience et rendre justice à tout ce qui peut faire l'objet d'expérience
 
-Aussi un garde fou contre les théories psychologiques fumeuses
+Dans un texte considéré comme fondateur du courant cognitiviste, l'approche scientifique actuelle des sciences cognitives et notamment de la psychophysique, Noam Chomsky écrit :
+
+> Quiconque voulant analyser les causes du comportement s'intéressera aux seules données accessibles (en l'absence de données neurophysiologiques indépendantes), à savoir la liste des entrées reçues par l'organisme et la réponse de celui-ci, et essaiera de décrire la fonction qui définit la réponse d'après l'histoire des entrées. Ceci n'est rien de plus que la définition du problème. [...] Si la [fonction réalisée par l'organisme] est complexe, la seule chance de prédire le comportement sera de suivre un programme de recherches très indirect commençant par l'étude détaillée de la nature du comportement lui-même et des capacités spécifiques de l'organisme en question.
+
+Telle est la démarche de la psychophysique : partir de l'association observée entre stimulus et comportement pour élaborer des modèles, parfois extrêmement sophistiqués, des mécanismes sous-jacents à notre capacité de perception et de compréhension du monde qui nous entoure. Cette approche exigeante s'oppose, on l'a vu, à la démarche introspective dans laquelle le sujet percevant s'interroge lui-même sur ses propres perceptions subjectives. Ce faisant, elle constitue un garde-fou contre différents écueuils dans l'étude de l'esprit humain. 
+
+D'une part, elle permet de tracer une démarcation nette avec une certaine "psychologie du sens commun" qui alimente les magazines de psychologie et les conférences de développement personnel. En contraste avec ces approches qui manipulent des grands concepts intuitifs mais mal définis tels que l'"amour", la "résilience", l'"énergie positive", la démarche décrite ici vise à refonder une science psychologique sur des bases solides, aussi empiriques que possible et débarassées de tous les artefacts métaphysiques. Les membres du Cercle de Vienne ne disent pas autre chose, lorsqu'ils écrivent en 1929 :
+
+> Les formes de langage dans lesquelles nous parlons encore aujourd’hui, dans le domaine du psychique, se sont construites dans des temps anciens en se fondant sur certaines représentations métaphysiques de l'âme. [...] Il s’ensuit que la plupart des concepts employés en psychologie sont jusqu’à présent bien insuffisamment définis ; pour beaucoup d’entre eux, on ne sait même pas s’ils ont un sens ou s’ils en donnent l’illusion par le seul usage qu’on en fait. [...] Les tentatives de la psychologie behaviouriste pour comprendre tout ce qui est psychique en termes de comportement des corps, à un niveau donc accessible à la perception, se rapprochent, dans leur attitude fondamentale, de la conception scientifique du monde.
+
+Par ailleurs, ce primat de l'observation des comportements offre également une protection contre un dévoiement des progrès récents de la neuroimagerie, la "preuve par le cerveau". Les images du cerveau en action étant souvent interprétées, consciemment ou non, comme une marque de scientificité, il n'est pas rare de les voir utilisées comme 
+
+Il n'est pas rare dans les articles à destination du grand public ou dans les brochures vantant les mérites de tel ou tel traitement , application de la neuroimagerie à l
+
+Les nouvelles techniques de neuroimagerie ne pourraient-elles pas être amenées à remplacer à terme la psychophysique ? Peut-être devrions-nous désormais nous limiter à mesurer l'activité cérébrale humaine par imagerie par résonance magnétique fonctionnelle ou par magnétoencéphalographie, plutôt que de l'inférer par la psychophysique ? 
+Il est important de souligner que, pour un grand nombre de questions de recherche, la mesure des comportements se situe en réalité à l'origine de la démarche, dans la caractérisation précise des phénomènes cognitifs qu'il s'agit d'expliquer, puisqu'il est relativement rare que l'on s'intéresse à des traitements cébérbaux n'ayant aucune incidence sur le comportement de l'organisme. Au contraire, toute approche ne fournissant 
+
+explication qui peut s'appuyer sur d'autres techniques. 
+
+
+Ceci ne signifie pas 
 
 Ces mesures psychophysique peuvent être complétées par des mesures conjointes. 
 - Tout d'abord, la **chronométrie mentale** : le **temps de réponse** des sujets dans les expériences psychophysiques offre une information complémentaire sur les processus cognitifs sous-jacents. Par exemple, le temps mis pour reconnaître un mot dans le bruit est légèrement plus long que pour le même mot dans le silence, indiquant un effort d'écoute accru ou des traitements supplémentaires dans le cas de la compréhension dans le bruit. La comparaison des temps de réponse peut mettre en évidence des différences très fines entre des conditions pour lesquelles les performances semblent identiques.

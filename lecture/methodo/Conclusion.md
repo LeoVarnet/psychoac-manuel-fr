@@ -57,7 +57,7 @@ Comme nous l'avons vu, il est souvent pertinent de suivre une approche intégrat
 
 ## Héritage de la psychophysique
 
-Finalement, la psychophysique étant à l'origine des sciences cognitives, son approche a infusé dans les autres champs de l'étude de la cognition humaine, bien au delà de la perception. Nous verrons quelques exemples d'applications plus haut-niveau dans les chapitres 4 et 5. Entre autres exemples frappants, mentionnons la psycholinguistique, qui explore la façon dont le cerveau traite les structures du langage écrit ou oral, en s'appuyant elle aussi sur des comportements observables. La même philosophie est également à l'œuvre derrière le célèbre test de Turing : 
+Finalement, la psychophysique se situant, historiquement, à l'origine des sciences cognitives, son approche a infusé dans les autres champs de l'étude de la cognition humaine, bien au-delà de la perception. Nous verrons quelques exemples d'applications plus haut-niveau dans les chapitres 4 et 5. Entre autres exemples frappants, mentionnons la psycholinguistique, qui explore la façon dont le cerveau traite les structures du langage écrit ou oral, en s'appuyant elle aussi sur des comportements observables. La même philosophie est également à l'œuvre derrière le célèbre test de Turing : 
 
 > Je propose de considérer la question « Les machines peuvent-elles penser ? ». [...] Au lieu de [philosopher sur la définition du terme "penser"], je remplacerai cette question par une autre, intrinsèquement liée, mais qui s'exprime dans des termes dépourvus d'ambiguïté. La nouvelle forme du problème peut être décrite comme un jeu qu nous appellerons "le jeu de l'imitation". *(Turing, the imitation game)*
 

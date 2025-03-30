@@ -1,7 +1,7 @@
 
 # Conclusion 
 
-Il pourrait sembler étrange à première vue qu'un seul et même cadre théorique permette de rendre compte et d'étudier des phénomènes aussi variés que la perception d'un bip sonore, la reconnaissance d'une voix ou d'un objet, la discrimination de nuances de couleur, ou encore  l'identification d'un parfum ou d'un cépage de vin. C'est pourtant ce que promet la psychophysique, offrant une boîte à outils pour investiguer scientifiquement tous les aspects de la perception humaine, dans des conditions de laboratoire. Dans ce chapitre, nous avons donné un aperçu de cette approche particulière, avant de la mettre en pratique dans la suite du cours pour l'étude de l'audition humaine.
+Il pourrait sembler étrange à première vue qu'un seul et même cadre théorique permette de rendre compte et d'étudier des phénomènes aussi variés que la perception d'un bip sonore, la reconnaissance d'une voix ou d'un objet, la discrimination de nuances de couleur, ou encore  l'identification d'un parfum ou d'un cépage de vin. C'est pourtant ce que promet la psychophysique, offrant une boîte à outils pour investiguer scientifiquement tous les aspects de la perception humaine, dans des conditions de laboratoire. Dans ce chapitre, nous avons donné un aperçu de cette approche, avant de la mettre en pratique dans la suite du cours pour l'étude de l'audition humaine.
 
 ## Résumé : mettre au point une expérience de psychoacoustique
 
@@ -37,7 +37,17 @@ Dans un texte considéré comme fondateur du courant cognitiviste, l'approche sc
 
 > Quiconque voulant analyser les causes du comportement s'intéressera aux seules données accessibles (en l'absence de données neurophysiologiques indépendantes), à savoir la liste des entrées reçues par l'organisme et la réponse de celui-ci, et essaiera de décrire la fonction qui définit la réponse d'après l'histoire des entrées. Ceci n'est rien de plus que la définition du problème. [...] Si la [fonction réalisée par l'organisme] est complexe, la seule chance de prédire le comportement sera de suivre un programme de recherches très indirect commençant par l'étude détaillée de la nature du comportement lui-même et des capacités spécifiques de l'organisme en question.
 
-Telle est la démarche de la psychophysique : partir de l'association observée entre stimulus et comportement pour élaborer des modèles, parfois extrêmement sophistiqués, des mécanismes sous-jacents à notre capacité de perception et de compréhension du monde qui nous entoure. Cette approche exigeante s'oppose, on l'a vu, à la démarche introspective dans laquelle le sujet percevant s'interroge lui-même sur ses propres perceptions subjectives. Ce faisant, elle constitue un garde-fou contre différents écueuils dans l'étude de l'esprit humain. 
+Telle est la démarche de la psychophysique : partir de l'association observée entre stimulus et comportement pour élaborer des modèles, parfois extrêmement sophistiqués, des mécanismes sous-jacents à notre capacité de perception et de compréhension du monde qui nous entoure. Cette approche exigeante s'oppose, on l'a vu, à la démarche introspective dans laquelle le sujet percevant s'interroge lui-même sur ses propres perceptions subjectives. 
+Par ailleurs, la psychophysique se situant, historiquement, à l'origine des sciences cognitives, son approche a infusé dans les autres champs de l'étude de la cognition humaine, bien au-delà de la perception. Son influence est notable par exemple en psycholinguistique, domaine qui explore le traitement du language par le cerveau (nous aborderons cete question au chapitre 4). Comprendre comment le cerveau manipule les structures du langage écrit ou oral nécessite entre autres de mettre au point des expériences dans lesquelles les sujets doivent traiter des stimuli linguistiques, et dont on mesure les réponses dans des tâches. La même philosophie est également à l'œuvre derrière le célèbre test de Turing : 
+
+> Je propose de considérer la question « Les machines peuvent-elles penser ? ». [...] Au lieu de [philosopher sur la définition du terme "penser"], je remplacerai cette question par une autre, intrinsèquement liée, mais qui s'exprime dans des termes dépourvus d'ambiguïté. La nouvelle forme du problème peut être décrite comme un jeu qu nous appellerons "le jeu de l'imitation". *(Turing, the imitation game)*
+
+Le principe du test consiste, en résumé, à évaluer si la machine peut produire des interactions langagières suffisamment réalistes pour induire en erreur son interlocuteur·ice humain·e. Ainsi, plutôt que d'analyser le fonctionnement interne de la machine, Turing propose d'utiliser son comportement observable comme un critère pour juger de ses capacités cognitives.
+
+
+
+
+Ce faisant, elle constitue un garde-fou contre différents écueuils dans l'étude de l'esprit humain. 
 
 D'une part, elle permet de tracer une démarcation nette avec une certaine "psychologie du sens commun" qui alimente les magazines de psychologie et les conférences de développement personnel. En contraste avec ces approches qui manipulent des grands concepts intuitifs mais mal définis tels que l'"amour", la "résilience", l'"énergie positive", la démarche décrite ici vise à refonder une science psychologique sur des bases solides, aussi empiriques que possible et débarassées de tous les artefacts métaphysiques. Les membres du Cercle de Vienne ne disent pas autre chose, lorsqu'ils écrivent en 1929 :
 

@@ -42,14 +42,11 @@ Par ailleurs, la psychophysique se situant, historiquement, à l'origine des sci
 
 > Je propose de considérer la question « Les machines peuvent-elles penser ? ». [...] Au lieu de [philosopher sur la définition du terme "penser"], je remplacerai cette question par une autre, intrinsèquement liée, mais qui s'exprime dans des termes dépourvus d'ambiguïté. La nouvelle forme du problème peut être décrite comme un jeu qu nous appellerons "le jeu de l'imitation". *(Turing, the imitation game)*
 
-Le principe du test consiste, en résumé, à évaluer si la machine peut produire des interactions langagières suffisamment réalistes pour induire en erreur son interlocuteur·ice humain·e. Ainsi, plutôt que d'analyser le fonctionnement interne de la machine, Turing propose d'utiliser son comportement observable comme un critère pour juger de ses facultés cognitives.
+Le principe du test pour déterminer si une machine peut "penser" consiste, en résumé, à évaluer si la celle-ci peut produire des interactions langagières suffisamment réalistes pour induire en erreur son interlocuteur·ice humain·e. Ainsi, plutôt que d'analyser le fonctionnement interne de la machine, Turing propose d'utiliser son comportement observable comme un critère pour juger de ses facultés cognitives.
 
+La démarche contraignante proposée par la psychophysique constitue un garde-fou contre différents écueuils dans l'étude de l'esprit humain. 
 
-
-
-Ce faisant, elle constitue un garde-fou contre différents écueuils dans l'étude de l'esprit humain. 
-
-D'une part, elle permet de tracer une démarcation nette avec une certaine "psychologie du sens commun" qui alimente les magazines de psychologie et les conférences de développement personnel. En contraste avec ces approches qui manipulent des grands concepts intuitifs mais mal définis tels que l'"amour", la "résilience", l'"énergie positive", la démarche décrite ici vise à refonder une science psychologique sur des bases solides, aussi empiriques que possible et débarassées de tous les artefacts métaphysiques. Les membres du Cercle de Vienne ne disent pas autre chose, lorsqu'ils écrivent en 1929 :
+D'une part, elle permet de tracer une démarcation nette avec une certaine "psychologie du sens commun" qui alimente les magazines grand public et les conférences de développement personnel. En contraste avec ces approches qui regorgent de concepts intuitifs mais mal définis tels que l'"amour", la "résilience", l'"énergie positive", la démarche décrite ici vise à refonder une science psychologique sur des bases solides, aussi empiriques que possible et débarassées de tous les artefacts métaphysiques. Les membres du Cercle de Vienne ne disent pas autre chose, lorsqu'ils écrivent en 1929 :
 
 > Les formes de langage dans lesquelles nous parlons encore aujourd’hui, dans le domaine du psychique, se sont construites dans des temps anciens en se fondant sur certaines représentations métaphysiques de l'âme. [...] Il s’ensuit que la plupart des concepts employés en psychologie sont jusqu’à présent bien insuffisamment définis ; pour beaucoup d’entre eux, on ne sait même pas s’ils ont un sens ou s’ils en donnent l’illusion par le seul usage qu’on en fait. [...] Les tentatives de la psychologie behaviouriste pour comprendre tout ce qui est psychique en termes de comportement des corps, à un niveau donc accessible à la perception, se rapprochent, dans leur attitude fondamentale, de la conception scientifique du monde.
 
@@ -57,7 +54,7 @@ Par ailleurs, ce primat de l'observation des comportements offre également une 
 
 ## D'autres mesures de la perception
 
-Comme nous l'avons vu, il est souvent pertinent de suivre une approche intégrative, en articulant l'étude psychophysique avec des analyses conjointes pouvant s'appuyer sur d'autres techniques. Voici un aperçu rapide d'autres types de mesures à disposition des chercheurs et chercheuses souhaitant étudier la perception :
+Comme nous l'avons vu, il est souvent pertinent de suivre une approche intégrative, en articulant l'étude psychophysique avec des analyses conjointes pouvant s'appuyer sur d'autres techniques. Outre la caracterisation des seuil, performance et sensibilité, voici un aperçu rapide d'autres types de mesures à disposition des chercheurs et chercheuses souhaitant étudier la perception :
 
 - Tout d'abord, la **chronométrie mentale** : le **temps de réponse** des sujets dans les expériences psychophysiques offre une information complémentaire sur les processus cognitifs sous-jacents. Par exemple, le temps mis pour reconnaître un mot dans le bruit est légèrement plus long que pour le même mot dans le silence, indiquant un effort d'écoute accru ou des traitements supplémentaires dans le cas de la compréhension dans le bruit. La comparaison des temps de réponse peut mettre en évidence des différences très fines entre des conditions pour lesquelles les performances semblent identiques.
 - L'**occulométrie** (*eye-tracking*) et la **pupilométrie** consistent à mesurer différentes informations sur les yeux des sujets pendant la réalisation de la tâche (dilatation de la pupille, microsaccades, trajectoire du regard, temps de fixation) qui peuvent apporter des indications sur les processus cognitifs -- y compris liés à l'audition. Ainsi, par exemple une attention renforcée à un stimulus auditif peut se traduire par une dilatation mesurable de la pupille.
@@ -65,18 +62,17 @@ Comme nous l'avons vu, il est souvent pertinent de suivre une approche intégrat
 - Il est également possible de réaliser des expériences de psychophysique chez le nourrisson. Bien sûr, ce dernier ne pouvant pas donner de réponse concernant les sons qu'il perçoit, il est nécessaire d'adapter le protocole expérimental. On peut pour cela d'appuyer sur deux mesures indirectes de l'intérêt que le bébé porte aux stimuli qui lui sont présentés : la **succion non-nutritive** (le nourrisson attentif tête à un rythme plus rapide) et la **mesure de temps de regard** ou *head-turn paradigm* (le nourrisson surpris par un son fixe la source de ce son)
 - Il est également possible d'appliquer les méthodes de la psychophysique pour étudier la perception chez les animaux (**éthologie**). Comme dans le cas précédent, le protocole doit être adapté pour recueillir une "réponse" de l'animal au son qui lui est proposé. On s'appuie le plus souvent sur un **paradigme *go/no-go*** (réaction de l'animal au stimulus vs. absence de réaction).
 
-## Héritage de la psychophysique
-
-Finalement, la psychophysique se situant, historiquement, à l'origine des sciences cognitives, son approche a infusé dans les autres champs de l'étude de la cognition humaine, bien au-delà de la perception. Nous verrons quelques exemples d'applications plus haut-niveau dans les chapitres 4 et 5. Entre autres exemples frappants, mentionnons la psycholinguistique, qui explore la façon dont le cerveau traite les structures du langage écrit ou oral, en s'appuyant elle aussi sur des comportements observables. La même philosophie est également à l'œuvre derrière le célèbre test de Turing : 
-
-> Je propose de considérer la question « Les machines peuvent-elles penser ? ». [...] Au lieu de [philosopher sur la définition du terme "penser"], je remplacerai cette question par une autre, intrinsèquement liée, mais qui s'exprime dans des termes dépourvus d'ambiguïté. La nouvelle forme du problème peut être décrite comme un jeu qu nous appellerons "le jeu de l'imitation". *(Turing, the imitation game)*
-
-Le principe du test consiste, en résumé, à évaluer si la machine peut produire des interactions langagières suffisamment réalistes pour induire en erreur son interlocuteur·ice humain·e. Ainsi, plutôt que d'analyser le fonctionnement interne de la machine, Turing propose d'utiliser son comportement observable comme un critère pour juger de ses capacités cognitives.
-
 ## Et la naturalité dans tout ça ?
 
-comme on l'a vu, le réductionnisme est un principe de base de la psychophysique. Ceci ne va pourtant pas de soi. En effet le réductionnisme s'oppose à la naturalité.
+Pour conclure ce chapitre, évoquons brièvement une limite souvent reprochée à la psychophysique : le caractère abstrait des expériences réalisées.
+
+Comme on l'a vu, le réductionnisme est un principe de base de la psychophysique. Ceci ne va pourtant pas de soi. En effet le réductionnisme s'oppose à la "naturalité" ou **validité écologique** des expériences, c'est à dire le fait que les conditions de test soient similaire aux stimulations rencontrées dans la vie de tous les jours. Ce n'est de toute évidence pas le cas en général, le réductionnisme imposant l'utilisation de sons abstraits (bips, phonèmes isolés...)
+
+
+.
 
 continuum naturalité - reductionnisme : exemples avec perception de l'intensité (pièce d'orchestre, instrument seul, instrument synthétique, instrument synthétique jouant une note, ton pur)
+
+mais on est toujours le réductionnisme de quelqu'un d'autre et en fait on peut trouver des paradigmes plus ou moins naturels et les analyser avec la psychophy
 
 

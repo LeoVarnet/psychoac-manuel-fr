@@ -1,7 +1,9 @@
 
 # Conclusion 
 
-## Mettre au point une expérience de psychoacoustique
+Il pourrait sembler étrange à première vue qu'un seul et même cadre théorique permette de rendre compte et d'étudier des phénomènes aussi variés que la perception d'un bip sonore, la reconnaissance d'une voix ou d'un objet, la discrimination de nuances de couleur, ou encore  l'identification d'un parfum ou d'un cépage de vin. C'est pourtant ce que promet la psychophysique, offrant une boîte à outils pour investiguer scientifiquement tous les aspects de la perception humaine, dans des conditions de laboratoire. Dans ce chapitre, nous avons donné un aperçu de cette approche particulière, avant de la mettre en pratique dans la suite du cours pour l'étude de l'audition humaine.
+
+## Résumé : mettre au point une expérience de psychoacoustique
 
 La psychoacoustique est une science expérimentale, au même titre que la biologie ou la physique : elle teste ses hypothèses et modèles concernant certains phénomènes en reproduisant ceux-ci en laboratoire de façon contrôlée. Ces expériences doivent être elles-mêmes reproductibles, afin que d'autres scientifiques du domaine puissent compléter l'étude ou vérifier les résultats obtenus. Ceci souligne l'utilité d'une typologie des protocoles expérimentaux permettant de communiquer de façon claire et concise les choix méthodologiques effectués et le déroulement exact de l'expérience. Suivre cette typologie assure en particulier d'obtenir un protocole expérimental éprouvé, bien caractérisé du point de vue de la théorie de la détection du signal, et admis par la communauté psychophysique. Au contraire, les scientifiques souhaitant proposer des nouveaux types d'experimentation devront préalablement faire la preuve de leur efficacité.
 
@@ -31,10 +33,6 @@ La psychophysique et les sciences cognitives étudient des phénomènes qui sont
 
 ## Mesurer le comportement humain
 
-Ceci passe par une approche behavioriste, c'est à basée sur la mesure des comportements
-
-> N'admettre que ce dont on peut faire l'expérience et rendre justice à tout ce qui peut faire l'objet d'expérience
-
 Dans un texte considéré comme fondateur du courant cognitiviste, l'approche scientifique actuelle des sciences cognitives et notamment de la psychophysique, Noam Chomsky écrit :
 
 > Quiconque voulant analyser les causes du comportement s'intéressera aux seules données accessibles (en l'absence de données neurophysiologiques indépendantes), à savoir la liste des entrées reçues par l'organisme et la réponse de celui-ci, et essaiera de décrire la fonction qui définit la réponse d'après l'histoire des entrées. Ceci n'est rien de plus que la définition du problème. [...] Si la [fonction réalisée par l'organisme] est complexe, la seule chance de prédire le comportement sera de suivre un programme de recherches très indirect commençant par l'étude détaillée de la nature du comportement lui-même et des capacités spécifiques de l'organisme en question.
@@ -45,24 +43,19 @@ D'une part, elle permet de tracer une démarcation nette avec une certaine "psyc
 
 > Les formes de langage dans lesquelles nous parlons encore aujourd’hui, dans le domaine du psychique, se sont construites dans des temps anciens en se fondant sur certaines représentations métaphysiques de l'âme. [...] Il s’ensuit que la plupart des concepts employés en psychologie sont jusqu’à présent bien insuffisamment définis ; pour beaucoup d’entre eux, on ne sait même pas s’ils ont un sens ou s’ils en donnent l’illusion par le seul usage qu’on en fait. [...] Les tentatives de la psychologie behaviouriste pour comprendre tout ce qui est psychique en termes de comportement des corps, à un niveau donc accessible à la perception, se rapprochent, dans leur attitude fondamentale, de la conception scientifique du monde.
 
-Par ailleurs, ce primat de l'observation des comportements offre également une protection contre un dévoiement des progrès récents de la neuroimagerie, la "preuve par le cerveau". Les images du cerveau en action étant souvent interprétées, consciemment ou non, comme une marque de scientificité, il n'est pas rare de les voir utilisées comme 
+Par ailleurs, ce primat de l'observation des comportements offre également une protection contre certains dévoiements des progrès récents de la neuroimagerie. Ces dernières décennies ont été marquées par une explosion du nombre d'études en neurosciences et de leur influence sur la société. Les nouvelles techniques d'enregistrement de l'activité cérébrale (imagerie par résonnance fonctionnelle, imagerie spectroscopique proche infrarouge, etc.) et nouvelles formes d'analyse (par exemple, le connectome) constituent une avancée considérable pour l'étude du cerveau -- à condition qu'elles ne s'accompagnent pas d'un affaiblissement des règles méthodologiques de la recherche expérimentale. Or, on constate parfois un manque de prudence de la part de certain·es scientifiques et des médias dans l'interprétation des résultats. Cette fascination pour les images du cerveau se traduit notamment par un localisationnisme compulsif ("les scientifiques ont découvert l'aire cérébrale de l'amour romantique, de la préférence pour le Coca-Cola, etc..."), mais également dans la production de neuro-images devant les tribunaux ou comme démonstration définitive de la validité d'un nouveau produit, d'une méthode pédagogique, ou d'un modèle économique. Face à cette illusion de la "preuve par le cerveau", la psychophysique peut jouer un rôle essentiel de dégrisement. En effet, dans de nombreux domaines de recherche, l'imagerie cérébrale vise *in fine* à expliquer le comportement humain. L'objectif des neurosciences n'est pas de se substituer à l'étude scientifique des comportements, mais de l'enrichir. Ainsi, ce n'est qu'en remettant les données comportementales au coeur de l'analyse, et en s'assurant que les données d'imagerie éclairent des processus cognitifs identifiés au préalable dans les comportements, que ces avancées pourront pleinement contribuer à une compréhension scientifique et rigoureuse de la cognition humaine. 
 
-Il n'est pas rare dans les articles à destination du grand public ou dans les brochures vantant les mérites de tel ou tel traitement , application de la neuroimagerie à l
+## D'autres mesures de la perception
 
-Les nouvelles techniques de neuroimagerie ne pourraient-elles pas être amenées à remplacer à terme la psychophysique ? Peut-être devrions-nous désormais nous limiter à mesurer l'activité cérébrale humaine par imagerie par résonance magnétique fonctionnelle ou par magnétoencéphalographie, plutôt que de l'inférer par la psychophysique ? 
-Il est important de souligner que, pour un grand nombre de questions de recherche, la mesure des comportements se situe en réalité à l'origine de la démarche, dans la caractérisation précise des phénomènes cognitifs qu'il s'agit d'expliquer, puisqu'il est relativement rare que l'on s'intéresse à des traitements cébérbaux n'ayant aucune incidence sur le comportement de l'organisme. Au contraire, toute approche ne fournissant 
+Comme nous l'avons vu, il est souvent pertinent de suivre une approche intégrative, en articulant l'étude psychophysique avec des analyses conjointes pouvant s'appuyer sur d'autres techniques. Voici un aperçu rapide d'autres types de mesures à disposition des chercheurs et chercheuses souhaitant étudier la perception :
 
-explication qui peut s'appuyer sur d'autres techniques. 
-
-
-Ceci ne signifie pas 
-
-Ces mesures psychophysique peuvent être complétées par des mesures conjointes. 
 - Tout d'abord, la **chronométrie mentale** : le **temps de réponse** des sujets dans les expériences psychophysiques offre une information complémentaire sur les processus cognitifs sous-jacents. Par exemple, le temps mis pour reconnaître un mot dans le bruit est légèrement plus long que pour le même mot dans le silence, indiquant un effort d'écoute accru ou des traitements supplémentaires dans le cas de la compréhension dans le bruit. La comparaison des temps de réponse peut mettre en évidence des différences très fines entre des conditions pour lesquelles les performances semblent identiques.
 - L'**occulométrie** (*eye-tracking*) et la **pupilométrie** consistent à mesurer différentes informations sur les yeux des sujets pendant la réalisation de la tâche (dilatation de la pupille, microsaccades, trajectoire du regard, temps de fixation) qui peuvent apporter des indications sur les processus cognitifs -- y compris liés à l'audition. Ainsi, par exemple une attention renforcée à un stimulus auditif peut se traduire par une dilatation mesurable de la pupille.
 - La **neuroimagerie**, l'observation de l'activité du cerveau, qui regroupe divers outils avec des précisions temporelles et spatiales plus ou moins grandes : **électroencéphalographie** (EEG), **magnetoencéphalographie** (MEG), **électrocorticographie** (ECoG), etc. Comme nous le verrons au chapitre suivant, ce genre de données est compléementaire de celles de la psychophysique : alors que les secondes nous renseignent sur ce qui est perçu *in fine* par l'individu, les premières donnent un aperçu des traitements réalisés.
 - Il est également possible de réaliser des expériences de psychophysique chez le nourrisson. Bien sûr, ce dernier ne pouvant pas donner de réponse concernant les sons qu'il perçoit, il est nécessaire d'adapter le protocole expérimental. On peut pour cela d'appuyer sur deux mesures indirectes de l'intérêt que le bébé porte aux stimuli qui lui sont présentés : la **succion non-nutritive** (le nourrisson attentif tête à un rythme plus rapide) et la **mesure de temps de regard** ou *head-turn paradigm* (le nourrisson surpris par un son fixe la source de ce son)
 - Il est également possible d'appliquer les méthodes de la psychophysique pour étudier la perception chez les animaux (**éthologie**). Comme dans le cas précédent, le protocole doit être adapté pour recueillir une "réponse" de l'animal au son qui lui est proposé. On s'appuie le plus souvent sur un **paradigme *go/no-go*** (réaction de l'animal au stimulus vs. absence de réaction).
+
+## Héritage de la psychophysique
 
 Finalement, la psychophysique étant à l'origine des sciences cognitives, son approche a infusé dans les autres champs de l'étude de la cognition humaine, bien au delà de la perception. Nous verrons quelques exemples d'applications plus haut-niveau dans les chapitres 4 et 5. Entre autres exemples frappants, mentionnons la psycholinguistique, qui explore la façon dont le cerveau traite les structures du langage écrit ou oral, en s'appuyant elle aussi sur des comportements observables. La même philosophie est également à l'œuvre derrière le célèbre test de Turing : 
 
@@ -75,33 +68,5 @@ Le principe du test consiste, en résumé, à évaluer si la machine peut produi
 comme on l'a vu, le réductionnisme est un principe de base de la psychophysique. Ceci ne va pourtant pas de soi. En effet le réductionnisme s'oppose à la naturalité.
 
 continuum naturalité - reductionnisme : exemples avec perception de l'intensité (pièce d'orchestre, instrument seul, instrument synthétique, instrument synthétique jouant une note, ton pur)
-
-## L'approche, cinquième aspect de l'expérience psychophysique 
-
-Les quatre dimensions de l'expérience psychophysique que nous avons détaillé dans ce chapitre sont utiles pour décrire le déroulement de l'expérience. En revanche, elles ne spécifient pas l'**approche** utilisée, autrement dit le type de raisonnement qui amène à réaliser l'expérience. Plusieurs de ces approches seront décrites dans les chapitres suivants. Elles incluent notamment :
-- approche par filtrage (cf. chapitre 4)
-- approche par distortion
-- approche par renforcement
-- approche par masquage (cf. chapitre 3)
-- approche par synthèse (cf. chapitre 4)
-- approche par conflit
-- approche par adaptation
-- approche par roving
-- ...
-
-## sdt
-
-Il pourrait sembler étrange à première vue qu'un seul et même cadre théorique permette de rendre compte et d'étudier des phénomènes aussi divers que la perception d'un bip sonore, la reconnaissance d'une voix ou d'un objet, la discrimination de nuances de couleur, ou encore  l'identification d'un parfum ou d'un cépage de vin. C'est pourtant ce que permet la psychophysique, offrant une boîte à outils pour investiguer scientifiquement tous les aspects de la perception humaine, dans des conditions de laboratoire. 
-
-> Un “processus interne” a besoin de critères externes.*(Ludwig Wittgenstein, Recherches philosophiques)*
-
-Dans la psychophysique, ce behaviorisme est appuyé par plusieurs autres principes. En premier lieu, le réductionnisme : on souhaite isoler au maximum le phénomène à étudier de façon à ce que notre mesure ne soit pas perturbée par d'autres facteurs dans lames stimuli, ou par la mise en œuvre d'autres mécanismes cognitifs chez le sujet lors de la réalisation de la tâche.
-
-envisageant la perception comme un système de détection du signal, qu'il s'agit de caractériser depuis l'extérieur 
-
-La psychoacoustique est une branche de la psychophysique, l'étude scientifique de la perception, dont elle a hérité la méthodologie rigoureuse. 
-
-Tout d'abord,
-
 
 

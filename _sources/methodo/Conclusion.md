@@ -64,15 +64,17 @@ Comme nous l'avons vu, il est souvent pertinent de suivre une approche intégrat
 
 ## Et la naturalité dans tout ça ?
 
-Pour conclure ce chapitre, évoquons brièvement une limite souvent reprochée à la psychophysique : le caractère abstrait des expériences réalisées.
+Pour conclure ce chapitre, évoquons brièvement une limite souvent adressée à la psychophysique : le caractère abstrait et "artificiel" des expériences réalisées.
 
-Comme on l'a vu, le réductionnisme est un principe de base de la psychophysique. Ceci ne va pourtant pas de soi. En effet le réductionnisme s'oppose à la "naturalité" ou **validité écologique** des expériences, c'est à dire le fait que les conditions de test soient similaire aux stimulations rencontrées dans la vie de tous les jours. Ce n'est de toute évidence pas le cas en général, le réductionnisme imposant l'utilisation de sons abstraits (bips, phonèmes isolés...)
+Comme nous l'avons vu, le réductionnisme constitue un principe fondamental de la psychophysique. Cependant, cette approche entre en tension avec la "naturalité" ou **validité écologique** des expériences, c'est à dire le fait que les conditions de test soient analogues aux stimulations rencontrées dans la vie de tous les jours. En effet, le réductionnisme impose l'utilisation de sons abstraits, dépourvus de sens et de valence émotionnelle (p.ex. bips, phonèmes isolés...), dans un contexte neutre et silencieux, et où par ailleurs l'individu n'a que peu d'interaction avec les sons proposés. Ce cadre méthodologique réductionniste est important pour contrôler expérimentalement les facteurs pouvant influer sur les résultats, limiter les variables parasites, et s'assurer de la reproductibilité de l'expérience. Néanmoins, la validité écologique ne doit pour autant pas être négligée au risque d'obtenir des résultats qui ne soient pas généralisables à des contextes réels.
 
-
-.
-
-continuum naturalité - reductionnisme : exemples avec perception de l'intensité (pièce d'orchestre, instrument seul, instrument synthétique, instrument synthétique jouant une note, ton pur)
-
-mais on est toujours le réductionnisme de quelqu'un d'autre et en fait on peut trouver des paradigmes plus ou moins naturels et les analyser avec la psychophy
-
-
+```{figure} Nauralité.png
+---
+name: Nauralité.png
+alt: Schéma de l'opposition entre validité écologique et réductionnisme
+width: 400px
+align: center
+---
+*Schéma de l'opposition entre validité écologique et réductionnisme. À gauche : exemple de situation naturelle d'écoute d'un son. À droite : exemple de situation d'écoute d'un stimulus sonore dans le contexte d'une expérience psychoacoustique. En bas : continuum de stimuli allant de la plus grande validité écologique au plus grand réductionnisme.*
+```
+Toutefois, la validité écologique n'est pas un critère absolu. En réalité, toute expérimentation affecte inévitablement la naturalité de l'expérience. Même les expérience considérées comme les plus valides écologiquement -- reposant par exemple sur la diffusion d'un enregistrement spatialisé d'une pièce pour orchestre -- n'ont cependant que peu de choses à voir avoir la situation naturelle, qui implique non seulement d'entendre mais de voir l'orchestre jouer, et de participer activement, soit en tant qu'instrumentiste soit en choisissant soi-même la pièce et en se rendant dans une salle de concert. Ainsi, la dichotomie réductionnisme / validité écologique dissimule en réalité un continuum, au sein duquel il s'agit pour les expérimentateurs et expérimentatrices de trouver un "juste mileu" adapté aux objectifs de leurs recherches. Si la psychophysique privilégie comme point de départ les stimuli élémentaires (par exemple, les tons purs), rien n’empêche ensuite de réaliser les mêmes expériences avec des stimuli de plus en plus complexes. Cette progression graduelle permet d'articuler rigueur expérimentale et pertinence écologique, conciliant ainsi les exigences méthodologiques et la richesse des expériences sensibles du monde réel.

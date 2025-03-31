@@ -489,7 +489,7 @@ p_{détect}(d') = \frac{1}{1+e^{-(\alpha + \beta \cdot d')}}
 </figcaption>
 </figure>
 <br /> 
-<p>D’après l’équation ci-dessus, la forme de la fonction psychométrique est déterminée par deux paramètres, <span style="color:rgb(237,125,49)">α</span> et <span style="color:rgb(204,0,153)">β</span> [<a class="reference internal" href="#note1"><span class="xref myst">1</span></a>].</p>
+<p>D’après l’équation ci-dessus, la forme de la fonction psychométrique est déterminée par deux paramètres, <span style="color:rgb(237,125,49)">α</span> et <span style="color:rgb(204,0,153)">β</span> [<a class="reference internal" href="#note1"><span class="std std-ref">1</span></a>].</p>
 <p><span style="color:rgb(237,125,49)">α</span> détermine le <strong>seuil à 50%</strong> de la fonction psychométrique, c’est à dire le niveau de la dimension d’intérêt à partir duquel on obtient plus de 50% de réponses correctes. Modifier ce paramètre revient donc à déplacer latéralement la fonction.</p>
 <br /> 
 <figure class="align-center" id="sdt4-png">
@@ -515,7 +515,7 @@ p_{détect}(d') = \frac{1}{1+e^{-(\alpha + \beta \cdot d')}}
 <section id="fonction-psychometrique-humaine">
 <h3>Fonction psychométrique humaine<a class="headerlink" href="#fonction-psychometrique-humaine" title="Link to this heading">#</a></h3>
 <p>Ce cadre théorique s’applique non seulement aux appareils de détection comme celui décrit précédemment, mais également à l’humain, et se généralise à l’ensemble des expériences psychophysiques que nous allons rencontrer dans ce cours : pour des individus réalisant une tâche psychophysique, le pourcentage de réponses en fonction de la dimension d’intérêt suit (généralement) une fonction psychométrique logistique qu’il est possible de caractériser en termes de sensibilité et de seuil.</p>
-<p>Voici par exemple les performances de sujets réalisant une tâche de détection de ton dans le bruit. Contrairement à l’exemple précédent, la dimension d’intérêt n’est pas la distance entre la gaussienne du bruit et celle du bruit + signal, mais le rapport signal sur bruit (RSB). Lorsque le RSB est élevé la tâche est facile et les performances avoisinent donc les 100%. En revanche, lorsque le RSB tend vers $-\inf$, les performances décroissent jusqu’au niveau du hasard, 50%. De même que dans le cas du détecteur électronique, on peut donc caractériser la perception humaine sur cette tâche en la décrivant par une valeur de seuil (on préférera ici le seuil à 75%) et une valeur de sensibilité. On utilise pour cela une <strong>régression logistique</strong>, procédure statistique qui permet d’ajuster une fonction logistique (la courbe continue) à un ensemble de données mesurées (les points) malgré la variabilité inhérente aux mesures empiriques chez l’humain. [<a class="reference internal" href="#note3"><span class="xref myst">3</span></a>]</p>
+<p>Voici par exemple les performances de sujets réalisant une tâche de détection de ton dans le bruit. Contrairement à l’exemple précédent, la dimension d’intérêt n’est pas la distance entre la gaussienne du bruit et celle du bruit + signal, mais le rapport signal sur bruit (RSB). Lorsque le RSB est élevé la tâche est facile et les performances avoisinent donc les 100%. En revanche, lorsque le RSB tend vers $-\inf$, les performances décroissent jusqu’au niveau du hasard, 50%. De même que dans le cas du détecteur électronique, on peut donc caractériser la perception humaine sur cette tâche en la décrivant par une valeur de seuil (on préférera ici le seuil à 75%) et une valeur de sensibilité. On utilise pour cela une <strong>régression logistique</strong>, procédure statistique qui permet d’ajuster une fonction logistique (la courbe continue) à un ensemble de données mesurées (les points) malgré la variabilité inhérente aux mesures empiriques chez l’humain. [<a class="reference internal" href="#note3"><span class="std std-ref">3</span></a>]</p>
 <br /> 
 <figure class="align-center" id="sdt6-png">
 <a class="reference internal image-reference" href="../_images/SDT6.png"><img alt="Fonction psychométrique humaine 1" src="../_images/SDT6.png" style="height: 400px;" />
@@ -550,15 +550,9 @@ p_{détect}(d') = \frac{1}{1+e^{-(\alpha + \beta \cdot d')}}
 </section>
 <section id="notes">
 <h2>Notes<a class="headerlink" href="#notes" title="Link to this heading">#</a></h2>
-<p><code class="docutils literal notranslate"><span class="pre">(note1)=</span></code></p>
-<p>De façon générale, on utilise généralement une équation incluant deux paramètres supplémentaires qui permettent de rentre compte des possibles erreurs d’inattention du sujet qui l’empêcheraient d’atteindre 100% de réponses correctes même dans le cas d’une tâche extrêmement simple, et du fait que le minimum de la fonction psychométrique peut être différent d’une expérience à l’autre.</p>
-<p id="note2">Il s’agit d’une présentation minimale de l’approche TDS. En réalité une analyse complète devrait de plus distinguer deux types d’erreurs commises par le système : les <em>Miss</em> (le signal était présent mais n’a pas été détecté) et les <em>False Alarms</em> (détection du signal en son absence).</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>
-<span class="p">(</span><span class="n">note3</span><span class="p">)</span><span class="o">=</span>
-
-</pre></div>
-</div>
-<p>En théorie, l’équation de la fonction psychométrique en fonction du RSB n’est pas la même que celle en fonction du <em>d’</em>. Néanmoins, en pratique, les chercheur·euses se limitent le plus souvent à l’équation de la loi logistique décrite plus haut.</p>
+<p id="note1">[1] De façon générale, on utilise généralement une équation incluant deux paramètres supplémentaires qui permettent de rentre compte des possibles erreurs d’inattention du sujet qui l’empêcheraient d’atteindre 100% de réponses correctes même dans le cas d’une tâche extrêmement simple, et du fait que le minimum de la fonction psychométrique peut être différent d’une expérience à l’autre.</p>
+<p id="note2">[2] Il s’agit d’une présentation minimaliste de l’approche TDS. En réalité, une analyse complète devrait de plus distinguer deux types d’erreurs commises par le système : les <em>Miss</em> (le signal était présent mais n’a pas été détecté) et les <em>False Alarms</em> (détection du signal en son absence).</p>
+<p id="note3">[3] En théorie, l’équation de la fonction psychométrique en fonction du RSB n’est pas la même que celle en fonction du <em>d’</em>. Néanmoins, en pratique, les chercheur·euses se limitent le plus souvent à l’équation de la loi logistique décrite plus haut.</p>
 </section>
 <section id="references">
 <h2>Références<a class="headerlink" href="#references" title="Link to this heading">#</a></h2>

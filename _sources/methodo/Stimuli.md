@@ -170,21 +170,17 @@ Au travers de la fonction psychométrique, la Théorie de la détection du signa
 
 ## Notes
 
-```(note1)=```
+(note1)=
 
-De façon générale, on utilise généralement une équation incluant deux paramètres supplémentaires qui permettent de rentre compte des possibles erreurs d'inattention du sujet qui l'empêcheraient d'atteindre 100% de réponses correctes même dans le cas d'une tâche extrêmement simple, et du fait que le minimum de la fonction psychométrique peut être différent d'une expérience à l'autre. 
+[1] De façon générale, on utilise généralement une équation incluant deux paramètres supplémentaires qui permettent de rentre compte des possibles erreurs d'inattention du sujet qui l'empêcheraient d'atteindre 100% de réponses correctes même dans le cas d'une tâche extrêmement simple, et du fait que le minimum de la fonction psychométrique peut être différent d'une expérience à l'autre. 
 
 (note2)=
 
-Il s'agit d'une présentation minimale de l'approche TDS. En réalité une analyse complète devrait de plus distinguer deux types d'erreurs commises par le système : les *Miss* (le signal était présent mais n'a pas été détecté) et les *False Alarms* (détection du signal en son absence).
-
-```
+[2] Il s'agit d'une présentation minimaliste de l'approche TDS. En réalité, une analyse complète devrait de plus distinguer deux types d'erreurs commises par le système : les *Miss* (le signal était présent mais n'a pas été détecté) et les *False Alarms* (détection du signal en son absence).
 
 (note3)=
 
-```
-
-En théorie, l'équation de la fonction psychométrique en fonction du RSB n'est pas la même que celle en fonction du *d'*. Néanmoins, en pratique, les chercheur·euses se limitent le plus souvent à l'équation de la loi logistique décrite plus haut.
+[3] En théorie, l'équation de la fonction psychométrique en fonction du RSB n'est pas la même que celle en fonction du *d'*. Néanmoins, en pratique, les chercheur·euses se limitent le plus souvent à l'équation de la loi logistique décrite plus haut.
 
 ## Références
 

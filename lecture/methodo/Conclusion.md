@@ -64,7 +64,7 @@ Comme nous l'avons vu, il est souvent pertinent de suivre une approche intégrat
 
 ## Et la naturalité dans tout ça ?
 
-Pour conclure ce chapitre, évoquons brièvement une limite souvent adressée à la psychophysique : le caractère abstrait et "artificiel" des expériences réalisées.
+Pour conclure ce chapitre, évoquons brièvement une critique souvent adressée à la psychophysique : le caractère abstrait et "artificiel" des expériences réalisées.
 
 Comme nous l'avons vu, le réductionnisme constitue un principe fondamental de la psychophysique. Cependant, cette approche entre en tension avec la "naturalité" ou **validité écologique** des expériences, c'est à dire le fait que les conditions de test soient analogues aux stimulations rencontrées dans la vie de tous les jours. En effet, le réductionnisme impose l'utilisation de sons abstraits, dépourvus de sens et de valence émotionnelle (p.ex. bips, phonèmes isolés...), dans un contexte neutre et silencieux, et où par ailleurs l'individu n'a que peu d'interaction avec les sons proposés. Ce cadre méthodologique réductionniste est important pour contrôler expérimentalement les facteurs pouvant influer sur les résultats, limiter les variables parasites, et s'assurer de la reproductibilité de l'expérience. Néanmoins, la validité écologique ne doit pour autant pas être négligée au risque d'obtenir des résultats qui ne soient pas généralisables à des contextes réels.
 
@@ -72,7 +72,7 @@ Comme nous l'avons vu, le réductionnisme constitue un principe fondamental de l
 ---
 name: Naturalité.png
 alt: Schéma de l'opposition entre validité écologique et réductionnisme
-width: 400px
+width: 800px
 align: center
 ---
 *Schéma de l'opposition entre validité écologique et réductionnisme. À gauche : exemple de situation naturelle d'écoute d'un son. À droite : exemple de situation d'écoute d'un stimulus sonore dans le contexte d'une expérience psychoacoustique. En bas : continuum de stimuli allant de la plus grande validité écologique au plus grand réductionnisme.*

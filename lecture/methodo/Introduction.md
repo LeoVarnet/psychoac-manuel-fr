@@ -139,6 +139,8 @@ Malgré le ton présomptueux, il faut bien reconnaître 150 ans plus tard que la
 
 ## Bibliographie
 
+```
 (ref1)=
+```
 Sensory perception
 

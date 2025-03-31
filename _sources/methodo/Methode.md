@@ -57,7 +57,7 @@ alt: Résultats moyens
 width: 400px
 align: center
 ---
-*Résultats moyens obtenus sur la démo précédente. Pour chacune des sept fréquences testées, le seuil est représenté en termes de nombre de bips successifs perçus dans la série de 11 : un nombre plus élevé (plus bas sur l'axe) indique un meilleur seuil d'audibilité tonale.*
+*Résultats moyens obtenus sur la démo précédente. Pour chacune des sept fréquences testées, le seuil est représenté en termes de nombre de bips successifs perçus dans la série de 11 : un nombre plus élevé (plus bas sur l'axe) indique un meilleur seuil d'audibilité tonale. (Adapté de Houtsma, Rossing & Wagemakers, 1987)*
 ```
 
 <br /> 
@@ -73,7 +73,7 @@ alt: Audiogrammes typiques
 width: 400px
 align: center
 ---
-*Exemple d'audiogrammes typiques pour 3 tranches d'âge.*
+*Exemple d'audiogrammes typiques pour 3 tranches d'âge. (Zwicker & Fastl, 1999)*
 ```
 
 <br /> 
@@ -185,7 +185,7 @@ alt: Déroulement d'une expérience avec la méthode staircase
 width: 500px
 align: center
 ---
-*Exemples d'évolution de la dimension d'intérêt (ici le niveau sonore, "stimulus level") dans le cas d'un escalier psychophysique. Les carrés noirs correspondent aux réponses "j'ai entendu le son", les ronds blancs aux réponses "je n'ai pas entendu le son". L'escalier A correspond à une règle 1-up-1-down, le B à une règle 1-up-3-down. Notez que dans ces deux exemples, la taille de pas change au cours de l'escalier.*
+*Exemples d'évolution de la dimension d'intérêt (ici le niveau sonore, "stimulus level") dans le cas d'un escalier psychophysique. Les carrés noirs correspondent aux réponses "j'ai entendu le son", les ronds blancs aux réponses "je n'ai pas entendu le son". L'escalier A correspond à une règle 1-up-1-down, le B à une règle 1-up-3-down. Notez que dans ces deux exemples, la taille de pas change au cours de l'escalier. (Leek, 2001)*
 ```
 
 <br /> 
@@ -307,7 +307,7 @@ alt: Exemple de mesure de performances
 width: 500px
 align: center
 ---
-*Exemple de mesures de performance en compréhension de parole réalisée chez différents groupes de sujets (symbolisés par les différentes couleurs) et dans différentes conditions epérimentales (dans le silence, dans le bruit, etc...)*
+*Exemple de mesures de performance en compréhension de parole réalisée chez différents groupes de sujets (symbolisés par les différentes couleurs) et dans différentes conditions epérimentales : dans le silence, dans le bruit, etc... (Fostick, 2019)*
 ```
 
 <br /> 
@@ -365,7 +365,7 @@ alt: Méthode des stimuli constants appliquée à la détection de ton pur
 width: 500px
 align: center
 ---
-*Exemple de fonction psychométrique estimée par la méthode des stimuli constants, dans le cas de la tâche de détection de ton pur dans le silence.*
+*Exemple de fonction psychométrique estimée par la méthode des stimuli constants, dans le cas de la tâche de détection de ton pur dans le silence. (Leek, 2001)*
 ```
 
 <br /> 
@@ -405,7 +405,7 @@ alt: Résumé des différentes méthodes psychophysiques
 width: 900px
 align: center
 ---
-*Comparaison des différentes méthodes expérimentales du point de vue du déroulement de l'experience.*
+*Comparaison des différentes méthodes expérimentales du point de vue du déroulement de l'experience. (Adapté de [https://en.wikipedia.org/wiki/Absolute_threshold_of_hearing](Wikipédia))*
 ```
 
 <br /> 

@@ -15,7 +15,7 @@ Il existe plusieurs façon d'appréhender et d'étudier la perception. Une premi
 - Il existe des limites linguistiques à la capacité de décrire avec précision nos expériences sensorielles. 
 - Les résultats obtenus par l'approche introspective sont difficilement quantifiables.
 
-Pour ces différentes raisons, l'introspection et les méthodes apparentées comme le questionnaire sont considérées comme peu fiables par la psychophysique. Ces approches fournissent indubitablement un moyen d'appréhender la perception -- elles sont d'ailleurs employées par la phénoménologie [[Sensory perception]], une autre discipline qui s'intéresse à la perception -- mais elles n'offrent pas les garanties d'objectivités recherchées par la psychophysique. Pour cette raison nous les écarterons délibérément de notre boîte à outils.
+Pour ces différentes raisons, l'introspection et les méthodes apparentées comme le questionnaire sont considérées comme peu fiables par la psychophysique. Ces approches fournissent indubitablement un moyen d'appréhender la perception -- elles sont d'ailleurs employées par la phénoménologie [Sensory perception](ref1), une autre discipline qui s'intéresse à la perception -- mais elles n'offrent pas les garanties d'objectivités recherchées par la psychophysique. Pour cette raison nous les écarterons délibérément de notre boîte à outils.
 
 ## L'esprit humain vu comme une boîte noire
 
@@ -136,3 +136,9 @@ Concluons cette section par une citation de Fechner lui-même :
 > La tour de Babel n'a jamais été achevée parce que les ouvriers ne pouvaient s'entendre sur la manière de la construire ; mon édifice psychophysique tiendra debout parce que les ouvriers ne s'entendront jamais sur la manière de le démolir. *(Fechner, 1877)*
 
 Malgré le ton présomptueux, il faut bien reconnaître 150 ans plus tard que la prédiction de Fechner s'est avérée correcte : la rigueur scientifique de la psychophysique garantissent la robustesse de ses résultats et ainsi la pérennité de ce domaine de recherche.
+
+## Bibliographie
+
+(ref1)=
+Sensory perception
+

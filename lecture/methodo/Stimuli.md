@@ -1,6 +1,6 @@
 # Stimuli et dimension
 
-Le premier aspect à considérer lors de la mise en place d'une expérience de psychoacoustique est le **choix des stimuli**. Parmi les quatre caractéristiques décrites dans ce chapitre, le stimulus est sans nul doute la plus simple à déterminer puisqu'il découle directement de la question scientifique considérée. Néanmoins, il est important de s'arrêter sur les principes qui doivent guider le choix des stimuli. Ceci nous donnera également l'occasion de présenter très brièvement le cadre de la Théorie de la détection du signal.
+Le premier aspect à considérer lors de la mise en place d'une expérience de psychoacoustique est le **choix des stimuli**. Parmi les quatre caractéristiques décrites dans ce chapitre, le stimulus est sans nul doute la plus simple à déterminer puisqu'il découle directement de la question scientifique considérée. Néanmoins, il est important de s'arrêter sur les principes qui doivent guider le choix des stimuli. Ceci nous donnera également l'occasion de présenter très brièvement le cadre de la Théorie de la Détection du Signal.
 
 ## Choix des stimuli et de la dimension d'intérêt
 
@@ -12,9 +12,9 @@ De façon plus générale la construction des questions psychophysiques elles-m�
 
 ## Un bref aperçu de la Théorie de la détection du signal
 
-Une question qui se pose alors est de relier théoriquement la dimension d'intérêt des stimuli et la capacité d'un système à percevoir ces stimuli. Il s'agit d'une question centrale pour la **théorie de la détection du signal**, cadre mathématique dérivé de la théorie de l'information, et permettant de modéliser la capacité d’un système à séparer l’information du bruit. Cette théorie fut initialement développée pour les systèmes radar, mais rapidement appliqué à la perception humaine. [Green & Swets, 1966]
+Une question qui se pose alors est de relier théoriquement la dimension d'intérêt des stimuli et la capacité d'un système à percevoir ces stimuli. Il s'agit d'une question centrale pour la **théorie de la détection du signal**, cadre mathématique dérivé de la théorie de l'information, et permettant de modéliser la capacité d’un système à séparer l’information du bruit. Cette théorie fut initialement développée pour les systèmes radar, mais rapidement appliqué à la perception humaine, notamment par David Green & John Swets.
 
-> Bien que [son développement] ait été motivé par des problèmes liés aux radars, la théorie de la détection du signal est une théorie généraliste. [...] Cette généralité nous a conduit à penser qu'elle pourrait être également pertinente pour la détection d'un signal par un être  humain. [...] La théorie de la détection du signal offre un cadre d'analyse permettant une description réaliste du comportement de l'observateur·ice humain·e dans un grand nombre de tâches perceptuelles. (Green & Swets)
+> Bien que [son développement] ait été motivé par des problèmes liés aux radars, la théorie de la détection du signal est une théorie généraliste. [...] Cette généralité nous a conduit à penser qu'elle pourrait être également pertinente pour la détection d'un signal par un être  humain. [...] La théorie de la détection du signal offre un cadre d'analyse permettant une description réaliste du comportement de l'observateur·ice humain·e dans un grand nombre de tâches perceptuelles. (Green & Swets, Signal Detection Theory and Psychophysics, 1966)
 
 ### Fonction psychométrique théorique
 
@@ -78,7 +78,7 @@ align: center
 
 <br /> 
 
-D'après l'équation ci-dessus, la forme de la fonction psychométrique est déterminée par deux paramètres, <span style="color:rgb(237,125,49)">α</span> et <span style="color:rgb(204,0,153)">β</span>[^fn1]. 
+D'après l'équation ci-dessus, la forme de la fonction psychométrique est déterminée par deux paramètres, <span style="color:rgb(237,125,49)">α</span> et <span style="color:rgb(204,0,153)">β</span> [[1](note1)]. 
 
 <span style="color:rgb(237,125,49)">α</span> détermine le **seuil à 50%** de la fonction psychométrique, c'est à dire le niveau de la dimension d'intérêt à partir duquel on obtient plus de 50% de réponses correctes. Modifier ce paramètre revient donc à déplacer latéralement la fonction.
 
@@ -112,13 +112,13 @@ align: center
 
 <br /> 
 
-Dans les paragraphes qui précèdent nous avons justifié théoriquement l'origine de la fonction psychométrique, pour l'exemple d'un détecteur électronique de signal sonore. Sachant que la fonction suit l'équation particulière décrite plus haut, nous pouvons caractériser empiriquement les performances de l'appareil en traçant sa fonction psychométrique ou, de façon équivalente, en indiquant son seuil à 50% et sa sensibilité, pour la dimension d'intérêt considérée.[^fn2]
+Dans les paragraphes qui précèdent nous avons justifié théoriquement l'origine de la fonction psychométrique, pour l'exemple d'un détecteur électronique de signal sonore. Sachant que la fonction suit l'équation particulière décrite plus haut, nous pouvons caractériser empiriquement les performances de l'appareil en traçant sa fonction psychométrique ou, de façon équivalente, en indiquant son seuil à 50% et sa sensibilité, pour la dimension d'intérêt considérée. [[2](note2)]
 
 ### Fonction psychométrique humaine
 
 Ce cadre théorique s'applique non seulement aux appareils de détection comme celui décrit précédemment, mais également à l'humain, et se généralise à l'ensemble des expériences psychophysiques que nous allons rencontrer dans ce cours : pour des individus réalisant une tâche psychophysique, le pourcentage de réponses en fonction de la dimension d'intérêt suit (généralement) une fonction psychométrique logistique qu'il est possible de caractériser en termes de sensibilité et de seuil.
 
-Voici par exemple les performances de sujets réalisant une tâche de détection de ton dans le bruit. Contrairement à l'exemple précédent, la dimension d'intérêt n'est pas la distance entre la gaussienne du bruit et celle du bruit + signal, mais le rapport signal sur bruit (RSB). Lorsque le RSB est élevé la tâche est facile et les performances avoisinent donc les 100%. En revanche, lorsque le RSB tend vers $-\inf$, les performances décroissent jusqu'au niveau du hasard, 50%. De même que dans le cas du détecteur électronique, on peut donc caractériser la perception humaine sur cette tâche en la décrivant par une valeur de seuil (on préférera ici le seuil à 75%) et une valeur de sensibilité. On utilise pour cela une **régression logistique**, procédure statistique qui permet d'ajuster une fonction logistique (la courbe continue) à un ensemble de données mesurées (les points) malgré la variabilité inhérente aux mesures empiriques chez l'humain.[^fn3]
+Voici par exemple les performances de sujets réalisant une tâche de détection de ton dans le bruit. Contrairement à l'exemple précédent, la dimension d'intérêt n'est pas la distance entre la gaussienne du bruit et celle du bruit + signal, mais le rapport signal sur bruit (RSB). Lorsque le RSB est élevé la tâche est facile et les performances avoisinent donc les 100%. En revanche, lorsque le RSB tend vers $-\inf$, les performances décroissent jusqu'au niveau du hasard, 50%. De même que dans le cas du détecteur électronique, on peut donc caractériser la perception humaine sur cette tâche en la décrivant par une valeur de seuil (on préférera ici le seuil à 75%) et une valeur de sensibilité. On utilise pour cela une **régression logistique**, procédure statistique qui permet d'ajuster une fonction logistique (la courbe continue) à un ensemble de données mesurées (les points) malgré la variabilité inhérente aux mesures empiriques chez l'humain. [[3](note3)]
 
 <br /> 
 
@@ -129,7 +129,7 @@ alt: Fonction psychométrique humaine 1
 height: 400px
 align: center
 ---
-*Exemple de fonction psychométrique pour la détection de ton dans le bruit par l'humain.*
+*Exemple de fonction psychométrique pour la détection de ton dans le bruit par l'humain. (Green & Swets, 1966).*
 ```
 
 <br /> 
@@ -145,7 +145,7 @@ alt: Fonction psychométrique humaine 1
 height: 300px
 align: center
 ---
-*Exemple de fonction psychométrique pour la détection de ton dans le bruit par l'humain.*
+*Exemple de fonction psychométrique pour la détection de ton dans le bruit par l'humain. (Schönfelder & Wichmann, 2013).*
 ```
 
 <br /> 
@@ -161,17 +161,27 @@ alt: Fonction psychométrique humaine 2
 height: 300px
 align: center
 ---
-*Exemple de fonction psychométrique pour la détection de ton dans le silence par l'humain.*
+*Exemple de fonction psychométrique pour la détection de ton dans le silence par l'humain. (Leek, 2001).*
 ```
 
 <br /> 
 
 Au travers de la fonction psychométrique, la Théorie de la détection du signal nous offre donc un cadre mathématique permettant relier le stimulus, et plus précisément sa dimension d'intérêt, à un pourcentage de réponses dans une tâche donnée. Elle répond donc parfaitement à l'objectif de la psychophysique qui est de [relier monde physique et comportement observable](https://leovarnet.github.io/psychoac-manuel-fr/methodo/Introduction.html#l-esprit-humain-vu-comme-une-boite-noire). Dans la section suivante nous allons nous appuyer sur la fonction psychométrique pour décrire différentes méthodes expérimentales développées par les psychophysicien·nes.
 
+## Notes
 
+```(note1)=```
+De façon générale, on utilise généralement une équation incluant deux paramètres supplémentaires qui permettent de rentre compte des possibles erreurs d'inattention du sujet qui l'empêcheraient d'atteindre 100% de réponses correctes même dans le cas d'une tâche extrêmement simple, et du fait que le minimum de la fonction psychométrique peut être différent d'une expérience à l'autre. 
 
-[^fn1] De façon générale, on utilise généralement une équation incluant deux paramètres supplémentaires qui permettent de rentre compte des possibles erreurs d'inattention du sujet qui l'empêcheraient d'atteindre 100% de réponses correctes même dans le cas d'une tâche extrêmement simple, et du fait que le minimum de la fonction psychométrique peut être différent d'une expérience à l'autre. 
+```(note2)=```
+Il s'agit d'une présentation minimale de l'approche TDS. En réalité une analyse complète devrait de plus distinguer deux types d'erreurs commises par le système : les *Miss* (le signal était présent mais n'a pas été détecté) et les *False Alarms* (détection du signal en son absence).
 
-[^fn2] Il s'agit d'une présentation minimale de l'approche TDS. En réalité une analyse complète devrait de plus distinguer deux types d'erreurs commises par le système : les Miss (le signal était présent mais n'a pas été détecté) et les False Alarms (détection du signal en son absence).
+```(note3)=```
+En théorie, l'équation de la fonction psychométrique en fonction du RSB n'est pas la même que celle en fonction du *d'*. Néanmoins, en pratique, les chercheur·euses se limitent le plus souvent à l'équation de la loi logistique décrite plus haut.
 
-[^fn3] En théorie, l'équation de la fonction psychométrique en fonction du RSB n'est pas la même que celle en fonction du *d'*. Néanmoins, en pratique, les chercheur·euses se limitent le plus souvent à l'équation de la loi logistique décrite plus haut.
+## Références
+
+- Green, D. M., & Swets, J. A. (1966). Signal Detection Theory and Psychophysics. Peninsula Publishing.
+- Leek, M. R. (2001). Adaptive procedures in psychophysical research. Perception & Psychophysics, 63(8), 1279‑1292. https://doi.org/10.3758/BF03194543
+- Schönfelder, V. H., & Wichmann, F. A. (2013). Identification of stimulus cues in narrow-band tone-in-noise detection using sparse observer models. The Journal of the Acoustical Society of America, 134(1), 447‑463.
+

@@ -83,7 +83,7 @@ alt: Courbes isosoniques
 width: 500px
 align: center
 ---
-*Courbes isosoniques typiques. Chaque courbe bleue est mesurée relativement à un ton de référence à 1 kHz et dont l'intensité est indiquée en orange. La courbe la plus basse (en vert) correspond aux seuils auditifs mesurés précédemment par l'audiogramme. Chaque courbe indique donc un ensemble de tons purs perçus comme ayant la même intensité. (Adapté de [https://fr.wikipedia.org/wiki/Courbe_isosonique](Courbe isosonique selon la norme ISO 226:2003))*
+*Courbes isosoniques typiques. Chaque courbe bleue est mesurée relativement à un ton de référence à 1 kHz et dont l'intensité est indiquée en orange. La courbe la plus basse (en vert) correspond aux seuils auditifs mesurés précédemment par l'audiogramme. Chaque courbe indique donc un ensemble de tons purs perçus comme ayant la même intensité. (Adapté de [Courbe isosonique selon la norme ISO 226:2003](https://fr.wikipedia.org/wiki/Courbe_isosonique))*
 ```
 
 <br /> 

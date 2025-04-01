@@ -137,7 +137,7 @@ align: center
 *Expérience de reconnaissance de paysages sonores naturels avec une tâche de discrimination et un paradigme de choix forcé (c'est à dire, paradigme *oddball*).*
 ```
 
-Ce protocole expérimental a, comme le précédent, l'avantage d'être implicite (expliquer la tâche aux sujets ne nécessite pas de leur indiquer quels types de paysages sonores ont été enregistrés) mais il est de plus indépendant du critère. En effet, les sujets ne peuvent pas être biaisés et répondre plus ou moins fréquemment que les sons sont différents, puisqu'ils doivent nécessairement choisir à chaque essai un stimulus différent et deux stimuli identiques. C'est effectement la combinaison de paradigme et de tâche choisie dans l'étude originale de Apoux et al. (2023).
+Ce protocole expérimental a, comme le précédent, l'avantage d'être implicite (expliquer la tâche aux sujets ne nécessite pas de leur indiquer quels types de paysages sonores ont été enregistrés) mais il est de plus indépendant du critère. En effet, les sujets ne peuvent pas être biaisés et répondre plus ou moins fréquemment que les sons sont différents, puisqu'ils doivent nécessairement choisir à chaque essai un stimulus différent et deux stimuli identiques. C'est effectement la combinaison de paradigme et de tâche choisie dans l'étude originale de *Apoux et al. (2023)*.
 
 ## Combinaisons des paradigmes et des tâches
 

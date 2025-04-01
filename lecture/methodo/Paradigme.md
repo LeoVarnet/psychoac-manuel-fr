@@ -153,3 +153,4 @@ Récapitulons à présent les différentes combinaisons de paradigmes et de tâc
 
 ## Références
 
+- Apoux, F., Miller-Viacava, N., Ferrière, R., Dai, H., Krause, B., Sueur, J., & Lorenzi, C. (2023). Auditory discrimination of natural soundscapes. The Journal of the Acoustical Society of America, 153(5), 2706. https://doi.org/10.1121/10.0017972

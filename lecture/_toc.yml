@@ -2,8 +2,6 @@ root: general_information/index
 format: jb-book
 chapters:
 - file: general_information/overview
-- file: general_information/preface
-- file: introduction/main
 - file: methodo/main
   sections:
   - file: methodo/Introduction

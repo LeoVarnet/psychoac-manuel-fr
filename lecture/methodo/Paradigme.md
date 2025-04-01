@@ -62,7 +62,7 @@ En réalité, le choix forcé ne supprime pas tout risque de biais, mais déplac
 
 Les termes "yes/no" et "choix forcé" se sont imposés suite à l'ouvrage fondateur de Green et Swets. Cette terminologie est néanmoins malheureuse car elle induit souvent les débutant·es (et parfois les scientifiques plus aguerri·es) en confusion. Ainsi un paradigme yes/no ne correspond **pas** à une tâche à laquelle on répond par oui ou par non, mais à un **type d'expérience où une seule des alternatives possibles est présentée à chaque essai**. De la même manière, le choix forcé ne correspond **pas** à une tâche avec un ensemble restreint de réponses possibles, mais à un **type d'expérience où toutes les alternatives possibles sont présentées à chaque essai**, la consigne consistant à sélectionner l'un des sons (réponses du type : "premier intervalle", "deuxième intervalle").
 
-Voici un second exemple de choix forcé à deux intervalles, correspondant cette fois à la tâche de détection des modulations (voir [https://leovarnet.github.io/psychoac-manuel-fr/methodo/Methode.html](Méthode expérimentale)). Les deux stimuli étant clairement audibles, il n'est pas nécessaire ici de marquer le début des intervalles par un bip aigu. Les sujets doivent indiquer *lequel des deux sons était fluctuant*.
+Voici un second exemple de choix forcé à deux intervalles, correspondant cette fois à la tâche de détection des modulations (voir [Méthode expérimentale](https://leovarnet.github.io/psychoac-manuel-fr/methodo/Methode.html)). Les deux stimuli étant clairement audibles, il n'est pas nécessaire ici de marquer le début des intervalles par un bip aigu. Les sujets doivent indiquer *lequel des deux sons était fluctuant*.
 
 <audio controls>
   <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/methodo/demo_2AFC_AM.mp3" type="audio/wav">
@@ -137,9 +137,9 @@ align: center
 *Expérience de reconnaissance de paysages sonores naturels avec une tâche de discrimination et un paradigme de choix forcé (c'est à dire, paradigme *oddball*).*
 ```
 
-Ce protocole expérimental a, comme le précédent, l'avantage d'être implicite (expliquer la tâche aux sujets ne nécessite pas de leur indiquer quels types de paysages sonores ont été enregistrés) mais il est de plus indépendant du critère. En effet, les sujets ne peuvent pas être biaisés et répondre plus ou moins fréquemment que les sons sont différents, puisqu'ils doivent nécessairement choisir à chaque essai un stimulus différent et deux stimuli identiques.
+Ce protocole expérimental a, comme le précédent, l'avantage d'être implicite (expliquer la tâche aux sujets ne nécessite pas de leur indiquer quels types de paysages sonores ont été enregistrés) mais il est de plus indépendant du critère. En effet, les sujets ne peuvent pas être biaisés et répondre plus ou moins fréquemment que les sons sont différents, puisqu'ils doivent nécessairement choisir à chaque essai un stimulus différent et deux stimuli identiques. C'est effectement la combinaison de paradigme et de tâche choisie dans l'étude originale de Apoux et al. (2023).
 
-## Exemples d’expériences pour la mesure du seuil de détection des modulation
+## Combinaisons des paradigmes et des tâches
 
 Récapitulons à présent les différentes combinaisons de paradigmes et de tâches que nous avons envisagées dans ce chapitre. Pour cela, nous nous appuierons sur un exemple abstrait comparant des sons "bleus" et des sons "orange". Ces deux couleurs peuvent correspondre par exemple à "bip" vs. "silence" dans le cas de l'audiogramme, à "ton modulé" vs. "ton non-modulé" dans le cas de la mesure des seuils de détection des modulations, ou encore à "savane" vs. "prairie" dans le cas de la perception des paysages sonores naturels.
 
@@ -150,3 +150,6 @@ Récapitulons à présent les différentes combinaisons de paradigmes et de tâc
 | ![orange](https://upload.wikimedia.org/wikipedia/commons/e/ea/Fairytale_arts.png)   ![bleu](https://upload.wikimedia.org/wikipedia/commons/6/62/Fairytale_kmix.png) | identiques ou différents ? |    Yes/no + discrim. | implicite  |
 | ![bleu](https://upload.wikimedia.org/wikipedia/commons/6/62/Fairytale_kmix.png)   ![orange](https://upload.wikimedia.org/wikipedia/commons/e/ea/Fairytale_arts.png)   ![orange](https://upload.wikimedia.org/wikipedia/commons/e/ea/Fairytale_arts.png) | Sélectionnez le stimulus bleu | 3I2AFC + détect. | indép. du critère |
 | ![bleu](https://upload.wikimedia.org/wikipedia/commons/6/62/Fairytale_kmix.png)   ![orange](https://upload.wikimedia.org/wikipedia/commons/e/ea/Fairytale_arts.png)   ![orange](https://upload.wikimedia.org/wikipedia/commons/e/ea/Fairytale_arts.png) | Sélectionnez le stimulus différent | 3I2AFC + discrim. | implicite et indép. du critère |
+
+## Références
+

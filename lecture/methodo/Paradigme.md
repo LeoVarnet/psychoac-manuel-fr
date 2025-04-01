@@ -90,7 +90,7 @@ alt: Schéma de la Théorie de la détection du signal
 height: 300px
 align: center
 ---
-*Schéma de de la Théorie de la détection du signal. Les courbes rouge et bleue représentent respectivement les probabilités de mesurer une valeur particulière d'énergie E pour le bruit seul ou pour le bruit+signal*
+*Rappel du schéma de de la Théorie de la détection du signal. Les courbes rouge et bleue représentent respectivement les probabilités de mesurer une valeur particulière d'énergie E pour le bruit seul ou pour le bruit+signal*
 ```
 
 Dans cette figure, d' caractérise la superposition entre les deux courbes, c'est à dire la similarité entre les deux types d'essais, <span style="color:rgb(14,0,192)">**B**</span> ou <span style="color:rgb(255,0,0)">**B+T**</span>. Cette valeur caractérise donc les stimuli eux-même, indépendamment du type d'expérience dans lequel ces stimuli sont employés. Les formules permettant de calculer le d' mettent en jeu un certain nombre de paramètres qui dépassent le cadre de ce cours. Néanmoins, les lecteurs et lectrices intéressées pourront les trouver dans tous les manuels de théorie de la détection du signal.

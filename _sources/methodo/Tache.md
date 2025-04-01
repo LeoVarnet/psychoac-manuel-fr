@@ -59,7 +59,7 @@ alt: Audiogramme
 width: 400px
 align: center
 ---
-*Rappel : tracé de l'audiogramme.*
+*Rappel : audiogrammes typiques de trois tranches d'âge. (Zwicker & Fastl, 1999)*
 ```
 
 <br /> 
@@ -83,7 +83,7 @@ alt: Courbes isosoniques
 width: 500px
 align: center
 ---
-*Courbes isosoniques typiques. Chaque courbe bleue est mesurée relativement à un ton de référence à 1 kHz et dont l'intensité est indiquée en orange. La courbe la plus basse (en vert) correspond aux seuils auditifs mesurés précédemment par l'audiogramme. Chaque courbe indique donc un ensemble de tons purs perçus comme ayant la même intensité.*
+*Courbes isosoniques typiques. Chaque courbe bleue est mesurée relativement à un ton de référence à 1 kHz et dont l'intensité est indiquée en orange. La courbe la plus basse (en vert) correspond aux seuils auditifs mesurés précédemment par l'audiogramme. Chaque courbe indique donc un ensemble de tons purs perçus comme ayant la même intensité. (Adapté de [https://fr.wikipedia.org/wiki/Courbe_isosonique](Courbe isosonique selon la norme ISO 226:2003))*
 ```
 
 <br /> 
@@ -112,7 +112,7 @@ En revanche, un point plus problématique réside dans le fait que la tâche ne 
 Les tâches de détection et de catégorisation nécessitent de décrire précisément le ou les stimuli-cible au sujet pour qu'il soit en mesure de réaliser l'expérience. Dans certains cas, on ne souhaite pas donner trop de détails dans les instructions, notamment lorsque les stimuli sont trop complexes pour être décrits de façon succincte et compréhensible par des personnes extérieures au domaine, ou s'il y a un risque de rendre ainsi le comportement du sujet moins naturel ou d’imposer une « grille de lecture » particulière. On peut alors utiliser la tâche de discrimination pour donner des **instructions implicites**. En effet, il suffit pour cette tâche de demander à identifier le son différent -- sans nécessairement préciser en quoi consiste la différence.
 En contrepartie, la tâche de discrimination nécessite de présenter un stimulus de plus à chaque essai ce qui peut rallonger considérablement l'expérience.
 
-Prenons l'exemple d'une étude de la perception des paysages sonores naturels. Nous disposons d'enregistrements réalisés dans différents biotopes, dont nous nous servirons comme stimuli. Comment mesurer la capacité des êtres humains à reconnaître leur environnement sur la seule base de l'information acoustique qui leur parvient ?Une première option, assez intuitive, consiste à proposer une tâche de catégorisation : Chaque essai consiste en un seul enregistrement, correspondant à un biotope particulier parmis N possibles. Le sujet doit ensuite indiquer à quelle catégorie appartient le stimulus en appuyant sur les touches 1 à N. La démo suivante correspond à une série de 6 essais avec 4 environnements possibles : "prairie bordée de séquoias", "bordure de torrent", "maquis", "savane de chênes". Chaque stimulus dure 5 secondes, après quoi le sujet appuie sur un bouton pour indiquer lequel des quatre environnements il pense avoir reconnu.
+Prenons l'exemple d'une étude de la perception des paysages sonores naturels. Nous disposons d'enregistrements réalisés dans différents biotopes, dont nous nous servirons comme stimuli. Comment mesurer la capacité des êtres humains à reconnaître leur environnement sur la seule base de l'information acoustique qui leur parvient ? Une première option, assez intuitive, consiste à proposer une tâche de catégorisation : Chaque essai consiste en un seul enregistrement, correspondant à un biotope particulier parmis N possibles. Le sujet doit ensuite indiquer à quelle catégorie appartient le stimulus en appuyant sur les touches 1 à N. La démo suivante correspond à une série de 6 essais avec 4 environnements possibles : "prairie bordée de séquoias", "bordure de torrent", "maquis", "savane de chênes". Chaque stimulus dure 5 secondes, après quoi le sujet appuie sur un bouton pour indiquer lequel des quatre environnements il pense avoir reconnu.
 
 <audio controls>
   <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/methodo/Soundscape_yesno.mp3" type="audio/wav">
@@ -126,6 +126,16 @@ width: 500px
 align: center
 ---
 *Expérience de reconnaissance de paysages sonores naturels avec une tâche de catégorisation.*
+```
+
+```{figure} Soundscapes.png
+---
+name: Soundscapes.png
+alt: Soundscapes
+width: 600px
+align: center
+---
+*Illustration des quatre environnements correspondant aux stimuli de l'expérience. (Apoux et al., 2023)*
 ```
 
 Cette expérience conduit effectivement à une mesure de performance qui reflète la capacité du sujet à identifier les différents environnements sur la base du son. On pourrait néanmoins lui reprocher d'imposer des catégories de réponse arbitraires : pourquoi n'existe-t-il pas de bouton "jungle", pourquoi "savane de chênes" et non "savane" ?
@@ -149,3 +159,8 @@ align: center
 Là encore, les résultats donnent une indication sur la capacité des sujets à percevoir les environnements sur la base des sons. Néanmoins, contrairement à la première option, aucune grille de lecture ne leur est imposé pour catégoriser les stimuli. Comme nous le verrons au chapitre 3, l'analyse des données ainsi recueillies permet d'explorer la structure de l'espace perceptuel mobilisé par les participants et participantes.
 
 La tâche psychophysique indique "quoi faire" avec les stimuli. Elle ne détermine cependant pas sous quelle forme donner la réponse, ni combien de stimuli sont présentés au cours d'un même essai. Ainsi, si la plupart des expériences basées sur des tâches de détection ne comportent qu'un seul son à détecter par essai, d'autres peuvent en comporter deux voire même trois. Ces aspects sont déterminés par le paradigme expérimental, que nous verrons à la section suivante.
+
+## Références
+
+Apoux, F., Miller-Viacava, N., Ferrière, R., Dai, H., Krause, B., Sueur, J., & Lorenzi, C. (2023). Auditory discrimination of natural soundscapes. The Journal of the Acoustical Society of America, 153(5), 2706. https://doi.org/10.1121/10.0017972
+Zwicker, E., & Fastl, H. (1999). Psychoacoustics : Facts and Models (2ᵉ éd.). Springer-Verlag. https://www.springer.com/gp/book/9783662095621

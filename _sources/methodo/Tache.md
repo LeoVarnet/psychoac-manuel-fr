@@ -162,5 +162,5 @@ La tâche psychophysique indique "quoi faire" avec les stimuli. Elle ne détermi
 
 ## Références
 
-Apoux, F., Miller-Viacava, N., Ferrière, R., Dai, H., Krause, B., Sueur, J., & Lorenzi, C. (2023). Auditory discrimination of natural soundscapes. The Journal of the Acoustical Society of America, 153(5), 2706. https://doi.org/10.1121/10.0017972
-Zwicker, E., & Fastl, H. (1999). Psychoacoustics : Facts and Models (2ᵉ éd.). Springer-Verlag. https://www.springer.com/gp/book/9783662095621
+- Apoux, F., Miller-Viacava, N., Ferrière, R., Dai, H., Krause, B., Sueur, J., & Lorenzi, C. (2023). Auditory discrimination of natural soundscapes. The Journal of the Acoustical Society of America, 153(5), 2706. https://doi.org/10.1121/10.0017972
+- Zwicker, E., & Fastl, H. (1999). Psychoacoustics : Facts and Models (2ᵉ éd.). Springer-Verlag. https://www.springer.com/gp/book/9783662095621

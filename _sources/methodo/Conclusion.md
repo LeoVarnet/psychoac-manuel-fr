@@ -42,9 +42,9 @@ Par ailleurs, la psychophysique se situant, historiquement, à l'origine des sci
 
 > Je propose de considérer la question « Les machines peuvent-elles penser ? ». [...] Au lieu de [philosopher sur la définition du terme "penser"], je remplacerai cette question par une autre, intrinsèquement liée, mais qui s'exprime dans des termes dépourvus d'ambiguïté. La nouvelle forme du problème peut être décrite comme un jeu qu nous appellerons "le jeu de l'imitation". *(Turing, Computing Machinery and Intelligence, 1950)*
 
-Le principe du test pour déterminer si une machine peut "penser" consiste, en résumé, à évaluer si la celle-ci peut produire des interactions langagières suffisamment réalistes pour induire en erreur son interlocuteur·ice humain·e. Ainsi, plutôt que d'analyser le fonctionnement interne de la machine, Turing propose d'utiliser son comportement observable comme un critère pour juger de ses facultés cognitives.
+Le principe du test pour déterminer si une machine peut "penser" consiste, en résumé, à évaluer si la celle-ci peut produire des interactions langagières suffisamment réalistes pour induire en erreur son interlocuteur·ice humain·e. Ainsi, plutôt que d'analyser le fonctionnement interne de la machine, Turing propose d'utiliser son comportement observable comme un critère pour juger de ses facultés cognitives. Il s'agit donc bien d'une illustration, dans un tout autre domaine, de la démarche béhavioriste.
 
-La démarche contraignante proposée par la psychophysique constitue un garde-fou contre différents écueuils dans l'étude de l'esprit humain. 
+Cette approche radicalement empirique de la cognition proposée par la psychophysique constitue un garde-fou contre différents écueuils dans l'étude de l'esprit humain. 
 
 D'une part, elle permet de tracer une démarcation nette avec une certaine "psychologie du sens commun" qui alimente les magazines grand public et les conférences de développement personnel. En contraste avec ces approches qui regorgent de concepts intuitifs mais mal définis tels que l'"amour", la "résilience", l'"énergie positive", la démarche décrite ici vise à refonder une science psychologique sur des bases solides, aussi empiriques que possible et débarassées de tous les artefacts métaphysiques. Les membres du Cercle de Vienne ne disent pas autre chose, lorsqu'ils écrivent en 1929 :
 

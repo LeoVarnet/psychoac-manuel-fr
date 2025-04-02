@@ -12,7 +12,7 @@ titlesonly: true
 
 ![diler logo](../static/logo.png)
 
-# Introduction générale à la psychoacoustique
+# Psychoacoustique et perception auditive, une introduction
 
 *Léo Varnet*
 

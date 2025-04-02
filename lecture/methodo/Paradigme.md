@@ -151,6 +151,8 @@ Récapitulons à présent les différentes combinaisons de paradigmes et de tâc
 | ![bleu](https://upload.wikimedia.org/wikipedia/commons/6/62/Fairytale_kmix.png)   ![orange](https://upload.wikimedia.org/wikipedia/commons/e/ea/Fairytale_arts.png)   ![orange](https://upload.wikimedia.org/wikipedia/commons/e/ea/Fairytale_arts.png) | Sélectionnez le stimulus bleu | 3I2AFC + catég. | indép. du critère |
 | ![bleu](https://upload.wikimedia.org/wikipedia/commons/6/62/Fairytale_kmix.png)   ![orange](https://upload.wikimedia.org/wikipedia/commons/e/ea/Fairytale_arts.png)   ![orange](https://upload.wikimedia.org/wikipedia/commons/e/ea/Fairytale_arts.png) | Sélectionnez le stimulus différent | 3I2AFC + discrim. | implicite et indép. du critère |
 
+Pour tous ces protocoles expérimentaux, la valeur de *d'* est identique puisque les deux stimuli utilisés sont les mêmes. En revanche, du point de vue du participant ou de la participante, la difficulté de l'expérience n'est pas la même. On peut s'en rendre compte en comparant les scores qu'obtiendrait un sujet répondant aléatoirement : 50% pour les expériences basées sur un ou deux intervalles, mais 33.3% pour les expériences comportant trois intervalles.
+
 ## Références
 
 - Apoux, F., Miller-Viacava, N., Ferrière, R., Dai, H., Krause, B., Sueur, J., & Lorenzi, C. (2023). Auditory discrimination of natural soundscapes. The Journal of the Acoustical Society of America, 153(5), 2706. https://doi.org/10.1121/10.0017972

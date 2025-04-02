@@ -145,10 +145,10 @@ Récapitulons à présent les différentes combinaisons de paradigmes et de tâc
 
 | Exemple de déroulement d'un essai  | Instructions | Paradigme + tâche | Propriétés |
 | :--------------- |:---------------|:-----|:-----|
-| ![orange](https://upload.wikimedia.org/wikipedia/commons/e/ea/Fairytale_arts.png) | bleu ou orange ? | Yes/no + détect. | |
-| ![orange](https://upload.wikimedia.org/wikipedia/commons/e/ea/Fairytale_arts.png)   ![bleu](https://upload.wikimedia.org/wikipedia/commons/6/62/Fairytale_kmix.png) | Sélectionnez le stimulus bleu | 2I2AFC + détect. | indépendant du critère |
+| ![orange](https://upload.wikimedia.org/wikipedia/commons/e/ea/Fairytale_arts.png) | bleu ou orange ? | Yes/no + catég.. | |
+| ![orange](https://upload.wikimedia.org/wikipedia/commons/e/ea/Fairytale_arts.png)   ![bleu](https://upload.wikimedia.org/wikipedia/commons/6/62/Fairytale_kmix.png) | Sélectionnez le stimulus bleu | 2I2AFC + catég. | indépendant du critère |
 | ![orange](https://upload.wikimedia.org/wikipedia/commons/e/ea/Fairytale_arts.png)   ![bleu](https://upload.wikimedia.org/wikipedia/commons/6/62/Fairytale_kmix.png) | identiques ou différents ? |    Yes/no + discrim. | implicite  |
-| ![bleu](https://upload.wikimedia.org/wikipedia/commons/6/62/Fairytale_kmix.png)   ![orange](https://upload.wikimedia.org/wikipedia/commons/e/ea/Fairytale_arts.png)   ![orange](https://upload.wikimedia.org/wikipedia/commons/e/ea/Fairytale_arts.png) | Sélectionnez le stimulus bleu | 3I2AFC + détect. | indép. du critère |
+| ![bleu](https://upload.wikimedia.org/wikipedia/commons/6/62/Fairytale_kmix.png)   ![orange](https://upload.wikimedia.org/wikipedia/commons/e/ea/Fairytale_arts.png)   ![orange](https://upload.wikimedia.org/wikipedia/commons/e/ea/Fairytale_arts.png) | Sélectionnez le stimulus bleu | 3I2AFC + catég. | indép. du critère |
 | ![bleu](https://upload.wikimedia.org/wikipedia/commons/6/62/Fairytale_kmix.png)   ![orange](https://upload.wikimedia.org/wikipedia/commons/e/ea/Fairytale_arts.png)   ![orange](https://upload.wikimedia.org/wikipedia/commons/e/ea/Fairytale_arts.png) | Sélectionnez le stimulus différent | 3I2AFC + discrim. | implicite et indép. du critère |
 
 ## Références

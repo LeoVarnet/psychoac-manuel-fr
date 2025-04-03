@@ -10,7 +10,7 @@ Cependant, le choix d'un type particulier de stimulus, comme le ton pur, n'est p
 
 De façon plus générale la construction des questions psychophysiques elles-mêmes est sous-tendue par une approche réductionniste. Il s'agit, comme on le verra dans les chapitres suivants, de réduire une question extrêment large ("comment perçoit-on les sons ?") à des questions de plus en plus précises portant sur des mécanismes perceptifs de plus en plus spécifiques ("comment perçoit-on la hauteur tonale d'un son ?", puis "comment perçoit-on la hauteur tonale d'une série harmonique ?", puis "quel est le rôle de fréquence de la fondamentale dans la perception de la hauteur tonale d'une série harmonique ?", etc.). En cela, la psychophysique ne se distingue pas de l'ensemble des sciences modernes, toutes construites en suivant un raisonnement réductionniste.
 
-## Un bref aperçu de la Théorie de la détection du signal
+## Un bref aperçu de la théorie de la détection du signal
 
 Une question qui se pose alors est de relier théoriquement la dimension d'intérêt des stimuli et la capacité d'un système à percevoir ces stimuli. Il s'agit d'une question centrale pour la **théorie de la détection du signal**, cadre mathématique dérivé de la théorie de l'information, et permettant de modéliser la capacité d’un système à séparer l’information du bruit. Cette théorie fut initialement développée pour les systèmes radar, mais rapidement appliqué à la perception humaine, notamment par David Green & John Swets.
 
@@ -18,13 +18,11 @@ Une question qui se pose alors est de relier théoriquement la dimension d'inté
 
 ### Fonction psychométrique théorique
 
-Pour illustrer les objectifs et méthodes de la TDS, considérons la situation suivante :
+Pour illustrer les objectifs et méthodes de la théorie de la détection du signal, considérons la situation suivante :
 
 Nous sommes en possession d'un appareil permettant de mesurer l'énergie **E** d'un son. Au moyen de ce système nous analysons des stimuli de durée fixe composés soit d'un bruit seul (<span style="color:rgb(14,0,192)">**B**</span>) soit d'un bruit et d'un signal sonore cible (<span style="color:rgb(255,0,0)">**B+T**</span>). Nous souhaitons déterminer, sur la base de cette mesure d'énergie, si le signal sonore était présent ou non.
 
 Pour simplifier le problème, nous supposons que le signal à détecter a une énergie mesurée de 1 (dans une unité arbitraire), notée *d'*, et que l'énergie du bruit suit une distribution gaussienne avec un écart-type de 1. On peut alors représenter la situation par la figure suivante:
-
-<br /> 
 
 ```{figure} SDT1.png
 ---
@@ -36,8 +34,6 @@ align: center
 *Schéma de de la Théorie de la détection du signal. Les courbes rouge et bleue représentent respectivement les probabilités de mesurer une valeur particulière d'énergie E pour le bruit seul ou pour le bruit+signal*
 ```
 
-<br /> 
-
 Dans la situation décrite ci-dessus, il est possible, dans une certaine mesure, de détecter la présence ou l'absence du signal cible à partir de la valeur d'énergie **E** totale. Ainsi, pour une valeur de E = 7 on peut répondre de façon assez certaine que le signal cible était présent, tandis qu'une valeur E = 4 nous indique plutôt que le signal cible était absent. Pour des valeurs intermédiaires il est plus difficile de donner une réponse tranchée, mais une règle optimale dans ce cas serait de répondre "ton présent" pour toute valeur de E supérieure à 5.5, et ton absent sinon. Un calcul de probabilité permet de démontrer que l'application de cette règle dans la situation décrite précédemment produit 64% de réponses correctes en moyenne.
 
 On peut à présent se demander comment ce pourcentage évolue en fonction de la difficulté de la tâche. Ici, le niveau de difficulté dépend directement de *d'*, la différence entre le son avec ou sans le signal. Cette distance entre les deux gaussienne jouera ici le rôle de **variable d'intérêt**. À nouveau, il est possible de montrer par le calcul que la probabilité de détection en fonction de *d'* suit une loi cumulative gaussienne, aussi appelée fonction logistique :
@@ -46,7 +42,6 @@ On peut à présent se demander comment ce pourcentage évolue en fonction de la
 p_{détect}(d') = \frac{1}{1+e^{-(\alpha + \beta \cdot d')}}
 \end{gather*}
 
-<br /> 
 
 ```{figure} SDT2.png
 ---
@@ -58,13 +53,9 @@ align: center
 *Calcul de la fonction psychométrique pour la situation décrite précédemment*
 ```
 
-<br /> 
-
 Lorsque la distance entre les deux gaussiennes augmente, autrement dit lorsque les deux stimuli à différencier deviennent de plus en plus distincts, la tâche devient de plus en plus simple à réaliser. En effet, la fonction indique que le pourcentage de détections tend alors vers 100%. Au contraire lorsqu'on diminue l'énergie du ton jusqu'à *d' = 0* -- un signal cible d'énergie nulle, autrement dit une tâche de détection impossible à réaliser -- la probabilité chute à 50%, ce qui correspond au pourcentage de bonnes réponses obtenu en répondant au hasard. Cette fonction reliant la dimension d'intérêt au pourcentage de réponses est appelée **fonction psychométrique** et joue un rôle central dans la mesure en psychophysique comme on le verra dans la partie Méthode.
 
 Notez que dans l'exemple choisi, *d'* est toujours positif car il n'aurait pas de sens que l'énergie du signal+bruit soit moindre que celle du bruit seul. Néanmoins dans d'autres situations, il peut être pertinent de continuer la courbe auquel cas on obtient la fonction psychométrique complète, couvrant des probabilités de 0% à 100% (voir figure suivante).
-
-<br /> 
 
 ```{figure} SDT3.png
 ---
@@ -76,13 +67,9 @@ align: center
 *Exemple de fonction psychométrique complète*
 ```
 
-<br /> 
-
 D'après l'équation ci-dessus, la forme de la fonction psychométrique est déterminée par deux paramètres, <span style="color:rgb(237,125,49)">α</span> et <span style="color:rgb(204,0,153)">β</span> [[1](note1)]. 
 
 <span style="color:rgb(237,125,49)">α</span> détermine le **seuil à 50%** de la fonction psychométrique, c'est à dire le niveau de la dimension d'intérêt à partir duquel on obtient plus de 50% de réponses correctes. Modifier ce paramètre revient donc à déplacer latéralement la fonction.
-
-<br /> 
 
 ```{figure} SDT4.png
 ---
@@ -94,11 +81,7 @@ align: center
 *Effet du paramètre alpha sur la fonction psychométrique.*
 ```
 
-<br /> 
-
 <span style="color:rgb(204,0,153)">β</span> détermine la **pente** de la fonction psychométrique, c'est à dire la sensibilité du système aux variations de la dimension d'intérêt. Pour de faibles valeurs de <span style="color:rgb(204,0,153)">β</span>, le pourcentage de réponses change peu lorsqu'on modifie la dimension d'intérêt (sensibilité faibles). Pour de fortes valeurs de pente en revanche, le pourcentage de réponses bascule brutalement de sa valeur minimum à sa valeur maximum dans un petit intervalle de la dimension d'inrêt (sensibilité élevé).
-
-<br /> 
 
 ```{figure} SDT5.png
 ---
@@ -110,8 +93,6 @@ align: center
 *Effet du paramètre beta sur la fonction psychométrique.*
 ```
 
-<br /> 
-
 Dans les paragraphes qui précèdent nous avons justifié théoriquement l'origine de la fonction psychométrique, pour l'exemple d'un détecteur électronique de signal sonore. Sachant que la fonction suit l'équation particulière décrite plus haut, nous pouvons caractériser empiriquement les performances de l'appareil en traçant sa fonction psychométrique ou, de façon équivalente, en indiquant son seuil à 50% et sa sensibilité, pour la dimension d'intérêt considérée. [[2](note2)]
 
 ### Fonction psychométrique humaine
@@ -119,8 +100,6 @@ Dans les paragraphes qui précèdent nous avons justifié théoriquement l'origi
 Ce cadre théorique s'applique non seulement aux appareils de détection comme celui décrit précédemment, mais également à l'humain, et se généralise à l'ensemble des expériences psychophysiques que nous allons rencontrer dans ce cours : pour des individus réalisant une tâche psychophysique, le pourcentage de réponses en fonction de la dimension d'intérêt suit (généralement) une fonction psychométrique logistique qu'il est possible de caractériser en termes de sensibilité et de seuil.
 
 Voici par exemple les performances de sujets réalisant une tâche de détection de ton dans le bruit. Contrairement à l'exemple précédent, la dimension d'intérêt n'est pas la distance entre la gaussienne du bruit et celle du bruit + signal, mais le rapport signal sur bruit (RSB). Lorsque le RSB est élevé la tâche est facile et les performances avoisinent donc les 100%. En revanche, lorsque le RSB tend vers $-\inf$, les performances décroissent jusqu'au niveau du hasard, 50%. De même que dans le cas du détecteur électronique, on peut donc caractériser la perception humaine sur cette tâche en la décrivant par une valeur de seuil (on préférera ici le seuil à 75%) et une valeur de sensibilité. On utilise pour cela une **régression logistique**, procédure statistique qui permet d'ajuster une fonction logistique (la courbe continue) à un ensemble de données mesurées (les points) malgré la variabilité inhérente aux mesures empiriques chez l'humain. [[3](note3)]
-
-<br /> 
 
 ```{figure} SDT6.png
 ---
@@ -132,11 +111,7 @@ align: center
 *Exemple de fonction psychométrique pour la détection de ton dans le bruit par l'humain. (Green & Swets, 1966).*
 ```
 
-<br /> 
-
 La figure suivante illustre un autre exemple d'application de la régression logistique, toujours dans le cadre d'une tâche de détection de ton dans le bruit avec le RSB comme dimension d'intérêt. Les différents symboles correspondent ici aux données collectées sur différents sujets. Une fonction psychométrique est ajustée individuellement pour chaque participant·e, puis caractérisée par son seuil à 80 %. Ce seuil, reporté sur l'axe des abscisses, sert ensuite de mesure simplifiée pour comparer les performances des participants. Ainsi, on constate ici que le sujet S5 se distingue par des performances nettement supérieures à celles de ses pairs, car le RSB auquel il·elle atteint 80 % de réponses correctes est nettement inférieur.
-
-<br /> 
 
 ```{figure} SDT8.png
 ---
@@ -148,11 +123,7 @@ align: center
 *Exemple de fonction psychométrique pour la détection de ton dans le bruit par l'humain. (Schönfelder & Wichmann, 2013).*
 ```
 
-<br /> 
-
 Finalement, la figure suivante présente un troisième exemple de fonction psychométrique humaine, cette fois pour une tâche de détection de ton pur *dans le silence*. En conséquence, la dimension d'intérêt n'est plus le RSB, mais l'énergie du signal en dB. Malgré l'absence de bruit de fond, on retrouve la forme sigmoïde caractéristique de la fonction psychométrique. La raison en est que le traitement sensoriel par le système auditif est lui-même bruité -- par exemple, la transmission d'information dans les neurones est un processus partiellement aléatoire. On peut donc se ramener à la situation des deux gaussiennes décrites plus haut si l'on considère non plus le signal sonore parvenant au détecteur ou à l'oreille, mais l'influx nerveux conduisant à la décision "ton présent" ou "ton absent".
-
-<br /> 
 
 ```{figure} SDT7.png
 ---
@@ -164,9 +135,7 @@ align: center
 *Exemple de fonction psychométrique pour la détection de ton dans le silence par l'humain. (Leek, 2001).*
 ```
 
-<br /> 
-
-Au travers de la fonction psychométrique, la Théorie de la détection du signal nous offre donc un cadre mathématique permettant relier le stimulus, et plus précisément sa dimension d'intérêt, à un pourcentage de réponses dans une tâche donnée. Elle répond donc parfaitement à l'objectif de la psychophysique qui est de [relier monde physique et comportement observable](https://leovarnet.github.io/psychoac-manuel-fr/methodo/Introduction.html#l-esprit-humain-vu-comme-une-boite-noire). Dans la section suivante nous allons nous appuyer sur la fonction psychométrique pour décrire différentes méthodes expérimentales développées par les psychophysicien·nes.
+Au travers de la fonction psychométrique, la théorie de la détection du signal nous offre donc un cadre mathématique permettant relier le stimulus, et plus précisément sa dimension d'intérêt, à un pourcentage de réponses dans une tâche donnée. Elle répond donc parfaitement à l'objectif de la psychophysique qui est de [relier monde physique et comportement observable](https://leovarnet.github.io/psychoac-manuel-fr/methodo/Introduction.html#l-esprit-humain-vu-comme-une-boite-noire). Dans la section suivante nous allons nous appuyer sur la fonction psychométrique pour décrire différentes méthodes expérimentales développées par les psychophysicien·nes.
 
 ## Notes
 

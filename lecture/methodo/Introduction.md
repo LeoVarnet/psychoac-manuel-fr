@@ -43,7 +43,7 @@ En résumé, la psychophysique cherche à **déduire le fonctionnement interne d
 
 Cette approche béhavioriste peut paraître surprenante aux néophytes, mais elle est en réalité très proche de la façon dont nous jugeons ordinairement de la perception. Comme le note Wittgenstein, nous apprenons le sens des termes de sensation, comme "douleur", non seulement en ressentant la douleur à la première personne, mais en découvrant que les individus autour de nous ressentent également de la douleur. Or, nous n'avons jamais directement accès aux sensations éprouvées par autrui, nous pouvons seulement regarder comment celui-ci réagit aux stimulations. La douleur et les autres sensations ne sont donc pas uniquement définies comme des ressentis subjectifs ("qu'est-ce que cela me fait d'éprouver de la douleur") mais également comme des comportements observables objectifs ("comment les autres réagissent lorsqu'ils et elles ressentent de la douleur"). 
 
-> Ne te demande pas : « Que se passe-t-il dans mon propre cas ? » — Demande : « Que sais-je des autres ? » *(Wittgenstein, Recherches philosophiques, 1953)*
+> Un "processus interne" a besoin de critères externes. [...] Ne te demande pas : « Que se passe-t-il dans mon propre cas ? » — Demande : « Que sais-je des autres ? » *(Wittgenstein, Recherches philosophiques, 1953)*
 
 En réalité, l'approche béhavioriste est conforme avec la façon dont les sciences expérimentales sondent généralement leurs objets d'étude, la différence principale étant que ceux-ci ne sont ordinairement pas doués d'une conscience :
 

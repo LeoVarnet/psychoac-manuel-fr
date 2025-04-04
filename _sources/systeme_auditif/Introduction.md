@@ -13,16 +13,7 @@ Il peut sembler de prime abord contradictoire de consacrer le deuxième chapitre
 
 ## Structure générale du système auditif humain 
 
-Le plan de ce chapitre suit la structure du système auditif humain. Nous commencerons par décrire le **système auditif périphérique** (ou **externe**), qui va du pavillon -- le seul élément visible -- au nerf auditif. Cet ensemble est très complexe et réalisé plusieurs fonctions. On le décompose donc habituellement en trois grandes sous-parties : l'**oreille externe**, l'oreille moyenne, et l'oreille interne.
-
-Plan:
-1 Système auditif externe
-	(ou périphérique)
-	       oreille externe-moyenne,                       cochlée, membrane basilaire, 	
-	                   cellules ciliées, nerf auditif
-
-
-<br /> 
+Le plan de ce chapitre suit la structure du système auditif humain. Nous commencerons par décrire le **système auditif périphérique** (ou **externe**), qui va du pavillon -- le seul élément visible de l'extérieur -- au nerf auditif. Cet ensemble est très complexe et réalise plusieurs fonctions. On le décompose donc habituellement en trois grandes sous-parties : l'**oreille externe**, l'**oreille moyenne**, et l'**oreille interne**. 
 
 ```{figure} syst_ext.jpg
 ---
@@ -34,7 +25,7 @@ align: center
 *...*
 ```
 
-<br />
+Le nerf auditif marque la frontière avec le **système auditif central**. Celui-ci possède une structure nettement moins linéaire, structuré par de nombreux relais interconnectés. Les voies auditives centrales (*auditory pathways*) remontent le long du tronc cérébral, à la base du cerveau, puis rejoignent sa couche la plus externe, le cortex. 
 
 2 Système auditif central
 Colliculus inférieur, 

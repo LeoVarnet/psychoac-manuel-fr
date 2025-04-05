@@ -27,11 +27,6 @@ align: center
 
 Le nerf auditif marque la frontière avec le **système auditif central**. Celui-ci possède une structure nettement moins linéaire, structuré par de nombreux relais interconnectés. Les voies auditives centrales (*auditory pathways*) remontent le long du tronc cérébral, à la base du cerveau, puis rejoignent sa couche la plus externe, le cortex. 
 
-2 Système auditif central
-Colliculus inférieur, 
-         corps genouillé médian,
-                 cortex auditif, …
-
 <br /> 
 
 ```{figure} syst_centr.jpg
@@ -46,5 +41,5 @@ align: center
 
 <br />
 
-Simulations dans ce cours générées grâce aux toolboxes AMT (https://amtoolbox.org/) et TMST (https://github.com/LeoVarnet/TMST)
+Toutes les simulations présentées dans les sections suivantes ont été générées grâce aux toolboxes MATLAB AMT (https://amtoolbox.org/) et TMST (https://github.com/LeoVarnet/TMST)
 

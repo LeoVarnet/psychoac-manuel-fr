@@ -18,8 +18,7 @@ Sensible à la question des enjeux liés à la discrimination sexiste par le lan
 
 ## Autres ressources
 
-- scripts pour la génération des figures et démo
-- AMT
+Les scripts pour la génération des démos auditives sont disponibles dans le dossier Github. Les simulations ont été générées grâce aux toolboxes MATLAB *open source* AMT (https://amtoolbox.org/) et TMST (https://github.com/LeoVarnet/TMST)
 
 ## Un mot sur l'auteur
 

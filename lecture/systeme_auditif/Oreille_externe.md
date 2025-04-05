@@ -15,7 +15,7 @@ align: center
 
 ## Pavillon 
 
-Avec sa forme d'entonnoir, le pavillon auriculaire permet en premier lieu de **canaliser l'onde sonore** et de la diriger vers l'intérieur du canal auditif. Darwin considérait que le pavillon n'avait pas de fonction specifique chez l'humain et qu'il s'agissait simplement d'un vestige de structures plus élaborées chez nos ancêtres. C'est Lord Rayleigh qui, le premier, propose en 1907 que la forme du pavillon humain orientée globalement vers l'avant pourrait nous permettre de localiser si un son vient de l'avant ou de l'arrière. 
+Avec sa forme de cornet acoustique, le pavillon auriculaire permet en premier lieu de **canaliser l'onde sonore** et de la diriger vers l'intérieur du canal auditif. Darwin considérait que le pavillon n'avait pas de fonction specifique chez l'humain et qu'il s'agissait simplement d'un vestige de structures plus élaborées chez nos ancêtres -- notant en particulier la présence chez certains individus d'un renflement particulier du bord supérieur de l'helix qui correspond à la pointe de l'oreille des primates. C'est Lord Rayleigh qui, le premier, propose en 1907 que la forme du pavillon humain orientée globalement vers l'avant pourrait nous permettre de localiser si un son vient de l'avant ou de l'arrière. 
 
 
 

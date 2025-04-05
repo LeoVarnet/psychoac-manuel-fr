@@ -1,8 +1,7 @@
 
 # Oreille externe
 
-Nous commençons notre périple le long du système auditif par le seul élément visible, qui constitue l'interface avec le monde extérieur : l'**oreille externe**. Celle-ci est composée de deux parties : le **pavillon** et le **canal auditif**. Bien que très sommaire -- elle se réduit à un simple "entonnoir" passif par lequel le son s'engouffre -- l'oreille externe réalise en réalité des traitements importants pour l'audition.
- 
+Nous commençons notre périple le long du système auditif par le seul élément visible, qui constitue l'interface avec le monde extérieur : l'**oreille externe**. Celle-ci est composée de deux parties : le **pavillon** et le **canal auditif**. Bien que très sommaire -- elle se résume à un simple "entonnoir" passif par lequel le son peut s'engouffrer -- l'oreille externe réalise en réalité certains traitements importants pour l'audition. 
 
 ```{figure} syst_ext_2.jpg
 ---
@@ -15,6 +14,9 @@ align: center
 ```
 
 Forme du pavillon auriculaire (et donc fonction de transfert) unique à chaque personne
+
+Ombre de la tête, l'externe de l'extérne
+
 Pavillon + conduit permettent l’amplification du son dans la région 2 kHz (~ +10 dB)
 Filtrage directionnel, indice puissant pour la localisation des sons (e.g. HRTF)
 

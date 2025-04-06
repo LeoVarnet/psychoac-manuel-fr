@@ -19,9 +19,9 @@ Avec sa forme de cornet acoustique, le pavillon auriculaire permet en premier li
 
 En effet, le pavillon auriculaire étant globalement orienté vers l'avant, il capte mieux les sons provenant de cette direction -- fournissant ainsi une indication pour déterminer si la source est devant nous ou derrière nous. Mais ce n'est pas tout : les circonvolutions engendrent elles aussi des réflexions des sons provenant de directions particulières, permettant là aussi de les localiser. Ainsi, des expériences ayant employé un moule pour modifier la structure des circonvolutions en remplissant certaines cavités ont montré que la capacité à localiser les sons dans l'espace est alors perturbée.
 
-La configuration exacte de ses circonvolutions est spécifique à chaque individu 
+Notez que les sons ne sont pas modifiés par le seul pavillon, mais également par l'ensemble de la tête de l'individu, qui projette une ombre acoustique dans certaines directions. Du point de vue de la fonction de localisation, on pourrait donc considérer que la tête est une extension de l'oreille externe.
 
-Forme du pavillon auriculaire (et donc fonction de transfert) unique à chaque personne
+La configuration exacte des circonvolutions est spécifique à chaque individu, et modifie le timbre des sons selon leur direction d'origine -- c'est à dire que la fonction de transfert de l'oreille externe dépend de l'orientation. Il est possible de mesurer cette fonction de transfert en plaçant un microphone à l'intérieur du conduit auditif, et en mesurant la réponse à des tons purs de toutes les directions possibles. On o
 
 Ombre de la tête, l'externe de l'extérne
 

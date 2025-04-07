@@ -195,7 +195,6 @@
 </details></li>
 <li class="toctree-l1 current active has-children"><a class="reference internal" href="main.html">Chapitre 2 : Physiologie du système auditif</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
 <li class="toctree-l2 current active"><a class="current reference internal" href="#">Introduction</a></li>
-
 <li class="toctree-l2"><a class="reference internal" href="Oreille_externe.html">Oreille externe</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Oreille_moyenne.html">Oreille moyenne</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Oreille_interne.html">Oreille interne</a></li>
@@ -414,14 +413,10 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Introduction</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#une-approche-par-la-modelisation">Une approche par la modélisation</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#une-approche-par-la-modelisation">Une approche par la modélisation</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ouvrir-la-boite-noire">Ouvrir la boîte noire</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#structure-generale-du-systeme-auditif-humain">Structure générale du système auditif humain</a></li>
 </ul>
-</li>
-</ul>
-
             </nav>
         </div>
     </div>
@@ -435,18 +430,19 @@ document.write(`
   <section id="introduction">
 <h1>Introduction<a class="headerlink" href="#introduction" title="Link to this heading">#</a></h1>
 <p>Ce second chapitre vise à donner un aperçu global de la hiérarchie de traitement du système auditif humain depuis l’oreille externe jusqu’au cortex auditif. Ceci nous permettra d’introduire certains concepts importants pour la suite du cours, notamment les notions de pattern d’excitation, de tonotopie et de codage temporel, et de représentation multirésolution.</p>
-</section>
 <section id="une-approche-par-la-modelisation">
-<h1>Une approche par la modélisation<a class="headerlink" href="#une-approche-par-la-modelisation" title="Link to this heading">#</a></h1>
-<p>Appréhender le fonctionnement du système auditif humain est une étape assez ardue pour les psychoacousticien·nes en devenir. Cela nécessite en effet de se familiariser avec des systèmes organiques aussi divers que la cochlée et le cortex auditif, chacun assez complexe pour bénéficier de manuels intégralement dédiés, et pour faire encore l’objet à l’heure actuelle d’intenses recherches. En tant qu’étudiant, je me suis longtemps senti débordé par la complexité de cet objet. Ce n’est que lorsque j’ai commencé à essayer de le modéliser que l’organisation générale et les fonctions de chaque partie me sont apparues plus clairement. En effet, le travail de modélisation contraint à simplifier les traitements les plus complexes pour ne conserver que l’essentiel du système décrit. J’ai donc suivi ici le même principe : présenter chaque étape du traitement auditif de façon extrêmement succincte et en proposer un modèle simple. A l’issue de ce chapitre, nous aurons donc mis en place un modèle fonctionnel du système auditif humain. Bien que celui-ci ommette bon nombre de non-linéarités et de boucles de retroaction, il est suffisant pour rendre compte d’un certain nombre de phénomènes perceptifs comme on le verra au chapitre suivant.</p>
+<h2>Une approche par la modélisation<a class="headerlink" href="#une-approche-par-la-modelisation" title="Link to this heading">#</a></h2>
+<p>Appréhender le fonctionnement du système auditif humain est une étape assez ardue pour les psychoacousticien·nes en devenir. Cela nécessite en effet de se familiariser avec des systèmes organiques aussi divers que la cochlée et le cortex auditif, chacun assez complexe pour faire l’objet de manuels dédiés, et pour être encore à l’heure actuelle au cœur d’intenses recherches. En tant qu’étudiant, je me suis longtemps senti débordé par la complexité de cet objet. Ce n’est que lorsque j’ai commencé à essayer de le modéliser que l’organisation générale et les fonctions de chaque partie me sont apparues plus clairement. En effet, le travail de modélisation contraint à simplifier les traitements les plus complexes pour ne conserver que l’essentiel du système décrit. J’ai donc suivi ici le même principe : présenter chaque étape du traitement auditif de façon extrêmement succincte et en proposer un modèle simple. A l’issue de ce chapitre, nous aurons donc mis en place un modèle fonctionnel du système auditif humain. Bien que celui-ci omette bon nombre de non-linéarités et de boucles de rétroaction, il est suffisant pour rendre compte d’un certain nombre de phénomènes perceptifs comme on le verra au chapitre suivant.</p>
+<p>Toutes les simulations présentées dans les sections suivantes ont été générées grâce à la <a class="reference external" href="https://amtoolbox.org/">Auditory Modeling Toolbox</a> et la <a class="reference external" href="https://github.com/LeoVarnet/TMST">Temporal Modulation Spectrum Toolbox</a>, deux toolbox MATLAB <em>open source</em>.</p>
+</section>
 <section id="ouvrir-la-boite-noire">
 <h2>Ouvrir la boîte noire<a class="headerlink" href="#ouvrir-la-boite-noire" title="Link to this heading">#</a></h2>
-<p>Il peut sembler de prime abord contradictoire de consacrer le deuxième chapitre de ce manuel à la description de l’organisation du système auditif, alors que nous avons insisté au chapitre 1 sur l’approche spécifique de la psychophysique qui consiste à considérer l’esprit humain comme une boîte noire inviolable. Il ne s’agit pourtant pas d’une erreur. L’approche béhavioriste fondée sur l’étude des comportements observables demeure notre boussole dans l’exploration de l’audition humaine. En particulier, elle reste la seule source possible d’information quant au contenu des représentations mentales : aucune mesure de neurophysiologie ne peut deduire de façon définitive ce que le sujet perçoit réellement. Démontrer qu’une certaine caractéristique acoustique engendre une réponse particulière à tel niveau du système auditif ne signifie pas que cette réponse a un effet quelconque sur les sensations éprouvées par l’individu. En revanche, cette observation peut informer les modèles du système auditif et donc notre interprétation des phénomènes psychoacoustiques. Autrement dit, la physiologie permet de montrer qu’une certaine caractéristique des sons environnants est disponible sous une certaine forme à un certain stade du traitement sensoriel – et il s’agit d’une information très utile pour interpréter les résultats des expériences comportementales.</p>
+<p>Il peut sembler de prime abord contradictoire de consacrer le deuxième chapitre de ce manuel à la description de l’organisation du système auditif, alors que nous avons insisté au chapitre 1 sur l’approche spécifique de la psychophysique qui consiste à considérer l’esprit humain comme une boîte noire inviolable. Il ne s’agit pourtant pas d’une erreur. L’approche béhavioriste fondée sur l’étude des comportements observables demeure notre boussole dans l’exploration de l’audition humaine. En particulier, elle reste la seule source possible d’information quant au contenu des représentations mentales : aucune mesure de neurophysiologie ne peut déduire de façon définitive ce que le sujet perçoit réellement. Démontrer qu’une certaine caractéristique acoustique engendre une réponse particulière à tel niveau du système auditif ne signifie pas que cette réponse a un effet quelconque sur les sensations éprouvées par l’individu. En revanche, cette observation peut informer les modèles du système auditif et donc notre interprétation des phénomènes psychoacoustiques. Autrement dit, <strong>la physiologie permet de montrer qu’une certaine caractéristique des sons environnants est disponible sous une certaine forme à un certain stade du traitement sensoriel</strong> – et il s’agit d’une information très utile pour interpréter les résultats des expériences comportementales.</p>
 <p>S’appuyant sur une proposition de David Marr dans l’introduction philosophique de son ouvrage <em>Vision</em>, les scientifiques travaillant sur la perception et la cognition distinguent habituellement <strong>trois niveaux de description</strong> complémentaires pour appréhender les systèmes qu’ils étudient :</p>
 <blockquote>
 <div><p>Un système de traitement de l’information doit être compris à différents niveaux avant qu’il soit possible d’affirmer qu’on l’a compris parfaitement. À une extrémité, le niveau supérieur correspond à la théorie computationelle du système qui caractérise les performances de celui-ci en termes d’association entre une forme d’information et une autre. Les propriétés abstraites de cette association sont définies précisément et leur adéquation pour la tâche réalisée par le système est démontrée. Au centre correspond l’implémentation algorithmique, le choix d’une représentation pour l’entrée et la sortie, et l’algorithme qui permet de transformer la première en la seconde. À l’autre extrémité on trouve les détails de la réalisation physique de l’algorithme – le <em>hardware</em> en quelque sorte. Ces trois niveaux sont couplés, mais de façon assez souple. Le choix d’un algorithme, par exemple, est contraint par la fonction qu’il doit réaliser et par le hardware avec lequel il est construit. Mais un large éventail de choix demeure disponible, et chaque niveau de description implique des problématiques assez indépendantes des deux autres. <em>(Marr, 1982)</em></p>
 </div></blockquote>
-<p>Pour l’exprimer dans les termes de Marr, ce cours s’intéresse en premier lieu à l’explication “abstraite” de la perception auditive – néanmoins dans ce chapitre nous ferons un détour par les deuxièmes et troisièmes niveaux pour comprendre les éléments physiques qui constituent le système auditif et comment l’information acoustique est transformée à chaque étape du traitement.</p>
+<p>Pour l’exprimer dans les termes de Marr, ce cours s’intéresse en premier lieu à l’explication “abstraite” de la perception auditive – néanmoins dans ce chapitre nous ferons un détour par les deuxièmes et troisièmes niveaux de description pour présenter les différentes parties du système auditif et comment chacune d’elle transforme l’information contenue dans le signal acoustique.</p>
 </section>
 <section id="structure-generale-du-systeme-auditif-humain">
 <h2>Structure générale du système auditif humain<a class="headerlink" href="#structure-generale-du-systeme-auditif-humain" title="Link to this heading">#</a></h2>
@@ -468,7 +464,6 @@ document.write(`
 </figcaption>
 </figure>
 <br />
-<p>Toutes les simulations présentées dans les sections suivantes ont été générées grâce aux toolboxes MATLAB AMT (https://amtoolbox.org/) et TMST (https://github.com/LeoVarnet/TMST)</p>
 </section>
 </section>
 
@@ -536,14 +531,10 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Introduction</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#une-approche-par-la-modelisation">Une approche par la modélisation</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#une-approche-par-la-modelisation">Une approche par la modélisation</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ouvrir-la-boite-noire">Ouvrir la boîte noire</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#structure-generale-du-systeme-auditif-humain">Structure générale du système auditif humain</a></li>
 </ul>
-</li>
-</ul>
-
   </nav></div>
 
 </div></div>

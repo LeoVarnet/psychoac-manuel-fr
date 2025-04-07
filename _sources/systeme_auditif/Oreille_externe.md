@@ -19,10 +19,18 @@ Avec sa forme de cornet acoustique, le pavillon auriculaire permet en premier li
 
 En effet, le pavillon auriculaire étant globalement orienté vers l'avant, il capte mieux les sons provenant de cette direction -- fournissant ainsi une indication pour déterminer si la source est devant nous ou derrière nous. Mais ce n'est pas tout : les circonvolutions engendrent elles aussi des réflexions des sons provenant de directions particulières, permettant là aussi de les localiser. Ainsi, des expériences ayant employé un moule pour modifier la structure des circonvolutions en remplissant certaines cavités ont montré que la capacité à localiser les sons dans l'espace est alors perturbée. Notez que les sons ne sont pas modifiés par le seul pavillon, mais également par l'ensemble de la tête de l'individu, qui projette une ombre acoustique dans certaines directions. [Du point de vue de la fonction de localisation, on pourrait donc considérer que la tête est une extension de l'oreille]. Ces différents aspects modifient le timbre des sons selon leur direction d'origine -- c'est à dire que la fonction de transfert de l'oreille externe dépend de l'orientation. Pour faire une analogie visuelle : imaginez que la couleur des objets que vous regardez soit différente selon qu'ils sont au centre ou en périphérie de votre champ de vision, en haut ou en bas. Nous reviendrons au chapitre 5 sur la portée philosophique de cette observation.
 
-La configuration exacte des circonvolutions est spécifique à chaque individu, et il en va donc de même de la fonction de transfert. Il est possible de mesurer cette fonction de transfert en plaçant un microphone à l'intérieur du conduit auditif, et en mesurant la réponse à des tons purs de toutes les directions possibles. On obtient ainsi la ***Head-Related Transfer Function*** (HRTF) de l'individu. 
+La configuration exacte des circonvolutions est spécifique à chaque individu, et il en va donc de même de la fonction de transfert. Il est possible de mesurer cette fonction de transfert en plaçant un microphone à l'intérieur du conduit auditif, et en mesurant la réponse à des tons purs de toutes les directions possibles. On obtient ainsi la ***Head-Related Transfer Function*** (HRTF) de l'individu, qu'on peut ensuite utiliser pour génerer des son spacialisés impressionnants de réalisme. 
 
 ## Conduit auditif 
 
-Pavillon + conduit permettent l’amplification du son dans la région 2 kHz (~ +10 dB)
-Filtrage directionnel, indice puissant pour la localisation des sons (e.g. HRTF)
+Comme nous venons de le voir, l'oreille externe réalise un filtrage directionnel. La figure suivante présente les fonctions de transfert correspondant à trois directions, mesurées chez un individu.
 
+XXXXX 
+
+Dans l'ensemble les résonnances au sein de l'oreille externe conduisent à une amplification des fréquences autour de 2 kHz (~ +10 dB).
+
+## Modéliser l'oreille externe 
+
+Dans le cadre de ce chapitre nous ne nous intéresserons pas au traitement de l'information de localisation des sons. Nous choisirons donc de partir de l'hypothèse de sons pénétrant dans l'oreille avec un angle de 0° (par exemple écoute au casque). Dans ce cas, l'oreille externe peut être modélisée simplement par un filtre dont la fonction de transfert est représentée en figure suivante :
+
+XXXXX 

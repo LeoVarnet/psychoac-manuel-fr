@@ -17,6 +17,8 @@ Il existe plusieurs façon d'appréhender et d'étudier la perception. Une premi
 
 Pour ces différentes raisons, l'introspection et les méthodes apparentées comme le questionnaire sont considérées comme peu fiables par la psychophysique. Ces approches fournissent indubitablement un moyen d'appréhender la perception -- elles sont d'ailleurs employées par la phénoménologie, une autre discipline qui s'intéresse à la perception -- mais elles n'offrent pas les garanties d'objectivités recherchées par la psychophysique. Pour cette raison nous les écarterons délibérément de notre boîte à outils.
 
+> Un "processus interne" a besoin de critères externes. [...] Ne te demande pas : « Que se passe-t-il dans mon propre cas ? » — Demande : « Que sais-je des autres ? » *(Wittgenstein, Recherches philosophiques, 1953)*
+
 ## L'esprit humain vu comme une boîte noire
 
 La psychophysique va donc suivre une autre voie. Plutôt que de s'intéresser à l'expression des ressentis intérieurs ("Qu'est-ce que cela me fait de percevoir telle couleur ou tel son ?"), elle adopte un point de vue extérieur et cherche à **caractériser la perception sur la base des changements observables dans le comportement de l'individu**. Cette nouvelle façon d'étudier l'esprit humain sur la base des comportements, appelée **béhaviorisme**, représente un tournant philosophique majeur et courant majeur au sein de la psychologie expérimentale. Bien que sa version la plus stricte, le *hard behaviourism*, prépondérante jusque dans les années 60, soit aujourd'hui largement contestée, le mode de pensée béhavioriste imprègne toute la psychophysique, et la plus grande part des sciences cognitives.
@@ -38,8 +40,6 @@ align: center
 En résumé, la psychophysique cherche à **déduire le fonctionnement interne du système à partir de son comportement externe** (entrée-sortie). Dans ce cours, nous nous baserons donc uniquement sur l'analyse des réponses clavier d'individus soumis à des tâches auditives très simples.
 
 Cette approche béhavioriste peut paraître surprenante aux néophytes, mais elle est en réalité très proche de la façon dont nous jugeons ordinairement de la perception. Comme le note Wittgenstein, nous apprenons le sens des termes de sensation, comme "douleur", non seulement en ressentant la douleur à la première personne, mais en découvrant que les individus autour de nous ressentent également de la douleur. Or, nous n'avons jamais directement accès aux sensations éprouvées par autrui, nous pouvons seulement regarder comment celui-ci réagit aux stimulations. La douleur et les autres sensations ne sont donc pas uniquement définies comme des ressentis subjectifs ("qu'est-ce que cela me fait d'éprouver de la douleur") mais également comme des comportements observables objectifs ("comment les autres réagissent lorsqu'ils et elles ressentent de la douleur"). 
-
-> Un "processus interne" a besoin de critères externes. [...] Ne te demande pas : « Que se passe-t-il dans mon propre cas ? » — Demande : « Que sais-je des autres ? » *(Wittgenstein, Recherches philosophiques, 1953)*
 
 En réalité, l'approche béhavioriste est conforme avec la façon dont les sciences expérimentales sondent généralement leurs objets d'étude, la différence principale étant que ceux-ci ne sont ordinairement pas doués d'une conscience :
 

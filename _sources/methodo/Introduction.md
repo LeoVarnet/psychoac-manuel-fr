@@ -112,7 +112,7 @@ Concluons cette section par une citation de Fechner lui-même :
 
 > La tour de Babel n'a jamais été achevée parce que les ouvriers ne pouvaient s'entendre sur la manière de la construire ; mon édifice psychophysique tiendra debout parce que les ouvriers ne s'entendront jamais sur la manière de le démolir. *(Fechner, 1877; cité par Read, 2015)*
 
-Malgré le ton présomptueux, il faut bien reconnaître 150 ans plus tard que la prédiction de Fechner s'est avérée correcte : la rigueur de l'approche psychophysique garantissent la robustesse de ses résultats et, ainsi, la pérennité de ce domaine de recherche.
+Malgré le ton présomptueux, il faut bien reconnaître 150 ans plus tard que la prédiction de Fechner s'est avérée correcte : la rigueur de l'approche psychophysique et en particulier sa méthodologie garantissent la robustesse de ses résultats et, ainsi, la pérennité de ce domaine de recherche.
 
 ## Références
 

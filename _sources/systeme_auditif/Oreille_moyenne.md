@@ -3,9 +3,9 @@
 
 <br /> 
 
-```{figure} syst_ext_3.jpg
+```{figure} syst_ext_3.png
 ---
-name: syst_ext.jpg
+name: syst_ext_3.png
 alt: Systeme auditif externe - oreille moyenne
 height: 400px
 align: center

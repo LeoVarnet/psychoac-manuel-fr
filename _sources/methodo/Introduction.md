@@ -106,13 +106,19 @@ align: center
 *Schéma de la structure d'une expérience psychoacoustique.*
 ```
 
-Il est possible d'imaginer un nombre potentiellement infini d'expériences suivant cette structure. Dans la suite de ce chapitre nous proposerons une stratégie pour choisir une expérience permettant d'obtenir un indicateur fiable du phénomène perceptif étudié. Pour ceci, nous décrirons une typologie des approches expérimentales de la perception, qui se déploie selon quatre axes : les **stimuli**, la **méthode expérimentale**, la **tâche**, et le **paradigme expérimental**. Cette typologie est utile non seulement pour mettre au point des expériences adaptée à l'étude d'une question de recherche particulière, mais également pour identifier rapidement le type d'expérience utilisé dans un article et les résultats qu'il est possible d'en attendre. [Malheureusement la terminologie de la psychophysique est assez fluctuante. En particulier les termes "méthode", "paradigme" et "protocole" sont souvent utilisés de façon interchangeable. Si nous employons un vocabulaire systématique dans ce manuel, il est importantde garder à l'esprit que ce n'est pas toujours le cas dans la littérature scientifique.]
+Il est possible d'imaginer un nombre potentiellement infini d'expériences suivant cette structure. Dans la suite de ce chapitre nous proposerons une stratégie pour choisir une expérience permettant d'obtenir un indicateur fiable du phénomène perceptif étudié. Pour ceci, nous décrirons une typologie des approches expérimentales de la perception, qui se déploie selon quatre axes : les **stimuli**, la **méthode expérimentale**, la **tâche**, et le **paradigme expérimental**. Cette typologie est utile non seulement pour mettre au point des expériences adaptée à l'étude d'une question de recherche particulière, mais également pour identifier rapidement le type d'expérience utilisé dans un article et les résultats qu'il est possible d'en attendre. [[1](note1)]
 
 Concluons cette section par une citation de Fechner lui-même :
 
 > La tour de Babel n'a jamais été achevée parce que les ouvriers ne pouvaient s'entendre sur la manière de la construire ; mon édifice psychophysique tiendra debout parce que les ouvriers ne s'entendront jamais sur la manière de le démolir. *(Fechner, 1877; cité par Read, 2015)*
 
 Malgré le ton présomptueux, il faut bien reconnaître 150 ans plus tard que la prédiction de Fechner s'est avérée correcte : la rigueur de l'approche psychophysique et en particulier sa méthodologie garantissent la robustesse de ses résultats et, ainsi, la pérennité de ce domaine de recherche.
+
+## Notes
+
+(note1)=
+
+[1] Malheureusement la terminologie de la psychophysique est assez fluctuante. En particulier les termes "méthode", "paradigme" et "protocole" sont souvent utilisés de façon interchangeable. Si nous employons un vocabulaire systématique dans ce manuel, il est importantde garder à l'esprit que ce n'est pas toujours le cas dans la littérature scientifique.
 
 ## Références
 

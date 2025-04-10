@@ -2,7 +2,8 @@
 
 Plan du chapitre :
 1. Introduction
-2. Oreille externe et moyenne
-3. Oreille interne
-4. Système auditif central
-5. Conclusions
+2. Oreille externe
+3. Oreille moyenne
+4. Oreille interne
+5. Système auditif central
+6. Conclusions

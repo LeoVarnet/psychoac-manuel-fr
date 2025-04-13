@@ -15,6 +15,13 @@ align: center
 
 ## Rôle et fonctionnement de l'oreille moyenne 
 
+La fonction principale de l'oreille moyenne est de **convertir le son transmis par les vibrations de l'air jusqu'au tympan en en son sous forme de vibration dans un liquide** au sein de l'oreille interne. Si ce changement de milieu avait lieu directement, il entraînerait une perte de 30 dB, soit 99.9% de la puissance du son, car la majeure partie de l'onde serait simplement réverbérée (pensez par exemple à la perception sous-marine des sons émis à l'extérieur de l'eau)
+
+The middle ear permits the airborne sound to be converted to liquid borne sound without the great loss which would otherwise occur. When sound in air impinges directly upon a liquid, a loss of about 30 dB (99.9 percent of the
+power) takes place, with most of the sound being reflected back into the air.
+Three physical principles act to increase the efficiency of the transmission of sound by the middle ear: (1) the curvature of the tympanum (which is some-what conical in shape) causes it to act as a more efficient mechanical trans-former (Tonndorf and Khanna, 1972); (2) the chain of three ossicles acts like a lever with a small mechanical advantage; and (3) the force applied to the larger area of the tympanic membrane, when transmitted to the much smaller area of the footplate of the stapes embedded in the oval window, produces a considerable mechanical advantage. This last factor is the most important of the three. 
+
+
 Conversion de l’onde sonore à l’interface entre deux milieux : air et périlymphe 
 Amplification du son (+20 dB ~1 kHz)
 Réflexe stapédien

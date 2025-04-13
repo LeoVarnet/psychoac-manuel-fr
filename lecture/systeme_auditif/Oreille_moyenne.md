@@ -19,7 +19,7 @@ La fonction principale de l'oreille moyenne est de **convertir les vibrations de
 
 ## Réflexe stapédien 
 
-De même que la pupille de notre œil peut adapter son diamètre en fonction de l'intensité lumineuse ambiante, notre oreille moyenne dispose d'un mécanisme visant à atténuer la transmission des sons de trop forte intensité, protégeant ainsi l'oreille interne, plus fragile. Le muscle du tympan et, surtout, le muscle de l'étrier sont capables de se tendre pour bloquer partiellement le système de levier décrit ci-dessus.
+De même que la pupille de notre œil peut adapter son diamètre en fonction de l'intensité lumineuse ambiante, notre oreille moyenne dispose d'un mécanisme visant à atténuer la transmission des sons de trop forte intensité, protégeant ainsi l'oreille interne, plus fragile. Le muscle du tympan et, surtout, le muscle de l'étrier sont capables de se tendre de façon réflexe pour bloquer partiellement le système de levier décrit ci-dessus : on parle alors de **réflexe stapédien**.
 
 Conversion de l’onde sonore à l’interface entre deux milieux : air et périlymphe 
 Amplification du son (+20 dB ~1 kHz)

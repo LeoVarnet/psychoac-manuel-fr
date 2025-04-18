@@ -41,7 +41,7 @@ Le nerf auditif marque la frontière avec le **système auditif central**. Celui
 ---
 name: syst_centr.jpg
 alt: Systeme auditif central
-height: 400px
+height: 600px
 align: center
 ---
 *Schéma du système auditif central.*

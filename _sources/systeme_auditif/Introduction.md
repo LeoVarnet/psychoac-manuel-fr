@@ -15,7 +15,7 @@ Il peut sembler de prime abord contradictoire de consacrer le deuxième chapitre
 
 S'appuyant sur une proposition de David Marr dans l'introduction philosophique de son ouvrage *Vision*, les scientifiques travaillant sur la perception et la cognition distinguent habituellement **trois niveaux de description** complémentaires pour appréhender les systèmes qu'ils étudient :
 
-> Un système de traitement de l'information doit être compris à différents niveaux avant qu'il soit possible d'affirmer qu'on l'a compris parfaitement. À une extrémité, le niveau supérieur correspond à la théorie computationelle du système qui caractérise les performances de celui-ci en termes d'association entre une forme d'information et une autre. Les propriétés abstraites de cette association sont définies précisément et leur adéquation pour la tâche réalisée par le système est démontrée. Au centre correspond l'implémentation algorithmique, le choix d'une représentation pour l'entrée et la sortie, et l'algorithme qui permet de transformer la première en la seconde. À l'autre extrémité on trouve les détails de la réalisation physique de l'algorithme -- le *hardware* en quelque sorte. Ces trois niveaux sont couplés, mais de façon assez souple. Le choix d'un algorithme, par exemple, est contraint par la fonction qu'il doit réaliser et par le hardware avec lequel il est construit. Mais un large éventail de choix demeure disponible, et chaque niveau de description implique des problématiques assez indépendantes des deux autres. *(Marr, 1982)*
+> Un système de traitement de l'information doit être compris à différents niveaux avant qu'il soit possible d'affirmer qu'on l'a compris parfaitement. À une extrémité, le niveau supérieur correspond à la théorie computationelle du système qui caractérise les performances de celui-ci en termes d'association entre une forme d'information et une autre. Les propriétés abstraites de cette association sont définies précisément et leur adéquation pour la tâche réalisée par le système est démontrée. Au centre correspond l'implémentation algorithmique, le choix d'une représentation pour l'entrée et la sortie, et l'algorithme qui permet de transformer la première en la seconde. À l'autre extrémité on trouve les détails de la réalisation physique de l'algorithme -- le *hardware* en quelque sorte. Ces trois niveaux sont couplés, mais de façon assez souple. Le choix d'un algorithme, par exemple, est contraint par la fonction qu'il doit réaliser et par le hardware avec lequel il est construit. Mais un large éventail de choix demeure disponible, et chaque niveau de description implique des problématiques assez indépendantes des deux autres. *(Marr, Vision, 1982)*
 
 Pour l'exprimer dans les termes de Marr, ce cours s'intéresse en premier lieu à l'explication "abstraite" de la perception auditive -- néanmoins dans ce chapitre nous ferons un détour par les deuxièmes et troisièmes niveaux de description pour présenter les différentes parties du système auditif et comment chacune d'elle transforme l'information contenue dans le signal acoustique.
 
@@ -41,7 +41,7 @@ Le nerf auditif marque la frontière avec le **système auditif central**. Celui
 ---
 name: syst_centr.jpg
 alt: Systeme auditif central
-height: 400px
+height: 600px
 align: center
 ---
 *Schéma du système auditif central.*

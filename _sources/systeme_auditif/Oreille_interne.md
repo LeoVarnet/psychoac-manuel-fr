@@ -1,6 +1,6 @@
 # Oreille interne
 
-Composée principalement de : 
+L'oreille interne constitue l'élément central du système auditif périphérique. Composée principalement de : 
 cochlée 
 nerf auditif
 (+ système vestibulaire)

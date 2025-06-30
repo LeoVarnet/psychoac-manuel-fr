@@ -25,12 +25,47 @@ La configuration exacte des circonvolutions est spécifique à chaque individu, 
 
 Comme nous venons de le voir, l'oreille externe réalise un filtrage directionnel. La figure suivante présente les fonctions de transfert correspondant à trois directions, mesurées chez un individu.
 
-XXXXX 
 
-Dans l'ensemble les résonnances au sein de l'oreille externe conduisent à une amplification des fréquences autour de 2 kHz (~ +10 dB).
+```{figure} HRTF.jpg
+---
+name: HRTF.jpg
+alt: HRTF
+height: 500px
+align: center
+---
+*HRTF mesurées sur 40 individus, pour 3 directions. Le trait blanc correspond à la moyenne sur le groupe.*
+```
+
+Dans l'ensemble les résonnances au sein de l'oreille externe conduisent à une amplification des fréquences autour de 2 kHz (~ +10 dB). En effet, la forme tubulaire du conduit auditif et sa taille induisent mécaniquement des résonnances dans cette gamme de fréquence.
 
 ## Modéliser l'oreille externe 
 
 Dans le cadre de ce chapitre nous ne nous intéresserons pas au traitement de l'information de localisation des sons. Nous choisirons donc de partir de l'hypothèse de sons pénétrant dans l'oreille avec un angle de 0° (par exemple écoute au casque). Dans ce cas, l'oreille externe peut être modélisée simplement par un filtre dont la fonction de transfert est représentée en figure suivante :
 
-XXXXX 
+```{figure} outer_ear_filter.jpg
+---
+name: outer_ear_filter.jpg
+alt: Filtre d'oreille externe
+height: 400px
+align: center
+---
+*Approximation du filtre d'oreille externe pour une onde pénértrant l'oreille avec un angle de 0° (Lopez-Poveda and Meddis, 2001; Pralong and Carlile, 1996).*
+```
+
+Lorsqu'on applique ce filtre à un son, par exemple ici un brouhaha composé de 5 voix superposées, on constate une amplification des fréquences entre 2000 et 3000 Hz.
+
+```{figure} outer_ear_demo.jpg
+---
+name: outer_ear_demo.jpg
+alt: Démo du filtre d'oreille externe
+height: 400px
+align: center
+---
+*Spectrogramme d'un brouhaha composé de 5 voix superposées, avant (gauche) et après (droite) passage par l'oreille externe. Cette figure a été obtenue par simulation grâce au filtre décrit ci-dessus.*
+```
+
+## Références
+
+Lopez-Poveda, E. A., Johannesen, P. T., Pérez-González, P., Blanco, J. L., Kalluri, S., & Edwards, B. (2017). Predictors of Hearing-Aid Outcomes. Trends in Hearing, 21, 2331216517730526. https://doi.org/10.1177/2331216517730526
+
+Pralong, D., & Carlile, S. (1996). The role of individualized headphone calibration for the generation of high fidelity virtual auditory space. The Journal of the Acoustical Society of America, 100(6), 3785–3793. https://doi.org/10.1121/1.417337

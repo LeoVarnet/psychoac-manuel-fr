@@ -23,7 +23,7 @@ La configuration exacte des circonvolutions est spécifique à chaque individu, 
 
 ## Conduit auditif 
 
-Comme nous venons de le voir, l'oreille externe réalise un filtrage directionnel. La figure suivante présente les fonctions de transfert correspondant à trois directions, mesurées chez un individu.
+Comme nous venons de le voir, l'oreille externe réalise un filtrage directionnel. La figure suivante présente les fonctions de transfert correspondant à trois directions, mesurées chez sur 40 individus.
 
 
 ```{figure} HRTF.jpg

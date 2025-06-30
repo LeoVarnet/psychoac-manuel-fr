@@ -48,3 +48,8 @@ align: center
 ```
 
 <br />
+
+## Références
+
+Marr, D. (1982). Vision: A Computational Investigation into the Human Representation and Processing of Visual Information. The MIT Press.
+

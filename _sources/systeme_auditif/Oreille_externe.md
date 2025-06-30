@@ -33,7 +33,7 @@ alt: HRTF
 height: 500px
 align: center
 ---
-*HRTF mesurées sur 40 individus, pour 3 directions. Le trait blanc correspond à la moyenne sur le groupe.*
+*HRTF mesurées sur 40 individus, pour 3 directions. Le trait blanc correspond à la moyenne sur le groupe. (Møller et al, 1995)*
 ```
 
 Dans l'ensemble les résonnances au sein de l'oreille externe conduisent à une amplification des fréquences autour de 2 kHz (~ +10 dB). En effet, la forme tubulaire du conduit auditif et sa taille induisent mécaniquement des résonnances dans cette gamme de fréquence.
@@ -67,5 +67,7 @@ align: center
 ## Références
 
 Lopez-Poveda, E. A., Johannesen, P. T., Pérez-González, P., Blanco, J. L., Kalluri, S., & Edwards, B. (2017). Predictors of Hearing-Aid Outcomes. Trends in Hearing, 21, 2331216517730526. https://doi.org/10.1177/2331216517730526
+
+Møller, H., Sørensen, M. F., Hammershøi, D., & Jensen, C. B. (1995). Head-Related Transfer Functions of Human Subjects. Journal of The Audio Engineering Society. 
 
 Pralong, D., & Carlile, S. (1996). The role of individualized headphone calibration for the generation of high fidelity virtual auditory space. The Journal of the Acoustical Society of America, 100(6), 3785–3793. https://doi.org/10.1121/1.417337

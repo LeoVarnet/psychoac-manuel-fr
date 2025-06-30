@@ -67,7 +67,7 @@ align: center
 *Exemple de fonction psychométrique complète*
 ```
 
-D'après l'équation ci-dessus, la forme de la fonction psychométrique est déterminée par deux paramètres, <span style="color:rgb(237,125,49)">α</span> et <span style="color:rgb(204,0,153)">β</span> [[1](note1)]. 
+D'après l'équation ci-dessus, la forme de la fonction psychométrique est déterminée par deux paramètres, <span style="color:rgb(237,125,49)">α</span> et <span style="color:rgb(204,0,153)">β</span> [[1](note1stim)]. 
 
 <span style="color:rgb(237,125,49)">α</span> détermine le **seuil à 50%** de la fonction psychométrique, c'est à dire le niveau de la dimension d'intérêt à partir duquel on obtient plus de 50% de réponses correctes. Modifier ce paramètre revient donc à déplacer latéralement la fonction.
 
@@ -93,13 +93,13 @@ align: center
 *Effet du paramètre beta sur la fonction psychométrique.*
 ```
 
-Dans les paragraphes qui précèdent nous avons justifié théoriquement l'origine de la fonction psychométrique, pour l'exemple d'un détecteur électronique de signal sonore. Sachant que la fonction suit l'équation particulière décrite plus haut, nous pouvons caractériser empiriquement les performances de l'appareil en traçant sa fonction psychométrique ou, de façon équivalente, en indiquant son seuil à 50% et sa sensibilité, pour la dimension d'intérêt considérée. [[2](note2)]
+Dans les paragraphes qui précèdent nous avons justifié théoriquement l'origine de la fonction psychométrique, pour l'exemple d'un détecteur électronique de signal sonore. Sachant que la fonction suit l'équation particulière décrite plus haut, nous pouvons caractériser empiriquement les performances de l'appareil en traçant sa fonction psychométrique ou, de façon équivalente, en indiquant son seuil à 50% et sa sensibilité, pour la dimension d'intérêt considérée. [[2](note2stim)]
 
 ### Fonction psychométrique humaine
 
 Ce cadre théorique s'applique non seulement aux appareils de détection comme celui décrit précédemment, mais également à l'humain, et se généralise à l'ensemble des expériences psychophysiques que nous allons rencontrer dans ce cours : pour des individus réalisant une tâche psychophysique, le pourcentage de réponses en fonction de la dimension d'intérêt suit (généralement) une fonction psychométrique logistique qu'il est possible de caractériser en termes de sensibilité et de seuil.
 
-Voici par exemple les performances de sujets réalisant une tâche de détection de ton dans le bruit. Contrairement à l'exemple précédent, la dimension d'intérêt n'est pas la distance entre la gaussienne du bruit et celle du bruit + signal, mais le rapport signal sur bruit (RSB). Lorsque le RSB est élevé la tâche est facile et les performances avoisinent donc les 100%. En revanche, lorsque le RSB tend vers $-\inf$, les performances décroissent jusqu'au niveau du hasard, 50%. De même que dans le cas du détecteur électronique, on peut donc caractériser la perception humaine sur cette tâche en la décrivant par une valeur de seuil (on préférera ici le seuil à 75%) et une valeur de sensibilité. On utilise pour cela une **régression logistique**, procédure statistique qui permet d'ajuster une fonction logistique (la courbe continue) à un ensemble de données mesurées (les points) malgré la variabilité inhérente aux mesures empiriques chez l'humain. [[3](note3)]
+Voici par exemple les performances de sujets réalisant une tâche de détection de ton dans le bruit. Contrairement à l'exemple précédent, la dimension d'intérêt n'est pas la distance entre la gaussienne du bruit et celle du bruit + signal, mais le rapport signal sur bruit (RSB). Lorsque le RSB est élevé la tâche est facile et les performances avoisinent donc les 100%. En revanche, lorsque le RSB tend vers $-\inf$, les performances décroissent jusqu'au niveau du hasard, 50%. De même que dans le cas du détecteur électronique, on peut donc caractériser la perception humaine sur cette tâche en la décrivant par une valeur de seuil (on préférera ici le seuil à 75%) et une valeur de sensibilité. On utilise pour cela une **régression logistique**, procédure statistique qui permet d'ajuster une fonction logistique (la courbe continue) à un ensemble de données mesurées (les points) malgré la variabilité inhérente aux mesures empiriques chez l'humain. [[3](note3stim)]
 
 ```{figure} SDT6.png
 ---
@@ -139,15 +139,15 @@ Au travers de la fonction psychométrique, la théorie de la détection du signa
 
 ## Notes
 
-(note1)=
+(note1stim)=
 
 [1] De façon générale, on utilise généralement une équation incluant deux paramètres supplémentaires qui permettent de rentre compte des possibles erreurs d'inattention du sujet qui l'empêcheraient d'atteindre 100% de réponses correctes même dans le cas d'une tâche extrêmement simple, et du fait que le minimum de la fonction psychométrique peut être différent d'une expérience à l'autre. 
 
-(note2)=
+(note2stim)=
 
 [2] Il s'agit d'une présentation minimaliste de l'approche TDS. En réalité, une analyse complète devrait de plus distinguer deux types d'erreurs commises par le système : les *Miss* (le signal était présent mais n'a pas été détecté) et les *False Alarms* (détection du signal en son absence).
 
-(note3)=
+(note3stim)=
 
 [3] En théorie, l'équation de la fonction psychométrique en fonction du RSB n'est pas la même que celle en fonction du *d'*. Néanmoins, en pratique, les chercheur·euses se limitent le plus souvent à l'équation de la loi logistique décrite plus haut.
 

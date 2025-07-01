@@ -3,7 +3,6 @@
 
 ```{warning}
 Page en cours de construction
-```
 
 L'**oreille moyenne** est composée à chacune de ses extrémités de membranes tendues : le **tympan** situé au fond du conduit auditif, et la **fenêtre ovale** qui mène à l'oreille interne. Les deux sont reliés par une série d'**osselets** -- connus pour être les plus petits os du corps humain : le **marteau**, l'**enclume**, et l'**étrier**.
 

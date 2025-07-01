@@ -473,22 +473,23 @@ document.write(`
 </section>
 <section id="modeliser-l-oreille-externe">
 <h2>Modéliser l’oreille externe<a class="headerlink" href="#modeliser-l-oreille-externe" title="Link to this heading">#</a></h2>
-<p>Dans le cadre de ce chapitre nous ne nous intéresserons pas au traitement de l’information de localisation des sons. Nous choisirons donc de partir de l’hypothèse de sons pénétrant dans l’oreille avec un angle de 0° (par exemple écoute au casque). Dans ce cas, l’oreille externe peut être modélisée simplement par un filtre dont la fonction de transfert est représentée en figure suivante :</p>
+<p>Dans le cadre de ce chapitre nous ne nous intéresserons pas au traitement de l’information de localisation des sons. Pour modéliser l’effet de l’oreille externe, nous choisirons donc de partir de l’hypothèse de sons pénétrant dans l’oreille avec un angle d’incidence de 90°, ce qui correspond par exemple à une écoute au casque. Dans ce cas, il suffit de considérer la HRTF centrale présentée dans la figure précédente, et de l’utiliser comme fonction de transfert pour un filtre, comme illustré dans la figure suivante :</p>
 <figure class="align-center" id="outer-ear-filter-jpg">
-<a class="reference internal image-reference" href="../_images/outer_ear_filter.jpg"><img alt="Filtre d'oreille externe" src="../_images/outer_ear_filter.jpg" style="height: 300px;" />
+<a class="reference internal image-reference" href="../_images/outer_ear_filter.jpg"><img alt="Filtre d'oreille externe" src="../_images/outer_ear_filter.jpg" style="height: 200px;" />
 </a>
 <figcaption>
 <p><span class="caption-number">Fig. 51 </span><span class="caption-text"><em>Approximation du filtre d’oreille externe pour une onde pénértrant l’oreille avec un angle de 0° (Lopez-Poveda and Meddis, 2001; Pralong and Carlile, 1996).</em></span><a class="headerlink" href="#outer-ear-filter-jpg" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
-<p>Lorsqu’on applique ce filtre à un son, par exemple ici un brouhaha composé de 5 voix superposées, on constate une amplification des fréquences entre 2000 et 3000 Hz.</p>
+<p>Lorsqu’on applique ce filtre à un signal sonore, par exemple ici un brouhaha composé de 5 voix superposées, on constate une légère amplification des fréquences entre 2000 et 3000 Hz.</p>
 <figure class="align-center" id="outer-ear-demo-jpg">
-<a class="reference internal image-reference" href="../_images/outer_ear_demo.jpg"><img alt="Démo du filtre d'oreille externe" src="../_images/outer_ear_demo.jpg" style="height: 200px;" />
+<a class="reference internal image-reference" href="../_images/outer_ear_demo.jpg"><img alt="Démo du filtre d'oreille externe" src="../_images/outer_ear_demo.jpg" style="height: 300px;" />
 </a>
 <figcaption>
 <p><span class="caption-number">Fig. 52 </span><span class="caption-text"><em>Spectrogramme d’un brouhaha composé de 5 voix superposées, avant (gauche) et après (droite) passage par l’oreille externe. Cette figure a été obtenue par simulation grâce au filtre décrit ci-dessus.</em></span><a class="headerlink" href="#outer-ear-demo-jpg" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
+<p>Bien qu’extrêmement simple cette simulation de l’oreille externe comme un simple filtre linéaire est assez courante dans les modèles ne s’intéressant pas à la localisation (Osses et al., 2022).</p>
 </section>
 <section id="notes">
 <h2>Notes<a class="headerlink" href="#notes" title="Link to this heading">#</a></h2>
@@ -498,6 +499,7 @@ document.write(`
 <h2>Références<a class="headerlink" href="#references" title="Link to this heading">#</a></h2>
 <p>Lopez-Poveda, E. A., Johannesen, P. T., Pérez-González, P., Blanco, J. L., Kalluri, S., &amp; Edwards, B. (2017). Predictors of Hearing-Aid Outcomes. Trends in Hearing, 21, 2331216517730526. https://doi.org/10.1177/2331216517730526</p>
 <p>Møller, H., Sørensen, M. F., Hammershøi, D., &amp; Jensen, C. B. (1995). Head-Related Transfer Functions of Human Subjects. Journal of The Audio Engineering Society.</p>
+<p>Osses, A., Varnet, L., Carney, L. H., Dau, T., Bruce, I. C., Verhulst, S., &amp; Majdak, P. (2022). A comparative study of eight human auditory models of monaural processing. Acta Acustica, 6, 17. https://doi.org/10.1051/aacus/2022008</p>
 <p>Pralong, D., &amp; Carlile, S. (1996). The role of individualized headphone calibration for the generation of high fidelity virtual auditory space. The Journal of the Acoustical Society of America, 100(6), 3785–3793. https://doi.org/10.1121/1.417337</p>
 </section>
 </section>

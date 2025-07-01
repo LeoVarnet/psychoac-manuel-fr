@@ -27,4 +27,4 @@ Cet ouvrage est publié sous une licence [CC-BY-NC-SA](https://creativecommons.o
 
 ````{margin}
 ```{warning}
-These pages are currently under construction and will be updated continuou
+Ces pages sont en cours de construction

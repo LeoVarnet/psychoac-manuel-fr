@@ -1,7 +1,7 @@
 
 # Oreille externe
 
-Nous entamons notre périple le long du système auditif par l'élément qui constitue l'interface avec le monde extérieur : l'**oreille externe**. Celle-ci est composée de deux parties : le **pavillon** et le **canal auditif**. Bien que très sommaire -- elle se résume à un simple "entonnoir" passif par lequel le son peut s'engouffrer -- l'oreille externe réalise en réalité certains traitements importants pour l'audition. 
+Nous entamons notre périple le long du système auditif par l'élément qui constitue l'interface avec le monde extérieur : l'**oreille externe**. Celle-ci est composée de deux parties : le **pavillon** et le **conduit auditif**. Bien que très sommaire -- elle se résume à un simple "entonnoir" passif par lequel le son peut s'engouffrer -- l'oreille externe réalise en réalité certains traitements importants pour l'audition. 
 
 ```{figure} SysAudExt_OE.JPG
 ---
@@ -36,7 +36,7 @@ align: center
 *HRTF mesurées sur 40 individus, pour 3 directions. Le trait blanc correspond à la moyenne sur le groupe. (Møller et al, 1995)*
 ```
 
-Dans l'ensemble les résonnances au sein de l'oreille externe conduisent à une amplification des fréquences autour de 2 kHz (~ +10 dB). En effet, la forme tubulaire du conduit auditif et sa taille induisent mécaniquement des résonnances dans cette gamme de fréquence.
+Dans l'ensemble les résonnances au sein de l'oreille externe conduisent à une amplification des fréquences autour de 2 kHz (~ +10 dB). En effet, la forme tubulaire du conduit auditif et sa taille induisent mécaniquement des résonnances dans cette gamme de fréquence. Au bout du conduit auditif, l'onde fait ensuite vibrer le tympan, une membrane qui assure le lien avec l'oreille moyenne.
 
 ## Modéliser l'oreille externe 
 

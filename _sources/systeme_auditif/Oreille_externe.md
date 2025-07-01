@@ -40,7 +40,7 @@ Dans l'ensemble les résonnances au sein de l'oreille externe conduisent à une 
 
 ## Modéliser l'oreille externe 
 
-Dans le cadre de ce chapitre nous ne nous intéresserons pas au traitement de l'information de localisation des sons. Pour modéliser l'effet de l'oreille externe, nous choisirons donc de partir de l'hypothèse de sons pénétrant dans l'oreille avec un angle d'incidence de 90°, ce qui correspond par exemple à une écoute au casque. Dans ce cas, il suffit de considérer la HRTF centrale présentée dans la figure précédente, et de l’utiliser comme un filtre linéaire, ainsi qu'illustré dans la figure suivante :
+Dans le cadre de ce chapitre nous ne nous intéresserons pas au traitement de l'information de localisation des sons. Pour modéliser l'effet de l'oreille externe, nous choisirons donc de partir de l'hypothèse de sons pénétrant dans l'oreille avec un angle d'incidence de 90°,  comme c'est le cas lors d’une écoute au casque. Dans ce cas, il suffit de considérer la HRTF centrale présentée dans la figure précédente, et de l’utiliser comme un filtre linéaire, ainsi qu'illustré dans la figure suivante :
 
 ```{figure} outer_ear_filter.jpg
 ---
@@ -49,7 +49,7 @@ alt: Filtre d'oreille externe
 height: 200px
 align: center
 ---
-*Approximation du filtre d'oreille externe pour une onde pénértrant l'oreille avec un angle de 0° (Lopez-Poveda and Meddis, 2001; Pralong and Carlile, 1996).*
+*Approximation du filtre d'oreille externe pour une onde pénértrant l'oreille latéralement, à 90° par rapport à l'axe de la tête (Lopez-Poveda and Meddis, 2001; Pralong and Carlile, 1996).*
 ```
 
 Lorsqu'on applique ce filtre à un signal sonore, par exemple ici un brouhaha composé de 5 voix superposées, on constate une légère amplification des fréquences entre 2000 et 3000 Hz.

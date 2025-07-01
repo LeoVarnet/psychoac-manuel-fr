@@ -30,7 +30,7 @@ Comme nous venons de le voir, l'oreille externe réalise un filtrage directionne
 ---
 name: HRTF.jpg
 alt: HRTF
-height: 500px
+height: 300px
 align: center
 ---
 *HRTF mesurées sur 40 individus, pour 3 directions. Le trait blanc correspond à la moyenne sur le groupe. (Møller et al, 1995)*
@@ -46,7 +46,7 @@ Dans le cadre de ce chapitre nous ne nous intéresserons pas au traitement de l'
 ---
 name: outer_ear_filter.jpg
 alt: Filtre d'oreille externe
-height: 400px
+height: 300px
 align: center
 ---
 *Approximation du filtre d'oreille externe pour une onde pénértrant l'oreille avec un angle de 0° (Lopez-Poveda and Meddis, 2001; Pralong and Carlile, 1996).*
@@ -58,7 +58,7 @@ Lorsqu'on applique ce filtre à un son, par exemple ici un brouhaha composé de 
 ---
 name: outer_ear_demo.jpg
 alt: Démo du filtre d'oreille externe
-height: 400px
+height: 200px
 align: center
 ---
 *Spectrogramme d'un brouhaha composé de 5 voix superposées, avant (gauche) et après (droite) passage par l'oreille externe. Cette figure a été obtenue par simulation grâce au filtre décrit ci-dessus.*

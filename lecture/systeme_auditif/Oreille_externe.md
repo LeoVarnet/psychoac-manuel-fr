@@ -40,29 +40,31 @@ Dans l'ensemble les résonnances au sein de l'oreille externe conduisent à une 
 
 ## Modéliser l'oreille externe 
 
-Dans le cadre de ce chapitre nous ne nous intéresserons pas au traitement de l'information de localisation des sons. Nous choisirons donc de partir de l'hypothèse de sons pénétrant dans l'oreille avec un angle de 0° (par exemple écoute au casque). Dans ce cas, l'oreille externe peut être modélisée simplement par un filtre dont la fonction de transfert est représentée en figure suivante :
+Dans le cadre de ce chapitre nous ne nous intéresserons pas au traitement de l'information de localisation des sons. Pour modéliser l'effet de l'oreille externe, nous choisirons donc de partir de l'hypothèse de sons pénétrant dans l'oreille avec un angle d'incidence de 90°, ce qui correspond par exemple à une écoute au casque. Dans ce cas, il suffit de considérer la HRTF centrale présentée dans la figure précédente, et de l’utiliser comme fonction de transfert pour un filtre, comme illustré dans la figure suivante :
 
 ```{figure} outer_ear_filter.jpg
 ---
 name: outer_ear_filter.jpg
 alt: Filtre d'oreille externe
-height: 300px
+height: 200px
 align: center
 ---
 *Approximation du filtre d'oreille externe pour une onde pénértrant l'oreille avec un angle de 0° (Lopez-Poveda and Meddis, 2001; Pralong and Carlile, 1996).*
 ```
 
-Lorsqu'on applique ce filtre à un son, par exemple ici un brouhaha composé de 5 voix superposées, on constate une amplification des fréquences entre 2000 et 3000 Hz.
+Lorsqu'on applique ce filtre à un signal sonore, par exemple ici un brouhaha composé de 5 voix superposées, on constate une légère amplification des fréquences entre 2000 et 3000 Hz.
 
 ```{figure} outer_ear_demo.jpg
 ---
 name: outer_ear_demo.jpg
 alt: Démo du filtre d'oreille externe
-height: 200px
+height: 300px
 align: center
 ---
 *Spectrogramme d'un brouhaha composé de 5 voix superposées, avant (gauche) et après (droite) passage par l'oreille externe. Cette figure a été obtenue par simulation grâce au filtre décrit ci-dessus.*
 ```
+
+Bien qu'extrêmement simple cette simulation de l'oreille externe comme un simple filtre linéaire est assez courante dans les modèles ne s'intéressant pas à la localisation (Osses et al., 2022).
 
 ## Notes
 
@@ -75,5 +77,7 @@ align: center
 Lopez-Poveda, E. A., Johannesen, P. T., Pérez-González, P., Blanco, J. L., Kalluri, S., & Edwards, B. (2017). Predictors of Hearing-Aid Outcomes. Trends in Hearing, 21, 2331216517730526. https://doi.org/10.1177/2331216517730526
 
 Møller, H., Sørensen, M. F., Hammershøi, D., & Jensen, C. B. (1995). Head-Related Transfer Functions of Human Subjects. Journal of The Audio Engineering Society. 
+
+Osses, A., Varnet, L., Carney, L. H., Dau, T., Bruce, I. C., Verhulst, S., & Majdak, P. (2022). A comparative study of eight human auditory models of monaural processing. Acta Acustica, 6, 17. https://doi.org/10.1051/aacus/2022008
 
 Pralong, D., & Carlile, S. (1996). The role of individualized headphone calibration for the generation of high fidelity virtual auditory space. The Journal of the Acoustical Society of America, 100(6), 3785–3793. https://doi.org/10.1121/1.417337

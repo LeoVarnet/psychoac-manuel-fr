@@ -404,9 +404,7 @@ document.write(`
   </button>
 `);
 </script>
-<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="fa-solid fa-list"></span>
-</button>
+
 </div></div>
       
     </div>
@@ -422,16 +420,6 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
-            <div>
-                <h2> Contents </h2>
-            </div>
-            <nav aria-label="Page">
-                <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#role-et-fonctionnement-de-l-oreille-moyenne">Rôle et fonctionnement de l’oreille moyenne</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#reflexe-stapedien">Réflexe stapédien</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#modelisation-de-l-oreille-moyenne">Modélisation de l’oreille moyenne</a></li>
-</ul>
-            </nav>
         </div>
     </div>
 </div>
@@ -443,6 +431,12 @@ document.write(`
                   
   <section id="oreille-moyenne">
 <h1>Oreille moyenne<a class="headerlink" href="#oreille-moyenne" title="Link to this heading">#</a></h1>
+<aside class="margin sidebar">
+<p class="sidebar-title"></p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Page en cours de construction</p>
+</div>
 <p>L’<strong>oreille moyenne</strong> est composée à chacune de ses extrémités de membranes tendues : le <strong>tympan</strong> situé au fond du conduit auditif, et la <strong>fenêtre ovale</strong> qui mène à l’oreille interne. Les deux sont reliés par une série d’<strong>osselets</strong> – connus pour être les plus petits os du corps humain : le <strong>marteau</strong>, l’<strong>enclume</strong>, et l’<strong>étrier</strong>.</p>
 <figure class="align-center" id="syst-ext-3-png">
 <a class="reference internal image-reference" href="../_images/syst_ext_3.png"><img alt="Systeme auditif externe - oreille moyenne" src="../_images/syst_ext_3.png" style="height: 400px;" />
@@ -451,21 +445,17 @@ document.write(`
 <p><span class="caption-number">Fig. 53 </span><span class="caption-text"><em>Schéma du système auditif périphérique mettant en évidence l’oreille moyenne.</em></span><a class="headerlink" href="#syst-ext-3-png" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
-<section id="role-et-fonctionnement-de-l-oreille-moyenne">
-<h2>Rôle et fonctionnement de l’oreille moyenne<a class="headerlink" href="#role-et-fonctionnement-de-l-oreille-moyenne" title="Link to this heading">#</a></h2>
+<h2 class="rubric" id="role-et-fonctionnement-de-l-oreille-moyenne">Rôle et fonctionnement de l’oreille moyenne</h2>
 <p>La fonction principale de l’oreille moyenne est de <strong>convertir les vibrations de l’air parvenant au tympan en vibrations dans un liquide</strong> au sein de l’oreille interne (la périlymphe). Si ce changement de milieu avait lieu directement, sans l’intermédiaire de l’oreille moyenne, il entraînerait une perte de 30 dB, soit 99.9% de la puissance du son, car la majeure partie de l’onde serait simplement réverbérée (comme on peut en faire l’expérience en écoutant, sous l’eau, des sons émis à l’extérieur de l’eau, qui nous parviennent de façon extrêmement atténuée). Ce système de transmission repose sur le principe du levier, et sur le rapport entre la large surface du tympan et la faible surface de la fenêtre ovale.</p>
-</section>
-<section id="reflexe-stapedien">
-<h2>Réflexe stapédien<a class="headerlink" href="#reflexe-stapedien" title="Link to this heading">#</a></h2>
+<h2 class="rubric" id="reflexe-stapedien">Réflexe stapédien</h2>
 <p>De même que la pupille de notre œil peut adapter son diamètre en fonction de l’intensité lumineuse ambiante, notre oreille moyenne dispose d’un mécanisme visant à atténuer la transmission des sons de trop haute intensité, protégeant ainsi l’oreille interne, plus fragile. Le muscle de l’étrier est capables de se tendre de façon réflexe pour raidir et bloquer partiellement le système de levier décrit ci-dessus : on parle alors de <strong>réflexe stapédien</strong>. Ce réflexe se déclenche en l’espace de quelques dizaines de millisecondes lorsque le niveau de stimulation dépasse ~80-90 dB SPL (bien que ce seuil dépende de plusieurs facteurs), mais également en anticipation lorsque nous nous apprêtons à émettre un son – puisque notre propre voix est particulièrement forte à nos oreilles.</p>
-</section>
-<section id="modelisation-de-l-oreille-moyenne">
-<h2>Modélisation de l’oreille moyenne<a class="headerlink" href="#modelisation-de-l-oreille-moyenne" title="Link to this heading">#</a></h2>
+<h2 class="rubric" id="modelisation-de-l-oreille-moyenne">Modélisation de l’oreille moyenne</h2>
 <p>Hormis le réflexe stapédien, l’oreille moyenne se comporte comme un système passif, communiquant l’onde sonore à un milieu liquide.</p>
 <p>Comme pour l’oreille externe, nous modéliserons l’oreille moyenne par un simple filtre – ce qui revient à faire l’hypothèse que le réflexe stapédien ne se déclenche pas.</p>
-<p>Modélisation par deux filtres successifs : filtre d’oreille externe / filtre d’oreille moyenne</p>
+<p>Modélisation par deux filtres successifs :
+filtre d’oreille externe / filtre d’oreille moyenne</p>
 <p>Modélisation par un seul filtre d’oreille externe-moyenne</p>
-</section>
+</aside>
 </section>
 
     <script type="text/x-thebe-config">
@@ -522,23 +512,6 @@ document.write(`
             </div>
             
             
-              
-                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
-
-
-  <div class="sidebar-secondary-item">
-  <div class="page-toc tocsection onthispage">
-    <i class="fa-solid fa-list"></i> Contents
-  </div>
-  <nav class="bd-toc-nav page-toc">
-    <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#role-et-fonctionnement-de-l-oreille-moyenne">Rôle et fonctionnement de l’oreille moyenne</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#reflexe-stapedien">Réflexe stapédien</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#modelisation-de-l-oreille-moyenne">Modélisation de l’oreille moyenne</a></li>
-</ul>
-  </nav></div>
-
-</div></div>
               
             
           </div>

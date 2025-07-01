@@ -23,9 +23,9 @@ Pour l'exprimer dans les termes de Marr, ce cours s'intéresse en premier lieu �
 
 Le plan de ce chapitre suit la structure du système auditif humain. Nous commencerons par décrire le **système auditif périphérique** (ou **externe**), qui va du pavillon -- le seul élément visible de l'extérieur -- au nerf auditif. Cet ensemble est très complexe et réalise plusieurs fonctions. On le décompose donc habituellement en trois grandes sous-parties : l'**oreille externe**, l'**oreille moyenne**, et l'**oreille interne**. 
 
-```{figure} syst_ext.jpg
+```{figure} syst_aud_ext.jpg
 ---
-name: syst_ext.jpg
+name: syst_aud_ext.jpg
 alt: Systeme auditif externe
 height: 400px
 align: center

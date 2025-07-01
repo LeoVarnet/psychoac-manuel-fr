@@ -461,7 +461,7 @@ document.write(`
 </section>
 <section id="conduit-auditif">
 <h2>Conduit auditif<a class="headerlink" href="#conduit-auditif" title="Link to this heading">#</a></h2>
-<p>Comme nous venons de le voir, l’oreille externe réalise un filtrage directionnel. La figure suivante présente les fonctions de transfert correspondant à trois directions, mesurées chez sur 40 individus.</p>
+<p>Comme nous venons de le voir, l’oreille externe réalise un filtrage directionnel. La figure suivante présente les HRTF correspondant à trois directions, mesurées chez 40 individus.</p>
 <figure class="align-center" id="hrtf-jpg">
 <a class="reference internal image-reference" href="../_images/HRTF.jpg"><img alt="HRTF" src="../_images/HRTF.jpg" style="height: 300px;" />
 </a>
@@ -473,7 +473,7 @@ document.write(`
 </section>
 <section id="modeliser-l-oreille-externe">
 <h2>Modéliser l’oreille externe<a class="headerlink" href="#modeliser-l-oreille-externe" title="Link to this heading">#</a></h2>
-<p>Dans le cadre de ce chapitre nous ne nous intéresserons pas au traitement de l’information de localisation des sons. Pour modéliser l’effet de l’oreille externe, nous choisirons donc de partir de l’hypothèse de sons pénétrant dans l’oreille avec un angle d’incidence de 90°, ce qui correspond par exemple à une écoute au casque. Dans ce cas, il suffit de considérer la HRTF centrale présentée dans la figure précédente, et de l’utiliser comme fonction de transfert pour un filtre, comme illustré dans la figure suivante :</p>
+<p>Dans le cadre de ce chapitre nous ne nous intéresserons pas au traitement de l’information de localisation des sons. Pour modéliser l’effet de l’oreille externe, nous choisirons donc de partir de l’hypothèse de sons pénétrant dans l’oreille avec un angle d’incidence de 90°, ce qui correspond par exemple à une écoute au casque. Dans ce cas, il suffit de considérer la HRTF centrale présentée dans la figure précédente, et de l’utiliser comme un filtre linéaire, ainsi qu’illustré dans la figure suivante :</p>
 <figure class="align-center" id="outer-ear-filter-jpg">
 <a class="reference internal image-reference" href="../_images/outer_ear_filter.jpg"><img alt="Filtre d'oreille externe" src="../_images/outer_ear_filter.jpg" style="height: 200px;" />
 </a>

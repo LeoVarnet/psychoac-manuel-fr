@@ -23,7 +23,7 @@ La configuration exacte des circonvolutions est spécifique à chaque individu, 
 
 ## Conduit auditif 
 
-Comme nous venons de le voir, l'oreille externe réalise un filtrage directionnel. La figure suivante présente les fonctions de transfert correspondant à trois directions, mesurées chez sur 40 individus.
+Comme nous venons de le voir, l'oreille externe réalise un filtrage directionnel. La figure suivante présente les HRTF correspondant à trois directions, mesurées chez 40 individus.
 
 
 ```{figure} HRTF.jpg
@@ -40,7 +40,7 @@ Dans l'ensemble les résonnances au sein de l'oreille externe conduisent à une 
 
 ## Modéliser l'oreille externe 
 
-Dans le cadre de ce chapitre nous ne nous intéresserons pas au traitement de l'information de localisation des sons. Pour modéliser l'effet de l'oreille externe, nous choisirons donc de partir de l'hypothèse de sons pénétrant dans l'oreille avec un angle d'incidence de 90°, ce qui correspond par exemple à une écoute au casque. Dans ce cas, il suffit de considérer la HRTF centrale présentée dans la figure précédente, et de l’utiliser comme fonction de transfert pour un filtre, comme illustré dans la figure suivante :
+Dans le cadre de ce chapitre nous ne nous intéresserons pas au traitement de l'information de localisation des sons. Pour modéliser l'effet de l'oreille externe, nous choisirons donc de partir de l'hypothèse de sons pénétrant dans l'oreille avec un angle d'incidence de 90°, ce qui correspond par exemple à une écoute au casque. Dans ce cas, il suffit de considérer la HRTF centrale présentée dans la figure précédente, et de l’utiliser comme un filtre linéaire, ainsi qu'illustré dans la figure suivante :
 
 ```{figure} outer_ear_filter.jpg
 ---

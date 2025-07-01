@@ -13,11 +13,9 @@ titlesonly: true
 ---
 name: Griggs-Soundwaves-.jpg
 alt: Illustration de couverture
-width: 500px
+width: 400px
 align: center
 ```
-
-![Cover](Griggs-Soundwaves-.jpg)
 
 # Psychoacoustique et perception auditive, une introduction
 

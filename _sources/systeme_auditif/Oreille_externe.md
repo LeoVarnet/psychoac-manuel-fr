@@ -3,9 +3,9 @@
 
 Nous entamons notre périple le long du système auditif par l'élément qui constitue l'interface avec le monde extérieur : l'**oreille externe**. Celle-ci est composée de deux parties : le **pavillon** et le **canal auditif**. Bien que très sommaire -- elle se résume à un simple "entonnoir" passif par lequel le son peut s'engouffrer -- l'oreille externe réalise en réalité certains traitements importants pour l'audition. 
 
-```{figure} syst_aud_ext_OE.JPG
+```{figure} SysAudExt_OE.JPG
 ---
-name: syst_aud_ext_OE.JPG
+name: SysAudExt_OE.JPG
 alt: Systeme auditif externe - oreille externe
 height: 400px
 align: center

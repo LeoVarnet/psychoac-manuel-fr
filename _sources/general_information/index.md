@@ -9,7 +9,7 @@ titlesonly: true
 ---
 ```
 
-![Cover](Fiveearssurrounded.jpg)
+![Cover](Griggs-Soundwaves-.jpg)
 
 # Psychoacoustique et perception auditive, une introduction
 
@@ -23,7 +23,7 @@ Cet ouvrage est publié sous une licence [CC-BY-NC-SA](https://creativecommons.o
 
 ![CC-BY-NC-SA](../static/Cc-by-nc-sa_icon.svg.png)
 
-Illustration de couverture : cinq oreilles entourées de cheveux, gravure de Charles Le Brun (![Source]([../static/Cc-by-nc-sa_icon.svg.png](https://www.jstor.org/stable/community.24833902)))
+Illustration de couverture : *Sound waves* de Paul Griggs (![Source](https://www.jstor.org/stable/community.24715088))
 
 ```{warning}
 Ces pages sont en cours de construction

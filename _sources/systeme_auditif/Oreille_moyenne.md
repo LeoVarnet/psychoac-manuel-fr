@@ -1,7 +1,6 @@
 
 # Oreille moyenne
 
-````{margin}
 ```{warning}
 Page en cours de construction
 ```

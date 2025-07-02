@@ -7,14 +7,14 @@ L'oreille interne se décompose en trois parties :
 - le nerf auditif, qui assure la jonction entre la cochlée et le système auditif central
 - le système vestibulaire. Ce dernier ne sera pas traité ici puisqu'il ne contribue pas à l'audition. 
 
-```{figure} SysAudExt_iE.JPG
+```{figure} SysAudExt_IE.JPG
 ---
 name: SysAudExt_IE.JPG
-alt: Systeme auditif externe - oreille moyenne
+alt: Systeme auditif externe - oreille interne 
 height: 400px
 align: center
 ---
-*Schéma du système auditif périphérique mettant en évidence l’oreille moyenne.*
+*Schéma du système auditif périphérique mettant en évidence l’oreille interne.*
 ```
 
 ## La cochlée 

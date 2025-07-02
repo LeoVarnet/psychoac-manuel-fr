@@ -36,7 +36,7 @@ align: center
 *HRTF mesurées sur 40 individus, pour 3 directions. Le trait blanc correspond à la moyenne sur le groupe. (Møller et al, 1995)*
 ```
 
-Dans l'ensemble les résonnances au sein de l'oreille externe conduisent à une amplification des fréquences autour de 2 kHz (~ +10 dB). En effet, la forme tubulaire du conduit auditif et sa taille induisent mécaniquement des résonnances dans cette gamme de fréquence. Au bout du conduit auditif, l'onde fait ensuite vibrer le tympan, une membrane qui assure le lien avec l'oreille moyenne.
+Dans l'ensemble les résonnances au sein de l'oreille externe conduisent à une amplification d'environ 10 dB des fréquences autour de 2 kHz. En effet, la forme tubulaire du conduit auditif et sa taille induisent mécaniquement des résonnances dans cette gamme de fréquence. Au bout du conduit auditif, l'onde fait ensuite vibrer le tympan, une membrane qui assure le lien avec l'oreille moyenne.
 
 ## Modéliser l'oreille externe 
 

@@ -7,6 +7,16 @@ L'oreille interne se décompose en trois parties :
 - le nerf auditif, qui assure la jonction entre la cochlée et le système auditif central
 - le système vestibulaire. Ce dernier ne sera pas traité ici puisqu'il ne contribue pas à l'audition. 
 
+```{figure} SysAudExt_ME.JPG
+---
+name: SysAudExt_ME.JPG
+alt: Systeme auditif externe - oreille moyenne
+height: 400px
+align: center
+---
+*Schéma du système auditif périphérique mettant en évidence l’oreille moyenne.*
+```
+
 ## La cochlée 
 
 La cochlée est l’organe qui réalise la décomposition du son en fréquence, c'est-à-dire son analyse spectrale. Sans celle-ci, notre audition serait similaire à celle des insectes qui sont en mesure de percevoir les sons mais non de distinguer les aigus des graves.

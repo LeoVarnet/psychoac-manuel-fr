@@ -14,7 +14,7 @@ alt: Systeme auditif externe - oreille moyenne
 height: 400px
 align: center
 ---
-*Schéma du système auditif périphérique mettant en évidence l’oreille moyenne.*
+*Schéma du système auditif périphérique mettant en évidence l’oreille moyenne. (Source : [Ivy Livingstone, Biodidac](https://omeka.uottawa.ca/biodidac/items/show/4603))*
 ```
 
 ## Rôle et fonctionnement de l'oreille moyenne 

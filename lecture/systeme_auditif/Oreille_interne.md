@@ -18,7 +18,7 @@ alt: Systeme auditif externe - oreille interne
 height: 400px
 align: center
 ---
-*Schéma du système auditif périphérique mettant en évidence l’oreille interne.*
+*Schéma du système auditif périphérique mettant en évidence l’oreille interne. (Source : [Ivy Livingstone, Biodidac](https://omeka.uottawa.ca/biodidac/items/show/4603))*
 ```
 
 ## La cochlée 

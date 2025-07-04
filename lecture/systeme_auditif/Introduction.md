@@ -24,7 +24,7 @@ alt: Systeme auditif externe
 height: 400px
 align: center
 ---
-*Schéma du système auditif périphérique.*
+*Schéma du système auditif périphérique. (Source : [Ivy Livingstone, Biodidac](https://omeka.uottawa.ca/biodidac/items/show/4603))*
 ```
 
 Le nerf auditif marque la frontière avec le **système auditif central**. Celui-ci possède une structure nettement moins linéaire, structuré par de nombreux relais interconnectés. Les voies auditives centrales (*auditory pathways*) remontent le long du tronc cérébral, à la base du cerveau, puis rejoignent sa couche la plus externe, le cortex. 

@@ -10,7 +10,7 @@ alt: Systeme auditif externe - oreille externe
 height: 400px
 align: center
 ---
-*Schéma du système auditif périphérique mettant en évidence l'oreille externe.*
+*Schéma du système auditif périphérique mettant en évidence l'oreille externe. (Source : [Ivy Livingstone, Biodidac](https://omeka.uottawa.ca/biodidac/items/show/4603))*
 ```
 
 ## Pavillon 

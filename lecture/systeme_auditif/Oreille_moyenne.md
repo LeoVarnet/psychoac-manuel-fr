@@ -21,6 +21,16 @@ align: center
 
 La fonction principale de l'oreille moyenne est de **convertir les vibrations de l'air parvenant au tympan en vibrations dans un liquide** au sein de l'oreille interne (la périlymphe). Si ce changement de milieu avait lieu directement, sans l'intermédiaire de l'oreille moyenne, il entraînerait une perte de 30 dB, soit 99.9% de la puissance du son, car la majeure partie de l'onde serait simplement réverbérée (comme on peut en faire l'expérience en écoutant, sous l'eau, des sons émis à l'extérieur de l'eau, qui nous parviennent de façon extrêmement atténuée). Ce système de transmission repose sur le principe du levier, et sur le rapport entre la large surface du tympan et la faible surface de la fenêtre ovale.
 
+```{figure} Gray919.png
+---
+name: Gray919.png
+alt: Osselets
+height: 400px
+align: center
+---
+*Schéma de l'oreille moyenne.*
+```
+
 ## Réflexe stapédien 
 
 De même que la pupille de notre œil peut adapter son diamètre en fonction de l'intensité lumineuse ambiante, notre oreille moyenne dispose d'un mécanisme visant à atténuer la transmission des sons de trop haute intensité, protégeant ainsi l'oreille interne, plus fragile. Le muscle de l'étrier est capables de se tendre de façon réflexe pour raidir et bloquer partiellement le système de levier décrit ci-dessus : on parle alors de **réflexe stapédien**. Ce réflexe se déclenche en l'espace de quelques dizaines de millisecondes lorsque le niveau de stimulation dépasse ~80-90 dB SPL (bien que ce seuil dépende de plusieurs facteurs), mais également en anticipation lorsque nous nous apprêtons à émettre un son -- puisque notre propre voix est particulièrement forte à nos oreilles.

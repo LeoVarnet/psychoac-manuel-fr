@@ -45,7 +45,7 @@ Comme pour l'oreille externe, nous modéliserons l'oreille moyenne par un simple
 ---
 name: middleear_filter.bmp
 alt: middle ear filter.bmp
-height: 400px
+height: 200px
 align: center
 ---
 *Approximation du filtre d’oreille moyenne (trait rouge) et externe + moyenne combinées (trait noir). (Lopez-Poveda and Meddis, 2001; Goode et al., 1994)*

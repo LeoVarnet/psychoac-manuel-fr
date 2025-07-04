@@ -41,9 +41,25 @@ Hormis le réflexe stapédien, l'oreille moyenne se comporte comme un système p
 
 Comme pour l'oreille externe, nous modéliserons l'oreille moyenne par un simple filtre -- ce qui revient à faire l'hypothèse que le réflexe stapédien ne se déclenche pas.
 
+```{figure} middleear_filter.bmp
+---
+name: middleear_filter.bmp
+alt: middle ear filter.bmp
+height: 400px
+align: center
+---
+*Approximation du filtre d’oreille moyenne (trait rouge) et externe + moyenne combinées (trait noir). (Lopez-Poveda and Meddis, 2001; Goode et al., 1994)*
+```
+
 
 
 Modélisation par deux filtres successifs : filtre d’oreille externe / filtre d’oreille moyenne 
 
 Modélisation par un seul filtre d’oreille externe-moyenne
+
+## Références
+
+Lopez-Poveda, E. A., Johannesen, P. T., Pérez-González, P., Blanco, J. L., Kalluri, S., & Edwards, B. (2017). Predictors of Hearing-Aid Outcomes. Trends in Hearing, 21, 2331216517730526. https://doi.org/10.1177/2331216517730526
+
+Goode, R., Killion, M.,Nakamura,  K., & Nishihara, S. (1994). New knowledge about the function of the human middle ear: development of an improved analog model. The American journal of otology, 15(2):145--154. 
 

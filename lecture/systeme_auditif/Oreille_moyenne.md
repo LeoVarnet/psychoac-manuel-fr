@@ -28,7 +28,7 @@ alt: Osselets
 height: 400px
 align: center
 ---
-*Schéma de l'oreille moyenne.*
+*Schéma de l'oreille moyenne. (Source: [Gray's Anatomy](https://commons.wikimedia.org/wiki/File:Gray919.png))*
 ```
 
 ## Réflexe stapédien 

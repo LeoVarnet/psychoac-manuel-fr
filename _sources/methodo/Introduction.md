@@ -58,7 +58,7 @@ alt: Gustav Fechner
 width: 300px
 align: center
 ---
-*Portrait de Gustav Fechner (1801–1887), fondateur de la psychophysique.*
+*Portrait de Gustav Fechner (1801–1887), fondateur de la psychophysique. (Source: [Smithsonian Institution](https://www.flickr.com/photos/smithsonian/2550780211/))*
 ```
 
 

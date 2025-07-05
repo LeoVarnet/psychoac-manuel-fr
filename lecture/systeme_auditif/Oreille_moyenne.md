@@ -55,7 +55,7 @@ Plutôt que de modéliser l'oreille externe et moyenne par deux filtres successi
 
 ## Références
 
-Lopez-Poveda, E. A., Johannesen, P. T., Pérez-González, P., Blanco, J. L., Kalluri, S., & Edwards, B. (2017). Predictors of Hearing-Aid Outcomes. Trends in Hearing, 21, 2331216517730526. https://doi.org/10.1177/2331216517730526
+Lopez-Poveda, E. A., Meddis, R. (2001) A human nonlinear cochlear filterbank. Journal of the Acoustical Society of America Dec;110(6):3107-18. doi: 10.1121/1.1416197.
 
 Goode, R., Killion, M.,Nakamura,  K., & Nishihara, S. (1994). New knowledge about the function of the human middle ear: development of an improved analog model. The American journal of otology, 15(2):145--154. 
 

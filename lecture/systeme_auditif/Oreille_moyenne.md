@@ -39,7 +39,7 @@ De même que la pupille de notre œil peut adapter son diamètre en fonction de 
 
 Hormis le réflexe stapédien, l'oreille moyenne se comporte comme un système passif, communiquant l'onde sonore à un milieu liquide. 
 
-Comme pour l'oreille externe, nous modéliserons l'oreille moyenne par un simple filtre -- ce qui revient à faire l'hypothèse que le réflexe stapédien ne se déclenche pas.
+Comme pour l'oreille externe, nous modéliserons l'oreille moyenne par un simple filtre linéaire -- ce qui revient à faire l'hypothèse que le réflexe stapédien ne se déclenche pas. Ce filtre est représenté en rouge dans la figure suivante. On peut noter que le système des osselets présente lui aussi une résonance particulière, autour de 500-1000 Hz.
 
 ```{figure} middleear_filter.bmp
 ---
@@ -51,11 +51,7 @@ align: center
 *Approximation du filtre d’oreille moyenne (trait rouge) et externe + moyenne combinées (trait noir). (Lopez-Poveda and Meddis, 2001; Goode et al., 1994)*
 ```
 
-
-
-Modélisation par deux filtres successifs : filtre d’oreille externe / filtre d’oreille moyenne 
-
-Modélisation par un seul filtre d’oreille externe-moyenne
+Plutôt que de modéliser l'oreille externe et moyenne par deux filtres successifs, il est également possible de les rassembler en un seul (en noir sur la figure ci-dessus).
 
 ## Références
 

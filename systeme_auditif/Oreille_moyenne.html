@@ -474,7 +474,7 @@ document.write(`
 <section id="modelisation-de-l-oreille-moyenne">
 <h2>Modélisation de l’oreille moyenne<a class="headerlink" href="#modelisation-de-l-oreille-moyenne" title="Link to this heading">#</a></h2>
 <p>Hormis le réflexe stapédien, l’oreille moyenne se comporte comme un système passif, communiquant l’onde sonore à un milieu liquide.</p>
-<p>Comme pour l’oreille externe, nous modéliserons l’oreille moyenne par un simple filtre – ce qui revient à faire l’hypothèse que le réflexe stapédien ne se déclenche pas.</p>
+<p>Comme pour l’oreille externe, nous modéliserons l’oreille moyenne par un simple filtre linéaire – ce qui revient à faire l’hypothèse que le réflexe stapédien ne se déclenche pas. Ce filtre est représenté en rouge dans la figure suivante. On peut noter que le système des osselets présente lui aussi une résonance particulière, autour de 500-1000 Hz.</p>
 <figure class="align-center" id="middleear-filter-bmp">
 <a class="reference internal image-reference" href="../_images/middleear_filter.bmp"><img alt="middle ear filter.bmp" src="../_images/middleear_filter.bmp" style="height: 200px;" />
 </a>
@@ -482,8 +482,7 @@ document.write(`
 <p><span class="caption-number">Fig. 55 </span><span class="caption-text"><em>Approximation du filtre d’oreille moyenne (trait rouge) et externe + moyenne combinées (trait noir). (Lopez-Poveda and Meddis, 2001; Goode et al., 1994)</em></span><a class="headerlink" href="#middleear-filter-bmp" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
-<p>Modélisation par deux filtres successifs : filtre d’oreille externe / filtre d’oreille moyenne</p>
-<p>Modélisation par un seul filtre d’oreille externe-moyenne</p>
+<p>Plutôt que de modéliser l’oreille externe et moyenne par deux filtres successifs, il est également possible de les rassembler en un seul (en noir sur la figure ci-dessus).</p>
 </section>
 <section id="references">
 <h2>Références<a class="headerlink" href="#references" title="Link to this heading">#</a></h2>

@@ -4,12 +4,12 @@
 Page en cours de construction
 ```
 
-L'oreille interne constitue l'élément central du système auditif périphérique. Tandis que l'oreille externe et moyenne peut se réduire, en première approximation, à un simple filtre linéaire, l'oreille interne réalise plusieurs transformations essentielles des vibrations qui lui parviennent par la fenêtre ovale. Sa fonction est d'analyser les sons en fréquence, mais également d'amplifier les sons faibles et de compresser les sons forts. Enfin, elle réalise une transduction, en convertissant les vibrations physiques en signaux électriques.
+L'**oreille interne** constitue l'élément central du système auditif périphérique. Tandis que l'oreille externe et moyenne peut se réduire, en première approximation, à un simple filtre linéaire, l'oreille interne réalise plusieurs transformations essentielles des vibrations qui lui parviennent par la fenêtre ovale. Sa fonction est d'**analyser les sons en fréquence**, mais également d'**amplifier les sons faibles et de compresser les sons forts**. Enfin, elle réalise une **transduction, en convertissant les vibrations physiques en signaux électriques**.
 
 L'oreille interne se décompose en trois parties : 
-- la cochlée, petit bijou de l'évolution qui comme nous le verrons est lui-même constitué de plusieurs éléments en interaction
-- le nerf auditif, qui assure la jonction entre la cochlée et le système auditif central
-- le système vestibulaire. Ce dernier ne sera pas traité ici puisqu'il ne contribue pas à l'audition. 
+- la **cochlée**, petit bijou de l'évolution qui comme nous le verrons est lui-même constitué de plusieurs éléments en interaction
+- le **nerf auditif**, qui assure la jonction entre la cochlée et le système auditif central
+- le **système vestibulaire**. Ce dernier ne sera pas traité ici puisqu'il ne contribue pas à l'audition. 
 
 ```{figure} SysAudExt_IE.JPG
 ---
@@ -23,9 +23,9 @@ align: center
 
 ## La cochlée 
 
-La cochlée est l’organe qui réalise la décomposition du son en fréquence, c'est-à-dire son analyse spectrale. Sans celle-ci, notre audition serait similaire à celle des insectes qui sont en mesure de percevoir les sons mais non de distinguer les aigus des graves.
+La **cochlée** est l’organe qui réalise la décomposition du son en fréquence, c'est-à-dire son analyse spectrale. Sans celle-ci, notre audition serait similaire à celle des insectes qui sont en mesure de percevoir les sons mais non de distinguer les aigus des graves.
 
-La cochlée ressemble à une coquille d'escargot [d'où son ancien nom français de limaçon, et la racine latine "cochlea", coquille d'escargot] à ceci près que la spirale est divisée en deux sur toute sa longueur pour former non une hélice simple mais une double hélice : elle possède une entrée (la fenêtre ovale attachée à l'étrier) et une sortie (la fenêtre ronde). L'onde communiquée par les mouvements de l'étrier peut donc remonter depuis la base de la cochlée jusqu'à son sommet (**l'apex**) puis redescendre par la seconde hélice pour sortir par la fenêtre ronde. Ce cheminement du son est illustré sur la figure X. (Notez au passage qu'en réalité la cochlée est divisée non en deux mais en trois conduits, mais deux d'entre eux sont perméables du point de vue des vibrations et ils comptent donc pour un seul).
+La cochlée ressemble à une coquille d'escargot [d'où son ancien nom français de limaçon, et la racine latine "cochlea", coquille d'escargot] à ceci près que le conduit en spirale est divisé en deux sur toute sa longueur pour former non une hélice simple mais une double hélice. La cochlée possède donc une entrée (la fenêtre ovale attachée à l'étrier) et une sortie (la fenêtre ronde). L'onde communiquée par les mouvements de l'étrier peut donc remonter depuis la base de la cochlée jusqu'à son sommet (**l'apex**) puis redescendre par la seconde hélice pour sortir par la fenêtre ronde. Ce cheminement du son est illustré sur la figure X. (Notez au passage qu'en réalité la cochlée est divisée non en deux mais en trois conduits, mais deux d'entre eux sont perméables du point de vue des vibrations et ils comptent donc pour un seul).
 
 
  the spiral shape does not appear to have any

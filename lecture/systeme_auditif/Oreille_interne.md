@@ -27,11 +27,11 @@ La **cochlée** est l’organe qui réalise notamment la décomposition du son e
 
 La cochlée ressemble à une coquille d'escargot [d'où son ancien nom français de limaçon, et la racine latine "cochlea", coquille d'escargot] à ceci près que le conduit en spirale est divisé en deux sur toute sa longueur par une structure relativement rigide, la **membrane basilaire**, pour former une double hélice montante et descendante (voir Figure). La cochlée est emplie d'un liquide et possède à sa base deux ouvertures couvertes d'une membrane : une entrée (la fenêtre ovale, attachée à l'étrier et donc reliée à  l'oreille moyenne) et une sortie (la fenêtre ronde). L'onde communiquée par les mouvements de l'étrier au liquide contenu dans la cochlée peut donc remonter depuis la **base** de la cochlée jusqu'à son sommet (**l'apex**) puis redescendre par la seconde hélice pour ressortir par la fenêtre ronde. Ce cheminement du son est illustré sur la figure X. (Notez qu'en réalité la cochlée est divisée non en deux mais en trois conduits, mais deux d'entre eux sont perméables du point de vue des vibrations et comptent donc pour un seul).
 
-Dans son *Traité de l'organe de l'ouïe*, publié en 1683 et considéré comme le premier ouvrage d'otologie, Joseph-Guichard Du Verney décrit précisément la structure de la cochlée et propose sa première théorie fonctionnelle. Il remarqua que la membrane basilaire n'est pas uniforme, mais varie en épaisseur et en résistance sur toute sa longueur 
+Dans son *Traité de l'organe de l'ouïe*, publié en 1683 et considéré comme le premier ouvrage d'otologie, Joseph-Guichard Du Verney décrit précisément la structure de la cochlée et propose sa première théorie fonctionnelle. Il remarqua que la membrane basilaire n'est pas uniforme, mais varie en épaisseur et en résistance sur toute sa longueur : elle est large et rigide à la base, mais fine et souple au niveau de l'apex. Du Verney émet donc l'hypothèse que ce gradient de propriétés physiques permet à la membrane basilaire d'être sensible à différentes fréquences en différents points. 
 
 >[La membrane basilaire] n'est pas seulement capable de recevoir les tremblements de l'air, mais sa structure doit faire penser qu'elle peut répondre à tous leurs caractères différents.
 
-
+Hermann Von Helmholtz complètera cette théorie en Xxx en ajoutant le terme de résonnance -- et en corrigeant quelques erreurs commises par Du Verney. L'idée est simple et intuitive : en effectuant son trajet le long de la double hélice, l'onde sonore entraîne la membrane basilaire. Néanmoins 
 
  the spiral shape does not appear to have any
 functional significance (except for saving space), and the cochlea is often

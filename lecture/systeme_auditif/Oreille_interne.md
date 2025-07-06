@@ -25,6 +25,9 @@ align: center
 
 La cochlée est l’organe qui réalise la décomposition du son en fréquence, c'est-à-dire son analyse spectrale. Sans celle-ci, notre audition serait similaire à celle des insectes qui sont en mesure de percevoir les sons mais non de distinguer les aigus des graves.
 
+La cochlée ressemble à une coquille d'escargot [d'où son ancien nom français de limaçon, et la racine latine "cochlea", coquille d'escargot] à ceci près que la spirale est divisée en deux sur toute sa longueur pour former non une hélice simple mais une double hélice : elle possède une entrée (la fenêtre ovale attachée à l'étrier) et une sortie (la fenêtre ronde). L'onde communiquée par les mouvements de l'étrier peut donc remonter depuis la base de la cochlée jusqu'à son sommet (**l'apex**) puis redescendre par la seconde hélice pour sortir par la fenêtre ronde. Ce cheminement du son est illustré sur la figure X. (Notez au passage qu'en réalité la cochlée est divisée non en deux mais en trois conduits, mais deux d'entre eux sont perméables du point de vue des vibrations et ils comptent donc pour un seul).
+
+
  the spiral shape does not appear to have any
 functional significance (except for saving space), and the cochlea is often
 described as if the spiral had been "unwound". The cochlea is filled with

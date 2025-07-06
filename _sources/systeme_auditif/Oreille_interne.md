@@ -55,6 +55,15 @@ Hermann von Helmholtz (1821 –1894) + resonnateurs
 
 Georg von Békésy (1899 –1972)
 
+odern-day treatment 4 of passive cochlear mechanics can be found in
+Fletcher (1992). A convenient analogue treatment giving a simple one-dimensional
+model is to take voltage to represent pressure and current to represent acoustic
+volume flow. Simplifying as much as possible, inductances represent the mechanical
+inertance, due to mass, of the fluid in the upper and lower galleries, which the stapes
+pressure encounters when the oval window pushes in and out; the capacitances
+represent the compliance of the basilar membrane, which tends to deflect in reaction
+to the pressure in the fluid moving along the galleries
+
 However, through almost the entire length of the cochlea runs a structure known
 as the basilar membrane, which subdivides the fluid-filled spaces inside the cochlea
 into upper compartments (the scala vestibuli and scala media) and lower compartments

@@ -63,6 +63,13 @@ inertance, due to mass, of the fluid in the upper and lower galleries, which the
 pressure encounters when the oval window pushes in and out; the capacitances
 represent the compliance of the basilar membrane, which tends to deflect in reaction
 to the pressure in the fluid moving along the galleries
+ At some angular frequency,
+ω, within the auditory range, the inertia and
+compliance of one section, taken to be the nth, will be in resonance so that
+ω =
+1/(LnCn )1/2 and the section will have almost no impedance and look like a short
+circuit (a hole). The result is that all the flow passes through this section, causing
+large displacement of the partition, limited only by dampin
 
 However, through almost the entire length of the cochlea runs a structure known
 as the basilar membrane, which subdivides the fluid-filled spaces inside the cochlea

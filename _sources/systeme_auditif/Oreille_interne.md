@@ -25,7 +25,12 @@ align: center
 
 La **cochlée** est l’organe qui réalise la décomposition du son en fréquence, c'est-à-dire son analyse spectrale. Sans celle-ci, notre audition serait similaire à celle des insectes qui sont en mesure de percevoir les sons mais non de distinguer les aigus des graves.
 
-La cochlée ressemble à une coquille d'escargot [d'où son ancien nom français de limaçon, et la racine latine "cochlea", coquille d'escargot] à ceci près que le conduit en spirale est divisé en deux sur toute sa longueur pour former non une hélice simple mais une double hélice. La cochlée possède donc une entrée (la fenêtre ovale attachée à l'étrier) et une sortie (la fenêtre ronde). L'onde communiquée par les mouvements de l'étrier peut donc remonter depuis la base de la cochlée jusqu'à son sommet (**l'apex**) puis redescendre par la seconde hélice pour sortir par la fenêtre ronde. Ce cheminement du son est illustré sur la figure X. (Notez au passage qu'en réalité la cochlée est divisée non en deux mais en trois conduits, mais deux d'entre eux sont perméables du point de vue des vibrations et ils comptent donc pour un seul).
+La cochlée ressemble à une coquille d'escargot [d'où son ancien nom français de limaçon, et la racine latine "cochlea", coquille d'escargot] à ceci près que le conduit en spirale est divisé en deux sur toute sa longueur par une structure relativement rigide, la **membrane basilaire**, pour former non une hélice simple mais une double hélice. La cochlée possède donc une entrée (la fenêtre ovale attachée à l'étrier) et une sortie (la fenêtre ronde). L'onde communiquée par les mouvements de l'étrier au liquide contenu dans la cochlée peut donc remonter depuis la **base** de la cochlée jusqu'à son sommet (**l'apex**) puis redescendre par la seconde hélice pour ressortir par la fenêtre ronde. Ce cheminement du son est illustré sur la figure X. (Notez au passage qu'en réalité la cochlée est divisée non en deux mais en trois conduits, mais deux d'entre eux sont perméables du point de vue des vibrations et comptent donc pour un seul).
+
+Dans son *Traité de l'organe de l'ouïe*, publié en xxx et considéré comme le premier ouvrage d'ontologie, Joseph-Guichard Du Verney décrit précisément la structure de la cochlée et propose sa première théorie fonctionnelle.
+
+>[La membrane basilaire] n'est pas seulement capable de recevoir les tremblements de l'air, mais sa structure doit faire penser qu'elle peut répondre à tous leurs caractères différents.
+
 
 
  the spiral shape does not appear to have any
@@ -50,9 +55,8 @@ the BM from the base toward the apex. The amplitude of the wave increases at
 first and then decreases rather abruptly with increasing distance from the
 basal end.
 
->[La membrane basilaire] n'est pas seulement capable de recevoir les tremblements de l'air, mais sa structure doit faire penser qu'elle peut répondre à tous leurs caractères différents ; car étant plus large au commencement de sa première révolution qu'à l'extrémité de la dernière, où elle finit comme en pointe, et ses autres parties diminuant proportionnellements de largeur, on peut dire que les parties les plus larges pouvant être ébranlées sans que les autres le soient, ne sont capables que de frémissemets plus lents qui répondent par conséquent aux tons graves ; et qu'au contraire ses parties les plus étroites étant frappées, leurs frémissements sont plus rapides et répondent par conséquent aux tons aigues [...] de sorte qu'enfin selon les différents ébranlements de la lame spirale, les esprits du nerf, qui se répand dans sa substance, reçoivent différentes impressions qui représentent dans le cerveau les diverses apparences des tons.
 
-Joseph-Guichard Du Verney (1648-1730) Traité de l'organe de l'ouie
+
 
 Hermann von Helmholtz (1821 –1894) + resonnateurs
 

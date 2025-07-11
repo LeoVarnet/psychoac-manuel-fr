@@ -31,7 +31,9 @@ Dans son *Traité de l'organe de l'ouïe*, publié en 1683 et considéré comme 
 
 >[La membrane basilaire] n'est pas seulement capable de recevoir les tremblements de l'air, mais sa structure doit faire penser qu'elle peut répondre à tous leurs caractères différents.
 
-Hermann Von Helmholtz complètera cette théorie en Xxx en ajoutant le terme de résonnance -- et en corrigeant quelques erreurs commises par Du Verney. L'idée est simple et intuitive : en effectuant son trajet le long de la double hélice, l'onde sonore entraîne la membrane basilaire. Néanmoins 
+Hermann Von Helmholtz complètera cette théorie en Xxx en introduisant le terme de résonnance -- et en corrigeant quelques erreurs commises par Du Verney. L'idée est donc simple et intuitive : lors de son trajet le long de la double hélice, l'onde sonore entraîne la membrane basilaire. Celle-ci ne vibre pas de façon uniforme ; au contraire du fait de son gradient de propriétés physiques, elle entre particulièrement en résonnance en certains points correspondant aux fréquences contenues dans le son. La base est particulièrement sensible aux hautes fréquences (20 kHz) et l'apex aux basses fréquences (20 Hz). Ainsi, la cochlée réalise l'analyse spectrale des vibrations puisqu'**une position particulière le long de la membrane basilaire code pour une fréquence particulière dans le son**. On appelle cette correspondance le **codage de place**.
+
+Cette conception simple de la cochlée est suffisante pour la plupart des applications, et notamment pour les besoins de ce cours. Cependant, elle est partiellement erronée.
 
  the spiral shape does not appear to have any
 functional significance (except for saving space), and the cochlea is often

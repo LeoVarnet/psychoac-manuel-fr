@@ -34,30 +34,9 @@ Dans son *Traité de l'organe de l'ouïe*, publié en 1683 et considéré comme 
 
 Hermann Von Helmholtz complètera cette théorie en Xxx en introduisant la notion de résonnance -- et en corrigeant quelques erreurs commises par Du Verney. L'idée est donc assez intuitive : lors de son trajet le long de la double hélice, l'onde sonore entraîne la membrane basilaire. Celle-ci ne vibre pas de façon uniforme ; au contraire du fait de son gradient de propriétés physiques, elle entre particulièrement en résonnance en certains points correspondant aux fréquences contenues dans le son. La base est particulièrement sensible aux hautes fréquences (20 kHz) et l'apex aux basses fréquences (20 Hz). Ainsi, la cochlée réalise l'analyse spectrale des vibrations puisqu'**une position particulière le long de la membrane basilaire code pour une fréquence particulière dans le son**. On appelle cette correspondance le **codage de place**.
 
-Cette conception simple de la cochlée est suffisante pour la plupart des applications, et notamment pour les besoins de ce cours. Cependant, elle est partiellement erronée. C'est Georg von Békésy qui proposera la conception moderne de la cochlée, un travail qui lui valut le prix Nobel. En effectuant des mesures précises de la membrane basilaire en mouvement, il démontre notamment que les ondes au sein de la cochlée ne sont pas stationnaires comme on le supposait précédemment. Autrement dit le liquide dans la cochlée ne vibre pas comme l'air dans un instrument à vent. Les ondes sont au contraire transitoires, elles se déplacent au sein du liquide -- et la plupart d'entre elles ne suivent en réalité pas le trajet complet de la double hélice.
+Cette conception simple de la cochlée est suffisante pour la plupart des applications, et notamment pour les besoins de ce cours. Cependant, elle est partiellement erronée. C'est Georg von Békésy qui proposera l'approche moderne du fonctionnement de la cochlée, un travail qui lui valut le prix Nobel. En effectuant des mesures précises de la membrane basilaire en mouvement, il démontre notamment que les vibrations de la membrane basilaire ne sont pas stationnaires comme on le supposait précédemment ; autrement dit celle-ci ne vibre pas comme une corde d'un instrument de musique. Les ondes sont au contraire transitoires, elles remontent le long de la membrane basilaire. De plus l'onde dans le liquide ne suit en réalité pas le trajet complet de la double hélice. Le point de résonnance de la membrane basilaire lui fournit un raccourci pour traverser la lame spirale et redescendre immédiatement sans passer par l'apex. Pour cette raison les vibrations de la membrane basilaire décroissent de façon très abrupte au delà du point de résonnance. [...]
 
 
- the spiral shape does not appear to have any
-functional significance (except for saving space), and the cochlea is often
-described as if the spiral had been "unwound". The cochlea is filled with
-almost incompressible fluids, and it also has bony rigid walls. It is divided
-along its length by two membranes, Reissner's membrane and the basilar
-membrane (BM ) . It is the motion of the BM in response to sound that is of
-primary interest.
-The start of the cochlea, where the oval window is situated,
-is known as the base, while the other end, the inner tip, is known as the apex.
-It is also common to refer to the basal end and the apical end, respectively. At
-the apex there is a small opening (the helicotrema) between the BM and the
-walls of the cochlea that connects the two outer chambers of the cochlea, the
-scala vestibuli and the scala tympani.
-When the oval window is set in motion by movement of the stapes, a
-pressure difference is applied across the BM, and this causes the BM to move.
-The pressure difference and the pattern of motion on the BM take some time
-to develop, and they vary along the length of the BM. The response o f the BM
-to sinusoidal stimulation takes the form o f a traveling wave that moves along
-the BM from the base toward the apex. The amplitude of the wave increases at
-first and then decreases rather abruptly with increasing distance from the
-basal end.
 
 
 

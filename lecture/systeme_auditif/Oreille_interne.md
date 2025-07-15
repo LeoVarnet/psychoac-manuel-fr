@@ -32,24 +32,16 @@ Dans son *Traité de l'organe de l'ouïe*, publié en 1683 et considéré comme 
 
 >[La membrane basilaire] n'est pas seulement capable de recevoir les tremblements de l'air, mais sa structure doit faire penser qu'elle peut répondre à tous leurs caractères différents.
 
-Hermann Von Helmholtz complètera cette théorie en Xxx en introduisant la notion de résonnance -- et en corrigeant quelques erreurs commises par Du Verney. L'idée est donc assez intuitive : lors de son trajet le long de la double hélice, l'onde sonore entraîne la membrane basilaire. Celle-ci ne vibre pas de façon uniforme ; au contraire du fait de son gradient de propriétés physiques, elle entre particulièrement en résonnance en certains points correspondant aux fréquences contenues dans le son. La base est particulièrement sensible aux hautes fréquences (20 kHz) et l'apex aux basses fréquences (20 Hz). Ainsi, la cochlée réalise l'analyse spectrale des vibrations puisqu'**une position particulière le long de la membrane basilaire code pour une fréquence particulière dans le son**. On appelle cette correspondance le **codage de place**.
+Hermann Von Helmholtz complètera cette théorie en Xxx en introduisant la notion de résonnance -- et en corrigeant quelques erreurs commises par Du Verney. L'idée est donc assez intuitive : lors de son trajet le long de la double hélice, l'onde sonore entraîne la membrane basilaire. Celle-ci ne vibre pas de façon uniforme ; au contraire du fait de son gradient de propriétés physiques, elle entre particulièrement en résonnance en certains points correspondant aux fréquences contenues dans le son. La base est particulièrement sensible aux hautes fréquences (20 kHz) et l'apex aux basses fréquences (20 Hz). Ainsi, la cochlée réalise l'analyse spectrale des vibrations puisqu'**une fréquence particulière excite une région particulière le long de la membrane basilaire**. On appelle cette correspondance le **codage de place** ou **codage tonotopique** ("une note = une position").
 
 Cette conception simple de la cochlée est suffisante pour la plupart des applications, et notamment pour les besoins de ce cours. Cependant, elle est partiellement erronée. C'est Georg von Békésy qui proposera l'approche moderne du fonctionnement de la cochlée, un travail qui lui valut le prix Nobel. En effectuant des mesures précises de la membrane basilaire en mouvement, il démontre notamment que les vibrations de la membrane basilaire ne sont pas stationnaires comme on le supposait précédemment ; autrement dit celle-ci ne vibre pas comme une corde d'un instrument de musique. Les ondes sont au contraire transitoires, elles remontent le long de la membrane basilaire. De plus l'onde dans le liquide ne suit en réalité pas le trajet complet de la double hélice. Le point de résonnance de la membrane basilaire, d'impédance presque nulle, lui fournit un raccourci pour traverser la lame spirale et redescendre immédiatement sans passer par l'apex. Pour cette raison les vibrations de la membrane basilaire décroissent de façon très abrupte au delà du point de résonnance. [...]
 
 Pour être complet, un modèle mécanique de la cochlée doit inclure un grand nombre de paramètres et d'équations de façon à simuler la mise en mouvement du liquide et la propagation de l'onde dans ce milieu, l'entraînement de la membrane basilaire vue comme chaîne de resonnateurs couplés d'inertie mécanique variable, ainsi que les effets de rétroaction dont il sera question plus loin. Ce domaine fait donc actuellement l'objet d'importants travaux.
 
-Outre les simulations de la cochlée, il est également possible de mesurer ses mouvements en réaction à des sons. On peut par exemple enregistrer, au moyen d'une electrode, l'activité des cellules cilliées qui -- comme nous le verrons par la suite -- envoient des impulsions lorsque le point de la membrane basilaire auquel elles sont attachées est mis en mouvement. En plaçant l'électrode à un certain niveau de la membrane basilaire et en jouant un son on peut ainsi voir si le point testé est sensible à ce son.
-
-
-Hermann von Helmholtz (1821 –1894) + resonnateurs
-
-Georg von Békésy (1899 –1972)
+Outre les simulations de la cochlée, il est également possible de mesurer ses mouvements en réaction à des sons. On peut par exemple enregistrer, au moyen d'une electrode, l'activité des cellules cilliées qui -- comme nous le verrons par la suite -- envoient des impulsions lorsque le point de la membrane basilaire auquel elles sont attachées est mis en mouvement. En plaçant l'électrode à un certain niveau de la membrane basilaire et en jouant un son on peut ainsi voir si le point testé est sensible à ce son. En répétant cette mesure pour chaque fréquence on peut ainsi représenter la fonction de transfert du point considéré sur la membrane basilaire.
 
 
 
-
-
-L’onde sonore parcourt la cochlée et fait vibrer la membrane basilaire. Une fréquence donnée excite une région particulière de la membrane : codage tonotopique (= codage de place).
 
 Mesurer la tonotopie et la sélectivité fréquentielle de la cochlée :
 Tuning curves : chaque courbe correspondant à une position sur la membrane basilaire. On mesure l’excitation de la cochlée en réponse à une intensité acoustique donnée.

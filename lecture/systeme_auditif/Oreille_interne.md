@@ -94,4 +94,4 @@ The hair cells in the organ of Corti are tuned to certain sound frequencies by w
 
 (note1OI)=
 
-[1] Notez qu'en réalité la cochlée est divisée non en deux mais en trois conduits, le troisième étant hermétiquement séparé des deux autres et empli d'un autre liquide, l'endolymphe. Ce détail n'est cependant pas important pour pour la présente description.
+[1] Notez qu'en réalité la cochlée est divisée non en deux mais en trois conduits, le troisième étant hermétiquement séparé des deux autres et empli d'un liquide différent, l'endolymphe. Ce détail n'est cependant pas important pour pour la présente description.

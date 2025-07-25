@@ -50,7 +50,15 @@ Pour être complet, un modèle mécanique de la cochlée doit inclure un grand n
 
 Outre les simulations de la cochlée, il est également possible de mesurer ses mouvements en réaction à des sons. On peut par exemple enregistrer, au moyen d'une electrode, l'activité des cellules cilliées qui -- comme nous le verrons par la suite -- envoient des impulsions lorsque le point de la membrane basilaire auquel elles sont attachées est mis en mouvement. En plaçant l'électrode à un certain niveau de la membrane basilaire et en jouant un son on peut ainsi voir si le point testé est sensible à ce son. En répétant cette mesure pour chaque fréquence on peut ainsi représenter la fonction de transfert du point considéré sur la membrane basilaire.
 
-
+```{figure} tuningcurves.png
+---
+name: tuningcurves.png
+alt: Cochlée
+height: 400px
+align: center
+---
+*Tuning curves (van der Heijden and Joris, 2003)*
+```
 
 
 Mesurer la tonotopie et la sélectivité fréquentielle de la cochlée :

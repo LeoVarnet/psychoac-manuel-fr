@@ -60,7 +60,7 @@ Outre les simulations de la cochlée, il est également possible de mesurer ses 
 ---
 name: tuningcurves.png
 alt: Cochlée
-height: 400px
+height: 250px
 align: center
 ---
 *Tuning curves (van der Heijden and Joris, 2003)*

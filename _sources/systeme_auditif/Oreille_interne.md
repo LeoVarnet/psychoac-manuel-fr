@@ -48,6 +48,10 @@ Cette conception simple de la cochlée est suffisante pour la plupart des applic
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bZdOSCDwbGs?si=2wCw_6LQ2WMtSqnd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+ddsd
+
+https://www.youtube.com/embed/bZdOSCDwbGs&ab_channel=rp34510
+
 Pour être complet, un modèle mécanique de la cochlée doit inclure un grand nombre de paramètres et d'équations de façon à simuler la mise en mouvement du liquide et la propagation de l'onde dans ce milieu, l'entraînement de la membrane basilaire vue comme chaîne de resonnateurs couplés d'inertie mécanique variable, ainsi que les effets de rétroaction dont il sera question plus loin. Ce domaine fait donc actuellement l'objet d'importants travaux.
 
 Outre les simulations de la cochlée, il est également possible de mesurer ses mouvements en réaction à des sons. On peut par exemple enregistrer, au moyen d'une electrode, l'activité des cellules cilliées qui -- comme nous le verrons par la suite -- envoient des impulsions lorsque le point de la membrane basilaire auquel elles sont attachées est mis en mouvement. En plaçant l'électrode à un certain niveau de la membrane basilaire et en jouant un son on peut ainsi voir si le point testé est sensible à ce son. En répétant cette mesure pour chaque fréquence on peut ainsi représenter la fonction de transfert du point considéré sur la membrane basilaire.

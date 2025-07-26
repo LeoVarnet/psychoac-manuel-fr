@@ -53,11 +53,9 @@ Pour être complet, un modèle mécanique de la cochlée doit inclure un grand n
 
 xxxxx
 
-## Sélectivité en fréquence de la cochlée
+## Tonotopie et sélectivité fréquentielle de la cochlée
 
-Outre les simulations, il est également possible de mesurer expérimentalement les mouvements de la membrane basilaire en réaction à des sons, afin de calculer sa fonction de transfert réelle. La figure suivante représente l'excitation de la membrane en differents points, en reponse à des tons purs. 
-
-On peut par exemple enregistrer, au moyen d'une electrode, l'activité des cellules cilliées qui -- comme nous le verrons par la suite -- envoient des impulsions lorsque le point de la membrane basilaire auquel elles sont attachées est mis en mouvement. En plaçant l'électrode à un certain niveau de la membrane basilaire et en jouant un son on peut ainsi voir si le point testé est sensible à ce son. En répétant cette mesure pour chaque fréquence on peut ainsi représenter la fonction de transfert du point considéré sur la membrane basilaire.
+Outre les simulations, il est également possible de mesurer expérimentalement les mouvements de la membrane basilaire en réaction à des sons, afin de calculer sa fonction de transfert réelle. La figure suivante représente les ***tuning curves***, c'est-à-dire l'excitation de la membrane basilaire en réponse à des tons purs. Plus précisément, chacune des courbes correspond à l'enregistrement des vibrations en une position précise le long de la cochlée, en fonction de la fréquence jouée (avec une intensité du stimulus toujours identique). 
 
 
 Mesurer la tonotopie et la sélectivité fréquentielle de la cochlée :

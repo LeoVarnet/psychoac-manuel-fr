@@ -429,7 +429,7 @@ document.write(`
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#la-cochlee-et-la-membrane-basilaire">La cochlée et la membrane basilaire</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#tonotopie-et-selectivite-frequentielle-de-la-cochlee">Tonotopie et sélectivité fréquentielle de la cochlée</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#modeliser-la-cochlee-part-1">Modéliser la cochlée (part 1)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#modeliser-la-cochlee-part-1-gammatones-et-pattern-d-excitation">Modéliser la cochlée (part 1) : gammatones et pattern d’excitation</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#cellules-cilliees">Cellules cilliées</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#notes">Notes</a></li>
 </ul>
@@ -491,32 +491,81 @@ Les canaux montants et descendants sont, rappelons-le, séparés par la lame spi
 <p>Outre les simulations, il est également possible de mesurer expérimentalement les mouvements de la membrane basilaire en réaction à des sons, afin de calculer sa fonction de transfert réelle. La figure suivante représente les <em><strong>tuning curves</strong></em>, c’est-à-dire l’excitation de la membrane basilaire en réponse à des tons purs. Plus précisément, chacune des courbes correspond à l’enregistrement des vibrations en une position précise le long de la cochlée, en fonction de la fréquence jouée (avec une intensité du stimulus toujours identique).</p>
 <p>Mesurer la tonotopie et la sélectivité fréquentielle de la cochlée :
 Tuning curves : chaque courbe correspondant à une position sur la membrane basilaire. On mesure l’excitation de la cochlée en réponse à une intensité acoustique donnée.</p>
+<p>Une position sur la cochlée correspond à une fréquence d’accordage (tuning frequency) particulière. Chaque fréquence excite aussi les régions adjacentes : la sélectivité fréquentielle est limitée.</p>
 <figure class="align-center" id="tuningcurves-png">
-<a class="reference internal image-reference" href="../_images/tuningcurves.png"><img alt="Cochlée" src="../_images/tuningcurves.png" style="height: 250px;" />
+<a class="reference internal image-reference" href="../_images/tuningcurves.png"><img alt="tuning curves" src="../_images/tuningcurves.png" style="height: 250px;" />
 </a>
 <figcaption>
 <p><span class="caption-number">Fig. 58 </span><span class="caption-text"><em>Tuning curves (van der Heijden and Joris, 2003)</em></span><a class="headerlink" href="#tuningcurves-png" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
-<p>Une position sur la cochlée correspond à une fréquence d’accordage (tuning frequency) particulière. Chaque fréquence excite aussi les régions adjacentes : la sélectivité fréquentielle est limitée.</p>
 <p>Mapping quasi-logarithmique entre fréquence d’accordage et position sur la membrane basilaire.</p>
+<figure class="align-center" id="tonotopy-png">
+<a class="reference internal image-reference" href="../_images/tonotopy.png"><img alt="tonotopy" src="../_images/tonotopy.png" style="height: 300px;" />
+</a>
+<figcaption>
+<p><span class="caption-number">Fig. 59 </span><span class="caption-text"><em>Tonotopie</em></span><a class="headerlink" href="#tonotopy-png" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
 </section>
-<section id="modeliser-la-cochlee-part-1">
-<h2>Modéliser la cochlée (part 1)<a class="headerlink" href="#modeliser-la-cochlee-part-1" title="Link to this heading">#</a></h2>
+<section id="modeliser-la-cochlee-part-1-gammatones-et-pattern-d-excitation">
+<h2>Modéliser la cochlée (part 1) : gammatones et pattern d’excitation<a class="headerlink" href="#modeliser-la-cochlee-part-1-gammatones-et-pattern-d-excitation" title="Link to this heading">#</a></h2>
 <p>Le banc de filtres gammatones :
 Banc de filtres passe-bande espacés quasi-logarithmiquement entre 20 Hz et 20.000 Hz.
 Largeur des filtres proportionnelle à la fréquence centrale (i.e. facteur de qualité constant)</p>
+<figure class="align-center" id="gammatones-png">
+<a class="reference internal image-reference" href="../_images/gammatones.png"><img alt="gammatones" src="../_images/gammatones.png" style="height: 300px;" />
+</a>
+<figcaption>
+<p><span class="caption-number">Fig. 60 </span><span class="caption-text"><em>Gammatones</em></span><a class="headerlink" href="#gammatones-png" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
 <p>Le pattern d’excitation</p>
 <p>Représentation de l’amplitude en sortie d’un banc de filtres gammatone : Pour un stimulus donné, niveau de sortie de chaque gammatone en fonction de sa fréquence d’accordage</p>
 <p>Une modélisation de l’excitation de la cochlée par le stim</p>
 <p>Calcul du pattern d’excitation en réponse à un ton pur à 1 kHz</p>
+<figure class="align-center" id="pattern-png">
+<a class="reference internal image-reference" href="../_images/pattern.png"><img alt="pattern d'excitation" src="../_images/pattern.png" style="height: 300px;" />
+</a>
+<figcaption>
+<p><span class="caption-number">Fig. 61 </span><span class="caption-text"><em>Gammatones</em></span><a class="headerlink" href="#pattern-png" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="pattern2-png">
+<a class="reference internal image-reference" href="../_images/pattern2.png"><img alt="Simulation des tuning curves" src="../_images/pattern2.png" style="height: 300px;" />
+</a>
+<figcaption>
+<p><span class="caption-number">Fig. 62 </span><span class="caption-text"><em>Simulation des tuning curves</em></span><a class="headerlink" href="#pattern2-png" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
 <p>Quelques propriétés :
 Le pattern d’excitation d’un ton pur a une certaine largeur (= résolution en fréquence du système auditif humain)
 Il est asymétrique (= upward spread of excitation) car la largeur des filtres gammatone est proportionnelle à leur fréquence.
-Cette asymétrie est plus marquée pour les sons plus forts.
-La largeur (= résolution) croît avec la fréquence.
-Par conséquent, dans un complexe harmonique, seules les premières harmoniques sont clairement séparées sur le pattern d’excitation (= « harmoniques résolues »)
-Au contraire, dans les hautes fréquences, les harmoniques sont non-résolues : on ne les distingue plus sur le pattern d’excitation.</p>
+Cette asymétrie est plus marquée pour les sons plus forts.</p>
+<figure class="align-center" id="pattern3-png">
+<a class="reference internal image-reference" href="../_images/pattern3.png"><img alt="Propriétés des patterns d'excitation" src="../_images/pattern3.png" style="height: 300px;" />
+</a>
+<figcaption>
+<p><span class="caption-number">Fig. 63 </span><span class="caption-text"><em>Propriétés des patterns d’excitation</em></span><a class="headerlink" href="#pattern3-png" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<p>La largeur (= résolution) croît avec la fréquence.
+Par conséquent, dans un complexe harmonique, seules les premières harmoniques sont clairement séparées sur le pattern d’excitation (= « harmoniques résolues »)</p>
+<figure class="align-center" id="pattern4-png">
+<a class="reference internal image-reference" href="../_images/pattern4.png"><img alt="Propriétés des patterns d'excitation" src="../_images/pattern4.png" style="height: 300px;" />
+</a>
+<figcaption>
+<p><span class="caption-number">Fig. 64 </span><span class="caption-text"><em>Propriétés des patterns d’excitation</em></span><a class="headerlink" href="#pattern4-png" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<p>Au contraire, dans les hautes fréquences, les harmoniques sont non-résolues : on ne les distingue plus sur le pattern d’excitation.</p>
+<figure class="align-center" id="pattern5-png">
+<a class="reference internal image-reference" href="../_images/pattern5.png"><img alt="Propriétés des patterns d'excitation" src="../_images/pattern5.png" style="height: 300px;" />
+</a>
+<figcaption>
+<p><span class="caption-number">Fig. 65 </span><span class="caption-text"><em>Propriétés des patterns d’excitation (Plack &amp; Oxenham, 2005)</em></span><a class="headerlink" href="#pattern5-png" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
 </section>
 <section id="cellules-cilliees">
 <h2>Cellules cilliées<a class="headerlink" href="#cellules-cilliees" title="Link to this heading">#</a></h2>
@@ -600,7 +649,7 @@ Au contraire, dans les hautes fréquences, les harmoniques sont non-résolues : 
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#la-cochlee-et-la-membrane-basilaire">La cochlée et la membrane basilaire</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#tonotopie-et-selectivite-frequentielle-de-la-cochlee">Tonotopie et sélectivité fréquentielle de la cochlée</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#modeliser-la-cochlee-part-1">Modéliser la cochlée (part 1)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#modeliser-la-cochlee-part-1-gammatones-et-pattern-d-excitation">Modéliser la cochlée (part 1) : gammatones et pattern d’excitation</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#cellules-cilliees">Cellules cilliées</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#notes">Notes</a></li>
 </ul>

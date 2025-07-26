@@ -61,10 +61,14 @@ Outre les simulations, il est également possible de mesurer expérimentalement 
 Mesurer la tonotopie et la sélectivité fréquentielle de la cochlée :
 Tuning curves : chaque courbe correspondant à une position sur la membrane basilaire. On mesure l’excitation de la cochlée en réponse à une intensité acoustique donnée.
 
+
+Une position sur la cochlée correspond à une fréquence d’accordage (tuning frequency) particulière. Chaque fréquence excite aussi les régions adjacentes : la sélectivité fréquentielle est limitée. 
+
+
 ```{figure} tuningcurves.png
 ---
 name: tuningcurves.png
-alt: Cochlée
+alt: tuning curves
 height: 250px
 align: center
 ---
@@ -72,16 +76,35 @@ align: center
 ```
 
 
-
-Une position sur la cochlée correspond à une fréquence d’accordage (tuning frequency) particulière. Chaque fréquence excite aussi les régions adjacentes : la sélectivité fréquentielle est limitée. 
-
 Mapping quasi-logarithmique entre fréquence d’accordage et position sur la membrane basilaire.
 
-## Modéliser la cochlée (part 1)
+```{figure} tonotopy.png
+---
+name: tonotopy.png
+alt: tonotopy
+height: 300px
+align: center
+---
+*Tonotopie*
+```
+
+
+
+## Modéliser la cochlée (part 1) : gammatones et pattern d'excitation
 
 Le banc de filtres gammatones : 
 Banc de filtres passe-bande espacés quasi-logarithmiquement entre 20 Hz et 20.000 Hz.
 Largeur des filtres proportionnelle à la fréquence centrale (i.e. facteur de qualité constant)
+
+```{figure} gammatones.png
+---
+name: gammatones.png
+alt: gammatones
+height: 300px
+align: center
+---
+*Gammatones*
+```
 
 Le pattern d’excitation
 
@@ -91,13 +114,65 @@ Une modélisation de l’excitation de la cochlée par le stim
 
 Calcul du pattern d’excitation en réponse à un ton pur à 1 kHz
 
+```{figure} pattern.png
+---
+name: pattern.png
+alt: pattern d'excitation
+height: 300px
+align: center
+---
+*Gammatones*
+```
+
+
+```{figure} pattern2.png
+---
+name: pattern2.png
+alt: Simulation des tuning curves
+height: 300px
+align: center
+---
+*Simulation des tuning curves*
+```
+
 Quelques propriétés : 
 Le pattern d’excitation d’un ton pur a une certaine largeur (= résolution en fréquence du système auditif humain)
 Il est asymétrique (= upward spread of excitation) car la largeur des filtres gammatone est proportionnelle à leur fréquence.
 Cette asymétrie est plus marquée pour les sons plus forts.
+
+```{figure} pattern3.png
+---
+name: pattern3.png
+alt: Propriétés des patterns d'excitation
+height: 300px
+align: center
+---
+*Propriétés des patterns d'excitation*
+```
 La largeur (= résolution) croît avec la fréquence.
 Par conséquent, dans un complexe harmonique, seules les premières harmoniques sont clairement séparées sur le pattern d’excitation (= « harmoniques résolues »)
+
+```{figure} pattern4.png
+---
+name: pattern4.png
+alt: Propriétés des patterns d'excitation
+height: 300px
+align: center
+---
+*Propriétés des patterns d'excitation*
+```
+
 Au contraire, dans les hautes fréquences, les harmoniques sont non-résolues : on ne les distingue plus sur le pattern d’excitation.
+
+```{figure} pattern5.png
+---
+name: pattern5.png
+alt: Propriétés des patterns d'excitation
+height: 300px
+align: center
+---
+*Propriétés des patterns d'excitation (Plack & Oxenham, 2005)*
+```
 
 ## Cellules cilliées
 

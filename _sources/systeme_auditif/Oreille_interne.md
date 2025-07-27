@@ -72,7 +72,7 @@ alt: tuning curves
 height: 250px
 align: center
 ---
-*Tuning curves. Chaque courbe représente la réponse de la membrane basilaire en un point particulier, en fonction de la fréquence du ton pur joué. Pour plus de lisibilité, 3 courbes ont été mises en couleur, correspondant respectivement à l'enregistrement à X mm de l'apex de la cochlée (X), à X mm () et à X mm (). (Adapté de van der Heijden and Joris, 2003)*
+*Tuning curves. Chaque courbe représente la réponse de la membrane basilaire en un point particulier, en fonction de la fréquence du ton pur joué. Pour plus de lisibilité, 3 courbes ont été mises en couleur, correspondant respectivement à l'enregistrement à 17 mm de l'apex de la cochlée (bleu), à 25 mm (jaune) et à 33 mm (vert). (Adapté de van der Heijden and Joris, 2003)*
 ```
 
 

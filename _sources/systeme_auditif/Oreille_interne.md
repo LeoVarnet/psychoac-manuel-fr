@@ -42,7 +42,7 @@ Dans son *Traité de l'organe de l'ouïe*, publié en 1683 et considéré comme 
 
 >[La membrane basilaire] n'est pas seulement capable de recevoir les tremblements de l'air, mais sa structure doit faire penser qu'elle peut répondre à tous leurs caractères différents. *(Du Verney, Traité de l'organe de l'ouïe, 1683)*
 
-Hermann Von Helmholtz complètera cette théorie en 1863 en introduisant la notion de résonnance -- et en corrigeant quelques erreurs commises par Du Verney. L'idée est donc assez intuitive : lors de son trajet le long de la double hélice, l'onde sonore entraîne la membrane basilaire. Celle-ci ne vibre pas de façon uniforme ; au contraire du fait de son gradient de propriétés physiques, elle entre particulièrement en résonnance en certains points correspondant aux fréquences contenues dans le son. La base est particulièrement sensible aux hautes fréquences (20 kHz) et l'apex aux basses fréquences (20 Hz). Ainsi, la cochlée réalise l'analyse spectrale des vibrations puisqu'**une fréquence particulière excite une région particulière le long de la membrane basilaire**. On appelle cette correspondance le **codage de place** ou **codage tonotopique** (c'et à dire "une note = une position").
+Hermann Von Helmholtz complètera cette théorie en 1863 en introduisant la notion de résonnance -- et en corrigeant quelques erreurs commises par Du Verney. L'idée est donc assez intuitive : lors de son trajet le long de la double hélice, l'onde sonore entraîne la membrane basilaire. Celle-ci ne vibre pas de façon uniforme ; au contraire du fait de son gradient de propriétés physiques, elle entre particulièrement en résonnance en certains points correspondant aux fréquences contenues dans le son. La base est particulièrement sensible aux hautes fréquences (20 kHz) et l'apex aux basses fréquences (20 Hz). Ainsi, la cochlée réalise l'analyse spectrale des vibrations puisqu'**une fréquence particulière excite une région particulière le long de la membrane basilaire**. On appelle cette correspondance le **codage de place** ou **codage tonotopique** (c'est-à-dire "une note = une position").
 
 Cette conception simple de la cochlée est suffisante pour la plupart des applications, et notamment pour les besoins de ce cours. Cependant, elle est partiellement erronée. C'est Georg von Békésy qui, sur la base d'une série d'expériences commencées en 1928, proposera l'approche moderne du fonctionnement de la cochlée, un travail qui lui valut de recevoir le prix Nobel de médecine en 1961. En effectuant des mesures précises de la membrane basilaire en mouvement, il démontre notamment que les vibrations de la membrane basilaire ne sont pas stationnaires comme on le supposait précédemment ; autrement dit celle-ci ne vibre pas comme une corde d'un instrument de musique. Les ondes sont au contraire transitoires, elles remontent le long de la membrane basilaire. De plus l'onde dans le liquide ne suit en réalité pas le trajet complet de la double hélice. Le point de résonnance de la membrane basilaire, d'impédance presque nulle, lui fournit un raccourci pour traverser la lame spirale et redescendre immédiatement sans passer par l'apex. Pour cette raison les vibrations de la membrane basilaire décroissent de façon très abrupte au delà du point de résonnance. Les vidéos suivantes illustrent ce trajet pour des tons purs de fréquence aigue ou grave.
 
@@ -55,7 +55,7 @@ xxxxx
 
 ## Tonotopie et sélectivité fréquentielle de la cochlée
 
-Outre les simulations, il est également possible de mesurer expérimentalement les mouvements de la membrane basilaire en réaction à des sons, afin de calculer sa fonction de transfert réelle. La figure suivante représente les ***tuning curves***, c'est-à-dire l'excitation de la membrane basilaire en réponse à des tons purs. Plus précisément, chacune des courbes correspond à l'enregistrement des vibrations en une position précise le long de la cochlée, en fonction de la fréquence jouée (avec une intensité du stimulus toujours identique). 
+Outre les simulations, il est également possible de mesurer expérimentalement les mouvements de la membrane basilaire en réaction à des sons, afin de calculer sa fonction de transfert réelle. La figure suivante représente les ***tuning curves***, c'est-à-dire l'excitation de la membrane basilaire en réponse à des tons purs. Plus précisément, chacune des courbes correspond à l'enregistrement des vibrations en *une* position précise le long de la cochlée, en fonction de la fréquence jouée (avec une intensité acoustique toujours identique). 
 
 
 Mesurer la tonotopie et la sélectivité fréquentielle de la cochlée :
@@ -72,7 +72,7 @@ alt: tuning curves
 height: 250px
 align: center
 ---
-*Tuning curves (van der Heijden and Joris, 2003)*
+*Tuning curves. Chaque courbe représente la réponse de la membrane basilaire en un point particulier, en fonction de la fréquence du ton pur joué. Pour plus de lisibilité, 3 courbes ont été mises en couleur, correspondant respectivement à l'enregistrement à X mm de l'apex de la cochlée (X), à X mm () et à X mm (). (Adapté de van der Heijden and Joris, 2003)*
 ```
 
 

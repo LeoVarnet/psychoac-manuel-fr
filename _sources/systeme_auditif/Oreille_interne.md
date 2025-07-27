@@ -55,15 +55,7 @@ xxxxx
 
 ## Tonotopie et sélectivité fréquentielle de la cochlée
 
-Outre les simulations, il est également possible de mesurer expérimentalement les mouvements de la membrane basilaire en réaction à des sons, afin de calculer sa fonction de transfert réelle. La figure suivante représente les ***tuning curves***, c'est-à-dire l'excitation de la membrane basilaire en réponse à des tons purs. Plus précisément, chacune des courbes correspond à l'enregistrement des vibrations en *une* position précise le long de la cochlée, en fonction de la fréquence jouée (avec une intensité acoustique toujours identique). 
-
-
-Mesurer la tonotopie et la sélectivité fréquentielle de la cochlée :
-Tuning curves : chaque courbe correspondant à une position sur la membrane basilaire. On mesure l’excitation de la cochlée en réponse à une intensité acoustique donnée.
-
-
-Une position sur la cochlée correspond à une fréquence d’accordage (tuning frequency) particulière. Chaque fréquence excite aussi les régions adjacentes : la sélectivité fréquentielle est limitée. 
-
+Outre les simulations, il est également possible de mesurer expérimentalement les mouvements de la membrane basilaire en réponse à des sons, afin de calculer sa fonction de transfert réelle. La figure suivante représente les ***tuning curves***, c'est-à-dire l'excitation de la membrane basilaire en réponse à des tons purs. Plus précisément, chacune des courbes correspond à l'enregistrement des vibrations en *une* position précise le long de la cochlée, en fonction de la fréquence jouée (avec une intensité acoustique toujours identique). 
 
 ```{figure} tuningcurves.png
 ---
@@ -75,8 +67,7 @@ align: center
 *Tuning curves. Chaque courbe représente la réponse de la membrane basilaire en un point particulier, en fonction de la fréquence du ton pur joué. Pour plus de lisibilité, 3 courbes ont été mises en couleur, correspondant respectivement à l'enregistrement à 17 mm de l'apex de la cochlée (bleu), à 25 mm (jaune) et à 33 mm (vert). (Adapté de van der Heijden and Joris, 2003)*
 ```
 
-
-Mapping quasi-logarithmique entre fréquence d’accordage et position sur la membrane basilaire.
+On constate, comme le prédit la théorie, qu'une position particulière le long de la membrane basilaire (c'est à dire une tuning curve particulière) correspond à une **fréquence d’accordage** (*tuning frequency*) spécifique. En effet, comme on l'a vu, le gradient de propriétés physiques permet un codage tonotopique -- dont nous voyons la preuve empirique sur cette figure. Pour visualiser plus précisément la correspondance entre position et fréquence, on peut reporter la fréquence d'accordage de chaque tuning curve en fonction de la distance à l'apex du point où a été réalisé l'enregistrement (voir figure suivante)
 
 ```{figure} tonotopy.png
 ---
@@ -85,8 +76,13 @@ alt: tonotopy
 height: 300px
 align: center
 ---
-*Tonotopie*
+*Mesure de la tonotopie : fréquence d'accordage en fonction de la position le long de la membrane basilaire.*
 ```
+
+Grâce à cette dernière figure, on observe que la relation entre fréquence d’accordage et distance à l'apex est quasi-logarithmique. Il y a donc proportionnellement plus d'espace alloué aux basses fréquences qu'aux hautes fréquences.
+
+Chaque fréquence excite aussi les régions adjacentes : la sélectivité fréquentielle est limitée. 
+
 
 
 

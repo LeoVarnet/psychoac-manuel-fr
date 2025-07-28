@@ -81,7 +81,7 @@ align: center
 
 Grâce à cette dernière figure, on observe que la relation entre fréquence d’accordage et distance à l'apex est quasi-logarithmique. Il y a donc proportionnellement plus d'espace alloué aux basses fréquences qu'aux hautes fréquences.
 
-Revenons à présent aux tuning curves.
+Revenons à présent aux tuning curves. Leur tracé fait apparaître non seulement une fréquence d'accordage particulière, mais également une certaine bande passante : au
 
 Chaque fréquence excite aussi les régions adjacentes : la sélectivité fréquentielle est limitée. 
 

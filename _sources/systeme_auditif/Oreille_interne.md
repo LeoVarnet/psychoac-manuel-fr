@@ -67,7 +67,7 @@ align: center
 *Tuning curves. Chaque courbe représente la réponse de la membrane basilaire en un point particulier, en fonction de la fréquence du ton pur joué. Pour plus de lisibilité, 3 courbes ont été mises en couleur, correspondant respectivement à l'enregistrement à 17 mm de l'apex de la cochlée (bleu), à 25 mm (jaune) et à 33 mm (vert). (Adapté de van der Heijden and Joris, 2003)*
 ```
 
-On constate, comme le prédit la théorie, qu'une position particulière le long de la membrane basilaire (c'est à dire une tuning curve particulière) correspond à une **fréquence d’accordage** (*tuning frequency*) spécifique. En effet, comme on l'a vu, le gradient de propriétés physiques permet un codage tonotopique -- dont nous voyons la preuve empirique sur cette figure. Pour visualiser plus précisément la correspondance entre position et fréquence, on peut reporter la fréquence d'accordage de chaque tuning curve en fonction de la distance à l'apex du point où a été réalisé l'enregistrement (voir figure suivante)
+On constate, comme le prédit la théorie, qu'une position particulière le long de la membrane basilaire (c'est à dire une tuning curve particulière) correspond à une **fréquence d’accordage** (*tuning frequency*) spécifique. En effet, comme on l'a vu, le gradient de propriétés physiques permet un codage tonotopique -- dont nous voyons la démonstration empirique sur cette figure. Pour visualiser plus précisément la correspondance entre position et fréquence, on peut reporter la fréquence d'accordage de chaque tuning curve en fonction de la distance à l'apex du point où a été réalisé l'enregistrement (voir figure suivante)
 
 ```{figure} tonotopy.png
 ---
@@ -80,6 +80,8 @@ align: center
 ```
 
 Grâce à cette dernière figure, on observe que la relation entre fréquence d’accordage et distance à l'apex est quasi-logarithmique. Il y a donc proportionnellement plus d'espace alloué aux basses fréquences qu'aux hautes fréquences.
+
+Revenons à présent aux tuning curves.
 
 Chaque fréquence excite aussi les régions adjacentes : la sélectivité fréquentielle est limitée. 
 

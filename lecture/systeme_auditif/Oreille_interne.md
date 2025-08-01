@@ -81,16 +81,13 @@ align: center
 
 Grâce à cette dernière figure, on observe que la relation entre fréquence d’accordage et distance à l'apex est quasi-logarithmique. Il y a donc proportionnellement plus d'espace alloué aux basses fréquences qu'aux hautes fréquences.
 
-Revenons à présent aux tuning curves. Leur tracé fait apparaître non seulement une fréquence d'accordage particulière, mais également une certaine bande passante : une position donnée de la membrane n'est pas excitée par une fréquence unique, mais également par les fréquences proches -- et, inversement, chaque fréquence excite non seulement la position de la cochlée qui lui correspond mais aussi les régions adjacentes. Autrement dit : la sélectivité fréquentielle de l'oreille interne est limitée. 
+Revenons à présent aux tuning curves. Leur tracé fait apparaître non seulement une fréquence d'accordage particulière, mais également une certaine bande passante : une position donnée de la membrane n'est pas excitée par une fréquence unique, mais également par les fréquences proches -- et, inversement, chaque fréquence excite non seulement la position de la cochlée qui lui correspond mais aussi les régions adjacentes. Autrement dit : **la sélectivité fréquentielle de l'oreille interne est limitée**, autrement dit notre oreille est incapable de différencier des fréquences si elles sont trop proches. 
 
-
-
+On peut obtenir une indication de la sélectivité fréquentielle en chaque point de la membrane basilaire en mesurant la bande passante de la tuning curve correspondante. [...]
 
 ## Modéliser la cochlée (part 1) : gammatones et pattern d'excitation
 
-Le banc de filtres gammatones : 
-Banc de filtres passe-bande espacés quasi-logarithmiquement entre 20 Hz et 20.000 Hz.
-Largeur des filtres proportionnelle à la fréquence centrale (i.e. facteur de qualité constant)
+Sur la base de cette caractérisation physiologique très sommaire, il est d'ores et déjà possible de mettre au point un modèle simpliste, mais pourtant efficace, de l'oreille interne. Ce modèle consiste exclusivement en une série de filtres linéaires, accordés à des fréquences différentes, le **banc de filtres gammatones**. Les gammatones sont des filtres passe-bande espacés quasi-logarithmiquement entre 20 Hz et 20.000 Hz (selon la fonction tonotopique vue plus haut). Les filtres ont un facteur qualité constant, c'est à dire que leur largeur de bande est proportionnelle à la fréquence centrale -- ce qui est là encore cohérent avec les observations décrites plus haut sur la sélectivité fréquentielle.
 
 ```{figure} gammatones.png
 ---

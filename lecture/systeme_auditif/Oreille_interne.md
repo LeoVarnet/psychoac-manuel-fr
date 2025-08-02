@@ -87,7 +87,7 @@ On peut obtenir une indication de la sélectivité fréquentielle en chaque poin
 
 ## Modéliser la cochlée (part 1) : gammatones et pattern d'excitation
 
-Sur la base de cette caractérisation physiologique très sommaire, il est d'ores et déjà possible de mettre au point un modèle simpliste, mais pourtant efficace, de l'oreille interne. Ce modèle consiste exclusivement en une série de filtres linéaires, accordés à des fréquences différentes, le **banc de filtres gammatones**. Les gammatones sont des filtres passe-bande espacés quasi-logarithmiquement entre 20 Hz et 20.000 Hz (selon la fonction tonotopique vue plus haut). Les filtres ont un facteur qualité constant, c'est à dire que leur largeur de bande est proportionnelle à la fréquence centrale -- ce qui est là encore cohérent avec les observations décrites plus haut sur la sélectivité fréquentielle.
+Sur la base de la description physiologique très sommaire que nous venons d'évoquer, il est d'ores et déjà possible de mettre au point un modèle simpliste, mais pourtant efficace, de l'oreille interne. Ce modèle consiste exclusivement en une série de filtres linéaires, accordés à des fréquences différentes, le **banc de filtres gammatones**. Chaque gammatone est un filtre passe-bande qui représente la fonction de transfert en un point particulier de la membrane basilaire. Les gammatones sont espacés quasi-logarithmiquement entre 20 Hz et 20.000 Hz (selon la fonction tonotopique vue plus haut). Les filtres ont un facteur qualité constant, c'est à dire que leur largeur de bande est proportionnelle à la fréquence centrale -- ce qui est là encore cohérent avec les observations décrites plus haut sur la sélectivité fréquentielle. [attention confusion possible]. [[2](note2OI)]
 
 ```{figure} gammatones.png
 ---
@@ -180,3 +180,7 @@ The hair cells in the organ of Corti are tuned to certain sound frequencies by w
 (note1OI)=
 
 [1] Notez qu'en réalité la cochlée est divisée non en deux mais en trois conduits, le troisième étant hermétiquement séparé des deux autres et empli d'un liquide différent, l'endolymphe. Ce détail n'est cependant pas important pour pour la présente description.
+
+(note2OI)=
+
+[2] La membrane basilaire étant continue il faudrait en théorie une infinité de gammatones pour la simuler complètement. Néanmoins, en pratique, on constate qu'un nombre relativement restreint de gammatones est suffisant pour la plupart des applications s'ils sont bien distribués selon la bonne loi de répartition en fréquence.

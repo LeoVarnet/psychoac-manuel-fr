@@ -87,7 +87,7 @@ On peut obtenir une indication de la sélectivité fréquentielle en chaque poin
 
 ## Modéliser la cochlée (part 1) : gammatones et pattern d'excitation
 
-Sur la base de la description physiologique très sommaire que nous venons d'évoquer, il est d'ores et déjà possible de mettre au point un modèle simpliste, mais pourtant efficace, de l'oreille interne. Ce modèle consiste exclusivement en une série de filtres linéaires, accordés à des fréquences différentes, le **banc de filtres gammatones**. Chaque gammatone est un filtre passe-bande qui représente la fonction de transfert en un point particulier de la membrane basilaire. Les gammatones sont espacés quasi-logarithmiquement entre 20 Hz et 20.000 Hz (selon la fonction tonotopique vue plus haut). Les filtres ont un facteur qualité constant, c'est à dire que leur largeur de bande est proportionnelle à la fréquence centrale -- ce qui est là encore cohérent avec les observations décrites plus haut sur la sélectivité fréquentielle. [attention confusion possible]. [[2](note2OI)]
+Sur la base de la description physiologique très sommaire que nous venons d'évoquer, il est d'ores et déjà possible de mettre au point un modèle simpliste, mais pourtant efficace, de l'oreille interne. Ce modèle consiste exclusivement en une série de filtres linéaires, accordés à des fréquences différentes, le **banc de filtres gammatones**. Chaque gammatone est un filtre passe-bande qui représente la fonction de transfert en un point particulier de la membrane basilaire. Les gammatones sont espacés quasi-logarithmiquement entre 20 Hz et 20.000 Hz (selon la fonction tonotopique vue plus haut). Les filtres ont un facteur qualité constant, c'est à dire que leur largeur de bande est proportionnelle à la fréquence centrale -- ce qui est là encore cohérent avec les observations décrites plus haut sur la sélectivité fréquentielle. [attention confusion possible] [[2](note2OI)]. La figure suivante illustre les fonctions de transfert d'un banc de gammatones.
 
 ```{figure} gammatones.png
 ---
@@ -96,7 +96,7 @@ alt: gammatones
 height: 300px
 align: center
 ---
-*Gammatones*
+*Fonction de transfert d'un banc de gammatones. Chaque couleur correspond à un gammatone individuel (et donc à une position particulière le long de la membrane basilaire).*
 ```
 
 Le pattern d’excitation

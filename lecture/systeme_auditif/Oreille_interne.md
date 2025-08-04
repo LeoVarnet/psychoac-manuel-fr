@@ -99,13 +99,7 @@ align: center
 *Fonction de transfert d'un banc de gammatones. Chaque couleur correspond à un gammatone individuel (et donc à une position particulière le long de la membrane basilaire).*
 ```
 
-Le pattern d’excitation
-
-Représentation de l’amplitude en sortie d’un banc de filtres gammatone : Pour un stimulus donné, niveau de sortie de chaque gammatone en fonction de sa fréquence d’accordage
-
-Une modélisation de l’excitation de la cochlée par le stim
-
-Calcul du pattern d’excitation en réponse à un ton pur à 1 kHz
+Chaque gammatone permet donc de simuler l'excitation en un point isolé de la membrane basilaire. Pour obtenir un modèle de l'excitation tout au long de la membrane il suffit donc de calculer la réponse de chaque gammatone au son considéré. Le **pattern d'excitation** représente le niveau de sortie de chaque gammatone en fonction de sa fréquence d'accordage, offrant ainsi une simulation de l’excitation de la cochlée par un stimulus donné. La figure suivante illustre le calcul du pattern d’excitation en réponse à un ton pur de fréquence 1 kHz, à partir de la réponse de cinq gammatones.
 
 ```{figure} pattern.png
 ---
@@ -127,6 +121,8 @@ align: center
 ---
 *Simulation des tuning curves*
 ```
+
+Arrêtons nous sur quelques propriétés de ce pattern d'excitation.
 
 Quelques propriétés : 
 Le pattern d’excitation d’un ton pur a une certaine largeur (= résolution en fréquence du système auditif humain)

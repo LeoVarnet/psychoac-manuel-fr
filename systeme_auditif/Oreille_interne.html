@@ -518,10 +518,7 @@ Les canaux montants et descendants sont, rappelons-le, séparés par la lame spi
 <p><span class="caption-number">Fig. 60 </span><span class="caption-text"><em>Fonction de transfert d’un banc de gammatones. Chaque couleur correspond à un gammatone individuel (et donc à une position particulière le long de la membrane basilaire).</em></span><a class="headerlink" href="#gammatones-png" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
-<p>Le pattern d’excitation</p>
-<p>Représentation de l’amplitude en sortie d’un banc de filtres gammatone : Pour un stimulus donné, niveau de sortie de chaque gammatone en fonction de sa fréquence d’accordage</p>
-<p>Une modélisation de l’excitation de la cochlée par le stim</p>
-<p>Calcul du pattern d’excitation en réponse à un ton pur à 1 kHz</p>
+<p>Chaque gammatone permet donc de simuler l’excitation en un point isolé de la membrane basilaire. Pour obtenir un modèle de l’excitation tout au long de la membrane il suffit donc de calculer la réponse de chaque gammatone au son considéré. Le <strong>pattern d’excitation</strong> représente le niveau de sortie de chaque gammatone en fonction de sa fréquence d’accordage, offrant ainsi une simulation de l’excitation de la cochlée par un stimulus donné. La figure suivante illustre le calcul du pattern d’excitation en réponse à un ton pur de fréquence 1 kHz, à partir de la réponse de cinq gammatones.</p>
 <figure class="align-center" id="pattern-png">
 <a class="reference internal image-reference" href="../_images/pattern.png"><img alt="pattern d'excitation" src="../_images/pattern.png" style="height: 300px;" />
 </a>
@@ -536,6 +533,7 @@ Les canaux montants et descendants sont, rappelons-le, séparés par la lame spi
 <p><span class="caption-number">Fig. 62 </span><span class="caption-text"><em>Simulation des tuning curves</em></span><a class="headerlink" href="#pattern2-png" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
+<p>Arrêtons nous sur quelques propriétés de ce pattern d’excitation.</p>
 <p>Quelques propriétés :
 Le pattern d’excitation d’un ton pur a une certaine largeur (= résolution en fréquence du système auditif humain)
 Il est asymétrique (= upward spread of excitation) car la largeur des filtres gammatone est proportionnelle à leur fréquence.

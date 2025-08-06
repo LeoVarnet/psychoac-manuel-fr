@@ -99,7 +99,7 @@ align: center
 *Fonction de transfert d'un banc de gammatones. Chaque couleur correspond à un gammatone individuel (et donc à une position particulière le long de la membrane basilaire).*
 ```
 
-Chaque gammatone permet donc de simuler l'excitation en un point isolé de la membrane basilaire. Pour obtenir un modèle de l'excitation tout au long de la membrane il suffit donc de calculer la réponse de chaque gammatone au son considéré. Le **pattern d'excitation** représente le niveau de sortie de chaque gammatone en fonction de sa fréquence d'accordage, offrant ainsi une simulation de l’excitation de la cochlée par un stimulus donné. La figure suivante illustre le calcul du pattern d’excitation en réponse à un ton pur de fréquence 1 kHz, à partir de la réponse de cinq gammatones.
+Chaque gammatone permet donc de simuler l'excitation d'un point isolé de la membrane basilaire en réponse à un son. Pour obtenir un modèle de l'excitation tout au long de la membrane il suffit donc de calculer la réponse de chaque gammatone au son considéré. Le **pattern d'excitation** représente le niveau de sortie de chaque gammatone en fonction de sa fréquence d'accordage, offrant ainsi une simulation de l’excitation de la cochlée par un stimulus donné. La figure suivante illustre le calcul du pattern d’excitation en réponse à un ton pur de fréquence 1 kHz, à partir de la réponse de cinq gammatones.
 
 ```{figure} pattern.png
 ---
@@ -111,6 +111,7 @@ align: center
 *Gammatones*
 ```
 
+[lien données expérimentales excitation]
 
 ```{figure} pattern2.png
 ---
@@ -122,10 +123,9 @@ align: center
 *Simulation des tuning curves*
 ```
 
-Arrêtons nous sur quelques propriétés de ce pattern d'excitation.
+Comme nous le verrons par la suite le modèle du pattern d'excitation , bien qu'extrêmement simple, permet de rendre compte de nombreux phénomènes auditifs. Arrêtons nous sur quelques unes de ses propriétés. Tout d'abord, lorsque le stimulus est composé d'une fréquence unique, le pattern d'excitation possède quant à lui une certaine largeur de bande, reflétant la sélectivité limitée de l'oreille interne : un ton pur active non seulement le point de la membrane basilaire accordé sur cette fréquence mais également les régions adjacentes. Plus cette région est étendue moins la résolution spectrale est bonne.
 
-Quelques propriétés : 
-Le pattern d’excitation d’un ton pur a une certaine largeur (= résolution en fréquence du système auditif humain)
+
 Il est asymétrique (= upward spread of excitation) car la largeur des filtres gammatone est proportionnelle à leur fréquence.
 Cette asymétrie est plus marquée pour les sons plus forts.
 

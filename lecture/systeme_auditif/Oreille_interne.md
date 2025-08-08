@@ -137,7 +137,7 @@ align: center
 *Propriétés des patterns d'excitation*
 ```
 
-Pour un complexe harmonique, composé de tons purs à des fréquences multiples d'une fréquence fondamentalementale, le pattern d'excitation fait apparaître une structure différente dans les basses et les hautes fréquences. La résolution diminuant avec la fréquence, seules les premières harmoniques forment des pics d'excitation clairement séparés. On parle alors d'**harmoniques résolues**.
+Pour un complexe harmonique, composé de tons purs à des fréquences multiples d'une fréquence fondamentalementale, le pattern d'excitation fait apparaître une structure différente dans les basses et les hautes fréquences. La résolution diminuant avec la fréquence, seules les premières harmoniques suscitent des pics d'excitation clairement séparés. On parle alors d'**harmoniques résolues**. Au contraire, dans les hautes fréquences, les harmoniques sont **non-résolues** : chaque gammatone couvrant plusieurs harmoniques il est impossible de distinguer ces dernières sur le pattern d’excitation. Nous reviendrons sur les implications auditives de ces propriétés du pattern d'excitation au chapitre 3.
 
 ```{figure} pattern4.png
 ---
@@ -148,8 +148,6 @@ align: center
 ---
 *Propriétés des patterns d'excitation*
 ```
-
-Au contraire, dans les hautes fréquences, les harmoniques sont non-résolues : on ne les distingue plus sur le pattern d’excitation.
 
 ```{figure} pattern5.png
 ---

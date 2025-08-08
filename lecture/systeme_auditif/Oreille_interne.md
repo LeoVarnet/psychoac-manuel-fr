@@ -136,8 +136,8 @@ align: center
 ---
 *Propriétés des patterns d'excitation*
 ```
-La largeur (= résolution) croît avec la fréquence.
-Par conséquent, dans un complexe harmonique, seules les premières harmoniques sont clairement séparées sur le pattern d’excitation (= « harmoniques résolues »)
+
+Pour un complexe harmonique, composé de tons purs à des fréquences multiples d'une fréquence fondamentalementale, le pattern d'excitation fait apparaître une structure différente dans les basses et les hautes fréquences. La résolution diminuant avec la fréquence, seules les premières harmoniques forment des pics d'excitation clairement séparés. On parle alors d'**harmoniques résolues**.
 
 ```{figure} pattern4.png
 ---

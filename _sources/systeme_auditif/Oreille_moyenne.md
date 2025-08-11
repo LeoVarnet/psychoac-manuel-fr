@@ -55,6 +55,19 @@ align: center
 
 Plutôt que de modéliser l'oreille externe et moyenne par deux filtres successifs, il est également possible de les rassembler en un seul (en noir sur la figure ci-dessus).
 
+La figure suivante illustre l'effet de ce filtre sur le même son de brouhaha que précédemment.
+
+```{figure} middle_ear_demo.bmp
+---
+name: middle_ear_demo.bmp
+alt: middle ear demo
+height: 200px
+align: center
+---
+*Spectrogramme d’un brouhaha composé de 5 voix superposées, avant (gauche) et après (droite) passage par l’oreille externe et l'oreille moyenne. Cette figure a été obtenue par simulation grâce au filtre décrit ci-dessus*
+```
+
+
 ## Références
 
 Lopez-Poveda, E. A., Meddis, R. (2001) A human nonlinear cochlear filterbank. Journal of the Acoustical Society of America Dec;110(6):3107-18. doi: 10.1121/1.1416197.

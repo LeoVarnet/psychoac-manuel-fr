@@ -67,7 +67,7 @@ xxxxx
 ---
 name: Excitation.jpeg
 alt: Déplacement de la membrane basilaire en réponse à un ton pur
-height: 300px
+height: 450px
 align: center
 ---
 *Mesure de l'excitation de la membrane basilaire en réponse à un ton pur à 15 kHz, semblable à celles réalisées par von Békésy [[2](note2OI)]. L'axe des abscisses correspond à la position considérée le long de la membrane -- plus ou moins loin du sommet (apex) de la cochlée. L'axe des ordonnées représente l'amplitude des vibrations enregistrées en ce point. Plusieurs intensités du stimulus acoustique sont considérées, la courbe tracée en rouge correspondant à une intensité modérée de 70 dB SPL. Comme mentionné dans le texte, les vibrations atteignent un maximum en un point précis, ici situé à environ 14,5 mm de l’apex. En termes de codage tonotopique, cette position particulière "code" donc pour la fréquence de 15 kHz. Par ailleurs, l’excitation décroît rapidement au-delà de ce point (entre 14,5 mm et 13,5 mm), ce qui confère au profil général une asymétrie caractéristique, conformément aux observations de von Békésy. (Source : Russell and Nilsen, 1997)*

@@ -49,7 +49,7 @@ alt: Filtre d'oreille externe
 height: 200px
 align: center
 ---
-*Approximation du filtre d'oreille externe pour une onde pénértrant l'oreille latéralement, à 90° par rapport à l'axe de la tête (Lopez-Poveda and Meddis, 2001; Pralong and Carlile, 1996).*
+*Approximation du filtre d'oreille externe pour une onde pénétrant l'oreille latéralement, à 90° par rapport à l'axe de la tête (Lopez-Poveda and Meddis, 2001; Pralong and Carlile, 1996).*
 ```
 
 Lorsqu'on applique ce filtre à un signal sonore, par exemple ici un brouhaha composé de 5 voix superposées, on constate une légère amplification des fréquences entre 2000 et 3000 Hz.

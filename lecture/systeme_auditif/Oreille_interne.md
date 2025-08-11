@@ -42,6 +42,16 @@ Dans son *Traité de l'organe de l'ouïe*, publié en 1683 et considéré comme 
 
 >[La membrane basilaire] n'est pas seulement capable de recevoir les tremblements de l'air, mais sa structure doit faire penser qu'elle peut répondre à tous leurs caractères différents. *(Du Verney, Traité de l'organe de l'ouïe, 1683)*
 
+```{figure} DuVerneyHelmholtzBekesy.bmp
+---
+name: DuVerneyHelmholtzBekesy.bmp
+alt: DuVerney Helmholtz Bekesy
+height: 400px
+align: center
+---
+*Portraits de Joseph-Guichard Du Verney (1648-1730), Hermann von Helmholtz (1821-1894) et Georg von Békésy (1899–1972).*
+```
+
 Hermann Von Helmholtz complètera cette théorie en 1863 en introduisant la notion de résonnance -- et en corrigeant quelques erreurs commises par Du Verney. L'idée est donc assez intuitive : lors de son trajet le long de la double hélice, l'onde sonore entraîne la membrane basilaire. Celle-ci ne vibre pas de façon uniforme ; au contraire du fait de son gradient de propriétés physiques, elle entre particulièrement en résonnance en certains points correspondant aux fréquences contenues dans le son. La base est particulièrement sensible aux hautes fréquences (20 kHz) et l'apex aux basses fréquences (20 Hz). Ainsi, la cochlée réalise l'analyse spectrale des vibrations puisqu'**une fréquence particulière excite une région particulière le long de la membrane basilaire**. On appelle cette correspondance le **codage de place** ou **codage tonotopique** (c'est-à-dire "une note = une position").
 
 Cette conception simple de la cochlée est suffisante pour la plupart des applications, et notamment pour les besoins de ce cours. Cependant, elle est partiellement erronée. C'est Georg von Békésy qui, sur la base d'une série d'expériences commencées en 1928, proposera l'approche moderne du fonctionnement de la cochlée, un travail qui lui valut de recevoir le prix Nobel de médecine en 1961. En effectuant des mesures précises de la membrane basilaire en mouvement, il démontre notamment que les vibrations de la membrane basilaire ne sont pas stationnaires comme on le supposait précédemment ; autrement dit celle-ci ne vibre pas comme une corde d'un instrument de musique. Les ondes sont au contraire transitoires, elles remontent le long de la membrane basilaire. De plus l'onde dans le liquide ne suit en réalité pas le trajet complet de la double hélice. Le point de résonnance de la membrane basilaire, d'impédance presque nulle, lui fournit un raccourci pour traverser la lame spirale et redescendre immédiatement sans passer par l'apex. Pour cette raison les vibrations de la membrane basilaire décroissent de façon très abrupte au delà du point de résonnance. Les vidéos suivantes illustrent ce trajet pour des tons purs de fréquence aigue ou grave.
@@ -52,6 +62,16 @@ Cette conception simple de la cochlée est suffisante pour la plupart des applic
 Pour être complet, un modèle mécanique de la cochlée doit inclure un grand nombre de paramètres et d'équations de façon à simuler la mise en mouvement du liquide et la propagation de l'onde dans ce milieu, l'entraînement de la membrane basilaire vue comme chaîne de resonnateurs couplés d'inertie mécanique variable, ainsi que les effets de rétroaction dont il sera question plus loin. Ce domaine fait donc actuellement l'objet d'importants travaux. La figure suivante présente une simulation largement simplifiée des oscillation de la membrane basilaire en réponse à différents sons.
 
 xxxxx
+
+```{figure} Excitation.jpeg
+---
+name: Excitation.jpeg
+alt: Déplacement de la membrane basilaire en réponse à un ton pur
+height: 300px
+align: center
+---
+*Mesure de l'excitation de la membrane basilaire en réponse à un ton pur à 15 kHz, semblable à celles réalisées par von Békésy [[2](note2OI)]. L'axe des abscisses correspond à la position considérée le long de la membrane -- plus ou moins loin du sommet (apex) de la cochlée. L'axe des ordonnées représente l'amplitude des vibrations enregistrées en ce point. Plusieurs intensités du stimulus acoustique sont considérées, la courbe tracée en rouge correspondant à une intensité modérée de 70 dB SPL. Comme mentionné dans le texte, les vibrations atteignent un maximum en un point précis, ici situé à environ 14,5 mm de l’apex. En termes de codage tonotopique, cette position particulière "code" donc pour la fréquence de 15 kHz. Par ailleurs, l’excitation décroît rapidement au-delà de ce point (entre 14,5 mm et 13,5 mm), ce qui confère au profil général une asymétrie caractéristique, conformément aux observations de von Békésy. (Source : Russell and Nilsen, 1997)*
+```
 
 ## Tonotopie et sélectivité fréquentielle de la cochlée
 
@@ -87,7 +107,7 @@ On peut obtenir une indication de la sélectivité fréquentielle en chaque poin
 
 ## Modéliser la cochlée (part 1) : gammatones et pattern d'excitation
 
-Sur la base de la description physiologique très sommaire que nous venons d'évoquer, il est d'ores et déjà possible de mettre au point un modèle simpliste, mais pourtant efficace, de l'oreille interne. Ce modèle consiste exclusivement en une série de filtres linéaires, accordés à des fréquences différentes, le **banc de filtres gammatones**. Chaque gammatone est un filtre passe-bande qui représente la fonction de transfert en un point particulier de la membrane basilaire. Les gammatones sont espacés quasi-logarithmiquement entre 20 Hz et 20.000 Hz (selon la fonction tonotopique vue plus haut). Les filtres ont un facteur qualité constant, c'est à dire que leur largeur de bande est proportionnelle à la fréquence centrale -- ce qui est là encore cohérent avec les observations décrites plus haut sur la sélectivité fréquentielle. [attention confusion possible] [[2](note2OI)]. La figure suivante illustre les fonctions de transfert d'un banc de gammatones.
+Sur la base de la description physiologique très sommaire que nous venons d'évoquer, il est d'ores et déjà possible de mettre au point un modèle simpliste, mais pourtant efficace, de l'oreille interne. Ce modèle consiste exclusivement en une série de filtres linéaires, accordés à des fréquences différentes, le **banc de filtres gammatones**. Chaque gammatone est un filtre passe-bande qui représente la fonction de transfert en un point particulier de la membrane basilaire. Les gammatones sont espacés quasi-logarithmiquement entre 20 Hz et 20.000 Hz (selon la fonction tonotopique vue plus haut). Les filtres ont un facteur qualité constant, c'est à dire que leur largeur de bande est proportionnelle à la fréquence centrale -- ce qui est là encore cohérent avec les observations décrites plus haut sur la sélectivité fréquentielle. [attention confusion possible] [[3](note3OI)]. La figure suivante illustre les fonctions de transfert d'un banc de gammatones.
 
 ```{figure} gammatones.png
 ---
@@ -99,7 +119,7 @@ align: center
 *Fonction de transfert d'un banc de gammatones. Chaque couleur correspond à un gammatone individuel (et donc à une position particulière le long de la membrane basilaire).*
 ```
 
-Chaque gammatone permet donc de simuler l'excitation d'un point isolé de la membrane basilaire en réponse à un son [[3](note3OI)]. Pour obtenir un modèle de l'excitation tout au long de la membrane il suffit donc de calculer la réponse de chaque gammatone au son considéré. Le **pattern d'excitation** représente le niveau de sortie de chaque gammatone en fonction de sa fréquence d'accordage, offrant ainsi une simulation de l’excitation de la cochlée par un stimulus donné. La figure suivante illustre le calcul du pattern d’excitation en réponse à un ton pur de fréquence 1 kHz, à partir de la réponse de cinq gammatones.
+Chaque gammatone permet donc de simuler l'excitation d'un point précis de la membrane basilaire en réponse à un son [[4](note4OI)]. Pour obtenir un modèle de l'excitation tout au long de la membrane il suffit donc de calculer la réponse de chaque gammatone au son considéré. Le **pattern d'excitation** représente le niveau de sortie de chaque gammatone en fonction de sa fréquence d'accordage, offrant ainsi une simulation de l’excitation de la cochlée par un stimulus donné. La figure suivante illustre le calcul du pattern d’excitation en réponse à un ton pur de fréquence 1 kHz, à partir de la réponse de cinq gammatones.
 
 ```{figure} pattern.png
 ---
@@ -176,8 +196,12 @@ The hair cells in the organ of Corti are tuned to certain sound frequencies by w
 
 (note2OI)=
 
-[2] La membrane basilaire étant continue il faudrait en théorie une infinité de gammatones pour la simuler complètement. Néanmoins, en pratique, on constate qu'un nombre relativement restreint de gammatones est suffisant pour la plupart des applications s'ils sont bien distribués selon la bonne loi de répartition en fréquence.
+[2] Il s'agit ici de mesures effectuées chez le cochon d'Inde, d'où les fréquences testées particulièrement élevées, cette espèce possédant une gamme auditive plus étendue que celle de l'être humain. Mis à part cette différence, le système auditif périphérique des deux espèces demeure globalement comparable.
+
+(note3OI)=
+
+[3] La membrane basilaire étant continue il faudrait en théorie une infinité de gammatones pour la simuler complètement. Néanmoins, en pratique, on constate qu'un nombre relativement restreint de gammatones est suffisant pour la plupart des applications s'ils sont bien distribués selon la bonne loi de répartition en fréquence.
 
 (note4OI)=
 
-[3] Pour être complet, notre modèle simple du système périphérique devrait inclure les filtres d'oreille externe et moyenne suivis des filtres gammatones correspondant à l'oreille interne. Cependant, en pratique, les scientifiques utilisent le pattern d'excitation uniquement pour reproduire les phénomènes liés à la résolution de la membrane basilaire, et n'incluent donc pas de filtre d'oreille externe/moyenne.
+[4] Pour être complet, notre modèle simple du système périphérique devrait inclure les filtres d'oreille externe et moyenne suivis des filtres gammatones correspondant à l'oreille interne. Cependant, en pratique, les scientifiques utilisent le pattern d'excitation uniquement pour reproduire les phénomènes liés à la résolution de la membrane basilaire, et n'incluent donc pas de filtre d'oreille externe/moyenne.

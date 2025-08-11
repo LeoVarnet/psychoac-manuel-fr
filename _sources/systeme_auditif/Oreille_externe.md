@@ -70,7 +70,7 @@ Bien qu'extrêmement simple cette simulation de l'oreille externe comme un simpl
 
 (note1orext)=
 
-[1] Du point de vue de la fonction de localisation, on pourrait donc considérer que la tête est une extension de l'oreille.
+[1] Si l'on se concentre sur la fonction de localisation, on pourrait donc considérer, de façon un peu provoquante, que la tête est une simple extension de l'oreille externe qui amplifie la directionalité liée au pavillon. 
 
 ## Références
 

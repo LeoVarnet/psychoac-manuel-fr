@@ -61,7 +61,7 @@ La figure suivante illustre l'effet de ce filtre sur le même son de brouhaha qu
 ---
 name: middle_ear_demo.bmp
 alt: middle ear demo
-height: 200px
+height: 300px
 align: center
 ---
 *Spectrogramme d’un brouhaha composé de 5 voix superposées, avant (gauche) et après (droite) passage par l’oreille externe et l'oreille moyenne. Cette figure a été obtenue par simulation grâce au filtre décrit ci-dessus*

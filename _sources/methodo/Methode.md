@@ -65,7 +65,7 @@ align: center
 
 L'expérience de l'audiogramme que nous venons de décrire suit la **méthode des limites descendante**, une méthode adaptative très simple qui consiste à choisir un niveau de départ facile sur la dimension d'intérêt (ici l'intensité des bips) puis à augmenter progressivement la difficulté d'un essai à l'autre par pas constant jusqu'à ce que le participant ou la participante ne soit plus en mesure de réaliser la tâche demandée. À l'inverse, la **méthode des limites ascendante** part d'un niveau difficile pour s'arrêter dès que le sujet  parvient à effectuer la tâche.
 
-L'intérêt évident de la méthode des limites est qu'elle permet de mesurer un seuil en un temps très court : une descente ou une montée représentent une dizaine d'essais, selon le choix du niveau de départ et de la taille du pas, et on répète habituellement trois fois la mesure pour s'assurer de la stabilité du seuil, parfois en alternant méthodes ascendante et descendante. La figure et l'exemple sonore suivants illustrent une mesure composée de 6 répétitions, ascendantes et descendantes, en réduisant progressivement la taille du pas pour obtenir une meilleure précision.
+L'intérêt évident de la méthode des limites est qu'elle permet de mesurer un seuil en un temps très court : une descente ou une montée représentent une dizaine d'essais, selon le choix du niveau de départ et de la taille du pas, et on répète habituellement trois fois la mesure pour s'assurer de la stabilité du seuil, parfois en alternant méthodes ascendante et descendante. La figure et l'exemple sonore suivants illustrent une mesure composée de 6 répétitions, ascendantes et descendantes, en réduisant progressivement la taille du pas pour obtenir une meilleure précision. Chaque essai est suivi d’un signal sonore indiquant la réponse positive ou négative du sujet.
 
 ```{figure} MethodeLimite.png
 ---
@@ -156,7 +156,6 @@ align: center
 *Exemples d'évolution de la dimension d'intérêt (ici le niveau sonore, "stimulus level") dans le cas d'un escalier psychophysique. Les carrés noirs correspondent aux réponses "j'ai entendu le son", les ronds blancs aux réponses "je n'ai pas entendu le son". L'escalier A correspond à une règle 1-up-1-down, le B à une règle 1-up-3-down. Notez que dans ces deux exemples, la taille de pas change au cours de l'escalier. (Leek, 2001)*
 ```
 
-
 Les deux exemples audio suivants correspondent aux parties A et B de la figure ci-dessus. Comme précédemment, chaque essai est suivi d'un signal sonore indiquant la réponse positive ou négative du sujet.
 
 <audio controls>
@@ -203,7 +202,6 @@ align: center
 ---
 *Fonction psychométrique parcourue selon la méthode de l'escalier psychophysique. La règle appliquée dans cet exemple est un two-down-one-up.*
 ```
-
 
 ```{figure} psychostaircase2.png
 ---
@@ -257,7 +255,7 @@ alt: Exemple de mesure de performances
 width: 500px
 align: center
 ---
-*Exemple de mesures de performance en compréhension de parole réalisée chez différents groupes de sujets (symbolisés par les différentes couleurs) et dans différentes conditions epérimentales : dans le silence, dans le bruit, etc... (Fostick, 2019)*
+*Exemple de mesures de performance en compréhension de parole réalisée chez différents groupes de sujets (symbolisés par les différentes couleurs) et dans différentes conditions expérimentales : dans le silence, dans le bruit, etc... (Fostick, 2019)*
 ```
 
 Il faut néanmoins souligner un écueil potentiel de cette méthode. Si le niveau choisi sur la dimension d'intérêt est trop élevé (tâche trop facile) ou trop bas (tâche trop difficile), les performances mesurées seront proches du plafond ou du plancher respectivement et il ne sera pas possible de différencier les deux conditions. La mesure de performance nécessite donc quelques connaissances préalables pour fixer judicieusement le niveau de difficulté de l'expérience.

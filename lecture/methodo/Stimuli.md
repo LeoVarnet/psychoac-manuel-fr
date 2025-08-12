@@ -36,7 +36,7 @@ align: center
 
 Dans la situation décrite ci-dessus, il est possible, dans une certaine mesure, de détecter la présence ou l'absence du signal cible à partir de la valeur d'énergie **E** totale. Ainsi, pour une valeur de E = 7 on peut répondre de façon assez certaine que le signal cible était présent, tandis qu'une valeur E = 4 nous indique plutôt que le signal cible était absent. Pour des valeurs intermédiaires il est plus difficile de donner une réponse tranchée, mais une règle optimale dans ce cas serait de répondre "ton présent" pour toute valeur de E supérieure à 5.5, et ton absent sinon. Un calcul de probabilité permet de démontrer que l'application de cette règle dans la situation décrite précédemment produit 64% de réponses correctes en moyenne.
 
-On peut à présent se demander comment ce pourcentage évolue en fonction de la difficulté de la tâche. Ici, le niveau de difficulté dépend directement de *d'*, la différence entre le son avec ou sans le signal. Cette distance entre les deux gaussienne jouera ici le rôle de **variable d'intérêt**. À nouveau, il est possible de montrer par le calcul que la probabilité de détection en fonction de *d'* suit une loi cumulative gaussienne, aussi appelée fonction logistique :
+On peut à présent se demander comment ce pourcentage évolue en fonction de la difficulté de la tâche. Ici, le niveau de difficulté dépend directement de *d'*, la différence entre le son avec ou sans le signal. Cette distance entre les deux gaussienne jouera ici le rôle de dimension d'intérêt. À nouveau, il est possible de montrer par le calcul que la probabilité de détection en fonction de *d'* suit une loi cumulative gaussienne, aussi appelée fonction logistique :
 
 \begin{gather*}
 p_{détect}(d') = \frac{1}{1+e^{-(\alpha + \beta \cdot d')}}
@@ -69,25 +69,25 @@ align: center
 
 D'après l'équation ci-dessus, la forme de la fonction psychométrique est déterminée par deux paramètres, <span style="color:rgb(237,125,49)">α</span> et <span style="color:rgb(204,0,153)">β</span> [[1](note1stim)]. 
 
-<span style="color:rgb(237,125,49)">α</span> détermine le **seuil à 50%** de la fonction psychométrique, c'est à dire le niveau de la dimension d'intérêt à partir duquel on obtient plus de 50% de réponses correctes. Modifier ce paramètre revient donc à déplacer latéralement la fonction.
+<span style="color:rgb(237,125,49)">α</span> détermine le **seuil à 50%** de la fonction psychométrique, c'est à dire le **niveau de la dimension d'intérêt à partir duquel on obtient plus de 50% de réponses correctes**. Modifier ce paramètre revient donc à déplacer latéralement la fonction.
 
 ```{figure} SDT4.png
 ---
 name: SDT4.png
 alt: Fonction psychométrique: effet de alpha
-height: 260px
+height: 200px
 align: center
 ---
 *Effet du paramètre alpha sur la fonction psychométrique.*
 ```
 
-<span style="color:rgb(204,0,153)">β</span> détermine la **pente** de la fonction psychométrique, c'est à dire la sensibilité du système aux variations de la dimension d'intérêt. Pour de faibles valeurs de <span style="color:rgb(204,0,153)">β</span>, le pourcentage de réponses change peu lorsqu'on modifie la dimension d'intérêt (sensibilité faibles). Pour de fortes valeurs de pente en revanche, le pourcentage de réponses bascule brutalement de sa valeur minimum à sa valeur maximum dans un petit intervalle de la dimension d'inrêt (sensibilité élevé).
+<span style="color:rgb(204,0,153)">β</span> détermine la **pente** de la fonction psychométrique, c'est à dire la **sensibilité du système aux variations de la dimension d'intérêt**. Pour de faibles valeurs de <span style="color:rgb(204,0,153)">β</span>, le pourcentage de réponses change peu lorsqu'on modifie la dimension d'intérêt (sensibilité faibles). Pour de fortes valeurs de pente en revanche, le pourcentage de réponses bascule brutalement de sa valeur minimum à sa valeur maximum dans un petit intervalle de la dimension d'inrêt (sensibilité élevé).
 
 ```{figure} SDT5.png
 ---
 name: SDT5.png
 alt: Fonction psychométrique: effet de beta
-height: 260px
+height: 200px
 align: center
 ---
 *Effet du paramètre beta sur la fonction psychométrique.*
@@ -99,7 +99,7 @@ Dans les paragraphes qui précèdent nous avons justifié théoriquement l'origi
 
 Ce cadre théorique s'applique non seulement aux appareils de détection comme celui décrit précédemment, mais également à l'humain, et se généralise à l'ensemble des expériences psychophysiques que nous allons rencontrer dans ce cours : pour des individus réalisant une tâche psychophysique, le pourcentage de réponses en fonction de la dimension d'intérêt suit (généralement) une fonction psychométrique logistique qu'il est possible de caractériser en termes de sensibilité et de seuil.
 
-Voici par exemple les performances de sujets réalisant une tâche de détection de ton dans le bruit. Contrairement à l'exemple précédent, la dimension d'intérêt n'est pas la distance entre la gaussienne du bruit et celle du bruit + signal, mais le rapport signal sur bruit (RSB). Lorsque le RSB est élevé la tâche est facile et les performances avoisinent donc les 100%. En revanche, lorsque le RSB tend vers $-\inf$, les performances décroissent jusqu'au niveau du hasard, 50%. De même que dans le cas du détecteur électronique, on peut donc caractériser la perception humaine sur cette tâche en la décrivant par une valeur de seuil (on préférera ici le seuil à 75%) et une valeur de sensibilité. On utilise pour cela une **régression logistique**, procédure statistique qui permet d'ajuster une fonction logistique (la courbe continue) à un ensemble de données mesurées (les points) malgré la variabilité inhérente aux mesures empiriques chez l'humain. [[3](note3stim)]
+Voici par exemple les performances de sujets réalisant une tâche de détection de ton dans le bruit. Contrairement à l'exemple précédent, la dimension d'intérêt n'est pas la distance entre la gaussienne du bruit et celle du bruit + signal, mais le rapport signal sur bruit (RSB). Lorsque le RSB est élevé, la tâche est facile et les performances avoisinent donc les 100%. En revanche, lorsque le RSB tend vers -∞, les performances décroissent jusqu'au niveau du hasard, 50%. De même que dans le cas du détecteur électronique, on peut donc caractériser la perception humaine sur cette tâche en la décrivant par une valeur de seuil (on préférera ici le seuil à 75%) et une valeur de sensibilité. On utilise pour cela une **régression logistique**, procédure statistique qui permet d'ajuster une fonction logistique (la courbe continue) à un ensemble de données mesurées (les points) malgré la variabilité inhérente aux mesures empiriques chez l'humain. [[3](note3stim)]
 
 ```{figure} SDT6.png
 ---

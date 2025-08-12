@@ -113,7 +113,7 @@ Sur la base de la description physiologique très sommaire que nous venons d'év
 ---
 name: gammatones.png
 alt: gammatones
-height: 300px
+height: 150px
 align: center
 ---
 *Fonction de transfert d'un banc de gammatones. Chaque couleur correspond à un gammatone individuel (et donc à une position particulière le long de la membrane basilaire).*

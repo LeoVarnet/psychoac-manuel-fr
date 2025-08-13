@@ -113,7 +113,7 @@ Sur la base de la description physiologique très sommaire que nous venons d'év
 ---
 name: gammatones.png
 alt: gammatones
-height: 100px
+height: 130px
 align: center
 ---
 Fonction de transfert d'un banc de gammatones. Chaque courbe correspond à un gammatone individuel, c'est-à-dire à la fonction de transfert d'une position particulière le long de la membrane basilaire. Les trois gammatones indiqués en couleur sont ceux correspondant approximativement aux fréquences d'accordage à 1 kHz, 6 kHz et 11 kHz, mises en évidence dans les {numref}`tuningcurves.png` et {numref}`tonotopy.png`. La réponse des gammatones reprend grossièrement celle des tuning curves ({numref}`tuningcurves.png`; notez la différence d'échelle de fréquence entre les deux figures.)
@@ -124,28 +124,28 @@ Chaque gammatone permet donc de simuler l'excitation d'un point précis de la me
 ```{figure} pattern.png
 ---
 name: pattern.png
-alt: pattern d'excitation
+alt: Calcul du pattern d'excitation
 height: 600px
 align: center
 ---
-*Gammatones*
+*Calcul du pattern d'excitation pour un ton pur de fréquence 1 kHz, dont le spectre de Fourier est représenté dans le panneau supérieur. Le panneau central présente les fonctions de transfert de cinq filtres gammatones particuliers, possédant des fréquences d'accordage de  762 Hz, 875 Hz, 1000 Hz, 1141 Hz et 1297 Hz. Pour chacun de ces gammatones, l'excitation par le ton pur à 1 kHz est indiquée par un point. Dans le panneau inférieur, ces cinq valeurs sont reportées en fonction de la fréquence d'accordage du gammatone. La courbe obtenue en reproduisant cette analyse pour toutes les fréquences d'accordage corresond au pattern d'excitation.*
 ```
 
-[lien données expérimentales excitation]
+La figure suivante représente le pattern d'excitation en réponse à un ton pur à 1.5 kHz. Cette simulation peut être rapprochée des valeurs d'excitation de la membrane basilaire représentées en {numref}`Excitation.jpeg`. Notez la différence d'échelle de fréquence entre les deux figures : l'axe des fréquences est inversé et les valeurs utilisées dans la simulation correspondent davantage à la gamme audible humaine. 
 
 ```{figure} pattern2.png
 ---
 name: pattern2.png
-alt: Simulation des tuning curves
+alt: Exemple de pattern d'excitation
 height: 300px
 align: center
 ---
-*Simulation des tuning curves*
+*Exemple de pattern d'excitation pour un ton pur à 1.5 kHz. Le pattern d’excitation reproduit deux caractéristiques majeures observées expérimentalement : la tonotopie (présence d’un maximum d’excitation) et l'asymétrie du pattern.*
 ```
 
-Comme nous le verrons par la suite le modèle du pattern d'excitation, bien qu'extrêmement simple, permet de rendre compte de nombreux phénomènes auditifs. Arrêtons nous sur quelques unes de ses propriétés. Tout d'abord, lorsque le stimulus est composé d'une fréquence unique, le pattern d'excitation possède quant à lui une certaine largeur de bande, reflétant la sélectivité limitée de l'oreille interne : un ton pur active non seulement le point de la membrane basilaire accordé sur cette fréquence mais également les régions adjacentes. Plus cette région est étendue moins la résolution spectrale est bonne. La largeur des filtres gammatone étant proportionnelle à leur fréquence, le pattern d'excitation est également plus large dans les hautes fréquences que dans les basses fréquences.
+Comme nous le verrons par la suite le modèle du pattern d'excitation, bien qu'extrêmement simple, permet de rendre compte de nombreux phénomènes auditifs. Arrêtons nous sur quelques unes de ses propriétés. Tout d'abord, lorsque le stimulus est composé d'une fréquence unique, le pattern d'excitation possède quant à lui une certaine largeur de bande, reflétant la sélectivité limitée de l'oreille interne : un ton pur active non seulement le point de la membrane basilaire accordé sur cette fréquence mais également les régions adjacentes. Plus cette région est étendue moins la résolution spectrale est précise. 
 
-Caractéristique importante sur laquelle nous reviendrons, **le pattern d'excitation d'un ton pur est asymétrique**. Puisque les filtres gammatones au dessus de la fréquence du stimulus sont plus larges que ceux en dessous, on observe un étalement de l'excitation vers les hautes fréquences (***upward spread of excitation***). 
+Autre caractéristique importante sur laquelle nous reviendrons, **le pattern d'excitation d'un ton pur est asymétrique**. En effet, les filtres gammatone situés au-dessus de la fréquence du stimulus étant plus larges que ceux situés en dessous, il en résulte un étalement de l’excitation vers les hautes fréquences, phénomène connu sous le nom d'***upward spread of excitation***. 
 
 ```{figure} pattern3.png
 ---

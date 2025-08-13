@@ -125,7 +125,7 @@ Chaque gammatone permet donc de simuler l'excitation d'un point précis de la me
 ---
 name: pattern.png
 alt: pattern d'excitation
-height: 200px
+height: 600px
 align: center
 ---
 *Gammatones*

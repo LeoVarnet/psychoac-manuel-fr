@@ -159,6 +159,17 @@ align: center
 *Exemple de pattern d’excitation pour un complexe harmonique composé de tons purs à des multiples de 500 Hz, dont les spectres de Fourier sont représentés dans le panneau supérieur. Le panneau central présente le pattern d'excitation de chacun de ces tons purs, considérés individuellement, et le panneau inférieur le pattern d'excitation du compexe harmonique complet.*
 ```
 
+
+```{figure} pattern4.png
+---
+name: pattern4.png
+alt: Sortie temporelle des filtres gammatones
+height: 600px
+align: center
+---
+*Sortie temporelle des filtres gammatone.*
+```
+
 ## Cellules cilliées
 
 Dans la première section de ce chapitre, nous avons exploré comment les vibrations transmises à l'oreille interne excitent la membrane basilaire, permettant la décomposition des sons en différentes fréquences. Nous allons à présent nous intéresser à la seconde fonction de l'oreille interne : convertir les vibrations mécaniques en impulsions électriques, tout en compressant la gamme des intensités acoustiques perceptibles en une plage beaucoup plus réduite d'activité électrique.

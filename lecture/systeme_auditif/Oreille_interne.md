@@ -147,17 +147,17 @@ Comme nous le verrons par la suite le modèle du pattern d'excitation, bien qu'e
 
 Autre caractéristique importante sur laquelle nous reviendrons, **le pattern d'excitation d'un ton pur est asymétrique**. En effet, les filtres gammatone situés au-dessus de la fréquence du stimulus étant plus larges que ceux situés en dessous, il en résulte un étalement de l’excitation vers les hautes fréquences, phénomène connu sous le nom d'***upward spread of excitation***. 
 
+Pour un complexe harmonique, composé de tons purs à des fréquences multiples d'une fréquence fondamentalementale, le pattern d'excitation fait apparaître une structure différente dans les basses et les hautes fréquences (voir figure ci-dessous). La résolution diminuant avec la fréquence, seules les premières harmoniques suscitent des pics d'excitation clairement séparés. On parle alors d'**harmoniques résolues**. Au contraire, dans les hautes fréquences, les harmoniques sont **non-résolues** : chaque gammatone couvrant plusieurs harmoniques il est impossible de distinguer ces dernières sur le pattern d’excitation. Nous reviendrons sur les implications auditives de ces propriétés du pattern d'excitation au chapitre 3.
+
 ```{figure} pattern3.png
 ---
 name: pattern3.png
-alt: Propriétés des patterns d'excitation
-height: 300px
+alt: Patterns d'excitation d'un complexe harmonique
+height: 600px
 align: center
 ---
 *Exemple de pattern d’excitation pour un complexe harmonique composé de tons purs à des multiples de 500 Hz, dont les spectres de Fourier sont représentés dans le panneau supérieur. Le panneau central présente le pattern d'excitation de chacun de ces tons purs, considérés individuellement, et le panneau inférieur le pattern d'excitation du compexe harmonique complet.*
 ```
-
-Pour un complexe harmonique, composé de tons purs à des fréquences multiples d'une fréquence fondamentalementale, le pattern d'excitation fait apparaître une structure différente dans les basses et les hautes fréquences (voir figure ci-dessus). La résolution diminuant avec la fréquence, seules les premières harmoniques suscitent des pics d'excitation clairement séparés. On parle alors d'**harmoniques résolues**. Au contraire, dans les hautes fréquences, les harmoniques sont **non-résolues** : chaque gammatone couvrant plusieurs harmoniques il est impossible de distinguer ces dernières sur le pattern d’excitation. Nous reviendrons sur les implications auditives de ces propriétés du pattern d'excitation au chapitre 3.
 
 ## Cellules cilliées
 

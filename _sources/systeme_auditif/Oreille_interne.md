@@ -159,6 +159,13 @@ align: center
 *Exemple de pattern d’excitation pour un complexe harmonique composé de tons purs à des multiples de 500 Hz, dont les spectres de Fourier sont représentés dans le panneau supérieur. Le panneau central présente le pattern d'excitation de chacun de ces tons purs, considérés individuellement, et le panneau inférieur le pattern d'excitation du compexe harmonique complet.*
 ```
 
+Avant d'appliquer ce modèle des sons plus complexes, il est nécessaire d'envisager en premier lieu la dynamique temporelle du codage des sons par les neurones.
+
+
+## Cellules cilliées
+
+Dans la première section de ce chapitre, nous avons exploré comment les vibrations transmises à l'oreille interne excitent la membrane basilaire, permettant la décomposition des sons en différentes fréquences. Nous allons à présent nous intéresser à la seconde fonction de l'oreille interne : convertir les vibrations mécaniques en impulsions électriques, tout en compressant la gamme des intensités acoustiques perceptibles en une plage beaucoup plus réduite d'activité électrique.
+
 
 ```{figure} pattern4.png
 ---
@@ -169,11 +176,6 @@ align: center
 ---
 *Sortie temporelle des filtres gammatone.*
 ```
-
-## Cellules cilliées
-
-Dans la première section de ce chapitre, nous avons exploré comment les vibrations transmises à l'oreille interne excitent la membrane basilaire, permettant la décomposition des sons en différentes fréquences. Nous allons à présent nous intéresser à la seconde fonction de l'oreille interne : convertir les vibrations mécaniques en impulsions électriques, tout en compressant la gamme des intensités acoustiques perceptibles en une plage beaucoup plus réduite d'activité électrique.
-
 
 The hair cells in the organ of Corti are tuned to certain sound frequencies by way of their location in the cochlea, due to the degree of stiffness in the basilar membrane.[8] This stiffness is due to, among other things, the thickness and width of the basilar membrane,[9] which along the length of the cochlea is stiffest nearest its beginning at the oval window, where the stapes introduces the vibrations coming from the eardrum. Since its stiffness is high there, it allows only high-frequency vibrations to move the basilar membrane, and thus the hair cells. The farther a wave travels towards the cochlea's apex (the helicotrema), the less stiff the basilar membrane is; thus lower frequencies travel down the tube, and the less-stiff membrane is moved most easily by them where the reduced stiffness allows: that is, as the basilar membrane gets less and less stiff, waves slow down and it responds better to lower frequencies. In addition, in mammals, the cochlea is coiled, which has been shown to enhance low-frequency vibrations as they travel through the fluid-filled coil.[10] This spatial arrangement of sound reception is referred to as tonotopy. 
 

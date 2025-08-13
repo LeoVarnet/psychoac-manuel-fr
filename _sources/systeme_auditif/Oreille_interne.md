@@ -73,7 +73,7 @@ align: center
 *Mesure de l'excitation de la membrane basilaire en réponse à un ton pur à 15 kHz, semblable à celles réalisées par von Békésy [[2](note2OI)]. L'axe des abscisses correspond à la position considérée le long de la membrane -- plus ou moins loin du sommet (apex) de la cochlée. L'axe des ordonnées représente l'amplitude des vibrations enregistrées en ce point. Plusieurs intensités du stimulus acoustique sont considérées, la courbe tracée en rouge correspondant à une intensité modérée de 70 dB SPL. Comme mentionné dans le texte, les vibrations atteignent un maximum en un point précis, ici situé à environ 14,5 mm de l’apex. En termes de codage tonotopique, cette position particulière "code" donc pour la fréquence de 15 kHz. Par ailleurs, l’excitation décroît rapidement au-delà de ce point (entre 14,5 mm et 13,5 mm), ce qui confère au profil général une asymétrie caractéristique, conformément aux observations de von Békésy. (Source : Russell and Nilsen, 1997)*
 ```
 
-## Tonotopie et sélectivité fréquentielle de la cochlée
+## Codage tonotopique et sélectivité fréquentielle de la cochlée
 
 Outre les simulations, il est également possible de mesurer expérimentalement les mouvements de la membrane basilaire en réponse à des sons, afin de calculer sa fonction de transfert réelle. La figure suivante représente les ***tuning curves***, c'est-à-dire l'excitation de la membrane basilaire en réponse à des tons purs. Plus précisément, chacune des courbes correspond à l'enregistrement des vibrations en *une* position précise le long de la cochlée, en fonction de la fréquence jouée (avec une intensité acoustique toujours identique). 
 
@@ -161,11 +161,13 @@ align: center
 
 Avant d'appliquer ce modèle des sons plus complexes, il est nécessaire d'envisager en premier lieu la dynamique temporelle du codage des sons par les neurones.
 
+## Codage temporel et cellules cilliées
 
-## Cellules cilliées
+Dans la première section de ce chapitre, nous avons exploré comment les vibrations transmises à l'oreille interne excitent la membrane basilaire, permettant la décomposition des sons en différentes fréquences. Nous allons à présent nous intéresser à la seconde fonction de l'oreille interne : convertir les vibrations mécaniques en impulsions électriques, [tout en compressant la gamme des intensités acoustiques perceptibles en une plage beaucoup plus réduite d'activité électrique.]
 
-Dans la première section de ce chapitre, nous avons exploré comment les vibrations transmises à l'oreille interne excitent la membrane basilaire, permettant la décomposition des sons en différentes fréquences. Nous allons à présent nous intéresser à la seconde fonction de l'oreille interne : convertir les vibrations mécaniques en impulsions électriques, tout en compressant la gamme des intensités acoustiques perceptibles en une plage beaucoup plus réduite d'activité électrique.
+[...]
 
+Le modèle du banc de filtre gammatone que nous avons vu précédemment rend compte non seulement du codage tonotopique (au travers du pattern d'excitation) mais également du codage temporel. Si l'on considère par exemple la réponse des filtres gammatones à un complexe harmonique, 
 
 ```{figure} pattern4.png
 ---

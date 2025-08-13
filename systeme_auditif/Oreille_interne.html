@@ -428,9 +428,9 @@ document.write(`
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#la-cochlee-et-la-membrane-basilaire">La cochlée et la membrane basilaire</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#tonotopie-et-selectivite-frequentielle-de-la-cochlee">Tonotopie et sélectivité fréquentielle de la cochlée</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#codage-tonotopique-et-selectivite-frequentielle-de-la-cochlee">Codage tonotopique et sélectivité fréquentielle de la cochlée</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#modeliser-la-cochlee-part-1-gammatones-et-pattern-d-excitation">Modéliser la cochlée (part 1) : gammatones et pattern d’excitation</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#cellules-cilliees">Cellules cilliées</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#codage-temporel-et-cellules-cilliees">Codage temporel et cellules cilliées</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#notes">Notes</a></li>
 </ul>
             </nav>
@@ -500,8 +500,8 @@ Les canaux montants et descendants sont, rappelons-le, séparés par la lame spi
 </figcaption>
 </figure>
 </section>
-<section id="tonotopie-et-selectivite-frequentielle-de-la-cochlee">
-<h2>Tonotopie et sélectivité fréquentielle de la cochlée<a class="headerlink" href="#tonotopie-et-selectivite-frequentielle-de-la-cochlee" title="Link to this heading">#</a></h2>
+<section id="codage-tonotopique-et-selectivite-frequentielle-de-la-cochlee">
+<h2>Codage tonotopique et sélectivité fréquentielle de la cochlée<a class="headerlink" href="#codage-tonotopique-et-selectivite-frequentielle-de-la-cochlee" title="Link to this heading">#</a></h2>
 <p>Outre les simulations, il est également possible de mesurer expérimentalement les mouvements de la membrane basilaire en réponse à des sons, afin de calculer sa fonction de transfert réelle. La figure suivante représente les <em><strong>tuning curves</strong></em>, c’est-à-dire l’excitation de la membrane basilaire en réponse à des tons purs. Plus précisément, chacune des courbes correspond à l’enregistrement des vibrations en <em>une</em> position précise le long de la cochlée, en fonction de la fréquence jouée (avec une intensité acoustique toujours identique).</p>
 <figure class="align-center" id="tuningcurves-png">
 <a class="reference internal image-reference" href="../_images/tuningcurves.png"><img alt="tuning curves" src="../_images/tuningcurves.png" style="height: 250px;" />
@@ -560,9 +560,11 @@ Les canaux montants et descendants sont, rappelons-le, séparés par la lame spi
 </figure>
 <p>Avant d’appliquer ce modèle des sons plus complexes, il est nécessaire d’envisager en premier lieu la dynamique temporelle du codage des sons par les neurones.</p>
 </section>
-<section id="cellules-cilliees">
-<h2>Cellules cilliées<a class="headerlink" href="#cellules-cilliees" title="Link to this heading">#</a></h2>
-<p>Dans la première section de ce chapitre, nous avons exploré comment les vibrations transmises à l’oreille interne excitent la membrane basilaire, permettant la décomposition des sons en différentes fréquences. Nous allons à présent nous intéresser à la seconde fonction de l’oreille interne : convertir les vibrations mécaniques en impulsions électriques, tout en compressant la gamme des intensités acoustiques perceptibles en une plage beaucoup plus réduite d’activité électrique.</p>
+<section id="codage-temporel-et-cellules-cilliees">
+<h2>Codage temporel et cellules cilliées<a class="headerlink" href="#codage-temporel-et-cellules-cilliees" title="Link to this heading">#</a></h2>
+<p>Dans la première section de ce chapitre, nous avons exploré comment les vibrations transmises à l’oreille interne excitent la membrane basilaire, permettant la décomposition des sons en différentes fréquences. Nous allons à présent nous intéresser à la seconde fonction de l’oreille interne : convertir les vibrations mécaniques en impulsions électriques, [tout en compressant la gamme des intensités acoustiques perceptibles en une plage beaucoup plus réduite d’activité électrique.]</p>
+<p>[…]</p>
+<p>Le modèle du banc de filtre gammatone que nous avons vu précédemment rend compte non seulement du codage tonotopique (au travers du pattern d’excitation) mais également du codage temporel. Si l’on considère par exemple la réponse des filtres gammatones à un complexe harmonique,</p>
 <figure class="align-center" id="pattern4-png">
 <a class="reference internal image-reference" href="../_images/pattern4.png"><img alt="Sortie temporelle des filtres gammatones" src="../_images/pattern4.png" style="height: 600px;" />
 </a>
@@ -649,9 +651,9 @@ Les canaux montants et descendants sont, rappelons-le, séparés par la lame spi
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#la-cochlee-et-la-membrane-basilaire">La cochlée et la membrane basilaire</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#tonotopie-et-selectivite-frequentielle-de-la-cochlee">Tonotopie et sélectivité fréquentielle de la cochlée</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#codage-tonotopique-et-selectivite-frequentielle-de-la-cochlee">Codage tonotopique et sélectivité fréquentielle de la cochlée</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#modeliser-la-cochlee-part-1-gammatones-et-pattern-d-excitation">Modéliser la cochlée (part 1) : gammatones et pattern d’excitation</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#cellules-cilliees">Cellules cilliées</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#codage-temporel-et-cellules-cilliees">Codage temporel et cellules cilliées</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#notes">Notes</a></li>
 </ul>
   </nav></div>

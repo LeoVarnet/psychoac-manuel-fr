@@ -37,7 +37,7 @@ align: center
 
 De même que la pupille de notre œil peut adapter son diamètre en fonction de l'intensité lumineuse ambiante, notre oreille moyenne dispose d'un mécanisme visant à atténuer la transmission des sons de trop haute intensité, protégeant ainsi l'oreille interne, plus fragile. Le muscle de l'étrier est capable de se tendre de façon réflexe pour raidir et bloquer partiellement le système de levier décrit ci-dessus : on parle alors de **réflexe stapédien**. Ce réflexe se déclenche en l'espace de quelques dizaines de millisecondes lorsque le niveau de stimulation dépasse ~80-90 dB SPL (bien que ce seuil dépende de plusieurs facteurs), mais également en anticipation lorsque nous nous apprêtons à émettre un son -- puisque notre propre voix est particulièrement forte à nos oreilles.
 
-## Modélisation de l'oreille moyenne
+## Modéliser l'oreille moyenne
 
 Hormis le réflexe stapédien, l'oreille moyenne se comporte comme un système passif, communiquant l'onde sonore à un milieu liquide. 
 

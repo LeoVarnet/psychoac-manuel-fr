@@ -182,6 +182,8 @@ La cochlée effectue également une transduction (grâce aux ~3500 cellules cili
 … et une compression de dynamique (grâce aux ~25000 cellules ciliées externes)
 
 
+The hair cells in the organ of Corti are tuned to certain sound frequencies by way of their location in the cochlea, due to the degree of stiffness in the basilar membrane.[8] This stiffness is due to, among other things, the thickness and width of the basilar membrane,[9] which along the length of the cochlea is stiffest nearest its beginning at the oval window, where the stapes introduces the vibrations coming from the eardrum. Since its stiffness is high there, it allows only high-frequency vibrations to move the basilar membrane, and thus the hair cells. The farther a wave travels towards the cochlea's apex (the helicotrema), the less stiff the basilar membrane is; thus lower frequencies travel down the tube, and the less-stiff membrane is moved most easily by them where the reduced stiffness allows: that is, as the basilar membrane gets less and less stiff, waves slow down and it responds better to lower frequencies. In addition, in mammals, the cochlea is coiled, which has been shown to enhance low-frequency vibrations as they travel through the fluid-filled coil.[10] This spatial arrangement of sound reception is referred to as tonotopy. 
+
 [...]
 
 ```{figure} Organ_of_Corti.png
@@ -247,7 +249,16 @@ align: center
 *Sortie temporelle des filtres gammatone.*
 ```
 
-The hair cells in the organ of Corti are tuned to certain sound frequencies by way of their location in the cochlea, due to the degree of stiffness in the basilar membrane.[8] This stiffness is due to, among other things, the thickness and width of the basilar membrane,[9] which along the length of the cochlea is stiffest nearest its beginning at the oval window, where the stapes introduces the vibrations coming from the eardrum. Since its stiffness is high there, it allows only high-frequency vibrations to move the basilar membrane, and thus the hair cells. The farther a wave travels towards the cochlea's apex (the helicotrema), the less stiff the basilar membrane is; thus lower frequencies travel down the tube, and the less-stiff membrane is moved most easily by them where the reduced stiffness allows: that is, as the basilar membrane gets less and less stiff, waves slow down and it responds better to lower frequencies. In addition, in mammals, the cochlea is coiled, which has been shown to enhance low-frequency vibrations as they travel through the fluid-filled coil.[10] This spatial arrangement of sound reception is referred to as tonotopy. 
+```{figure} AuditorySpectrogram.png
+---
+name: AuditorySpectrogram.png
+alt: Spectrogramme auditif
+height: 600px
+align: center
+---
+*Spectrogramme auditif.*
+```
+
 
 > The assumption of a ‘passive’ cochlea, where elements are brought into mechanical oscillation solely by means of the incident sound, is not tenable. The degree of resonance of the elements of the cochlea can be measured, and the results are not compatible with the very heavy damping which must arise from the viscosity of the liquid. For this reason the 'regeneration hypothesis' is put forward, and it is suggested that an electromechanical action takes place whereby a supply of electrical energy is employed to counteract the damping. (*The physical basis of the action of the cochlea, Thomas Gold, 1948*)
 

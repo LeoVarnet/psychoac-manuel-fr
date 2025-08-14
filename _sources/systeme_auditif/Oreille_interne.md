@@ -190,7 +190,7 @@ The hair cells in the organ of Corti are tuned to certain sound frequencies by w
 ---
 name: Organ_of_Corti.png
 alt: Schéma en coupe de la cochlée
-height: 600px
+width: 100%
 align: center
 ---
 *Schéma en coupe de la cochlée. (Source : [Openstax](https://openstax.org/books/anatomy-and-physiology/pages/14-1-sensory-perception))*
@@ -201,7 +201,7 @@ align: center
 ---
 name: Hair_cell.png
 alt: Schéma des cellules cilliées
-height: 600px
+width: 100%
 align: center
 ---
 *Schéma des cellules cilliées. (Source : [Openstax](https://openstax.org/books/anatomy-and-physiology/pages/14-1-sensory-perception))*
@@ -212,7 +212,7 @@ align: center
 ---
 name: I_H_Hair_cell.png
 alt: Schéma de l'ogane de Corti
-height: 600px
+width: 100%
 align: center
 ---
 *Schéma de l'ogane de Corti. (Source : [Openstax](https://openstax.org/books/anatomy-and-physiology/pages/14-1-sensory-perception))*

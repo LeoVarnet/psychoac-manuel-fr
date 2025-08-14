@@ -87,7 +87,19 @@ align: center
 *Tuning curves. Chaque courbe représente la réponse de la membrane basilaire en un point particulier, en fonction de la fréquence du ton pur joué. Pour plus de lisibilité, 3 courbes ont été mises en couleur, correspondant respectivement à l'enregistrement à 17 mm de l'apex de la cochlée (bleu), à 25 mm (jaune) et à 33 mm (vert). (Adapté de van der Heijden and Joris, 2003)*
 ```
 
-On constate, comme le prédit la théorie, qu'une position particulière le long de la membrane basilaire (c'est à dire une tuning curve particulière) correspond à une **fréquence d’accordage** (*tuning frequency*) spécifique. En effet, comme on l'a vu, le gradient de propriétés physiques permet un codage tonotopique -- dont nous voyons la démonstration empirique sur cette figure. Pour visualiser plus précisément la correspondance entre position et fréquence, on peut reporter la fréquence d'accordage de chaque tuning curve en fonction de la distance à l'apex du point où a été réalisé l'enregistrement (voir figure suivante)
+La figure suivante illustre les mêmes *tuning curves*, obtenues selon une approche expérimentale différente. Plutôt que de fixer le niveau de stimulation sonore et de mesurer l’amplitude des vibrations de la membrane basilaire, on ajuste ici le niveau de stimulation de manière à maintenir une réponse constante en sortie. Le tracé obtenu (***isoresponse tuning curves***) est globalement similaire à celui obtenu précédemment, bien qu'inversé en raison de la nature de la mesure.
+
+```{figure} Isoresponse2.png
+---
+name: Isoresponse2.png
+alt: isoresponse tuning curves
+height: 250px
+align: center
+---
+*Isoresponse tuning curves. Les tuning curves indiquées en couleurs correspondent approximativement à celles de la {numref}`tuningcurves.png`. (Adapté de Kiang, 1980).*
+```
+
+On constate, comme le prédit la théorie, qu'une position particulière le long de la membrane basilaire (c'est à dire une tuning curve particulière) correspond à une **fréquence d’accordage** (*tuning frequency*) spécifique. En effet, comme on l'a vu, le gradient de propriétés physiques permet un codage tonotopique -- dont nous voyons la démonstration empirique sur ces figures. Pour visualiser plus précisément la correspondance entre position et fréquence, on peut reporter la fréquence d'accordage de chaque tuning curve en fonction de la distance à l'apex du point où a été réalisé l'enregistrement (voir figure suivante)
 
 ```{figure} tonotopy.png
 ---
@@ -99,13 +111,13 @@ align: center
 *Mesure de la tonotopie : fréquence d'accordage en fonction de la position le long de la membrane basilaire.*
 ```
 
-Grâce à cette dernière figure, on observe que la relation entre fréquence d’accordage et distance à l'apex est quasi-logarithmique. Il y a donc proportionnellement plus d'espace alloué aux basses fréquences qu'aux hautes fréquences.
+On observe que la relation entre fréquence d’accordage et distance à l'apex est quasi-logarithmique. Il y a donc proportionnellement plus d'espace alloué aux basses fréquences qu'aux hautes fréquences.
 
 Revenons à présent aux tuning curves. Leur tracé fait apparaître non seulement une fréquence d'accordage particulière, mais également une certaine bande passante : une position donnée de la membrane n'est pas excitée par une fréquence unique, mais également par les fréquences proches -- et, inversement, chaque fréquence excite non seulement la position de la cochlée qui lui correspond mais aussi les régions adjacentes. Autrement dit : **la sélectivité fréquentielle de l'oreille interne est limitée**, autrement dit notre oreille est incapable de différencier des fréquences si elles sont trop proches. 
 
 On peut obtenir une indication de la sélectivité fréquentielle en chaque point de la membrane basilaire en mesurant la bande passante de la tuning curve correspondante. [...]
 
-## Modéliser la cochlée (partie 1) : gammatones et pattern d'excitation
+## Modéliser l'oreille interne (partie 1) : gammatones et pattern d'excitation
 
 Sur la base de la description physiologique très sommaire que nous venons d'évoquer, il est d'ores et déjà possible de mettre au point un modèle simpliste, mais pourtant efficace, de l'oreille interne. Ce modèle consiste exclusivement en une série de filtres linéaires, accordés à des fréquences différentes, le **banc de filtres gammatones**. Chaque gammatone est un filtre passe-bande qui représente la fonction de transfert en un point particulier de la membrane basilaire. Les gammatones sont espacés quasi-logarithmiquement entre 20 Hz et 20.000 Hz (selon la fonction tonotopique vue plus haut). Les filtres ont un facteur qualité constant, c'est à dire que leur largeur de bande est proportionnelle à la fréquence centrale -- ce qui est là encore cohérent avec les observations décrites plus haut sur la sélectivité fréquentielle. [attention confusion possible] [[3](note3OI)]. La figure suivante illustre les fonctions de transfert d'un banc de gammatones.
 
@@ -165,6 +177,11 @@ Avant d'appliquer ce modèle des sons plus complexes, il est nécessaire d'envis
 
 Dans la première section de ce chapitre, nous avons exploré comment les vibrations transmises à l'oreille interne excitent la membrane basilaire, permettant la décomposition des sons en différentes fréquences. Nous allons à présent nous intéresser à la seconde fonction de l'oreille interne : convertir les vibrations mécaniques en impulsions électriques, qui seront ensuite transmises aux étages supérieurs du système auditif. Cette étape, appelée **transduction**, est fondamentale puisque les neurones traitent uniquement l'information électrique, et non des vibrations mécanique. [tout en compressant la gamme des intensités acoustiques perceptibles en une plage beaucoup plus réduite d'activité électrique.]
 
+… mais la cochlée n’est pas seulement un analyseur en fréquence !
+La cochlée effectue également une transduction (grâce aux ~3500 cellules ciliées internes), c.-à-d. une conversion vibration → décharge électrique.
+… et une compression de dynamique (grâce aux ~25000 cellules ciliées externes)
+
+
 [...]
 
 ```{figure} Organ_of_Corti.png
@@ -199,6 +216,25 @@ align: center
 *Schéma de l'ogane de Corti. (Source : [Openstax](https://openstax.org/books/anatomy-and-physiology/pages/14-1-sensory-perception))*
 ```
 
+Les cellules ciliées internes sont entraînées par la membrane basilaire au point où elles sont attachées → tonotopie (codage de place)
+Elles déchargent en synchronie avec les vibrations (accrochage à la phase) → codage temporel
+
+
+```{figure} PhaseLocking.png
+---
+name: PhaseLocking.png
+alt: Phase-locking
+height: 600px
+align: center
+---
+*Phase locking des impulsions d'une cellule cilliée sur le stimulus. (Plack 2005)*
+```
+
+
+## Modéliser l'oreille interne (partie 2) : spectrogramme auditif
+
+Le codage temporel n’est pas visible sur le pattern d’excitation qui ne mesure que la tonotopie. Mais on peut en avoir une approximation en regardant le décours temporel de la sortie des filtres gammatone.
+
 Le modèle du banc de filtre gammatone que nous avons vu précédemment rend compte non seulement du codage tonotopique (au travers du pattern d'excitation) mais également du codage temporel. Si l'on considère par exemple la réponse des filtres gammatones à un complexe harmonique, 
 
 ```{figure} pattern4.png
@@ -217,8 +253,59 @@ The hair cells in the organ of Corti are tuned to certain sound frequencies by w
 
 ## Cellules cilliées externes et amplification-compression
 
+Cellules ciliées externes : Véritable amplificateur cochléaire : mécanisme actif de rétroaction réalisant une amplification/compression et une amélioration de la sélectivité fréquentielle pour les signaux faibles.
 
-## Modéliser la cochlée (partie 2) : DRNL
+
+```{figure} Postmortem.jpeg
+---
+name: Postmortem.jpeg
+alt: Isoresponse tuning curve pre-/post mortem
+height: 600px
+align: center
+---
+*Isoresponse tuning curve pre-/post mortem.*
+
+
+```{figure} TuningGain.png
+---
+name: TuningGain.png
+alt: tuning curve effect of level
+height: 600px
+align: center
+---
+*tuning curve effect of level.*
+```
+
+## Modéliser l'oreille interne (partie 3) : DRNL
+
+Dual-resonance nonlinear (DRNL) filterbank 
+Deux branches additives:
+un banc de filtres gammatones linéaires.
+un autre banc de filtres plus sélectifs et non-linéaires
+
+Compression brokenstick : 
+linéaire pour faible input
+compressive pour fort input
+
+## Nerf auditif
+
+
+```{figure} ANtonotopy.png
+---
+name: ANtonotopy.png
+alt: tonotopy in the auditory nerve
+height: 600px
+align: center
+---
+*tonotopy in the auditory nerve (red: 20 Hz; green: 1 kHz; blue 20 kHz).*
+```
+
+## Références
+
+https://pubmed.ncbi.nlm.nih.gov/11427697/
+
+Processing of Speech by the auditory nervous system, Kiang 1980
+https://pmc.ncbi.nlm.nih.gov/articles/PMC6740821/
 
 ## Notes
 

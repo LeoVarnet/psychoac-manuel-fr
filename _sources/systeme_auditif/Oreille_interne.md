@@ -105,7 +105,7 @@ Revenons à présent aux tuning curves. Leur tracé fait apparaître non seuleme
 
 On peut obtenir une indication de la sélectivité fréquentielle en chaque point de la membrane basilaire en mesurant la bande passante de la tuning curve correspondante. [...]
 
-## Modéliser la cochlée (part 1) : gammatones et pattern d'excitation
+## Modéliser la cochlée (partie 1) : gammatones et pattern d'excitation
 
 Sur la base de la description physiologique très sommaire que nous venons d'évoquer, il est d'ores et déjà possible de mettre au point un modèle simpliste, mais pourtant efficace, de l'oreille interne. Ce modèle consiste exclusivement en une série de filtres linéaires, accordés à des fréquences différentes, le **banc de filtres gammatones**. Chaque gammatone est un filtre passe-bande qui représente la fonction de transfert en un point particulier de la membrane basilaire. Les gammatones sont espacés quasi-logarithmiquement entre 20 Hz et 20.000 Hz (selon la fonction tonotopique vue plus haut). Les filtres ont un facteur qualité constant, c'est à dire que leur largeur de bande est proportionnelle à la fréquence centrale -- ce qui est là encore cohérent avec les observations décrites plus haut sur la sélectivité fréquentielle. [attention confusion possible] [[3](note3OI)]. La figure suivante illustre les fonctions de transfert d'un banc de gammatones.
 
@@ -161,11 +161,43 @@ align: center
 
 Avant d'appliquer ce modèle des sons plus complexes, il est nécessaire d'envisager en premier lieu la dynamique temporelle du codage des sons par les neurones.
 
-## Codage temporel et cellules cilliées
+## Cellules cilliées internes et codage temporel
 
-Dans la première section de ce chapitre, nous avons exploré comment les vibrations transmises à l'oreille interne excitent la membrane basilaire, permettant la décomposition des sons en différentes fréquences. Nous allons à présent nous intéresser à la seconde fonction de l'oreille interne : convertir les vibrations mécaniques en impulsions électriques, [tout en compressant la gamme des intensités acoustiques perceptibles en une plage beaucoup plus réduite d'activité électrique.]
+Dans la première section de ce chapitre, nous avons exploré comment les vibrations transmises à l'oreille interne excitent la membrane basilaire, permettant la décomposition des sons en différentes fréquences. Nous allons à présent nous intéresser à la seconde fonction de l'oreille interne : convertir les vibrations mécaniques en impulsions électriques, qui seront ensuite transmises aux étages supérieurs du système auditif. Cette étape, appelée **transduction**, est fondamentale puisque les neurones traitent uniquement l'information électrique, et non des vibrations mécanique. [tout en compressant la gamme des intensités acoustiques perceptibles en une plage beaucoup plus réduite d'activité électrique.]
 
 [...]
+
+```{figure} Organ_of_Corti.png
+---
+name: Organ_of_Corti.png
+alt: Schéma en coupe de la cochlée
+height: 600px
+align: center
+---
+*Schéma en coupe de la cochlée. (Source : [Openstax](https://openstax.org/books/anatomy-and-physiology/pages/14-1-sensory-perception))*
+```
+
+
+```{figure} Hair_cell.png
+---
+name: Hair_cell.png
+alt: Schéma des cellules cilliées
+height: 600px
+align: center
+---
+*Schéma des cellules cilliées. (Source : [Openstax](https://openstax.org/books/anatomy-and-physiology/pages/14-1-sensory-perception))*
+```
+
+
+```{figure} I_H_Hair_cell.png
+---
+name: I_H_Hair_cell.png
+alt: Schéma de l'ogane de Corti
+height: 600px
+align: center
+---
+*Schéma de l'ogane de Corti. (Source : [Openstax](https://openstax.org/books/anatomy-and-physiology/pages/14-1-sensory-perception))*
+```
 
 Le modèle du banc de filtre gammatone que nous avons vu précédemment rend compte non seulement du codage tonotopique (au travers du pattern d'excitation) mais également du codage temporel. Si l'on considère par exemple la réponse des filtres gammatones à un complexe harmonique, 
 
@@ -182,6 +214,11 @@ align: center
 The hair cells in the organ of Corti are tuned to certain sound frequencies by way of their location in the cochlea, due to the degree of stiffness in the basilar membrane.[8] This stiffness is due to, among other things, the thickness and width of the basilar membrane,[9] which along the length of the cochlea is stiffest nearest its beginning at the oval window, where the stapes introduces the vibrations coming from the eardrum. Since its stiffness is high there, it allows only high-frequency vibrations to move the basilar membrane, and thus the hair cells. The farther a wave travels towards the cochlea's apex (the helicotrema), the less stiff the basilar membrane is; thus lower frequencies travel down the tube, and the less-stiff membrane is moved most easily by them where the reduced stiffness allows: that is, as the basilar membrane gets less and less stiff, waves slow down and it responds better to lower frequencies. In addition, in mammals, the cochlea is coiled, which has been shown to enhance low-frequency vibrations as they travel through the fluid-filled coil.[10] This spatial arrangement of sound reception is referred to as tonotopy. 
 
 > The assumption of a ‘passive’ cochlea, where elements are brought into mechanical oscillation solely by means of the incident sound, is not tenable. The degree of resonance of the elements of the cochlea can be measured, and the results are not compatible with the very heavy damping which must arise from the viscosity of the liquid. For this reason the 'regeneration hypothesis' is put forward, and it is suggested that an electromechanical action takes place whereby a supply of electrical energy is employed to counteract the damping. (*The physical basis of the action of the cochlea, Thomas Gold, 1948*)
+
+## Cellules cilliées externes et amplification-compression
+
+
+## Modéliser la cochlée (partie 2) : DRNL
 
 ## Notes
 

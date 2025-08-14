@@ -15,7 +15,7 @@ L'oreille interne se décompose en trois parties :
 ---
 name: SysAudExt_IE.JPG
 alt: Systeme auditif externe - oreille interne 
-height: 400px
+width: 70%
 align: center
 ---
 *Schéma du système auditif périphérique mettant en évidence l’oreille interne. (Source : [Ivy Livingstone, Biodidac](https://omeka.uottawa.ca/biodidac/items/show/4603))*
@@ -32,7 +32,7 @@ Les canaux montants et descendants sont, rappelons-le, séparés par la lame spi
 ---
 name: Cochlea.png
 alt: Cochlée
-height: 400px
+width: 70%
 align: center
 ---
 *Schéma de la cochlée et du chemin parcouru par l'onde sonore. Cette figure présente une vue en coupe transversale (Source : Neuroscience, Purves et al.)*
@@ -46,7 +46,7 @@ Dans son *Traité de l'organe de l'ouïe*, publié en 1683 et considéré comme 
 ---
 name: DuVerneyHelmholtzBekesy.bmp
 alt: DuVerney Helmholtz Bekesy
-height: 400px
+width: 100%
 align: center
 ---
 *Portraits de Joseph-Guichard Du Verney (1648-1730), Hermann von Helmholtz (1821-1894) et Georg von Békésy (1899–1972).*
@@ -67,7 +67,7 @@ xxxxx
 ---
 name: Excitation.jpeg
 alt: Déplacement de la membrane basilaire en réponse à un ton pur
-height: 450px
+width: 70%
 align: center
 ---
 *Mesure de l'excitation de la membrane basilaire en réponse à un ton pur à 15 kHz, semblable à celles réalisées par von Békésy [[2](note2OI)]. L'axe des abscisses correspond à la position considérée le long de la membrane -- plus ou moins loin du sommet (apex) de la cochlée. L'axe des ordonnées représente l'amplitude des vibrations enregistrées en ce point. Plusieurs intensités du stimulus acoustique sont considérées, la courbe tracée en rouge correspondant à une intensité modérée de 70 dB SPL. Comme mentionné dans le texte, les vibrations atteignent un maximum en un point précis, ici situé à environ 14,5 mm de l’apex. En termes de codage tonotopique, cette position particulière "code" donc pour la fréquence de 15 kHz. Par ailleurs, l’excitation décroît rapidement au-delà de ce point (entre 14,5 mm et 13,5 mm), ce qui confère au profil général une asymétrie caractéristique, conformément aux observations de von Békésy. (Source : Russell and Nilsen, 1997)*
@@ -81,7 +81,7 @@ Outre les simulations, il est également possible de mesurer expérimentalement 
 ---
 name: tuningcurves.png
 alt: tuning curves
-height: 250px
+width: 70%
 align: center
 ---
 *Tuning curves. Chaque courbe représente la réponse de la membrane basilaire en un point particulier, en fonction de la fréquence du ton pur joué. Pour plus de lisibilité, 3 courbes ont été mises en couleur, correspondant respectivement à l'enregistrement à 17 mm de l'apex de la cochlée (bleu), à 25 mm (jaune) et à 33 mm (vert). (Adapté de van der Heijden and Joris, 2003)*
@@ -93,7 +93,7 @@ La figure suivante illustre les mêmes *tuning curves*, obtenues selon une appro
 ---
 name: Isoresponse2.png
 alt: isoresponse tuning curves
-height: 250px
+width: 70%
 align: center
 ---
 *Isoresponse tuning curves. Les tuning curves indiquées en couleurs correspondent approximativement à celles de la {numref}`tuningcurves.png`. (Adapté de Kiang, 1980).*
@@ -105,7 +105,7 @@ On constate, comme le prédit la théorie, qu'une position particulière le long
 ---
 name: tonotopy.png
 alt: tonotopy
-height: 300px
+width: 60%
 align: center
 ---
 *Mesure de la tonotopie : fréquence d'accordage en fonction de la position le long de la membrane basilaire.*
@@ -125,7 +125,7 @@ Sur la base de la description physiologique très sommaire que nous venons d'év
 ---
 name: gammatones.png
 alt: gammatones
-height: 130px
+width: 100%
 align: center
 ---
 Fonction de transfert d'un banc de gammatones. Chaque courbe correspond à un gammatone individuel, c'est-à-dire à la fonction de transfert d'une position particulière le long de la membrane basilaire. Les trois gammatones indiqués en couleur sont ceux correspondant approximativement aux fréquences d'accordage à 1 kHz, 6 kHz et 11 kHz, mises en évidence dans les {numref}`tuningcurves.png` et {numref}`tonotopy.png`. La réponse des gammatones reprend grossièrement celle des tuning curves ({numref}`tuningcurves.png`; notez la différence d'échelle de fréquence entre les deux figures.)
@@ -137,7 +137,7 @@ Chaque gammatone permet donc de simuler l'excitation d'un point précis de la me
 ---
 name: pattern.png
 alt: Calcul du pattern d'excitation
-height: 600px
+width: 60%
 align: center
 ---
 *Calcul du pattern d'excitation pour un ton pur de fréquence 1 kHz, dont le spectre de Fourier est représenté dans le panneau supérieur. Le panneau central présente les fonctions de transfert de cinq filtres gammatones particuliers, possédant des fréquences d'accordage de  762 Hz, 875 Hz, 1000 Hz, 1141 Hz et 1297 Hz. Pour chacun de ces gammatones, l'excitation par le ton pur à 1 kHz est indiquée par un point. Dans le panneau inférieur, ces cinq valeurs sont reportées en fonction de la fréquence d'accordage du gammatone. La courbe obtenue en reproduisant cette analyse pour toutes les fréquences d'accordage corresond au pattern d'excitation.*
@@ -149,7 +149,7 @@ La figure suivante représente le pattern d'excitation en réponse à un ton pur
 ---
 name: pattern2.png
 alt: Exemple de pattern d'excitation
-height: 300px
+width: 70%
 align: center
 ---
 *Exemple de pattern d'excitation pour un ton pur à 1.5 kHz. Le pattern d’excitation reproduit deux caractéristiques majeures observées expérimentalement : la tonotopie (présence d’un maximum d’excitation) et l'asymétrie du pattern.*
@@ -165,7 +165,7 @@ Pour un complexe harmonique, composé de tons purs à des fréquences multiples 
 ---
 name: pattern3.png
 alt: Patterns d'excitation d'un complexe harmonique
-height: 600px
+width: 60%
 align: center
 ---
 *Exemple de pattern d’excitation pour un complexe harmonique composé de tons purs à des multiples de 500 Hz, dont les spectres de Fourier sont représentés dans le panneau supérieur. Le panneau central présente le pattern d'excitation de chacun de ces tons purs, considérés individuellement, et le panneau inférieur le pattern d'excitation du compexe harmonique complet.*
@@ -212,7 +212,7 @@ align: center
 ---
 name: I_H_Hair_cell.png
 alt: Schéma de l'ogane de Corti
-width: 100%
+width: 70%
 align: center
 ---
 *Schéma de l'ogane de Corti. (Source : [Openstax](https://openstax.org/books/anatomy-and-physiology/pages/14-1-sensory-perception))*
@@ -226,7 +226,7 @@ Elles déchargent en synchronie avec les vibrations (accrochage à la phase) →
 ---
 name: PhaseLocking.png
 alt: Phase-locking
-height: 600px
+width: 60%
 align: center
 ---
 *Phase locking des impulsions d'une cellule cilliée sur le stimulus. (Plack 2005)*
@@ -243,7 +243,7 @@ Le modèle du banc de filtre gammatone que nous avons vu précédemment rend com
 ---
 name: pattern4.png
 alt: Sortie temporelle des filtres gammatones
-height: 600px
+width: 60%
 align: center
 ---
 *Sortie temporelle des filtres gammatone.*
@@ -253,7 +253,7 @@ align: center
 ---
 name: AuditorySpectrogram.png
 alt: Spectrogramme auditif
-height: 600px
+width: 100%
 align: center
 ---
 *Spectrogramme auditif.*
@@ -271,7 +271,7 @@ Cellules ciliées externes : Véritable amplificateur cochléaire : mécanisme 
 ---
 name: Postmortem.jpeg
 alt: Isoresponse tuning curve pre-/post mortem
-height: 600px
+width: 70%
 align: center
 ---
 *Isoresponse tuning curve pre-/post mortem.*
@@ -281,7 +281,7 @@ align: center
 ---
 name: TuningGain.png
 alt: tuning curve effect of level
-height: 600px
+width: 70%
 align: center
 ---
 *tuning curve effect of level.*
@@ -305,7 +305,7 @@ compressive pour fort input
 ---
 name: ANtonotopy.png
 alt: tonotopy in the auditory nerve
-height: 600px
+width: 50%
 align: center
 ---
 *tonotopy in the auditory nerve (red: 20 Hz; green: 1 kHz; blue 20 kHz).*

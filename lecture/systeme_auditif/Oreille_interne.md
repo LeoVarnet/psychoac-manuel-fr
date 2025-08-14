@@ -277,9 +277,9 @@ align: center
 *Isoresponse tuning curve pre-/post mortem.*
 
 
-```{figure} TuningGain.jpg
+```{figure} TuningGain.png
 ---
-name: TuningGain.jpg
+name: TuningGain.png
 alt: tuning curve effect of level
 height: 600px
 align: center

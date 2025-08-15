@@ -63,9 +63,11 @@ Pour être complet, un modèle mécanique de la cochlée doit inclure un grand n
 
 Outre les simulations, il est également possible de mesurer expérimentalement les mouvements de la membrane basilaire en réponse à des sons, afin de la caractériser empiriquement. Dans la partie suivante nous nous penchons sur les données physiologiques, éclairées par notre compréhension du fonctionnement de la cochlée.
 
-
-
 ## Codage tonotopique et sélectivité fréquentielle de la cochlée
+
+La cochlée, en tant que système mécanique soumis à l'inertie et au couplage entre régions voisines, ne peut fournir qu’une analyse imparfaite des fréquences sonores. En particulier, sa résolution spectrale est limitée : deux tons purs de fréquences très proches ne peuvent être distingués avec précision. L'organisation tonotopique de la cochlée et sa résolution peuvent être mises en évidence et quantifiées par diverses mesures physiologiques.
+
+Nous avons déjà évoqué plus haut les observations de von Békésy sur l’excitation de la membrane basilaire par un ton pur. La figure ci-dessous illustre une tentative plus récente et plus précise de caractérisation.
 
 ```{figure} Excitation.jpeg
 ---

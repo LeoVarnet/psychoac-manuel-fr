@@ -7,7 +7,7 @@ Nous entamons notre périple le long du système auditif par l'élément qui con
 ---
 name: SysAudExt_OE.JPG
 alt: Systeme auditif externe - oreille externe
-height: 400px
+width: 100%
 align: center
 ---
 *Schéma du système auditif périphérique mettant en évidence l'oreille externe. (Source : [Ivy Livingstone, Biodidac](https://omeka.uottawa.ca/biodidac/items/show/4603))*
@@ -25,12 +25,11 @@ La configuration exacte des circonvolutions est spécifique à chaque individu, 
 
 Comme nous venons de le voir, l'oreille externe réalise un filtrage directionnel. La figure suivante présente les HRTF correspondant à trois directions, mesurées chez 40 individus. Ces fonctions de transfert représentent l'effet combiné du pavillon et du conduit auditif.
 
-
 ```{figure} HRTF.jpg
 ---
 name: HRTF.jpg
 alt: HRTF
-height: 300px
+width: 100%
 align: center
 ---
 *HRTF mesurées sur 40 individus, pour 3 directions. Le trait blanc correspond à la moyenne sur le groupe. (Møller et al, 1995)*
@@ -46,7 +45,7 @@ Dans le cadre de ce chapitre nous ne nous intéresserons pas au traitement de l'
 ---
 name: outer_ear_filter.jpg
 alt: Filtre d'oreille externe
-height: 200px
+width: 70%
 align: center
 ---
 *Approximation du filtre d'oreille externe pour une onde pénétrant l'oreille latéralement, à 90° par rapport à l'axe de la tête (Lopez-Poveda and Meddis, 2001; Pralong and Carlile, 1996).*
@@ -58,7 +57,7 @@ Lorsqu'on applique ce filtre à un signal sonore, par exemple ici un brouhaha co
 ---
 name: outer_ear_demo.jpg
 alt: Démo du filtre d'oreille externe
-height: 300px
+width: 100%
 align: center
 ---
 *Spectrogramme d'un brouhaha composé de 5 voix superposées, avant (gauche) et après (droite) passage par l'oreille externe. Cette figure a été obtenue par simulation grâce au filtre décrit ci-dessus.*

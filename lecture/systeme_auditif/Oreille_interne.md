@@ -4,12 +4,12 @@
 Page en cours de construction
 ```
 
-L'**oreille interne** constitue l'élément central du système auditif périphérique. Tandis que l'oreille externe et moyenne peut se réduire, en première approximation, à un simple filtre linéaire, l'oreille interne réalise plusieurs transformations essentielles des vibrations qui lui parviennent par la fenêtre ovale. Sa fonction est d'**analyser les sons en fréquence**, mais également d'**amplifier les sons faibles et de compresser les sons forts**. Enfin, elle réalise une **transduction, en convertissant les vibrations physiques en signaux électriques**.
+L'**oreille interne** constitue l'élément clé du système auditif périphérique. Tandis que l'oreille externe et moyenne peut se réduire, en première approximation, à un simple filtre linéaire, l'oreille interne réalise plusieurs transformations essentielles des vibrations qui lui parviennent par la fenêtre ovale. Sa fonction est d'**analyser les sons en fréquence**, mais également d'**amplifier les sons faibles et de compresser les sons forts**. Enfin, elle réalise une **transduction, en convertissant les vibrations mécaniques en signaux électriques**.
 
 L'oreille interne se décompose en trois parties : 
-- la **cochlée**, petit bijou de l'évolution qui comme nous le verrons est lui-même constitué de plusieurs éléments en interaction
+- la **cochlée**, petit bijou de l'évolution qui, comme nous le verrons dans ce chapitre, est lui-même constitué de plusieurs éléments en interaction
 - le **nerf auditif**, qui assure la jonction entre la cochlée et le système auditif central
-- le **système vestibulaire**. Ce dernier ne sera pas traité ici puisqu'il ne contribue pas à l'audition. 
+- le **système vestibulaire**. Ce dernier ne sera pas traité ici puisqu'il ne contribue pas à l'audition mais à l'équilibre. 
 
 ```{figure} SysAudExt_IE.JPG
 ---
@@ -25,8 +25,8 @@ align: center
 
 La **cochlée** est l'organe qui réalise notamment la décomposition du son en fréquence, c'est-à-dire son analyse spectrale.
 
-La cochlée possède une forme de coquille d'escargot -- d'où son ancien nom de "limaçon", et sa racine latine *cochlea*. À l'intérieur, le conduit en spirale est divisé en deux sur presque toute sa longueur par une structure relativement rigide, la **lame spirale**, pour former deux canaux qui se rejoignent seulement au sommet (**apex**) et sont emplis d'un liquide appelé **périlymphe** [[1](note1OI)]. Par ailleurs, la cochlée possède à sa **base** deux ouvertures couvertes d'une membrane : une entrée (la fenêtre ovale, attachée à l'étrier et donc reliée à  l'oreille moyenne) et une sortie (la fenêtre ronde). L'onde communiquée par les mouvements de l'étrier au liquide contenu dans la cochlée peut donc suivre un chemin en double hélice, en remontant depuis la base de la cochlée jusqu'à son apex puis en redescendant pour ressortir par la fenêtre ronde. Ce cheminement du son est illustré sur la figure ci_dessous. 
-Les canaux montants et descendants sont, rappelons-le, séparés par la lame spirale. Celle-ci possède une structure assez complexe à laquelle nous nous intéresserons plus loin. Dans l'immédiat, retenez que l'élément semi-rigide qui sépare le conduit montant du conduit descendant se nomme la **membrane basilaire**.
+La cochlée possède une forme de coquille d'escargot -- d'où son ancien nom français de "limaçon", et sa racine latine *cochlea*. À l'intérieur, le conduit en spirale est divisé en deux sur presque toute sa longueur par une structure relativement rigide, la **lame spirale**, pour former deux canaux qui se rejoignent seulement au sommet (**apex**) et sont emplis d'un liquide appelé **périlymphe** [[1](note1OI)]. Par ailleurs, la cochlée possède à sa **base** deux ouvertures couvertes d'une membrane : une entrée (la fenêtre ovale, attachée à l'étrier et donc reliée à  l'oreille moyenne) et une sortie (la fenêtre ronde). L'onde communiquée par les mouvements de l'étrier au liquide contenu dans la cochlée peut donc suivre un trajet en double hélice, en remontant depuis la base de la cochlée jusqu'à son apex puis en redescendant pour ressortir par la fenêtre ronde. Ce cheminement du son est illustré sur la figure ci-dessous. 
+Les canaux montant et descendant sont, rappelons-le, séparés par la lame spirale. Celle-ci possède une structure assez complexe à laquelle nous nous intéresserons plus loin. Dans l'immédiat, retenez que l'élément semi-rigide qui sépare le conduit montant du conduit descendant se nomme la **membrane basilaire**.
 
 ```{figure} Cochlea.png
 ---
@@ -38,7 +38,7 @@ align: center
 *Schéma de la cochlée et du chemin parcouru par l'onde sonore. Cette figure présente une vue en coupe transversale (Source : Neuroscience, Purves et al.)*
 ```
 
-Dans son *Traité de l'organe de l'ouïe*, publié en 1683 et considéré comme le premier ouvrage d'otologie, Joseph-Guichard Du Verney décrit précisément la structure de la cochlée et propose sa première théorie fonctionnelle. Il remarqua que la membrane basilaire n'est pas uniforme, mais varie en épaisseur et en résistance sur toute sa longueur : elle est étroite et rigide à la base, mais large et souple au niveau de l'apex. Du Verney émet donc l'hypothèse que ce gradient de propriétés physiques permet à la membrane basilaire d'être sensible à différentes fréquences en différents points. 
+Dans son *Traité de l'organe de l'ouïe*, publié en 1683 et considéré comme le premier ouvrage d'otologie, Joseph-Guichard Du Verney décrit précisément la structure de la cochlée et propose sa première théorie fonctionnelle. Il remarque que la membrane basilaire n'est pas uniforme, mais varie en épaisseur et en résistance sur toute sa longueur : elle est étroite et rigide à la base, mais large et souple au niveau de l'apex. Du Verney émet donc l'hypothèse que ce gradient de propriétés physiques permet à la membrane basilaire d'être sensible à différentes fréquences en différents points. 
 
 >[La membrane basilaire] n'est pas seulement capable de recevoir les tremblements de l'air, mais sa structure doit faire penser qu'elle peut répondre à tous leurs caractères différents. *(Du Verney, Traité de l'organe de l'ouïe, 1683)*
 
@@ -59,9 +59,9 @@ Cette conception simple de la cochlée est suffisante pour la plupart des applic
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bZdOSCDwbGs?si=2wCw_6LQ2WMtSqnd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RKSEcOTuXdw?si=_a3Nxz13tfsiemww" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Pour être complet, un modèle mécanique de la cochlée doit inclure un grand nombre de paramètres et d'équations de façon à simuler la mise en mouvement du liquide et la propagation de l'onde dans ce milieu, l'entraînement de la membrane basilaire vue comme chaîne de resonnateurs couplés d'inertie mécanique variable, ainsi que les effets de rétroaction dont il sera question plus loin. Ce domaine fait donc actuellement l'objet d'importants travaux. La figure suivante présente une simulation largement simplifiée des oscillation de la membrane basilaire en réponse à différents sons.
+Pour être complet, un modèle mécanique de la cochlée doit inclure un grand nombre de paramètres et d'équations de façon à simuler la mise en mouvement du liquide et la propagation de l'onde dans ce milieu, l'entraînement de la membrane basilaire vue comme chaîne de resonnateurs couplés d'inertie mécanique variable, ainsi que les effets de rétroaction dont il sera question plus loin. Ce domaine fait donc actuellement l'objet d'importants travaux. 
 
-xxxxx
+Outre les simulations, il est également possible de mesurer expérimentalement les mouvements de la membrane basilaire en réponse à des sons, afin de la caractériser empiriquement. 
 
 ```{figure} Excitation.jpeg
 ---
@@ -75,7 +75,7 @@ align: center
 
 ## Codage tonotopique et sélectivité fréquentielle de la cochlée
 
-Outre les simulations, il est également possible de mesurer expérimentalement les mouvements de la membrane basilaire en réponse à des sons, afin de calculer sa fonction de transfert réelle. La figure suivante représente les ***tuning curves***, c'est-à-dire l'excitation de la membrane basilaire en réponse à des tons purs. Plus précisément, chacune des courbes correspond à l'enregistrement des vibrations en *une* position précise le long de la cochlée, en fonction de la fréquence jouée (avec une intensité acoustique toujours identique). 
+La figure suivante représente les ***tuning curves***, c'est-à-dire l'excitation de la membrane basilaire en réponse à des tons purs. Plus précisément, chacune des courbes correspond à l'enregistrement des vibrations en *une* position précise le long de la cochlée, en fonction de la fréquence jouée (avec une intensité acoustique toujours identique). 
 
 ```{figure} tuningcurves.png
 ---

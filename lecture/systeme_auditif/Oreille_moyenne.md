@@ -11,7 +11,7 @@ L'**oreille moyenne** est composée à chacune de ses extrémités de membranes 
 ---
 name: SysAudExt_ME.JPG
 alt: Systeme auditif externe - oreille moyenne
-height: 400px
+width: 100%
 align: center
 ---
 *Schéma du système auditif périphérique mettant en évidence l’oreille moyenne. (Source : [Ivy Livingstone, Biodidac](https://omeka.uottawa.ca/biodidac/items/show/4603))*
@@ -27,7 +27,7 @@ La fonction principale de l'oreille moyenne est donc de **convertir les vibratio
 ---
 name: Gray919.png
 alt: Osselets
-height: 400px
+width: 80%
 align: center
 ---
 *Schéma de l'oreille moyenne. (Source: [Gray's Anatomy](https://commons.wikimedia.org/wiki/File:Gray919.png))*
@@ -47,7 +47,7 @@ Comme pour l'oreille externe, nous modéliserons l'oreille moyenne par un simple
 ---
 name: middleear_filter.bmp
 alt: middle ear filter.bmp
-height: 200px
+width: 80%
 align: center
 ---
 *Approximation du filtre d’oreille moyenne (trait rouge) et externe + moyenne combinées (trait noir). (Lopez-Poveda and Meddis, 2001; Goode et al., 1994)*
@@ -61,7 +61,7 @@ La figure suivante illustre l'effet de ce filtre sur le même son de brouhaha qu
 ---
 name: middle_ear_demo.bmp
 alt: middle ear demo
-height: 300px
+width: 100%
 align: center
 ---
 *Spectrogramme d’un brouhaha composé de 5 voix superposées, avant (gauche) et après (droite) passage par l’oreille externe et l'oreille moyenne. Cette figure a été obtenue par simulation grâce au filtre décrit ci-dessus*

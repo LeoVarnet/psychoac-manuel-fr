@@ -15,7 +15,7 @@ L'oreille interne se décompose en trois parties :
 ---
 name: SysAudExt_IE.JPG
 alt: Systeme auditif externe - oreille interne 
-width: 70%
+width: 100%
 align: center
 ---
 *Schéma du système auditif périphérique mettant en évidence l’oreille interne. (Source : [Ivy Livingstone, Biodidac](https://omeka.uottawa.ca/biodidac/items/show/4603))*

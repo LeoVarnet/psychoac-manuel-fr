@@ -67,7 +67,7 @@ Outre les simulations, il est également possible de mesurer expérimentalement 
 
 La cochlée, en tant que système mécanique soumis à l'inertie et au couplage entre régions voisines, ne peut fournir qu’une analyse imparfaite des fréquences sonores. En particulier, sa résolution spectrale est limitée : deux tons purs de fréquences très proches ne peuvent être distingués avec précision. L'organisation tonotopique de la cochlée et sa résolution peuvent être mises en évidence et quantifiées par diverses mesures physiologiques.
 
-Nous avons déjà évoqué plus haut les observations de von Békésy sur l’excitation de la membrane basilaire par un ton pur. La figure ci-dessous illustre une tentative plus récente et plus précise de caractérisation.
+Nous avons déjà évoqué plus haut les observations de von Békésy sur l’excitation de la membrane basilaire par un ton pur. La figure ci-dessous illustre une mesure plus récente et plus précise.
 
 ```{figure} Excitation.jpeg
 ---

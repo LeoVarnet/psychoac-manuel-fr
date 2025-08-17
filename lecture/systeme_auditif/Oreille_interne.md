@@ -65,9 +65,9 @@ Outre les simulations, il est également possible de mesurer expérimentalement 
 
 ## Codage tonotopique et sélectivité fréquentielle de la cochlée
 
-La cochlée, en tant que système mécanique soumis à l'inertie et au couplage entre régions voisines, ne peut fournir qu’une analyse imparfaite des fréquences sonores. En particulier, sa résolution spectrale est limitée : deux tons purs de fréquences très proches ne peuvent être distingués avec précision. L'organisation tonotopique de la cochlée et sa résolution peuvent être mises en évidence et quantifiées par diverses mesures physiologiques.
+La cochlée, en tant que système mécanique soumis à l'inertie et au couplage entre régions voisines, ne peut réaliser qu’une analyse imparfaite des fréquences sonores. En particulier, sa résolution spectrale est limitée : deux tons purs de fréquences très proches ne peuvent être distingués avec précision. L'organisation tonotopique de la cochlée et sa résolution peuvent être mises en évidence et quantifiées par diverses mesures physiologiques de l'excitation de la membrane basilaire en réponse à des tons purs réalisées chez l'animal.
 
-Nous avons déjà évoqué plus haut les observations de von Békésy sur l’excitation de la membrane basilaire par un ton pur. La figure ci-dessous illustre une mesure plus récente et plus précise.
+Nous avons déjà évoqué plus haut les observations de von Békésy. La figure ci-dessous illustre une mesure plus récente et plus précise. Les positions le long de la membrane basilaire sont représentées sur l'axe des x (plus proche de la base à gauche, plus proche de l'apex à droite). Les scientifiques ont mesuré en ces différents points l'amplitude des vibrations de la membrane basilaire lorsqu'un ton pur à 15 kHz est joué. Conformément à nos attentes, les vibrations atteignent un maximum en un point particulier de la cochlée, ici situé à environ 14,5 mm de l’apex. En termes de codage tonotopique, cette position précise "code" donc pour la fréquence de 15 kHz. Par ailleurs, l’excitation décroît rapidement au-delà de ce point (entre 14,5 mm et 13,5 mm), ce qui confère au profil général une asymétrie caractéristique, conformément aux observations de von Békésy. 
 
 ```{figure} Excitation.jpeg
 ---
@@ -76,10 +76,10 @@ alt: Déplacement de la membrane basilaire en réponse à un ton pur
 width: 70%
 align: center
 ---
-*Mesure de l'excitation de la membrane basilaire en réponse à un ton pur à 15 kHz, semblable à celles réalisées par von Békésy [[2](note2OI)]. L'axe des abscisses correspond à la position considérée le long de la membrane -- plus ou moins loin du sommet (apex) de la cochlée. L'axe des ordonnées représente l'amplitude des vibrations enregistrées en ce point. Plusieurs intensités du stimulus acoustique sont considérées, la courbe tracée en rouge correspondant à une intensité modérée de 70 dB SPL. Comme mentionné dans le texte, les vibrations atteignent un maximum en un point précis, ici situé à environ 14,5 mm de l’apex. En termes de codage tonotopique, cette position particulière "code" donc pour la fréquence de 15 kHz. Par ailleurs, l’excitation décroît rapidement au-delà de ce point (entre 14,5 mm et 13,5 mm), ce qui confère au profil général une asymétrie caractéristique, conformément aux observations de von Békésy. (Source : Russell and Nilsen, 1997)*
+*Mesure de l'excitation de la membrane basilaire en réponse à un ton pur à 15 kHz, semblable à celles réalisées par von Békésy [[2](note2OI)]. L'axe des abscisses correspond à la position considérée le long de la membrane -- plus ou moins loin du sommet (apex) de la cochlée. L'axe des ordonnées représente l'amplitude des vibrations enregistrées en ce point. Plusieurs intensités du stimulus acoustique sont considérées, la courbe tracée en rouge correspondant à une intensité modérée de 70 dB SPL. (Source : Russell and Nilsen, 1997)*
 ```
 
-La figure suivante représente les ***tuning curves***, c'est-à-dire l'excitation de la membrane basilaire en réponse à des tons purs. Plus précisément, chacune des courbes correspond à l'enregistrement des vibrations en *une* position précise le long de la cochlée, en fonction de la fréquence jouée (avec une intensité acoustique toujours identique). 
+La figure suivante représente les ***tuning curves***, une autre mesure de la sélectivité fréquentielle de la cochlée. Chacune des courbes correspond à l'enregistrement des vibrations en *une* position précise le long de la cochlée, en fonction de la fréquence jouée (avec une intensité acoustique toujours identique). 
 
 ```{figure} tuningcurves.png
 ---

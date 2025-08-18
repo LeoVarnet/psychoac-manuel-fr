@@ -91,7 +91,9 @@ align: center
 *Tuning curves. Chaque courbe représente la réponse de la membrane basilaire en un point particulier, en fonction de la fréquence du ton pur joué. Pour plus de lisibilité, 3 courbes ont été mises en couleur, correspondant respectivement à l'enregistrement à 17 mm de l'apex de la cochlée (bleu), à 25 mm (jaune) et à 33 mm (vert). (Adapté de van der Heijden and Joris, 2003)*
 ```
 
-La figure suivante illustre les mêmes *tuning curves*, obtenues selon une approche expérimentale légèrement différente. Plutôt que de fixer le niveau de stimulation sonore et de mesurer l’amplitude des vibrations de la membrane basilaire, on ajuste ici le niveau de stimulation de manière à maintenir une réponse constante en sortie. Le tracé obtenu (***isoresponse tuning curves***) est globalement similaire à celui obtenu précédemment, bien qu'inversé en raison de la nature de la mesure.
+A nouveau, ces mesures mettent en évidence le codage tonotopique réalisé par la cochlée : à chaque point de la membrane basilaire testé correspond une fréquence "optimale" -- même s'il est également mis en vibration par des fréquences proches.
+
+Comme l'illustre la figure suivante, les mêmes *tuning curves* peuvent être obtenues en suivant une approche expérimentale légèrement différente. Plutôt que de fixer le niveau de stimulation sonore et de mesurer l’amplitude des vibrations de la membrane basilaire, on ajuste ici le niveau de stimulation de manière à maintenir une réponse constante en sortie. Le tracé obtenu (***isoresponse tuning curves***) est globalement similaire à celui obtenu précédemment, bien qu'inversé en raison de la nature de la mesure.
 
 ```{figure} Isoresponse2.png
 ---

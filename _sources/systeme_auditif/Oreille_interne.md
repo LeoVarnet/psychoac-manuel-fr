@@ -67,7 +67,7 @@ Outre les simulations, il est également possible de mesurer expérimentalement 
 
 La cochlée, en tant que système mécanique soumis à l'inertie et au couplage entre régions voisines, ne peut réaliser qu’une analyse imparfaite des fréquences sonores. En particulier, sa résolution spectrale est limitée : deux tons purs de fréquences très proches ne peuvent être distingués avec précision. L'organisation tonotopique de la cochlée et sa résolution peuvent être mises en évidence et quantifiées par diverses mesures physiologiques de l'excitation de la membrane basilaire en réponse à des tons purs réalisées chez l'animal.
 
-Nous avons déjà évoqué plus haut les observations de von Békésy. La figure ci-dessous illustre une mesure plus récente et plus précise. Les positions le long de la membrane basilaire sont représentées sur l'axe des x (plus proche de la base à gauche, plus proche de l'apex à droite). Les scientifiques ont mesuré en ces différents points l'amplitude des vibrations de la membrane basilaire lorsqu'un ton pur à 15 kHz est joué. Conformément à nos attentes, les vibrations atteignent un maximum en un point particulier de la cochlée, ici situé à environ 14,5 mm de l’apex. En termes de codage tonotopique, cette position précise "code" donc pour la fréquence de 15 kHz. Par ailleurs, l’excitation décroît rapidement au-delà de ce point (entre 14,5 mm et 13,5 mm), ce qui confère au profil général une asymétrie caractéristique, conformément aux observations de von Békésy. 
+Nous avons déjà évoqué plus haut les observations de von Békésy. La figure ci-dessous illustre une mesure plus récente et plus précise, réalisée chez le [Xxx]. Les positions le long de la membrane basilaire sont représentées sur l'axe des x (plus proche de la base à gauche, plus proche de l'apex à droite). Les scientifiques ont mesuré en ces différents points l'amplitude des vibrations de la membrane basilaire lorsqu'un ton pur à 15 kHz est joué. Conformément à nos attentes, les vibrations atteignent un maximum en un point particulier de la cochlée, ici situé à environ 14,5 mm de l’apex. En termes de codage tonotopique, cette position précise "code" donc pour la fréquence de 15 kHz. Par ailleurs, l’excitation décroît rapidement au-delà de ce point (entre 14,5 mm et 13,5 mm), ce qui confère au profil général une asymétrie caractéristique, conformément aux observations de von Békésy. 
 
 ```{figure} Excitation.jpeg
 ---
@@ -91,9 +91,10 @@ align: center
 *Tuning curves. Chaque courbe représente la réponse de la membrane basilaire en un point particulier, en fonction de la fréquence du ton pur joué. Pour plus de lisibilité, 3 courbes ont été mises en couleur, correspondant respectivement à l'enregistrement à 17 mm de l'apex de la cochlée (bleu), à 25 mm (jaune) et à 33 mm (vert). (Adapté de van der Heijden and Joris, 2003)*
 ```
 
-A nouveau, ces mesures mettent en évidence le codage tonotopique réalisé par la cochlée : à chaque point de la membrane basilaire testé correspond une fréquence "optimale" -- même s'il est également mis en vibration par des fréquences proches.
+[déplacer plus loin?]
+A nouveau, ces mesures mettent en évidence le codage tonotopique réalisé par la cochlée : à chaque position particulière le long de la membrane basilaire correspond à une **fréquence d’accordage** (*tuning frequency*) spécifique. Néanmoins des tons proches de la fréquence d'accordage activent également la même position, preuve à nouveau de la résolution limitée de la cochlée.
 
-Comme l'illustre la figure suivante, les mêmes *tuning curves* peuvent être obtenues en suivant une approche expérimentale légèrement différente. Plutôt que de fixer le niveau de stimulation sonore et de mesurer l’amplitude des vibrations de la membrane basilaire, on ajuste ici le niveau de stimulation de manière à maintenir une réponse constante en sortie. Le tracé obtenu (***isoresponse tuning curves***) est globalement similaire à celui obtenu précédemment, bien qu'inversé en raison de la nature de la mesure.
+Les mêmes *tuning curves* peuvent être obtenues en suivant une approche expérimentale légèrement différente, comme l'illustre la figure suivante. Plutôt que de fixer le niveau de stimulation sonore et de mesurer l’amplitude des vibrations de la membrane basilaire, on ajuste ici le niveau de stimulation de manière à maintenir une réponse constante en sortie. Le tracé obtenu (***isoresponse tuning curves***) est globalement similaire à celui obtenu précédemment, bien qu'inversé en raison de la nature de la mesure.
 
 ```{figure} Isoresponse2.png
 ---
@@ -105,7 +106,7 @@ align: center
 *Isoresponse tuning curves. Les tuning curves indiquées en couleurs correspondent approximativement à celles de la {numref}`tuningcurves.png`. (Adapté de Kiang, 1980).*
 ```
 
-On constate, comme le prédit la théorie, qu'une position particulière le long de la membrane basilaire (c'est à dire une tuning curve particulière) correspond à une **fréquence d’accordage** (*tuning frequency*) spécifique. En effet, comme on l'a vu, le gradient de propriétés physiques permet un codage tonotopique -- dont nous voyons la démonstration empirique sur ces figures. Pour visualiser plus précisément la correspondance entre position et fréquence, on peut reporter la fréquence d'accordage de chaque tuning curve en fonction de la distance à l'apex du point où a été réalisé l'enregistrement (voir figure suivante)
+Les trois figures qui précèdent offrent une caractérisation empirique du codage tonotopique. Pour visualiser plus précisément la correspondance entre position et fréquence, on peut reporter la fréquence d'accordage de chaque tuning curve en fonction de la distance à l'apex du point où a été réalisé l'enregistrement (voir figure suivante).
 
 ```{figure} tonotopy.png
 ---
@@ -117,7 +118,7 @@ align: center
 *Mesure de la tonotopie : fréquence d'accordage en fonction de la position le long de la membrane basilaire.*
 ```
 
-On observe que la relation entre fréquence d’accordage et distance à l'apex est quasi-logarithmique. Il y a donc proportionnellement plus d'espace alloué aux basses fréquences qu'aux hautes fréquences.
+On observe que la relation entre fréquence d’accordage et distance à l'apex est globalement logarithmique. Il y a donc proportionnellement plus d'espace alloué aux basses fréquences qu'aux hautes fréquences. Dans les très basses fréquences, cette relation devient linéaire.
 
 Revenons à présent aux tuning curves. Leur tracé fait apparaître non seulement une fréquence d'accordage particulière, mais également une certaine bande passante : une position donnée de la membrane n'est pas excitée par une fréquence unique, mais également par les fréquences proches -- et, inversement, chaque fréquence excite non seulement la position de la cochlée qui lui correspond mais aussi les régions adjacentes. Autrement dit : **la sélectivité fréquentielle de l'oreille interne est limitée**, autrement dit notre oreille est incapable de différencier des fréquences si elles sont trop proches. 
 
@@ -125,7 +126,7 @@ On peut obtenir une indication de la sélectivité fréquentielle en chaque poin
 
 ## Modéliser l'oreille interne (partie 1) : gammatones et pattern d'excitation
 
-Sur la base de la description physiologique très sommaire que nous venons d'évoquer, il est d'ores et déjà possible de mettre au point un modèle simpliste, mais pourtant efficace, de l'oreille interne. Ce modèle consiste exclusivement en une série de filtres linéaires, accordés à des fréquences différentes, le **banc de filtres gammatones**. Chaque gammatone est un filtre passe-bande qui représente la fonction de transfert en un point particulier de la membrane basilaire. Les gammatones sont espacés quasi-logarithmiquement entre 20 Hz et 20.000 Hz (selon la fonction tonotopique vue plus haut). Les filtres ont un facteur qualité constant, c'est à dire que leur largeur de bande est proportionnelle à la fréquence centrale -- ce qui est là encore cohérent avec les observations décrites plus haut sur la sélectivité fréquentielle. [attention confusion possible] [[3](note3OI)]. La figure suivante illustre les fonctions de transfert d'un banc de gammatones.
+Sur la base de la description physiologique très sommaire que nous venons d'évoquer, il est d'ores et déjà possible de mettre au point un modèle simpliste, mais pourtant efficace, de l'oreille interne. Ce modèle consiste exclusivement en une série de filtres linéaires, accordés à des fréquences différentes, le **banc de filtres gammatones**. Chaque gammatone est un filtre passe-bande qui représente la fonction de transfert en un point particulier de la membrane basilaire. Les gammatones sont espacés [quasi-[logarithmiquement entre 20 Hz et 20.000 Hz (selon la fonction tonotopique vue plus haut). Les filtres ont un facteur qualité constant, c'est à dire que leur largeur de bande est proportionnelle à la fréquence centrale -- ce qui est là encore cohérent avec les observations décrites plus haut sur la sélectivité fréquentielle. [attention confusion possible] [[3](note3OI)]. La figure suivante illustre les fonctions de transfert d'un banc de gammatones.
 
 ```{figure} gammatones.png
 ---
@@ -146,7 +147,7 @@ alt: Calcul du pattern d'excitation
 width: 60%
 align: center
 ---
-*Calcul du pattern d'excitation pour un ton pur de fréquence 1 kHz, dont le spectre de Fourier est représenté dans le panneau supérieur. Le panneau central présente les fonctions de transfert de cinq filtres gammatones particuliers, possédant des fréquences d'accordage de  762 Hz, 875 Hz, 1000 Hz, 1141 Hz et 1297 Hz. Pour chacun de ces gammatones, l'excitation par le ton pur à 1 kHz est indiquée par un point. Dans le panneau inférieur, ces cinq valeurs sont reportées en fonction de la fréquence d'accordage du gammatone. La courbe obtenue en reproduisant cette analyse pour toutes les fréquences d'accordage corresond au pattern d'excitation.*
+*Calcul du pattern d'excitation pour un ton pur de fréquence 1 kHz, dont le spectre de Fourier est représenté dans le panneau supérieur. Le panneau central présente les fonctions de transfert de cinq filtres gammatones particuliers, possédant des fréquences d'accordage de  762 Hz, 875 Hz, 1000 Hz, 1141 Hz et 1297 Hz. Pour chacun de ces gammatones, l'excitation par le ton pur à 1 kHz est indiquée par un point. Dans le panneau inférieur, ces cinq valeurs sont reportées en fonction de la fréquence d'accordage du gammatone. La courbe complète du pattern d'excitation est obtenue en reproduisant cette analyse pour toutes les fréquences d'accordage.*
 ```
 
 La figure suivante représente le pattern d'excitation en réponse à un ton pur à 1.5 kHz. Cette simulation peut être rapprochée des valeurs d'excitation de la membrane basilaire représentées en {numref}`Excitation.jpeg`. Notez la différence d'échelle de fréquence entre les deux figures : l'axe des fréquences est inversé et les valeurs utilisées dans la simulation correspondent davantage à la gamme audible humaine. 
@@ -177,20 +178,18 @@ align: center
 *Exemple de pattern d’excitation pour un complexe harmonique composé de tons purs à des multiples de 500 Hz, dont les spectres de Fourier sont représentés dans le panneau supérieur. Le panneau central présente le pattern d'excitation de chacun de ces tons purs, considérés individuellement, et le panneau inférieur le pattern d'excitation du compexe harmonique complet.*
 ```
 
-Avant d'appliquer ce modèle des sons plus complexes, il est nécessaire d'envisager en premier lieu la dynamique temporelle du codage des sons par les neurones.
+Avant d'explorer plus avant ce modèle, il est nécessaire d'envisager en premier lieu la dynamique temporelle du codage des sons par les neurones.
 
 ## Cellules cilliées internes et codage temporel
 
-Dans la première section de ce chapitre, nous avons exploré comment les vibrations transmises à l'oreille interne excitent la membrane basilaire, permettant la décomposition des sons en différentes fréquences. Nous allons à présent nous intéresser à la seconde fonction de l'oreille interne : convertir les vibrations mécaniques en impulsions électriques, qui seront ensuite transmises aux étages supérieurs du système auditif. Cette étape, appelée **transduction**, est fondamentale puisque les neurones traitent uniquement l'information électrique, et non des vibrations mécanique. [tout en compressant la gamme des intensités acoustiques perceptibles en une plage beaucoup plus réduite d'activité électrique.]
+Dans la première section de ce chapitre, nous avons exploré comment les vibrations transmises à l'oreille interne excitent la membrane basilaire, permettant la décomposition des sons en différentes fréquences. Nous allons à présent nous intéresser à la seconde fonction de l'oreille interne : convertir les vibrations mécaniques en impulsions électriques, qui seront ensuite transmises aux étages supérieurs du système auditif. Cette étape, appelée **transduction**, est fondamentale puisque les neurones sont uniquement en mesure de traiter l'information électrique, et non les vibrations mécanique. 
 
 … mais la cochlée n’est pas seulement un analyseur en fréquence !
 La cochlée effectue également une transduction (grâce aux ~3500 cellules ciliées internes), c.-à-d. une conversion vibration → décharge électrique.
 … et une compression de dynamique (grâce aux ~25000 cellules ciliées externes)
 
 
-The hair cells in the organ of Corti are tuned to certain sound frequencies by way of their location in the cochlea, due to the degree of stiffness in the basilar membrane.[8] This stiffness is due to, among other things, the thickness and width of the basilar membrane,[9] which along the length of the cochlea is stiffest nearest its beginning at the oval window, where the stapes introduces the vibrations coming from the eardrum. Since its stiffness is high there, it allows only high-frequency vibrations to move the basilar membrane, and thus the hair cells. The farther a wave travels towards the cochlea's apex (the helicotrema), the less stiff the basilar membrane is; thus lower frequencies travel down the tube, and the less-stiff membrane is moved most easily by them where the reduced stiffness allows: that is, as the basilar membrane gets less and less stiff, waves slow down and it responds better to lower frequencies. In addition, in mammals, the cochlea is coiled, which has been shown to enhance low-frequency vibrations as they travel through the fluid-filled coil.[10] This spatial arrangement of sound reception is referred to as tonotopy. 
-
-[...]
+The hair cells in the organ of Corti are tuned to certain sound frequencies by way of their location in the cochlea, 
 
 ```{figure} Organ_of_Corti.png
 ---

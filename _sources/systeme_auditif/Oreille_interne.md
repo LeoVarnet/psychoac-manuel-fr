@@ -182,7 +182,9 @@ Avant d'explorer plus avant ce modèle, il est nécessaire d'envisager en premie
 
 ## Cellules cilliées internes et codage temporel
 
-Dans la première section de ce chapitre, nous avons exploré comment les vibrations transmises à l'oreille interne excitent la membrane basilaire, permettant la décomposition des sons en différentes fréquences. Nous allons à présent nous intéresser à la seconde fonction de l'oreille interne : convertir les vibrations mécaniques en impulsions électriques, qui seront ensuite transmises aux étages supérieurs du système auditif. Cette étape, appelée **transduction**, est fondamentale puisque les neurones sont uniquement en mesure de traiter l'information électrique, et non les vibrations mécanique. 
+Dans la première section de ce chapitre, nous avons exploré comment les vibrations transmises à l'oreille interne excitent localement la membrane basilaire, permettant la décomposition des sons en différentes fréquences. Nous allons à présent nous intéresser à la seconde fonction de l'oreille interne : convertir les vibrations mécaniques en impulsions électriques, qui seront ensuite transmises aux étages supérieurs du système auditif. Cette étape, appelée **transduction**, est fondamentale puisque les neurones sont en mesure de traiter l'information électrique, mais non les vibrations mécanique. 
+
+La conversion est effectuée par les 3500 **cellules cilliées internes**, qui sont réparties sur toute la longueur de la membrane basilaire. Les cellules cilliées 
 
 … mais la cochlée n’est pas seulement un analyseur en fréquence !
 La cochlée effectue également une transduction (grâce aux ~3500 cellules ciliées internes), c.-à-d. une conversion vibration → décharge électrique.

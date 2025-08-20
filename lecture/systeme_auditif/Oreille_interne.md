@@ -184,9 +184,11 @@ Avant d'explorer plus avant ce modèle, il est nécessaire d'envisager en premie
 
 Dans la première section de ce chapitre, nous avons exploré comment les vibrations transmises à l'oreille interne excitent localement la membrane basilaire, permettant la décomposition des sons en différentes fréquences. Nous allons à présent nous intéresser à la seconde fonction de l'oreille interne : convertir les vibrations mécaniques en impulsions électriques, qui seront ensuite transmises aux étages supérieurs du système auditif. Cette étape, appelée **transduction**, est fondamentale puisque les neurones sont en mesure de traiter l'information électrique, mais non les vibrations mécanique. 
 
-La conversion est effectuée par les 3500 **cellules cilliées internes**, les véritables récepteurs sensoriels de l'audition, qui sont réparties sur toute la longueur de la membrane basilaire. Comme leur nom le suggère, les cellules cilliées présentent des cils (ou **stereocilia**) sur leur sommet. Lorsque ces cils détectent un mouvement, une réaction chimique se produit à l'intérieur de la cellule, donnant lieu à une courte décharge électrique. Le courant est ensuite envoyé... Les cellules cilliées sont donc des mecano... , traduisant une action mécanique en potentiel électrique.
+La conversion est effectuée par les 3500 **cellules ciliées internes**, les véritables récepteurs sensoriels de l'audition, qui sont réparties sur toute la longueur de la membrane basilaire. Comme leur nom le suggère, les cellules ciliées présentent des cils (ou **stereocilia**) sur leur sommet. Lorsque ces cils détectent un mouvement, une réaction chimique se produit à l'intérieur de la cellule, donnant lieu à une courte décharge électrique qui est transmise au nerf auditif. 
 
-Pour permettre de capter les vibrations de la membrane basilaire, les cellules cilliées font partie d'une structure plus large appelée **organe de Corti**, qui inclue également les cellules cilliées externes, dont il sera question plus loin, et la membrane tectoriale. 
+Ainsi, la cellule ciliée est capable de convertir un mouvement latéral des cils en une impulsion électrique. Mais comment cette petite composante est-elle mise en oeuvre pour permettre le codage des vibrations de la membrane basilaire ? La réponse réside dans une structure appelée **organe de Corti**, et fixée le long de la membrane basilaire.
+
+qui inclue également les cellules cilliées externes, dont il sera question plus loin, et la membrane tectoriale. 
 
 … mais la cochlée n’est pas seulement un analyseur en fréquence !
 La cochlée effectue également une transduction (grâce aux ~3500 cellules ciliées internes), c.-à-d. une conversion vibration → décharge électrique.

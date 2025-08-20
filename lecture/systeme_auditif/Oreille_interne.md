@@ -186,16 +186,9 @@ Dans la première section de ce chapitre, nous avons exploré comment les vibrat
 
 La conversion est effectuée par les 3500 **cellules ciliées internes**, les véritables récepteurs sensoriels de l'audition, qui sont réparties sur toute la longueur de la membrane basilaire. Comme leur nom le suggère, les cellules ciliées présentent des cils (ou **stereocilia**) sur leur sommet. Lorsque ces cils détectent un mouvement, une réaction chimique se produit à l'intérieur de la cellule, donnant lieu à une courte décharge électrique, ou potentiel d'action, qui est transmise au nerf auditif. 
 
-Ainsi, la cellule ciliée est capable de convertir un mouvement latéral des cils en une impulsion électrique. Mais comment cette petite composante est-elle mise en oeuvre pour permettre le codage des vibrations de la membrane basilaire ? La réponse réside dans une structure appelée **organe de Corti** (voir figure X). Les cellules ciliées internes décrites plus haut sont attachées à la membrane basilaire, mais leurs cils sont reliés à une seconde membrane, la membrane tectoriale, parallèle à la première. Lorsqu'une onde parcourt la cochlée, la membrane basilaire est déplacée de haut en bas. En conséquence, les deux membranes glissent latéralement l'une relativement à l'autre. Ce mouvement entraîne un mouvement latéral des cils, et donc le déclenchement du potentiel d'action.
+Ainsi, la cellule ciliée est capable de convertir un mouvement latéral des cils en une impulsion électrique. Mais comment ce composant est-il mis en oeuvre pour permettre le codage des vibrations de la membrane basilaire ? La réponse réside dans une structure appelée **organe de Corti** (voir figure X). Les cellules ciliées internes décrites plus haut sont attachées à la membrane basilaire, mais leurs cils sont reliés à une seconde membrane, la membrane tectoriale, parallèle à la première. Lorsqu'une onde parcourt la cochlée, la membrane basilaire est déplacée de haut en bas. En conséquence, les deux membranes glissent latéralement l'une relativement à l'autre. Ce mouvement entraîne un mouvement latéral des cils, et donc le déclenchement du potentiel d'action.
 
-qui inclue également les cellules cilliées externes, dont il sera question plus loin, et la membrane tectoriale. 
-
-… mais la cochlée n’est pas seulement un analyseur en fréquence !
-La cochlée effectue également une transduction (grâce aux ~3500 cellules ciliées internes), c.-à-d. une conversion vibration → décharge électrique.
-… et une compression de dynamique (grâce aux ~25000 cellules ciliées externes)
-
-
-The hair cells in the organ of Corti are tuned to certain sound frequencies by way of their location in the cochlea, 
+Les cellules ciliées internes sont entraînées par la membrane basilaire au point où elles sont attachées. On retrouve donc ici le principe du codage tonotopique, puisque seul un nombre restreint de cellules ciliées sont activées par une fréquence particulière. De plus, l'onde étant composée de mouvements répétés et périodiques, les impulsions électriques transmises au nerf auditif sont, elles aussi, approximativement périodiques à la même fréquence. Ceci constitue le principe du **codage temporel** : les cellules ciliées déchargent de façon synchrone avec les vibrations de la membrane basilaire. **Le codage des fréquences par l'oreille interne est donc double**. D'une part les différentes fréquences activent des cellules ciliées différentes (codage tonotopique). D'autre part les décharges de ces cellules ciliées suivent le rythme des vibrations de la membrane, de sorte que le signal électrique transmis est lui-même périodique (codage temporel).
 
 ```{figure} Organ_of_Corti.png
 ---
@@ -206,7 +199,6 @@ align: center
 ---
 *Schéma en coupe de la cochlée. (Source : [Openstax](https://openstax.org/books/anatomy-and-physiology/pages/14-1-sensory-perception))*
 ```
-
 
 ```{figure} Hair_cell.png
 ---
@@ -229,9 +221,6 @@ align: center
 *Schéma de l'ogane de Corti. (Source : [Openstax](https://openstax.org/books/anatomy-and-physiology/pages/14-1-sensory-perception))*
 ```
 
-Les cellules ciliées internes sont entraînées par la membrane basilaire au point où elles sont attachées → tonotopie (codage de place)
-Elles déchargent en synchronie avec les vibrations (accrochage à la phase) → codage temporel
-
 
 ```{figure} PhaseLocking.png
 ---
@@ -243,10 +232,9 @@ align: center
 *Phase locking des impulsions d'une cellule cilliée sur le stimulus. (Plack 2005)*
 ```
 
-
 ## Modéliser l'oreille interne (partie 2) : spectrogramme auditif
 
-Le codage temporel n’est pas visible sur le pattern d’excitation qui ne mesure que la tonotopie. Mais on peut en avoir une approximation en regardant le décours temporel de la sortie des filtres gammatone.
+Nous avons vu précédemment comment le modèle du pattern d'excitation permet de rendre compte du codage tonotopique. Le codage temporel n’est pas visible sur cette représentation purement fréquentielle. En revanche, on peut en obtenir une approximation en considérant le décours temporel de la sortie des filtres gammatone -- qui correspond aux oscillations de la membrane basilaire en chaque point. Pour obtenir le taux de décharges des cellules cilliées, c'est-à-dire le nombre de potentiels d'action transmis au nerf auditif à un instant donné, on prend habituellement l'enveloppe de ce signal. En affichant cette enveloppe en fonction de la fréquence centrale du gammatone et du temps, on obtient une représentation spectro-temporelle appelée **spectrogramme auditif**.
 
 Le modèle du banc de filtre gammatone que nous avons vu précédemment rend compte non seulement du codage tonotopique (au travers du pattern d'excitation) mais également du codage temporel. Si l'on considère par exemple la réponse des filtres gammatones à un complexe harmonique, 
 
@@ -274,6 +262,13 @@ align: center
 > The assumption of a ‘passive’ cochlea, where elements are brought into mechanical oscillation solely by means of the incident sound, is not tenable. The degree of resonance of the elements of the cochlea can be measured, and the results are not compatible with the very heavy damping which must arise from the viscosity of the liquid. For this reason the 'regeneration hypothesis' is put forward, and it is suggested that an electromechanical action takes place whereby a supply of electrical energy is employed to counteract the damping. (*The physical basis of the action of the cochlea, Thomas Gold, 1948*)
 
 ## Cellules cilliées externes et amplification-compression
+
+… mais la cochlée n’est pas seulement un analyseur en fréquence !
+La cochlée effectue également une transduction (grâce aux ~3500 cellules ciliées internes), c.-à-d. une conversion vibration → décharge électrique.
+… et une compression de dynamique (grâce aux ~25000 cellules ciliées externes)
+
+
+The hair cells in the organ of Corti are tuned to certain sound frequencies by way of their location in the cochlea, 
 
 Cellules ciliées externes : Véritable amplificateur cochléaire : mécanisme actif de rétroaction réalisant une amplification/compression et une amélioration de la sélectivité fréquentielle pour les signaux faibles.
 

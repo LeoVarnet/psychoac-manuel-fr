@@ -186,8 +186,6 @@ Dans la première section de ce chapitre, nous avons vu comment les vibrations t
 
 La conversion de l'onde en courant électrique est assurée par environ 3500 **cellules ciliées internes**, réparties sur toute la longueur de la membrane basilaire (voir {numref}`Organ_of_Corti.png` et {numref}`Hair_cell.png`). Comme leur nom l'indique, ces cellules sont dotées, à leur extrémité supérieure, de fins prolongements appelés **stéréocils**, organisés en rangées de hauteurs croissantes. Les stéréocils sont extrêmement sensibles aux mouvements : un déplacement latéral des stéréocils provoque une cascade de réactions électrochimiques qui conduit à la génération d'un **potentiel d'action** -- c'est-à-dire une impulsion électrique. La partie inférieure de la cellule ciliée est connectée aux fibres du nerf auditif, permettant ainsi de transmettre l'information électrique aux étages supérieurs du système auditif et jusqu'au cerveau.
 
-Ainsi, la cellule ciliée est capable de convertir un mouvement latéral de ses stéréocils en une impulsion électrique. Mais comment cette propriété est-elle exploitée pour coder les vibrations de la membrane basilaire ? La clé réside dans une structure spécialisée : **l'organe de Corti** (voir {numref}`Organ_of_Corti.png`). Les cellules ciliées internes décrites plus haut sont attachées à la membrane basilaire, mais leurs stéréocils sont reliés à une seconde membrane, la membrane tectoriale, disposée parallèlement à la première. Lorsqu'une onde sonore progresse le long de la cochlée, elle induit un déplacement vertical de la membrane basilaire. Ce mouvement provoque un glissement relatif des deux membranes, entraînant un déplacement latéral des stéréocils. Ce cisaillement mécanique est alors converti en signal électrique par la cellule ciliée, déclenchant un potentiel d'action.
-
 ```{figure} Organ_of_Corti.png
 ---
 name: Organ_of_Corti.png
@@ -207,6 +205,8 @@ align: center
 ---
 *Schéma des cellules cilliées. (Source : [Openstax](https://openstax.org/books/anatomy-and-physiology/pages/14-1-sensory-perception))*
 ```
+
+Ainsi, la cellule ciliée est capable de convertir un mouvement latéral de ses stéréocils en une impulsion électrique. Mais comment cette propriété est-elle exploitée pour coder les vibrations de la membrane basilaire ? La clé réside dans une structure spécialisée : **l'organe de Corti** (voir {numref}`Organ_of_Corti.png` et {numref}`I_H_Hair_cell.png`). Les cellules ciliées internes décrites plus haut sont attachées à la membrane basilaire, mais leurs stéréocils sont reliés à une seconde membrane, la membrane tectoriale, disposée parallèlement à la première. Lorsqu'une onde sonore progresse le long de la cochlée, elle induit un déplacement vertical de la membrane basilaire. Ce mouvement provoque un glissement relatif des deux membranes, entraînant un déplacement latéral des stéréocils. Ce cisaillement mécanique est alors converti en signal électrique par la cellule ciliée, déclenchant un potentiel d'action.
 
 ```{figure} I_H_Hair_cell.png
 ---
@@ -232,11 +232,7 @@ align: center
 
 ## Modéliser l'oreille interne (partie 2) : spectrogramme auditif
 
-Nous avons vu précédemment comment le modèle du pattern d'excitation permet de rendre compte du codage tonotopique. En revanche, le codage temporel n'est quant à lui pas visible sur cette représentation purement fréquentielle. On peut néanmoins en obtenir une approximation en considérant le décours temporel de la sortie des filtres gammatone -- qui correspond aux oscillations de la membrane basilaire en chaque point. Pour obtenir le taux de décharges des cellules cilliées, c'est-à-dire le nombre de potentiels d'action transmis au nerf auditif à un instant donné, une approximation simple consiste à prendre la valeur absolue de ce signal, puis de le filtrer passe-bas en dessous de 1 kHz [en effet, les cellules ciliées ne déchargent que lors des pics positif de l'onde, et elles sont incapables de suivre des fréquences au delà de 1 kHz environ]. Ceci revient en pratique à extraire l'enveloppe du signal. En affichant cette enveloppe en fonction de la fréquence centrale du gammatone et du temps, on obtient une représentation spectro-temporelle appelée **spectrogramme auditif**.
-
-La figure 
-
-la réponse des filtres gammatones à un complexe harmonique, 
+Nous avons vu précédemment comment le modèle du pattern d'excitation permet de rendre compte du codage tonotopique au sein de la cochlée. En revanche, ce modèle purement fréquentiel ne rend pas compte du codage temporel, qui repose sur l'organisation dans le temps des impulsions électriques. Il est toutefois possible d’en obtenir une approximation en considérant le décours temporel de la sortie de chaque filtre gammatone -- qui correspond à la forme des oscillations de la membrane basilaire en un point spécifique. La figure suivante illustre ces vibrations en réponse à un complexe harmonique pour six gammatones spécifiques. Sans surprise, le gammatone accordé à la fréquence fondamentale (ici 500 Hz) produit un signal périodique à la méme fréquence, tandis qu'un gammatone accordé à 1200 Hz est relativement peu excité. Les filtres gammatones de fréquence d'accordage élevée sont, comme on l'a vu précédemment, trop larges pour isoler une composante harmonique. Au contraire, ils englobent plusieurs composantes proches, produisant un phénomène de battement à la fréquence fondamentale. Ainsi, **dans les basses fréquences, région des harmoniques résolues, les sorties des gammatones sont périodiques, mais dans les hautes fréquences, où les harmoniques sont non-résolues, l'envelope des fluctuations est périodique à la fréquence fondamentale**.
 
 ```{figure} pattern4.png
 ---
@@ -247,6 +243,12 @@ align: center
 ---
 *Sortie temporelle des filtres gammatone.*
 ```
+
+Pour modéliser le taux de décharges des cellules cilliées, c'est-à-dire le nombre de potentiels d'action transmis au nerf auditif à un instant donné, une approximation simple consiste à prendre la valeur absolue de la sortie du gammatone, puis de le filtrer passe-bas en dessous de 1 kHz [en effet, les cellules ciliées ne déchargent que lors des pics positif de l'onde, et elles sont incapables de suivre des fréquences au delà de 1 kHz environ]. Ceci revient en pratique à extraire l'enveloppe du signal. En affichant cette enveloppe en fonction de la fréquence centrale du gammatone et du temps, on obtient une représentation spectro-temporelle appelée **spectrogramme auditif**.
+
+La figure 
+
+la réponse des filtres gammatones à un complexe harmonique, 
 
 ```{figure} AuditorySpectrogram.png
 ---

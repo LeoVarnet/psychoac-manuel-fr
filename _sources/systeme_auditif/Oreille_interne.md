@@ -18,7 +18,7 @@ alt: Systeme auditif externe - oreille interne
 width: 100%
 align: center
 ---
-*Schéma du système auditif périphérique mettant en évidence l’oreille interne. (Source : [Ivy Livingstone, Biodidac](https://omeka.uottawa.ca/biodidac/items/show/4603))*
+*Schéma du système auditif périphérique mettant en évidence l'oreille interne. (Source : [Ivy Livingstone, Biodidac](https://omeka.uottawa.ca/biodidac/items/show/4603))*
 ```
 
 ## La cochlée et la membrane basilaire 
@@ -65,9 +65,9 @@ Outre les simulations, il est également possible de mesurer expérimentalement 
 
 ## Codage tonotopique et sélectivité fréquentielle de la cochlée
 
-La cochlée, en tant que système mécanique soumis à l'inertie et au couplage entre régions voisines, ne peut réaliser qu’une analyse imparfaite des fréquences sonores. En particulier, sa résolution spectrale est limitée : deux tons purs de fréquences très proches ne peuvent être distingués avec précision. L'organisation tonotopique de la cochlée et sa résolution peuvent être mises en évidence et quantifiées par diverses mesures physiologiques de l'excitation de la membrane basilaire en réponse à des tons purs réalisées chez l'animal.
+La cochlée, en tant que système mécanique soumis à l'inertie et au couplage entre régions voisines, ne peut réaliser qu'une analyse imparfaite des fréquences sonores. En particulier, sa résolution spectrale est limitée : deux tons purs de fréquences très proches ne peuvent être distingués avec précision. L'organisation tonotopique de la cochlée et sa résolution peuvent être mises en évidence et quantifiées par diverses mesures physiologiques de l'excitation de la membrane basilaire en réponse à des tons purs réalisées chez l'animal.
 
-Nous avons déjà évoqué plus haut les observations de von Békésy. La figure ci-dessous illustre une mesure plus récente et plus précise, réalisée chez le [Xxx]. Les positions le long de la membrane basilaire sont représentées sur l'axe des x (plus proche de la base à gauche, plus proche de l'apex à droite). Les scientifiques ont mesuré en ces différents points l'amplitude des vibrations de la membrane basilaire lorsqu'un ton pur à 15 kHz est joué. Conformément à nos attentes, les vibrations atteignent un maximum en un point particulier de la cochlée, ici situé à environ 14,5 mm de l’apex. En termes de codage tonotopique, cette position précise "code" donc pour la fréquence de 15 kHz. Par ailleurs, l’excitation décroît rapidement au-delà de ce point (entre 14,5 mm et 13,5 mm), ce qui confère au profil général une asymétrie caractéristique, conformément aux observations de von Békésy. 
+Nous avons déjà évoqué plus haut les observations de von Békésy. La figure ci-dessous illustre une mesure plus récente et plus précise, réalisée chez le [Xxx]. Les positions le long de la membrane basilaire sont représentées sur l'axe des x (plus proche de la base à gauche, plus proche de l'apex à droite). Les scientifiques ont mesuré en ces différents points l'amplitude des vibrations de la membrane basilaire lorsqu'un ton pur à 15 kHz est joué. Conformément à nos attentes, les vibrations atteignent un maximum en un point particulier de la cochlée, ici situé à environ 14,5 mm de l'apex. En termes de codage tonotopique, cette position précise "code" donc pour la fréquence de 15 kHz. Par ailleurs, l'excitation décroît rapidement au-delà de ce point (entre 14,5 mm et 13,5 mm), ce qui confère au profil général une asymétrie caractéristique, conformément aux observations de von Békésy. 
 
 ```{figure} Excitation.jpeg
 ---
@@ -92,9 +92,9 @@ align: center
 ```
 
 [déplacer plus loin?]
-A nouveau, ces mesures mettent en évidence le codage tonotopique réalisé par la cochlée : à chaque position particulière le long de la membrane basilaire correspond à une **fréquence d’accordage** (*tuning frequency*) spécifique. Néanmoins des tons proches de la fréquence d'accordage activent également la même position, preuve à nouveau de la résolution limitée de la cochlée.
+A nouveau, ces mesures mettent en évidence le codage tonotopique réalisé par la cochlée : à chaque position particulière le long de la membrane basilaire correspond à une **fréquence d'accordage** (*tuning frequency*) spécifique. Néanmoins des tons proches de la fréquence d'accordage activent également la même position, preuve à nouveau de la résolution limitée de la cochlée.
 
-Les mêmes *tuning curves* peuvent être obtenues en suivant une approche expérimentale légèrement différente, comme l'illustre la figure suivante. Plutôt que de fixer le niveau de stimulation sonore et de mesurer l’amplitude des vibrations de la membrane basilaire, on ajuste ici le niveau de stimulation de manière à maintenir une réponse constante en sortie. Le tracé obtenu (***isoresponse tuning curves***) est globalement similaire à celui obtenu précédemment, bien qu'inversé en raison de la nature de la mesure.
+Les mêmes *tuning curves* peuvent être obtenues en suivant une approche expérimentale légèrement différente, comme l'illustre la figure suivante. Plutôt que de fixer le niveau de stimulation sonore et de mesurer l'amplitude des vibrations de la membrane basilaire, on ajuste ici le niveau de stimulation de manière à maintenir une réponse constante en sortie. Le tracé obtenu (***isoresponse tuning curves***) est globalement similaire à celui obtenu précédemment, bien qu'inversé en raison de la nature de la mesure.
 
 ```{figure} Isoresponse2.png
 ---
@@ -118,7 +118,7 @@ align: center
 *Mesure de la tonotopie : fréquence d'accordage en fonction de la position le long de la membrane basilaire.*
 ```
 
-On observe que la relation entre fréquence d’accordage et distance à l'apex est globalement logarithmique. Il y a donc proportionnellement plus d'espace alloué aux basses fréquences qu'aux hautes fréquences. Dans les très basses fréquences, cette relation devient linéaire.
+On observe que la relation entre fréquence d'accordage et distance à l'apex est globalement logarithmique. Il y a donc proportionnellement plus d'espace alloué aux basses fréquences qu'aux hautes fréquences. Dans les très basses fréquences, cette relation devient linéaire.
 
 Revenons à présent aux tuning curves. Leur tracé fait apparaître non seulement une fréquence d'accordage particulière, mais également une certaine bande passante : une position donnée de la membrane n'est pas excitée par une fréquence unique, mais également par les fréquences proches -- et, inversement, chaque fréquence excite non seulement la position de la cochlée qui lui correspond mais aussi les régions adjacentes. Autrement dit : **la sélectivité fréquentielle de l'oreille interne est limitée**, autrement dit notre oreille est incapable de différencier des fréquences si elles sont trop proches. 
 
@@ -138,7 +138,7 @@ align: center
 Fonction de transfert d'un banc de gammatones. Chaque courbe correspond à un gammatone individuel, c'est-à-dire à la fonction de transfert d'une position particulière le long de la membrane basilaire. Les trois gammatones indiqués en couleur sont ceux correspondant approximativement aux fréquences d'accordage à 1 kHz, 6 kHz et 11 kHz, mises en évidence dans les {numref}`tuningcurves.png` et {numref}`tonotopy.png`. La réponse des gammatones reprend grossièrement celle des tuning curves ({numref}`tuningcurves.png`; notez la différence d'échelle de fréquence entre les deux figures.)
 ```
 
-Chaque gammatone permet donc de simuler l'excitation d'un point précis de la membrane basilaire en réponse à un son [[4](note4OI)]. Pour obtenir un modèle de l'excitation tout au long de la membrane il suffit donc de calculer la réponse de chaque gammatone au son considéré. Le **pattern d'excitation** représente le niveau de sortie de chaque gammatone en fonction de sa fréquence d'accordage, offrant ainsi une simulation de l’excitation de la cochlée par un stimulus donné. La figure suivante illustre le calcul du pattern d’excitation en réponse à un ton pur de fréquence 1 kHz, à partir de la réponse de cinq gammatones.
+Chaque gammatone permet donc de simuler l'excitation d'un point précis de la membrane basilaire en réponse à un son [[4](note4OI)]. Pour obtenir un modèle de l'excitation tout au long de la membrane il suffit donc de calculer la réponse de chaque gammatone au son considéré. Le **pattern d'excitation** représente le niveau de sortie de chaque gammatone en fonction de sa fréquence d'accordage, offrant ainsi une simulation de l'excitation de la cochlée par un stimulus donné. La figure suivante illustre le calcul du pattern d'excitation en réponse à un ton pur de fréquence 1 kHz, à partir de la réponse de cinq gammatones.
 
 ```{figure} pattern.png
 ---
@@ -159,14 +159,14 @@ alt: Exemple de pattern d'excitation
 width: 70%
 align: center
 ---
-*Exemple de pattern d'excitation pour un ton pur à 1.5 kHz. Le pattern d’excitation reproduit deux caractéristiques majeures observées expérimentalement : la tonotopie (présence d’un maximum d’excitation) et l'asymétrie du pattern.*
+*Exemple de pattern d'excitation pour un ton pur à 1.5 kHz. Le pattern d'excitation reproduit deux caractéristiques majeures observées expérimentalement : la tonotopie (présence d'un maximum d'excitation) et l'asymétrie du pattern.*
 ```
 
 Comme nous le verrons par la suite le modèle du pattern d'excitation, bien qu'extrêmement simple, permet de rendre compte de nombreux phénomènes auditifs. Arrêtons nous sur quelques unes de ses propriétés. Tout d'abord, lorsque le stimulus est composé d'une fréquence unique, le pattern d'excitation possède quant à lui une certaine largeur de bande, reflétant la sélectivité limitée de l'oreille interne : un ton pur active non seulement le point de la membrane basilaire accordé sur cette fréquence mais également les régions adjacentes. Plus cette région est étendue moins la résolution spectrale est précise. 
 
-Autre caractéristique importante sur laquelle nous reviendrons, **le pattern d'excitation d'un ton pur est asymétrique**. En effet, les filtres gammatone situés au-dessus de la fréquence du stimulus étant plus larges que ceux situés en dessous, il en résulte un étalement de l’excitation vers les hautes fréquences, phénomène connu sous le nom d'***upward spread of excitation***. 
+Autre caractéristique importante sur laquelle nous reviendrons, **le pattern d'excitation d'un ton pur est asymétrique**. En effet, les filtres gammatone situés au-dessus de la fréquence du stimulus étant plus larges que ceux situés en dessous, il en résulte un étalement de l'excitation vers les hautes fréquences, phénomène connu sous le nom d'***upward spread of excitation***. 
 
-Pour un complexe harmonique, composé de tons purs à des fréquences multiples d'une fréquence fondamentalementale, le pattern d'excitation fait apparaître une structure différente dans les basses et les hautes fréquences (voir figure ci-dessous). La résolution diminuant avec la fréquence, seules les premières harmoniques suscitent des pics d'excitation clairement séparés. On parle alors d'**harmoniques résolues**. Au contraire, dans les hautes fréquences, les harmoniques sont **non-résolues** : chaque gammatone couvrant plusieurs harmoniques il est impossible de distinguer ces dernières sur le pattern d’excitation. Nous reviendrons sur les implications auditives de ces propriétés du pattern d'excitation au chapitre 3.
+Pour un complexe harmonique, composé de tons purs à des fréquences multiples d'une fréquence fondamentalementale, le pattern d'excitation fait apparaître une structure différente dans les basses et les hautes fréquences (voir figure ci-dessous). La résolution diminuant avec la fréquence, seules les premières harmoniques suscitent des pics d'excitation clairement séparés. On parle alors d'**harmoniques résolues**. Au contraire, dans les hautes fréquences, les harmoniques sont **non-résolues** : chaque gammatone couvrant plusieurs harmoniques il est impossible de distinguer ces dernières sur le pattern d'excitation. Nous reviendrons sur les implications auditives de ces propriétés du pattern d'excitation au chapitre 3.
 
 ```{figure} pattern3.png
 ---
@@ -175,20 +175,18 @@ alt: Patterns d'excitation d'un complexe harmonique
 width: 60%
 align: center
 ---
-*Exemple de pattern d’excitation pour un complexe harmonique composé de tons purs à des multiples de 500 Hz, dont les spectres de Fourier sont représentés dans le panneau supérieur. Le panneau central présente le pattern d'excitation de chacun de ces tons purs, considérés individuellement, et le panneau inférieur le pattern d'excitation du compexe harmonique complet.*
+*Exemple de pattern d'excitation pour un complexe harmonique composé de tons purs à des multiples de 500 Hz, dont les spectres de Fourier sont représentés dans le panneau supérieur. Le panneau central présente le pattern d'excitation de chacun de ces tons purs, considérés individuellement, et le panneau inférieur le pattern d'excitation du compexe harmonique complet.*
 ```
 
 Avant d'explorer plus avant ce modèle, il est nécessaire d'envisager en premier lieu la dynamique temporelle du codage des sons par les neurones.
 
 ## Cellules cilliées internes et codage temporel
 
-Dans la première section de ce chapitre, nous avons vu comment les vibrations transmises à l'oreille interne excitent localement la membrane basilaire, permettant la décomposition du son en différentes fréquences. Nous allons à présent nous intéresser à la seconde fonction essentielles de l'oreille interne : la conversion des vibrations mécaniques en impulsions électriques. Cette étape, appelée **transduction**, est fondamentale puisque les neurones des étages supérieurs du système auditif sont en mesure de recevoir et traiter une information électrique, mais non une vibration mécanique. 
+Dans la première section de ce chapitre, nous avons vu comment les vibrations transmises à l'oreille interne excitent localement la membrane basilaire, permettant la décomposition du son en différentes fréquences. Nous allons à présent nous intéresser à la seconde fonction essentielles de l'oreille interne : la conversion des vibrations mécaniques en impulsions électriques. Cette étape, appelée **transduction**, est fondamentale puisque les neurones auditifs sont en mesure de recevoir et traiter une information électrique, mais non une vibration mécanique. 
 
-Cette conversion est assurée par environ 3500 **cellules ciliées internes**, réparties sur toute la longueur de la membrane basilaire. Comme leur nom l'indique, ces cellules sont dotées, à leur extrémité supérieure, de fins prolongements appelés **stéréocils**, organisés en rangées de hauteurs croissantes. Les stéréocils sont extrêmement sensibles aux mouvements : un déplacement latéral des stéréocils provoque une cascade de réactions électrochimiques qui conduit à la génération d'un **potentiel d’action** -- c'est-à-dire une impulsion électrique -- ensuite envoyé jusqu'au cerveau.
+La conversion de l'onde en courant électrique est assurée par environ 3500 **cellules ciliées internes**, réparties sur toute la longueur de la membrane basilaire (voir {numref}`Organ_of_Corti.png` et {numref}`Hair_cell.png`). Comme leur nom l'indique, ces cellules sont dotées, à leur extrémité supérieure, de fins prolongements appelés **stéréocils**, organisés en rangées de hauteurs croissantes. Les stéréocils sont extrêmement sensibles aux mouvements : un déplacement latéral des stéréocils provoque une cascade de réactions électrochimiques qui conduit à la génération d'un **potentiel d'action** -- c'est-à-dire une impulsion électrique. La partie inférieure de la cellule ciliée est connectée aux fibres du nerf auditif, permettant ainsi de transmettre l'information électrique aux étages supérieurs du système auditif et jusqu'au cerveau.
 
-Ainsi, la cellule ciliée est capable de convertir un mouvement latéral des cils en une impulsion électrique. Mais comment ce composant est-il mis en oeuvre pour permettre le codage des vibrations de la membrane basilaire ? La réponse réside dans une structure appelée **organe de Corti** (voir figure X). Les cellules ciliées internes décrites plus haut sont attachées à la membrane basilaire, mais leurs cils sont reliés à une seconde membrane, la membrane tectoriale, parallèle à la première. Lorsqu'une onde parcourt la cochlée, la membrane basilaire est déplacée de haut en bas. En conséquence, les deux membranes glissent latéralement l'une relativement à l'autre. Ce mouvement entraîne un mouvement latéral des cils, et donc le déclenchement du potentiel d'action.
-
-Les cellules ciliées internes sont entraînées par la membrane basilaire au point où elles sont attachées. On retrouve donc ici le principe du codage tonotopique, puisque seul un nombre restreint de cellules ciliées sont activées par une fréquence particulière. De plus, l'onde étant composée de mouvements répétés et périodiques, les impulsions électriques transmises au nerf auditif sont, elles aussi, approximativement périodiques à la même fréquence. Ceci constitue le principe du **codage temporel** : les cellules ciliées déchargent de façon synchrone avec les vibrations de la membrane basilaire. **Le codage des fréquences par l'oreille interne est donc double**. D'une part les différentes fréquences activent des cellules ciliées différentes (codage tonotopique). D'autre part les décharges de ces cellules ciliées suivent le rythme des vibrations de la membrane, de sorte que le signal électrique transmis est lui-même périodique (codage temporel).
+Ainsi, la cellule ciliée est capable de convertir un mouvement latéral de ses stéréocils en une impulsion électrique. Mais comment cette propriété est-elle exploitée pour coder les vibrations de la membrane basilaire ? La clé réside dans une structure spécialisée : **l'organe de Corti** (voir {numref}`Organ_of_Corti.png`). Les cellules ciliées internes décrites plus haut sont attachées à la membrane basilaire, mais leurs stéréocils sont reliés à une seconde membrane, la membrane tectoriale, disposée parallèlement à la première. Lorsqu'une onde sonore progresse le long de la cochlée, elle induit un déplacement vertical de la membrane basilaire. Ce mouvement provoque un glissement relatif des deux membranes, entraînant un déplacement latéral des stéréocils. Ce cisaillement mécanique est alors converti en signal électrique par la cellule ciliée, déclenchant un potentiel d'action.
 
 ```{figure} Organ_of_Corti.png
 ---
@@ -210,7 +208,6 @@ align: center
 *Schéma des cellules cilliées. (Source : [Openstax](https://openstax.org/books/anatomy-and-physiology/pages/14-1-sensory-perception))*
 ```
 
-
 ```{figure} I_H_Hair_cell.png
 ---
 name: I_H_Hair_cell.png
@@ -218,9 +215,10 @@ alt: Schéma de l'ogane de Corti
 width: 70%
 align: center
 ---
-*Schéma de l'ogane de Corti. (Source : [Openstax](https://openstax.org/books/anatomy-and-physiology/pages/14-1-sensory-perception))*
+*Schéma de l'ogane de Corti. (Source : [Gray's Anatomy](https://www.bartleby.com/lit-hub/anatomy-of-the-human-body/fig-931/))*
 ```
 
+Les cellules ciliées internes sont entraînées par les mouvements de la membrane basilaire au point où elles sont attachées. On retrouve donc ici le principe du codage tonotopique, puisque chaque fréquence sonore fait vibrer une région particulière de la membrane, activant ainsi un groupe restreint de cellules ciliées spécifiques. Mais ce n'est pas tout : l'onde sonore étant composée de fluctuations périodiques, les déplacements de la membrane basilaire le sont également. Par conséquent, les impulsions électriques envoyées au nerf auditif par les cellules ciliées présentent, elles aussi, une périodicité à la même fréquence ({numref}`PhaseLocking.png`). Ceci constitue le principe du **codage temporel** : les cellules ciliées déchargent de façon synchrone avec les vibrations de la membrane basilaire. **Le codage des fréquences par l'oreille interne est donc double**. D'une part un codage tonotopique, où chaque fréquence active une région spécifique de la membrane basilaire, mobilisant un sous-ensemble distinct de cellules ciliées. D'autre part un codage temporel, où les potentiels d'action suivent approximativement le rythme des vibrations, rendant le signal électrique lui-même périodique.
 
 ```{figure} PhaseLocking.png
 ---
@@ -229,12 +227,12 @@ alt: Phase-locking
 width: 60%
 align: center
 ---
-*Phase locking des impulsions d'une cellule cilliée sur le stimulus. (Plack 2005)*
+*Illustration du principe du codage temporel. La partie supérieure de la figure représente l'onde sonore. En dessous sont schématisés les potentiels évoqués générés par trois cellules ciliées internes accordées à la fréquence de cette onde, et transmis au nerf auditif. Les décharges surviennennt globalement à proximité des maxima de la vibration, même si tous les maxima ne donnent pas nécessairement lieu à une décharge synchrone de toutes les cellules, certaines impulsions pouvant être absentes ou décalées. Néanmoins, chaque cellule émet des impulsions électriques avec une périodicité globalement alignée sur celle de l'onde. Dans la partie inférieure de la figure, la sommation des décharges provenant de l'ensemble des cellules ciliées montre que, malgré une certaine variabilité, le signal global transmis au nerf auditif reproduit la périodicité du stimulus sonore. (Source: Plack 2005)*
 ```
 
 ## Modéliser l'oreille interne (partie 2) : spectrogramme auditif
 
-Nous avons vu précédemment comment le modèle du pattern d'excitation permet de rendre compte du codage tonotopique. En revanche, le codage temporel n’est quant à lui pas visible sur cette représentation purement fréquentielle. On peut néanmoins en obtenir une approximation en considérant le décours temporel de la sortie des filtres gammatone -- qui correspond aux oscillations de la membrane basilaire en chaque point. Pour obtenir le taux de décharges des cellules cilliées, c'est-à-dire le nombre de potentiels d'action transmis au nerf auditif à un instant donné, une approximation simple consiste à prendre la valeur absolue de ce signal, puis de le filtrer passe-bas en dessous de 1 kHz [en effet, les cellules ciliées ne déchargent que lors des pics positif de l'onde, et elles sont incapables de suivre des fréquences au delà de 1 kHz environ]. Ceci revient en pratique à extraire l'enveloppe du signal. En affichant cette enveloppe en fonction de la fréquence centrale du gammatone et du temps, on obtient une représentation spectro-temporelle appelée **spectrogramme auditif**.
+Nous avons vu précédemment comment le modèle du pattern d'excitation permet de rendre compte du codage tonotopique. En revanche, le codage temporel n'est quant à lui pas visible sur cette représentation purement fréquentielle. On peut néanmoins en obtenir une approximation en considérant le décours temporel de la sortie des filtres gammatone -- qui correspond aux oscillations de la membrane basilaire en chaque point. Pour obtenir le taux de décharges des cellules cilliées, c'est-à-dire le nombre de potentiels d'action transmis au nerf auditif à un instant donné, une approximation simple consiste à prendre la valeur absolue de ce signal, puis de le filtrer passe-bas en dessous de 1 kHz [en effet, les cellules ciliées ne déchargent que lors des pics positif de l'onde, et elles sont incapables de suivre des fréquences au delà de 1 kHz environ]. Ceci revient en pratique à extraire l'enveloppe du signal. En affichant cette enveloppe en fonction de la fréquence centrale du gammatone et du temps, on obtient une représentation spectro-temporelle appelée **spectrogramme auditif**.
 
 La figure 
 
@@ -261,11 +259,11 @@ align: center
 ```
 
 
-> The assumption of a ‘passive’ cochlea, where elements are brought into mechanical oscillation solely by means of the incident sound, is not tenable. The degree of resonance of the elements of the cochlea can be measured, and the results are not compatible with the very heavy damping which must arise from the viscosity of the liquid. For this reason the 'regeneration hypothesis' is put forward, and it is suggested that an electromechanical action takes place whereby a supply of electrical energy is employed to counteract the damping. (*The physical basis of the action of the cochlea, Thomas Gold, 1948*)
+> The assumption of a ‘passive' cochlea, where elements are brought into mechanical oscillation solely by means of the incident sound, is not tenable. The degree of resonance of the elements of the cochlea can be measured, and the results are not compatible with the very heavy damping which must arise from the viscosity of the liquid. For this reason the 'regeneration hypothesis' is put forward, and it is suggested that an electromechanical action takes place whereby a supply of electrical energy is employed to counteract the damping. (*The physical basis of the action of the cochlea, Thomas Gold, 1948*)
 
 ## Cellules cilliées externes et amplification-compression
 
-… mais la cochlée n’est pas seulement un analyseur en fréquence !
+… mais la cochlée n'est pas seulement un analyseur en fréquence !
 La cochlée effectue également une transduction (grâce aux ~3500 cellules ciliées internes), c.-à-d. une conversion vibration → décharge électrique.
 … et une compression de dynamique (grâce aux ~25000 cellules ciliées externes)
 

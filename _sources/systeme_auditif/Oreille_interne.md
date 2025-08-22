@@ -77,7 +77,7 @@ align: center
 
 ## Mesure physiologique de la sélectivité fréquentielle de la cochlée
 
-Comme on l'a vu, la cochlée réalise un codage tonotopique des sons, c'est-à-dire que chaque fréquence excite une région spécifique de la membrane basilaire. Toutefois, en tant que système mécanique soumis à l'inertie et au couplage entre régions voisines, elle ne peut réaliser qu'une analyse imparfaite des fréquences sonores. En particulier, sa résolution est limitée : deux tons purs de fréquences proches stimulent des zones similaires, et sont donc difficile à distinguer. L'organisation tonotopique de la cochlée et les limites de sa résolution peuvent être mises en évidence et quantifiées par des mesures physiologiques de l'excitation de la membrane basilaire en réponse à des tons purs. Nous en avons déjà vu un exemple {numref}`Excitation.jpeg`.
+Comme on l'a vu, la cochlée réalise un codage tonotopique des sons, c'est-à-dire que chaque fréquence excite une région spécifique de la membrane basilaire. Toutefois, en tant que système mécanique soumis à l'inertie et au couplage entre régions voisines, elle ne peut effectuer qu'une analyse imparfaite des fréquences sonores. En particulier, sa résolution est limitée : deux tons purs de fréquences proches stimulent des zones similaires, et deviennent ainsi difficilement distinguables. L'organisation tonotopique de la cochlée et les limites de sa résolution peuvent être mises en évidence et quantifiées par des mesures physiologiques de l'excitation de la membrane basilaire en réponse à des tons purs. Nous avons déjà vu un exemple d'une telle approche en {numref}`Excitation.jpeg`.
 
 La figure suivante représente les ***tuning curves***, une mesure de la sélectivité fréquentielle de la cochlée complémentaire de celle de la {numref}`Excitation.jpeg`. Chacune des courbes correspond à l'enregistrement des vibrations en *une* position unique le long de la cochlée, en fonction de la fréquence jouée (avec une intensité acoustique toujours identique). 
 
@@ -88,10 +88,10 @@ alt: tuning curves
 width: 70%
 align: center
 ---
-*Tuning curves. Chaque courbe représente la réponse de la membrane basilaire en un point particulier, en fonction de la fréquence du ton pur joué. Pour plus de lisibilité, 3 courbes ont été mises en évidence, correspondant respectivement à l'enregistrement à 17 mm de l'apex de la cochlée (bleu), à 25 mm (jaune) et à 33 mm (vert). (Adapté de van der Heijden and Joris, 2003)*
+*Tuning curves. Chaque courbe représente la réponse de la membrane basilaire en un point particulier, en fonction de la fréquence du ton pur joué. Trois courbes sont mises en évidence, correspondant respectivement à l'enregistrement à 17 mm de l'apex de la cochlée (bleu), à 25 mm (jaune) et à 33 mm (vert). (Adapté de van der Heijden and Joris, 2003)*
 ```
 
-Les mêmes *tuning curves* peuvent être obtenues en suivant une approche expérimentale légèrement différente : plutôt que de fixer le niveau de stimulation sonore et de mesurer l'amplitude des vibrations de la membrane basilaire, on ajuste ici le niveau de stimulation de manière à maintenir une réponse constante en sortie. Le tracé obtenu (***isoresponse tuning curves***, {numref}`Isoresponse2.png`) est globalement similaire à celui obtenu {numref}`tuningcurves.png`, bien qu'inversé en raison de la nature de la mesure.
+Une approche expérimentale légèrement différente permet d'obtenir des courbes similaires, appelées ***isoresponse tuning curves***. Plutôt que de mesurer la réponse de la membrane basilaire à intensité sonore constante, on ajuste ici le niveau de stimulation de manière à maintenir une réponse constante (c'est-à-dire une amplitude de vibration donnée de la membrane basilaire au point considéré). Comme on le constate dans la figure suivante, le tracé obtenu est globalement similaire à celui des *tuning curves* classiques ({numref}`tuningcurves.png`), mais inversé en raison de la nature de la mesure.
 
 ```{figure} Isoresponse2.png
 ---
@@ -103,10 +103,7 @@ align: center
 *Isoresponse tuning curves. Les tuning curves indiquées en couleurs correspondent approximativement à celles de la {numref}`tuningcurves.png`. (Adapté de Kiang, 1980).*
 ```
 
-[déplacer plus loin?]
-A nouveau, ces mesures mettent en évidence le codage tonotopique réalisé par la cochlée : à chaque position particulière le long de la membrane basilaire correspond à une **fréquence d'accordage** (*tuning frequency*) spécifique. Néanmoins des tons proches de la fréquence d'accordage activent également la même position, preuve à nouveau de la résolution limitée de la cochlée.
-
-Les trois figures qui précèdent offrent une caractérisation empirique du codage tonotopique. Pour visualiser plus précisément la correspondance entre position et fréquence, on peut reporter la fréquence d'accordage de chaque tuning curve en fonction de la distance à l'apex du point où a été réalisé l'enregistrement (voir figure suivante).
+Les observations dans les {numref}`Excitation.jpeg`, {numref}`tuningcurves.png` et {numref}`Isoresponse2.png` confirment le codage tonotopique assuré par la cochlée : à chaque position le long de la membrane basilaire correspond une **fréquence d'accordage** (*tuning frequency*) ou fréquence caractéristique (*characteristic frequency*) spécifique pour laquelle l'excitation est maximale. Pour visualiser plus directement la correspondance entre position et fréquence, on peut reporter la fréquence d’accordage de chaque tuning curve en fonction de la distance à l'apex du point où a été réalisé la mesure, comme le montre la figure suivante.
 
 ```{figure} tonotopy.png
 ---
@@ -115,14 +112,14 @@ alt: tonotopy
 width: 60%
 align: center
 ---
-*Mesure de la tonotopie : fréquence d'accordage en fonction de la position le long de la membrane basilaire.*
+*Tonotopie de la cochlée : fréquence d'accordage en fonction de la position le long de la membrane basilaire. Les positions les plus proches du sommet de la cochlée correspondent aux fréquences les plus basses. La répartition générale des fréquences supérieures à 200 Hz est logarithmique. Les points en couleur correspondent aux trois tuning curves mises en évidence dans les {numref}`tuningcurves.png` et {numref}`Isoresponse2.png`.*
 ```
 
-On observe que la relation entre fréquence d'accordage et distance à l'apex est globalement logarithmique. Il y a donc proportionnellement plus d'espace alloué aux basses fréquences qu'aux hautes fréquences. Dans les très basses fréquences, cette relation devient linéaire.
+On observe que la relation entre fréquence d'accordage et distance à l'apex est globalement logarithmique. Il y a donc proportionnellement plus d'espace alloué aux basses fréquences qu'aux hautes fréquences. Dans les très basses fréquences (< 200 Hz), cette relation devient linéaire. On parle donc de relation quasi-logarithmique.
 
-Revenons à présent aux tuning curves. Leur tracé fait apparaître non seulement une fréquence d'accordage particulière, mais également une certaine bande passante : une position donnée de la membrane n'est pas excitée par une fréquence unique, mais également par les fréquences proches -- et, inversement, chaque fréquence excite non seulement la position de la cochlée qui lui correspond mais aussi les régions adjacentes. Autrement dit : **la sélectivité fréquentielle de l'oreille interne est limitée**, autrement dit notre oreille est incapable de différencier des fréquences si elles sont trop proches. 
+Les *tuning curves* révèlent non seulement la fréquence d’accordage d’une région donnée, mais aussi sa bande passante. Autrement dit, une même position sur la membrane basilaire répond à un ensemble de fréquences proches, et non à une fréquence unique, ce qui reflète la limitation de la sélectivité fréquentielle de l'oreille interne. La largeur des courbes {numref}`tuningcurves.png` et {numref}`Isoresponse2.png` constitue ainsi une mesure directe de cette sélectivité locale : plus la bande passante est étroite, plus la discrimination des fréquences est fine. La figure suivante représente la relation entre la bande passante des *tuning curves* en fonction de leur fréquence d'accordage.
 
-On peut obtenir une indication de la sélectivité fréquentielle en chaque point de la membrane basilaire en mesurant la bande passante de la tuning curve correspondante. [...]
+[Manque une figure]
 
 ## Modéliser l'oreille interne (partie 1) : gammatones et pattern d'excitation
 
@@ -275,6 +272,8 @@ Cellules ciliées externes : Véritable amplificateur cochléaire : mécanisme 
 
 
 > The assumption of a ‘passive' cochlea, where elements are brought into mechanical oscillation solely by means of the incident sound, is not tenable. The degree of resonance of the elements of the cochlea can be measured, and the results are not compatible with the very heavy damping which must arise from the viscosity of the liquid. For this reason the 'regeneration hypothesis' is put forward, and it is suggested that an electromechanical action takes place whereby a supply of electrical energy is employed to counteract the damping. (*The physical basis of the action of the cochlea, Thomas Gold, 1948*)
+
+> Efferent system Brownell, Bader, Bertrand, and Ribaupierre (1985) showed that electrical stimulation of the outer hair cells could lead to their contraction, and Ashmore (1987) reported that this outer contraction occurred with an extremely short latency (120 ls). Therefore, it seems possible that the response of the inner hair cell receptors can be modulated by efferent stimulation of the outer hair cells for frequencies up to the kilohertz range. While it is of interest to study directly the effects produced by efferent stimulation of the outer hair cells, there are experimental difficulties, including the sensitivity of the efferent system to anesthesia. Despite these problems, Winslow and Sachs (1988) have provided neurophysiological evidence that the efferent olivocochlear bundle can improve the sensitivity of afferent auditory nerve fibers to tonal signals in the presence of interfering noise. This is consistent with the earlier behavioral report by Dewson (1968) that discrimination between two vowels in the presence of noise by monkeys was impaired by sectioning of the efferent olivo-cochlear bundle. (Warren)
 
 
 ```{figure} Postmortem.jpeg

@@ -21,7 +21,7 @@ align: center
 *Schéma du système auditif périphérique mettant en évidence l'oreille interne. (Source : [Ivy Livingstone, Biodidac](https://omeka.uottawa.ca/biodidac/items/show/4603))*
 ```
 
-## La cochlée et la membrane basilaire 
+## La cochlée, la membrane basilaire, et le codage tonotopique
 
 La **cochlée** est l'organe qui réalise notamment la décomposition du son en fréquence, c'est-à-dire son analyse spectrale.
 
@@ -59,15 +59,7 @@ Cette conception simple de la cochlée est suffisante pour la plupart des applic
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bZdOSCDwbGs?si=2wCw_6LQ2WMtSqnd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RKSEcOTuXdw?si=_a3Nxz13tfsiemww" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Pour être complet, un modèle mécanique de la cochlée doit inclure un grand nombre de paramètres et d'équations de façon à simuler la mise en mouvement du liquide et la propagation de l'onde dans ce milieu, l'entraînement de la membrane basilaire vue comme chaîne de resonnateurs couplés d'inertie mécanique variable, ainsi que les effets de rétroaction dont il sera question plus loin. Ce domaine fait donc actuellement l'objet d'importants travaux. 
-
-Outre les simulations, il est également possible de mesurer expérimentalement les mouvements de la membrane basilaire en réponse à des sons, afin de la caractériser empiriquement. Dans la partie suivante nous nous penchons sur les données physiologiques, éclairées par notre compréhension du fonctionnement de la cochlée.
-
-## Codage tonotopique et sélectivité fréquentielle de la cochlée
-
-La cochlée, en tant que système mécanique soumis à l'inertie et au couplage entre régions voisines, ne peut réaliser qu'une analyse imparfaite des fréquences sonores. En particulier, sa résolution spectrale est limitée : deux tons purs de fréquences très proches ne peuvent être distingués avec précision. L'organisation tonotopique de la cochlée et sa résolution peuvent être mises en évidence et quantifiées par diverses mesures physiologiques de l'excitation de la membrane basilaire en réponse à des tons purs réalisées chez l'animal.
-
-Nous avons déjà évoqué plus haut les observations de von Békésy. La figure ci-dessous illustre une mesure plus récente et plus précise, réalisée chez le [Xxx]. Les positions le long de la membrane basilaire sont représentées sur l'axe des x (plus proche de la base à gauche, plus proche de l'apex à droite). Les scientifiques ont mesuré en ces différents points l'amplitude des vibrations de la membrane basilaire lorsqu'un ton pur à 15 kHz est joué. Conformément à nos attentes, les vibrations atteignent un maximum en un point particulier de la cochlée, ici situé à environ 14,5 mm de l'apex. En termes de codage tonotopique, cette position précise "code" donc pour la fréquence de 15 kHz. Par ailleurs, l'excitation décroît rapidement au-delà de ce point (entre 14,5 mm et 13,5 mm), ce qui confère au profil général une asymétrie caractéristique, conformément aux observations de von Békésy. 
+La figure ci-dessous illustre une mesure des vibrations de la membrane basilaire en réponse à un stimulus sonore plus récente et plus précise que celle de von Békésy. Les scientifiques ont mesuré l'amplitude des vibrations de la membrane basilaire en différents points lorsqu'un ton pur à 15 kHz est joué. L'axe des abscisses représente la position le long de la membrane basilaire  (plus proche de la base à gauche, plus proche de l'apex à droite), tandis que l'axe des ordonnées indique l'amplitude des vibrations enregistrées. Conformément à nos attentes, les vibrations atteignent un maximum en un point particulier de la membrane, ici situé à environ 14,5 mm de l'apex. En termes de codage tonotopique, cette position spécifique "code" donc la fréquence de 15 kHz. Par ailleurs, l'excitation décroît rapidement au-delà de ce point (entre 14,5 mm et 13,5 mm), ce qui confère au profil général une asymétrie caractéristique, conformément aux observations historiques de von Békésy. 
 
 ```{figure} Excitation.jpeg
 ---
@@ -79,7 +71,15 @@ align: center
 *Mesure de l'excitation de la membrane basilaire en réponse à un ton pur à 15 kHz, semblable à celles réalisées par von Békésy [[2](note2OI)]. L'axe des abscisses correspond à la position considérée le long de la membrane -- plus ou moins loin du sommet (apex) de la cochlée. L'axe des ordonnées représente l'amplitude des vibrations enregistrées en ce point. Plusieurs intensités du stimulus acoustique sont considérées, la courbe tracée en rouge correspondant à une intensité modérée de 70 dB SPL. (Source : Russell and Nilsen, 1997)*
 ```
 
-La figure suivante représente les ***tuning curves***, une autre mesure de la sélectivité fréquentielle de la cochlée. Chacune des courbes correspond à l'enregistrement des vibrations en *une* position précise le long de la cochlée, en fonction de la fréquence jouée (avec une intensité acoustique toujours identique). 
+[à déplacer?] Pour être complet, un modèle mécanique de la cochlée doit inclure un grand nombre de paramètres et d'équations de façon à simuler la mise en mouvement du liquide et la propagation de l'onde dans ce milieu, l'entraînement de la membrane basilaire vue comme chaîne de resonnateurs couplés d'inertie mécanique variable, ainsi que les effets de rétroaction dont il sera question plus loin. Ce domaine fait donc actuellement l'objet d'importants travaux. 
+
+<!--- Outre les simulations, il est également possible de mesurer expérimentalement les mouvements de la membrane basilaire en réponse à des sons, afin de la caractériser empiriquement. Dans la partie suivante nous nous penchons sur les données physiologiques, éclairées par notre compréhension du fonctionnement de la cochlée. --->
+
+## Mesure physiologique de la sélectivité fréquentielle de la cochlée
+
+Comme on l'a vu, la cochlée réalise un codage tonotopique des sons, c'est-à-dire que chaque fréquence excite une région spécifique de la membrane basilaire. Toutefois, en tant que système mécanique soumis à l'inertie et au couplage entre régions voisines, elle ne peut réaliser qu'une analyse imparfaite des fréquences sonores. En particulier, sa résolution est limitée : deux tons purs de fréquences proches stimulent des zones similaires, et sont donc difficile à distinguer. L'organisation tonotopique de la cochlée et les limites de sa résolution peuvent être mises en évidence et quantifiées par des mesures physiologiques de l'excitation de la membrane basilaire en réponse à des tons purs. Nous en avons déjà vu un exemple {numref}`Excitation.jpeg`.
+
+La figure suivante représente les ***tuning curves***, une mesure de la sélectivité fréquentielle de la cochlée complémentaire de celle de la {numref}`Excitation.jpeg`. Chacune des courbes correspond à l'enregistrement des vibrations en *une* position unique le long de la cochlée, en fonction de la fréquence jouée (avec une intensité acoustique toujours identique). 
 
 ```{figure} tuningcurves.png
 ---
@@ -88,13 +88,10 @@ alt: tuning curves
 width: 70%
 align: center
 ---
-*Tuning curves. Chaque courbe représente la réponse de la membrane basilaire en un point particulier, en fonction de la fréquence du ton pur joué. Pour plus de lisibilité, 3 courbes ont été mises en couleur, correspondant respectivement à l'enregistrement à 17 mm de l'apex de la cochlée (bleu), à 25 mm (jaune) et à 33 mm (vert). (Adapté de van der Heijden and Joris, 2003)*
+*Tuning curves. Chaque courbe représente la réponse de la membrane basilaire en un point particulier, en fonction de la fréquence du ton pur joué. Pour plus de lisibilité, 3 courbes ont été mises en évidence, correspondant respectivement à l'enregistrement à 17 mm de l'apex de la cochlée (bleu), à 25 mm (jaune) et à 33 mm (vert). (Adapté de van der Heijden and Joris, 2003)*
 ```
 
-[déplacer plus loin?]
-A nouveau, ces mesures mettent en évidence le codage tonotopique réalisé par la cochlée : à chaque position particulière le long de la membrane basilaire correspond à une **fréquence d'accordage** (*tuning frequency*) spécifique. Néanmoins des tons proches de la fréquence d'accordage activent également la même position, preuve à nouveau de la résolution limitée de la cochlée.
-
-Les mêmes *tuning curves* peuvent être obtenues en suivant une approche expérimentale légèrement différente, comme l'illustre la figure suivante. Plutôt que de fixer le niveau de stimulation sonore et de mesurer l'amplitude des vibrations de la membrane basilaire, on ajuste ici le niveau de stimulation de manière à maintenir une réponse constante en sortie. Le tracé obtenu (***isoresponse tuning curves***) est globalement similaire à celui obtenu précédemment, bien qu'inversé en raison de la nature de la mesure.
+Les mêmes *tuning curves* peuvent être obtenues en suivant une approche expérimentale légèrement différente : plutôt que de fixer le niveau de stimulation sonore et de mesurer l'amplitude des vibrations de la membrane basilaire, on ajuste ici le niveau de stimulation de manière à maintenir une réponse constante en sortie. Le tracé obtenu (***isoresponse tuning curves***, {numref}`Isoresponse2.png`) est globalement similaire à celui obtenu {numref}`tuningcurves.png`, bien qu'inversé en raison de la nature de la mesure.
 
 ```{figure} Isoresponse2.png
 ---
@@ -105,6 +102,9 @@ align: center
 ---
 *Isoresponse tuning curves. Les tuning curves indiquées en couleurs correspondent approximativement à celles de la {numref}`tuningcurves.png`. (Adapté de Kiang, 1980).*
 ```
+
+[déplacer plus loin?]
+A nouveau, ces mesures mettent en évidence le codage tonotopique réalisé par la cochlée : à chaque position particulière le long de la membrane basilaire correspond à une **fréquence d'accordage** (*tuning frequency*) spécifique. Néanmoins des tons proches de la fréquence d'accordage activent également la même position, preuve à nouveau de la résolution limitée de la cochlée.
 
 Les trois figures qui précèdent offrent une caractérisation empirique du codage tonotopique. Pour visualiser plus précisément la correspondance entre position et fréquence, on peut reporter la fréquence d'accordage de chaque tuning curve en fonction de la distance à l'apex du point où a été réalisé l'enregistrement (voir figure suivante).
 
@@ -261,8 +261,6 @@ align: center
 ```
 
 
-> The assumption of a ‘passive' cochlea, where elements are brought into mechanical oscillation solely by means of the incident sound, is not tenable. The degree of resonance of the elements of the cochlea can be measured, and the results are not compatible with the very heavy damping which must arise from the viscosity of the liquid. For this reason the 'regeneration hypothesis' is put forward, and it is suggested that an electromechanical action takes place whereby a supply of electrical energy is employed to counteract the damping. (*The physical basis of the action of the cochlea, Thomas Gold, 1948*)
-
 ## Cellules cilliées externes et amplification-compression
 
 … mais la cochlée n'est pas seulement un analyseur en fréquence !
@@ -273,6 +271,10 @@ La cochlée effectue également une transduction (grâce aux ~3500 cellules cili
 The hair cells in the organ of Corti are tuned to certain sound frequencies by way of their location in the cochlea, 
 
 Cellules ciliées externes : Véritable amplificateur cochléaire : mécanisme actif de rétroaction réalisant une amplification/compression et une amélioration de la sélectivité fréquentielle pour les signaux faibles.
+
+
+
+> The assumption of a ‘passive' cochlea, where elements are brought into mechanical oscillation solely by means of the incident sound, is not tenable. The degree of resonance of the elements of the cochlea can be measured, and the results are not compatible with the very heavy damping which must arise from the viscosity of the liquid. For this reason the 'regeneration hypothesis' is put forward, and it is suggested that an electromechanical action takes place whereby a supply of electrical energy is employed to counteract the damping. (*The physical basis of the action of the cochlea, Thomas Gold, 1948*)
 
 
 ```{figure} Postmortem.jpeg

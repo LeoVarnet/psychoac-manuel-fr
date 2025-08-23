@@ -257,11 +257,9 @@ Trois spectrogrammes auditifs sont représentés figure xxx. Le premier correspo
 
 ## Cellules cilliées externes et amplification-compression
 
-La troisième et dernière fonction de la cochlée est d'effectuer une compression de dynamique. En effet, l'oreille humaine est capable de percevoir des sons très faibles (xxx) mais également des sons très forts (le seuil de douleur se situant approximativement à 120 dB SPL). L'écart entre les deux représente une gamme de xxx dB, c'est à dire un facteur xxx. Ceci est possible grâce 
+La troisième et dernière fonction de la cochlée est d'effectuer une compression de dynamique. En effet, l'oreille humaine est capable de percevoir des sons très faibles (xxx) mais également des sons très forts (le seuil de douleur se situant approximativement à 120 dB SPL). L'écart entre les deux représente une gamme de xxx dB, c'est à dire un facteur xxx. Ceci est rendu possible grâce à une étape de compression du signal lors de la transduction.
 
-… mais la cochlée n'est pas seulement un analyseur en fréquence !
-La cochlée effectue également une transduction (grâce aux ~3500 cellules ciliées internes), c.-à-d. une conversion vibration → décharge électrique.
-… et une compression de dynamique (grâce aux ~25000 cellules ciliées externes)
+La compression est notamment assurée par les ~25000 **cellules ciliées externes**. Celles-ci sont disposées tout le long de la cochlée, comme les cellules ciliées internes, mais organisées en trois rangées (voir xxx). Les deux types de cellules ciliées possèdent une structure similaire mais fonctionnent sur un principe opposé : tandis que les internes convertissent un mouvement mécanique en impulsion électrique envoyée dans les fibres du nerf auditif, les cellules ciliées externes convertissent une impulsion électrique venue du nerf auditif en mouvement mécanique. Plus précisément la cellule ciliée externe se contracte sous l'effet d'une commande 
 
 Cellules ciliées externes : Véritable amplificateur cochléaire : mécanisme actif de rétroaction réalisant une amplification/compression et une amélioration de la sélectivité fréquentielle pour les signaux faibles.
 

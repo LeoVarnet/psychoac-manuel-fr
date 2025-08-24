@@ -4,7 +4,7 @@
 Page en cours de construction
 ```
 
-L'**oreille interne** constitue l'élément clé du système auditif périphérique. Tandis que l'oreille externe et moyenne peut se réduire, en première approximation, à un simple filtre linéaire, l'oreille interne réalise plusieurs transformations essentielles des vibrations qui lui parviennent par la fenêtre ovale. Sa fonction est d'**analyser les sons en fréquence**, mais également d'**amplifier les sons faibles et de compresser les sons forts**. Enfin, elle réalise une **transduction, en convertissant les vibrations mécaniques en signaux électriques**.
+L'**oreille interne** constitue le cœur du système auditif périphérique. Tandis que l'oreille externe et moyenne peut se réduire, en première approximation, à un simple filtre linéaire, l'oreille interne réalise plusieurs transformations essentielles des vibrations qui lui parviennent par la fenêtre ovale. Sa fonction est d'**analyser les sons en fréquence**, mais également d'**amplifier les sons faibles et de compresser les sons forts**. Enfin, elle réalise une **transduction, en convertissant les vibrations mécaniques en signaux électriques**.
 
 L'oreille interne se décompose en trois parties : 
 - la **cochlée**, petit bijou de l'évolution qui, comme nous le verrons dans ce chapitre, est lui-même constitué de plusieurs éléments en interaction
@@ -259,7 +259,17 @@ Trois spectrogrammes auditifs sont représentés figure xxx. Le premier correspo
 
 La troisième et dernière fonction de la cochlée est d'effectuer une compression de dynamique. En effet, l'oreille humaine est capable de percevoir des sons très faibles (xxx) mais également des sons très forts (le seuil de douleur se situant approximativement à 120 dB SPL). L'écart entre les deux représente une gamme de xxx dB, c'est à dire un facteur xxx. Ceci est rendu possible grâce à une étape de compression du signal lors de la transduction.
 
-La compression est notamment assurée par les ~25000 **cellules ciliées externes**. Celles-ci sont disposées tout le long de la cochlée, comme les cellules ciliées internes, mais organisées en trois rangées (voir xxx). Les deux types de cellules ciliées possèdent une structure similaire mais fonctionnent sur un principe opposé : tandis que les internes convertissent un mouvement mécanique en impulsion électrique envoyée dans les fibres du nerf auditif, les cellules ciliées externes convertissent une impulsion électrique venue du nerf auditif en mouvement mécanique. Plus précisément la cellule ciliée externe se contracte sous l'effet d'une commande 
+La compression est notamment assurée par les ~25000 **cellules ciliées externes**. Celles-ci sont disposées tout le long de la cochlée, comme les cellules ciliées internes, mais organisées en trois rangées (voir xxx). Les deux types de cellules ciliées possèdent une structure similaire mais fonctionnent sur un principe opposé : tandis que les internes convertissent un mouvement mécanique en impulsion électrique envoyée dans les fibres du nerf auditif, les cellules ciliées externes convertissent une impulsion électrique venue du nerf auditif en mouvement mécanique. Ainsi, la cellule ciliée externe se contracte sous l'effet d'une commande électrique. Etant fixée à la membrane basilaire et reliée par ses stéréocils à la membrane tectoriale, elle amplifier ou atténuer les oscillations au sein de la cochlée. Ce mécanisme actif de rétroaction peut être mis en évidence en comparant les tuning curves mesurées sur un organisme vivant et sur un organisme mort (voir figure suivante). Dans ce dernier cas le fonctionnement mécanique passif de la cochlée est toujours en œuvre, mais les mécanismes actifs -- notamment liés aux cellules ciliées externes -- sont éteints.
+
+```{figure} Postmortem.jpeg
+---
+name: Postmortem.jpeg
+alt: Isoresponse tuning curve pre-/post mortem
+width: 70%
+align: center
+---
+*Isoresponse tuning curve pre-/post mortem.*
+```
 
 Cellules ciliées externes : Véritable amplificateur cochléaire : mécanisme actif de rétroaction réalisant une amplification/compression et une amélioration de la sélectivité fréquentielle pour les signaux faibles.
 
@@ -270,14 +280,6 @@ Cellules ciliées externes : Véritable amplificateur cochléaire : mécanisme 
 > Efferent system Brownell, Bader, Bertrand, and Ribaupierre (1985) showed that electrical stimulation of the outer hair cells could lead to their contraction, and Ashmore (1987) reported that this outer contraction occurred with an extremely short latency (120 ls). Therefore, it seems possible that the response of the inner hair cell receptors can be modulated by efferent stimulation of the outer hair cells for frequencies up to the kilohertz range. While it is of interest to study directly the effects produced by efferent stimulation of the outer hair cells, there are experimental difficulties, including the sensitivity of the efferent system to anesthesia. Despite these problems, Winslow and Sachs (1988) have provided neurophysiological evidence that the efferent olivocochlear bundle can improve the sensitivity of afferent auditory nerve fibers to tonal signals in the presence of interfering noise. This is consistent with the earlier behavioral report by Dewson (1968) that discrimination between two vowels in the presence of noise by monkeys was impaired by sectioning of the efferent olivo-cochlear bundle. (Warren)
 
 
-```{figure} Postmortem.jpeg
----
-name: Postmortem.jpeg
-alt: Isoresponse tuning curve pre-/post mortem
-width: 70%
-align: center
----
-*Isoresponse tuning curve pre-/post mortem.*
 
 
 ```{figure} TuningGain.png

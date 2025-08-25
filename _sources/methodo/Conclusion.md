@@ -1,4 +1,4 @@
-
+(sec-methodo-conclusion)=
 # Conclusion 
 
 Il pourrait sembler étrange à première vue qu'un seul et même cadre théorique permette de rendre compte et d'étudier des phénomènes aussi variés que la perception d'un bip sonore, la reconnaissance d'une voix ou d'un objet, la discrimination de nuances de couleur, ou encore  l'identification d'un parfum ou d'un cépage de vin. C'est pourtant ce qu'offre la psychophysique, ensemble de méthodologies experimentales et d'outils d'analyse reliés par la théorie de la detection du signal appliquée à la perception humaine. Dans ce chapitre, nous avons donné un aperçu de cette approche, que nous mettrons en pratique dans la suite du cours pour explorer l'audition humaine.

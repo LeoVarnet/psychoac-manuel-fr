@@ -291,17 +291,7 @@ Lorsque le niveau sonore est faible, les tuning curves possédent une excellente
 
 ## Modéliser l'oreille interne (partie 3) : DRNL
 
-Il est possible de mettre à jour le modèle de la cochlée comme un banc de filtres gammatones, vu précédemment, pour prendre en compte l'effet des cellules ciliées externes. Une première option très simple consiste à appliquer une fonction compressive (par exemple une loi puissance avec un exposant négatif) sur la sortie des gammatones. Ceci n'est cependant pas entièrement satisfaisant car la cochlée ainsi simulée, si elle réalise bien une compression de dynamique, conserve cependant la même résolution fréquencielle quel que soit le niveau sonore d'entrée. Une seconde option, légèrement plus sophistiquée, s'appuie sur des *dual-resonance nonlinear filters* (**filtres DRNL**). Ces filtres non-linéaires reproduisent l'évolution des *tuning curves* avec le niveau sonore, illustré figure xxx. Pour cela, elles combinent
-
-
-Dual-resonance nonlinear (DRNL) filterbank 
-Deux branches additives:
-un banc de filtres gammatones linéaires.
-un autre banc de filtres plus sélectifs et non-linéaires
-
-Compression brokenstick : 
-linéaire pour faible input
-compressive pour fort input
+Il est possible de mettre à jour le modèle de la cochlée comme un banc de filtres gammatones, vu précédemment, pour prendre en compte l'effet des cellules ciliées externes. Une première option très simple consiste à appliquer une fonction compressive (par exemple une loi puissance avec un exposant négatif) sur la sortie des gammatones. Ceci n'est cependant pas entièrement satisfaisant car la cochlée ainsi simulée, si elle réalise bien une compression de dynamique, conserve cependant la même résolution fréquencielle quel que soit le niveau sonore d'entrée. Une seconde option, légèrement plus sophistiquée, s'appuie sur des *dual-resonance nonlinear filters* (**filtres DRNL**). Ces filtres non-linéaires reproduisent l'évolution des *tuning curves* avec le niveau sonore, illustré figure xxx. Pour cela, ils combinent en réalité deux branches : la première, linéaire et semblable aux gammatones mais avec une résolution plus faible, correspond à l'action mécanique du système, tandis que la deuxième, non-linéaire et plus sélective en fréquence, rend compte des mécanismes actifs (voirfig xxx).
 
 ## Nerf auditif
 

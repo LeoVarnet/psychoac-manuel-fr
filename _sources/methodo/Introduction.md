@@ -1,4 +1,4 @@
-
+(sec-methodo-introduction)=
 # Introduction
 
 La **psychophysique** est l'étude scientifique de la perception. Cette discipline englobe la **psychoacoustique**, sujet de ce manuel, mais également la psychophysique visuelle, haptique (ou tactile), voire même olfactive ou gustative. 

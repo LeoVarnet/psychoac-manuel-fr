@@ -1,3 +1,4 @@
+(sec-methodo-paradigme-experimental)=
 # Paradigme expérimental
 
 ## Qu'est-ce que le paradigme expérimental ?

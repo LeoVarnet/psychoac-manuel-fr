@@ -1,6 +1,6 @@
 # Supports de cours
 
-## #Perception & Psychoacoustique# (Université du Mans, année 2025-2026)
+## **Perception & Psychoacoustique** (Université du Mans, année 2025-2026)
 
 - Introduction ([slides]())
 - Cours 1 : Méthodologie de la psychophysique et de la psychoacoustique ([slides]())

@@ -1,3 +1,4 @@
+(sec-methodo-tache-et-instructions)=
 # Tâche et instructions
 
 ## Qu'est-ce que la tâche psychophysique ?

@@ -1,4 +1,4 @@
-(support-de-cours)=
+(content:support-de-cours)=
 # Supports de cours
 
 ## **Perception & Psychoacoustique** (Université du Mans, année 2025-2026)

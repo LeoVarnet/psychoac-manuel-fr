@@ -1,3 +1,4 @@
+(sec-methodo-methode-experimentale)=
 # Méthode expérimentale
 
 ## Qu'est-ce que la méthode expérimentale ?

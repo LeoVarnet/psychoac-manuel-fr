@@ -257,9 +257,9 @@ Trois spectrogrammes auditifs sont représentés figure xxx. Le premier correspo
 
 ## Cellules cilliées externes et amplification-compression
 
-La troisième et dernière fonction de la cochlée est d'effectuer une compression de dynamique. En effet, l'oreille humaine est capable de percevoir des sons très faibles (xxx) mais également des sons très forts (le seuil de douleur se situant approximativement à 120 dB SPL). L'écart entre les deux représente une gamme de xxx dB, c'est à dire un facteur xxx. Ceci est rendu possible grâce à une étape de compression du signal lors de la transduction.
+La troisième et dernière fonction de la cochlée est d'effectuer une compression de dynamique. En effet, l'oreille humaine est capable de percevoir des sons très faibles (de l'ordre de quelques dB SPL) mais également des sons très forts (le seuil de douleur se situant approximativement à 120 dB SPL). L'écart entre les deux représente une gamme de 120 dB, c'est à dire un facteur xxx. Ceci est rendu possible grâce à une étape de compression du signal lors de la transduction.
 
-La compression est notamment assurée par les ~25000 **cellules ciliées externes**. Celles-ci sont disposées tout le long de la cochlée, comme les cellules ciliées internes, mais organisées en trois rangées (voir xxx). Les deux types de cellules ciliées possèdent une structure similaire mais fonctionnent sur un principe opposé : tandis que les internes convertissent un mouvement mécanique en impulsion électrique envoyée dans les fibres du nerf auditif, les cellules ciliées externes convertissent une impulsion électrique venue du nerf auditif en mouvement mécanique. Ainsi, la cellule ciliée externe se contracte sous l'effet d'une commande électrique. Etant fixée à la membrane basilaire et reliée par ses stéréocils à la membrane tectoriale, elle amplifier ou atténuer les oscillations au sein de la cochlée. Ce mécanisme actif de rétroaction peut être mis en évidence en comparant les tuning curves mesurées sur un organisme vivant et sur un organisme mort (voir figure suivante). Dans ce dernier cas le fonctionnement mécanique passif de la cochlée est toujours en œuvre, mais les mécanismes actifs -- notamment liés aux cellules ciliées externes -- sont éteints.
+La compression est notamment assurée par les ~25000 **cellules ciliées externes**. Celles-ci sont disposées tout le long de la cochlée, comme les cellules ciliées internes, mais organisées en trois rangées (voir xxx). Les deux types de cellules possèdent une structure similaire mais fonctionnent sur un principe opposé : tandis que les cellules ciliées internes convertissent un mouvement mécanique en impulsion électrique envoyée dans les fibres du nerf auditif, les cellules ciliées externes convertissent une impulsion électrique venue du nerf auditif en mouvement mécanique. Ainsi, la cellule ciliée externe se contracte sous l'effet d'une commande électrique. Étant fixée à la membrane basilaire et reliée par ses stéréocils à la membrane tectoriale, elle peut ainsi amplifier ou atténuer les oscillations au sein de la cochlée. Ce mécanisme actif de rétroaction peut être mis en évidence en comparant les tuning curves mesurées sur un organisme vivant et sur un organisme mort (voir figure suivante). Dans ce dernier cas le fonctionnement mécanique passif de la cochlée est toujours en œuvre, mais les mécanismes actifs -- notamment liés aux cellules ciliées externes -- sont éteints.
 
 ```{figure} Postmortem.jpeg
 ---
@@ -271,9 +271,9 @@ align: center
 *Isoresponse tuning curve pre-/post mortem.*
 ```
 
-Comme on le constate sur la figure, les *tuning curves* mesurées post-mortem -- et correspondant donc au fonctionnement purement mécanique de la cochlée -- sont très atténuées (xxx dB au maximum) et relativement larges. La viscosité de la périlymphe et la résistance de la membrane basilaire entraînent une grande déperdition d'énergie et il est donc impossible d'expliquer la grande précision et l'efficacité de la cochlée dans la transmission de l'information sans prendre en compte le mécanisme actif des cellules ciliées externes. Celui-ci compense le damping et améliore la sélectivité fréquentielle du système.
+Comme on le constate sur la figure, les *tuning curves* mesurées post-mortem -- et correspondant donc au fonctionnement purement mécanique de la cochlée -- sont très atténuées (xxx dB au maximum) et relativement larges. La viscosité de la périlymphe et la résistance de la membrane basilaire entraînent une grande déperdition d'énergie et on voit donc que l'idée d'une cochlée fonctionnant sur la seule base de l'action mecanique de l'onde entrante n'est pas tenable. Seule l'existence de mécanismes actifs compensant le damping et améliorant la sélectivité fréquentielle permet d'expliquer la grande efficacité de la cochlée dans la transmission de l'information. 
 
-Néanmoins, ce système de feedback actif s'active plus ou moins en fonction du niveau sonore, renforçant la perception des sons faibles mais laissant les sons forts être naturellement atténués. Ceci peut être observé en comparant les tuning curves mesurées en une même position pour des stimuli de différentes intensité (figure xxx). 
+Néanmoins, ce système de feedback actif est plus ou moins sollicité en fonction du niveau sonore : il renforce la perception des sons faibles mais laisse les sons forts être naturellement atténués. Ceci peut être observé en comparant les *tuning curves* mesurées en une même position pour des stimuli de différentes intensité (figure xxx). 
 
 ```{figure} TuningGain.png
 ---
@@ -285,20 +285,14 @@ align: center
 *tuning curve effect of level.*
 ```
 
-Lorsque le niveau sonore est faible, les tuning curves possédent une excellente résolution et [check] n'atténuent pas les sons au niveau de leur fréquence d'accordage. En revanche, à des niveaux sonores élevés, la tuning curve devient très peu sélective et atténuent fortement les sons (xxx dB au niveau de la fréquence d'accordage). De façon prévisible, le même phénomène peut également être observé au niveau des patterns d'excitation (voir figure xxx)
-
-
-
-> The assumption of a ‘passive' cochlea, where elements are brought into mechanical oscillation solely by means of the incident sound, is not tenable. The degree of resonance of the elements of the cochlea can be measured, and the results are not compatible with the very heavy damping which must arise from the viscosity of the liquid. For this reason the 'regeneration hypothesis' is put forward, and it is suggested that an electromechanical action takes place whereby a supply of electrical energy is employed to counteract the damping. (*The physical basis of the action of the cochlea, Thomas Gold, 1948*)
+Lorsque le niveau sonore est faible, les tuning curves possédent une excellente résolution et [check] n'atténuent pas les sons au niveau de leur fréquence d'accordage. En revanche, à des niveaux sonores élevés, la tuning curve devient très peu sélective et atténuent fortement les sons (xxx dB et plus). De façon prévisible, le même phénomène peut également être observé au niveau des patterns d'excitation (voir figure xxx)
 
 > Efferent system Brownell, Bader, Bertrand, and Ribaupierre (1985) showed that electrical stimulation of the outer hair cells could lead to their contraction, and Ashmore (1987) reported that this outer contraction occurred with an extremely short latency (120 ls). Therefore, it seems possible that the response of the inner hair cell receptors can be modulated by efferent stimulation of the outer hair cells for frequencies up to the kilohertz range. While it is of interest to study directly the effects produced by efferent stimulation of the outer hair cells, there are experimental difficulties, including the sensitivity of the efferent system to anesthesia. Despite these problems, Winslow and Sachs (1988) have provided neurophysiological evidence that the efferent olivocochlear bundle can improve the sensitivity of afferent auditory nerve fibers to tonal signals in the presence of interfering noise. This is consistent with the earlier behavioral report by Dewson (1968) that discrimination between two vowels in the presence of noise by monkeys was impaired by sectioning of the efferent olivo-cochlear bundle. (Warren)
 
-
-
-
-
-
 ## Modéliser l'oreille interne (partie 3) : DRNL
+
+Il est possible de mettre à jour le modèle de la cochlée comme un banc de filtres gammatones, vu précédemment, pour prendre en compte l'effet des cellules ciliées externes. On s'appuie pour cela sur des *dual-resonance nonlinear filters* (**filtres DRNL**)
+
 
 Dual-resonance nonlinear (DRNL) filterbank 
 Deux branches additives:

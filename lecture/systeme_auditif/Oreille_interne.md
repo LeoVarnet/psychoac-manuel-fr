@@ -291,7 +291,7 @@ Lorsque le niveau sonore est faible, les tuning curves possédent une excellente
 
 ## Modéliser l'oreille interne (partie 3) : DRNL
 
-Il est possible de mettre à jour le modèle de la cochlée comme un banc de filtres gammatones, vu précédemment, pour prendre en compte l'effet des cellules ciliées externes. On s'appuie pour cela sur des *dual-resonance nonlinear filters* (**filtres DRNL**)
+Il est possible de mettre à jour le modèle de la cochlée comme un banc de filtres gammatones, vu précédemment, pour prendre en compte l'effet des cellules ciliées externes. Une première option très simple consiste à appliquer une fonction compressive (par exemple une loi puissance avec un exposant négatif) sur la sortie des gammatones. Ceci n'est cependant pas entièrement satisfaisant car la cochlée ainsi simulée, si elle réalise bien une compression de dynamique, conserve cependant la même résolution fréquencielle quel que soit le niveau sonore d'entrée. Une seconde option, légèrement plus sophistiquée, s'appuie sur des *dual-resonance nonlinear filters* (**filtres DRNL**). Ces filtres non-linéaires reproduisent l'évolution des *tuning curves* avec le niveau sonore, illustré figure xxx. Pour cela, elles combinent
 
 
 Dual-resonance nonlinear (DRNL) filterbank 

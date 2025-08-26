@@ -8,11 +8,11 @@ Fixer la **méthode** de l'expérience revient à déterminer comment les stimul
 ```{figure} expérience.png
 ---
 name: expérience.png
-alt: Schéma de l'expérience psychophysique
-width: 400px
+alt: Schéma vertical représentant une expérience psychoacoustique. Une fleche indique le déroulement de l'expérience. Le long de cette ligne se succèdent des encadrés blancs et des encadrés noirs. Les encadrés blancs marquent le début d'un nouvel essai (numéroté 1, 2, 3, 4...), et contiennent une icône d'enceintes suivie de trois petits points, symbolisant la diffusion d'un ou plusieurs sons. Les encadrés noirs contiennent un point d'interrogation, et représentent la tâche que le participant ou la participante doit réaliser. 
+width: 60%
 align: center
 ---
-*Rappel : schéma de la structure d'une expérience psychoacoustique.*
+*Rappel : schéma de la structure d'une expérience de psychoacoustique.*
 ```
 
 Les méthodes sont classées en deux groupes : **méthodes adaptatives** (les stimuli présentés dépendent des réponses précédentes) et **methodes non-adaptatives** (les réponses n'affectent pas le déroulement de l'experience). Parmi les méthodes adaptatives on trouve notamment la methode des limites et la méthode de l'escalier psychophysique. Dans les méthodes non-adaptatives on peut mentionner la mesure de performance et la méthode des stimuli constants. Nous nous concentrerons sur ces 4 méthodes dans les paragraphes qui suivent.
@@ -27,8 +27,8 @@ La réponse à cette question est **l'audiogramme**, un protocole classique et e
 ```{figure} Audiogramme.png
 ---
 name: Audiogramme.png
-alt: Réalisation d'un audiogramme
-width: 400px
+alt: Photo d’une cabine d’audiométrie. Une ORL assise à une table contrôle un appareil audiométrique. Derrière la fenêtre de la cabine insonorisée, une autre femme plus âgée porte un casque audio et tient un buzzer manuel, portant attention aux sons qu'elle cherche à détecter.
+width: 70%
 align: center
 ---
 *Réalisation d'un examen audiométrique par une ORL.*
@@ -45,8 +45,8 @@ La figure suivante représente les résultats obtenus en moyenne lors de cette p
 ```{figure} Audiogramme2.png
 ---
 name: Audiogramme2.png
-alt: Résultats moyens
-width: 400px
+alt: Graphique montrant le seuil de détection des sons (en nombre de tons perçus, ou en dB) en fonction de la fréquence (Hz). L’axe horizontal indique la fréquence des tons purs de 125 Hz à 8000 Hz. L’axe vertical de gauche montre le nombre de tons perçus (de 1 à 11), et celui de droite le niveau du signal en dB (de 0 à -50). Deux courbes (une pleine, une pointillée) représentent les résultats, avec barres d’erreur. Le seuil est plus bas (= meilleur) autour de 1000 à 4000 Hz et plus élevé (= moins bon) aux extrêmes (125 Hz et 8000 Hz), formant une courbe en U.
+width: 70%
 align: center
 ---
 *Résultats moyens obtenus sur la démo précédente. Pour chacune des sept fréquences testées, le seuil est représenté en termes de nombre de bips successifs perçus dans la série de 11 : un nombre plus élevé (plus bas sur l'axe) indique un meilleur seuil d'audibilité tonale. (Adapté de Houtsma, Rossing & Wagemakers, 1987)*
@@ -57,8 +57,8 @@ Voici un tracé stylisé des courbes d'audiogramme typiques de 3 tranches d'âge
 ```{figure} Audiogramme3.png
 ---
 name: Audiogramme3.png
-alt: Audiogrammes typiques
-width: 400px
+alt: Graphique représentant, de façon schématique, les seuils auditifs en dB en fonction de la fréquence d’un son test (de 0,02 à 20 kHz) pour trois tranches d’âge : 20, 40 et 60 ans. L’axe vertical indique le niveau du son test (de -20 à 80 dB) et l’axe horizontal sa fréquence (échelle logarithmique). Les courbes montrent que le seuil auditif augmente avec l’âge, surtout pour les hautes fréquences : la courbe la plus basse correspond à 20 ans, la plus haute à 60 ans. Comme dans la figure précédente, les courbes ont une forme en U.
+width: 80%
 align: center
 ---
 *Exemple d'audiogrammes typiques pour 3 tranches d'âge. (Zwicker & Fastl, 1999)*
@@ -71,8 +71,8 @@ L'intérêt évident de la méthode des limites est qu'elle permet de mesurer un
 ```{figure} MethodeLimite.png
 ---
 name: MethodeLimite.png
-alt: Méthode des limites
-width: 400px
+alt: Schéma illustrant le déroulement de la méthode des limites. L’axe horizontal représente les essais, et l’axe vertical l’intensité du stimulus. Les réponses du participant sont marquées par des lettres : « A » pour un stimulus détecté (descente du niveau), « B » pour un stimulus non détecté (montée du niveau). Le seuil de détection est représenté par une ligne pointillée bleue horizontale. Les essais au dessus de cette ligne donnent lieu à une détection correcte du stimulus, ceux en dessous ne sont pas détectés. L'expérience est composée de plusieurs escaliers montants et descendants, qui s'arrêtent dès qu'ils croisent la ligne pointillée.
+width: 70%
 align: center
 ---
 *Enchaînement de méthodes de limites ascendantes et descendantes alternées autour d'un même seuil de détection. Dans cet exemple, la taille du pas est réduite après chaque série descendante puis ascendante.*
@@ -97,8 +97,8 @@ Néanmoins, la méthode des limites présente un désavantage majeur : le caract
 ```{figure} MethodeLimite2.png
 ---
 name: MethodeLimite2.png
-alt: Fonction psychométrique abrupte
-width: 500px
+alt: Graphique montrant une courbe en S abrupte (presque une fonction créneau) représentant la probabilité de détection d'un stimulus en fonction de son volume sonore. L’axe horizontal indique le volume sonore, et l’axe vertical la probabilité de détection (de 0 à 1). Une ligne verticale pointillée bleue marque le seuil de détection, situé à l’endroit où la courbe s’élève brutalement, passant de 0 à 1.
+width: 80%
 align: center
 ---
 *Fonction psychométrique dans un cas de forte sensibilité.*
@@ -107,8 +107,8 @@ align: center
 ```{figure} MethodeLimiteMontante.png
 ---
 name: MethodeLimiteMontante.png
-alt: Fonction psychométrique, méthode des limites ascendante
-width: 500px
+alt: Même figure que la précédente, avec des points correspondants aux différents essais. Les points partent de la gauche du graphique (volume sonore très faible, probabilité de détection de 0). Ils sont rouges, indiquant que le son n'est pas détecté. Les points rouges progressent jusqu'au seuil de détection. Le premier point de l'autre côté du seuil de détection est vert, avec une probabilité de détection proche de 1 (puisque la courbe est abrupte. L'expérience s'arrête à ce premier son détecté.
+width: 80%
 align: center
 ---
 *Fonction psychométrique dans un cas de forte sensibilité, parcourue selon la méthode des limites ascendante.*
@@ -117,8 +117,8 @@ align: center
 ```{figure} MethodeLimiteDescendante.png
 ---
 name: MethodeLimiteDescendante.png
-alt: Fonction psychométrique, méthode des limites descendante
-width: 500px
+alt: Même figure que la précédente, mais cette fois les points partent de la droite du graphique (volume sonore élevé, probabilité de détection de 1). Ils sont, et descendent jusqu'au premier point rouge de l'autre côté du seuil de détection.
+width: 80%
 align: center
 ---
 *Fonction psychométrique dans un cas de forte sensibilité, parcourue selon la méthode des limites descendante.*
@@ -130,8 +130,8 @@ Imaginons à présent que la sensibilité soit plus faible, c'est à dire que la
 ```{figure} MethodeLimiteMontante2.png
 ---
 name: MethodeLimiteMontante2.png
-alt: Fonction psychométrique de faible pente, méthode des limites ascendante
-width: 500px
+alt: Même figure que les précédentes. Cette fois la courbe en S a une pente douce. Les point rouges remontent depuis la gauche, mais s'arrêtent assez vite à une probabilité de détection relativement faible (point vert).
+width: 80%
 align: center
 ---
 *Fonction psychométrique dans un cas de faible sensibilité, parcourue selon la méthode des limites ascendante.*
@@ -150,8 +150,9 @@ La partie A de la figure suivante illustre le déroulement d'une mesure de seuil
 ```{figure} staircase.jpg
 ---
 name: staircase.jpg
-alt: Déroulement d'une expérience avec la méthode staircase
-width: 500px
+alt: Figure composée de deux graphiques comparant deux procédures d’escalier psychophysique. Graphique A : « Simple up–down staircase » — l’axe vertical indique le niveau du stimulus en dB, et l’axe horizontal le numéro d’essai. Les réponses positives (carrés noirs) entraînent une diminution du niveau, les réponses négatives (cercles blancs) une augmentation. La trajectoire oscille rapidement autour du seuil.
+Graphique B : « Transformed up–down staircase » — même axes, mais avec une procédure 3-down-1-up. Le niveau du stimulus diminue après trois réponses positives consécutives. La courbe montre des paliers plus longs et une descente plus contrôlée vers le seuil.
+width: 80%
 align: center
 ---
 *Exemples d'évolution de la dimension d'intérêt (ici le niveau sonore, "stimulus level") dans le cas d'un escalier psychophysique. Les carrés noirs correspondent aux réponses "j'ai entendu le son", les ronds blancs aux réponses "je n'ai pas entendu le son". L'escalier A correspond à une règle 1-up-1-down, le B à une règle 1-up-3-down. Notez que dans ces deux exemples, la taille de pas change au cours de l'escalier. (Leek, 2001)*
@@ -197,8 +198,8 @@ En résumé, l'escalier psychophysique permet de parcourir la fonction psychomé
 ```{figure} psychostaircase1.png
 ---
 name: psychostaircase1.png
-alt: Fonction psychométrique et méthode de l'escalier psychophysique
-width: 500px
+alt: Graphique montrant une courbe sigmoïde à pente douce (fonction psychométrique) représentant la probabilité de détection en fonction du volume sonore du stimulus. Sur cette courbe noire, plusieurs points verts sont placés en partant de la droite (niveau sonore élevé, probabilité de détection proche de 1), et des points rouges plus bas (réponses négatives). Une flèche bleue dessinée à la main illustre une trajectoire possible d’un algorithme adaptatif, se déplaçant depuis la droite en descendant la pente, pour ensuite osciller autour d'une certaine valeur.
+width: 80%
 align: center
 ---
 *Fonction psychométrique parcourue selon la méthode de l'escalier psychophysique. La règle appliquée dans cet exemple est un two-down-one-up.*
@@ -207,8 +208,8 @@ align: center
 ```{figure} psychostaircase2.png
 ---
 name: psychostaircase1.png
-alt: Fonction psychométrique et méthode de l'escalier psychophysique
-width: 500px
+alt: Même figure que précédemment. On voit que la valeur autour de de laquelle la trajectoire oscille correspond en fait à une probabilité de détection de 70.7% sur l'axe des y. Une flèghe portée sur l'axe des x indique que cette position correspond au seuil à 70.7% sur l'échelle des volumes sonores.
+width: 80%
 align: center
 ---
 *Lecture du seuil une fois la convergence de l'escalier atteinte. La règle du two-down-one-up est à l'équilibre lorsque la probabilité de réponse correcte est de 70.7%. Le seuil à 70.7% correspond alors à la valeur de la dimension d'intérêt au niveau de la convergence.*
@@ -227,21 +228,20 @@ Une façon extrêmement simple et intuitive de comparer deux groupes dans les m�
 ```{figure} psychoperf1.png
 ---
 name: psychoperf1.png
-alt: Fonction psychométrique et mesure de performance
-width: 500px
+alt: Toujours le même graphique représentant la courbe psychométrique en forme de S.  Une flèche verticale bleue pointe vers la courbe depuis l’axe des abscisses, indiquant un niveau sonore donné. Une ligne horizontale pointillée noire montre que ce volume sonore correspond à une performance de détection de 36 %, marquée par un point noir sur la courbe.
+width: 80%
 align: center
 ---
 *Lien entre la mesure de performance et la fonction psychométrique. On présente ici des stimuli à un niveau arbitraire représenté par la flèche bleue. La méthode nous permet de mesurer la valeur correspondante de la fonction psychométrique, c'est à dire le pourcentage de réponses correctes pour ce niveau particulier.*
 ```
-
 
 De la même manière, il est possible au moyen de la mesure de performance de comparer deux conditions, toutes choses égales par ailleurs (par exemple la détection d'un ton pur à 5 dB SPL ou du même ton pur en présence de bruit). Dans l'exemple suivant, les deux conditions correspondent à deux fonctions psychométriques de couleurs différentes :
 
 ```{figure} psychoperf2.png
 ---
 name: psychoperf2.png
-alt: Fonction psychométrique et comparaison de performances
-width: 500px
+alt: Même figure que la précédente, mais une seconde courbe est représentée en rouge. Le niveau identifié par la flèche verticale correspond à une performance de détection de 84 %, marquée par un point rouge sur la courbe.
+width: 80%
 align: center
 ---
 *Exemple de comparaison de performances entre deux conditions ou deux groupes (sybolisés par les fonctions psychométriques rouge et noire). Pour un niveau donné, les performances sont différentes ce qui indique que les fonctions psychométriques sous-jacentes le sont également.*
@@ -252,8 +252,8 @@ La figure suivante illustre les résultats d'une mesure de performance pour la r
 ```{figure} perf.png
 ---
 name: perf.png
-alt: Exemple de mesure de performances
-width: 500px
+alt: Graphique en barres comparant l'exactitude de la perception de la parole (%) selon quatre conditions d’écoute : No Noise (pas de bruit), SpN (bruit de parole), WN (bruit blanc), et Compressed speech (parole compressée). Trois groupes sont comparés : musiciens (barres noires), joueurs de cartes (barres grises), et témoins (barres blanches). Les musiciens ont des scores significativement plus élevés dans toutes les conditions, suivis des joueurs de cartes, puis des témoins. 
+width: 80%
 align: center
 ---
 *Exemple de mesures de performance en compréhension de parole réalisée chez différents groupes de sujets (symbolisés par les différentes couleurs) et dans différentes conditions expérimentales : dans le silence, dans le bruit, etc... (Fostick, 2019)*
@@ -264,8 +264,8 @@ Il faut néanmoins souligner un écueil potentiel de cette méthode. Si le nivea
 ```{figure} psychoperf3.png
 ---
 name: psychoperf3.png
-alt: Fonction psychométrique et comparaison de performances dans un cas d'effet plafond
-width: 500px
+alt: Même figure avec les courbes sigmoîdes noire et rouge que précédemment. Cette fois le niveau choisi est situé très à droite sur l'axe des x. De ce fait, les performances mesurées sur les deux courbes sont très proches : 99% pour la courbe noire, 99.5% pour la courbe rouge.
+width: 80%
 align: center
 ---
 *Exemple de comparaison de performances dans un cas d'effet plafond. Le niveau choisi étant trop simple, les deux groupes obtiennent une performance proche de 100% et il est alors impossible de les distinguer, bien que les fonctions psychométriques sous-jacentes soient en réalité différentes.*
@@ -280,8 +280,8 @@ La **méthode des stimuli constants** consiste simplement à réitérer la mesur
 ```{figure} StimConst1.png
 ---
 name: StimConst1.png
-alt: Fonction psychométrique et méthode des stimuli constants
-width: 500px
+alt: A nouveu le même type de graphique représentant une courbe psychométrique. Plusieurs flèches bleues pointent différentes positions sur l'axe des x, indiquant les différents niveaux de stimulus testés. Des lignes pointillées bleues remontent de chacun de ces niveaux jusqu'à la courbe, symbolisant la mesure de la performance à ce niveau. Une flèche rose à double sens indique la pente de la courbe, représentant la sensibilité. L’étiquette "Seuil à X%" est marquée en orange, indiquant qu'il est possible de déduire de la courbe n'importe quel seuil désiré.
+width: 80%
 align: center
 ---
 *Fonction psychométrique parcourue par la méthode des stimuli constants. Les différentes mesures de performances correspondant à 7 niveaux de la dimension d'intérêt permettent d'échantillonner la fonction psychométrique, puis de déterminer sa pente ou son seuil à X%*
@@ -298,8 +298,8 @@ La figure ci-dessous résume les résultats moyens obtenus dans l'expérience pr
 ```{figure} SDT7.png
 ---
 name: SDT7.png
-alt: Méthode des stimuli constants appliquée à la détection de ton pur
-width: 500px
+alt: Graphique représentant une courbe psychométrique. L'axe horizontal (X) indique le niveau du stimulus en dB (de 0 à 10), et l'axe vertical (Y) indique le pourcentage de réponses « oui » (de 0 % à 100 %). Des points noirs représentent les données expérimentales, tandis qu'une courbe sigmoïde lisse les relie approximativement. La courbe montre une augmentation progressive des réponses « oui » avec l’augmentation du niveau du stimulus, passant de 0% à 0 dB à 100% à 10 dB.
+width: 70%
 align: center
 ---
 *Exemple de fonction psychométrique estimée par la méthode des stimuli constants, dans le cas de la tâche de détection de ton pur dans le silence. (Leek, 2001)*
@@ -318,8 +318,8 @@ Comme nous l'avons vu, chaque méthode correspond à une façon particulière de
 ```{figure} AllMethods2.png
 ---
 name: AllMethods2.png
-alt: Résumé des différentes méthodes psychophysiques
-width: 900px
+alt: Figure regroupant les figures vues précédemment qui symbolisent l'exploration de la fonction psychométrique sigmoîde par les 4 méthodes.
+width: 100%
 align: center
 ---
 *Comparaison des différentes méthodes expérimentales du point de vue de l'exploration de la fonction psychométrique*
@@ -330,8 +330,12 @@ On peut également représenter le déroulement temporel des quatre méthodes ex
 ```{figure} AllMethods.png
 ---
 name: AllMethods.png
-alt: Résumé des différentes méthodes psychophysiques
-width: 900px
+alt: Image composée de quatre graphiques représentant différentes méthodes pour déterminer le seuil auditif en fonction du niveau du stimulus sonore (dB SPL) sur plusieurs essais (trials).
+En haut à gauche : Méthode des limites. Graphique avec un tracé en zigzag montrant la variation du niveau sonore au fil des essais. Points nommés A₁, D₁, A₂, D₂ indiquant les niveaux d’ascension et de descente. Calcul du seuil comme la moyenne des points critiques : (24 + 28 + 20 + 28) / 4 = 25 dB SPL.
+En haut à droite : Mesure de performance. Graphique montrant des essais avec présence (croix bleues) ou absence (traits rouges) de stimulus. Indication de 5/6 essais détectés et 0/3 essais sans stimulus détectés. Échelle du niveau du stimulus jusqu’à 18 dB SPL.
+En bas à gauche : Méthode de l'escalier 1-down-1-up. Graphique avec un tracé en zigzag montrant l’ajustement du niveau sonore selon les réponses du sujet. Indications sur le graphique : point de départ (trial), points de retournement (reversal), et direction (run). Seuil estimé basé sur le point où la performance atteint 50 % de réponses correctes.
+En bas à droite : Méthode des stimuli constants. Graphique montrant des réponses “yes” (croix bleues) et “no” (traits bleus) pour différents niveaux de stimuli au fil des essais. Indication d’une fausse alarme (false alarm) par une croix rouge. Colonnes à droite indiquant le nombre de “yes” sur le total d’essais pour chaque niveau de stimulus (ex : 4/4, 3/3, 1/6, etc.).
+width: 100%
 align: center
 ---
 *Comparaison des différentes méthodes expérimentales du point de vue du déroulement de l'experience. (Adapté de [https://en.wikipedia.org/wiki/Absolute_threshold_of_hearing](Wikipédia))*

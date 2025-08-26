@@ -16,7 +16,8 @@ chapters:
   - file: systeme_auditif/Introduction
   - file: systeme_auditif/Oreille_externe
   - file: systeme_auditif/Oreille_moyenne
-  - file: systeme_auditif/Oreille_interne
+  - file: systeme_auditif/Oreille_interne_1
+  - file: systeme_auditif/Oreille_interne_2
   - file: systeme_auditif/Central
   - file: systeme_auditif/Conclusion
 - file: general_information/Glossaire

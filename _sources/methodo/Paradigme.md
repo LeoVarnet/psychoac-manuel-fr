@@ -11,19 +11,15 @@ Nous nous limiterons ici au cas des réponses binaires, donc aux tâches de dét
 
 Considérons à nouveau l'expérience de mesure des seuils d'audibilité tonale qui constitue le fil rouge de ce chapitre. À chaque essai, un stimulus unique est joué (ton pur à la fréquence cible ou silence) et le sujet doit indiquer si il a ou non perçu un son.
 
-<br /> 
-
 ```{figure} ExpeYN.png
 ---
 name: ExpeYN.png
-alt: Schéma de l'expérience yes/no
-height: 400px
+alt: Schéma de l'expérience de psychoacoustique, similaire à celui de l'introduction. Un seul symbole d'enceinte est présent sur les encadrés blancs. Les encadrés noirs indiquent : "yes/no ?"
+width: 60%
 align: center
 ---
 *Rappel : structure de l'expérience de mesure des seuils d'audibilité tonale (méthode des limites, tâche de détection, paradigme yes/no)*
 ```
-
-<br /> 
 
 Cette expérience constitue un bon exemple de **paradigme yes/no** : il s'agit pour le sujet de classer l'essai de façon binaire selon les deux catégories correspondant à la tâche ("présent/absent" pour une détection, "catégorie A"/"catégorie B" pour une catégorisation, "identique/différent" pour une discrimination). Le yes/no repose sur un seul stimulus par essai, sauf dans le cas de la tâche de discrimination qui nécessite deux stimuli.
 
@@ -35,19 +31,15 @@ Un moyen d'obtenir une mesure **indépendante du critère** (*criterion-free*) 
 
 Voici une seconde expérience permettant elle aussi de mesurer les seuils d'audibilité tonale : à chaque essai, deux stimuli successifs sont présentés dans un ordre aléatoire, l’un étant un ton cible l’autre un silence. Le sujet entend donc deux **intervalles** successifs, soit ton puis silence, soit silence puis ton. Le début de chaque intervalle peut être indiqué par une lumière ou un léger signal sonore. Après ces deux stimuli, la consigne donnée au sujet est de sélectionner l’intervalle contenant le ton : deux boutons de réponse sont disponibles pour indiquer si le ton de trouvait en première position ou en deuxième position. Puis, comme précédemment, on réduit l'intensité du ton et on entame un nouvel essai.
 
-<br /> 
-
 ```{figure} ExpeFC.png
 ---
 name: ExpeFC.png
-alt: Schéma de l'expérience forced choice
-height: 400px
+alt: Même figure que précédemment, mais cette fois il y a deux symboles d'enceinte par encadré blanc et les encadrés noirs indiquent : "premier/deuxième ?"
+width: 60%
 align: center
 ---
 *Structure de l'expérience de mesure des seuils d'audibilité tonale en paradigme de choix forcé (méthode des limites, tâche de détection, paradigme 2AFC)**
 ```
-
-<br /> 
 
 La démo suivante permet d'écouter cette expérience. Chacun des deux intervalles est indiqué par un bip aigu, suivi soit du ton cible soit du silence. 
 
@@ -87,8 +79,8 @@ Fort heureusement, la théorie de la détection du signal permet ici de remettre
 ```{figure} SDT1.png
 ---
 name: SDT1.png
-alt: Schéma de la Théorie de la détection du signal
-height: 300px
+alt: Même figure que dans le chapitre Stimuli avec les gaussiennes rouges et bleues.
+width: 70%
 align: center
 ---
 *Rappel du schéma de de la Théorie de la détection du signal. Les courbes rouge et bleue représentent respectivement les probabilités de mesurer une valeur particulière d'énergie E pour le bruit seul ou pour le bruit+signal*
@@ -113,8 +105,8 @@ A titre d'exemple, considérons à nouveau le cas de la reconnaissance de paysag
 ```{figure} Soundscape_discrimination.png
 ---
 name: Soundscape_discrimination.png
-alt: Soundscape_discrimination
-width: 500px
+alt: Même diagramme illustrant une tâche de discrimination auditive portant sur des paysages sonores que dans le chapitre Tâche
+width: 70%
 align: center
 ---
 *Expérience de reconnaissance de paysages sonores naturels avec une tâche de discrimination et un paradigme yes/no.*
@@ -131,8 +123,8 @@ Voici une illustration des deux premiers essais de cette expérience, chacun com
 ```{figure} Soundscape_oddball.png
 ---
 name: Soundscape_oddball.png
-alt: Soundscape_oddball
-width: 500px
+alt: Diagramme représentant une expérience portant sur les paysages sonores. Chaque ligne correspond à un essai comportant trois fichiers audio. Le participant doit indiquer lequel des trois sons provient d’un lieu différent. Essai #1 : Savane_1.wav - Savane_2.wav - Prairie_1.wav. Réponse : « le lieu différent est le 3ᵉ ». Essai #2 : Maquis_1.wav - Savane_3.wav - Maquis_2.wav. Réponse : « le lieu différent est le 2ᵉ »
+width: 70%
 align: center
 ---
 *Expérience de reconnaissance de paysages sonores naturels avec une tâche de discrimination et un paradigme de choix forcé (c'est à dire, paradigme *oddball*).*

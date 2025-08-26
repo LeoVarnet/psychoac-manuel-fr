@@ -459,15 +459,13 @@ document.write(`
 <section id="le-paradigme-yes-no">
 <h2>Le paradigme yes/no<a class="headerlink" href="#le-paradigme-yes-no" title="Link to this heading">#</a></h2>
 <p>Considérons à nouveau l’expérience de mesure des seuils d’audibilité tonale qui constitue le fil rouge de ce chapitre. À chaque essai, un stimulus unique est joué (ton pur à la fréquence cible ou silence) et le sujet doit indiquer si il a ou non perçu un son.</p>
-<br /> 
 <figure class="align-center" id="expeyn-png">
-<a class="reference internal image-reference" href="../_images/ExpeYN.png"><img alt="Schéma de l'expérience yes/no" src="../_images/ExpeYN.png" style="height: 400px;" />
+<a class="reference internal image-reference" href="../_images/ExpeYN.png"><img alt="Schéma de l'expérience de psychoacoustique, similaire à celui de l'introduction. Un seul symbole d'enceinte est présent sur les encadrés blancs. Les encadrés noirs indiquent : &quot;yes/no ?&quot;" src="../_images/ExpeYN.png" style="width: 60%;" />
 </a>
 <figcaption>
 <p><span class="caption-number">Fig. 41 </span><span class="caption-text"><em>Rappel : structure de l’expérience de mesure des seuils d’audibilité tonale (méthode des limites, tâche de détection, paradigme yes/no)</em></span><a class="headerlink" href="#expeyn-png" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
-<br /> 
 <p>Cette expérience constitue un bon exemple de <strong>paradigme yes/no</strong> : il s’agit pour le sujet de classer l’essai de façon binaire selon les deux catégories correspondant à la tâche (“présent/absent” pour une détection, “catégorie A”/”catégorie B” pour une catégorisation, “identique/différent” pour une discrimination). Le yes/no repose sur un seul stimulus par essai, sauf dans le cas de la tâche de discrimination qui nécessite deux stimuli.</p>
 <p>Un problème se pose néanmoins : la mesure obtenue par paradigme yes/no est <strong>dépendante du critère</strong> (<em>criterion-dependent</em>), c’est-à-dire que le résultat peut être influencé par les biais de réponse de l’individu. Ainsi, une personne peu sûre d’elle (qui répond très facilement « non » lorsqu’elle n’est pas absolument certaine d’avoir perçu le ton) obtiendra des seuils d’audibilité globalement plus faible que la moyenne, indépendamment de ses capacités perceptives. Ceci signifie que notre mesure psychophysique est polluée par des caractéristiques psychologiques “haut-niveau” du sujet, telles que la confiance en soi, qui ne devraient pas entrer en compte pour un test perceptif. De même, dans une tâche de catégorisation entre les sons “bateau” et “bapeau”, la première réponse pourrait être sélectionnée plus fréquemment simplement du fait qu’il s’agit d’un mot courant.</p>
 <p>Un moyen d’obtenir une mesure <strong>indépendante du critère</strong> (<em>criterion-free</em>) est d’opter pour un paradigme du choix forcé.</p>
@@ -475,15 +473,13 @@ document.write(`
 <section id="le-paradigme-du-choix-force">
 <h2>Le paradigme du choix forcé<a class="headerlink" href="#le-paradigme-du-choix-force" title="Link to this heading">#</a></h2>
 <p>Voici une seconde expérience permettant elle aussi de mesurer les seuils d’audibilité tonale : à chaque essai, deux stimuli successifs sont présentés dans un ordre aléatoire, l’un étant un ton cible l’autre un silence. Le sujet entend donc deux <strong>intervalles</strong> successifs, soit ton puis silence, soit silence puis ton. Le début de chaque intervalle peut être indiqué par une lumière ou un léger signal sonore. Après ces deux stimuli, la consigne donnée au sujet est de sélectionner l’intervalle contenant le ton : deux boutons de réponse sont disponibles pour indiquer si le ton de trouvait en première position ou en deuxième position. Puis, comme précédemment, on réduit l’intensité du ton et on entame un nouvel essai.</p>
-<br /> 
 <figure class="align-center" id="expefc-png">
-<a class="reference internal image-reference" href="../_images/ExpeFC.png"><img alt="Schéma de l'expérience forced choice" src="../_images/ExpeFC.png" style="height: 400px;" />
+<a class="reference internal image-reference" href="../_images/ExpeFC.png"><img alt="Même figure que précédemment, mais cette fois il y a deux symboles d'enceinte par encadré blanc et les encadrés noirs indiquent : &quot;premier/deuxième ?&quot;" src="../_images/ExpeFC.png" style="width: 60%;" />
 </a>
 <figcaption>
 <p><span class="caption-number">Fig. 42 </span><span class="caption-text"><em>Structure de l’expérience de mesure des seuils d’audibilité tonale en paradigme de choix forcé (méthode des limites, tâche de détection, paradigme 2AFC)</em>*</span><a class="headerlink" href="#expefc-png" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
-<br /> 
 <p>La démo suivante permet d’écouter cette expérience. Chacun des deux intervalles est indiqué par un bip aigu, suivi soit du ton cible soit du silence.</p>
 <audio controls>
   <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/methodo/demo_2AFC.mp3" type="audio/wav">
@@ -508,7 +504,7 @@ document.write(`
 <p>Dans le paragraphe précédent, nous avons souligné que l’utilisation d’un paradigme ou d’un autre affecte la difficulté de l’expérience, toutes choses égales par ailleurs. Ceci peut être un atout, par exemple pour rendre plus accessible une tâche difficile. Mais cette différence de difficulté est également une contrainte car elle complique la comparaison de résultats obtenus au moyen de paradigmes différents.</p>
 <p>Fort heureusement, la théorie de la détection du signal permet ici de remettre tous les paradigmes sur une base commune. En effet, elle fournit une nouvelle mesure de performance appelée <em>d’</em>, qui, contrairement au pourcentage de réponses correctes, est indépendante du paradigme. Ce d’ correspond en réalité à l’écart entre les deux gaussiennes que nous avions définies au chapitre [https://leovarnet.github.io/psychoac-manuel-fr/methodo/Stimuli.html](Stimuli et dimensions).</p>
 <figure class="align-center" id="sdt1-png">
-<a class="reference internal image-reference" href="../_images/SDT1.png"><img alt="Schéma de la Théorie de la détection du signal" src="../_images/SDT1.png" style="height: 300px;" />
+<a class="reference internal image-reference" href="../_images/SDT1.png"><img alt="Même figure que dans le chapitre Stimuli avec les gaussiennes rouges et bleues." src="../_images/SDT1.png" style="width: 70%;" />
 </a>
 <figcaption>
 <p><span class="caption-number">Fig. 43 </span><span class="caption-text"><em>Rappel du schéma de de la Théorie de la détection du signal. Les courbes rouge et bleue représentent respectivement les probabilités de mesurer une valeur particulière d’énergie E pour le bruit seul ou pour le bruit+signal</em></span><a class="headerlink" href="#sdt1-png" title="Link to this image">#</a></p>
@@ -526,7 +522,7 @@ document.write(`
   <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/methodo/Soundscape_2AFC.mp3" type="audio/wav">
 </audio>
 <figure class="align-center" id="soundscape-discrimination-png">
-<a class="reference internal image-reference" href="../_images/Soundscape_discrimination.png"><img alt="Soundscape_discrimination" src="../_images/Soundscape_discrimination.png" style="width: 500px;" />
+<a class="reference internal image-reference" href="../_images/Soundscape_discrimination.png"><img alt="Même diagramme illustrant une tâche de discrimination auditive portant sur des paysages sonores que dans le chapitre Tâche" src="../_images/Soundscape_discrimination.png" style="width: 70%;" />
 </a>
 <figcaption>
 <p><span class="caption-number">Fig. 44 </span><span class="caption-text"><em>Expérience de reconnaissance de paysages sonores naturels avec une tâche de discrimination et un paradigme yes/no.</em></span><a class="headerlink" href="#soundscape-discrimination-png" title="Link to this image">#</a></p>
@@ -538,7 +534,7 @@ document.write(`
   <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/methodo/Soundscape_oddball.mp3" type="audio/wav">
 </audio>
 <figure class="align-center" id="soundscape-oddball-png">
-<a class="reference internal image-reference" href="../_images/Soundscape_oddball.png"><img alt="Soundscape_oddball" src="../_images/Soundscape_oddball.png" style="width: 500px;" />
+<a class="reference internal image-reference" href="../_images/Soundscape_oddball.png"><img alt="Diagramme représentant une expérience portant sur les paysages sonores. Chaque ligne correspond à un essai comportant trois fichiers audio. Le participant doit indiquer lequel des trois sons provient d’un lieu différent. Essai" src="../_images/Soundscape_oddball.png" style="width: 70%;" />
 </a>
 <figcaption>
 <p><span class="caption-number">Fig. 45 </span><span class="caption-text"><em>Expérience de reconnaissance de paysages sonores naturels avec une tâche de discrimination et un paradigme de choix forcé (c’est à dire, paradigme <em>oddball</em>).</em></span><a class="headerlink" href="#soundscape-oddball-png" title="Link to this image">#</a></p>

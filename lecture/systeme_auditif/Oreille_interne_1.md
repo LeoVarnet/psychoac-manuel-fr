@@ -7,8 +7,8 @@ Page en cours de construction
 L'**oreille interne** constitue le cœur du système auditif périphérique. Tandis que l'oreille externe et moyenne peut se réduire, en première approximation, à un simple filtre linéaire, l'oreille interne réalise plusieurs transformations essentielles des vibrations qui lui parviennent par la fenêtre ovale. Sa fonction est d'**analyser les sons en fréquence**, mais également d'**amplifier les sons faibles et de compresser les sons forts**. Enfin, elle réalise une **transduction, en convertissant les vibrations mécaniques en signaux électriques**.
 
 L'oreille interne se décompose en trois parties : 
-- la **cochlée**, petit bijou de l'évolution qui, comme nous le verrons dans ce chapitre, est lui-même constitué de plusieurs éléments en interaction
-- le **nerf auditif**, qui assure la jonction entre la cochlée et le système auditif central
+- la **cochlée**, petit bijou de l'évolution qui, comme nous le verrons dans ce chapitre, est lui-même constitué de nombreux éléments en interaction.
+- le **nerf auditif**, qui assure la jonction entre la cochlée et le système auditif central.
 - le **système vestibulaire**. Ce dernier ne sera pas traité ici puisqu'il ne contribue pas à l'audition mais à l'équilibre. 
 
 ```{figure} SysAudExt_IE.JPG
@@ -21,9 +21,11 @@ align: center
 *Schéma du système auditif périphérique mettant en évidence l'oreille interne. (Source : [Ivy Livingstone, Biodidac](https://omeka.uottawa.ca/biodidac/items/show/4603))*
 ```
 
+Etant donnée la complexité de l'oreille interne, j'ai choisi de subdiviser sa description en deux chapitres. Cette première partie porte sur la membrane basilaire et son rôle dans la décomposition des sons en fréquences. Dans le chapitre suivant, nous explorerons le fonctionnement des cellules ciliées et du nerf auditif.
+
 ## La cochlée, la membrane basilaire, et le codage tonotopique
 
-La **cochlée** est l'organe qui réalise notamment la décomposition du son en fréquence, c'est-à-dire son analyse spectrale.
+La cochlée est l'organe qui réalise notamment la décomposition du son en fréquence, c'est-à-dire son analyse spectrale.
 
 La cochlée possède une forme de coquille d'escargot -- d'où son ancien nom français de "limaçon", et sa racine latine *cochlea*. À l'intérieur, le conduit en spirale est divisé en deux sur presque toute sa longueur par une structure relativement rigide, la **lame spirale**, pour former deux canaux qui se rejoignent seulement au sommet (**apex**) et sont emplis d'un liquide appelé **périlymphe** [[1](note1OI)]. Par ailleurs, la cochlée possède à sa **base** deux ouvertures couvertes d'une membrane : une entrée (la fenêtre ovale, attachée à l'étrier et donc reliée à  l'oreille moyenne) et une sortie (la fenêtre ronde). L'onde communiquée par les mouvements de l'étrier au liquide contenu dans la cochlée peut donc suivre un trajet en double hélice, en remontant depuis la base de la cochlée jusqu'à son apex puis en redescendant pour ressortir par la fenêtre ronde. Ce cheminement du son est illustré sur la figure ci-dessous. 
 Les canaux montant et descendant sont, rappelons-le, séparés par la lame spirale. Celle-ci possède une structure assez complexe à laquelle nous nous intéresserons plus loin. Dans l'immédiat, retenez que l'élément semi-rigide qui sépare le conduit montant du conduit descendant se nomme la **membrane basilaire**.

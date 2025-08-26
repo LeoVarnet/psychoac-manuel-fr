@@ -61,7 +61,6 @@ align: center
 *Portrait de Gustav Fechner (1801–1887), fondateur de la psychophysique. (Source: [Smithsonian Institution](https://www.flickr.com/photos/smithsonian/2550780211/))*
 ```
 
-
 Il s'agit donc d'étudier comment la perception change lorsque l'on fait varier les propriétés physiques du stimulus perçu. Autrement dit, la psychophysique jette un pont entre le monde physique d'une part et la sphère des représentations mentales d'autre part. Il est utile de s'arrêter sur cette distinction dans le cas de la psychoacoustique pour préciser le vocabulaire qui sera utilisé dans la suite de ce cours.
 
 L'acoustique est la science des sons, objets physiques qui sont caractérisés par certaines de leurs propriétés mesurables comme l'**intensité** ou la **fréquence**. La psychoacoustique, en revanche, étudie la perception des sons. Elle cherche donc à relier l'objet physique à la représentation mentale que l'auditeur·ice s'en fait. Cette représentation, ou **percept** appartient au niveau cognitif. A chaque caractéristique physique du son correspond potentiellemnt une représentation de cette caractéristique dans l'esprit du sujet. On distingue ainsi l'**intensité**, caractéristique physique, de l'intensité perçue, aussi appelée **sonie** ; de même il faut différentier la **fréquence** de la "fréquence perçue", ou **hauteur tonale** (nous y reviendrons au cours 3). Le langage courant ne fait le plus souvent pas la distinction entre les propriétés d'un objet et les propriétés de notre perception de cet objet -- on parle ainsi de la couleur d'une fleur alors que la couleur n'est que le corrélat perceptuel des longueurs d'onde diffusées par cette fleur. Néanmoins, cette distinction conceptuelle est fondamentale si l'on souhaite mener une étude approfondie de la perception.
@@ -81,8 +80,8 @@ Comme indiqué plus haut, la psychophysique s'intéresse aux relations quantitat
 ```{figure} function.png
 ---
 name: function.png
-alt: Fonction psychophysique quelconque
-width: 300px
+alt: Graphique présentant une fonction arbitraire mettant en relation le niveau physique sur l’axe horizontal et le niveau cognitif sur l’axe vertical. Plusieurs points de données sont dispersés, avec une courbe lisse passant approximativement par ces points, illustrant une relation non linéaire entre les deux niveaux.
+width: 50%
 align: center
 ---
 *Exemple d'une fonction psychophysique quelconque.*
@@ -99,8 +98,8 @@ La structure d'une expérience est le plus souvent décrite de la façon suivant
 ```{figure} expérience.png
 ---
 name: expérience.png
-alt: Schéma de l'expérience psychophysique
-width: 400px
+alt: Schéma vertical représentant une expérience psychoacoustique. Une fleche indique le déroulement de l'expérience. Le long de cette ligne se succèdent des encadrés blancs et des encadrés noirs. Les encadrés blancs marquent le début d'un nouvel essai (numéroté 1, 2, 3, 4...), et contiennent une icône d'enceintes suivie de trois petits points, symbolisant la diffusion d'un ou plusieurs sons. Les encadrés noirs contiennent un point d'interrogation, et représentent la tâche que le participant ou la participante doit réaliser. 
+width: 60%
 align: center
 ---
 *Schéma de la structure d'une expérience psychoacoustique.*

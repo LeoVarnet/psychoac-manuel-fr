@@ -11,19 +11,15 @@ Jusqu'à ce point du manuel nous n'avons considéré qu'un seul type de tâche, 
 
 L'expérience prend alors la forme suivante, dans le cas de l'audiogramme :
 
-<br /> 
-
 ```{figure} ExpeDetect.png
 ---
 name: ExpeDetect.png
-alt: Schéma de l'expérience psychophysique, tâche de détection
-width: 400px
+alt: Schéma de l'expérience de psychoacoustique, similaire à celui de l'introduction. Un seul symbole d'enceinte est présent sur les encadrés blancs. Les encadrés noirs indiquent : "présent/absent ?"
+width: 60%
 align: center
 ---
 *Schéma de la structure d'une expérience psychoacoustique dans le cas d'une tâche de détection (avec un paradigme yes/no).*
 ```
-
-<br /> 
 
 Combinée à une mesure de seuil, la tâche de détection permet d'estimer des **seuils de détection**, aussi appelés **seuils absolus**. Le seuil de détection correspond donc, pour un stimulus donné, au niveau minimal auquel il est perceptible -- ou auquel il est perceptible avec une précision de X%.
 
@@ -33,37 +29,29 @@ La tâche de **discrimination**, aussi appelée ***same/different***, necessite 
 
 Voici un exemple de déroulement d'une expérience de discrimination :
 
-<br /> 
-
 ```{figure} ExpeDiscrim.png
 ---
 name: ExpeDiscrim.png
-alt: Schéma de l'expérience psychophysique, tâche de discrimination
-width: 400px
+alt: Même figure que précédemment, mais cette fois il y a deux symboles d'enceinte par encadré blanc et les encadrés noirs indiquent : "identiques/différents ?"
+width: 60%
 align: center
 ---
 *Schéma de la structure d'une expérience psychoacoustique dans le cas d'une tâche de discrimination, avec un paradigme yes/no.*
 ```
 
-<br /> 
-
 Dans le cas d'une mesure de seuil, on obtient ainsi le **seuil de discrimination** aussi appelé **seuil différentiel**, ***differential limens*** (DL) ou ***just noticeable difference*** (JND). Il s'agit de la plus petite variation perceptible d’un stimulus donné.
 
 Au chapitre précédent, nous avons évoqué le seuil d'audibilité tonale, cas particulier de seuils de détection de tons purs. Comme nous l'avons vu, on peut le mesurer en présentant des tons purs d'intensité décroissante jusqu'à ce que le participant ou la participante ne parvienne plus à les détecter (méthode des limites + tâche de détection). La répétion de cette mesure de seuils pour des tons à différentes fréquences permet de tracer l'audiogramme et ainsi de démontrer que, au niveau liminaire, l’intensité perçue dépend de la fréquence. Par exemple, comme on peut le lire sur la figure suivante, un ton pur à 20 dB SPL sera audible ou non selon que sa fréquence est 50 Hz ou 500 Hz.
 
-<br /> 
-
 ```{figure} Audiogramme4.png
 ---
 name: Audiogramme4.png
-alt: Audiogramme
-width: 400px
+alt: Même figure de l'audiogramme stylisé que dans le chapitre Méthode.
+width: 80%
 align: center
 ---
 *Rappel : audiogrammes typiques de trois tranches d'âge. (Zwicker & Fastl, 1999)*
 ```
-
-<br /> 
 
 En revanche, cette expérience ne permet pas de déterminer si le même phénomène se produit à des niveaux supraliminaires, c'est-à-dire au-dessus du seuil de perception : la perception de l'intensité à des niveaux élevés dépend-elle de la fréquence ? Pour le savoir, il est nécessaire de réaliser une seconde expérience, très similaire à la première mais basée sur une tâche de discrimination. Le protocole expérimental est identique, à une différence près : deux sons sont présentés à chaque essais et la tâche consiste à indiquer s'ils étaient de même intensité ou non. Le premier son est un stimulus de référence, identique pour tous les essais, ici un ton pur à 1 kHz et à une intensité fixe (p.ex. 60 dB SPL). Le second son est le véritable stimulus de test, un ton pur à la fréquence testée (p.ex. 500 Hz), et d'intensité variable. Après avoir écouté les deux sons, le participant ou la participante doit indiquer s'ils étaient à la même intensité ou non. On suit la méthode des limites pour déterminer le seuil de discrimination, le niveau du ton testé pour lequel il est jugé à la même intensité que le son de référence. 
 
@@ -75,19 +63,15 @@ Voici une démo de la mesure de seuil de discrimination décrite ci-dessus. Pour
 
 Ce deuxième protocole expérimental, lorsqu'il est répété pour un certain nombre de fréquences test, permet de tracer la **courbe isosonique** pour l'intensité de référence. En répliquant la procédure pour différentes intensités de référence, on obtient ainsi un faisceau de courbes isosoniques qui offrent un aperçu de la perception de l'intensité selon les fréquences à différents niveaux sonores. Nous reviendrons sur l'interprétation de ces courbes au chapitre 3.
 
-<br /> 
-
 ```{figure} Isosonique.png
 ---
 name: Isosonique.png
-alt: Courbes isosoniques
-width: 500px
+alt: L’axe horizontal est logarithmique et représente les fréquences sonores allant de 20 Hz à 20 000 Hz. L’axe vertical indique le niveau de pression sonore en dB SPL, de 0 à 140. Des courbes bleues sont tracées en niveaux croissants de 0 à 130 phon, de 10 en 10. Chaque courbe relie les intensités nécessaires à chaque fréquence pour être perçues comme également fortes par l’oreille humaine. Les courbes sont globalement parallèles. La courbe la plus basse (en vert) correspond à l'audiogramme. Les courbes montrent que l’oreille humaine est plus sensible entre 1 000 et 5 000 Hz (les sons les plus facilement audibles nécessitent un niveau SPL plus bas dans cette plage), tandis que les sons très graves (à gauche du graphique) et très aigus (à droite) doivent être plus forts pour être perçus avec la même intensité.
+width: 70%
 align: center
 ---
 *Courbes isosoniques typiques. Chaque courbe bleue est mesurée relativement à un ton de référence à 1 kHz et dont l'intensité est indiquée en orange. La courbe la plus basse (en vert) correspond aux seuils auditifs mesurés précédemment par l'audiogramme. Chaque courbe indique donc un ensemble de tons purs perçus comme ayant la même intensité. (Adapté de [Courbe isosonique selon la norme ISO 226:2003](https://fr.wikipedia.org/wiki/Courbe_isosonique))*
 ```
-
-<br /> 
 
 ## Choix de la tâche psychophysique
 
@@ -122,8 +106,8 @@ Prenons l'exemple d'une étude de la perception des paysages sonores naturels. N
 ```{figure} Soundscape_categorisation.png
 ---
 name: Soundscape_categorisation.png
-alt: Soundscape_categorisation
-width: 500px
+alt: Schéma représentant l'expérience d’identification de paysages sonores. Essai numéro 1 : le fichier audio intitulé "Savane_1.wav" est diffusé, et interprété par l’auditeur comme « savane de chênes ». Essai numéro 2 : le fichier "Maquis_1.wav" est identifié comme « maquis ». Essai numéro 3 : le fichier "Prairie_1.wav" est perçu comme « prairie bordée de séquoias ». Une série de points de suspension verticaux en bas du schéma indique que d’autres essais suivent selon le même format.
+width: 70%
 align: center
 ---
 *Expérience de reconnaissance de paysages sonores naturels avec une tâche de catégorisation.*
@@ -132,8 +116,8 @@ align: center
 ```{figure} Soundscapes.png
 ---
 name: Soundscapes.png
-alt: Soundscapes
-width: 600px
+alt: Montage de quatre photographies de paysages naturels, chacun identifié par un nom et un code : En haut à gauche – Crescent Meadow (CM) : une vaste prairie sèche de couleur dorée, bordée d'une dense forêt de séquoias géants à l’arrière-plan, sous un ciel bleu clair. En haut à droite – Shepherd Saddle (SH) : une colline semi-aride parsemée d’arbustes et de buissons. Trois personnes marchent sur un chemin en pente. La végétation est clairsemée, de teintes brunes et rougeâtres. En bas à gauche – Buckeye Flats (BF) : une zone boisée dense avec un ruisseau coulant entre des rochers, sous un couvert d’arbres feuillus. L’éclairage est tamisé par la végétation. En bas à droite – Sycamore Spring (SY) : un paysage vallonné parsemé d’arbres à feuilles caduques, avec un sol vert recouvert de mousse et de rochers. Le décor est ouvert et bien éclairé.
+width: 60%
 align: center
 ---
 *Illustration des quatre environnements correspondant aux stimuli de l'expérience. (Apoux et al., 2023)*
@@ -150,8 +134,8 @@ Il est possible de contourner ce problème en utilisant une tâche de discrimina
 ```{figure} Soundscape_discrimination.png
 ---
 name: Soundscape_discrimination.png
-alt: Soundscape_discrimination
-width: 500px
+alt: Diagramme illustrant une tâche de discrimination auditive portant sur des paysages sonores. Chaque ligne correspond à un essai, avec deux fichiers audio et une réponse. Essai #1 : Deux fichiers verts, Savane_1.wav et Savane_2.wav, sont diffusés successivement. Réponse : « même lieu ». Essai #2 : Le fichier bleu Maquis_1.wav est joué, puis le fichier vert Savane_3.wav. Réponse : « différents lieux ». Essai #3 : Le fichier jaune Prairie_1.wav puis le fichier bleu Maquis_2.wav. Réponse : « différents lieux ».
+width: 70%
 align: center
 ---
 *Expérience de reconnaissance de paysages sonores naturels avec une tâche de discrimination.*

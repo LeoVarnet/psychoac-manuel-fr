@@ -28,8 +28,8 @@ Pour simplifier le problème, nous supposons que le signal à détecter a une é
 ```{figure} SDT1.png
 ---
 name: SDT1.png
-alt: Schéma de la Théorie de la détection du signal
-height: 300px
+alt: Graphique montrant deux distributions de probabilité superposées en forme de gaussiennes, en fonction de l'énergie (E) sur l'axe horizontal, avec la probabilité sur l'axe vertical. La courbe bleue, étiquetée B, représente la distribution de probabilité du bruit seul. La courbe rouge, étiquetée B+T, représente la distribution de probabilité du bruit plus le ton. Les deux courbes se chevauchent partiellement, illustrant le phénomène d'incertitude dans la détection du signal en présence de bruit. Les courbes sont séparées d'une valeur de d', représentée par une flèche reliant les sommets des deux gaussiennes. Ici d' = 1.
+width: 70%
 align: center
 ---
 *Schéma de de la Théorie de la détection du signal. Les courbes rouge et bleue représentent respectivement les probabilités de mesurer une valeur particulière d'énergie E pour le bruit seul ou pour le bruit+signal*
@@ -43,12 +43,11 @@ On peut à présent se demander comment ce pourcentage évolue en fonction de la
 p_{détect}(d') = \frac{1}{1+e^{-(\alpha + \beta \cdot d')}}
 \end{gather*}
 
-
 ```{figure} SDT2.png
 ---
 name: SDT2.png
-alt: Lien entre fonction psychométrique et difficulté de la tâche
-height: 400px
+alt: Trois vignettes reprennent la figure précédentes avec 3 valeurs de d' différentes : d' = 0.2, d' = 1, d' = 4. Chacune de ces vignettes est reliée à un point sur le graphique dans la partie inférieure de la figure. Ce graphique représente une courbe sigmoïde noire qui indique la probabilité de détection en fonction de la différence d’énergie d' (axe horizontal). La situation d' = 0.2 donne une probabilité proche du hasard (50%), la situation d' = 1 une probabilité de 64%, et la situation d' = 4 une probabilité proche de 100 %.
+width: 100%
 align: center
 ---
 *Calcul de la fonction psychométrique pour la situation décrite précédemment*
@@ -61,8 +60,8 @@ Notez que dans l'exemple choisi, *d'* est toujours positif car il n'aurait pas d
 ```{figure} SDT3.png
 ---
 name: SDT3.png
-alt: Fonction psychométrique
-height: 200px
+alt: Graphique représentant la probabilité de détection en fonction de la différence d’énergie. L’axe horizontal indique la différence d’énergie (d') variant de -10 à 10. L’axe vertical indique la probabilité de détection, de 0 à 1. Une courbe sigmoïde noire montre la relation entre la différence d’énergie et la probabilité de détecter un stimulus : la la probabilité de détection va de 0% à 100% en passant par 50% à d' = 0.
+width: 80%
 align: center
 ---
 *Exemple de fonction psychométrique complète*
@@ -75,8 +74,8 @@ D'après l'équation ci-dessus, la forme de la fonction psychométrique est dét
 ```{figure} SDT4.png
 ---
 name: SDT4.png
-alt: Fonction psychométrique: effet de alpha
-height: 200px
+alt: Même figure que précédemment, mais plusieurs fonctions psychométriques sont représentées en différentes nuances d'orange. Elles sont translatées selon l'axe des x.
+width: 80%
 align: center
 ---
 *Effet du paramètre alpha sur la fonction psychométrique.*
@@ -87,8 +86,8 @@ align: center
 ```{figure} SDT5.png
 ---
 name: SDT5.png
-alt: Fonction psychométrique: effet de beta
-height: 200px
+alt: Même figure que précédemment, mais plusieurs fonctions psychométriques sont représentées en différentes nuances d'indigo. Elles ont des pentes plus ou moins fortes mais toutes passent par 50% en 0.
+width: 80%
 align: center
 ---
 *Effet du paramètre beta sur la fonction psychométrique.*
@@ -105,8 +104,8 @@ Voici par exemple les performances de sujets réalisant une tâche de détection
 ```{figure} SDT6.png
 ---
 name: SDT6.png
-alt: Fonction psychométrique humaine 1
-height: 400px
+alt: Graphique représentant la fonction psychométrique pour un participant unique, mesurant le pourcentage de réponses correctes en fonction de l’énergie du signal. L’axe horizontal correspond à une échelle de RSB en décibels, variant approximativement de 0 à 20 dB. L’axe vertical indique le pourcentage de réponses correctes, allant de 30 % à 100 %. Chaque point sur le graphique représente le pourcentage correct obtenu sur 25 essais pour différentes fréquences. Plusieurs symboles (triangles, cercles, carrés) représentent les différentes fréquences du signal (de 250 Hz à 4000 Hz). La courbe solide est la fonction psychométrique théorique. Le graphique montre que la performance en détection augmente avec l’énergie du signal, passant d’environ 40 % à près de 100 % de réponses correctes en suivant la courbe sigmoïde.
+width: 70%
 align: center
 ---
 *Exemple de fonction psychométrique pour la détection de ton dans le bruit par l'humain. (Green & Swets, 1966).*
@@ -117,8 +116,8 @@ La figure suivante illustre un autre exemple d'application de la régression log
 ```{figure} SDT8.png
 ---
 name: SDT8.png
-alt: Fonction psychométrique humaine 1
-height: 300px
+alt: Graphique montrant la performance en pourcentage de plusieurs participants (S1 à S6) en fonction du rapport signal sur bruit en décibels. La performance augmente avec le RSB, passant de 50 % à près de 100 %. Une ligne en pointillés indique le seuil des 80 % de performance.
+width: 70%
 align: center
 ---
 *Exemple de fonction psychométrique pour la détection de ton dans le bruit par l'humain. (Schönfelder & Wichmann, 2013).*
@@ -129,8 +128,8 @@ Finalement, la figure suivante présente un troisième exemple de fonction psych
 ```{figure} SDT7.png
 ---
 name: SDT7.png
-alt: Fonction psychométrique humaine 2
-height: 300px
+alt: Graphique représentant une courbe psychométrique. L'axe horizontal (X) indique le niveau du stimulus en dB (de 0 à 10), et l'axe vertical (Y) indique le pourcentage de réponses « oui » (de 0 % à 100 %). Des points noirs représentent les données expérimentales, tandis qu'une courbe sigmoïde lisse les relie approximativement. La courbe montre une augmentation progressive des réponses « oui » avec l’augmentation du niveau du stimulus, passant de 0% à 0 dB à 100% à 10 dB.
+width: 70%
 align: center
 ---
 *Exemple de fonction psychométrique pour la détection de ton dans le silence par l'humain. (Leek, 2001).*

@@ -12,7 +12,7 @@ titlesonly: true
 ```{figure} Griggs-Soundwaves-.jpg
 ---
 name: Griggs-Soundwaves-.jpg
-alt: Illustration de couverture
+alt: Illustration de couverture : visualisation artistique de la propagation radiale d'une onde
 width: 400px
 align: center
 ```

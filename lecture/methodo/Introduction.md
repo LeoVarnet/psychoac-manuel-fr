@@ -30,8 +30,8 @@ Il s'agit en réalité d'user pour étudier l'esprit humain de la même approche
 ```{figure} Psychophysique.jpg
 ---
 name: Psychophysique.jpg
-alt: Schéma de l'approche béhavioriste
-height: 400px
+alt: Schéma comparatif montrant, en haut, un système électronique où un courant électrique entre dans une boîte noire (entrée) et en ressort (sortie), et, en bas, une expérience de psychophysique où un son (entrée) est perçu par une personne portant un casque qui répond via le clavier (sortie).
+width: 70%
 align: center
 ---
 *Schéma de l'approche béhavioriste. En haut, caractérisation d'une boîte noire électronique au moyen de ses courants d'entrée et de sortie. En bas caractérisation du système auditif humain en établissant la relation entre entrée (son) et sortie (comportement).*
@@ -54,8 +54,8 @@ Au milieu du XIXe siècle, **Gustav Fechner** fonde le premier laboratoire de ps
 ```{figure} Fechner.jpg
 ---
 name: Fechner.jpg
-alt: Gustav Fechner
-width: 300px
+alt: Portrait en noir et blanc de Gustav Fechner, âgé et cheveux blancs clairsemés, portant des lunettes rondes et un costume formel.
+width: 50%
 align: center
 ---
 *Portrait de Gustav Fechner (1801–1887), fondateur de la psychophysique. (Source: [Smithsonian Institution](https://www.flickr.com/photos/smithsonian/2550780211/))*
@@ -69,8 +69,8 @@ L'acoustique est la science des sons, objets physiques qui sont caractérisés p
 ```{figure} Psychophysique2.jpg
 ---
 name: Psychophysique2.jpg
-alt: Schéma de l'approche psychophysique
-width: 700px
+alt: Schéma comparatif illustrant la différence entre le « niveau physique » et le « niveau cognitif ». Une fleche correspondant à la psychophysique ou la psychoacoustique fait le lien entre les deux domaines, reliant le son au percept.
+width: 80%
 align: center
 ---
 *Illustration de la distinction entre propriétés du monde physique et propriété du monde cognitif.*

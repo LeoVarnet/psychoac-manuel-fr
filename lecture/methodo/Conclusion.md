@@ -71,8 +71,8 @@ Comme nous l'avons vu, le réductionnisme constitue un principe fondamental de l
 ```{figure} Naturalité.png
 ---
 name: Naturalité.png
-alt: Schéma de l'opposition entre validité écologique et réductionnisme
-width: 800px
+alt: L’image compare deux types de conditions d’écoute sonore. À gauche : Conditions naturelles de l’expérience sensible. Texte en orange : Son spatialisé, scène sonore complexe, implication émotionnelle de l’individu, stimuli complexes et porteurs de sens, interaction de l’individu avec les sons. Illustration : un adolescent joue de la trompette dans un orchestre avec d'autres musiciens visibles à l’arrière-plan (environnement riche, vivant et interactif).. À droite : Conditions expérimentales de laboratoire. Texte en noir : Son diffusé au casque, environnement sonore silencieux, contexte émotionnellement neutre, stimuli simples et dépourvus de sens, diffusion des sons contrôlée par l’expérimentateur. Illustration : un homme vu de dos porte un casque audio, assis dans un laboratoire face à un ordinateur. En dessous, une flèche horizontale dégradée du orange vers le gris illustre une gradation progressive entre ces deux types de conditions. De gauche à droite, elle présente les niveaux croissants d’abstraction sonore : Son de la trompette jouée par le sujet au sein d’un orchestre, Enregistrement de l’orchestre, Enregistrement de la trompette seule, Son de trompette synthétisé par ordinateur, Note unique synthétisée par ordinateur, Ton pur.
+width: 100%
 align: center
 ---
 *Schéma de l'opposition entre validité écologique et réductionnisme. À gauche : exemple de situation naturelle d'écoute d'un son. À droite : exemple de situation d'écoute d'un stimulus sonore dans le contexte d'une expérience psychoacoustique. En bas : continuum de stimuli allant de la plus grande validité écologique au plus grand réductionnisme.*

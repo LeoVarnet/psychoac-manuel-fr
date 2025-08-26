@@ -118,7 +118,15 @@ On observe que la relation entre fréquence d'accordage et distance à l'apex es
 
 Les *tuning curves* révèlent non seulement la fréquence d’accordage d’une région donnée, mais aussi sa bande passante : une position donnée sur la membrane basilaire répond à un ensemble de fréquences proches, et non à une fréquence unique, ce qui reflète la limitation de la sélectivité fréquentielle de l'oreille interne. La largeur des courbes {numref}`tuningcurves.png` et {numref}`Isoresponse2.png` constitue ainsi une mesure directe de cette sélectivité locale : plus la bande passante est étroite, plus la discrimination des fréquences est fine. La figure suivante représente la relation entre la bande passante des *tuning curves* en fonction de leur fréquence d'accordage.
 
-[Manque une figure]
+```{figure} ERB.png
+---
+name: ERB.png
+alt: ERB
+width: 100%
+align: center
+---
+Largeur des tuning curves en fonction de leur fréquence d'accordage
+```
 
 ## Modéliser l'oreille interne : gammatones et pattern d'excitation
 

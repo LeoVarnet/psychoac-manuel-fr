@@ -215,17 +215,23 @@ align: center
 *Schéma de l'ogane de Corti. (Source : [Gray's Anatomy](https://www.bartleby.com/lit-hub/anatomy-of-the-human-body/fig-931/))*
 ```
 
-Les cellules ciliées internes sont entraînées par les mouvements de la membrane basilaire au point où elles sont attachées. On retrouve donc ici le principe du codage tonotopique, puisque chaque fréquence sonore active ainsi un groupe restreint de cellules ciliées spécifiques. Mais ce n'est pas tout : l'onde sonore étant composée de fluctuations périodiques, les déplacements de la membrane basilaire le sont également. Par conséquent, les impulsions électriques envoyées au nerf auditif par les cellules ciliées présentent, elles aussi, une périodicité à la même fréquence ({numref}`PhaseLocking.png`). Ceci constitue le principe du **codage temporel** : les cellules ciliées déchargent de façon synchrone avec les vibrations de la membrane basilaire. **Le codage des fréquences par l'oreille interne est donc double**. D'une part, chaque fréquence active une région spécifique de la membrane basilaire, mobilisant un sous-ensemble distinct de cellules ciliées (codage tonotopique). D'autre part, les potentiels d'action suivent approximativement le rythme des vibrations, rendant le signal électrique lui-même périodique (codage temporel).
+Les cellules ciliées internes sont entraînées par les mouvements de la membrane basilaire au point précis où elles sont attachées. Elles transmettent ainsi au nerf auditif l'information tonotopique évoquée précédemment, sous forme de signaux électriques : chaque fréquence sonore stimule un groupe spécifique de cellules ciliées, plus ou moins proche de la base de la cochlée.
 
-```{figure} PhaseLocking.png
+Mais ce n'est pas tout : l'onde sonore étant composée de fluctuations périodiques, les déplacements de la membrane basilaire et des stéréocils le sont également. La figure xxx représente la charge électrique d'une cellule en réponse à des tons purs de différentes fréquence. Pour des fréquences lentes (en dessous de 1 kHz), on observe effectivement que l'activité électrique de la cellule reproduit assez fidèlement la périodicité de l'onde sonore. Ceci constitue le principe du **codage temporel** : les cellules ciliées déchargent de façon globalement synchrone avec les vibrations de la membrane basilaire. Il est donc possible de déduire la fréquence du son en observant la fréquence du signal électrique transmis.
+
+Cependant, ce mécanisme a ses limites. En réalité, la cellule ciliée ne peut pas réagir instantanément à chaque mouvement des stéréocils : elle a besoin d'un temps très court pour se recharger avant de pouvoir produire à nouveau un potentiel d'action. Pour des sons de fréquence basse, comme on l'a vu, ce délai est suffisamment court pour permettre à la cellule de suivre chaque cycle sonore. En revanche, lorsque la fréquence augmente au delà de 1 kHz, les vibrations deviennent trop rapides pour que la cellule puisse réagir à chaque période de l'onde. Dans ce cas, la réponse électrique devient plus stable et plus constante. Au lieu de refléter les détails temporels fins du son, elle reflète surtout l'intensité moyenne de la fréquence considérée (figure xxx).
+
+```{figure} Phaselock.png
 ---
-name: PhaseLocking.png
+name: Phaselock.png
 alt: Phase-locking
 width: 60%
 align: center
 ---
-*Illustration du principe du codage temporel. La partie supérieure de la figure représente l'onde sonore. En dessous sont schématisés les potentiels évoqués générés par trois cellules ciliées internes accordées à la fréquence de cette onde, et transmis au nerf auditif. Les décharges surviennennt globalement à proximité des maxima de la vibration, même si tous les maxima ne donnent pas nécessairement lieu à une décharge synchrone de toutes les cellules, certaines impulsions pouvant être absentes ou décalées. Néanmoins, chaque cellule émet des impulsions électriques avec une périodicité globalement alignée sur celle de l'onde. Dans la partie inférieure de la figure, la sommation des décharges provenant de l'ensemble des cellules ciliées montre que, malgré une certaine variabilité, le signal global transmis au nerf auditif reproduit la périodicité du stimulus sonore. (Source: Plack 2005)*
+* (Palmer & Russel, 1986)*
 ```
+
+**Le codage des fréquences par l'oreille interne est donc double**. D'une part, chaque fréquence active une région spécifique de la membrane basilaire, mobilisant un sous-ensemble distinct de cellules ciliées (codage tonotopique). D'autre part, les potentiels d'action suivent approximativement le rythme des vibrations, rendant le signal électrique lui-même périodique (codage temporel). Par ailleurs, ces deux codes présentent chacun des limitations spécifiques dans les hautes fréquences : le codage tonotopique devient de moins en moins précis pour les fréquences élevées, tandis que le codage temporel ne peut pas suivre fidèlement la périodicité du son au delà de 1 kHz environ.
 
 ## Modéliser l'oreille interne (partie 2) : spectrogramme auditif
 
@@ -304,6 +310,21 @@ width: 50%
 align: center
 ---
 *tonotopy in the auditory nerve (red: 20 Hz; green: 1 kHz; blue 20 kHz).*
+```
+
+
+
+Par conséquent, les impulsions électriques envoyées au nerf auditif par les cellules ciliées présentent, elles aussi, une périodicité à la même fréquence ({numref}`PhaseLocking.png`). 
+
+
+```{figure} PhaseLocking.png
+---
+name: PhaseLocking.png
+alt: Phase-locking
+width: 60%
+align: center
+---
+*Illustration du principe du codage temporel. La partie supérieure de la figure représente l'onde sonore. En dessous sont schématisés les potentiels évoqués générés par trois cellules ciliées internes accordées à la fréquence de cette onde, et transmis au nerf auditif. Les décharges surviennennt globalement à proximité des maxima de la vibration, même si tous les maxima ne donnent pas nécessairement lieu à une décharge synchrone de toutes les cellules, certaines impulsions pouvant être absentes ou décalées. Néanmoins, chaque cellule émet des impulsions électriques avec une périodicité globalement alignée sur celle de l'onde. Dans la partie inférieure de la figure, la sommation des décharges provenant de l'ensemble des cellules ciliées montre que, malgré une certaine variabilité, le signal global transmis au nerf auditif reproduit la périodicité du stimulus sonore. (Source: Plack 2005)*
 ```
 
 ## Références

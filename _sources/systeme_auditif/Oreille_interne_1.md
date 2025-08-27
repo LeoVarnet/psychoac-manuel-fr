@@ -7,7 +7,7 @@ Page en cours de construction
 L'**oreille interne** constitue le cœur du système auditif périphérique. Tandis que l'oreille externe et moyenne peut se réduire, en première approximation, à un simple filtre linéaire, l'oreille interne réalise plusieurs transformations essentielles des vibrations qui lui parviennent par la fenêtre ovale. Sa fonction est d'**analyser les sons en fréquence**, mais également d'**amplifier les sons faibles** et de **convertir les vibrations mécaniques en signaux électriques**.
 
 L'oreille interne se décompose en trois parties : 
-- la **cochlée**, petit bijou de l'évolution qui, comme nous le verrons dans ce chapitre, est lui-même constitué de nombreux éléments en interaction.
+- la **cochlée**, merveille de l'évolution qui, comme nous le verrons dans ce chapitre, est lui-même constitué de nombreux éléments en interaction.
 - le **nerf auditif**, qui assure la jonction entre la cochlée et le système auditif central.
 - le **système vestibulaire**. Ce dernier ne sera pas traité ici puisqu'il ne contribue pas à l'audition mais à l'équilibre. 
 
@@ -69,7 +69,7 @@ alt: Déplacement de la membrane basilaire en réponse à un ton pur
 width: 70%
 align: center
 ---
-*Mesure de l'excitation de la membrane basilaire en réponse à un ton pur à 15 kHz, semblable à celles réalisées par von Békésy [[2](note2OI)]. L'axe des abscisses correspond à la position considérée le long de la membrane -- plus ou moins loin du sommet (apex) de la cochlée. L'axe des ordonnées représente l'amplitude des vibrations enregistrées en ce point. Plusieurs intensités du stimulus acoustique sont considérées, la courbe tracée en rouge correspondant à une intensité modérée de 70 dB SPL. (Source : Russell and Nilsen, 1997)*
+*Mesure de l'excitation de la membrane basilaire en réponse à un ton pur à 15 kHz, semblable à celles réalisées par von Békésy [[2](note2OI)]. L'axe des abscisses correspond à la position considérée le long de la membrane -- plus ou moins loin du sommet (apex) de la cochlée. L'axe des ordonnées représente l'amplitude des vibrations enregistrées en ce point. Plusieurs intensités du stimulus acoustique sont considérées, la courbe tracée en rouge correspondant à une intensité modérée de 70 dB SPL. (Russell and Nilsen, 1997 ; mesures obtenues chez le cobaye)*
 ```
 
 Pour être complet, un modèle mécanique de la cochlée doit intégrer un grand nombre de paramètres et d'équations de façon à simuler la mise en mouvement du liquide et la propagation de l'onde dans ce milieu, l'entraînement de la membrane basilaire -- assimilée à une chaîne de resonnateurs couplés d'inertie mécanique variable -- ainsi que les effets de rétroaction dont il sera question plus loin. Ce domaine fait donc actuellement l'objet d'importants travaux. 
@@ -87,7 +87,7 @@ alt: tuning curves
 width: 70%
 align: center
 ---
-*Tuning curves. Chaque courbe représente la réponse de la membrane basilaire en un point particulier, en fonction de la fréquence du ton pur joué. Trois courbes sont mises en évidence, correspondant respectivement à l'enregistrement à 17 mm de l'apex de la cochlée (bleu), à 25 mm (jaune) et à 33 mm (vert). (Adapté de van der Heijden and Joris, 2003)*
+*Tuning curves. Chaque courbe représente la réponse de la membrane basilaire en un point particulier, en fonction de la fréquence du ton pur joué. Trois courbes sont mises en évidence, correspondant respectivement à l'enregistrement à 17 mm de l'apex de la cochlée (bleu), à 25 mm (jaune) et à 33 mm (vert). (Adapté de van der Heijden and Joris, 2003 ; mesures obtenues chez le chat)*
 ```
 
 Une approche expérimentale légèrement différente permet d'obtenir des courbes complémentaires, appelées ***isoresponse tuning curves***. Plutôt que de mesurer la réponse de la membrane basilaire à intensité sonore constante, on ajuste ici le niveau de stimulation de manière à maintenir une réponse constante (c'est-à-dire une amplitude de vibration donnée de la membrane basilaire au point considéré). Comme on le constate dans la figure suivante, le tracé obtenu est globalement similaire à celui des *tuning curves* classiques ({numref}`tuningcurves.png`), mais inversé en raison de la nature de la mesure.
@@ -99,7 +99,7 @@ alt: isoresponse tuning curves
 width: 70%
 align: center
 ---
-*Isoresponse tuning curves. Chaque courbe représente, en fonction de la fréquence du ton pur joué, l'intensité sonore nécessaire pour obtenir une excitation donnée de la membrane basilaire en un point particulier. Les tuning curves indiquées en couleurs correspondent approximativement à celles de la {numref}`tuningcurves.png`. (Adapté de Kiang, 1980).*
+*Isoresponse tuning curves. Chaque courbe représente, en fonction de la fréquence du ton pur joué, l'intensité sonore nécessaire pour obtenir une excitation donnée de la membrane basilaire en un point particulier. Les tuning curves indiquées en couleurs correspondent approximativement à celles de la {numref}`tuningcurves.png`. (Kiang, 1980 ; mesures obtenues chez le chat).*
 ```
 
 Les observations dans les {numref}`Excitation.jpeg`, {numref}`tuningcurves.png` et {numref}`Isoresponse2.png` confirment le codage tonotopique assuré par la cochlée : à chaque position le long de la membrane basilaire correspond une **fréquence caractéristique**  (*characteristic frequency*), aussi appelée **fréquence d'accordage** (*tuning frequency*), pour laquelle l'excitation est maximale. Pour visualiser plus directement la correspondance entre position et fréquence, on peut reporter la fréquence d’accordage de chaque tuning curve en fonction de la distance à l'apex du point où a été réalisé la mesure, comme le montre la figure suivante.
@@ -111,7 +111,7 @@ alt: tonotopy
 width: 60%
 align: center
 ---
-*Tonotopie de la cochlée : fréquence d'accordage en fonction de la position le long de la membrane basilaire. Les positions les plus proches du sommet de la cochlée correspondent aux fréquences les plus basses. La répartition générale des fréquences supérieures à 200 Hz est logarithmique. Les points en couleur correspondent aux trois tuning curves mises en évidence dans les {numref}`tuningcurves.png` et {numref}`Isoresponse2.png`.*
+*Tonotopie de la cochlée : courbe théorique de la fréquence d'accordage en fonction de la position le long de la membrane basilaire (équation de Greenwood). Les positions les plus proches du sommet de la cochlée correspondent aux fréquences les plus basses. La répartition générale des fréquences supérieures à 200 Hz est logarithmique. Les points en couleur correspondent aux trois tuning curves mises en évidence dans les {numref}`tuningcurves.png` et {numref}`Isoresponse2.png`. (Hartmann, 2013)*
 ```
 
 On observe que la relation entre fréquence d'accordage et distance à l'apex est globalement logarithmique. Il y a donc proportionnellement plus d'espace alloué aux basses fréquences qu'aux hautes fréquences. Dans les très basses fréquences (< 200 Hz), cette relation devient linéaire -- on parle donc de répartition quasi-logarithmique des fréquences le long de la cochlée.
@@ -179,7 +179,10 @@ Avant d'explorer plus avant ce modèle, il est nécessaire d'envisager en premie
 https://pubmed.ncbi.nlm.nih.gov/11427697/
 
 Processing of Speech by the auditory nervous system, Kiang 1980
+
 https://pmc.ncbi.nlm.nih.gov/articles/PMC6740821/
+
+Hartmann, W.M. (2013). The Auditory System. In: Principles of Musical Acoustics. Undergraduate Lecture Notes in Physics. Springer, New York, NY. https://doi.org/10.1007/978-1-4614-6786-1_11
 
 ## Notes
 

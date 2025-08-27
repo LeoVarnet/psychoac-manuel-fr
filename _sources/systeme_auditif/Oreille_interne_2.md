@@ -6,6 +6,16 @@ Page en cours de construction
 
 Dans la précédente section de ce chapitre, nous avons vu comment les vibrations transmises à l'oreille interne excitent localement la membrane basilaire, permettant la décomposition du son en différentes fréquences. Nous allons à présent nous intéresser à la seconde fonction essentielle de l'oreille interne : la conversion des vibrations mécaniques en impulsions électriques. Cette étape, appelée **transduction**, est fondamentale puisque le cerveau est en mesure de recevoir et traiter une information électrique, mais non une vibration mécanique. Dans un second temps, nous envisagerons la troisième fonction de la cochlée : l'amplification/compression.
 
+```{figure} SysAudExt_IE.JPG
+---
+name: SysAudExt_IE.JPG
+alt: Systeme auditif externe - oreille interne 
+width: 100%
+align: center
+---
+*Schéma du système auditif périphérique mettant en évidence l'oreille interne. (Source : [Ivy Livingstone, Biodidac](https://omeka.uottawa.ca/biodidac/items/show/4603))*
+```
+
 ## Cellules ciliées internes et codage temporel
 
 La conversion de l'onde en courant électrique est assurée par environ 3500 **cellules ciliées internes**, réparties sur toute la longueur de la membrane basilaire (voir {numref}`Organ_of_Corti.png` et {numref}`Hair_cell.png`). Comme leur nom l'indique, ces cellules sont dotées, à leur extrémité supérieure, de fins prolongements appelés **stéréocils**, organisés en rangées de hauteurs croissantes. Les stéréocils sont extrêmement sensibles aux mouvements : un déplacement latéral des stéréocils provoque une cascade de réactions électrochimiques qui conduit à la génération d'un **potentiel d'action** -- c'est-à-dire une impulsion électrique. La partie inférieure de la cellule ciliée est connectée aux fibres du nerf auditif, permettant ainsi de transmettre l'information électrique aux étages supérieurs du système auditif et jusqu'au cerveau.

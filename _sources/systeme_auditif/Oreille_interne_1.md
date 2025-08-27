@@ -108,7 +108,7 @@ Les observations dans les {numref}`Excitation.jpeg`, {numref}`tuningcurves.png` 
 ---
 name: tonotopy.png
 alt: tonotopy
-width: 60%
+width: 100%
 align: center
 ---
 *À gauche : tonotopie de la cochlée, représentée par la fréquence caractéristique en fonction de la position relative le long de la membrane basilaire (0 : apex ; 1 : base). La courbe théorique couramment utilisée pour la modélisation est représentée en vert (équation de Greenwood), tandis que la courbe orange est ajustée aux données mesurée expérimentalement. Les positions les plus proches du sommet de la cochlée correspondent aux fréquences les plus basses. À droite : imagerie par rayons X d'une cochlée humaine, avec une visualisation en couleurs des zones correspondant aux différentes plages de fréquences. (Li, Helpard, Ekeroot, et al., 2021)*

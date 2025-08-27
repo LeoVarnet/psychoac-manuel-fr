@@ -18,8 +18,6 @@ chapters:
   - file: systeme_auditif/Oreille_moyenne
   - file: systeme_auditif/Oreille_interne_1
   - file: systeme_auditif/Oreille_interne_2
-  - file: systeme_auditif/Central
-  - file: systeme_auditif/Conclusion
   - file: systeme_auditif/Bibliographie
 - file: general_information/Glossaire
 - file: general_information/course_material

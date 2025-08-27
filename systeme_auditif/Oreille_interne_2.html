@@ -542,6 +542,13 @@ document.write(`
 <section id="modeliser-l-oreille-interne-partie-3-drnl">
 <h2>Modéliser l’oreille interne (partie 3) : DRNL<a class="headerlink" href="#modeliser-l-oreille-interne-partie-3-drnl" title="Link to this heading">#</a></h2>
 <p>Il est possible de mettre à jour le modèle de la cochlée comme un banc de filtres gammatones, vu précédemment, pour prendre en compte l’effet des cellules ciliées externes. Une première option très simple consiste à appliquer une fonction compressive (par exemple une loi puissance avec un exposant négatif) sur la sortie des gammatones. Ceci n’est cependant pas entièrement satisfaisant car la cochlée ainsi simulée, si elle réalise bien une compression de dynamique, conserve cependant la même résolution fréquencielle quel que soit le niveau sonore d’entrée. Une seconde option, légèrement plus sophistiquée, s’appuie sur des <em>dual-resonance nonlinear filters</em> (<strong>filtres DRNL</strong>). Ces filtres non-linéaires reproduisent l’évolution des <em>tuning curves</em> avec le niveau sonore, illustré figure xxx. Pour cela, ils combinent en réalité deux branches : la première, linéaire et semblable aux gammatones mais avec une résolution plus faible, correspond à l’action mécanique du système, tandis que la deuxième, non-linéaire et plus sélective en fréquence, rend compte des mécanismes actifs (voirfig xxx).</p>
+<figure class="align-center" id="drnl-png">
+<a class="reference internal image-reference" href="../_images/DRNL.png"><img alt="DRNL" src="../_images/DRNL.png" style="width: 70%;" />
+</a>
+<figcaption>
+<p><span class="caption-number">Fig. 76 </span><span class="caption-text"><em>DRNL.</em></span><a class="headerlink" href="#drnl-png" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
 </section>
 <section id="nerf-auditif">
 <h2>Nerf auditif<a class="headerlink" href="#nerf-auditif" title="Link to this heading">#</a></h2>
@@ -549,15 +556,15 @@ document.write(`
 <a class="reference internal image-reference" href="../_images/ANtonotopy.png"><img alt="tonotopy in the auditory nerve" src="../_images/ANtonotopy.png" style="width: 50%;" />
 </a>
 <figcaption>
-<p><span class="caption-number">Fig. 76 </span><span class="caption-text"><em>tonotopy in the auditory nerve (red: 20 Hz; green: 1 kHz; blue 20 kHz).</em></span><a class="headerlink" href="#antonotopy-png" title="Link to this image">#</a></p>
+<p><span class="caption-number">Fig. 77 </span><span class="caption-text"><em>tonotopy in the auditory nerve (red: 20 Hz; green: 1 kHz; blue 20 kHz).</em></span><a class="headerlink" href="#antonotopy-png" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
-<p>Par conséquent, les impulsions électriques envoyées au nerf auditif par les cellules ciliées présentent, elles aussi, une périodicité à la même fréquence (<a class="reference internal" href="#phaselocking-png"><span class="std std-numref">Fig. 77</span></a>).</p>
+<p>Par conséquent, les impulsions électriques envoyées au nerf auditif par les cellules ciliées présentent, elles aussi, une périodicité à la même fréquence (<a class="reference internal" href="#phaselocking-png"><span class="std std-numref">Fig. 78</span></a>).</p>
 <figure class="align-center" id="phaselocking-png">
 <a class="reference internal image-reference" href="../_images/PhaseLocking.png"><img alt="Phase-locking" src="../_images/PhaseLocking.png" style="width: 60%;" />
 </a>
 <figcaption>
-<p><span class="caption-number">Fig. 77 </span><span class="caption-text"><em>Illustration du principe du codage temporel. La partie supérieure de la figure représente l’onde sonore. En dessous sont schématisés les potentiels évoqués générés par trois cellules ciliées internes accordées à la fréquence de cette onde, et transmis au nerf auditif. Les décharges surviennennt globalement à proximité des maxima de la vibration, même si tous les maxima ne donnent pas nécessairement lieu à une décharge synchrone de toutes les cellules, certaines impulsions pouvant être absentes ou décalées. Néanmoins, chaque cellule émet des impulsions électriques avec une périodicité globalement alignée sur celle de l’onde. Dans la partie inférieure de la figure, la sommation des décharges provenant de l’ensemble des cellules ciliées montre que, malgré une certaine variabilité, le signal global transmis au nerf auditif reproduit la périodicité du stimulus sonore. (Source: Plack 2005)</em></span><a class="headerlink" href="#phaselocking-png" title="Link to this image">#</a></p>
+<p><span class="caption-number">Fig. 78 </span><span class="caption-text"><em>Illustration du principe du codage temporel. La partie supérieure de la figure représente l’onde sonore. En dessous sont schématisés les potentiels évoqués générés par trois cellules ciliées internes accordées à la fréquence de cette onde, et transmis au nerf auditif. Les décharges surviennennt globalement à proximité des maxima de la vibration, même si tous les maxima ne donnent pas nécessairement lieu à une décharge synchrone de toutes les cellules, certaines impulsions pouvant être absentes ou décalées. Néanmoins, chaque cellule émet des impulsions électriques avec une périodicité globalement alignée sur celle de l’onde. Dans la partie inférieure de la figure, la sommation des décharges provenant de l’ensemble des cellules ciliées montre que, malgré une certaine variabilité, le signal global transmis au nerf auditif reproduit la périodicité du stimulus sonore. (Source: Plack 2005)</em></span><a class="headerlink" href="#phaselocking-png" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
 </section>

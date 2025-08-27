@@ -111,10 +111,10 @@ alt: tonotopy
 width: 60%
 align: center
 ---
-*Tonotopie de la cochlée : courbe théorique de la fréquence d'accordage en fonction de la position le long de la membrane basilaire (équation de Greenwood). Les positions les plus proches du sommet de la cochlée correspondent aux fréquences les plus basses. La répartition générale des fréquences supérieures à 200 Hz est logarithmique.(Hartmann, 2013)*
+*À gauche : tonotopie de la cochlée, représentée par la fréquence caractéristique en fonction de la position relative le long de la membrane basilaire (0 : apex ; 1 : base). La courbe théorique couramment utilisée pour la modélisation est représentée en vert (équation de Greenwood), tandis que la courbe orange est ajustée aux données mesurée expérimentalement. Les positions les plus proches du sommet de la cochlée correspondent aux fréquences les plus basses. À droite : imagerie par rayons X d'une cochlée humaine, avec une visualisation en couleurs des zones correspondant aux différentes plages de fréquences. (Li, Helpard, Ekeroot, et al., 2021)*
 ```
 
-On observe que la relation entre fréquence d'accordage et distance à l'apex est globalement logarithmique. Il y a donc proportionnellement plus d'espace alloué aux basses fréquences qu'aux hautes fréquences. Dans les très basses fréquences (< 200 Hz), cette relation devient linéaire -- on parle donc de répartition quasi-logarithmique des fréquences le long de la cochlée.
+On observe que la relation entre fréquence d'accordage et distance à l'apex est globalement exponentielle. Il y a donc proportionnellement plus d'espace alloué aux basses fréquences qu'aux hautes fréquences, comme on le constate sur la partie droite de la {numref}`tonotopy.png`. Dans les très basses fréquences (< 200 Hz), cette relation devient linéaire.
 
 Les *tuning curves* révèlent non seulement la fréquence d’accordage d’une région donnée, mais aussi sa bande passante : une position donnée sur la membrane basilaire répond à un ensemble de fréquences proches, et non à une fréquence unique, ce qui reflète la limitation de la sélectivité fréquentielle de l'oreille interne. La largeur des courbes {numref}`tuningcurves.png` et {numref}`Isoresponse2.png` constitue ainsi une mesure directe de cette sélectivité locale : plus la bande passante est étroite, plus la discrimination des fréquences est fine. Dans une première approximation nous considérerons que, pour l'humain, la largeur des *tuning curves* est proportionnelle à leur fréquence d'accordage (nous reviendrons sur ce point au chapitre 3). Autrement dit, les fréquences aiguës sont moins bien séparées par la cochlée que les fréquences graves. De façon générale, le facteur qualité Q (= largeur de bande / fréquence caractéristique) des *tuning curves* humaines est relativement mauvais, de l'ordre de 12%. Cette résolution assez faible de la cochlée suggère que d'autres mécanismes, plus haut niveau, entrent en jeu pour améliorer la précision de notre oreille.
 
@@ -182,7 +182,7 @@ Processing of Speech by the auditory nervous system, Kiang 1980
 
 https://pmc.ncbi.nlm.nih.gov/articles/PMC6740821/
 
-Hartmann, W.M. (2013). The Auditory System. In: Principles of Musical Acoustics. Undergraduate Lecture Notes in Physics. Springer, New York, NY. https://doi.org/10.1007/978-1-4614-6786-1_11
+Li, H., Helpard, L., Ekeroot, J. et al. Three-dimensional tonotopic mapping of the human cochlea based on synchrotron radiation phase-contrast imaging. Sci Rep 11, 4437 (2021). https://doi-org.insb.bib.cnrs.fr/10.1038/s41598-021-83225-w
 
 ## Notes
 

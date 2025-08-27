@@ -1,9 +1,5 @@
 # Oreille interne, partie 1 : cochlée et membrane basilaire
 
-```{warning}
-Page en cours de construction
-```
-
 L'**oreille interne** constitue le cœur du système auditif périphérique. Tandis que l'oreille externe et moyenne peut se réduire, en première approximation, à un simple filtre linéaire, l'oreille interne réalise plusieurs transformations essentielles des vibrations qui lui parviennent par la fenêtre ovale. Sa fonction est d'**analyser les sons en fréquence**, mais également d'**amplifier les sons faibles** et de **convertir les vibrations mécaniques en signaux électriques**.
 
 L'oreille interne se décompose en trois parties : 
@@ -172,17 +168,14 @@ align: center
 *Exemple de pattern d'excitation pour un complexe harmonique composé de tons purs à des multiples de 500 Hz, dont les spectres de Fourier sont représentés dans le panneau supérieur. Le panneau central présente le pattern d'excitation de chacun de ces tons purs, considérés individuellement, et le panneau inférieur le pattern d'excitation du compexe harmonique complet.*
 ```
 
-Avant d'explorer plus avant ce modèle, il est nécessaire d'envisager en premier lieu la dynamique temporelle du codage des sons par les cellules ciliées. C'est ce à quoi nous allons nous atteler dans la section suivante.
+Avant d'explorer plus avant ce modèle, il est nécessaire d'envisager en premier lieu la dynamique temporelle du codage des sons par la cochlée. C'est ce à quoi nous allons nous atteler dans la section suivante.
 
 ## Références
 
-https://pubmed.ncbi.nlm.nih.gov/11427697/
-
-Processing of Speech by the auditory nervous system, Kiang 1980
-
-https://pmc.ncbi.nlm.nih.gov/articles/PMC6740821/
-
-Li, H., Helpard, L., Ekeroot, J. et al. Three-dimensional tonotopic mapping of the human cochlea based on synchrotron radiation phase-contrast imaging. Sci Rep 11, 4437 (2021). https://doi-org.insb.bib.cnrs.fr/10.1038/s41598-021-83225-w
+- Kiang, N.Y. (1980). Processing of speech by the auditory nervous system. J Acoust Soc Am. 1980 Sep;68(3):830-5.
+- van der Heijden, M., Joris, P.X. (2003). Cochlear phase and amplitude retrieved from the auditory nerve at arbitrary frequencies. J Neurosci. 2003 Oct 8;23(27):9194-8.
+- Russell, I.J., Nilsen K.E. (1997) The location of the cochlear amplifier: spatial representation of a single tone on the guinea pig basilar membrane. Proc Natl Acad Sci U S A. 1997 Mar 18;94(6):2660-4.
+- Li, H., Helpard, L., Ekeroot, J. et al. (2021) Three-dimensional tonotopic mapping of the human cochlea based on synchrotron radiation phase-contrast imaging. Sci Rep 11, 4437.
 
 ## Notes
 

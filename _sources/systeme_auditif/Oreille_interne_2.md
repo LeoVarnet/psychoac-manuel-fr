@@ -138,7 +138,6 @@ Lorsque le niveau sonore est faible, les tuning curves possédent une excellente
 
 Il est possible de mettre à jour le modèle de la cochlée comme un banc de filtres gammatones, vu précédemment, pour prendre en compte l'effet des cellules ciliées externes. Une première option très simple consiste à appliquer une fonction compressive (par exemple une loi puissance avec un exposant négatif) sur la sortie des gammatones. Ceci n'est cependant pas entièrement satisfaisant car la cochlée ainsi simulée, si elle réalise bien une compression de dynamique, conserve cependant la même résolution fréquencielle quel que soit le niveau sonore d'entrée. Une seconde option, légèrement plus sophistiquée, s'appuie sur des *dual-resonance nonlinear filters* (**filtres DRNL**). Ces filtres non-linéaires reproduisent l'évolution des *tuning curves* avec le niveau sonore, illustré figure xxx. Leur réponse est calculée comme la somme des réponses de deux filtres plus simples : Le premier, linéaire et semblable aux gammatones mais avec une résolution plus faible, correspond à l'action mécanique du système, tandis que le deuxième, non-linéaire et plus sélectif en fréquence, rend compte des mécanismes actifs. La figure illustre le gain d'un filtre DRNL accordé à xxx Hz, lorsque le niveau sonore entrant est faible (30 dB SPL) ou fort (90 dB SPL). La réponse de la branche linéaire (en xx) est identique dans les deux cas ; en revanche la branche non-linéaire amplifie plus le son faible que le son fort. La somme des deux, en bleu, correspond à la sortie du DRNL et reproduit approximativement les observations de la figure xxx.
 
-
 ```{figure} DRNL.png
 ---
 name: DRNL.png
@@ -151,6 +150,9 @@ align: center
 
 ## Nerf auditif
 
+[parler de la connexion]
+
+**Le double codage des sons réalisé par la cochlée est maintenu au niveau du nerf auditif**. D'une part, chaque fibre du nerf auditif étant connectée à une région particulière de la membrane basilaire, elle est préférentiellement activée par certaines fréquences. Ce codage tonotopique se retrouve dans l'organisation des fibres au sein du nerf auditif : celles codant les fréquences aiguës sont au centre et celles codant les fréquences graves sont en périphérie. D'autres part
 
 ```{figure} ANtonotopy.png
 ---

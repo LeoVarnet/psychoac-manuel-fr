@@ -152,7 +152,8 @@ align: center
 
 [parler de la connexion]
 
-**Le double codage des sons réalisé par la cochlée est maintenu au niveau du nerf auditif**. D'une part, chaque fibre du nerf auditif étant connectée à une région particulière de la membrane basilaire, elle est préférentiellement activée par certaines fréquences. Ce codage tonotopique se retrouve dans l'organisation des fibres au sein du nerf auditif : celles codant les fréquences aiguës sont au centre et celles codant les fréquences graves sont en périphérie. D'autres part
+**Le double codage des sons réalisé par la cochlée est maintenu au niveau du nerf auditif**. D'une part, chaque fibre du nerf auditif étant connectée à une région particulière de la membrane basilaire, elle est préférentiellement activée par certaines fréquences. Ce codage tonotopique se retrouve dans l'organisation des fibres au sein du nerf auditif : celles codant les fréquences aiguës sont au centre et celles codant les fréquences graves sont en périphérie. 
+
 
 ```{figure} ANtonotopy.png
 ---
@@ -164,10 +165,7 @@ align: center
 *tonotopy in the auditory nerve (red: 20 Hz; green: 1 kHz; blue 20 kHz).*
 ```
 
-
-
-Par conséquent, les impulsions électriques envoyées au nerf auditif par les cellules ciliées présentent, elles aussi, une périodicité à la même fréquence ({numref}`PhaseLocking.png`). 
-
+D'autre part, le codage temporel observé dans la charge electrique des cellules ciliées est lui aussi maintenu au niveau du nerf auditif. Comme nous l'avons vu, les cellules ciliées envoient des potentiels d'action, qui correspondent à des pics du déplacement de la membrane basilaire. Les vibrations étant périodiques, les impulsions électriques envoyées au nerf auditif par les cellules ciliées présentent, elles aussi, une périodicité à la même fréquence. Comme illustré dans la ({numref}`PhaseLocking.png`) les décharges surviennennt globalement à proximité des maxima de la vibration, même si tous les maxima ne donnent pas nécessairement lieu à une décharge synchrone de toutes les cellules, certaines impulsions pouvant être absentes ou décalées. Néanmoins, chaque cellule émet des impulsions électriques avec une périodicité globalement alignée sur celle de l'onde. Dans la partie inférieure de la figure, la sommation des décharges transmises par l'ensemble des cellules ciliées au nerf auditif montre que, malgré une certaine variabilité, le signal global reproduit la périodicité du stimulus sonore.
 
 ```{figure} PhaseLocking.png
 ---
@@ -176,5 +174,5 @@ alt: Phase-locking
 width: 60%
 align: center
 ---
-*Illustration du principe du codage temporel. La partie supérieure de la figure représente l'onde sonore. En dessous sont schématisés les potentiels évoqués générés par trois cellules ciliées internes accordées à la fréquence de cette onde, et transmis au nerf auditif. Les décharges surviennennt globalement à proximité des maxima de la vibration, même si tous les maxima ne donnent pas nécessairement lieu à une décharge synchrone de toutes les cellules, certaines impulsions pouvant être absentes ou décalées. Néanmoins, chaque cellule émet des impulsions électriques avec une périodicité globalement alignée sur celle de l'onde. Dans la partie inférieure de la figure, la sommation des décharges provenant de l'ensemble des cellules ciliées montre que, malgré une certaine variabilité, le signal global transmis au nerf auditif reproduit la périodicité du stimulus sonore. (Source: Plack 2005)*
+*Illustration du principe du codage temporel. La partie supérieure de la figure représente l'onde sonore. En dessous sont schématisés les potentiels évoqués générés par trois cellules ciliées internes accordées à la fréquence de cette onde, et transmis au nerf auditif.  (Source: Plack 2005)*
 ```

@@ -181,4 +181,6 @@ Il faut ici mentionner que le nerf auditif ne joue pas uniquement un rôle de tr
 
 ## Systèmes afférent et efferent
 
-Nous avons évoqué précédemment le fait que les cellules ciliées externes permettent, dans certaines situations, l'amplification des oscillations de la membrane basilaire, grâce à un mécanisme convertissant les impulsions électriques en mouvements mécaniques. C'est donc que ces cellules reçoivent une information provenant d'étages supérieurs du système auditif. Cette information est **descendante** (***top-down***) ou **afférente** tandis que l'information provenant de l'extérieur et transmise au cerveau est dite **montante** (***bottom-up***) ou efférente.
+Nous avons évoqué précédemment le fait que les cellules ciliées externes permettent, dans certaines situations, l'amplification des oscillations de la membrane basilaire, grâce à un mécanisme convertissant les impulsions électriques en mouvements mécaniques. Ces cellules reçoivent donc des informations provenant d'étages supérieurs du système auditif. Cette information est **descendante** (***top-down***) ou **afférente** tandis que l'information provenant de l'extérieur et transmise au cerveau est dite **montante** (***bottom-up***) ou efférente. Ainsi le nerf auditif est constitué de fibres montantes qui 
+
+

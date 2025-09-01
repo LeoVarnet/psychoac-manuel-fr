@@ -176,3 +176,7 @@ align: center
 ---
 *Illustration du principe du codage temporel. La partie supérieure de la figure représente l'onde sonore. En dessous sont schématisés les potentiels évoqués générés par trois cellules ciliées internes accordées à la fréquence de cette onde, et transmis au nerf auditif.  (Source: Plack 2005)*
 ```
+
+Il faut ici mentionner que le nerf auditif ne joue pas uniquement un rôle de transmetteur. Même si, considérées dans leur ensemble, les potentiels d'action semblent simplement véhiculer les codes tonotopique et temporel établis par la cochlée, en réalité les différentes fibres du nerf auditif connectées à une même cellule ciliée ne transmettent pas exactement la même information. Certaines fibres dites "à bas seuil" sont activés dès que la cellule ciliée correspondante est excitée, même légèrement, mais saturent ensuite rapidement (c'est à dire qu'elles ne distinguent pas une excitation moyenne d'une activation forte). Au contraire, d'autres fibres dites "à haut seuil" ne se déclenchent qu'à partir d'un niveau relativement élevé d'excitation. Pour cette raison, les modèles du nerf auditif incluent généralement une dernière étape simulant les réponses des différents types de fibres ainsi qu'un processus aléatoire décidant du déclenchement ou non du potentiel d'action dans chaque fibre à un moment donné. Ces composantes ne sont pas nécessaires pour les besoins de ce cours et ne seront donc pas considérées par la suite.
+
+## Systèmes afférent et efferent

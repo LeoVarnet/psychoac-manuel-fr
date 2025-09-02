@@ -6,7 +6,7 @@ L'**oreille moyenne** est composée à chacune de ses extrémités de membranes 
 ```{figure} SysAudExt_ME.JPG
 ---
 name: SysAudExt_ME.JPG
-alt: Systeme auditif externe - oreille moyenne
+alt: Même vue en coupe du systeme auditif externe humain qu'à la section précédente. L’oreille moyenne est mise en évidence en orange. Sont annotés le tympan, au fond du conduit auditif, les osselets (marteau, étrier et enclume) qui forment une sorte de levier allant appuyer contre une autre membrane, la fenêtre ronde.
 width: 100%
 align: center
 ---
@@ -22,7 +22,7 @@ La fonction principale de l'oreille moyenne est donc de **convertir les vibratio
 ```{figure} Gray919.png
 ---
 name: Gray919.png
-alt: Osselets
+alt: Illustration anatomique en noir et blanc représentant une vue détaillée de l’oreille moyenne, mettant en évidence les os de la chaîne des osselets.
 width: 80%
 align: center
 ---
@@ -42,7 +42,7 @@ Comme pour l'oreille externe, nous modéliserons l'oreille moyenne par un simple
 ```{figure} middleear_filter.bmp
 ---
 name: middleear_filter.bmp
-alt: middle ear filter.bmp
+alt: Ce graphique représente le gain (de -6 dB à +21 dB) en fonction de la fréquence (de 100 à 8000 Hz), avec une courbe rouge pointillée et une courbe noire. La courbe rouge est en forme de triangle avec un maximum à 800 Hz. La courbe noire suit le même profil, avec en addition des pics dans les hautes fréquences, correspondant aux pics du filtre d'oreille externe de la section précédente.
 width: 80%
 align: center
 ---
@@ -56,7 +56,7 @@ La figure suivante illustre l'effet de ce filtre sur le même son de brouhaha qu
 ```{figure} middle_ear_demo.bmp
 ---
 name: middle_ear_demo.bmp
-alt: middle ear demo
+alt: L’image contient deux spectrogrammes placés côte à côte, représentant un signal audio sur 3 secondes. Le spectrogramme de droite est globalement moins lumineux que celui de gauche dans les hautes fréquences et dans les basses fréquences.
 width: 100%
 align: center
 ---

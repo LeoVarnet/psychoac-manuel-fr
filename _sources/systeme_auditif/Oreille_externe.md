@@ -35,11 +35,11 @@ align: center
 *HRTF mesurées sur 40 individus, pour 3 directions. Le trait blanc correspond à la moyenne sur le groupe. (Møller et al, 1995)*
 ```
 
-Dans l'ensemble, les résonnances au sein de l'oreille externe conduisent à une amplification d'environ 10 dB des fréquences autour de 2 kHz. Cette plage fréquentielle spécifique découle de la forme tubulaire et des dimensions du conduit auditif. À l’extrémité de ce conduit, l'onde fait ensuite vibrer le tympan, une membrane qui assure le lien avec l'oreille moyenne.
+Dans l'ensemble, le conduit auditif se comporte acoustiquement comme un tube ouvert à une extrémité. Ses résonnances conduisent à une amplification d'environ 10 dB des fréquences autour de 2-3 kHz. À l'extrémité du conduit, l'onde fait ensuite vibrer le tympan, une membrane qui assure le lien avec l'oreille moyenne.
 
 ## Modéliser l'oreille externe 
 
-Dans le cadre de ce chapitre nous ne nous intéresserons pas au traitement de l'information de localisation des sons. Pour modéliser l'effet de l'oreille externe, nous choisirons donc de partir de l'hypothèse de sons pénétrant dans l'oreille avec un angle d'incidence de 90°, comme c'est le cas lors d’une écoute au casque. Dans cette situation, il suffit de considérer la HRTF centrale présentée dans la figure précédente, et de l’utiliser comme un filtre linéaire, ainsi qu'illustré dans la figure suivante :
+Dans le cadre de ce chapitre nous ne nous intéresserons pas au traitement de l'information de localisation des sons. Pour modéliser l'effet de l'oreille externe, nous choisirons donc de partir de l'hypothèse de sons pénétrant dans l'oreille avec un angle d'incidence de 90°, comme c'est le cas lors d'une écoute au casque. Dans cette situation, il suffit de considérer la HRTF centrale présentée dans la figure précédente, et de l'utiliser comme un filtre linéaire, ainsi qu'illustré dans la figure suivante :
 
 ```{figure} outer_ear_filter.jpg
 ---

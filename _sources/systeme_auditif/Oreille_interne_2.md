@@ -65,7 +65,7 @@ alt: Phase-locking
 width: 60%
 align: center
 ---
-* (Palmer & Russel, 1986)*
+* (Palmer and Russel, 1986)*
 ```
 
 **Le codage des fréquences par l'oreille interne est donc double**. D'une part, chaque fréquence active une région spécifique de la membrane basilaire, mobilisant un sous-ensemble distinct de cellules ciliées (codage tonotopique). D'autre part, les potentiels d'action suivent approximativement le rythme des vibrations, rendant le signal électrique lui-même périodique (codage temporel). Par ailleurs, ces deux codes présentent chacun des limitations spécifiques dans les hautes fréquences : le codage tonotopique devient de moins en moins précis pour les fréquences élevées, tandis que le codage temporel ne peut pas suivre fidèlement la périodicité du son au delà de 1 kHz environ.

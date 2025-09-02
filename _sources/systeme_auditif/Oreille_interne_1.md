@@ -137,7 +137,7 @@ alt: Calcul du pattern d'excitation
 width: 60%
 align: center
 ---
-*Calcul du pattern d'excitation pour un ton pur de fréquence 1 kHz, dont le spectre de Fourier est représenté dans le panneau supérieur. Le panneau central présente les fonctions de transfert de cinq filtres gammatones particuliers, possédant des fréquences d'accordage de  762 Hz, 875 Hz, 1000 Hz, 1141 Hz et 1297 Hz. Pour chacun de ces gammatones, l'excitation par le ton pur à 1 kHz est indiquée par un point. Dans le panneau inférieur, ces cinq valeurs sont reportées en fonction de la fréquence d'accordage du gammatone. La courbe complète du pattern d'excitation est obtenue en reproduisant cette analyse pour toutes les fréquences d'accordage.*
+*Calcul du pattern d'excitation pour un ton pur de fréquence 1 kHz, dont le spectre de Fourier est représenté dans le panneau supérieur. Le panneau central présente les fonctions de transfert de cinq filtres gammatones particuliers, possédant des fréquences d'accordage de  762 Hz, 875 Hz, 1000 Hz, 1141 Hz et 1297 Hz. Pour chacun de ces gammatones, l'excitation par le ton pur à 1 kHz est indiquée par un point. Dans le panneau inférieur, ces cinq valeurs sont reportées en fonction de la fréquence d'accordage du gammatone. La courbe complète du pattern d'excitation est obtenue en reproduisant cette analyse pour toutes les fréquences d'accordage. (Figure inspirée de Moore & Glasberg, 1983)*
 ```
 
 La figure suivante représente le pattern d'excitation en réponse à un ton pur à 1.5 kHz. Cette simulation peut être rapprochée des valeurs d'excitation de la membrane basilaire représentées en {numref}`Excitation.jpeg`. Notez la différence d'échelle de fréquence entre les deux figures : l'axe des fréquences est inversé et les valeurs utilisées dans la simulation correspondent davantage à la gamme audible humaine. 
@@ -176,6 +176,7 @@ Avant d'explorer plus avant ce modèle, il est nécessaire d'envisager en premie
 - van der Heijden, M., Joris, P.X. (2003). Cochlear phase and amplitude retrieved from the auditory nerve at arbitrary frequencies. J Neurosci. 2003 Oct 8;23(27):9194-8.
 - Russell, I.J., Nilsen K.E. (1997) The location of the cochlear amplifier: spatial representation of a single tone on the guinea pig basilar membrane. Proc Natl Acad Sci U S A. 1997 Mar 18;94(6):2660-4.
 - Li, H., Helpard, L., Ekeroot, J. et al. (2021) Three-dimensional tonotopic mapping of the human cochlea based on synchrotron radiation phase-contrast imaging. Sci Rep 11, 4437.
+- Moore, B. C., & Glasberg, B. R. (1983). Suggested formulae for calculating auditory-filter bandwidths and excitation patterns. The Journal of the Acoustical Society of America, 74(3), 750‑753. https://doi.org/10.1121/1.389861
 
 ## Notes
 

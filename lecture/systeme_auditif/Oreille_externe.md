@@ -6,7 +6,7 @@ Nous entamons notre périple le long du système auditif par l'élément qui con
 ```{figure} SysAudExt_OE.JPG
 ---
 name: SysAudExt_OE.JPG
-alt: Systeme auditif externe - oreille externe
+alt: Même vue en coupe du systeme auditif externe humain qu'à la section précédente. L’oreille externe est mise en évidence en bleu clair. Sont annotés le pavillon de l'oreille, et l’hélix, bord externe enroulé du pavillon, le conduit auditif qui guide les ondes sonores vers le tympan.
 width: 100%
 align: center
 ---
@@ -28,7 +28,8 @@ Comme nous venons de le voir, l'oreille externe réalise un filtrage directionne
 ```{figure} HRTF.jpg
 ---
 name: HRTF.jpg
-alt: HRTF
+alt: L’image présente trois graphiques côte à côte illustrant le gain acoustique (en dB) en fonction de la fréquence du son (en Hz) pour trois angles d'incidence différents du son par rapport à la tête humaine. L'axe horizontal indique la fréquence, allant de 200 Hz à 10 kHz. L'axe vertical indique le gain en décibels, de -30 dB à +20 dB. Graphique de gauche : angle d'incidence 180° (le son vient de l’arrière de la tête). On observe un gain relativement plat jusqu’à 2 kHz, avec un pic à 2 kHz, suivi d’une baisse notable entre 6 et 10 kHz. 
+Graphique central : angle 90° (le son vient de côté, directement dans l'oreille). Le gain augmente progressivement avec la fréquence et présente des pics nets à 2 kHz et au-dessus de 5 kHz. Graphique de droite : angle 0° (le son vient de face). Le gain est plus important dans les hautes fréquences, avec un pic marqué autour de 2 kHz. Chaque graphique contient plusieurs courbes fines (mesures individuelles) et une courbe épaisse représentant la moyenne.
 width: 100%
 align: center
 ---
@@ -44,7 +45,7 @@ Dans le cadre de ce chapitre nous ne nous intéresserons pas au traitement de l'
 ```{figure} outer_ear_filter.jpg
 ---
 name: outer_ear_filter.jpg
-alt: Filtre d'oreille externe
+alt: Ce graphique représente l’évolution du gain de pression acoustique (de -12 dB à +12 dB) en fonction de la fréquence (de 100 à 8000 Hz), avec une courbe rouge épaisse. La courbe est presque plate (environ 0 dB) entre 125 Hz et 2 kHz, indiquant une réponse neutre. À partir de 2 kHz, le gain augmente rapidement, atteignant un pic à environ 3.2 kHz (environ +9 dB), puis diminue légèrement, avant de chuter fortement au-delà de 7 kHz.
 width: 70%
 align: center
 ---
@@ -56,7 +57,7 @@ Lorsqu'on applique ce filtre à un signal sonore, par exemple ici un brouhaha co
 ```{figure} outer_ear_demo.jpg
 ---
 name: outer_ear_demo.jpg
-alt: Démo du filtre d'oreille externe
+alt: L’image contient deux spectrogrammes placés côte à côte, représentant un signal audio sur 3 secondes. Le spectrogramme de droite est globalement plus lumineux que celui de gauche, particulièrement dans les bandes de fréquences moyennes (1000–4000 Hz), suggérant un gain ou une amplification du signal.
 width: 100%
 align: center
 ---

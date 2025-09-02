@@ -20,7 +20,7 @@ Le plan de ce chapitre suit la structure du système auditif humain. Nous commen
 ```{figure} SysAudExt.jpg
 ---
 name: SysAudExt.jpg
-alt: Systeme auditif externe
+alt: Schéma en noir et blanc représentant une coupe anatomique du système auditif externe humain. L’image montre les différentes parties de l’oreille depuis l’extérieur jusqu’à l’intérieur. De gauche à droite, on distingue : L’oreille externe, avec le pavillon et le conduit auditif externe. L’oreille moyenne, contenant le tympan (membrane circulaire tendue) et la chaîne des osselets (marteau, enclume, étrier). L’oreille interne, représentée par une cochlée (structure en spirale) ainsi que les canaux semi-circulaires (structures en boucle). À droite de la cochlée, on voit également le nerf auditif qui prolonge l’oreille interne en direction du cerveau.
 height: 400px
 align: center
 ---

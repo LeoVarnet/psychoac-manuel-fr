@@ -5,7 +5,7 @@
 
 - Introduction ([slides](https://sdrive.cnrs.fr/s/F6DC2z6E2ERkPsA))
 - Cours 1 : Méthodologie de la psychophysique et de la psychoacoustique ([slides](https://sdrive.cnrs.fr/s/6BQBKxQxstB3SZg))
-- Cours 2 : Physiologie du système auditif ([slides](https://sdrive.cnrs.fr/s/Mg3dGHsZZLW47dR))
+- Cours 2 : Physiologie du système auditif ([slides](https://sdrive.cnrs.fr/s/9rAAnyQR8mAWS6n))
 - Cours 3 : Attributs perceptifs simples et capacités auditives bas niveau ([slides](https://sdrive.cnrs.fr/s/tqTF66wTgniGTig))
 - Cours 4 : Psycholinguistique et perception des phonèmes ([slides](https://sdrive.cnrs.fr/s/R4WHBkH4pyKAASE))
 - Cours 5 : Perception et réalité ([slides](https://sdrive.cnrs.fr/s/sTnbPYfNjCdBYrF))

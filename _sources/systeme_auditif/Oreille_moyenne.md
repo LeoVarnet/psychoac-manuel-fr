@@ -46,7 +46,7 @@ alt: middle ear filter.bmp
 width: 80%
 align: center
 ---
-*Approximation du filtre d’oreille moyenne (trait rouge) et externe + moyenne combinées (trait noir). (Lopez-Poveda and Meddis, 2001; Goode et al., 1994)*
+*Approximation du filtre d’oreille moyenne (trait rouge) et externe + moyenne combinées (trait noir) [[1](note1ormoy)]. (Lopez-Poveda and Meddis, 2001; Goode et al., 1994)*
 ```
 
 Plutôt que de modéliser l'oreille externe et moyenne par deux filtres successifs, il est également possible de les rassembler en un seul (en noir sur la figure ci-dessus).
@@ -63,6 +63,11 @@ align: center
 *Spectrogramme d’un brouhaha composé de 5 voix superposées, avant (gauche) et après (droite) passage par l’oreille externe et l'oreille moyenne. Cette figure a été obtenue par simulation grâce au filtre décrit ci-dessus*
 ```
 
+## Notes
+
+(note1ormoy)=
+
+[1] Notez que le gain en dB doit être interprété avec précaution, car la fonction relie l'amplitude de l'onde en entrée au déplacement de l'étrier en sortie.
 
 ## Références
 

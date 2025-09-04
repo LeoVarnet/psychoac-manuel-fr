@@ -58,15 +58,17 @@ Mais ce n'est pas tout : l'onde sonore étant composée de fluctuations périodi
 
 Cependant, ce mécanisme de codage a ses limites. En effet, la cellule ciliée ne peut pas réagir instantanément à chaque mouvement des stéréocils : elle a besoin d'un temps très court pour se décharger avant de pouvoir être à nouveau activée. Pour des sons de fréquence basse, comme on l'a vu, ce délai est suffisamment court pour permettre à la cellule de suivre chaque cycle sonore. En revanche, lorsque la fréquence augmente au delà de 1 kHz, les fluctuations deviennent trop rapides pour que la cellule puisse réagir à chaque période de l'onde. Dans ce cas, la réponse électrique devient plus stable et plus constante. Au lieu de suivre les détails temporels fins du son, elle reflète alors surtout l'intensité moyenne de la fréquence considérée (figure xxx).
 
+
 ```{figure} Phaselock.png
 ---
 name: Phaselock.png
-alt: Phase-locking
+alt: Phaselock.png
 width: 60%
 align: center
 ---
-* (Palmer and Russel, 1986)*
+*Palmer and Russel, 1986*
 ```
+
 
 **Le codage des fréquences par l'oreille interne est donc double**. D'une part, chaque fréquence active une région spécifique de la membrane basilaire, mobilisant un sous-ensemble distinct de cellules ciliées (codage tonotopique). D'autre part, les fluctuations de la membrane basilaire suivent approximativement le rythme de l'onde, rendant le signal électrique lui-même périodique (codage temporel). Par ailleurs, ces deux codes présentent chacun des limitations spécifiques dans les hautes fréquences : le codage tonotopique devient de moins en moins précis pour les fréquences élevées, tandis que le codage temporel ne peut pas suivre fidèlement la périodicité du son au delà de 1 kHz environ.
 

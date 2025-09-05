@@ -95,7 +95,7 @@ alt: Spectrogramme auditif
 width: 100%
 align: center
 ---
-*Trois exemples de spectrogramme auditif, en réponse à un ton pur à 300 Hz (panneau A), à deux tons purs à 300 et 600 Hz (panneau B), et à un complexe harmonique de fréquence fondamentalementale 300 Hz (panneau C). A droite de chaque spectrogramme est représenté le pattern d'excitation, et au dessus la réponse électrique d'une cellule ciliée particulière : accordée à 300 Hz (panneau A), à 600 Hz (panneau B) ou à 3000 Hz (panneau C).*
+*Trois exemples de spectrogramme auditif, en réponse à un ton pur à 300 Hz (panneau A), à deux tons purs à 300 et 600 Hz (panneau B), et à un complexe harmonique de fréquence fondamentalementale 300 Hz (panneau C). A droite de chaque spectrogramme est représenté le pattern d'excitation, et au dessus la réponse électrique simulée d'une cellule ciliée particulière (c'est-à-direune ligne du spectrogramme) : cellule accordée à 300 Hz (panneau A), à 600 Hz (panneau B) ou à 3000 Hz (panneau C).*
 ```
 
 Trois spectrogrammes auditifs sont représentés {numref}`AuditorySpectrogram.png`. Le premier correspond à l'écoute d'un simple ton pur à 300 Hz. On identifie aisément le codage tonotopique par la présence d'une bande horizontale, c'est à dire d'une région de la cochlée particulièrement excitée par le ton pur. Le spectrogramme auditif rend également compte du codage temporel, sous la forme d'une périodicité à 300 Hz de l'excitation [traveling wave]. Cette dernière est particulièrement bien visible lorsqu'on isole le taux de décharges simulé des cellules accordées à 300 Hz, qui reproduit assez fidèlement les observations de la {numref}`Phaselock.png`. On retrouve ce double code tonotopique/temporel lorsqu'on considère le spectrogramme auditif de deux tons purs ({numref}`Phaselock.png`B). 
@@ -115,7 +115,7 @@ alt: Isoresponse tuning curve pre-/post mortem
 width: 70%
 align: center
 ---
-*Isoresponse tuning curve pre-/post mortem.*
+*Isoresponse tuning curves mesurée ante-mortem (courbe verte, similaire à la figure xxx) ou post-mortem (courbe rouge, même mesure, mais sans action des mécanismes actifs).*
 ```
 
 Comme on le constate sur la figure, les *tuning curves* mesurées post-mortem -- et correspondant donc au fonctionnement purement mécanique de la cochlée -- sont très atténuées (xxx dB au maximum) et relativement larges. La viscosité de la périlymphe et la résistance de la membrane basilaire entraînent une grande déperdition d'énergie et on voit donc que l'idée d'une cochlée fonctionnant sur la seule base de l'action mecanique de l'onde entrante n'est pas tenable. Seule l'existence de mécanismes actifs compensant le damping et améliorant la sélectivité fréquentielle permet d'expliquer la grande efficacité de la cochlée dans la transmission de l'information. 
@@ -129,7 +129,7 @@ alt: tuning curve effect of level
 width: 70%
 align: center
 ---
-*tuning curve effect of level.*
+*Tuning curve pour une même cellule ciliée, mesurée avec différents volumes sonores pour la stimulation. Cette mesure met en évidence la non-linéarité du système : les sons faibles sont plus amplifiés que les sons forts, et la sélectivité est meilleure dans le premier cas.*
 ```
 
 Lorsque le niveau sonore est faible, les tuning curves possédent une excellente résolution et [check] n'atténuent pas les sons au niveau de leur fréquence d'accordage. En revanche, à des niveaux sonores élevés, la tuning curve devient très peu sélective et atténuent fortement les sons (xxx dB et plus). De façon prévisible, le même phénomène peut également être observé au niveau des patterns d'excitation (voir {numref}`Excitation.jpeg`)
@@ -145,7 +145,7 @@ alt: DRNL
 width: 70%
 align: center
 ---
-*DRNL.*
+*Tuning curve simulée au moyen d'un filtre DRNL, pour un niveau sonore entrant de 30 dB SPL (gauche) ou de 90 dB SPL (droite). La courbe bleue correspond à la réponse en fréquence du DRNL, les courbes xxx et xxx à ses composantes linéaires et non-linéaires, respectivement.*
 ```
 
 Un aspect qui n'est cependant pas pris en compte dans le modèle DRNL est la dynamique temporelle du contrôle de gain. En effet, les filtres non-linéaire décrits ci-dessus réagissent instantanément 
@@ -163,7 +163,7 @@ alt: tonotopy in the auditory nerve
 width: 50%
 align: center
 ---
-*tonotopy in the auditory nerve (red: 20 Hz; green: 1 kHz; blue 20 kHz).*
+*Organisation tonotopique au sein du nerf auditif. Les fibres correspondant à 33 gammes de fréquences sont identifiées en couleur : rouge : basse fréquence, vert : fréquences médium,bleu : hautes fréquences.*
 ```
 
 D'autre part, le codage temporel observé dans la charge electrique des cellules ciliées est lui aussi maintenu au niveau du nerf auditif. Comme nous l'avons vu, les cellules ciliées envoient des potentiels d'action, qui correspondent à des pics du déplacement de la membrane basilaire. Les vibrations étant périodiques, les impulsions électriques envoyées au nerf auditif par les cellules ciliées présentent, elles aussi, une périodicité à la même fréquence. Comme illustré dans la ({numref}`PhaseLocking.png`) les décharges surviennennt globalement à proximité des maxima de la vibration, même si tous les maxima ne donnent pas nécessairement lieu à une décharge synchrone de toutes les cellules, certaines impulsions pouvant être absentes ou décalées. Néanmoins, chaque cellule émet des impulsions électriques avec une périodicité globalement alignée sur celle de l'onde. Dans la partie inférieure de la figure, la sommation des décharges transmises par l'ensemble des cellules ciliées au nerf auditif montre que, malgré une certaine variabilité, le signal global reproduit la périodicité du stimulus sonore.

@@ -27,7 +27,7 @@ alt: Schéma en coupe de la cochlée
 width: 100%
 align: center
 ---
-*Schéma en coupe de la cochlée. (Source : [Openstax](https://openstax.org/books/anatomy-and-physiology/pages/14-1-sensory-perception))*
+*Schéma de la cochlée en coupe avec un zoom sur l'organe de Corti. (Source : [Openstax](https://openstax.org/books/anatomy-and-physiology/pages/14-1-sensory-perception))*
 ```
 
 ```{figure} Hair_cell.png
@@ -37,7 +37,7 @@ alt: Schéma des cellules cilliées
 width: 100%
 align: center
 ---
-*Schéma des cellules cilliées. (Source : [Openstax](https://openstax.org/books/anatomy-and-physiology/pages/14-1-sensory-perception))*
+*Schéma de la cochlée en coupe avec un zoom sur les cellules cilliées. (Source : [Openstax](https://openstax.org/books/anatomy-and-physiology/pages/14-1-sensory-perception))*
 ```
 
 Ainsi, la cellule ciliée est capable de convertir un mouvement latéral de ses stéréocils en une impulsion électrique, ensuite transmise au cerveau. Mais comment cette propriété est-elle exploitée pour coder les vibrations de la membrane basilaire ? La réponse réside dans une structure spécialisée : **l'organe de Corti** (voir {numref}`Organ_of_Corti.png` et {numref}`I_H_Hair_cell.png`). Les cellules ciliées internes décrites plus haut sont attachées à la membrane basilaire, mais leurs stéréocils sont reliés à une seconde membrane, la membrane tectoriale, disposée parallèlement à la première. Lorsqu'une onde sonore progresse le long de la cochlée, elle induit un déplacement vertical de la membrane basilaire. Ce mouvement provoque un glissement des deux membranes l'une par rapport à l'autre, entraînant un déplacement latéral des stéréocils ce qui génère un potentiel d'action dans les fibres du nerf auditif reliées à la cellule.
@@ -65,7 +65,7 @@ alt: Phaselock.png
 width: 60%
 align: center
 ---
-*Palmer and Russel, 1986*
+*Fluctuations du potentiel électrique de cellules cilliées en réponse à des tons purs à différentes fréquences. Pour des fréquences inférieures à 1 kHz, l'activité électrique présente une périodicité à la même fréquence que le son : c'est le codage temporel. Au dessus de 1 kHz, la cellule n'est plus en mesure de suivre les fluctuations rapides du son. (Palmer and Russel, 1986)*
 ```
 
 **Le codage des fréquences par l'oreille interne est donc double**. D'une part, chaque fréquence active une région spécifique de la membrane basilaire, mobilisant un sous-ensemble distinct de cellules ciliées (codage tonotopique). D'autre part, les fluctuations de la membrane basilaire suivent approximativement le rythme de l'onde, rendant le signal électrique lui-même périodique (codage temporel). Par ailleurs, ces deux codes présentent chacun des limitations spécifiques dans les hautes fréquences : le codage tonotopique devient de moins en moins précis pour les fréquences élevées, tandis que le codage temporel ne peut pas suivre fidèlement la périodicité du son au delà de 1 kHz environ.
@@ -83,10 +83,10 @@ alt: Sortie temporelle des filtres gammatones
 width: 60%
 align: center
 ---
-*Sortie temporelle des filtres gammatone.*
+*Modélisation des vibrations en différents points de la membrane basilaire, en réponse à un complexe harmonique de fréquence fondamentalementale 500 Hz. Le spectre de ce signal est représenté dans le panneau supérieur. En dessous sont tracées les réponses en fréquence de 5 gammatones, de fréquences d'accordage 500 Hz, xxx. La partie inférieure de la figure présente la sortie temporelle de chacun de ces gammatones. On observe une périodicité à 500 Hz dans la réponse du filtre gammatone accordé à 500 Hz, et dans l'enveloppe de la réponse des filtres de fréquence d'accordage élevées. (Inspiré de Plack xxx)*
 ```
 
-Pour modéliser le potentiel électrique des cellules cilliées, une approximation peut être obtenues en deux étapes simples : rectifier la sortie du gammatone en mettant à zéro les valeurs négatives (car les cellules ciliées déchargent lorsque les stéréocils sont pliés dans un sens, mais non dans l'autre), puis appliquer un filtrage passe-bas en dessous de 1 kHz (en effet, comme évoqué plus haut, les cellules ciliées sont incapables de suivre des fréquences au delà de 1 kHz environ). En affichant le résultat en fonction de la fréquence centrale du gammatone et du temps, on obtient une représentation spectro-temporelle appelée **spectrogramme auditif** (voir {numref}`AuditorySpectrogram.png`). Chaque ligne de cette représentation correspond à une position le long de la cochlée et les nuances de couleurs indiquent le taux de décharges des cellules cilliées correspondantes au cours du temps.
+Pour modéliser les fluctuations du potentiel électrique des cellules cilliées en réponse à un son, une approximation peut être obtenues en deux étapes simples : rectifier la sortie du gammatone en mettant à zéro les valeurs négatives (car les cellules ciliées se chargent lorsque les stéréocils sont pliés dans un sens, mais non dans l'autre), puis appliquer un filtrage passe-bas en dessous de 1 kHz (en effet, comme évoqué plus haut, les cellules ciliées sont incapables de suivre des fréquences au delà de 1 kHz environ). En affichant le résultat en fonction de la fréquence centrale du gammatone et du temps, on obtient une représentation spectro-temporelle appelée **spectrogramme auditif** (voir {numref}`AuditorySpectrogram.png`). Chaque ligne de cette représentation correspond à une position le long de la cochlée et les nuances de couleurs indiquent le taux de décharges des cellules cilliées correspondantes au cours du temps.
 
 ```{figure} AuditorySpectrogram.png
 ---
@@ -95,7 +95,7 @@ alt: Spectrogramme auditif
 width: 100%
 align: center
 ---
-*Spectrogramme auditif.*
+*Trois exemples de spectrogramme auditif, en réponse à un ton pur à 300 Hz (panneau A), à deux tons purs à 300 et 600 Hz (panneau B), et à un complexe harmonique de fréquence fondamentalementale 300 Hz (panneau C). A droite de chaque spectrogramme est représenté le pattern d'excitation, et au dessus la réponse électrique d'une cellule ciliée particulière : accordée à 300 Hz (panneau A), à 600 Hz (panneau B) ou à 3000 Hz (panneau C).*
 ```
 
 Trois spectrogrammes auditifs sont représentés {numref}`AuditorySpectrogram.png`. Le premier correspond à l'écoute d'un simple ton pur à 300 Hz. On identifie aisément le codage tonotopique par la présence d'une bande horizontale, c'est à dire d'une région de la cochlée particulièrement excitée par le ton pur. Le spectrogramme auditif rend également compte du codage temporel, sous la forme d'une périodicité à 300 Hz de l'excitation [traveling wave]. Cette dernière est particulièrement bien visible lorsqu'on isole le taux de décharges simulé des cellules accordées à 300 Hz, qui reproduit assez fidèlement les observations de la {numref}`Phaselock.png`. On retrouve ce double code tonotopique/temporel lorsqu'on considère le spectrogramme auditif de deux tons purs ({numref}`Phaselock.png`B). 

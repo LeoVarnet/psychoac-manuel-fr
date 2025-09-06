@@ -152,9 +152,9 @@ Un aspect qui n'est cependant pas pris en compte dans le modèle DRNL est la dyn
 
 ## Nerf auditif
 
-[parler de la connexion]
+Comme nous l'avons mentionné plus haut, chaque cellule ciliée est connecté à un certain nombre de fibres du nerf auditif (environ une trentaine). En général, un potentiel électrique élevé de la cellule déclenche l'envoi d'un potentiel d'action dans les fibres. Il s'agit d'un processus un peu aléatoire 
 
-**Le double codage des sons réalisé par la cochlée est maintenu au niveau du nerf auditif**. D'une part, chaque fibre du nerf auditif étant connectée à une région particulière de la membrane basilaire, elle est préférentiellement activée par certaines fréquences. Ce codage tonotopique se retrouve dans l'organisation des fibres au sein du nerf auditif : celles codant les fréquences aiguës sont au centre et celles codant les fréquences graves sont en périphérie. 
+**Le double codage des sons réalisé par la cochlée est maintenu au niveau du nerf auditif**. D'une part, chaque fibre du nerf auditif étant connectée à une cellule ciliée particulière (elle même attachée à une région particulière de la membrane basilaire), elle est préférentiellement activée par certaines fréquences. Ce codage tonotopique se retrouve dans l'organisation des fibres au sein du nerf auditif : celles codant les fréquences aiguës sont au centre et celles codant les fréquences graves sont en périphérie. 
 
 ```{figure} ANtonotopy.png
 ---
@@ -166,7 +166,7 @@ align: center
 *Organisation tonotopique au sein du nerf auditif. Les fibres correspondant à trois gammes de fréquences, connectées à différents points de la cochlée sont identifiées en couleur : basse fréquence en rouge, fréquences médium en vert, hautes fréquences en bleu.*
 ```
 
-D'autre part, le codage temporel observé dans la charge electrique des cellules ciliées est lui aussi maintenu au niveau du nerf auditif. Comme nous l'avons vu, les cellules ciliées envoient des potentiels d'action, qui correspondent à des pics du déplacement de la membrane basilaire. Les vibrations étant périodiques, les impulsions électriques envoyées au nerf auditif par les cellules ciliées présentent, elles aussi, une périodicité à la même fréquence. Comme illustré dans la ({numref}`PhaseLocking.png`) les décharges surviennennt globalement à proximité des maxima de la vibration, même si tous les maxima ne donnent pas nécessairement lieu à une décharge synchrone de toutes les cellules, certaines impulsions pouvant être absentes ou décalées. Néanmoins, chaque cellule émet des impulsions électriques avec une périodicité globalement alignée sur celle de l'onde. Dans la partie inférieure de la figure, la sommation des décharges transmises par l'ensemble des cellules ciliées au nerf auditif montre que, malgré une certaine variabilité, le signal global reproduit la périodicité du stimulus sonore.
+D'autre part, le codage temporel observé dans la charge electrique des cellules ciliées est lui aussi maintenu au niveau du nerf auditif. En effet, les potentiels d'action suivent globalement l'activité électrique des cellules ciliés, et surviennent donc majoritairement aux pics du déplacement de la membrane basilaire. Les vibrations étant périodiques, les impulsions électriques envoyées au nerf auditif par les cellules ciliées présentent, elles aussi, une périodicité à la même fréquence. Comme illustré dans la ({numref}`PhaseLocking.png`) les décharges surviennennt globalement à proximité des maxima de la vibration, même si tous les maxima ne donnent pas nécessairement lieu à une décharge synchrone de toutes les cellules, certaines impulsions pouvant être absentes ou décalées. Néanmoins, chaque cellule émet des impulsions électriques avec une périodicité globalement alignée sur celle de l'onde. Dans la partie inférieure de la figure, la sommation des décharges transmises par l'ensemble des cellules ciliées au nerf auditif montre que, malgré une certaine variabilité, le signal global reproduit la périodicité du stimulus sonore.
 
 ```{figure} PhaseLocking.png
 ---

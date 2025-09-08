@@ -19,7 +19,7 @@ align: center
 
 Etant donnée la complexité de l'oreille interne, j'ai choisi de subdiviser sa description en deux chapitres. Cette première partie porte sur la membrane basilaire et son rôle dans la décomposition des sons en fréquences. Dans le chapitre suivant, nous explorerons le fonctionnement des cellules ciliées et du nerf auditif.
 
-## La cochlée, la membrane basilaire, et le codage tonotopique
+## Cochlée, la membrane basilaire, et le codage tonotopique
 
 La première fonction de la cochlée est de réaliser la décomposition de l'onde sonore en fréquence, c'est-à-dire de réaliser son analyse spectrale.
 

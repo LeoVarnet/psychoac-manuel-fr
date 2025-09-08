@@ -1,6 +1,10 @@
 
 # Du système auditif périphérique au système auditif central
 
+```{warning}
+Page en cours de construction
+```
+
 ## Systèmes afférent et efférent
 
 Nous avons évoqué précédemment le fait que les cellules ciliées externes permettent, dans certaines situations, l'amplification des oscillations de la membrane basilaire, grâce à un mécanisme convertissant les impulsions électriques en mouvements mécaniques. Ces cellules reçoivent donc des informations provenant d'étages supérieurs du système auditif. Cette information est **descendante** (***top-down***) ou **efférente** tandis que l'information provenant de l'extérieur et transmise au cerveau est dite **montante** (***bottom-up***) ou **afférente**. Ainsi le nerf auditif est constitué de fibres montantes qui 

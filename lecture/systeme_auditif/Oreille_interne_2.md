@@ -4,7 +4,9 @@
 Page en cours de construction
 ```
 
-Dans la précédente section de ce chapitre, nous avons vu comment les vibrations transmises à l'oreille interne excitent localement la membrane basilaire, permettant la décomposition du son en différentes fréquences. Nous allons à présent nous intéresser à la seconde fonction essentielle de l'oreille interne : la conversion des vibrations mécaniques en impulsions électriques. Cette étape, appelée **transduction**, est fondamentale puisque le cerveau est en mesure de recevoir et traiter une information électrique, mais non une vibration mécanique. Dans un second temps, nous envisagerons la troisième fonction de la cochlée : l'amplification/compression des signaux.
+Dans la précédente section de ce chapitre, nous avons vu comment les vibrations transmises à l'oreille interne excitent localement la membrane basilaire, permettant la décomposition du son en différentes fréquences. Nous allons à présent nous intéresser à la seconde fonction essentielle de l'oreille interne : la conversion des vibrations mécaniques en impulsions électriques. Cette étape, appelée **transduction**, est fondamentale puisque le cerveau est en mesure de recevoir et traiter des signaux électriques, mais non des vibrations mécaniques. 
+
+Nous aborderons ensuite la troisième fonction de la cochlée : l'amplification/compression de l'intensité.
 
 ```{figure} SysAudExt_IE.JPG
 ---
@@ -18,7 +20,18 @@ align: center
 
 ## Cellules ciliées internes et codage temporel
 
-La conversion de l'onde en courant électrique est assurée par environ 3500 **cellules ciliées internes**, réparties sur toute la longueur de la membrane basilaire (voir {numref}`Organ_of_Corti.png` et {numref}`Hair_cell.png`). Comme leur nom l'indique, ces cellules sont dotées, à leur extrémité supérieure, de fins prolongements appelés **stéréocils**, organisés en rangées de hauteurs croissantes. Les stéréocils sont extrêmement sensibles aux mouvements : un déplacement latéral des stéréocils provoque une cascade de réactions électrochimiques qui conduit à une variation du potentiel électrique de la cellule puis à la libération d'un neurotransmetteur, le glutamate. Ce dernier va ensuite se fixer aux récepteurs des fibres du nerf auditif, connectées à la base de la cellule, déclenchant la génération d'un **potentiel d'action**, une impulsion électrique envoyée aux étages supérieurs du système auditif. 
+La conversion de l'onde en courant électrique est assurée par environ 3500 **cellules ciliées internes**, réparties sur toute la longueur de la membrane basilaire (voir {numref}`Hair_cell.png`). Comme leur nom l'indique, ces cellules sont dotées, à leur extrémité supérieure, de fins prolongements appelés **stéréocils**, organisés en rangées de hauteurs croissantes. Les stéréocils sont extrêmement sensibles aux mouvements : un déplacement latéral des stéréocils provoque une cascade de réactions électrochimiques qui conduit à une variation du potentiel électrique de la cellule puis à la libération d'un neurotransmetteur, le glutamate. Ce dernier va ensuite se fixer aux récepteurs des fibres du nerf auditif, connectées à la base de la cellule, déclenchant la génération d'un **potentiel d'action**, une impulsion électrique envoyée aux étages supérieurs du système auditif. 
+
+
+```{figure} Hair_cell.png
+---
+name: Hair_cell.png
+alt: Schéma des cellules cilliées
+width: 100%
+align: center
+---
+*Schéma de la cochlée en coupe avec un zoom sur les cellules cilliées. (Source : [Openstax](https://openstax.org/books/anatomy-and-physiology/pages/14-1-sensory-perception))*
+```
 
 ```{figure} Organ_of_Corti.png
 ---
@@ -30,15 +43,6 @@ align: center
 *Schéma de la cochlée en coupe avec un zoom sur l'organe de Corti. (Source : [Openstax](https://openstax.org/books/anatomy-and-physiology/pages/14-1-sensory-perception))*
 ```
 
-```{figure} Hair_cell.png
----
-name: Hair_cell.png
-alt: Schéma des cellules cilliées
-width: 100%
-align: center
----
-*Schéma de la cochlée en coupe avec un zoom sur les cellules cilliées. (Source : [Openstax](https://openstax.org/books/anatomy-and-physiology/pages/14-1-sensory-perception))*
-```
 
 Ainsi, la cellule ciliée est capable de convertir un mouvement latéral de ses stéréocils en une impulsion électrique, ensuite transmise au cerveau. Mais comment cette propriété est-elle exploitée pour coder les vibrations de la membrane basilaire ? La réponse réside dans une structure spécialisée : **l'organe de Corti** (voir {numref}`Organ_of_Corti.png` et {numref}`I_H_Hair_cell.png`). Les cellules ciliées internes décrites plus haut sont attachées à la membrane basilaire, mais leurs stéréocils sont reliés à une seconde membrane, la membrane tectoriale, disposée parallèlement à la première. Lorsqu'une onde sonore progresse le long de la cochlée, elle induit un déplacement vertical de la membrane basilaire. Ce mouvement provoque un glissement des deux membranes l'une par rapport à l'autre, entraînant un déplacement latéral des stéréocils ce qui génère un potentiel d'action dans les fibres du nerf auditif reliées à la cellule.
 

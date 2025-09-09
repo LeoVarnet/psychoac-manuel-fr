@@ -148,7 +148,7 @@ align: center
 *Tuning curve simulée au moyen d'un filtre DRNL, pour un niveau sonore entrant de 30 dB SPL (gauche) ou de 90 dB SPL (droite). La courbe bleue correspond à la réponse en fréquence du DRNL, les courbes vertes et rouges à ses composantes linéaires et non-linéaires, respectivement.*
 ```
 
-Un aspect qui n'est cependant pas pris en compte dans le modèle DRNL est la dynamique temporelle du contrôle de gain. En effet, les filtres non-linéaire décrits ci-dessus réagissent instantanément. En réalité, [...]
+Une limite du modèle DRNL réside dans l'absence de prise en compte de la dynamique temporelle du contrôle de gain. Les filtres non linéaires décrits ci-dessus répondent de façon instantanée aux variations d'intensité du signal, ce qui constitue une simplification par rapport au fonctionnement du système auditif. En réalité, une certaine latence est nécessaire pour que le système détecte une variation du niveau sonore et transmette cette information aux cellules ciliées externes pour ajuster l'amplification. Cette propriété peut être intégrée dans le modèle en introduisant explicitement un délai, ou en modélisant la boucle de rétroaction. Néanmoins, ces aspects dynamiques sont souvent négligés en première approximation, afin de préserver la simplicité du modèle.
 
 ## Nerf auditif
 

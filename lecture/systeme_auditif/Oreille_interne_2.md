@@ -1,9 +1,5 @@
 # Oreille interne, partie 2 : cellules ciliées et nerf auditif
 
-```{warning}
-Page en cours de construction
-```
-
 Dans la précédente section de ce chapitre, nous avons vu comment les vibrations transmises à l'oreille interne excitent localement la membrane basilaire, permettant la décomposition du son en différentes fréquences. Nous allons à présent nous intéresser à la seconde fonction essentielle de l'oreille interne : la conversion des vibrations mécaniques en impulsions électriques. Cette étape, appelée **transduction**, est fondamentale puisque le cerveau est en mesure de recevoir et traiter des signaux électriques, mais non des vibrations mécaniques. 
 
 Nous aborderons ensuite la troisième fonction de la cochlée : l'amplification/compression de l'intensité.

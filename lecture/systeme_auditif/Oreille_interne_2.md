@@ -41,7 +41,7 @@ alt: Schéma en coupe de la cochlée
 width: 100%
 align: center
 ---
-*Schéma de la cochlée en coupe avec un zoom sur l'organe de Corti. (Source : Openstax](https://openstax.org/books/anatomy-and-physiology/pages/14-1-sensory-perception))*
+*Schéma de la cochlée en coupe avec un zoom sur l'organe de Corti. (Source : [Openstax](https://openstax.org/books/anatomy-and-physiology/pages/14-1-sensory-perception))*
 ```
 
 ```{figure} I_H_Hair_cell.png
@@ -51,7 +51,7 @@ alt: Schéma de l'ogane de Corti
 width: 70%
 align: center
 ---
-*Schéma de l'ogane de Corti. (Source : Gray's Anatomy](https://www.bartleby.com/lit-hub/anatomy-of-the-human-body/fig-931/))*
+*Schéma de l'ogane de Corti. (Source : [Gray's Anatomy](https://www.bartleby.com/lit-hub/anatomy-of-the-human-body/fig-931/))*
 ```
 
 Chaque cellule ciliée interne est ainsi activée par les vibrations de la membrane basilaire à l’endroit précis où elle est fixée. Ceci permet de transmettre au nerf auditif l'information tonotopique évoquée précédemment, sous forme de signaux électriques : **chaque fréquence sonore excite un groupe particulier de cellules ciliées, situé à une position spécifique le long de la cochlée -- les fréquences élevées près de la base, les basses fréquences vers l’apex**.
@@ -104,7 +104,7 @@ Trois spectrogrammes auditifs sont représentés {numref}`AuditorySpectrogram.pn
 
 La troisième et dernière fonction de la cochlée est d'effectuer une compression de dynamique. En effet, l'oreille humaine est capable de percevoir des sons très faibles (de l'ordre de quelques dB SPL) mais également des sons très forts (le seuil de douleur se situant approximativement à 120 dB SPL). L'écart entre les deux représente une gamme d'environ 120 dB, c'est à dire un facteur 1 000 000 000 000 ! Ceci est rendu possible grâce à une étape d'amplification des signaux faibles lors de la transduction.
 
-L'amplification est notamment assurée par les ~25000 **cellules ciliées externes**. Celles-ci sont disposées tout le long de la cochlée, comme les cellules ciliées internes, mais organisées en trois rangées (voir {numref}`I_H_Hair_cell.png`). Les deux types de cellules possèdent une structure similaire mais fonctionnent sur un principe opposé : tandis que les cellules ciliées internes convertissent un mouvement mécanique en impulsion électrique envoyée dans les fibres du nerf auditif, les cellules ciliées externes convertissent une impulsion électrique venue du nerf auditif en mouvement mécanique. Ainsi, la cellule ciliée externe se contracte sous l'effet d'une commande électrique, comme on le voit sur la vidéo suivante. Cet enregistrement réalisé dans le laboratoire de J. Ashmore, montre une cellule ciliée externe isolée de cobaye, à laquelle une électrode a été fixée. Un signal électrique est envoyé, et la réponse motrice de la cellule est observée au microscope. Le son de la vidéo correspond au signal électrique : il s'agit d'un extrait de Rock Around the Clock de Bill Haley. La cellule se contracte au même tempo que le courant, et donc que la musique.
+L'amplification est notamment assurée par les ~25000 **cellules ciliées externes**. Celles-ci sont disposées tout le long de la cochlée, comme les cellules ciliées internes, mais organisées en trois rangées (voir {numref}`I_H_Hair_cell.png`). Les deux types de cellules possèdent une structure similaire mais fonctionnent sur un principe opposé : tandis que les cellules ciliées internes convertissent un mouvement mécanique en impulsion électrique envoyée dans les fibres du nerf auditif, les cellules ciliées externes convertissent une impulsion électrique venue du nerf auditif en mouvement mécanique. Ainsi, la cellule ciliée externe se contracte sous l'effet d'une commande électrique, comme on le voit sur la vidéo suivante (Schnupp, Nelken & King, 2011). Cet enregistrement réalisé dans le laboratoire de J. Ashmore, montre une cellule ciliée externe isolée de cobaye, à laquelle une électrode a été fixée. Un signal électrique est envoyé, et la réponse motrice de la cellule est observée au microscope. Le son de la vidéo correspond au signal électrique : il s'agit d'un extrait de Rock Around the Clock de Bill Haley. La cellule se contracte au même tempo que le courant, et donc que la musique.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pij8a8aNpWQ?si=2bwb0ob2U2tp8aOD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -117,7 +117,7 @@ alt: Isoresponse tuning curve pre-/post mortem
 width: 70%
 align: center
 ---
-*Isoresponse tuning curves mesurée ante-mortem (courbe verte, similaire à la {numref}`Isoresponse2.png`) ou post-mortem (courbe rouge, même mesure, mais sans action des mécanismes actifs).*
+*Isoresponse tuning curves mesurée ante-mortem (courbe verte, similaire à la {numref}`Isoresponse2.png`) ou post-mortem (courbe rouge, même mesure, mais sans action des mécanismes actifs). (Adapté de Nuttall & Dolan, 1996).*
 ```
 
 Comme on le constate sur la figure, la *tuning curve* mesurée post-mortem -- et correspondant donc au fonctionnement purement mécanique de la cochlée -- est très atténuée (facteur 100 par rapport à la tuning curve ante-mortem) et relativement larges. La viscosité de la périlymphe et la résistance de la membrane basilaire entraînent une grande déperdition d'énergie et on voit donc que l'idée d'une cochlée fonctionnant sur la seule base de l'énergie de l'onde entrante n'est pas tenable. Seule l'existence de mécanismes actifs compensant l'amortissement mécanique et améliorant la sélectivité fréquentielle permet d'expliquer la grande efficacité de la cochlée dans la transmission des signaux sonores de faible intensité. 
@@ -131,7 +131,7 @@ alt: tuning curve effect of level
 width: 70%
 align: center
 ---
-*Tuning curve pour une même cellule ciliée, mesurée avec différents volumes sonores pour la stimulation. Cette mesure met en évidence la non-linéarité du système : les sons faibles sont plus amplifiés que les sons forts, et la sélectivité est meilleure dans le premier cas.*
+*Tuning curve pour une même cellule ciliée, mesurée avec différents volumes sonores pour la stimulation. Cette mesure met en évidence la non-linéarité du système : les sons faibles sont plus amplifiés que les sons forts, et la sélectivité est meilleure dans le premier cas. (Ruggero et al., 2000)*
 ```
 
 Lorsque le niveau sonore est faible, les tuning curves possédent une excellente résolution fréquencielle. En revanche, à des niveaux sonores élevés, la tuning curve devient très peu sélective et son gain maximum se trouve divisé par un facteur 100, indiquant que les vibrations sont fortement atténuées. De façon prévisible, le même phénomène peut également être observé au niveau des patterns d'excitation (voir {numref}`Excitation.jpeg`)
@@ -147,7 +147,7 @@ alt: DRNL
 width: 70%
 align: center
 ---
-*Tuning curve simulée au moyen d'un filtre DRNL, pour un niveau sonore entrant de 30 dB SPL (gauche) ou de 90 dB SPL (droite). La courbe bleue correspond à la réponse en fréquence du DRNL, les courbes vertes et rouges à ses composantes linéaires et non-linéaires, respectivement.*
+*Tuning curve simulée au moyen d'un filtre DRNL, pour un niveau sonore entrant de 30 dB SPL (gauche) ou de 90 dB SPL (droite). La courbe bleue correspond à la réponse en fréquence du DRNL, les courbes vertes et rouges à ses composantes linéaires et non-linéaires, respectivement. (inspiré de Lopez-Poveda & Meddis, 2001)*
 ```
 
 Une limite du modèle DRNL réside dans l'absence de prise en compte de la dynamique temporelle du contrôle de gain. Les filtres non linéaires décrits ci-dessus répondent de façon instantanée aux variations d'intensité du signal, ce qui constitue une simplification par rapport au fonctionnement du système auditif. En réalité, une certaine latence est nécessaire pour que le système détecte une variation du niveau sonore et transmette cette information aux cellules ciliées externes pour ajuster l'amplification. Cette propriété peut être intégrée dans le modèle en introduisant explicitement un délai, ou en modélisant la boucle de rétroaction. Néanmoins, ces aspects dynamiques sont souvent négligés en première approximation, afin de préserver la simplicité du modèle.
@@ -165,7 +165,7 @@ alt: tonotopy in the auditory nerve
 width: 50%
 align: center
 ---
-*Organisation tonotopique au sein du nerf auditif. Les fibres correspondant à trois gammes de fréquences, c'est-à-dire connectées à trois segments différents de la cochlée, sont identifiées en couleur : basse fréquence en rouge, fréquences médium en vert, hautes fréquences en bleu.*
+*Organisation tonotopique au sein du nerf auditif. Les fibres correspondant à trois gammes de fréquences, c'est-à-dire connectées à trois segments différents de la cochlée, sont identifiées en couleur : basse fréquence en rouge, fréquences médium en vert, hautes fréquences en bleu. (Source : P. Gil-Loyzaga).*
 ```
 
 D'autre part, le codage temporel observé dans la charge electrique des cellules ciliées est lui aussi maintenu au niveau du nerf auditif. En effet, les potentiels d'action suivent globalement l'activité électrique des cellules ciliés, et surviennent donc majoritairement aux pics du déplacement de la membrane basilaire -- un phénomène nommé **accrochage de phase** (*phase-locking*). Les vibrations étant périodiques, les impulsions électriques envoyées au nerf auditif par les cellules ciliées présentent, elles aussi, une périodicité à la même fréquence. Comme illustré dans la {numref}`PhaseLocking.png` les décharges surviennennt globalement à proximité des maxima de la vibration, même si tous les maxima ne donnent pas nécessairement lieu à une décharge synchrone de toutes les cellules, certaines impulsions pouvant être absentes ou décalées. Néanmoins, chaque cellule émet des impulsions électriques avec une périodicité globalement alignée sur celle de l'onde. Dans la partie inférieure de la figure, la sommation des décharges transmises par l'ensemble des cellules ciliées au nerf auditif montre que, malgré une certaine variabilité, le signal global reproduit la périodicité du stimulus sonore.
@@ -177,12 +177,27 @@ alt: Phase-locking
 width: 60%
 align: center
 ---
-*Illustration du principe du codage temporel par accrochage de phase. La partie supérieure de la figure représente l'onde sonore. En dessous sont schématisés les potentiels évoqués générés par trois cellules ciliées internes accordées à la fréquence de cette onde, et transmis au nerf auditif.  (Source: Plack 2005)*
+*Illustration du principe du codage temporel par accrochage de phase. La partie supérieure de la figure représente l'onde sonore. En dessous sont schématisés les potentiels évoqués générés par trois cellules ciliées internes accordées à la fréquence de cette onde, et transmis au nerf auditif. (Source: Plack 2018)*
 ```
 
 Il faut ici mentionner que le nerf auditif ne joue pas uniquement un rôle de transmetteur. Même si, considérées dans leur ensemble, les potentiels d'action semblent simplement véhiculer les codes tonotopique et temporel établis par la cochlée, en réalité la trentaine de fibres du nerf auditif connectées à une même cellule ciliée ne transmettent pas exactement la même information. Certaines fibres dites "à bas seuil" sont activés dès que la cellule ciliée correspondante est excitée, même légèrement, mais saturent ensuite rapidement (c'est à dire qu'elles ne distinguent pas une excitation moyenne d'une excitation forte). Au contraire, d'autres fibres dites "à haut seuil" ne se déclenchent qu'à partir d'un niveau relativement élevé d'excitation fe la cellule, tandis que les fibres "à moyen seuil" ont un comportement intermédiaire.
 
 Certains modèles du système auditif périphérique permettent de simuler l'activité électrique au sein du nerf auditif. Pour cela, ils incluent, après le spectrogramme auditif, une étape simulant les réponses des différents types de fibres. Ce processus suit une loi aléatoire décidant du déclenchement ou non du potentiel d'action dans chaque fibre à un moment donné. La modélisation du nerf auditif n'est pas nécessaire pour les besoins de ce cours et cette étape du modèle ne sera donc pas considérée par la suite.
+
+## Références
+
+Lopez-Poveda, E. A., & Meddis, R. (2001). A human nonlinear cochlear filterbank. The Journal of the Acoustical Society of America, 110(6), 3107–3118.
+
+Nuttall, A. L., & Dolan, D. F. (1996). Steady‐state sinusoidal velocity responses of the basilar membrane in guinea pig. The Journal of the Acoustical Society of America, 99(3), 1556–1565. 
+
+Palmer, A. R., & Russell, I. J. (1986). Phase-locking in the cochlear nerve of the guinea-pig and its relation to the receptor potential of inner hair-cells. Hearing Research, 24(1), 1–15.
+
+Plack, C. J. (2018). The Sense of Hearing (3rd edn). Routledge.
+
+Ruggero, M. A., Narayan, S. S., Temchin, A. N., & Recio, A. (2000). Mechanical bases of frequency tuning and neural excitation at the base of the cochlea: Comparison of basilar-membrane vibrations and auditory-nerve-fiber responses in chinchilla. Proceedings of the National Academy of Sciences, 97(22), 11744–11750. 
+
+Schnupp, J., Nelken, I., & King, A. (2011). Auditory Neuroscience: Making Sense of Sound. MIT Press.
+
 
 ## Notes
 

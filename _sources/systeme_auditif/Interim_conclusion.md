@@ -1,5 +1,5 @@
 
-# Du système auditif périphérique au système auditif central
+# Conclusion intermédiaire
 
 ```{warning}
 Page en cours de construction
@@ -9,6 +9,25 @@ Page en cours de construction
 
 ## Codage d'un complexe harmonique 
 
+```{figure} pattern4.png
+---
+name: pattern4.png
+alt: Sortie temporelle des filtres gammatones
+width: 75%
+align: center
+---
+*Modélisation des vibrations en différents points de la membrane basilaire, en réponse à un complexe harmonique de fréquence fondamentalementale 300 Hz. Le spectre de ce signal est représenté dans le panneau supérieur. Comme pour la {numref}`pattern.png`, on a tracé en-dessous les fonctions de transfert de six gammatones, de fréquences d'accordage 300 Hz, 600 Hz, 1270 Hz, 3460 Hz, 5060 Hz et 7350 Hz, puis le pattern d'excitation. Les trois derniers gammatones ont des bandes passantes très larges qui englobent un grand nombre d'harmoniques, et effectivement ils correspondent à la région des harmoniques non résolues. La partie inférieure de la figure présente la sortie temporelle de chacun des six gammatones identifiés plus haut. Du fait de phénomènes de battement entre harmoniques, on observe une périodicité à 300 Hz dans la réponse des trois filtres gammatones accordé à 3460 Hz, 5060 Hz et 7350 Hz. (Inspiré de Plack, 2023)*
+```
+
+```{figure} AuditorySpectrogram2.png
+---
+name: AuditorySpectrogram2.png
+alt: Spectrogramme auditif
+width: 100%
+align: center
+---
+*Deux exemples de spectrogramme auditif, en réponse à un complexe harmonique de fréquence fondamentale 300 Hz (panneau gauche), et à un enregistrement de la voyelle "é" prononcée par une voix avec une fréquence fondamentalementale à 250 Hz (panneau droit). A droite de chaque spectrogramme est représenté le pattern d'excitation correspondant, et au dessus la réponse électrique simulée d'une cellule ciliée particulière (c'est-à-dire une ligne du spectrogramme, identifiée par la flèche rouge) : cellule accordée à 7000 Hz (panneau gauche) ou à 3370 Hz (panneau droit).*
+```
 
 En revanche, les filtres gammatones de fréquence d'accordage plus élevée sont, comme on l'a vu précédemment, trop larges pour isoler une composante harmonique et englobent au contraire plusieurs harmoniques proches. Il en découle un phénomène de battement à la fréquence fondamentale dans leur réponse temporelle. Ainsi, pour un complexe harmonique, **les gammatones accordés dans les hautes fréquences (région des harmoniques non-résolues) ont une réponse dont l'envelope est périodique à la fréquence fondamentale du signal**.
 

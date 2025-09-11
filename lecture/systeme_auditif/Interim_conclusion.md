@@ -5,9 +5,17 @@
 Page en cours de construction
 ```
 
+Parvenu·es au niveau du nerf auditif, qui marque la transition entre le système auditif périphérique et le système auditif central, il est temps de marquer une pause pour récapituler ce que nous avons vu jusqu'ici, mais également pour développer certaines notions que nous avons seulement esquissées.
+
 ## Structure du modèle du système auditif périphérique
 
+Dans les sections qui précèdent, nous avons listé les différentes étapes de traitement du signal sonore à travers le système auditif périphérique en en proposant des modélisations simples. Si ces modules peuvent être enrichis, jusqu'à devenir extrêmement complexes pour tenir compte des effets de spatialisation, de feedback, ou des nombreuses non-linéarités, la structure générale du modèle est quant à elle relativement stable. En effet, chaque étape décrite ici est un "passage obligé" pour le signal sonore. En conséquence, les différents modèles auditifs disponibles possèdent tous la même organisation (voir figure suivante) : 
+- filtres d'oreille externe/moyenne
+- 
+
 ## Codage d'un complexe harmonique 
+
+Les exemples choisis pour illustrer le principe du spectrogramme auditif ([ref]) se sont concentrés principalement sur des tons purs ou combinaison de ton purs dans les basses fréquences. Il est néanmoins utile pour la suite de se pencher sur le cas des complexes harmoniques. Nous avons vu ([ref]) que du point de vue du codage tonotopique les harmoniques dans les basses fréquences étaient résolues tandis que les harmoniques plus hautes étaient non-résolues. Qu'en est-il du point de vue du codage temporel ?
 
 ```{figure} pattern4.png
 ---

@@ -5,7 +5,7 @@
 Page en cours de construction
 ```
 
-Parvenu·es au niveau du nerf auditif, qui marque la transition entre le système auditif périphérique et le système auditif central, il est temps de marquer une pause pour récapituler ce que nous avons vu jusqu'ici, mais également pour développer certaines notions que nous avons seulement esquissées.
+Parvenu·es au niveau du nerf auditif, qui marque la frontière entre le système auditif périphérique et le système auditif central, il est temps de marquer une pause pour récapituler ce que nous avons vu jusqu'ici, mais également pour développer certaines notions que nous avons seulement esquissées plus tôt.
 
 ## Structure du modèle du système auditif périphérique
 
@@ -15,7 +15,9 @@ Dans les sections qui précèdent, nous avons listé les différentes étapes de
 
 ## Codage d'un complexe harmonique 
 
-Les exemples choisis pour illustrer le principe du spectrogramme auditif ([ref]) se sont concentrés principalement sur des tons purs ou combinaison de ton purs dans les basses fréquences. Il est néanmoins utile pour la suite de se pencher sur le cas des complexes harmoniques. Nous avons vu ([ref]) que du point de vue du codage tonotopique les harmoniques dans les basses fréquences étaient résolues tandis que les harmoniques plus hautes étaient non-résolues. Qu'en est-il du point de vue du codage temporel ?
+Les exemples choisis pour illustrer le principe du spectrogramme auditif ([ref]) se sont concentrés principalement sur des tons purs ou combinaison de ton purs dans les basses fréquences. Il est néanmoins utile pour led chapitres suivants de se pencher sur le cas des complexes harmoniques. Nous avons vu ([ref]) que du point de vue du codage tonotopique les harmoniques dans les basses fréquences étaient résolues (elles correspondent à des pics dans le pattern d'excitation) tandis que les harmoniques plus hautes étaient non-résolues. Qu'en est-il du point de vue du codage temporel ?
+
+Considérons à nouveau la figure suivante :
 
 ```{figure} pattern4.png
 ---
@@ -27,6 +29,8 @@ align: center
 *Modélisation des vibrations en différents points de la membrane basilaire, en réponse à un complexe harmonique de fréquence fondamentalementale 300 Hz. Le spectre de ce signal est représenté dans le panneau supérieur. Comme pour la {numref}`pattern.png`, on a tracé en-dessous les fonctions de transfert de six gammatones, de fréquences d'accordage 300 Hz, 600 Hz, 1270 Hz, 3460 Hz, 5060 Hz et 7350 Hz, puis le pattern d'excitation. Les trois derniers gammatones ont des bandes passantes très larges qui englobent un grand nombre d'harmoniques, et effectivement ils correspondent à la région des harmoniques non résolues. La partie inférieure de la figure présente la sortie temporelle de chacun des six gammatones identifiés plus haut. Du fait de phénomènes de battement entre harmoniques, on observe une périodicité à 300 Hz dans la réponse des trois filtres gammatones accordé à 3460 Hz, 5060 Hz et 7350 Hz. (Inspiré de Plack, 2023)*
 ```
 
+Nous avons déjà détaillé précédemment le cas des trois gammatones les plus bas. Ceux-ci sont suffisamment étroits pour d'englober qu'une harmonie (ils sont situés dans la région des harmoniques résolues) et leur sortie fluctue donc à la fréquence de cette harmonique. En revanche, les filtres gammatones de fréquence d'accordage plus élevée sont, comme on l'a vu précédemment, trop larges pour isoler une composante harmonique et englobent au contraire plusieurs harmoniques proches (qui sont donc non-résolues). Il en découle un phénomène de battement à la fréquence fondamentale dans leur réponse temporelle. Ainsi, pour un complexe harmonique, **les gammatones accordés dans les hautes fréquences (région des harmoniques non-résolues) ont une réponse dont l'envelope est périodique à la fréquence fondamentale du signal**. 
+
 ```{figure} AuditorySpectrograms2.png
 ---
 name: AuditorySpectrograms2.png
@@ -37,7 +41,6 @@ align: center
 *Deux exemples de spectrogramme auditif, en réponse à un complexe harmonique de fréquence fondamentale 300 Hz (panneau gauche), et à un enregistrement de la voyelle "é" prononcée par une voix avec une fréquence fondamentalementale à 250 Hz (panneau droit). A droite de chaque spectrogramme est représenté le pattern d'excitation correspondant, et au dessus la réponse électrique simulée d'une cellule ciliée particulière (c'est-à-dire une ligne du spectrogramme, identifiée par la flèche rouge) : cellule accordée à 7000 Hz (panneau gauche) ou à 3370 Hz (panneau droit).*
 ```
 
-En revanche, les filtres gammatones de fréquence d'accordage plus élevée sont, comme on l'a vu précédemment, trop larges pour isoler une composante harmonique et englobent au contraire plusieurs harmoniques proches. Il en découle un phénomène de battement à la fréquence fondamentale dans leur réponse temporelle. Ainsi, pour un complexe harmonique, **les gammatones accordés dans les hautes fréquences (région des harmoniques non-résolues) ont une réponse dont l'envelope est périodique à la fréquence fondamentale du signal**.
 
 Dans le cas du complexe harmonique, déjà évoqué {numref}`pattern3.png` et {numref}`pattern4.png`, la fréquence fondamentalementale est identifiable simultanément par le codage tonotopique (harmoniques résolues dans les basses fréquences marquées par des bandes horizontales), le codage temporel dans les basses fréquences, mais également le codage temporel dans les hautes fréquences grâce au phénomène de battement vu plus haut ({numref}`Phaselock.png`C).
 

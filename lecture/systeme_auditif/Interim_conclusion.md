@@ -9,17 +9,19 @@ Parvenu·es au niveau du nerf auditif, qui marque la frontière entre le systèm
 
 ## Structure du modèle du système auditif périphérique
 
-Dans les sections qui précèdent, nous avons listé les différentes étapes de traitement du signal sonore à travers le système auditif périphérique en en proposant des modélisations simples. Si ces modules peuvent être enrichis, jusqu'à devenir extrêmement complexes pour tenir compte des effets de spatialisation, de feedback, ou des nombreuses non-linéarités, la structure générale du modèle est quant à elle relativement stable. En effet, chaque étape décrite ici est un "passage obligé" pour le signal sonore. En conséquence, les différents modèles auditifs disponibles possèdent tous la même organisation (voir figure suivante) : 
+Dans les sections qui précèdent, nous avons listé les différentes étapes de traitement du signal sonore à travers le système auditif périphérique en en proposant des modélisations simples. Si ces modules peuvent être enrichis, jusqu'à devenir extrêmement complexes pour tenir compte des effets de spatialisation, de feedback, ou des nombreuses non-linéarités, la structure générale du modèle est quant à elle relativement stable. En effet, chaque étape décrite ici est un "passage obligé" pour le signal sonore. En conséquence, les différents modèles auditifs disponibles possèdent tous la même organisation, même si certains modules peuvent être omis en première approximation (voir figure suivante) : 
 - filtres d'oreille externe/moyenne
 - 
 
+Cette structure relativement linéaire contraste avec celle du système auditif central pour laquelle de nombreuses routes sont disponibles pour le signal, avec des voies descendantes ...
+
 ## Codage d'un complexe harmonique 
 
-Les exemples choisis pour illustrer le principe du spectrogramme auditif ([ref]) se sont concentrés principalement sur des tons purs ou combinaison de ton purs dans les basses fréquences. Il est néanmoins utile pour led chapitres suivants de se pencher sur le cas des complexes harmoniques. Nous avons vu ([ref]) que du point de vue du codage tonotopique les harmoniques dans les basses fréquences étaient résolues (elles correspondent à des pics dans le pattern d'excitation) tandis que les harmoniques plus hautes étaient non-résolues. Qu'en est-il du point de vue du codage temporel ?
+Les exemples choisis pour illustrer le principe du spectrogramme auditif ([ref]) se sont concentrés principalement sur des tons purs ou combinaison de ton purs dans les basses fréquences. Il est néanmoins utile pour led chapitres suivants de se pencher sur le cas des complexes harmoniques. Nous avons vu ({numref}`pattern3.png` et {numref}`pattern4.png`) que du point de vue du codage tonotopique les harmoniques dans les basses fréquences étaient résolues (elles correspondent à des pics dans le pattern d'excitation) tandis que les harmoniques plus hautes étaient non-résolues. Qu'en est-il du point de vue du codage temporel ?
 
 Considérons à nouveau la figure suivante :
 
-```{figure} pattern4.png
+```{figure} pattern4bis.png
 ---
 name: pattern4.png
 alt: Sortie temporelle des filtres gammatones
@@ -42,9 +44,6 @@ align: center
 ---
 *Deux exemples de spectrogramme auditif, en réponse à un complexe harmonique de fréquence fondamentale 300 Hz (panneau gauche), et à un enregistrement de la voyelle "é" prononcée par une voix avec une fréquence fondamentalementale à 250 Hz (panneau droit). A droite de chaque spectrogramme est représenté le pattern d'excitation correspondant, et au dessus la réponse électrique simulée d'une cellule ciliée particulière (c'est-à-dire une ligne du spectrogramme, identifiée par la flèche rouge) : cellule accordée à 7000 Hz (panneau gauche) ou à 3370 Hz (panneau droit).*
 ```
-
-
-Dans le cas du complexe harmonique, déjà évoqué {numref}`pattern3.png` et {numref}`pattern4.png`, la fréquence fondamentalementale est identifiable simultanément par le codage tonotopique (harmoniques résolues dans les basses fréquences marquées par des bandes horizontales), le codage temporel dans les basses fréquences, mais également le codage temporel dans les hautes fréquences grâce au phénomène de battement vu plus haut ({numref}`Phaselock.png`C).
 
 ## Systèmes afférent et efférent
 

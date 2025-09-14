@@ -10,8 +10,22 @@ Parvenu·es au niveau du nerf auditif, qui marque la frontière entre le systèm
 ## Structure du modèle du système auditif périphérique
 
 Dans les sections qui précèdent, nous avons listé les différentes étapes de traitement du signal sonore à travers le système auditif périphérique en en proposant des modélisations simples. Si ces modules peuvent être enrichis, jusqu'à devenir extrêmement complexes pour tenir compte des effets de spatialisation, de feedback, ou des nombreuses non-linéarités, la structure générale du modèle est quant à elle relativement stable. En effet, chaque étape décrite ici est un "passage obligé" pour le signal sonore. En conséquence, les différents modèles auditifs disponibles possèdent tous la même organisation, même si certains modules peuvent être omis en première approximation (voir figure suivante) : 
-- filtres d'oreille externe/moyenne
-- 
+- Stage 1: filtre d'oreille externe
+- Stage 2: filtre d'oreille moyenne
+- Stage 3: banc de filtres (+ compression)
+- Stage 4: modèle des cellules ciliées
+- Stage 5: modèle des synapses du nerf auditif
+- Stage 6: cochlear nucleus + inferior colliculus
+
+```{figure} pattern4bis.png
+---
+name: models.png
+alt: modélisation
+width: 75%
+align: center
+---
+*(Osses et al. 2022)*
+```
 
 Cette structure relativement "rectiligne", formé par une série de modules successifs, contraste avec le système auditif central, constitué de nombreuses voies parallèles, comme nous le verrons plus loin.
 

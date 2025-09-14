@@ -454,14 +454,15 @@ document.write(`
 <p>Parvenu·es au niveau du nerf auditif, qui marque la frontière entre le système auditif périphérique et le système auditif central, il est temps de marquer une pause pour récapituler ce que nous avons vu jusqu’ici, mais également pour développer certaines notions que nous avons seulement esquissées plus tôt.</p>
 <section id="structure-du-modele-du-systeme-auditif-peripherique">
 <h2>Structure du modèle du système auditif périphérique<a class="headerlink" href="#structure-du-modele-du-systeme-auditif-peripherique" title="Link to this heading">#</a></h2>
-<p>Dans les sections qui précèdent, nous avons listé les différentes étapes de traitement du signal sonore à travers le système auditif périphérique en en proposant des modélisations simples. Si ces modules peuvent être enrichis, jusqu’à devenir extrêmement complexes pour tenir compte des effets de spatialisation, de feedback, ou des nombreuses non-linéarités, la structure générale du modèle est quant à elle relativement stable. En effet, chaque étape décrite ici est un “passage obligé” pour le signal sonore. En conséquence, les différents modèles auditifs disponibles possèdent tous la même organisation, même si certains modules peuvent être omis en première approximation (voir figure suivante) :</p>
+<p>Dans les sections qui précèdent, nous avons listé les différentes étapes de traitement du signal sonore à travers le système auditif périphérique en en proposant des modélisations simples. Si ces modules peuvent être enrichis, jusqu’à devenir extrêmement complexes pour tenir compte des effets de spatialisation, de feedback, ou des nombreuses non-linéarités, la structure générale du modèle est quant à elle relativement stable. En effet, chaque étape décrite ici est un “passage obligé” pour le signal sonore. En conséquence, les différents modèles auditifs disponibles possèdent tous la même organisation, même si certains modules peuvent être omis en première approximation. La figure suivante illustre la structure de 8 modèles “classiques” du système auditif périphérique, en faisant apparaitre les correspondances entre étapes du traitement. On retrouve les étapes décrites précédemment :</p>
 <ul class="simple">
 <li><p>Stage 1: filtre d’oreille externe</p></li>
 <li><p>Stage 2: filtre d’oreille moyenne</p></li>
-<li><p>Stage 3: banc de filtres (+ compression)</p></li>
-<li><p>Stage 4: modèle des cellules ciliées</p></li>
-<li><p>Stage 5: modèle des synapses du nerf auditif</p></li>
-<li><p>Stage 6: cochlear nucleus + inferior colliculus</p></li>
+<li><p>Stage 3: décomposition en fréquence par la membrane basilaire, modélisée par un banc de filtres (incluant éventuellement l’amplification/compression par les cellules ciliées externes). P.ex. banc de filtres gammatones.</p></li>
+<li><p>Stage 4: modèle de la transduction par les cellules ciliées. P.ex. rectification -onde suivie d’un filtre passe-bas de fréquence de coupure 1 kHz.</p></li>
+<li><p>Stage 5: modèle des synapses du nerf auditif. A minima, ce module réalise une compression supplémentaire du signal. Il peut également prendre en compte les différents types de fibres, et/ou produire une série de potentiels d’action.</p></li>
+<li><p>Stage 6: modèles du noyau cochléaire et du colliculus inférieur. Nous envisagerons ce module dans la partie suivante.
+La figure fait également apparaître, en bleu, certaines modifications possibles pouvant être apportées aux modèles pour simuler diverses formes de pertes auditives.</p></li>
 </ul>
 <figure class="align-center" id="models-png">
 <a class="reference internal image-reference" href="../_images/models.png"><img alt="modélisation" src="../_images/models.png" style="width: 75%;" />

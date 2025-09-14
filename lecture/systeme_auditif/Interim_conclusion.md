@@ -9,13 +9,14 @@ Parvenu·es au niveau du nerf auditif, qui marque la frontière entre le systèm
 
 ## Structure du modèle du système auditif périphérique
 
-Dans les sections qui précèdent, nous avons listé les différentes étapes de traitement du signal sonore à travers le système auditif périphérique en en proposant des modélisations simples. Si ces modules peuvent être enrichis, jusqu'à devenir extrêmement complexes pour tenir compte des effets de spatialisation, de feedback, ou des nombreuses non-linéarités, la structure générale du modèle est quant à elle relativement stable. En effet, chaque étape décrite ici est un "passage obligé" pour le signal sonore. En conséquence, les différents modèles auditifs disponibles possèdent tous la même organisation, même si certains modules peuvent être omis en première approximation (voir figure suivante) : 
+Dans les sections qui précèdent, nous avons listé les différentes étapes de traitement du signal sonore à travers le système auditif périphérique en en proposant des modélisations simples. Si ces modules peuvent être enrichis, jusqu'à devenir extrêmement complexes pour tenir compte des effets de spatialisation, de feedback, ou des nombreuses non-linéarités, la structure générale du modèle est quant à elle relativement stable. En effet, chaque étape décrite ici est un "passage obligé" pour le signal sonore. En conséquence, les différents modèles auditifs disponibles possèdent tous la même organisation, même si certains modules peuvent être omis en première approximation. La figure suivante illustre la structure de 8 modèles "classiques" du système auditif périphérique, en faisant apparaitre les correspondances entre étapes du traitement. On retrouve les étapes décrites précédemment : 
 - Stage 1: filtre d'oreille externe
 - Stage 2: filtre d'oreille moyenne
-- Stage 3: banc de filtres (+ compression)
-- Stage 4: modèle des cellules ciliées
-- Stage 5: modèle des synapses du nerf auditif
-- Stage 6: cochlear nucleus + inferior colliculus
+- Stage 3: décomposition en fréquence par la membrane basilaire, modélisée par un banc de filtres (incluant éventuellement l'amplification/compression par les cellules ciliées externes). P.ex. banc de filtres gammatones.
+- Stage 4: modèle de la transduction par les cellules ciliées. P.ex. rectification -onde suivie d'un filtre passe-bas de fréquence de coupure 1 kHz.
+- Stage 5: modèle des synapses du nerf auditif. A minima, ce module réalise une compression supplémentaire du signal. Il peut également prendre en compte les différents types de fibres, et/ou produire une série de potentiels d'action.
+- Stage 6: modèles du noyau cochléaire et du colliculus inférieur. Nous envisagerons ce module dans la partie suivante.
+La figure fait également apparaître, en bleu, certaines modifications possibles pouvant être apportées aux modèles pour simuler diverses formes de pertes auditives.
 
 ```{figure} models.png
 ---

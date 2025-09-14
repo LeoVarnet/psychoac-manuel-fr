@@ -456,9 +456,20 @@ document.write(`
 <h2>Structure du modèle du système auditif périphérique<a class="headerlink" href="#structure-du-modele-du-systeme-auditif-peripherique" title="Link to this heading">#</a></h2>
 <p>Dans les sections qui précèdent, nous avons listé les différentes étapes de traitement du signal sonore à travers le système auditif périphérique en en proposant des modélisations simples. Si ces modules peuvent être enrichis, jusqu’à devenir extrêmement complexes pour tenir compte des effets de spatialisation, de feedback, ou des nombreuses non-linéarités, la structure générale du modèle est quant à elle relativement stable. En effet, chaque étape décrite ici est un “passage obligé” pour le signal sonore. En conséquence, les différents modèles auditifs disponibles possèdent tous la même organisation, même si certains modules peuvent être omis en première approximation (voir figure suivante) :</p>
 <ul class="simple">
-<li><p>filtres d’oreille externe/moyenne</p></li>
-<li></li>
+<li><p>Stage 1: filtre d’oreille externe</p></li>
+<li><p>Stage 2: filtre d’oreille moyenne</p></li>
+<li><p>Stage 3: banc de filtres (+ compression)</p></li>
+<li><p>Stage 4: modèle des cellules ciliées</p></li>
+<li><p>Stage 5: modèle des synapses du nerf auditif</p></li>
+<li><p>Stage 6: cochlear nucleus + inferior colliculus</p></li>
 </ul>
+<figure class="align-center" id="models-png">
+<a class="reference internal image-reference" href="systeme_auditif/pattern4bis.png"><img alt="modélisation" src="systeme_auditif/pattern4bis.png" style="width: 75%;" />
+</a>
+<figcaption>
+<p><span class="caption-number">Fig. 80 </span><span class="caption-text"><em>(Osses et al. 2022)</em></span><a class="headerlink" href="#models-png" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
 <p>Cette structure relativement “rectiligne”, formé par une série de modules successifs, contraste avec le système auditif central, constitué de nombreuses voies parallèles, comme nous le verrons plus loin.</p>
 </section>
 <section id="codage-d-un-complexe-harmonique">
@@ -469,7 +480,7 @@ document.write(`
 <a class="reference internal image-reference" href="systeme_auditif/pattern4bis.png"><img alt="Sortie temporelle des filtres gammatones" src="systeme_auditif/pattern4bis.png" style="width: 75%;" />
 </a>
 <figcaption>
-<p><span class="caption-number">Fig. 80 </span><span class="caption-text"><em>Modélisation des vibrations en différents points de la membrane basilaire, en réponse à un complexe harmonique de fréquence fondamentalementale 300 Hz. Le spectre de ce signal est représenté dans le panneau supérieur. Comme pour la <a class="reference internal" href="Oreille_interne_1.html#pattern-png"><span class="std std-numref">Fig. 65</span></a>, on a tracé en-dessous les fonctions de transfert de six gammatones, de fréquences d’accordage 300 Hz, 600 Hz, 1270 Hz, 3460 Hz, 5060 Hz et 7350 Hz, puis le pattern d’excitation. Les trois derniers gammatones ont des bandes passantes très larges qui englobent un grand nombre d’harmoniques, et effectivement ils correspondent à la région des harmoniques non résolues. La partie inférieure de la figure présente la sortie temporelle de chacun des six gammatones identifiés plus haut. Du fait de phénomènes de battement entre harmoniques, on observe une périodicité à 300 Hz dans la réponse des trois filtres gammatones accordé à 3460 Hz, 5060 Hz et 7350 Hz. (Inspiré de Plack, 2023)</em></span><a class="headerlink" href="#pattern4-png" title="Link to this image">#</a></p>
+<p><span class="caption-number">Fig. 81 </span><span class="caption-text"><em>Modélisation des vibrations en différents points de la membrane basilaire, en réponse à un complexe harmonique de fréquence fondamentalementale 300 Hz. Le spectre de ce signal est représenté dans le panneau supérieur. Comme pour la <a class="reference internal" href="Oreille_interne_1.html#pattern-png"><span class="std std-numref">Fig. 65</span></a>, on a tracé en-dessous les fonctions de transfert de six gammatones, de fréquences d’accordage 300 Hz, 600 Hz, 1270 Hz, 3460 Hz, 5060 Hz et 7350 Hz, puis le pattern d’excitation. Les trois derniers gammatones ont des bandes passantes très larges qui englobent un grand nombre d’harmoniques, et effectivement ils correspondent à la région des harmoniques non résolues. La partie inférieure de la figure présente la sortie temporelle de chacun des six gammatones identifiés plus haut. Du fait de phénomènes de battement entre harmoniques, on observe une périodicité à 300 Hz dans la réponse des trois filtres gammatones accordé à 3460 Hz, 5060 Hz et 7350 Hz. (Inspiré de Plack, 2023)</em></span><a class="headerlink" href="#pattern4-png" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
 <p>Nous avons déjà détaillé précédemment le cas des trois gammatones accordés aux fréquences les plus basses. Ceux-ci sont suffisamment étroits pour n’englober qu’une harmonique (ils sont situés dans la région des harmoniques résolues) et leur sortie fluctue donc à la fréquence de cette harmonique. En revanche, les filtres gammatones de fréquence d’accordage plus élevée sont, comme on l’a vu précédemment, trop larges pour isoler une composante harmonique et englobent au contraire plusieurs harmoniques proches (qui sont donc non-résolues). Il en découle un phénomène de battement à la fréquence fondamentale dans leur réponse temporelle : la superposition de plusieurs tons purs espacés de ∆f engendre un signal possédant des modulations d’enveloppe à la fréquence ∆f. Ainsi, pour un complexe harmonique, <strong>les gammatones accordés dans les hautes fréquences (région des harmoniques non-résolues) ont une réponse dont l’envelope est périodique à la fréquence fondamentale du signal</strong>.</p>
@@ -478,7 +489,7 @@ document.write(`
 <a class="reference internal image-reference" href="../_images/AuditorySpectrograms2.png"><img alt="Spectrogramme auditif" src="../_images/AuditorySpectrograms2.png" style="width: 80%;" />
 </a>
 <figcaption>
-<p><span class="caption-number">Fig. 81 </span><span class="caption-text"><em>Deux exemples de spectrogramme auditif, en réponse à un complexe harmonique de fréquence fondamentale 300 Hz (panneau gauche), et à un enregistrement de la voyelle “é” prononcée par une voix avec une fréquence fondamentalementale à 250 Hz (panneau droit). A droite de chaque spectrogramme est représenté le pattern d’excitation correspondant, et au dessus la réponse électrique simulée d’une cellule ciliée particulière (c’est-à-dire une ligne du spectrogramme, identifiée par la flèche rouge) : cellule accordée à 7000 Hz (panneau gauche) ou à 3370 Hz (panneau droit).</em></span><a class="headerlink" href="#auditoryspectrograms2-png" title="Link to this image">#</a></p>
+<p><span class="caption-number">Fig. 82 </span><span class="caption-text"><em>Deux exemples de spectrogramme auditif, en réponse à un complexe harmonique de fréquence fondamentale 300 Hz (panneau gauche), et à un enregistrement de la voyelle “é” prononcée par une voix avec une fréquence fondamentalementale à 250 Hz (panneau droit). A droite de chaque spectrogramme est représenté le pattern d’excitation correspondant, et au dessus la réponse électrique simulée d’une cellule ciliée particulière (c’est-à-dire une ligne du spectrogramme, identifiée par la flèche rouge) : cellule accordée à 7000 Hz (panneau gauche) ou à 3370 Hz (panneau droit).</em></span><a class="headerlink" href="#auditoryspectrograms2-png" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
 </section>

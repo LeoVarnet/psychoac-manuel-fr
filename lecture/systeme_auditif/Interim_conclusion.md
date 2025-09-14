@@ -17,7 +17,7 @@ Dans les sections qui précèdent, nous avons listé les différentes étapes de
 - Stage 5: modèle des synapses du nerf auditif
 - Stage 6: cochlear nucleus + inferior colliculus
 
-```{figure} pattern4bis.png
+```{figure} models.png
 ---
 name: models.png
 alt: modélisation

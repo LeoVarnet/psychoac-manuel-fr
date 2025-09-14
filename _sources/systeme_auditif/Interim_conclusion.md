@@ -13,7 +13,7 @@ Dans les sections qui précèdent, nous avons listé les différentes étapes de
 - filtres d'oreille externe/moyenne
 - 
 
-Cette structure relativement linéaire contraste avec celle du système auditif central pour laquelle de nombreuses routes sont disponibles pour le signal, avec des voies descendantes ...
+Cette structure relativement "rectiligne", formé par une série de modules successifs, contraste avec le système auditif central, constitué de nombreuses voies parallèles, comme nous le verrons plus loin.
 
 ## Codage d'un complexe harmonique 
 

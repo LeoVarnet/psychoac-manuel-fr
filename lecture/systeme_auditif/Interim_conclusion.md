@@ -15,7 +15,7 @@ Dans les sections qui précèdent, nous avons listé les différentes étapes de
 - Stage 3 : décomposition en fréquence par la membrane basilaire, modélisée par un banc de filtres (incluant éventuellement l'amplification/compression par les cellules ciliées externes). P.ex. banc de filtres gammatones.
 - Stage 4 : modèle de la transduction par les cellules ciliées. P.ex. rectification demie-onde suivie d'un filtre passe-bas de fréquence de coupure 1 kHz.
 - Stage 5 : modèle des synapses du nerf auditif. A minima, ce module réalise une compression supplémentaire du signal. Il peut également prendre en compte les différents types de fibres, et/ou produire une série de potentiels d'action.
-- Stage 6: modèles du noyau cochléaire et du colliculus inférieur. Nous envisagerons ce module dans la section suivante.
+- Stage 6 : modèles du noyau cochléaire et du colliculus inférieur. Nous envisagerons ce module dans la section suivante.
 La figure fait également apparaître, en bleu, des modifications pouvant être apportées aux modèles pour simuler diverses formes de pertes auditives.
 
 ```{figure} models.png
@@ -25,7 +25,7 @@ alt: modélisation
 width: 75%
 align: center
 ---
-*(Osses et al. 2022)*
+*Structure de huit modèles "classiques" du système auditif périphérique humain. faisant apparaitre les différentes étapes de traitement (stages, voir description dans le texte). Les modules annotés en bleu permettent également une simulation des pertes auditives. (figure issue de Osses et al. 2022)*
 ```
 
 Cette structure relativement "rectiligne" du système auditif périphérique, formée par une série de modules successifs, contraste avec le système auditif central, constitué quant à lui de nombreuses voies parallèles, comme nous le verrons plus loin.

@@ -28,7 +28,8 @@ La cochlée possède une forme de coquille d'escargot -- d'où son ancien nom fr
 ```{figure} Cochlea.png
 ---
 name: Cochlea.png
-alt: Cochlée
+alt: Schéma de la cochlée, organe en forme de coquille d'escargot représenté ici en coupe transversale. On distingue trois compartiments à l'intérieur du conduit : deux plus importants (la rampe cochléaire et la rampe tympanique) et un plus fin entre les deux. Ces canaux sont séparés par de fines cloisons. 
+Des flèches rouges indiquent la propagation de l’onde sonore à travers la rampe vestibulaire, montant dans la spirale de la cochlée. Au sommet de la cochlée la fleche passe d'une rampe à une autre. Les flèches bleues montrent le retour de l’onde dans la rampe tympanique, redescendant vers la base de la cochlée. 
 width: 70%
 align: center
 ---

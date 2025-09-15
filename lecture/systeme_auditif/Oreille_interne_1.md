@@ -10,7 +10,7 @@ L'oreille interne se décompose en trois parties :
 ```{figure} SysAudExt_IE.JPG
 ---
 name: SysAudExt_IE.JPG
-alt: Systeme auditif externe - oreille interne 
+alt: Schéma anatomique de l’oreille humaine en coupe, identique à celui des sections précédentes. A droite de l'oreille moyenne, l'oreille interne est mise en évidence en vert. La cochlée, représentée sous forme d’une spirale, avec au-dessus les grandes boucles du système vestibulaire, la fenêtre ovale, située juste avant la cochlée, et le nerf auditif, représenté comme un faisceau de fibres sortant de la cochlée vers le cerveau.
 width: 100%
 align: center
 ---

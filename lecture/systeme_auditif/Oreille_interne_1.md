@@ -43,7 +43,7 @@ Dans son *Traité de l'organe de l'ouïe*, publié en 1683 et considéré comme 
 ```{figure} DuVerneyHelmholtzBekesy.bmp
 ---
 name: DuVerneyHelmholtzBekesy.bmp
-alt: DuVerney Helmholtz Bekesy
+alt: Trois portraits côte à côte : DuVerney en train de présenter ses travaux à une assemblée, Helmholtz au milieu de certains de ses outils scientifiques, dont un résonateur, von Bekesy montrant son prix Nobel.
 width: 100%
 align: center
 ---

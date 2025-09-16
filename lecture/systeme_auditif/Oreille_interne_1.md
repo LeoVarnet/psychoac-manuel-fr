@@ -1,4 +1,4 @@
-<img width="600" height="300" alt="pattern2" src="https://github.com/user-attachments/assets/b39303ec-eaec-4946-9997-2fc97ce13065" /># Oreille interne, partie 1 : cochlée et membrane basilaire
+# Oreille interne, partie 1 : cochlée et membrane basilaire
 
 L'**oreille interne** constitue le cœur du système auditif périphérique. Tandis que l'oreille externe et moyenne peut se réduire, en première approximation, à un simple filtre linéaire, l'oreille interne réalise plusieurs transformations essentielles des vibrations qui lui parviennent par la fenêtre ovale. Sa fonction est d'**analyser les sons en fréquence**, mais également d'**amplifier les sons faibles** et de **convertir les vibrations mécaniques en signaux électriques**.
 

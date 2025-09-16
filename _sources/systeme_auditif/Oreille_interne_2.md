@@ -7,7 +7,7 @@ Nous aborderons ensuite la troisième fonction de la cochlée : l'amplification/
 ```{figure} SysAudExt_IE.JPG
 ---
 name: SysAudExt_IE.JPG
-alt: Systeme auditif externe - oreille interne 
+alt: Schéma anatomique de l’oreille humaine en coupe, identique à celui des sections précédentes. A droite de l'oreille moyenne, l'oreille interne est mise en évidence en vert. La cochlée, représentée sous forme d’une spirale, avec au-dessus les grandes boucles du système vestibulaire, la fenêtre ovale, située juste avant la cochlée, et le nerf auditif, représenté comme un faisceau de fibres sortant de la cochlée vers le cerveau.
 width: 100%
 align: center
 ---
@@ -21,7 +21,7 @@ La conversion de l'onde en courant électrique est assurée par environ 3500 **c
 ```{figure} Hair_cell.png
 ---
 name: Hair_cell.png
-alt: Schéma des cellules cilliées
+alt: Schéma de la cochlée mettant en évidence les cellules ciliées. À gauche, vue en coupe de la cochlée montrant les trois canaux au sein du conduit de la spirale. Les 3 canaux sont séparés par deux membranes, l'une d'elle étant la membrane basilaire. Sur cette membrane basilaire on distingue une structure complexe (l'organe de Corti), et un zoom indiqué par une flèche nous amène à la partie droite de la figure. A droite, une petite portion de la membrane basilaire est représentée de façon agrandie. On distingue plusieurs cellules similaires les unes à côté des autres. Sur leur face supérieure (la seule donnant sur le conduit auditif) elles présentent des petites excroissances, les stéréocils.
 width: 100%
 align: center
 ---
@@ -33,7 +33,7 @@ Ainsi, la cellule ciliée est capable de convertir un mouvement latéral de ses 
 ```{figure} Organ_of_Corti.png
 ---
 name: Organ_of_Corti.png
-alt: Schéma en coupe de la cochlée
+alt: Même schéma en coupe de la cochlée que dans la figure précédente. Ici sont indiqués les noms de plusieurs éléments. En particulier on voit que les cellules ciliées de la figure précédente font partie de l'organe de Corti, recouvert par la membrane tectoriale.
 width: 100%
 align: center
 ---
@@ -43,7 +43,7 @@ align: center
 ```{figure} I_H_Hair_cell.png
 ---
 name: I_H_Hair_cell.png
-alt: Schéma de l'ogane de Corti
+alt: Schéma en coupe de l'ogane de Corti. On identifie en bas la membrane basilaire, à laquelle sont attachées une cellule ciliée interne et trois cellules ciliées externes. Les stéréocils de ces cellules dépassent et flottent dans le canal de la cochlée. Au dessus, la membrane tectoriale forme un repli qui vient se poser sur les stéréocils.
 width: 70%
 align: center
 ---
@@ -59,7 +59,7 @@ Cependant, ce mécanisme de codage a ses limites. En effet, la cellule ciliée n
 ```{figure} Phaselock.png
 ---
 name: Phaselock.png
-alt: Phaselock.png
+alt: Graphique montrant, en fonction du temps, le décours temporel du potentiel électrique mesuré dans différentes cellules ciliées internes. L'axe horizontal correspond au temps, de 0 à 70 ms. L'axe vertical donne une idée de la charge, en mV. Les potentiels électriques de 10 cellules sont représentés, les uns en dessous des autres. Il s'agit, de haut en bas, de cellules accordées à 100 Hz, 300 Hz, 500 Hz, 700 Hz, 900 Hz, 1000 Hz, 2000 Hz, 3000 Hz, 4000 Hz, 5000 Hz. Les cellules de 100 Hz à 1000 Hz montrent une périodicité claire de leur activité, c'est à dire que le potentiel fluctue à la fréquence correspondante. Au dessus de 1000 Hz, on distingue surtout une fonction créneau correspondant à l'enveloppe du stimulus : la cellule a un potentiel faible dans le silence et un potentiel élevé lorsque le ton est joué, mais on ne distingue pas les fluctuations périodiques.
 width: 60%
 align: center
 ---
@@ -75,7 +75,7 @@ Nous avons vu précédemment comment le pattern d'excitation rend compte du coda
 ```{figure} pattern4.png
 ---
 name: pattern4.png
-alt: Sortie temporelle des filtres gammatones
+alt: La figure est composée de quatre panneaux empilés verticalement, représentant le calcul du pattern d'excitation d'un complexe harmonique et les sorties temporelles de 6 gammatones. Panneau supérieur : Spectre du stimulus. Axe horizontal : Fréquence (en kHz), de 0 à 8 kHz. Axe vertical : Amplitude, indiquée en unités arbitraires. Le spectre est celui d'un complexe harmonique de fréquence fondamentale 300 Hz, composé de raies spectrales tous les 300 Hz. Panneau 2 : six filtres gammatones. Axe horizontal : Fréquence (en kHz), de 0 à 8 kHz. Axe vertical : Gain, de -50 dB à 0 dB. Six courbes en forme de cloche symétrique, centrées sur différentes fréquences : 300 Hz, 600 Hz, 1.4 kHz, 3.5 kHz, 5 kHz et 7.5 kHz. Ces courbes ressemblent à celles des gammatones vues précédemment, en particulier les gammatones de fréquences plus élevées sont aussi plus larges. Les six courbes sont colorées du violet à l'orange. Panneau 3 : Pattern d'excitation. Axe horizontal : Fréquence (en kHz), de 0 à 8 kHz. Axe vertical : Gain, de -40 dB à 0 dB. De même que dans la partie précédente, le pattern d'excitation du complexe harmonique montre dans les basses fréquence des pics pour chaque harmonique (harmoniques résolues) mais dans les hautes fréquences il est plat (harmoniques non-résolues. Panneau inférieur : sortie temporelle des six gammatones. Ici seul l'axe temporel est indiquée (de 0 à 16 ms) et 6 courbes sont tracées avec les couleurs correspondant aux six gammatones du panneau du dessus. La sortie du gammatone à 300 Hz (fréquence fondamentale) montre une périodicité à 300 Hz. La sortie du gammatone à 600 Hz (première harmonique) montre une périodicité à 600 Hz. La sortie du gammatone à  1.4 kHz montre une périodicité à 1.5 kHz (l'harmonique la plus proche). Ensuite un autre motif se dessine pour les trois gammatones supérieurs. Leurs sorties montrent toutes les trois une périodicité d'enveloppe à la fréquence fondamentale (300 Hz). 
 width: 75%
 align: center
 ---
@@ -87,7 +87,7 @@ Pour modéliser les fluctuations du potentiel électrique des cellules cilliées
 ```{figure} AuditorySpectrogram.png
 ---
 name: AuditorySpectrogram.png
-alt: Spectrogramme auditif
+alt: Trois exemples de spectrogrammes auditifs côte à côte. Chacun a pour axe horizontal le temps (de 0 à 100 ms) et pour axe vertical la fréquence (de 0 à 8000 Hz). Le code couleur représente l'activité des cellules ciliées. Le premier panneau représente le spectrogramme auditif d'un ton pur à 300 Hz. On voit que les fréquence autour de 300 Hz sont globalement plus excitées (formant une barre horizontale sur le spectrogramme), mais également que cette excitation a une structure périodique fine avec une fréquence à 300 Hz. Le second panneau représente le spectrogramme auditif de deux tons purs à 300 Hz et 600 Hz. A nouveau on repère deux barres horizontales à 300 et 600 Hz, possédant respectivement des périodicités à 300 et 600 Hz. Enfin dans le dernier panneau est représenté le spectrogramme auditif d'un son de parole de fréquence fondamentale 250 Hz. On retrouve des barres horizontales avec les periodicités correspondantes, du fait de la structure harmonique du son de parole. Dans les hautes fréquences, on distinque un "nuage" d'activation correspondant aux résonnances. Ce nuage a lui même une périodicité à 250 Hz, la fréquence fondamentale.
 width: 100%
 align: center
 ---
@@ -109,7 +109,7 @@ La cellule ciliée externe est donc capable de se contracter en réponse à une 
 ```{figure} Postmortem.jpeg
 ---
 name: Postmortem.jpeg
-alt: Isoresponse tuning curve pre-/post mortem
+alt: Isoresponse tuning curve pre-/post mortem.
 width: 70%
 align: center
 ---

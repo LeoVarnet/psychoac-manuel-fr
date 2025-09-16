@@ -81,7 +81,7 @@ La figure suivante représente les ***tuning curves***, une mesure de la sélect
 ```{figure} tuningcurves.png
 ---
 name: tuningcurves.png
-alt: Graphique représentant une série de courbes de gain (en décibels) en fonction de la fréquence (en kHz). Chacune des courbes correspond à l'enregistrement des vibrations en *une* position unique le long de la cochlée, en fonction de la fréquence du ton pur joué (avec une intensité acoustique toujours identique). Axe vertical : Gain (de 0 dB à -100 dB). Axe horizontal : Fréquence du ton joué (échelle logarithmique de 0.1 kHz à 20 kHz). Plus d'une dizaine de courbes noires représentent des mesures expérimentales en différents points de la cochlée. Chaque courbe montre un pic indiquant un gain maximal à une fréquence particulière, la fréquence d'accordage. Les pics sont observés à différentes fréquences, allant de moins de 1 kHz à plus de 10 kHz. Trois courbes sont mises en évidence en bleu, jaune et vert permettant de bien visualiser la forme "en triangle" commune à toutes les courbes.
+alt: Graphique représentant une série de courbes de gain (tuning curves) en fonction de la fréquence. Chacune des courbes correspond à l'enregistrement des vibrations en *une* position unique le long de la cochlée, en fonction de la fréquence du ton pur joué (avec une intensité acoustique toujours identique). Axe vertical : Gain (de 0 dB à -100 dB). Axe horizontal : Fréquence du ton joué (échelle logarithmique de 0.1 kHz à 20 kHz). Plus d'une dizaine de courbes noires représentent des mesures expérimentales en différents points de la cochlée. Chaque courbe montre un pic indiquant un gain maximal à une fréquence particulière, la fréquence d'accordage. Les pics sont observés à différentes fréquences, allant de moins de 1 kHz à plus de 10 kHz. Trois courbes sont mises en évidence en bleu, jaune et vert permettant de bien visualiser la forme "en triangle" commune à toutes les courbes.
 width: 70%
 align: center
 ---
@@ -93,7 +93,7 @@ Une approche expérimentale légèrement différente permet d'obtenir des courbe
 ```{figure} Isoresponse2.png
 ---
 name: Isoresponse2.png
-alt: isoresponse tuning curves
+alt: Graphique représentant les isoresponse tuning curves : elles indiquent l’intensité d’un stimulus sonore nécessaire pour déclencher une excitation donnée de la membrane basilaire, en fonction de la fréquence du stimulus. Axe vertical : intensité du stimulus (en dB SPL, de 0 à 100 dB SPL). Axe horizontal : fréquence du son présenté (en hertz, de 100 Hz à 20 kHz). Trois courbes sont présentées, en jaune, bleu et vert, correspondant aux trois courbes de la figure précédente. Elles ont la même forme en triangle, avec la même valeur pour le pic, mais sont inversées verticalement : ici le pic est dirigé vers le bas. Ce qui correspondait à un maximum d'excitation pour une intensité donnée dans la figure précédente est maintenant un minimum de l'intensité nécessaire pour atteindre une excitation donnée.
 width: 70%
 align: center
 ---
@@ -105,7 +105,7 @@ Les observations dans les {numref}`Excitation.jpeg`, {numref}`tuningcurves.png` 
 ```{figure} tonotopy.png
 ---
 name: tonotopy.png
-alt: tonotopy
+alt: L’image est divisée en deux parties principales. Partie gauche : une courbe, représentant la relation entre la fréquence et la position le long de la cochlée. Axe vertical : Fréquence (en Hertz) allant de 0 à 22000 Hz. Axe horizontal : Position le long de la cochlée, de 0 (apex, sommet de la cochlée) à 1 (base de la cochlée). Les données mesurées sont représentées par des points qui se répartissent globalement selon une courbe ascendante (tracée en orange). Une seconde courbe en vert représente la formule théorique couramment utilisée pour la modélisation de la cochlée (équation de Greenwood), elle suit la bonne tendance mais ne comme pas exactement aux données. Partie droite de la figure : une reconstruction 3D en spirale de la cochlée, montrant la correspondance spatiale entre différentes plages de fréquences et leur localisation anatomique dans la cochlée. La spirale de la cochlée est segmentée en plusieurs bandes colorées, chacune représentant une plage de fréquence spécifique. Il apparaît clairement que les fréquences basses couvrent une proportion plus grande de la cochlée. Par exemple le segment 20–125 Hz est de longueur équivalente au segment 4000–8000 Hz.
 width: 100%
 align: center
 ---

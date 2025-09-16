@@ -1,4 +1,4 @@
-# Oreille interne, partie 1 : cochlée et membrane basilaire
+<img width="600" height="300" alt="pattern2" src="https://github.com/user-attachments/assets/b39303ec-eaec-4946-9997-2fc97ce13065" /># Oreille interne, partie 1 : cochlée et membrane basilaire
 
 L'**oreille interne** constitue le cœur du système auditif périphérique. Tandis que l'oreille externe et moyenne peut se réduire, en première approximation, à un simple filtre linéaire, l'oreille interne réalise plusieurs transformations essentielles des vibrations qui lui parviennent par la fenêtre ovale. Sa fonction est d'**analyser les sons en fréquence**, mais également d'**amplifier les sons faibles** et de **convertir les vibrations mécaniques en signaux électriques**.
 
@@ -123,7 +123,7 @@ Sur la base de la description physiologique très sommaire de la cochlée que no
 ```{figure} gammatones.png
 ---
 name: gammatones.png
-alt: gammatones
+alt: Ce graphique illustre les réponses en fréquence de plusieurs filtres (banc de filtres), représentés par une série de courbes en forme de cloches se chevauchant. Axe horizontal : fréquences allant de 0 à 20 kHz. Axe vertical : Gain allant de -15 dB à +5 dB. Une série de courbes fines noires disposées côte à côte, représentent des filtres passe-bande étroits. Ces courbes ont une forme de cloche, avec un maximum (à 0 dB). Elles sont espacées globalement logarithmiquement : les courbes dans les basses fréquences sont très proches et très fines, les courbes dans les hautes fréquences sont éloignées et larges. Trois courbes sont mises en évidence en jaune, bleu et vert, correspondant aux courbes des figures représentant les tuning curves et les isoresponse tuning curves. Chaque courbe a un profil parfaitement symétrique.
 width: 100%
 align: center
 ---
@@ -135,7 +135,7 @@ Chaque gammatone permet donc de simuler l'excitation d'un point précis de la me
 ```{figure} pattern.png
 ---
 name: pattern.png
-alt: Calcul du pattern d'excitation
+alt: La figure est composée de trois panneaux empilés verticalement, représentant les différentes étapes du traitement spectral d’un stimulus sonore (ici un ton pur) à travers une banque de filtres de Gammatone, simulant le fonctionnement de la cochlée. Panneau supérieur : Spectre du stimulus. Axe horizontal : Fréquence (en kHz), de 0.6 à 1.8 kHz. Axe vertical : Amplitude, indiquée en unités arbitraires. Le spectre est celui d'un ton pur "idéal", composé d'une unique raie spectrale à 1 kHz. Panneau central : cinq filtres gammatones. Axe horizontal : Fréquence, de 0.6 à 1.8 kHz. Axe vertical : Gain, de -30 dB à 0 dB. Cinq courbes en forme de cloche symétrique, centrées sur différentes fréquences : à environ 0.75 kHz, 0.9 kHz, 1 kHz, 1.15 kHz, et 1.3 kHz. Ces courbes ressemblent à celles de la figure précédente, puisqu'il s'agit dans les deux cas de filtres gammatones. Ici, les cinq courbes sont colorées du violet à l'orange. Une ligne verticale noire en pointillés marque la fréquence du stimulus (1 kHz). À l’intersection entre cette ligne et les courbes, des points colorés sont tracés, représentant le niveau de réponse de chaque filtre à la fréquence de 1 kHz. Panneau inférieur : Pattern d'excitation. Axe horizontal : Fréquence, de 0.6 à 1.8 kHz. Axe vertical : Excitation, de -30 à 0 dB. Un graphique en ligne noire lisse, formant une courbe en cloche asymétrique avec un pic centré à 1 kHz. Cette courbe est appelée "excitation pattern" : elle représente l’excitation de la membrane basilaire le long de la cochlée. Les mêmes points colorés que dans le panneau du milieu apparaissent sur la courbe, indiquant le niveau d’excitation pour chaque filtre, en fonction de sa fréquence centrale. On voit que la courbe noire passe parfaitement par ces cinq points : en effet la forme de la courbe découle des valeurs de sortie des filtres gammatones.
 width: 60%
 align: center
 ---
@@ -147,7 +147,7 @@ La figure suivante représente le pattern d'excitation en réponse à un ton pur
 ```{figure} pattern2.png
 ---
 name: pattern2.png
-alt: Exemple de pattern d'excitation
+alt: Graphique représentant une courbe d'excitation en décibels en fonction de la fréquence en kilohertz. L'axe horizontal représente les fréquences et va de 1 kHz à environ 2.8 kHz. L'axe vertical représente le niveau d'excitation et va de -50 dB à 0 dB. Une seule courbe lisse, tracée en rouge, commence autour de -50 dB à 1 kHz, monte jusqu'à un pic maximal (0 dB) situé aux alentours de 1.5 kHz, puis redescend progressivement à nouveau vers -50 dB à 2.8 kHz. La forme globale est celle d’un pic en cloche, globalement asymétrique (plus étalé vers les hautes fréquences).
 width: 70%
 align: center
 ---
@@ -163,7 +163,7 @@ Pour un complexe harmonique, composé de tons purs à des fréquences multiples 
 ```{figure} pattern3.png
 ---
 name: pattern3.png
-alt: Patterns d'excitation d'un complexe harmonique
+alt: La figure contient trois graphiques empilés verticalement, représentant le calcul du pattern d'excitation en réponse à un complexe harmonique. Panneau supérieur : Spectre du stimulus. Axe horizontal : Fréquence, de 0 à 6 kHz. Axe vertical : Amplitude, en unité arbitraire. Le spectre est composé d'une série de lignes verticales régulièrement espacées en fréquence, commençant à 0.5 kHz et allant jusqu’à 5.5 kHz. Elles représentent les composantes harmoniques d’un son complexe de fréquence fondamentale 500 Hz. Les pics sont représentés avec un dégradé du bleu foncé (fréquences basses) vers le vert clair (fréquences plus élevées). Panneau du milieu : Pattern d'excitation des tons individuels. Axe horizontal : Fréquence, de 0 à 6 kHz. Axe vertical : Excitation, de 0 dB à environ -50 dB. Une série de courbes en cloche est représentée, chacune centrée autour d’une fréquence correspondant à une composante du spectre. Les courbes se chevauchent partiellement et montrent une atténuation en dB à mesure qu’on s’éloigne du centre de fréquence. Les courbes sont colorées selon un dégradé similaire au graphique précédent, du bleu foncé au vert clair. Panneau du bas : "Excitation Pattern of harmonic complex". Axe horizontal : Fréquence, de 0 à 6 kHz. Axe vertical : Excitation, de 0 dB à environ -50 dB. Une courbe rouge continue ondulante, représentant la somme des excitations des tons individuels vus dans le graphique du milieu. La courbe présente des pics réguliers à certaines fréquences (correspondant aux harmoniques), mais ces pics sont de moins en moins visibles dans les hautes fréquences, jusqu'à ce que la courbe soit quasiment plate vers 5.5 kHz.
 width: 60%
 align: center
 ---

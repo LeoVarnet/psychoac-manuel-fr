@@ -62,7 +62,8 @@ La figure ci-dessous illustre une mesure des vibrations de la membrane basilaire
 ```{figure} Excitation.jpeg
 ---
 name: Excitation.jpeg
-alt: Déplacement de la membrane basilaire en réponse à un ton pur
+alt: Graphique illustrant l'amplitude des vibrations de la membrane basilaire le long de la cochlée lorsque l'oreille perçoit un ton pur à 15 kHz. Axe vertical : "BM displacement", c’est-à-dire l'amplitude des fluctuations de la membrane basilaire (de 0.1 à 100 nanomètres).
+Axe horizontal : "BM distance from apex", soit la distance de la membrane basilaire depuis l’apex (sommet de la cochlée), en millimètres. L'axe va de 28 mm à 12 mm. Un second axe horizontal indique la fréquence correspondante en kHz : de 17 kHz (pour 28 mm) à 13.5 kHz (pour 12 mm). Quatorze courbes noires représentant les déplacements de la membrane basilaire en réponse à un ton pur à 15 kHz pour différents niveaux de pression sonore, notés en dB SPL. Les niveaux indiqués vont de 20 à 100 dB SPL, avec des courbes plus hautes pour les niveaux plus élevés, et plus basses pour les niveaux plus faibles. Toutes les courbes marquent un pic (déplacement maximum) à un point spécifique sur l’axe horizontal, vers 14.5 mm, indiquant la position où la membrane basilaire répond le plus fortement (effectivement, sur l'axe horizontal cette position correspond à 15 kHz). La courbe correspondant au niveau de 70 dB SPL est mise en évidence en rouge. Cette courbe est asymétrique : elle s'étend plus vers les hautes fréquences (les grandes distances à l'apex) alors qu'elle retombe assez vite du côté des basses fréquences. Toutes les courbes ont un profil similaire, mais pas identique, indiquant une non-linéarité dans la réponse à des intensités différentes.
 width: 70%
 align: center
 ---

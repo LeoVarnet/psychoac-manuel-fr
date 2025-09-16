@@ -81,7 +81,7 @@ La figure suivante représente les ***tuning curves***, une mesure de la sélect
 ```{figure} tuningcurves.png
 ---
 name: tuningcurves.png
-alt: tuning curves
+alt: Graphique représentant une série de courbes de gain (en décibels) en fonction de la fréquence (en kHz). Chacune des courbes correspond à l'enregistrement des vibrations en *une* position unique le long de la cochlée, en fonction de la fréquence du ton pur joué (avec une intensité acoustique toujours identique). Axe vertical : Gain (de 0 dB à -100 dB). Axe horizontal : Fréquence du ton joué (échelle logarithmique de 0.1 kHz à 20 kHz). Plus d'une dizaine de courbes noires représentent des mesures expérimentales en différents points de la cochlée. Chaque courbe montre un pic indiquant un gain maximal à une fréquence particulière, la fréquence d'accordage. Les pics sont observés à différentes fréquences, allant de moins de 1 kHz à plus de 10 kHz. Trois courbes sont mises en évidence en bleu, jaune et vert permettant de bien visualiser la forme "en triangle" commune à toutes les courbes.
 width: 70%
 align: center
 ---

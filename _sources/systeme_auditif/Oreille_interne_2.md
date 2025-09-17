@@ -123,7 +123,9 @@ Ce système de feedback actif est plus ou moins sollicité en fonction du niveau
 ```{figure} TuningGain.png
 ---
 name: TuningGain.png
-alt: tuning curve effect of level
+alt: Graphique représentant le gain (axe vertical de 0,1 à 1000 mm/s/Pa, avec une échelle logarithmique) en fonction de la fréquence (en Hz, axe horizontal de 0 à 18 000 Hz). Il s'agit d'une tuning curve comme vu précédemment, c'est à dire la réponse en fréquence d'un point précis de la membrane basilaire.
+Plusieurs courbes sont tracées, correspondant à différents niveaux (en dB SPL) du stimulus. Les niveaux sont indiqués dans la légende à droite : 0, 10, 20, 30, 40, 50, 60, 70, 80, 90 et 100 dB SPL.
+Chaque courbe suit une forme similaire (qui rappelle celle des tuning curves vues précédemment) : Elles montrent une augmentation progressive du gain, atteignant un maximum (ici vers 9000 Hz, la fréquence d'accordage). Difference entre les courbes : Le gain maximal diminue à mesure que le niveau SPL augmente. La courbe à 0 dB SPL a le pic le plus élevé, tandis que celle à 100 dB SPL a un pic beaucoup plus bas). De plus les courbes pour les niveaux faibles ont un pic beaucoup plus fin, c'est à dire une meilleure résolution en fréquence, que les courbes pour les niveaux forts qui forment plutôt une bosse.
 width: 70%
 align: center
 ---

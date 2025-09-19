@@ -64,7 +64,9 @@ align: center
 
 Le rôle du système auditif périphérique est de capter le monde sonore qui nous entoure pour transmettre cette information au cerveau. L'information suit donc globalement un chemin ascendant (***bottom-up***) depuis les récepteurs sensoriels jusqu'au cortex auditif : elle est dite **afférente**.
 
-Il faut noter néanmoins que notre oreille est loin d'être un capteur passif, qui se contenterait de réceptionner les sons comme pourrait le faire un micro haute-fidélité. Au contraire, le signal est filtré et transformé à chaque étape, à tel point que certaines informations sont perdues tandis que d'autres sont codées de façon redondante.
+Il faut noter néanmoins que notre oreille est loin d'être un capteur passif, qui se contenterait de réceptionner les sons comme pourrait le faire un micro haute-fidélité. Au contraire, le signal est filtré et transformé à chaque étape, et dès le pavillon, à tel point que certaines informations sont perdues tandis que d'autres sont codées de façon redondante.
+
+Autre différence fondamentale avec un récepteur : en sens opposé de l'information afférente, certaines informations **efférentes**, ou descendantes (***top-down***) sont transmises depuis les étages supérieurs vers les récepteurs sensoriels.
 
 Nous avons évoqué précédemment le fait que les cellules ciliées externes permettent, dans certaines situations, l'amplification des oscillations de la membrane basilaire, grâce à un mécanisme convertissant les impulsions électriques en mouvements mécaniques. Ces cellules reçoivent donc des informations provenant d'étages supérieurs du système auditif. Cette information est **descendante** (***top-down***) ou **efférente** tandis que l'information provenant de l'extérieur et transmise au cerveau est dite **montante** (***bottom-up***) ou **afférente**. Ainsi le nerf auditif est constitué de fibres montantes qui 
 

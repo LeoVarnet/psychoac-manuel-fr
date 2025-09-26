@@ -60,6 +60,34 @@ align: center
 *Deux exemples de spectrogramme auditif, en réponse à un complexe harmonique de fréquence fondamentale 300 Hz (panneau gauche), et à un enregistrement de la voyelle "é" prononcée par une voix avec une fréquence fondamentalementale à 250 Hz (panneau droit). A droite de chaque spectrogramme est représenté le pattern d'excitation correspondant, et au dessus la réponse électrique simulée d'une cellule ciliée particulière (c'est-à-dire une ligne du spectrogramme, identifiée par la flèche rouge) : cellule accordée à 7000 Hz (panneau gauche) ou à 3370 Hz (panneau droit).*
 ```
 
+## Le paradoxe du système auditif 
+
+un mauvais instrument de mesure qui fournit une excellente précison
+
+> In order for a microphone to be considered as a high-fidelity component  
+of an audio system, it should produce a transduced signal that faithfully follows  
+the waveform of sound, introducing no distortion of its own. Applying this  
+criterion, the construction and functioning of the ear is extremely poor. The ear  
+is not unique in this respect; characteristics which could be considered as ser-ious flaws in a physical instrument are found in other sensory systems as well.  
+Thus, Helmholtz listed and described in some detail the optical defects of the  
+normal eye which include severe spherical aberration, chromatic aberration,  
+light scattering by colloidal particles, inhomogeneities suspended in the ocular  
+fluids, and inside-out retinal design (the blood vessels and nerves are in front of  
+the light-sensitive receptor cells and cast shadows, rather than being located  
+behind the receptors as in the octopus eye). He then stated that if an optician  
+had tried to sell him an instrument with these defects, he would feel justified in  
+blaming his carelessness in the strongest terms and returning the instrument  
+(see Warren and Warren, 1968, pp. 73–80).  
+Comparable acoustical ‘‘defects’’ can be described for the performance of  
+the ear. The pinna produces resonances and time delays that change the  
+intensity and phase of spectral components in a manner which varies with  
+azimuth and elevation of the source. The external ear canal operates as a  
+resonant tube, selectively enhancing frequencies of about 3,000 or 4,000 Hz.  
+The intra-aural muscles can produce frequency-selective amplitude reductions  
+when they contract. The middle and inner ears are known to introduce dis-tortions before neural transduction, so that sinusoidal stimuli at moderate  
+intensities generate appreciable levels of extraneous sinusoidal frequencies at  
+the receptor level
+
 ## Systèmes afférent et efférent
 
 Le rôle du système auditif périphérique est de capter le monde sonore qui nous entoure pour transmettre cette information au cerveau. L'information suit donc globalement un chemin ascendant (***bottom-up***) depuis les récepteurs sensoriels jusqu'au cortex auditif : elle est dite **afférente**.

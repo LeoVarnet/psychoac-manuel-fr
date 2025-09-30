@@ -70,13 +70,9 @@ Ainsi, le signal est filtré et transformé à chaque étape du système auditif
 
 ## Systèmes afférent et efférent
 
-Le rôle du système auditif périphérique est de capter le monde sonore qui nous entoure pour transmettre cette information au cerveau. L'information suit donc globalement un chemin ascendant (***bottom-up***) depuis les récepteurs sensoriels jusqu'au cortex auditif : elle est dite **afférente**.
+Au sein du système auditif, l'information suit donc globalement un chemin ascendant (***bottom-up***) depuis les récepteurs sensoriels jusqu'au cortex auditif : elle est dite **afférente**. Nous avons cependant noté au cours de ce chapitre que certaines informations transitent en sens inverse, depuis les étages supérieurs vers les récepteurs sensoriels. Ainsi, la détection d'un niveau sonore trop important au niveau du [xxx] déclenche le réflexe stapédien qui immobilise les osselets, et les cellules ciliées externes reçoivent un feedback du [xxx] qui leur permet d'amplifier les sons trop faibles. Ces informations descendantes (***top-down***) sont dites **efférentes**.
 
-
-
-Autre différence fondamentale avec un simple microphone : en sens opposé de l'information afférente, des informations **efférentes**, ou descendantes (***top-down***) sont transmises depuis les étages supérieurs vers les récepteurs sensoriels. Nous avons évoqué précédemment deux exemples de tels mécanismes de feedback : le réflexe stapédien qui immobilise les osselets lorsque le niveau sonore devient trop important, et les cellules ciliées externes qui amplifient les sons trop faibles. 
-
-La fonction principale du nerf auditif étant de transmettre l'information depuis les récepteurs sensoriels aux étages supérieurs, il est composé majoritairement de fibres afférentes connectées aux cellules ciliées internes. Néanmoins, il contient également une proportion non négligeable de fibres efférentes connectées aux cellules ciliées externes. Là encore, la séparation entre sensation "pure" et perception se trouve brouillée. En réalité, dans le système auditif, les signaux 
+La fonction principale du nerf auditif étant de transmettre l'information depuis les récepteurs sensoriels aux étages supérieurs, il est naturel qu'il soit composé majoritairement de fibres afférentes connectées aux cellules ciliées internes. Néanmoins, il contient également une proportion non négligeable de fibres efférentes connectées aux cellules ciliées externes. Là encore, la séparation entre sensation "pure" et perception se trouve brouillée. En réalité, dans le système auditif, les signaux 
 
 L
 

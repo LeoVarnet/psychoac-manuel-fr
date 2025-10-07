@@ -13,7 +13,7 @@
 ### Exercices
 
 - Exercices 1 : Mise au point d’un protocole expérimental ([slides](https://sdrive.cnrs.fr/s/kQxzCrJPk8rWZBo), [réponses](https://sdrive.cnrs.fr/s/o6eKSLpq6cB29nT))
-- Exercices 2 : Section Materials & Methods ([slides](https://sdrive.cnrs.fr/s/m8TG8atY4mTJfnw)) ; documents d’étude : [Saberi & Perrott, "Cognitive restoration of reversed speech" (1999) Nature, 398](https://sdrive.cnrs.fr/s/2Z7MXYSZKrN6FXm) et [Moore & Sek, "Detection of frequency modulation at low modulation rates: Evidence for a mechanism based on phase locking" (1996) Journal of the Acoustical Society of America, 100 (4)](https://sdrive.cnrs.fr/s/ZoQYzAYZRRL2FjF).
+- Exercices 2 : Section Materials & Methods ([slides](https://sdrive.cnrs.fr/s/m8TG8atY4mTJfnw), [réponses](https://sdrive.cnrs.fr/s/JndjPpSnWHTRNb2)) ; documents d’étude : [Saberi & Perrott, "Cognitive restoration of reversed speech" (1999) Nature, 398](https://sdrive.cnrs.fr/s/2Z7MXYSZKrN6FXm) et [Moore & Sek, "Detection of frequency modulation at low modulation rates: Evidence for a mechanism based on phase locking" (1996) Journal of the Acoustical Society of America, 100 (4)](https://sdrive.cnrs.fr/s/ZoQYzAYZRRL2FjF).
 - Exercices 3 : Étude d’article ([slides](https://sdrive.cnrs.fr/s/wwCnEBmbLBZck3K)) ; document d’étude : [Allen & Oxenham, "Symmetric interactions and interference between pitch and timbre" (2014). The Journal of the Acoustical Society of America, 135(3), 1371–1379](https://sdrive.cnrs.fr/s/3fy8WzGQiSnYBib).
 - Exercices 4 : Étude d’article ([slides](https://sdrive.cnrs.fr/s/Pmy7Kw2yNzoWqFo)) ; documents d’étude : [Mann, "Influence of preceding liquid on stop-consonant perception" (1980). Perception & Psychophysics, 28(5), 407-412](https://sdrive.cnrs.fr/s/tRyS2nMTw76k5dT).
 

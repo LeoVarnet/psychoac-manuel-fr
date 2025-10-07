@@ -109,7 +109,7 @@ La cellule ciliée externe est donc capable de se contracter en réponse à une 
 ```{figure} Postmortem.jpeg
 ---
 name: Postmortem.jpeg
-alt: Isoresponse tuning curve pre-/post mortem.
+alt: Graphique représentant l'excitation de l’étrier (vélocité en micromètres par seconde) en fonction de la fréquence (en kilohertz). L’axe vertical, est gradué selon une échelle logarithmique allant de 0,01 à 100 µm/s. L’axe horizontal suit une échelle linéaire allant de 0 à 24 kHz. Deux courbes sont tracées sur le graphique : l’une est rouge (enregistrements post-mortem), l’autre verte (enregistrements ante-mortem). La courbe rouge reste relativement plate, avec une sensibilité accrue entre 10 et 16 kHz. En revanche, la courbe verte montre une évolution plus marquée. Elle suit une trajectoire similaire à la rouge jusqu’à environ 10 kHz, puis chute fortement. À partir de 12 kHz, l'excitation mesurée sur cette courbe augmante fortement, un maximum autour de 17 à 18 kHz. Après ce point, elle remonte brutalement.
 width: 70%
 align: center
 ---
@@ -141,7 +141,7 @@ Il est possible d'améliorer notre modélisation précédente de la cochlée par
 ```{figure} DRNL.png
 ---
 name: DRNL.png
-alt: DRNL
+alt: Deux graphiques côte à côte représentant le gain des DRNL en fonction de la fréquence. Le graphique de gauche correspond à un niveau sonore global de 30 dB SPL, celui de droite à 90 dB SPL. Chaque graphique a les mêmes axes. L’axe horizontal représente la fréquence en hertz (Hz), s’étendant approximativement de 200 à 1800 Hz. L’axe vertical représente le gain en millimètres par seconde (mm/s) selon une échelle logarithmique, allant de 0.1 à 1000 mm/s. Trois courbes sont représentées dans chaque graphique. Une courbe verte en tirets et points montre la sortie de la voie linéaire du modèle (passe-bande assez assez large), une courbe rouge en tirets épais montre la sortie de la voie non linéaire (passe bande beaucoup plus fin, avec un pic marqué à 1000 Hz), et une courbe bleue continue représente la sortie combinée du modèle, appelée "DRNL output". Dans le graphique de gauche (30 dB SPL), la courbe rouge non linéaire domine nettement autour de 1000 Hz tandis que la courbe verte linéaire est plus modeste. La courbe bleue, représentant la somme des deux, suit de près la rouge , montrant que la voie non linéaire contribue majoritairement à la réponse à faible niveau sonore, et est donc très "piquée" et très sélective. Dans le graphique de droite (90 dB SPL), la situation est inversée. La courbe rouge est nettement moins dominante par rapport à la courbe verte. La courbe bleue, qui combine les deux voies, suit de plus près la courbe verte, et elle est donc assez large et peu sélective. Cela montre qu’à niveau sonore élevé, c’est la voie linéaire qui contribue le plus à la réponse du modèle, et que la non-linéarité est saturée.
 width: 70%
 align: center
 ---
@@ -159,7 +159,7 @@ Malgré ce système de transmission minimal, fait de séries d'impulsions élect
 ```{figure} ANtonotopy.png
 ---
 name: ANtonotopy.png
-alt: tonotopy in the auditory nerve
+alt: Vue schématique du système auditif périphérique et central, allant de la cochlée jusqu’au tronc cérébral. À gauche, on voit une coupe transversale du tronc cérébral stylisée, représentée en gris. Au centre de l’image, un zoom schématique est fait sur la cochlée, représentée en spirale. Cette portion montre une série de tours enroulés, suggérant la forme hélicoïdale typique de la cochlée. Le dessin met en évidence les fibres nerveuses auditives sortant de la cochlée. Ces fibres sont représentées par des lignes de différentes couleurs (rouge, verte, bleue), partant de différentes positions le long de la spirale. Ces couleurs représentent des groupes de fibres codant différentes plages de fréquences (graves à aigües) selon leur position tonotopique dans la cochlée. Les fibres colorées convergent ensuite vers le nerf auditif, qui est schématisé comme un gros câble sortant de la cochlée. À l’endroit où ce nerf quitte l’organe, une vue en coupe transversale circulaire du nerf auditif est représentée dans un encart agrandi. Cet encart montre une coupe circulaire contenant plusieurs petits cercles colorés. Ces cercles sont organisés par zones de couleur concentriques : rouge au centre, puis vert, puis bleu, enfin quelques points verts et bleus plus éloignés dans la périphérie. Chaque petit cercle représente une fibre auditive. La disposition et la couleur suggèrent une organisation spatiale tonotopique du nerf auditif, c’est-à-dire que les fibres codant les sons de différentes fréquences sont groupées ensemble selon leur origine cochléaire.
 width: 50%
 align: center
 ---
@@ -171,7 +171,7 @@ D'autre part, le codage temporel observé dans la charge electrique des cellules
 ```{figure} PhaseLocking.png
 ---
 name: PhaseLocking.png
-alt: Phase-locking
+alt: Illustration du principe du phase locking. La partie supérieure de l'image montre quelques périodes d'un sinusoide, correspondant à la forme d'onde du son entrant. La partie centrale représente la sortie stylisée de 3 fibres du nerf auditif. Celles ci présentent des pics à certains instants, les potentiels d'action. Les trois fibres ont des potentiels d'action à des moments différents, mais ils sont globalement alignés avec les maxima de la forme d'onde. Enfin, la partie basse de la figure correspond à la somme des potentiels d'action sur un grand nombre de fibres, au cours du temps. Le nombre de potentiel d'action évolue comme une sinusoide, reproduisant le contour du son entrant.
 width: 60%
 align: center
 ---

@@ -6,7 +6,7 @@
 - Introduction ([slides](https://sdrive.cnrs.fr/s/F6DC2z6E2ERkPsA))
 - Cours 1 (09/09 13h30-16h30, P8) : Méthodologie de la psychophysique et de la psychoacoustique ([slides](https://sdrive.cnrs.fr/s/6BQBKxQxstB3SZg))
 - Cours 2 (16/09 13h30-16h30, AC-104 - IAGS) : Physiologie du système auditif ([slides](https://sdrive.cnrs.fr/s/9rAAnyQR8mAWS6n))
-- Cours 3 (07/10 13h30-16h30, C2 bât Chimie) : Attributs perceptifs simples et capacités auditives bas niveau ([slides](https://sdrive.cnrs.fr/s/tqTF66wTgniGTig))
+- Cours 3 (07/10 13h30-16h30, C2 bât Chimie) : Attributs perceptifs simples et capacités auditives bas niveau ([slides](https://sdrive.cnrs.fr/s/jFtGC5cd8TBZxZQ))
 - Cours 4 (18/11 13h30-16h30, A-208) : Psycholinguistique et perception des phonèmes ([slides](https://sdrive.cnrs.fr/s/R4WHBkH4pyKAASE))
 - Cours 5 (02/12 13h30-16h30, P8) : Perception et réalité ([slides](https://sdrive.cnrs.fr/s/sTnbPYfNjCdBYrF))
 

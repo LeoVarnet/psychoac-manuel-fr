@@ -171,7 +171,7 @@ D'autre part, le codage temporel observé dans la charge electrique des cellules
 ```{figure} PhaseLocking.png
 ---
 name: PhaseLocking.png
-alt: Illustration du principe du phase locking. La partie supérieure de l'image montre quelques périodes d'un sinusoide, correspondant à la forme d'onde du son entrant. La partie centrale représente la sortie stylisée de 3 fibres du nerf auditif. Celles ci présentent des pics à certains instants, les potentiels d'action. Les trois fibres ont des potentiels d'action à des moments différents, mais ils sont globalement alignés avec les maxima de la forme d'onde. Enfin, la partie basse de la figure correspond à la somme des potentiels d'action sur un grand nombre de fibres, au cours du temps. Le nombre de potentiel d'action évolue comme une sinusoide, reproduisant le contour du son entrant.
+alt: Illustration du principe du phase locking. La partie supérieure de l'image montre quelques périodes d'un sinusoide, correspondant à la forme d'onde du son entrant. La partie centrale représente la sortie stylisée de 3 fibres du nerf auditif. Celles ci présentent des pics à certains instants, les potentiels d'action. Les trois fibres ont des potentiels d'action à des moments différents, mais ils sont globalement alignés avec les maxima de la forme d'onde. Enfin, la partie basse de la figure correspond à la somme des potentiels d'action sur un grand nombre de fibres, au cours du temps. Le nombre de potentiel d'action évolue comme une sinusoide, reproduisant assez fidèlement le contour du son entrant, et notamment sa périodicité.
 width: 60%
 align: center
 ---

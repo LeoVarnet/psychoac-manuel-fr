@@ -74,5 +74,5 @@ Au sein du système auditif, l'information suit généralement un chemin ascenda
 
 La fonction principale du nerf auditif étant de transmettre l'information depuis les récepteurs sensoriels aux étages supérieurs, il est naturel qu'il soit composé majoritairement de fibres afférentes connectées aux cellules ciliées internes. Néanmoins, il contient également une proportion non négligeable de fibres efférentes connectées aux cellules ciliées externes. 
 
-Ainsi non seulement le système auditif périphérique n'est pas un simple capteur mais plutôt un premier module de traitement de l'information, mais ces traitements impliquent des mécanismes de feedback 
+Ainsi non seulement le système auditif périphérique n'est pas un simple capteur mais plutôt un premier module de pré-traitement de l'information, en vue de son analyse par les étages supérieurs, mais ces pré-traitements impliquent des mécanismes de feedback depuis les étages supérieurs. Leur fonction demeure en grande partie méconnue mais 
 

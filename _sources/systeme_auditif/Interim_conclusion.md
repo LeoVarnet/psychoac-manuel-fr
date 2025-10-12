@@ -60,6 +60,20 @@ align: center
 *Deux exemples de spectrogramme auditif, en réponse à un complexe harmonique de fréquence fondamentale 300 Hz (panneau gauche), et à un enregistrement de la voyelle "é" prononcée par une voix avec une fréquence fondamentalementale à 250 Hz (panneau droit). A droite de chaque spectrogramme est représenté le pattern d'excitation correspondant, et au dessus la réponse électrique simulée d'une cellule ciliée particulière (c'est-à-dire une ligne du spectrogramme, identifiée par la flèche rouge) : cellule accordée à 7000 Hz (panneau gauche) ou à 3370 Hz (panneau droit).*
 ```
 
+> Harvey Fletcher (1930) referred to the frequency theories as “time pattern theories,”  
+which makes more sense, and saw the need to combine these with the Helmholtz-style  
+resonance or “space pattern” theories, to explain more than just pitch:  
+Two general types of hearing theories have been put forth from time to time to explain these  
+effects. One might be called a space pattern theory and the other a time pattern theory. In the  
+first theory, it is assumed that the time pattern of the wave motion in the air is transferred into a  
+space pattern in the inner ear so that the nerve impulses reaching the brain give us information  
+concerning the time pattern of the wave motion by means of the location of the nerves which are  
+stimulated. In the second theory, it is assumed that the time sequences are transmitted directly  
+to the brain. It is the opinion of the author that both of these effects are operating in aiding one  
+to interpret the sounds which one hears. The term “A Space–Time Pattern Theory of Hearing”  
+therefore best expresses this conception. [[Richard F. Lyon - Human and Machine Hearing]]
+
+
 ## Le paradoxe du système auditif 
 
 Selon Richard Warren, le système auditif présente un "paradoxe" : c'est un mauvais instrument de mesure mais qui fournit néanmoins une excellente précison.

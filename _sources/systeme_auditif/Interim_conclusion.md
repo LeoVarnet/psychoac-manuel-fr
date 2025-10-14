@@ -9,13 +9,13 @@ Parvenu·es au niveau du nerf auditif, qui marque la frontière entre le systèm
 
 ## Structure du modèle du système auditif périphérique
 
-Dans les sections qui précèdent, nous avons listé les différentes étapes de traitement du signal sonore à travers le système auditif périphérique en en proposant des modélisations simples. Si ces modules peuvent être enrichis, jusqu'à devenir extrêmement complexes pour tenir compte des effets de spatialisation, de feedback, ou des nombreuses non-linéarités, la structure générale du modèle est quant à elle relativement stable. En effet, chaque étape décrite ici est un "passage obligé" pour l'information sonore. En conséquence, les différents modèles auditifs disponibles possèdent tous la même organisation, même si certains modules peuvent être omis en première approximation. La figure suivante illustre la structure de 8 modèles "classiques" du système auditif périphérique, en faisant apparaitre les correspondances entre étapes du traitement. On retrouve les différents modules décrits précédemment : 
-- Stage 1 : filtre d'oreille externe
-- Stage 2 : filtre d'oreille moyenne
-- Stage 3 : décomposition en fréquence par la membrane basilaire, modélisée par un banc de filtres (incluant éventuellement l'amplification/compression par les cellules ciliées externes). P.ex. banc de filtres gammatones.
-- Stage 4 : modèle de la transduction par les cellules ciliées. P.ex. rectification demie-onde suivie d'un filtre passe-bas de fréquence de coupure 1 kHz.
-- Stage 5 : modèle des synapses du nerf auditif. A minima, ce module réalise une compression supplémentaire du signal. Il peut également prendre en compte les différents types de fibres, et/ou produire une série de potentiels d'action.
-- Stage 6 : modèles du noyau cochléaire et du colliculus inférieur. Nous envisagerons ce module dans la section suivante.
+Dans les sections qui précèdent, nous avons listé les différentes étapes de traitement du signal sonore à travers le système auditif périphérique en en proposant des modélisations simples. Si ces modules peuvent être enrichis, jusqu'à devenir extrêmement complexes pour tenir compte des effets de spatialisation, de feedback, ou des nombreuses non-linéarités, la structure générale du modèle est quant à elle relativement stable. En effet, chaque étape décrite ici est un "passage obligé" pour l'information sonore. En conséquence, les différents modèles auditifs disponibles possèdent tous la même organisation, même si certains modules peuvent être omis en première approximation. La figure suivante illustre la structure de 8 modèles "classiques" du système auditif périphérique, en faisant apparaitre les correspondances entre étapes du traitement. On retrouve les différentes étapes (*stages*) décrites précédemment : 
+- étape 1 : filtre d'oreille externe
+- étape 2 : filtre d'oreille moyenne
+- étape 3 : décomposition en fréquence par la membrane basilaire, modélisée par un banc de filtres (incluant éventuellement l'amplification/compression par les cellules ciliées externes). P.ex. banc de filtres gammatones.
+- étape 4 : modèle de la transduction par les cellules ciliées. P.ex. rectification demie-onde suivie d'un filtre passe-bas de fréquence de coupure 1 kHz.
+- étape 5 : modèle des synapses du nerf auditif. A minima, ce module réalise une compression supplémentaire du signal. Il peut également prendre en compte les différents types de fibres, et/ou produire une série de potentiels d'action.
+- étape 6 : modèles du noyau cochléaire et du colliculus inférieur. Nous envisagerons ce module dans la section suivante.
 La figure fait également apparaître, en bleu, des modifications pouvant être apportées aux modèles pour simuler diverses formes de pertes auditives.
 
 ```{figure} models.png
@@ -32,7 +32,7 @@ Cette structure relativement "rectiligne" du système auditif périphérique, fo
 
 ## Codage d'un complexe harmonique 
 
-Les exemples choisis pour illustrer le principe du spectrogramme auditif ([ref]) se sont concentrés principalement sur des tons purs ou combinaison de ton purs dans les basses fréquences. Il est néanmoins utile pour les chapitres suivants de se pencher sur le cas des complexes harmoniques. Nous avons vu ({numref}`pattern3.png` et {numref}`pattern4.png`) que du point de vue du codage tonotopique les harmoniques dans les basses fréquences étaient résolues (elles correspondent à des pics dans le pattern d'excitation) tandis que les harmoniques plus hautes étaient non-résolues. Qu'en est-il du point de vue du codage temporel ?
+Les exemples choisis pour illustrer le principe du spectrogramme auditif ([ref]) se sont concentrés principalement sur des sons composés d'un ou deux tons purs. Il est néanmoins utile pour les chapitres suivants de se pencher sur le cas des complexes harmoniques. Nous avons vu ({numref}`pattern3.png` et {numref}`pattern4.png`) que du point de vue du codage tonotopique les harmoniques dans les basses fréquences étaient résolues (elles correspondent à des pics dans le pattern d'excitation) tandis que les harmoniques plus hautes étaient non-résolues. Qu'en est-il du point de vue du codage temporel ?
 
 Considérons à nouveau la figure suivante :
 
@@ -46,9 +46,9 @@ align: center
 *Modélisation des vibrations en différents points de la membrane basilaire, en réponse à un complexe harmonique de fréquence fondamentalementale 300 Hz. Le spectre de ce signal est représenté dans le panneau supérieur. Comme pour la {numref}`pattern.png`, on a tracé en-dessous les fonctions de transfert de six gammatones, de fréquences d'accordage 300 Hz, 600 Hz, 1270 Hz, 3460 Hz, 5060 Hz et 7350 Hz, puis le pattern d'excitation. Les trois derniers gammatones ont des bandes passantes très larges qui englobent un grand nombre d'harmoniques, et effectivement ils correspondent à la région des harmoniques non résolues. La partie inférieure de la figure présente la sortie temporelle de chacun des six gammatones identifiés plus haut. Du fait de phénomènes de battement entre harmoniques, on observe une périodicité à 300 Hz dans la réponse des trois filtres gammatones accordé à 3460 Hz, 5060 Hz et 7350 Hz. (Inspiré de Plack, 2023)*
 ```
 
-Nous avons détaillé précédemment le cas des trois gammatones accordés aux fréquences les plus basses. Ceux-ci sont suffisamment étroits pour n'englober qu'une harmonique (ils sont situés dans la région des harmoniques résolues) et leur sortie fluctue donc à la fréquence de cette harmonique. En revanche, les filtres gammatones de fréquence d'accordage plus élevée sont, comme on l'a vu précédemment, trop larges pour isoler une composante harmonique et englobent au contraire plusieurs harmoniques proches (qui sont donc non-résolues). Il en découle un phénomène de battement à la fréquence fondamentale dans leur réponse temporelle : la superposition de plusieurs tons purs espacés de ∆f engendre un signal modulé à la fréquence ∆f. Ainsi, pour un complexe harmonique, **les gammatones accordés dans les hautes fréquences (région des harmoniques non-résolues) ont une réponse dont l'envelope est périodique à la fréquence fondamentale du signal**.
+Nous avons détaillé précédemment le cas des trois gammatones accordés aux fréquences les plus basses. Ceux-ci sont suffisamment étroits pour n'englober qu'une harmonique (ils sont situés dans la région des harmoniques résolues) et leur sortie fluctue donc à la fréquence de cette harmonique. En revanche, les filtres gammatones de fréquence d'accordage plus élevée sont, comme on l'a vu précédemment, trop larges pour isoler une composante harmonique et englobent au contraire plusieurs harmoniques proches (qui sont donc non-résolues). Il en découle un phénomène de battement à la fréquence fondamentale dans leur réponse temporelle : la superposition de plusieurs tons purs espacés de ∆f engendre un signal modulé à la fréquence ∆f. Ainsi, pour un complexe harmonique, **les gammatones accordés dans les hautes fréquences (région des harmoniques non-résolues) ont une réponse présentant des battements réguliers à la fréquence fondamentale du signal**.
 
-Les cellules ciliées internes accordées dans les hautes fréquences agissant, on l'a vu, comme des extracteurs d'enveloppe, elles extraient les modulations à la fréquence fondamentalementale et les transmettent aux fibres du nerf auditif. Ce phénomène est clairement visible dans le spectrogramme auditif comme illustré par la figure suivante. Pour le complexe harmonique comme pour le son de la voyelle "è", les cellules ciliées accordées sur les fréquences aiguës présentent des fluctuations très claires à 300 Hz et 250 Hz, respectivement. Ainsi, Pour des sons harmoniques, la fréquence fondamentalementale est codée de trois façons différentes au niveau du nerf auditif : un code tonotopique (pic dans le pattern d'excitation), un code temporel dans les basses fréquences, et un code temporel dans les hautes fréquences dû au phénomène de battement.
+Les cellules ciliées internes accordées dans les hautes fréquences agissant, on l'a vu, comme des extracteurs d'enveloppe, elles extraient les modulations à la fréquence fondamentalementale et les transmettent aux fibres du nerf auditif. Ce phénomène est clairement visible dans le spectrogramme auditif comme illustré par la figure suivante. Pour le complexe harmonique comme pour le son de la voyelle "è", les cellules ciliées accordées sur les fréquences aiguës présentent des fluctuations très claires à la fréquence fondamentalementale (300 Hz ou 250 Hz, respectivement). Ainsi, Pour des sons harmoniques, la fréquence fondamentalementale est codée de trois façons différentes au niveau du nerf auditif : un code tonotopique (pic dans le pattern d'excitation), un code temporel dans les basses fréquences, et un code temporel dans les hautes fréquences dû au phénomène de battement.
 
 ```{figure} AuditorySpectrograms2.png
 ---
@@ -59,20 +59,6 @@ align: center
 ---
 *Deux exemples de spectrogramme auditif, en réponse à un complexe harmonique de fréquence fondamentale 300 Hz (panneau gauche), et à un enregistrement de la voyelle "é" prononcée par une voix avec une fréquence fondamentalementale à 250 Hz (panneau droit). A droite de chaque spectrogramme est représenté le pattern d'excitation correspondant, et au dessus la réponse électrique simulée d'une cellule ciliée particulière (c'est-à-dire une ligne du spectrogramme, identifiée par la flèche rouge) : cellule accordée à 7000 Hz (panneau gauche) ou à 3370 Hz (panneau droit).*
 ```
-
-> Harvey Fletcher (1930) referred to the frequency theories as “time pattern theories,”  
-which makes more sense, and saw the need to combine these with the Helmholtz-style  
-resonance or “space pattern” theories, to explain more than just pitch:  
-Two general types of hearing theories have been put forth from time to time to explain these  
-effects. One might be called a space pattern theory and the other a time pattern theory. In the  
-first theory, it is assumed that the time pattern of the wave motion in the air is transferred into a  
-space pattern in the inner ear so that the nerve impulses reaching the brain give us information  
-concerning the time pattern of the wave motion by means of the location of the nerves which are  
-stimulated. In the second theory, it is assumed that the time sequences are transmitted directly  
-to the brain. It is the opinion of the author that both of these effects are operating in aiding one  
-to interpret the sounds which one hears. The term “A Space–Time Pattern Theory of Hearing”  
-therefore best expresses this conception. [[Richard F. Lyon - Human and Machine Hearing]]
-
 
 ## Le paradoxe du système auditif 
 

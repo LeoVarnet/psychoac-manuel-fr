@@ -1,10 +1,6 @@
 
 # Conclusion intermédiaire
 
-```{warning}
-Page en cours de construction
-```
-
 Parvenu·es au niveau du nerf auditif, qui marque la frontière entre le système auditif périphérique et le système auditif central, il est temps de marquer une pause pour récapituler ce que nous avons vu jusqu'ici, mais également pour développer certaines notions que nous avons seulement esquissées plus tôt.
 
 ## Structure du modèle du système auditif périphérique
@@ -36,10 +32,10 @@ Les exemples choisis pour illustrer le principe du spectrogramme auditif ([ref])
 
 Considérons à nouveau la figure suivante :
 
-```{figure} pattern4bis.png
+```{figure} pattern4.png
 ---
 name: pattern4.png
-alt: Sortie temporelle des filtres gammatones
+alt: La figure est composée de quatre panneaux empilés verticalement, représentant le calcul du pattern d'excitation d'un complexe harmonique et les sorties temporelles de 6 gammatones. Panneau supérieur : Spectre du stimulus. Axe horizontal : Fréquence (en kHz), de 0 à 8 kHz. Axe vertical : Amplitude, indiquée en unités arbitraires. Le spectre est celui d'un complexe harmonique de fréquence fondamentale 300 Hz, composé de raies spectrales tous les 300 Hz. Panneau 2 : six filtres gammatones. Axe horizontal : Fréquence (en kHz), de 0 à 8 kHz. Axe vertical : Gain, de -50 dB à 0 dB. Six courbes en forme de cloche symétrique, centrées sur différentes fréquences : 300 Hz, 600 Hz, 1.4 kHz, 3.5 kHz, 5 kHz et 7.5 kHz. Ces courbes ressemblent à celles des gammatones vues précédemment, en particulier les gammatones de fréquences plus élevées sont aussi plus larges. Les six courbes sont colorées du violet à l'orange. Panneau 3 : Pattern d'excitation. Axe horizontal : Fréquence (en kHz), de 0 à 8 kHz. Axe vertical : Gain, de -40 dB à 0 dB. De même que dans la partie précédente, le pattern d'excitation du complexe harmonique montre dans les basses fréquence des pics pour chaque harmonique (harmoniques résolues) mais dans les hautes fréquences il est plat (harmoniques non-résolues. Panneau inférieur : sortie temporelle des six gammatones. Ici seul l'axe temporel est indiquée (de 0 à 16 ms) et 6 courbes sont tracées avec les couleurs correspondant aux six gammatones du panneau du dessus. La sortie du gammatone à 300 Hz (fréquence fondamentale) montre une périodicité à 300 Hz. La sortie du gammatone à 600 Hz (première harmonique) montre une périodicité à 600 Hz. La sortie du gammatone à  1.4 kHz montre une périodicité à 1.5 kHz (l'harmonique la plus proche). Ensuite un autre motif se dessine pour les trois gammatones supérieurs. Leurs sorties montrent toutes les trois une périodicité d'enveloppe à la fréquence fondamentale (300 Hz). 
 width: 75%
 align: center
 ---
@@ -64,13 +60,13 @@ align: center
 
 Selon Richard Warren, le système auditif présente un "paradoxe" : c'est un mauvais instrument de mesure mais qui fournit néanmoins une excellente précison.
 
-> Pour qu'un microphone soit dit "haute-fidélité", il faut qu'il génère un signal électrique qui reproduise précisément l'onde sonore, sans introduire de distorsions. Si l'on suit ce critère, la configuration et les performances de l'oreille sont extrêmement mauvaises. [...] Le pavillon produit des résonnance et des délais qui modifient l'amplitude et la phase des composantes spectrales en fonction de l'azimut et de l'élévation de la source. Le canal auditif opère comme un tube résonnant qui amplifie sélectivement les fréquences autour de 3000 ou 4000 Hz. Les muscles [des osselets] produisent des réductions d'amplitude sur certaines bandes de fréquences lorsqu'ils se contractent. L'oreille moyenne et interne sont connues pour introduire des distorsions avant la transduction, de sorte que les stimuli de faible intensité produisent des vibrations suffisantes au niveau des récepteurs sensoriels. *(Richard Warren, Auditory Perception)*
+> Pour qu'un microphone soit dit "haute-fidélité", il faut qu'il génère un signal électrique qui reproduise précisément l'onde sonore, sans introduire de distorsions. Si l'on suit ce critère, la configuration et les performances de l'oreille sont extrêmement mauvaises. [...] Le pavillon produit des résonnance et des délais qui modifient l'amplitude et la phase des composantes spectrales en fonction de l'azimut et de l'élévation de la source. Le canal auditif opère comme un tube résonnant qui amplifie sélectivement les fréquences autour de 3000 ou 4000 Hz. Les muscles [des osselets] produisent des réductions d'amplitude sur certaines bandes de fréquences lorsqu'ils se contractent. L'oreille moyenne et interne sont connues pour introduire des distorsions avant la transduction, de sorte que les stimuli de faible intensité produisent des vibrations suffisantes au niveau des récepteurs sensoriels. *(Richard Warren, Auditory Perception: An Analysis and Synthesis)*
 
 Ainsi, le signal est filtré et transformé à chaque étape du système auditif à tel point que certaines informations sont perdues tandis que d'autres sont codées de façon redondante. Comment se fait-il que, malgré tout, notre perception soit aussi incroyablement performante ? La résolution de ce "paradoxe" repose sur le système auditif central, pour lequel ces imperfections sont en réalité autant de sources d'information. Comme nous le verrons par la suite, le cerveau est capable de s'appuyer sur les redondances du code auditif pour former des représentations extrêmement robustes, ou d'analyser les distortions causées par l'oreille pour en inférer des propriétés du son (comme le filtrage directionnel du pavillon, qui permet de localiser la source sonore). Le paradoxe n'en est donc en réalité pas un : notre oreille ne joue pas le rôle de microphone, et ne vise donc pas la "haute-fidélité". Au contraire, elle "pré-traite" les sons pour les coder d'une façon pertinente et efficace pour le système auditif central.
 
 ## Systèmes afférent et efférent
 
-Au sein du système auditif, l'information suit généralement un chemin ascendant (***bottom-up***) depuis les récepteurs sensoriels jusqu'au cortex auditif : elle est dite **afférente**. Nous avons cependant noté au cours de ce chapitre que certaines informations transitent en sens inverse, depuis les étages supérieurs vers le système périphérique. Ainsi, la détection d'un niveau sonore trop important au niveau du [xxx] déclenche le réflexe stapédien qui immobilise les osselets ; de même, les cellules ciliées externes reçoivent un feedback du [xxx] qui leur permet d'amplifier les sons trop faibles. Ces informations descendantes (***top-down***) sont dites **efférentes**.
+Au sein du système auditif, l'information suit généralement un chemin ascendant (***bottom-up***) depuis les récepteurs sensoriels jusqu'au cortex auditif : elle est dite **afférente**. Nous avons cependant noté au cours de ce chapitre que certaines informations transitent en sens inverse, depuis les étages supérieurs vers le système périphérique. Ainsi, la détection d'un niveau sonore trop important au niveau du complexe olivaire supérieur déclenche le réflexe stapédien qui immobilise les osselets ; de même, les cellules ciliées externes reçoivent un feedback qui leur permet d'amplifier les sons trop faibles. Ces informations descendantes (***top-down***) sont dites **efférentes**.
 
 La fonction principale du nerf auditif étant de transmettre l'information depuis les récepteurs sensoriels aux étages supérieurs, il est naturel qu'il soit composé majoritairement de fibres afférentes connectées aux cellules ciliées internes. Néanmoins, il contient également 5% de fibres efférentes, connectées pour la plupart aux cellules ciliées externes. 
 
@@ -78,3 +74,4 @@ Ainsi non seulement le système auditif périphérique n'est pas un simple capte
 
 ## Références
 
+Warren, R. M. (2008). Auditory Perception: An Analysis and Synthesis (3ème édition). Cambridge University Press.

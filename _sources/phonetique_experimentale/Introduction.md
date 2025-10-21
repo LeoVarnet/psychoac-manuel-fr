@@ -1,4 +1,4 @@
-<img width="960" height="193" alt="image" src="https://github.com/user-attachments/assets/5ce462ca-7505-463c-b8fe-4a03129715dc" /><img width="1127" height="193" alt="image" src="https://github.com/user-attachments/assets/e148cfd1-319b-414d-b059-c2a7829dbd93" /><img width="1751" height="165" alt="image" src="https://github.com/user-attachments/assets/03e8ef79-da90-48a9-84db-f765a25941d4" />
+
 ```{warning}
 Page en cours de construction
 ```

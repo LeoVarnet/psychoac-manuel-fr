@@ -20,5 +20,9 @@ chapters:
   - file: systeme_auditif/Oreille_interne_2
   - file: systeme_auditif/Interim_conclusion
   - file: systeme_auditif/Bibliographie
+- file: attributs_auditifs/main
+- file: phonetique_experimentale/main
+  sections:
+  - file: phonetique_experimentale/Introduction
 - file: general_information/Glossaire
 - file: general_information/course_material

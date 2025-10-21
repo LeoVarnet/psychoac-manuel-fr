@@ -1,4 +1,4 @@
 
 ```{warning}
-Page en cours de construction
+Chapitre en cours de construction
 ```

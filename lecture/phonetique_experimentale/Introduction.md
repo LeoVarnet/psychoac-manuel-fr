@@ -1,6 +1,115 @@
-
+<img width="960" height="193" alt="image" src="https://github.com/user-attachments/assets/5ce462ca-7505-463c-b8fe-4a03129715dc" /><img width="1127" height="193" alt="image" src="https://github.com/user-attachments/assets/e148cfd1-319b-414d-b059-c2a7829dbd93" /><img width="1751" height="165" alt="image" src="https://github.com/user-attachments/assets/03e8ef79-da90-48a9-84db-f765a25941d4" />
 ```{warning}
 Page en cours de construction
 ```
 
 # Introduction
+
+
+
+```{figure} Shannon1.jpg
+---
+name: Shannon1.jpg
+alt: XXXXX
+width: 70%
+align: center
+---
+*XXX.*
+```
+
+
+```{figure} Shannon2.jpg
+---
+name: Shannon2.jpg
+alt: XXXXX
+width: 70%
+align: center
+---
+*XXX.*
+```
+
+La parole est un code complexe (acoustique  phonétique  …)
+Notre but : « craquer » le code de la parole c.-à-d. identifier les indices acoustiques qui permettent au système auditif de reconnaître les différents phonèmes.
+
+
+```{figure} Allen1994.jpg
+---
+name: Allen1994.jpg
+alt: XXXXX
+width: 70%
+align: center
+---
+*XXX.*
+```
+
+```{figure} PhysiqueVSCognitif.jpg
+---
+name: PhysiqueVSCognitif.jpg
+alt: XXXXX
+width: 70%
+align: center
+---
+*XXX.*
+```
+
+Objectifs
+Présenter les problématiques de la phonétique expérimentale
+Mettre en application les méthodes expérimentales vues au cours 1
+Notions plus générales :
+	- Indices acoustiques
+	- Perception catégorielle
+	- Combinaison d’indices
+
+Qu’est-ce qu’un phonème ?
+
+> Quels sont exactement les rapports entre les sons et le sens à l’intérieur du mot et de la langue en général ? Finalement, il s'agit de dégager le plus petit élément phonique chargé d'une valeur significative, ou - en termes métaphoriques - il s'agit de trouver les quanta de la langue. (Jakobson, 1942)
+> 
+Une approche pour identifier les phonèmes d’une langue donnée :
+« bagage » vs. « bagarre »  en français l’opposition g/r est porteuse de sens
+
+On peut ainsi construire des tables des phonèmes et de leurs relations
+
+```{figure} IPA.png
+---
+name: IPA.png
+alt: XXXXX
+width: 70%
+align: center
+---
+*XXX.*
+```
+
+…mais qu’est-ce qui caractérise acoustiquement un phonème ? Comment le cerveau procède-t-il pour distinguer un phonème d’un autre ?
+
+Phonétique acoustique
+Etude systématique d’enregistrements de parole pour identifier les similarités entre différentes productions d’un même phonème.
+
+Le spectre des voyelles présente des formants à des fréquences relativement stables… 
+
+
+```{figure} Formants.png
+---
+name: Formants.png
+alt: XXXXX
+width: 70%
+align: center
+---
+*XXX.*
+```
+
+Les formants correspondent aux résonances de la cavité orale pour une configuration particulière des articulateurs (langue, lèvres, palais…)
+
+```{figure} Boeetal2019.jpg
+---
+name: Boeetal2019.jpg
+alt: XXXXX
+width: 70%
+align: center
+---
+*XXX.*
+```
+
+
+
+
+  

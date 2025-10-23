@@ -82,4 +82,7 @@ Notions plus générales :
 
 ## La parole est elle vraiment un code ?
 
-  
+’idée voulant que le langage ait pour fonction la communication est effectivement acceptée comme un dogme. On la formule généralement ainsi: «Il importe que les mots employés au sein d’une communauté linguistique aient la même signification pour tous. La satisfaction de cette condition répond à la finalité première de la langue qu’est la communication. Quiconque utilise des mots en omettant de leur donner le sens que leur accordent la plupart des gens ne parvient pas à communiquer efficacement avec autrui et agit ainsi de façon contraire à la fonction principale de la langue [20] .»  
+En premier lieu, il est curieux qu’on attribue une fonction à la langue. Les langues ne sont pas des outils conçus par les êtres humains, mais des objets biologiques, au même titre que les systèmes visuel ou digestif. On dit parfois que les organes ont des fonctions, qu’ils servent à quelque chose.  
+Le concept de «communication» est largement dépourvu de signification substantielle et sert de terme générique pour désigner diverses formes d’interaction sociale; malgré cela, on peut soutenir qu’il joue un rôle – certes mineur – dans l’usage concret du langage, quelle que soit par ailleurs la valeur de cette observation. […]  
+En résumé, ce dogme ne repose sur aucun fondement, et des données assez probantes permettent désormais de penser qu’il est carrément faux. Le langage est certes parfois employé pour la communication, tout comme le sont les styles de vêtements, l’expression du visage, la posture et bien d’autres choses." ([[Chomsky, quelle sorte de créature sommes-nous?]])  

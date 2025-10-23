@@ -5,6 +5,8 @@ Page en cours de construction
 
 # Introduction
 
+Après avoir considéré comment nous percevons les attributs auditifs simples, il est temps de nous intéresser à des sons plus complexes.
+
 S'intéresser à des sons plus complexes 
 
 ## La parole est un code 

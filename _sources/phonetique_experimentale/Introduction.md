@@ -32,6 +32,9 @@ align: center
 
 ## Une triple articulation : phrases, mots, morphèmes, phonèmes 
 
+
+"l’aphorisme souvent cité de Wilhelm von Humboldt, selon lequel le langage se caractérise par l’usage infini de moyens finis" ([[Chomsky, quelle sorte de créature sommes-
+
 problems in the design of the human communication system. A  
 person might know 60,000 words, but a person's mouth cannot make  
 60,000 different noises (at least, not ones that the ear can easily  

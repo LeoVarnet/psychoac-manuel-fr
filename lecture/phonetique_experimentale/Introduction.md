@@ -5,7 +5,7 @@ Page en cours de construction
 
 # Introduction
 
-Après avoir considéré comment nous percevons des sons simples, il est temps de nous intéresser à des stimuli plus complexes. 
+Les attributs auditifs forment les fondations de l'édifice perceptif, sur lesquelles reposent de nombreux étages de complexité croissante. Après avoir considéré comment nous percevons des caractéristiques sonores simples, comme la hauteur d'un ton pur, il est temps de nous tourner vers des sons plus naturels et plus communs. Dans ce chapitre, nous nous intéresserons à un type de stimuli sonore extrêmement utile pour les êtres humains : les sons de parole. Nous verrons en particulier comment les phonèmes, unités de base du langage oral, sont décodés par le cerveau. 
  
 
 ## La parole est un code 

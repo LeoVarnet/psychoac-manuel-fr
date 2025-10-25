@@ -5,12 +5,13 @@ Page en cours de construction
 
 # Introduction
 
-Les attributs auditifs forment les fondations de l'édifice perceptif, sur lesquelles reposent de nombreux étages de complexité croissante. Après avoir considéré comment nous percevons des caractéristiques sonores simples, comme la hauteur d'un ton pur, il est temps de nous tourner vers des sons plus naturels et plus communs. Dans ce chapitre, nous nous intéresserons à un type de stimuli sonore extrêmement utile pour les êtres humains : les sons de parole. Nous verrons en particulier comment les phonèmes, unités de base du langage oral, sont décodés par le cerveau. 
- 
+Les attributs auditifs forment les fondations de l'édifice perceptif, sur lesquelles reposent de nombreux étages de complexité croissante. Après avoir considéré comment nous percevons des caractéristiques sonores simples, comme la hauteur d'un ton pur, il est temps de nous tourner vers des sons plus naturels et plus communs. Dans ce chapitre, nous nous intéresserons à un type de stimuli sonore extrêmement utile pour les êtres humains : les sons de parole. Nous verrons en particulier comment les phonèmes, unités de base du langage oral, sont décodés par le cerveau.  
 
 ## La parole est un code 
 
-La communication parlée est un moyen de télécommunication comme un autre : il s'agit pour la personne qui parle de transmettre certaines informations à son interlocuteur ou interlocutrice, située le plus souvent à une distance d'un mètre environ. Il s'agit donc bien de "communication à distance" (télé-communication), même si le chemin à parcourir pour l'information est beaucoup plus court que dans le cas de la transmission téléphonique ou de la communication en morse.
+La communication parlée est un moyen de télécommunication comme un autre : la personne qui parle transmet certaines informations à son interlocuteur ou interlocutrice, située le plus souvent à une distance d'un mètre environ. Il s'agit donc bien de "communication à distance" (télé-communication), même si le chemin parcouru par l'information est beaucoup plus court que dans le cas de la transmission téléphonique ou du système morse.
+
+Quelque soit le système de télécommunication, la situation se présente de façon similaire : un émetteur ou une émettrice souhaite transmettre un message à un·e destinataire. Pour couvrir la distance qui les sépare il est nécessaire d'utiliser un certain medium, c'est à dire un substrat physique, comme les ondes électromagnétiques dans le cas du code morse. Le message ne pouvant être converti directement en ondes électromagnétiques, il faut au préalable le coder dans un format plus adéquat et plus robuste, ici une série de traits et de points. Ce code est ensuite envoyé, puis réceptionné par le destinataire qui devra le décoder pour revenir au message original.
 
 ```{figure} Shannon1.jpg
 ---
@@ -19,7 +20,7 @@ alt: XXXXX
 width: 70%
 align: center
 ---
-*XXX.*
+*Schéma de la communication morse.*
 ```
 
 

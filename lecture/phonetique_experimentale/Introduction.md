@@ -10,6 +10,8 @@ Les attributs auditifs forment les fondations de l'édifice perceptif, sur lesqu
 
 ## La parole est un code 
 
+La communication parlée est un moyen de télécommunication comme un autre : il s'agit pour la personne qui parle de transmettre certaines informations à son interlocuteur ou interlocutrice, située le plus souvent à une distance d'un mètre environ. Il s'agit donc bien de "communication à distance" (télé-communication), même si le chemin à parcourir pour l'information est beaucoup plus court que dans le cas de la transmission téléphonique ou de la communication en morse.
+
 ```{figure} Shannon1.jpg
 ---
 name: Shannon1.jpg

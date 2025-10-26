@@ -37,6 +37,7 @@ align: center
 
 ## Une triple articulation : phrases, mots, morphèmes, phonèmes 
 
+Le code de la parole fonctionne sur la base de petites unités sonores combinées pour former d'autres unités plus grandes. En effet, une personne peut connaître 60 000 mots mais elle ne peut pas produire 60 000 sons différents discriminantes par l'oreille humaine. C'est pour
 
 "l’aphorisme souvent cité de Wilhelm von Humboldt, selon lequel le langage se caractérise par l’usage infini de moyens finis" ([[Chomsky, quelle sorte de créature sommes-
 

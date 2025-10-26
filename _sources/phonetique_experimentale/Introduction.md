@@ -41,19 +41,11 @@ Le code de la parole fonctionne sur la base de petites unités sonores combinée
 
 Cette combinatoire s'organise sur plusieurs niveaux. **Les phrases sont composées de mots** dont l'agencement spécifique implique un sens particulier (la phrase "le chat a mangé la souris" est clairement différent de "la souris a mangé le chat"). **Les mots sont eux mêmes composés de morphèmes** (des portions de mots qui leurs donnent leur sens exact, comme "mangé" formé à partir du morphème "mang" suivi du suffixe "é", ce qui indique qu'il s'agit du passé simple du verbe manger). A leur tour, **les morphèmes sont composés de phonèmes** : dans le cas de "mang" la succession des sons élémentaires "m", "an" et "j" (/m/, /ã/ et /j/ en notation phonétique) dans cet ordre précis.
 
+La combinatoire du langage parlé se déploie donc sur trois niveaux (phrase-mots, mots-morphèmes, morphèmes-phonèmes) ce qui lui permet de former un code robuste et puissant basé sur un dictionnaire relativement réduit -- imaginez par exemple un langage où les mots "mangez", "mangeait" et "mangera" correspondraient chacun à des séries de sons complètement différentes.
+
+2 articulations 
+
 Notons d'ores et déjà que les phonèmes sont différents des morphèmes et des mots en ce qu'ils ne contribuent pas à la compréhension de l'ensemble en apportant des "portions de sens". Le sens de "mang" ne peut être déduit du sens de "m", "an" et "j" et de leur ordre.
-
-
-problems in the design of the human communication system. A  
-person might know 60,000 words, but a person's mouth cannot make  
-60,000 different noises (at least, not ones that the ear can easily  
-discriminate). So language has exploited the principle of the discrete  
-combinatorial system again. Sentences and phrases are built out of  
-words, words are built out of morphemes, and morphemes, in turn,  
-are built out of phonemes. Unlike words and morphemes, though,  
-phonemes do not contribute bits of meaning to the whole. The meaning of dog is not predictable from the meaning of dy the meaning of  
-o, the meaning of g\> and their order. Phonemes are a different kind  
-of linguistic object
 
 ## Craquer le code de la parole 
 

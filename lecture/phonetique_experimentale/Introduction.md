@@ -23,7 +23,9 @@ align: center
 *Schéma de la communication morse.*
 ```
 
-Cette conceptualisation de la télécommunication comme une opération de codage -transmission bruitée - décodage est également tout à fait valide dans le cas de la communication parlée. L'espace qui sépare la personne qui parle de son interlocuteur·ice est composé d'air, et l'enjeu est donc 
+Cette conceptualisation de la télécommunication comme une opération de codage -transmission bruitée - décodage est également tout à fait valide dans le cas de la communication parlée. Les deux interlocuteur·ices qui se font face doivent ici, pour transmettre le message formé dans leur esprit, le convertir sous une forme pouvant être véhiculée dans l'air. Cette forme est le son de parole, une organisation particulière des vibrations de l'air qui forme un code permettant de transporter une infinité de messages différents.
+
+ qui'espace qui sépare la personne qui parle de son interlocuteur·ice est composé d'air, et l'enjeu est donc 
 
 
 ```{figure} Shannon2.jpg

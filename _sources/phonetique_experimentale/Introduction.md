@@ -23,7 +23,7 @@ align: center
 *Schéma de la communication morse.*
 ```
 
-Cette conceptualisation de la télécommunication comme une opération de codage -transmission bruitée - décodage est également tout à fait valide dans le cas de la communication parlée.
+Cette conceptualisation de la télécommunication comme une opération de codage -transmission bruitée - décodage est également tout à fait valide dans le cas de la communication parlée. L'émetteur·ice est alors u
 
 
 ```{figure} Shannon2.jpg

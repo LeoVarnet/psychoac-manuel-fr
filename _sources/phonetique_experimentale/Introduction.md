@@ -23,7 +23,7 @@ align: center
 *Schéma du principe de la télécommunication, ici pour la transmission morse.*
 ```
 
-**Cette conceptualisation de la télécommunication comme une opération de codage /transmission bruitée / décodage est également tout à fait valide dans le cas de la communication parlée**. Les deux interlocuteur·ices qui se font face doivent ici, pour transmettre le message formé dans leur esprit, le convertir sous une forme pouvant être véhiculée dans l'air. Cette forme est **le son de parole, une organisation particulière des vibrations de l'air qui forme un code permettant de transporter une infinité de messages différents**. Comme nous le verrons plus loin, ce code est particulièrement robuste aux interférences, comme la présence d'un bruit de fond si la conversation n'a pas lieu dans un environnement parfaitement silencieux. 
+Cette conceptualisation de la télécommunication comme une opération de codage / transmission bruitée / décodage est également tout à fait valide dans le cas de la communication parlée. Les deux interlocuteur·ices qui se font face doivent ici, pour transmettre le message formé dans leur esprit, le convertir sous une forme pouvant être véhiculée dans l'air. **Cette forme est le son de parole, une organisation particulière des vibrations de l'air qui forme un code permettant de transporter une infinité de messages différents**. Comme nous le verrons plus loin, ce code est particulièrement robuste aux interférences, comme la présence d'un bruit de fond si la conversation n'a pas lieu dans un environnement parfaitement silencieux. 
 
 ```{figure} Shannon2.jpg
 ---
@@ -41,11 +41,9 @@ Le code de la parole fonctionne sur la base de petites unités sonores combinée
 
 Cette combinatoire s'organise sur plusieurs niveaux. **Les phrases sont composées de mots** dont l'agencement spécifique implique un sens particulier (la phrase "le chat a mangé la souris" est clairement différent de "la souris a mangé le chat"). **Les mots sont eux mêmes composés de morphèmes** (des portions de mots qui leurs donnent leur sens exact, comme "mangé" formé à partir du morphème "mang" suivi du suffixe "é", ce qui indique qu'il s'agit du passé simple du verbe manger). A leur tour, **les morphèmes sont composés de phonèmes** : dans le cas de "mang" la succession des sons élémentaires "m", "an" et "j" (/m/, /ã/ et /j/ en notation phonétique) dans cet ordre précis.
 
-La combinatoire du langage parlé se déploie donc sur trois niveaux (phrase-mots, mots-morphèmes, morphèmes-phonèmes) ce qui lui permet de former un code robuste et puissant basé sur un dictionnaire relativement réduit -- imaginez par exemple un langage où les mots "mangez", "mangeait" et "mangera" correspondraient chacun à des séries de sons complètement différentes.
+La combinatoire du langage parlé se déploie donc sur trois niveaux (phrase-mots, mots-morphèmes, morphèmes-phonèmes) ce qui lui permet de former un code robuste et puissant basé sur un dictionnaire relativement réduit. Imaginez par exemple un langage où les mots "mangez", "mangeait" et "mangera" correspondraient chacun à des séries de sons complètement différentes : ce code ne serait pas efficace et demanderait de garder en mémoire un nombre disproportionné d'associations son-sens. On parle parfois de la "triple articulation" du langage en référence à ces trois niveaux de combinaison imbriqués. [en réalité l'expression la plus courante est "double articulation" car on confond souvent les morphèmes et les mots]
 
-2 articulations 
-
-Notons d'ores et déjà que les phonèmes sont différents des morphèmes et des mots en ce qu'ils ne contribuent pas à la compréhension de l'ensemble en apportant des "portions de sens". Le sens de "mang" ne peut être déduit du sens de "m", "an" et "j" et de leur ordre.
+Dans ce qui suit nous nous concentrerons sur l'étage le plus bas de cette hiérarchie, le phonème. Notons d'ores et déjà que les phonèmes sont différents des morphèmes et des mots en ce qu'ils ne contribuent pas à la compréhension de l'ensemble en apportant des "portions de sens". Le sens de "mang" ne peut être déduit du sens de "m", "an" et "j" et de leur ordre.
 
 ## Craquer le code de la parole 
 

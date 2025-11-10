@@ -51,15 +51,7 @@ xxx représentation d'un son de parole ?
 
 Le son de parole est donc un code complexe formé de plusieurs unités linguistiques emboîtées : pour être compris, le son doit être décodé en une série de phonèmes, qui sont ensuite assemblés en mots, pour former des phrases et accéder au sens du discours. Les psycholinguistes qui s'intéressent à la transformation du son en sens doivent donc en premier lieu se pencher sur la première étape du décodage : l'identification des phonèmes. Il s'agit ainsi de « craquer » le code de la parole, c'est-à-dire **d'identifier les indices acoustiques qui permettent au système auditif de différencier un phonème d'un autre**.
 
-```{figure} Allen1994.jpg
----
-name: Allen1994.jpg
-alt: XXXXX
-width: 70%
-align: center
----
-*XXX.*
-```
+Comme au chapitre précédent, l'objectif est donc de mettre à jour là relation entre le son (de parole) et les représentations mentales que celui-ci évoque dans notre esprit (ici des représentations linguistiques, les phonèmes). Par exemple, pourquoi tel son est-il perçu comme un "b" et tel autre comme un "d" ? Soulignons que le phonème est bien un objet cognitif, et non physique. Il n'est pas contenu dans le son même mais seulement dans l'esprit des locuteurs et locutrices de la langue.
 
 ```{figure} PhysiqueVSCognitif.jpg
 ---

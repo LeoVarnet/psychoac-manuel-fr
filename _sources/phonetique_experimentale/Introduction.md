@@ -32,7 +32,7 @@ alt: XXXXX
 width: 70%
 align: center
 ---
-*XXX.*
+*Même schéma que précédemment, dans le cas de la communication parlée. La seule différence est le medium (ici les vibrations de l'air) et le code utilisé.*
 ```
 
 ## Une double articulation : phrases, mots, phonèmes 

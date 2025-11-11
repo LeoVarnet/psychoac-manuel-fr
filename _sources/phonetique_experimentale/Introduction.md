@@ -83,5 +83,20 @@ Tout d'abord, les termes de "code", "message", "information" ou encore "communic
 
 Du point de vue du "code" de la communication parlée, les termes de "message" et d' "information" désignent donc toute pensée que le locuteur ou la locutrice désire transmettre, sans prendre en compte sa pertinence. De ce point de vue, même "bla bla bla" est un message linguistique valable.
 
-Une seconde confusion possible serait de penser que l'opération de décodage consiste uniquement à identifier les symboles sonores prononcés et à leur faire correspondre leur sens, stocké dans un grand dictionnaire mental. C'est effectivement le principe de nombreux codes, comme le code morse qui nécessite uniquement une table de correspondance alphabétique, en revanche le fonctionnement du code de parole est plus complexe. Comme nous le verrons par la suite, ce dernier repose en grande partie sur des **inférences**. 
+Une seconde confusion possible serait de penser que l'opération de décodage consiste uniquement à identifier les symboles sonores prononcés et à leur faire correspondre leur sens, stocké dans un grand dictionnaire mental. C'est effectivement le principe de nombreux codes, comme le code morse qui nécessite uniquement une table de correspondance alphabétique pour être compris par des néophytes, en revanche le fonctionnement du code de parole est plus complexe. Comme nous le verrons par la suite, ce dernier repose en grande partie sur des **inférences**. 
+
+> It is true that a language is a code which pairs phonetic and semantic representations of sentences. However, there is a gap between the semantic representations of sentences and the thoughts actually communicated by utterances. This gap is filled not by more coding, but by inference.  
+[…]  
+Inferential and decoding processes are quite different.  
+An inferential process starts from a set of premises and results in a set of  
+conclusions which follow logically from, or are at least warranted by, the  
+premises. A decoding process starts from a signal and results in the  
+recovery of a message which is associated to the signal by an underlying  
+code. In general, conclusions are not associated to their premises by a  
+code, and signals do not warrant the messages they convey.  
+[…]  
+We have now looked at two models of communication. According to the  
+**code model**, communication is achieved by encoding and decoding  
+messages. According to the **inferential model**, communication is achieved by the communicator providing evidence of her13 intentions and the audience inferring her intentions from the evidence.
+([[Sperber & Wilson, Relevance]])
 

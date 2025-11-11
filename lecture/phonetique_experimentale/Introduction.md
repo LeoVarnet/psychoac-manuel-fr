@@ -83,5 +83,5 @@ Tout d'abord, les termes de "code", "message", "information" ou encore "communic
 
 Du point de vue du "code" de la communication parlée, les termes de "message" et d' "information" désignent donc toute pensée que le locuteur ou la locutrice désire transmettre, sans prendre en compte sa pertinence. De ce point de vue, même "bla bla bla" est un message linguistique valable.
 
-Une seconde confusion possible serait de penser que l'opération de décodage consiste uniquement à identifier les symboles sonores prononcés et à leur faire correspondre leur sens, stocké dans un grand dictionnaire mental. C'est effectivement le principe du code secret, en revanche le fonctionnement du code de parole est plus complexe. Comme nous le verrons par la suite, ce dernier repose en grande partie sur des **inférences**.
+Une seconde confusion possible serait de penser que l'opération de décodage consiste uniquement à identifier les symboles sonores prononcés et à leur faire correspondre leur sens, stocké dans un grand dictionnaire mental. C'est effectivement le principe de nombreux codes, comme le code morse qui nécessite uniquement une table de correspondance alphabétique, en revanche le fonctionnement du code de parole est plus complexe. Comme nous le verrons par la suite, ce dernier repose en grande partie sur des **inférences**. 
 

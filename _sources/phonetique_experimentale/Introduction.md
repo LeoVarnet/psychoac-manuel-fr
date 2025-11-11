@@ -100,3 +100,5 @@ We have now looked at two models of communication. According to the
 messages. According to the **inferential model**, communication is achieved by the communicator providing evidence of her13 intentions and the audience inferring her intentions from the evidence.
 ([[Sperber & Wilson, Relevance]])
 
+It may be a piece of mimicry: for instance, Mary might mimic the act of driving to communicate to Peter that she wants to leave the party
+

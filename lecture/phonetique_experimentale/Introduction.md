@@ -82,5 +82,8 @@ Avant d'explorer plus avant le fonctionnement du code acoustico-phonetique à la
 
 Tout d'abord, les termes de "code", "message", "information" ou encore "communication" pourraient laisser penser que la finalité première du langage est de permettre la transmission d'informations entre deux individus. C'est parfois le cas, si par exemple vous me demandez mon numéro de téléphone et que je vous réponds. Mais nombre d'interactions n'ont pas véritablement de contenu informationnel, comme la question "Salut, ça va ?" qui n'attend le plus souvent pas de réponse.
 
+En outre, il est faux de penser que l'usage du langage humain se caractérise par la volonté ou le fait d'apporter de l'information. Le langage humain peut être utilisé pour informer ou pour tromper, pour clarifier ses propres pensées, pour prouver son habileté ou tout simplement pour jouer. (Le langage et la pensée (1967) de Noam Chomsky)
+
+
 > l’idée voulant que le langage ait pour fonction la communication est effectivement acceptée comme un dogme. […]  
 En résumé, ce dogme ne repose sur aucun fondement, et des données assez probantes permettent désormais de penser qu’il est carrément faux. Le langage est certes parfois employé pour la communication, tout comme le sont les styles de vêtements, l’expression du visage, la posture et bien d’autres choses. Cependant les propriétés fondamentales de l’architecture linguistique confirment les enseignements d’une riche tradition philosophique pour laquelle le langage est essentiellement un instrument de la pensée." ([[Chomsky, quelle sorte de créature sommes-nous?]])  

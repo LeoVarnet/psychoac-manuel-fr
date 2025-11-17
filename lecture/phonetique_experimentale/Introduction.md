@@ -65,14 +65,6 @@ align: center
 *XXX.*
 ```
 
-Objectifs
-Présenter les problématiques de la phonétique expérimentale
-Mettre en application les méthodes expérimentales vues au cours 1
-Notions plus générales :
-	- Indices acoustiques
-	- Perception catégorielle
-	- Combinaison d’indices
-
 ## La parole est elle vraiment un code ?
 
 Avant d'explorer plus avant le fonctionnement du code acoustico-phonetique à la base de la communication parlée, prenons le temps de balayer plusieurs confusions pouvant être induites par la métaphore du code.
@@ -83,23 +75,7 @@ Tout d'abord, les termes de "code", "message", "information" ou encore "communic
 
 Du point de vue du "code" de la communication parlée, les termes de "message" et d' "information" désignent donc toute pensée que le locuteur ou la locutrice désire transmettre, sans prendre en compte sa pertinence. De ce point de vue, même "bla bla bla" est un message linguistique valable.
 
-Une seconde confusion possible serait de penser que l'opération de décodage consiste uniquement à identifier les symboles sonores prononcés et à leur faire correspondre leur sens, stocké dans un grand dictionnaire mental. C'est effectivement le principe de nombreux codes, comme le code morse qui nécessite uniquement une table de correspondance alphabétique pour être compris par des néophytes, en revanche le fonctionnement du code de parole est plus complexe. Comme nous le verrons par la suite, ce dernier repose également sur des **inférences**. Imaginez par exemple que lors d'une soirée si bruyante qu'il est difficile de s'entendre, votre partenaire vous regarde et vous fait un signe imitant un oreiller. Dans cette interaction minimale le code se limite au signe de l'oreiller signifiant dormir. Mais un certain nombre d'inférences vous permettent de déduire que le message est "j'ai sommeil, on rentre ?". Le même genre de processus est à l'œuvre en continu dans la compréhension de la parole.
+Une seconde confusion possible serait de penser que l'opération de décodage consiste uniquement à identifier les symboles sonores prononcés et à leur faire correspondre leur sens, stocké dans un grand dictionnaire mental. C'est effectivement le principe de nombreux codes, comme le code morse qui nécessite uniquement une table de correspondance alphabétique pour être compris par des néophytes, en revanche le fonctionnement du code de parole est plus complexe. Comme nous le verrons par la suite, ce dernier repose également sur des **inférences**. Imaginez par exemple que lors d'une soirée si bruyante qu'il est difficile de s'entendre, votre partenaire vous regarde et vous fait un signe en pointant sa montre imaginaire. Dans cette interaction minimale le code se limite au signe signifiant "montre" ou "heure". Mais un certain nombre d'inférences vous permettent de déduire que le message n'est pas "est-ce que tu aurais l'heure ?" ou "j'ai perdu ma montre, est-ce que tu l'as vue quelque part ?" mais "on avait dit qu'on ne rentrerait pas plus tard que minuit, il est l'heure d'y aller". Le même genre de processus est à l'œuvre en continu dans la compréhension de la parole.
 
-> Il est est vrai que le langage est un code qui associe des représentations phonétiques et des représentations sémantiques des phrases. Cependant, un fossé sépare la représentation sémantique d'une phrase et la pensée veritablement communiquée. Ce fossé est franchi non au moyen d'un code supplémentaire mais grâce à des inférences. [...] Dans le modèle inferentiel, la communication est rendue possible par le fait que l'individu transmets des preives de ses intentions, et l'audience infère les intentions à partir des preuves.
-> It is true that a language is a code which pairs phonetic and semantic representations of sentences. However, there is a gap between the semantic representations of sentences and the thoughts actually communicated by utterances. This gap is filled not by more coding, but by inference.  
-[…]  
-Inferential and decoding processes are quite different.  
-An inferential process starts from a set of premises and results in a set of  
-conclusions which follow logically from, or are at least warranted by, the  
-premises. A decoding process starts from a signal and results in the  
-recovery of a message which is associated to the signal by an underlying  
-code. In general, conclusions are not associated to their premises by a  
-code, and signals do not warrant the messages they convey.  
-[…]  
-We have now looked at two models of communication. According to the  
-**code model**, communication is achieved by encoding and decoding  
-messages. According to the **inferential model**, communication is achieved by the communicator providing evidence of her13 intentions and the audience inferring her intentions from the evidence.
-([[Sperber & Wilson, Relevance]])
-
-It may be a piece of mimicry: for instance, Mary might mimic the act of driving to communicate to Peter that she wants to leave the party
+> Il est est vrai que le langage est un code qui associe des représentations phonétiques et des représentations sémantiques des phrases. Cependant, un fossé sépare la représentation sémantique d'une phrase et la pensée veritablement communiquée. Ce fossé est franchi non au moyen d'un code supplémentaire mais grâce à des inférences. (Sperber & Wilson, Relevance)
 

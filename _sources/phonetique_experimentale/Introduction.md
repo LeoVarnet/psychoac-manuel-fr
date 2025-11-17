@@ -55,16 +55,6 @@ Le son de parole est donc un code complexe formé de plusieurs unités linguisti
 
 Comme au chapitre précédent, l'objectif est donc de mettre en évidence la relation entre le son (de parole) et les représentations mentales que celui-ci évoque dans notre esprit (ici des représentations linguistiques, les phonèmes). Par exemple, pourquoi tel son est-il perçu comme un "b" et tel autre comme un "d" ? Soulignons que le phonème est bien un objet cognitif, et non physique. Il n'est pas contenu dans le son même mais seulement dans l'esprit des locuteurs et locutrices de la langue.
 
-```{figure} PhysiqueVSCognitif.jpg
----
-name: PhysiqueVSCognitif.jpg
-alt: XXXXX
-width: 70%
-align: center
----
-*XXX.*
-```
-
 ## La parole est elle vraiment un code ?
 
 Avant d'explorer plus avant le fonctionnement du code acoustico-phonetique à la base de la communication parlée, prenons le temps de balayer plusieurs confusions pouvant être induites par la métaphore du code.
@@ -75,7 +65,11 @@ Tout d'abord, les termes de "code", "message", "information" ou encore "communic
 
 Du point de vue du "code" de la communication parlée, les termes de "message" et d' "information" désignent donc toute pensée que le locuteur ou la locutrice désire transmettre, sans prendre en compte sa pertinence. De ce point de vue, même "bla bla bla" est un message linguistique valable.
 
-Une seconde confusion possible serait de penser que l'opération de décodage consiste uniquement à identifier les symboles sonores prononcés et à leur faire correspondre leur sens, stocké dans un grand dictionnaire mental. C'est effectivement le principe de nombreux codes, comme le code morse qui nécessite uniquement une table de correspondance alphabétique pour être compris par des néophytes, en revanche le fonctionnement du code de parole est plus complexe. Comme nous le verrons par la suite, ce dernier repose également sur des **inférences**. Imaginez par exemple que lors d'une soirée si bruyante qu'il est difficile de s'entendre, votre partenaire vous regarde et vous fait un signe en pointant sa montre imaginaire. Dans cette interaction minimale le code se limite au signe signifiant "montre" ou "heure". Mais un certain nombre d'inférences vous permettent de déduire que le message n'est pas "est-ce que tu aurais l'heure ?" ou "j'ai perdu ma montre, est-ce que tu l'as vue quelque part ?" mais "on avait dit qu'on ne rentrerait pas plus tard que minuit, il est l'heure d'y aller". Le même genre de processus est à l'œuvre en continu dans la compréhension de la parole.
+Une seconde confusion possible serait de penser que l'opération de décodage consiste uniquement à identifier les symboles sonores prononcés et à leur faire correspondre leur sens, stocké dans un grand dictionnaire mental. C'est effectivement le principe de nombreux codes, comme le code morse qui nécessite uniquement une table de correspondance alphabétique pour être compris par des néophytes, en revanche le compréhension de la parole est plus complexe. Comme nous le verrons par la suite, elle repose également sur des **inférences**. Imaginez par exemple que lors d'une soirée si bruyante qu'il est difficile de s'entendre, votre partenaire vous regarde et vous fait un signe en pointant sa montre imaginaire. Dans cette interaction minimale le code se limite au signe signifiant "montre" ou "heure". Mais un certain nombre d'inférences vous permettent de déduire que le message n'est pas "est-ce que tu aurais l'heure ?" ou "j'ai perdu ma montre, est-ce que tu l'as vue quelque part ?" mais "on avait dit qu'on ne rentrerait pas plus tard que minuit, il est l'heure d'y aller". Le même genre de processus est à l'œuvre en continu dans la compréhension de la parole.
 
 > Il est est vrai que le langage est un code qui associe des représentations phonétiques et des représentations sémantiques des phrases. Cependant, un fossé sépare la représentation sémantique d'une phrase et la pensée veritablement communiquée. Ce fossé est franchi non au moyen d'un code supplémentaire mais grâce à des inférences. (Sperber & Wilson, Relevance)
+
+Comme nous le verrons, des inférences sont même à l'œuvre dès le niveau des phonèmes. Mais pour bien le comprendre il faut d'abord définir plus précisément la notion de "phonèmes".
+
+## Références
 

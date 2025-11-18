@@ -5,7 +5,9 @@ Page en cours de construction
 
 # Phonétique acoustique
 
-Qu’est-ce qu’un phonème ?
+Nous sommes constamment exposé·es à des sons de parole, que notre cerveau décode quasi instantanément et sans effort apparent. Ce processus semble aller de soi et il est donc difficile a priori d'imaginer que ces questions puissent faire l'objet de recherches approfondies depuis maintenant plus d'un siècle. Avant de nous pencher sur les résultats de ces recherches, il faut donc expliquer où est le problème.
+
+## Qu’est-ce qu’un phonème ?
 
 > Quels sont exactement les rapports entre les sons et le sens à l’intérieur du mot et de la langue en général ? Finalement, il s'agit de dégager le plus petit élément phonique chargé d'une valeur significative, ou - en termes métaphoriques - il s'agit de trouver les quanta de la langue. (Jakobson, 1942)
 > 

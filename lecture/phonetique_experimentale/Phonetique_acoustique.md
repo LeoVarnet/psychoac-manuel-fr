@@ -5,7 +5,7 @@ Page en cours de construction
 
 # Phonétique acoustique
 
-Nous sommes constamment exposé·es à des sons de parole, que notre cerveau décode quasi instantanément et sans effort apparent. Ce processus semble aller de soi, à tel point qu'il est difficile a priori d'imaginer que ces questions puissent faire l'objet de recherches approfondies depuis maintenant plus d'un siècle. Après tout, il nous suffit de disposer d'une copie de l'alphabet morse pour être en mesure de déchiffrer un message codé en morse. De la même manière, ne suffit-il pas à notre cerveau de mémoriser une "table de conversion" des sons en phonèmes pour décoder les sons de parole ? Cette section présente les problèmes théoriques auquel se trouve confrontée cette explication intuitive.
+Nous sommes constamment exposé·es à des sons de parole, que notre cerveau comprend quasi instantanément et sans effort apparent. Le processus semble aller de soi, à tel point qu'il est difficile a priori d'imaginer quelles complexités pourraient justifier que ce mécanisme de décodage fasse l'objet de recherches approfondies depuis maintenant plus d'un siècle. Après tout, il nous suffit de disposer d'une copie de l'alphabet morse pour être en mesure de déchiffrer un message codé en morse. De la même manière, ne suffit-il pas à notre cerveau de mémoriser la "table de conversion" des sons en phonèmes pour décoder les sons de parole ? Cette section présente les problèmes théoriques auquel se trouve confrontée cette explication intuitive.
 
 ## Qu’est-ce qu’un phonème ?
 

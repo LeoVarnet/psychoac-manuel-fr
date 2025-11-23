@@ -9,7 +9,7 @@ Nous sommes constamment exposé·es à des sons de parole, que notre cerveau dé
 
 ## Qu’est-ce qu’un phonème ?
 
-Les linguistes définissent traditionnellement le phonème comme le plus petit élément du son de parole chargé de sens 
+Les linguistes définissent le **phonème"* comme le **plus petit élément porteur de sens dans le son de parole**, c'est à dire en quelque sorte comme l'atome, ou la brique de base, du langage parlé.
 
 > Quels sont exactement les rapports entre les sons et le sens à l’intérieur du mot et de la langue en général ? Finalement, il s'agit de dégager le plus petit élément phonique chargé d'une valeur significative, ou -- en termes métaphoriques -- il s'agit de trouver les quanta de la langue. *(Jakobson, Six leçons sur le son et le sens, 1942)*
 

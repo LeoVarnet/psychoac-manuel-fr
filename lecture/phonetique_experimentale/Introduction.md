@@ -41,7 +41,7 @@ Le code de la parole fonctionne sur la base de petites unités sonores combinée
 
 Cette combinatoire s'organise sur plusieurs niveaux. **Les phrases sont composées de mots**, petites unités de sens dont l'agencement spécifique implique un sens particulier de la phrase (ainsi, "le chat a mangé la souris" est clairement différent de "la souris a mangé le chat" même si les deux sont formées à partir des mêmes mots). À leur tour, **les mots sont composés de phonèmes**, comme dans le cas de "souris" la succession des sons élémentaires "s", "ou", "r" et "i" (/s/, /u/, /r/ et /i/ en notation phonétique) dans cet ordre précis.
 
-La combinatoire du langage parlé se déploie donc sur deux niveaux (phrase-mots, mots-phonèmes), c'est-à-dire qu'elle fonctionne selon une **double articulation**, ce qui lui permet de former un code robuste basé sur un dictionnaire relativement réduit [Il existe en réalité une troisième articulation qui est souvent omise par soucis de simplicité. En effet, les mots sont parfois composés de morphèmes, des portions de mots qui leurs donnent leur sens exact, comme "mangé" formé à partir du morphème "mang" suivi du suffixe "é", ce qui indique qu'il s'agit du passé simple du verbe manger]. Imaginez par exemple un langage où les phrases "le chat a mangé la souris" et "la souris a mangé le chat" se traduiraient par des séries de sons complètement différentes : ce code ne serait pas efficace et demanderait de garder en mémoire un nombre disproportionné d'associations entre son et sens. Au contraire, le langage parlé s'appuie sur un nombre très réduit de phonèmes différents pour exprimer une infinité d'idées.
+La combinatoire du langage parlé se déploie donc sur deux niveaux (phrase-mots, mots-phonèmes), c'est-à-dire qu'elle fonctionne selon une **double articulation**, ce qui lui permet de former un code robuste basé sur un dictionnaire relativement réduit [[1](note1introPhon)]. Imaginez par exemple un langage où les phrases "le chat a mangé la souris" et "la souris a mangé le chat" se traduiraient par des séries de sons complètement différentes : ce code ne serait pas efficace et demanderait de garder en mémoire un nombre disproportionné d'associations entre son et sens. Au contraire, le langage parlé s'appuie sur un nombre très réduit de phonèmes différents pour exprimer une infinité d'idées.
 
 > Cette invention merveilleuse de composer de vingt-cinq ou trente sons cette infinie variété de mots [et de phrases], qui, n'ayant rien de semblable en eux-mêmes à ce qui se passe dans notre esprit, ne laissent pas d'en découvrir aux autres tout le secret, et de faire entendre à ceux qui n'y peuvent pénétrer, tout ce que nous concevons, et tous les divers mouvemens de notre âme. (Arnauld et Lancelot, Grammaire de Port-Royal)  
 
@@ -70,6 +70,12 @@ Une seconde confusion possible serait de penser que l'opération de décodage co
 > Il est est vrai que le langage est un code qui associe des représentations phonétiques et des représentations sémantiques des phrases. Cependant, un fossé sépare la représentation sémantique d'une phrase et la pensée veritablement communiquée. Ce fossé est franchi non au moyen d'un code supplémentaire mais grâce à des inférences. (Sperber & Wilson, Relevance)
 
 Comme nous le verrons, des inférences sont même à l'œuvre dès le niveau des phonèmes. Mais pour bien le comprendre il faut d'abord définir plus précisément la notion de "phonèmes".
+
+##
+
+(note1introPhon)=
+
+[1] Il existe en réalité une troisième articulation, qui est souvent omise par soucis de simplicité. En effet, les mots sont parfois composés de morphèmes, des portions de mots qui leurs donnent leur sens exact, comme "incassable" formé à partir du morphème "cass", précédé du préfixe "in-" et suivi du suffixe "able", ce qui indique qu'il s'agit d'un adjectif relatif à l'impossibilité de l'action de casser.
 
 ## Références
 

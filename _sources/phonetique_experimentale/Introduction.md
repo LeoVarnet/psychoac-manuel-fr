@@ -47,7 +47,19 @@ La combinatoire du langage parlé se déploie donc sur deux niveaux (phrase-mots
 
 Dans ce qui suit nous nous concentrerons sur l'étage le plus bas de cette hiérarchie, le phonème. Notons d'ores et déjà que, contrairement aux mots qui pris isolement ont une signification, les phonèmes ne contribuent pas à la compréhension de l'ensemble en apportant des "portions de sens". La signification du mot "souris" ne peut être déduite du sens de "s", "ou", "r" et "i" pris individuellement et de leur ordre.
 
-xxx représentation d'un son de parole ?
+```{figure} VoixHumaineSpectro.bmp
+---
+name: VoixHumaineSpectro.bmp
+alt: XXXXX
+width: 100%
+align: center
+---
+*Spectrogramme d'un son de parole, ici un extrait de "La Voix Humaine" de Cocteau dans lequel Simone Signoret dit "Mais non, c'est pas l'docteur Schmidt" (écouter le son ci-dessous).*
+```
+
+<audio controls>
+  <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/phonetique_experimentale/LaVoixHumaine_ex2.wav" type="audio/wav">
+</audio>
 
 ## Craquer le code de la parole 
 

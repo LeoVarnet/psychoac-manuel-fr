@@ -133,7 +133,7 @@ Les plosives /p/, /t/, /k/, /b/, /d/, /g/ correspondent à des caractéristique
 
 ```{figure} Consonne2.bmp
 ---
-name: Consonnes2.bmp
+name: Consonne2.bmp
 alt: XXXXX
 width: 70%
 align: center
@@ -143,7 +143,7 @@ align: center
 
 ```{figure} Consonne3.bmp
 ---
-name: Consonnes3.bmp
+name: Consonne3.bmp
 alt: XXXXX
 width: 70%
 align: center

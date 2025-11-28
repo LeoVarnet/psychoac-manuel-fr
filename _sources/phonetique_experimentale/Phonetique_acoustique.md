@@ -131,9 +131,9 @@ Les plosives /p/, /t/, /k/, /b/, /d/, /g/ correspondent à des caractéristique
 À nouveau, difficile d’associer transition et plosive de façon univoque
 
 
-```{figure} Consonne2.bmp
+```{figure} Consonne2.png
 ---
-name: Consonne2.bmp
+name: Consonne2.png
 alt: XXXXX
 width: 70%
 align: center
@@ -141,9 +141,9 @@ align: center
 *XXX.*
 ```
 
-```{figure} Consonne3.bmp
+```{figure} Consonne3.png
 ---
-name: Consonne3.bmp
+name: Consonne3.png
 alt: XXXXX
 width: 70%
 align: center

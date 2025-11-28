@@ -58,3 +58,9 @@ align: center
 *XXX.*
 ```
 
+
+<video controls>
+  <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/phonetique_experimentale/Reson.mp4" type="video/mp4">
+</video>
+
+

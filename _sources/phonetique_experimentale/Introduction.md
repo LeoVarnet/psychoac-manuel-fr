@@ -43,7 +43,7 @@ Cette combinatoire s'organise sur plusieurs niveaux. **Les phrases sont composé
 
 La combinatoire du langage parlé se déploie donc sur deux niveaux (phrase-mots, mots-phonèmes), c'est-à-dire qu'elle fonctionne selon une **double articulation**, ce qui lui permet de former un code robuste basé sur un dictionnaire relativement réduit [[1](note1introPhon)]. Imaginez par exemple un langage où les phrases "le chat a mangé la souris" et "la souris a mangé le chat" se traduiraient par des séries de sons complètement différentes : ce code ne serait pas efficace et demanderait de garder en mémoire un nombre disproportionné d'associations entre son et sens. Au contraire, le langage parlé s'appuie sur un nombre très réduit de phonèmes différents pour exprimer une infinité d'idées.
 
-> Cette invention merveilleuse de composer de vingt-cinq ou trente sons cette infinie variété de mots [et de phrases], qui, n'ayant rien de semblable en eux-mêmes à ce qui se passe dans notre esprit, ne laissent pas d'en découvrir aux autres tout le secret, et de faire entendre à ceux qui n'y peuvent pénétrer, tout ce que nous concevons, et tous les divers mouvemens de notre âme. *(Arnauld et Lancelot, Grammaire de Port-Royal)*  
+> Cette invention merveilleuse de composer de vingt-cinq ou trente sons cette infinie variété de mots [et de phrases], qui, n'ayant rien de semblable en eux-mêmes à ce qui se passe dans notre esprit, ne laissent pas d'en découvrir aux autres tout le secret, et de faire entendre à ceux qui n'y peuvent pénétrer, tout ce que nous concevons, et tous les divers mouvemens de notre âme. *(Arnauld et Lancelot, Grammaire de Port-Royal, 1660)*  
 
 ## Craquer le code de la parole 
 
@@ -73,13 +73,13 @@ Avant d'explorer plus avant le fonctionnement du code acoustico-phonetique à la
 
 Tout d'abord, les termes de "code", "message", "information" ou encore "communication" pourraient laisser penser que la finalité première du langage est de permettre la transmission d'informations entre deux individus. C'est parfois le cas, si par exemple je vous indique mon numéro de téléphone. Mais nombre d'interactions langagières n'ont pas véritablement de contenu informationnel, comme la question "Salut, ça va ?" qui n'attend le plus souvent pas de réponse. 
 
-> Il est faux de penser que l'usage du langage humain se caractérise par la volonté ou le fait d'apporter de l'information. Le langage humain peut être utilisé pour informer ou pour tromper, pour clarifier ses propres pensées, pour prouver son habileté ou tout simplement pour jouer. *(Le langage et la pensée, Noam Chomsky 1967)*
+> Il est faux de penser que l'usage du langage humain se caractérise par la volonté ou le fait d'apporter de l'information. Le langage humain peut être utilisé pour informer ou pour tromper, pour clarifier ses propres pensées, pour prouver son habileté ou tout simplement pour jouer. *(Noam Chomsky, Le langage et la pensée, 1967)*
 
 Du point de vue du "code" de la communication parlée, les termes de "message" et d' "information" désignent donc toute pensée que le locuteur ou la locutrice désire transmettre, sans prendre en compte sa pertinence. De ce point de vue, même "bla bla bla" est un message linguistique valable.
 
 Une seconde confusion possible serait de penser que l'opération de décodage consiste uniquement à identifier les symboles sonores prononcés et à leur faire correspondre leur sens, stocké dans un grand dictionnaire mental. C'est effectivement le principe de nombreux codes, comme le code morse qui nécessite uniquement une table de correspondance alphabétique pour être compris par des néophytes, en revanche le compréhension de la parole est plus complexe. Comme nous le verrons par la suite, elle repose également sur des **inférences**. Imaginez par exemple que, lors d'une soirée si bruyante qu'il est difficile de s'entendre, votre partenaire vous regarde et vous fait un signe en pointant sa montre imaginaire. Dans cette interaction minimale le code se limite au signe signifiant "montre" ou "heure". Mais un certain nombre d'inférences vous permettent de déduire que le message sous-jacent n'est pas "est-ce que tu aurais l'heure ?" ou "j'ai perdu ma montre, est-ce que tu l'as vue quelque part ?" mais "on avait dit qu'on ne rentrerait pas plus tard que minuit, il est l'heure d'y aller". Le même genre de processus est à l'œuvre en continu dans la compréhension de la parole.
 
-> Il est est vrai que le langage est un code qui associe des représentations phonétiques et des représentations sémantiques des phrases. Cependant, un fossé sépare la représentation sémantique d'une phrase et la pensée veritablement communiquée. Ce fossé est franchi non au moyen d'un code supplémentaire mais grâce à des inférences. *(Sperber & Wilson, Relevance)*
+> Il est est vrai que le langage est un code qui associe des représentations phonétiques et des représentations sémantiques des phrases. Cependant, un fossé sépare la représentation sémantique d'une phrase et la pensée veritablement communiquée. Ce fossé est franchi non au moyen d'un code supplémentaire mais grâce à des inférences. *(Sperber & Wilson, Relevance, 1986)*
 
 Comme nous le verrons, des inférences sont même à l'œuvre dès le niveau des phonèmes. Mais pour bien le comprendre il faut d'abord définir plus précisément la notion de "phonèmes".
 
@@ -94,4 +94,8 @@ Comme nous le verrons, des inférences sont même à l'œuvre dès le niveau des
 [2] En notation phonétique "simplifiée" pour faciliter la compréhension.
 
 ## Références
+
+- Arnauld, A., & Lancelot, C. (1660). Grammaire générale et raisonnée de Port-Royal. P. Le Petit. http://archive.org/details/grammairegnr00arnauoft
+- Chomsky, N. (1967). Language and Mind. Harcourt Brace. https://doi.org/10.1017/CBO9780511791222
+- Sperber, D., & Wilson, D. (1986). Relevance : Communication and Cognition. Harvard University Press.
 

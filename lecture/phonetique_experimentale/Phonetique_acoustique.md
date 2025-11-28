@@ -30,6 +30,8 @@ align: center
 
 …mais qu’est-ce qui caractérise acoustiquement un phonème ? Comment le cerveau procède-t-il pour distinguer un phonème d’un autre ?
 
+## Les voyelles
+
 Phonétique acoustique
 Etude systématique d’enregistrements de parole pour identifier les similarités entre différentes productions d’un même phonème.
 
@@ -58,9 +60,103 @@ align: center
 *XXX.*
 ```
 
-
 <video controls>
   <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/phonetique_experimentale/Reson.mp4" type="video/mp4">
 </video>
+
+Triangle vocalique : Mesure des valeurs de F1 et F2 pour un grand nombre de productions de voyelles. 
+
+```{figure} Hillen1.png
+---
+name: Hillen1.png
+alt: XXXXX
+width: 70%
+align: center
+---
+*XXX.*
+```
+
+Répartition des voyelles dans l’espace F1-F2
+
+```{figure} Hillen2.png
+---
+name: Hillen2.png
+alt: XXXXX
+width: 70%
+align: center
+---
+*XXX.*
+```
+
+1er problème : subdivision
+Nécessité d’un mécanisme pour découper l’espace acoustique en régions correspondant aux différents phonèmes
+
+```{figure} Hillen3.png
+---
+name: Hillen3.png
+alt: XXXXX
+width: 70%
+align: center
+---
+*XXX.*
+```
+
+2nd problème : « problème du manque d’invariance »
+Recouvrement des régions correspondant aux différents phonèmes. F1 et F2 ne suffisent pas à identifier les voyelles de façon univoque.
+
+```{figure} Hillen4.png
+---
+name: Hillen4.png
+alt: XXXXX
+width: 70%
+align: center
+---
+*XXX.*
+```
+
+## Les consonnes
+
+```{figure} Consonnes.bmp
+---
+name: Consonnes.bmp
+alt: XXXXX
+width: 70%
+align: center
+---
+*XXX.*
+```
+
+Les consonnes présentent des caractéristiques acoustiques plus complexes et plus diversifiées que les voyelles. 
+Les plosives /p/, /t/, /k/, /b/, /d/, /g/ correspondent à des caractéristiques transitoires.
+À nouveau, difficile d’associer transition et plosive de façon univoque
+
+
+```{figure} Consonnes2.bmp
+---
+name: Consonnes2.bmp
+alt: XXXXX
+width: 70%
+align: center
+---
+*XXX.*
+```
+
+```{figure} Consonnes3.bmp
+---
+name: Consonnes3.bmp
+alt: XXXXX
+width: 70%
+align: center
+---
+*XXX.*
+```
+
+## Conclusions temporaires
+
+La phonétique acoustique cherche à identifier des similarités entre différentes productions d’un même phonème. 
+Les formants et transitions de formants sont un élément important du son de parole.
+Mais impossible de tracer une correspondance bijective entre phonèmes et formants.
+ Seule l’expérimentation psychoacoustique peut permettre de résoudre ce problème (i.e. la phonétique expérimentale)
+
 
 

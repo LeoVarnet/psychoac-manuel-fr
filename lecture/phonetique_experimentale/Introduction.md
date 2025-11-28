@@ -11,7 +11,7 @@ Les attributs auditifs forment les fondations de l'édifice perceptif, sur lesqu
 
 **La communication parlée est un moyen de télécommunication comme un autre** : la personne qui parle transmet certaines informations à son interlocuteur ou interlocutrice, située le plus souvent à une distance d'un mètre environ. Il s'agit donc bien de "communication à distance" (télé-communication), même si le chemin parcouru par l'information est beaucoup plus court que dans le cas de la transmission téléphonique ou du système morse.
 
-Quelque soit le système de télécommunication considéré, la situation peut être schématisée de la façon suivante (voir figure [xxx]) : un émetteur ou une émettrice souhaite transmettre un message à un·e destinataire. Pour couvrir la distance qui les sépare il est nécessaire de prendre appui sur un certain medium, c'est à dire un substrat physique qui porte le message, comme les ondes électromagnétiques dans le cas du code morse. Le message ne pouvant être converti directement en ondes électromagnétiques, il faut au préalable le coder dans un format plus adéquat et plus robuste, ici une série de traits et de points. Ce code est ensuite envoyé par l'émetteur·ice, puis réceptionné par le ou la destinataire qui devra le décoder pour revenir au message original. Cette formalisation est au centre de la **théorie de l'information**, cadre mathématique qui permet d'évaluer l'efficacité d'un code particulier et de déterminer le code le mieux adapté, en particulier dans le cas où la transmission est dégradée par des interférences.
+Quelque soit le système de télécommunication considéré, la situation peut être schématisée de la façon suivante (voir {numref}`Shannon1.jpg`) : un émetteur ou une émettrice souhaite transmettre un message à un·e destinataire. Pour couvrir la distance qui les sépare il est nécessaire de prendre appui sur un certain medium, c'est à dire un substrat physique qui porte le message, comme les ondes électromagnétiques dans le cas du code morse. Le message ne pouvant être converti directement en ondes électromagnétiques, il faut au préalable le coder dans un format plus adéquat et plus robuste, ici une série de traits et de points. Ce code est ensuite envoyé par l'émetteur·ice, puis réceptionné par le ou la destinataire qui devra le décoder pour revenir au message original. Cette formalisation est au centre de la **théorie de l'information**, cadre mathématique qui permet d'évaluer l'efficacité d'un code particulier et de déterminer le code le mieux adapté, en particulier dans le cas où la transmission est dégradée par des interférences.
 
 ```{figure} Shannon1.jpg
 ---
@@ -23,7 +23,7 @@ align: center
 *Schéma du principe de la télécommunication, ici pour la transmission morse.*
 ```
 
-Cette conceptualisation de la télécommunication comme une opération de codage / transmission bruitée / décodage est également tout à fait valide dans le cas de la communication parlée (Fig [xxx]). Les deux interlocuteur·ices qui se font face doivent ici, pour transmettre le message formé dans leur esprit, le convertir sous une forme pouvant être véhiculée dans l'air. **Cette forme est le son de parole, une organisation particulière des vibrations de l'air qui forme un code permettant de transporter une infinité de messages différents**. Comme nous le verrons plus loin, ce code est particulièrement robuste aux interférences, comme la présence d'un bruit de fond si la conversation n'a pas lieu dans un environnement parfaitement silencieux. 
+Cette conceptualisation de la télécommunication comme une opération de codage / transmission bruitée / décodage est également tout à fait valide dans le cas de la communication parlée ({numref}`Shannon1.jpg`). Les deux interlocuteur·ices qui se font face doivent ici, pour transmettre le message formé dans leur esprit, le convertir sous une forme pouvant être véhiculée dans l'air. **Cette forme est le son de parole, une organisation particulière des vibrations de l'air qui forme un code permettant de transporter une infinité de messages différents**. Comme nous le verrons plus loin, ce code est particulièrement robuste aux interférences, comme la présence d'un bruit de fond si la conversation n'a pas lieu dans un environnement parfaitement silencieux. 
 
 ```{figure} Shannon2.jpg
 ---
@@ -47,7 +47,7 @@ La combinatoire du langage parlé se déploie donc sur deux niveaux (phrase-mots
 
 ## Craquer le code de la parole 
 
-Le son de parole est donc un code complexe formé de plusieurs unités linguistiques emboîtées : pour être compris, le son doit être décodé en une série de phonèmes, qui seront ensuite assemblés en mots, pour former des phrases et reconstituer au sens du discours. Par exemple, pour comprendre l'extrait ci-dessous (dont le spectrogramme est représenté en Fig XXX), il faut que notre cerveau identifie la succession de phonèmes "ménɔ̃sépaldoktœrʃmidt" [[2](note2introPhon)] avant de pouvoir reconnaître les mots "mais", "non", "c'", "est", "pas", "l'", "docteur" et "Schmidt" pour ensuite reconstruire le sens de la phrase. 
+Le son de parole est donc un code complexe formé de plusieurs unités linguistiques emboîtées : pour être compris, le son doit être décodé en une série de phonèmes, qui seront ensuite assemblés en mots, pour former des phrases et reconstituer au sens du discours. Par exemple, pour comprendre l'extrait ci-dessous (dont le spectrogramme est représenté en {numref}`VoixHumaineSpectro.bmp`), il faut que notre cerveau identifie la succession de phonèmes "ménɔ̃sépaldoktœrʃmidt" [[2](note2introPhon)] avant de pouvoir reconnaître les mots "mais", "non", "c'", "est", "pas", "l'", "docteur" et "Schmidt" pour ensuite reconstruire le sens de la phrase. 
 
 <audio controls>
   <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/phonetique_experimentale/LaVoixHumaine_ex2.wav" type="audio/wav">
@@ -88,7 +88,6 @@ Comme nous le verrons, des inférences sont même à l'œuvre dès le niveau des
 (note1introPhon)=
 
 [1] Il existe en réalité une troisième articulation, qui est souvent omise par soucis de simplicité. En effet, les mots sont parfois composés de morphèmes, des portions de mots qui leurs donnent leur sens exact, comme "incassable" formé à partir du morphème "cass", précédé du préfixe "in-" et suivi du suffixe "able", ce qui indique qu'il s'agit d'un adjectif relatif à l'impossibilité de l'action de casser.
-
 
 (note2introPhon)=
 

@@ -17,7 +17,7 @@ Quelque soit le système de télécommunication considéré, la situation peut �
 ---
 name: Shannon1.jpg
 alt: XXXXX
-width: 70%
+width: 90%
 align: center
 ---
 *Schéma du principe de la télécommunication, ici pour la transmission morse.*
@@ -29,7 +29,7 @@ Cette conceptualisation de la télécommunication comme une opération de codage
 ---
 name: Shannon2.jpg
 alt: XXXXX
-width: 70%
+width: 90%
 align: center
 ---
 *Même schéma que précédemment, dans le cas de la communication parlée. La seule différence est le medium (ici les vibrations de l'air) et le code utilisé.*
@@ -45,7 +45,13 @@ La combinatoire du langage parlé se déploie donc sur deux niveaux (phrase-mots
 
 > Cette invention merveilleuse de composer de vingt-cinq ou trente sons cette infinie variété de mots [et de phrases], qui, n'ayant rien de semblable en eux-mêmes à ce qui se passe dans notre esprit, ne laissent pas d'en découvrir aux autres tout le secret, et de faire entendre à ceux qui n'y peuvent pénétrer, tout ce que nous concevons, et tous les divers mouvemens de notre âme. *(Arnauld et Lancelot, Grammaire de Port-Royal)*  
 
-Dans ce qui suit nous nous concentrerons sur l'étage le plus bas de cette hiérarchie, le phonème. Notons d'ores et déjà que, contrairement aux mots qui pris isolement ont une signification, les phonèmes ne contribuent pas à la compréhension de l'ensemble en apportant des "portions de sens". La signification du mot "souris" ne peut être déduite du sens de "s", "ou", "r" et "i" pris individuellement et de leur ordre.
+## Craquer le code de la parole 
+
+Le son de parole est donc un code complexe formé de plusieurs unités linguistiques emboîtées : pour être compris, le son doit être décodé en une série de phonèmes, qui seront ensuite assemblés en mots, pour former des phrases et reconstituer au sens du discours. Par exemple, pour comprendre l'extrait ci-dessous (dont le spectrogramme est représenté en Fig XXX), il faut que notre cerveau identifie la succession de phonèmes "ménɔ̃sépaldoktœrʃmidt" [[2](note2introPhon)] avant de pouvoir reconnaître les mots "mais", "non", "c'", "est", "pas", "l'", "docteur" et "Schmidt" pour ensuite reconstruire le sens de la phrase. 
+
+<audio controls>
+  <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/phonetique_experimentale/LaVoixHumaine_ex2.wav" type="audio/wav">
+</audio>
 
 ```{figure} VoixHumaineSpectro.bmp
 ---
@@ -54,16 +60,10 @@ alt: XXXXX
 width: 100%
 align: center
 ---
-*Spectrogramme d'un son de parole, ici un extrait de "La Voix Humaine" de Cocteau dans lequel Simone Signoret dit "Mais non, c'est pas l'docteur Schmidt" (écouter le son ci-dessous).*
+*Spectrogramme d'un son de parole, ici un extrait de "La Voix Humaine" de Cocteau dans lequel Simone Signoret dit la phrase "Mais non, c'est pas l'docteur Schmidt". Au-dessus, les phonèmes successifs qui composent la phrase sont indiqués. Chacun de ces phonèmes correspond visuellement à un segment assez bien délimité du son.*
 ```
 
-<audio controls>
-  <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/phonetique_experimentale/LaVoixHumaine_ex2.wav" type="audio/wav">
-</audio>
-
-## Craquer le code de la parole 
-
-Le son de parole est donc un code complexe formé de plusieurs unités linguistiques emboîtées : pour être compris, le son doit être décodé en une série de phonèmes, qui seront ensuite assemblés en mots, pour former des phrases et reconstituer au sens du discours. Les psycholinguistes qui s'intéressent à la transformation du son en sens doivent donc en premier lieu se pencher sur la première étape du décodage : l'identification des phonèmes. Il s'agit ainsi de "craquer" le code de la parole, c'est-à-dire **d'identifier les indices acoustiques qui permettent au système auditif de différencier un phonème d'un autre**. C'est la question de recherche qui nous occupera dans ce chapitre 4.
+Les psycholinguistes qui s'intéressent à la transformation du son en sens doivent donc en premier lieu se pencher sur la première étape du décodage : l'identification des phonèmes. Il s'agit ainsi de "craquer" le code de la parole, c'est-à-dire **d'identifier les indices acoustiques qui permettent au système auditif de différencier un phonème d'un autre**. C'est la question de recherche qui nous occupera dans ce chapitre 4.
 
 Comme dans le cas de la psychoacoustique (chapitre 3), et plus généralement de la psychophysique (chapitre 1), l'objectif est donc de mettre en évidence la relation entre le stimulus (le son de parole) et les représentations mentales que celui-ci évoque dans notre esprit (ici des représentations linguistiques, les phonèmes). Par exemple, pourquoi tel son est-il perçu comme un "b" et tel autre comme un "d" ? Soulignons que le phonème est bien un objet cognitif, et non physique. Il n'est pas contenu dans le son même mais seulement dans l'esprit des locuteurs et locutrices de la langue.
 
@@ -88,6 +88,11 @@ Comme nous le verrons, des inférences sont même à l'œuvre dès le niveau des
 (note1introPhon)=
 
 [1] Il existe en réalité une troisième articulation, qui est souvent omise par soucis de simplicité. En effet, les mots sont parfois composés de morphèmes, des portions de mots qui leurs donnent leur sens exact, comme "incassable" formé à partir du morphème "cass", précédé du préfixe "in-" et suivi du suffixe "able", ce qui indique qu'il s'agit d'un adjectif relatif à l'impossibilité de l'action de casser.
+
+
+(note2introPhon)=
+
+[2] En notation phonétique "simplifiée" pour faciliter la compréhension.
 
 ## Références
 

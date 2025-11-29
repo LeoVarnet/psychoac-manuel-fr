@@ -47,7 +47,7 @@ La combinatoire du langage parlé se déploie donc sur deux niveaux (phrase-mots
 
 ## Craquer le code de la parole 
 
-Le son de parole est donc un code formé par combinaison de petits sons élémentaires, les phonèmes, qui composent des unités linguistiques plus grandes. Pour être compris, le son doit tout d'abord être décodé en une série de phonèmes, qui seront ensuite assemblés en mots, pour former des phrases et reconstituer le sens du discours. Par exemple, pour comprendre l'extrait ci-dessous (dont le spectrogramme est représenté en {numref}`VoixHumaineSpectro.bmp`), il est nécessaire d'identifier la succession de phonèmes "ménɔ̃sépaldoktœrʃmidt" [[2](note2introPhon)] avant de pouvoir reconnaître les mots "mais", "non", "c'", "est", "pas", "l'", "docteur" et "Schmidt" pour ensuite reconstruire le sens de la phrase. 
+Le son de parole est donc un code formé par combinaison de petits sons élémentaires, les phonèmes, qui composent des unités linguistiques plus grandes. Pour être compris, le son doit tout d'abord être décodé en une série de phonèmes, qui seront ensuite assemblés en mots, pour former des phrases et reconstituer le sens du discours. Par exemple, pour comprendre l'extrait ci-dessous (dont le spectrogramme est représenté en {numref}`VoixHumaineSpectro.bmp`), il est nécessaire d'en extraire la succession de phonèmes "ménɔ̃sépaldoktœrʃmidt" [[2](note2introPhon)] avant de pouvoir identifier les mots "mais", "non", "c'", "est", "pas", "l'", "docteur" et "Schmidt" pour ensuite reconstruire le sens de la phrase. 
 
 <audio controls>
   <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/phonetique_experimentale/LaVoixHumaine_ex2.wav" type="audio/wav">
@@ -60,12 +60,10 @@ alt: XXXXX
 width: 100%
 align: center
 ---
-*Spectrogramme d'un son de parole extrait de *La Voix Humaine* de Cocteau, dans lequel Simone Signoret prononce la phrase "Mais non, c'est pas l'docteur Schmidt". Au-dessus sont indiqués les phonèmes successifs qui composent la phrase. Chacun de ces phonèmes correspond visuellement à un segment assez bien délimité du son.*
+*Spectrogramme d'un son de parole extrait de *La Voix Humaine* de Cocteau, dans lequel Simone Signoret prononce la phrase "Mais non, c'est pas l'docteur Schmidt". Lorsque nous écoutons cet enregistrement, notre cerveau le décode en une succession de phonèmes comme indiqué au-dessus. Chacun de ces phonèmes correspond visuellement à un segment relativement bien délimité du son. *
 ```
 
-C'est à cette première étape de transformation du son en une succession de phonèmes que nous nous intéresseront dans ce chapitre. De ce point de vue, on peut considérer que le système auditif humain fonctionne comme un "convertisseur acoustique-phonétique", un mécanisme complexe capable de 
-
-Les psycholinguistes qui s'intéressent à la transformation du son en sens doivent donc en premier lieu se pencher sur la première étape du décodage : l'identification des phonèmes. Il s'agit ainsi de "craquer" le code de la parole, c'est-à-dire **d'identifier les indices acoustiques qui permettent au système auditif de différencier un phonème d'un autre**. C'est la question de recherche qui nous occupera dans ce chapitre 4.
+Le système auditif humain est ainsi capable de réaliser une "conversion acoustique-phonétique", et c'est à cette première étape de décodage de la parole que nous nous intéresserons dans ce chapitre 4. Il s'agit en quelque sorte de "craquer" le code de la parole, c'est-à-dire **d'identifier les indices acoustiques qui permettent au système auditif de différencier un phonème d'un autre**. 
 
 Comme dans le cas de la psychoacoustique (chapitre 3), et plus généralement de la psychophysique (chapitre 1), l'objectif est donc de mettre en évidence la relation entre le stimulus (le son de parole) et les représentations mentales que celui-ci évoque dans notre esprit (ici des représentations linguistiques, les phonèmes). Par exemple, pourquoi tel son est-il perçu comme un "b" et tel autre comme un "d" ? Soulignons que le phonème est bien un objet cognitif, et non physique. Il n'est pas contenu dans le son même mais seulement dans l'esprit des locuteurs et locutrices de la langue.
 

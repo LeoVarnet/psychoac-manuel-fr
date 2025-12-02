@@ -77,7 +77,7 @@ Une seconde confusion consisterait à penser que l'opération de décodage suffi
 
 > Il est est vrai que le langage est un code qui associe des représentations phonétiques et des représentations sémantiques des phrases. Cependant, un fossé sépare la représentation sémantique d'une phrase et la pensée veritablement communiquée. Ce fossé est franchi non au moyen d'un code supplémentaire mais grâce à des inférences. *(Sperber & Wilson, Relevance, 1986)*
 
-Finalement, une troisième confusion commune consiste à penser que décoder un son de parole revient simplement à identifier les symboles sonores prononcés et à leur faire correspondre leur sens, stocké dans un grand dictionnaire mental. C'est effectivement le principe de nombreux codes, comme le code Morse pour lequel une simple table de correspondance alphabétique suffit à comprendre le message, même pour des néophytes. La compréhension de la parole, en revanche, est nettement plus complexe comme nous allons le voir dans la section suivante.
+Finalement, une troisième confusion commune consiste à penser que décoder un son de parole revient simplement à identifier certaines "symboles sonores" et à leur faire correspondre leur sens, en se basant sur un grand dictionnaire mental. C'est effectivement le principe de nombreux codes, comme le code Morse pour lequel une simple table de correspondance alphabétique suffit à comprendre le message, même pour des néophytes. La compréhension de la parole, en revanche, est nettement plus complexe comme nous allons le voir dans la section suivante.
 
 ## Notes
 
@@ -87,7 +87,7 @@ Finalement, une troisième confusion commune consiste à penser que décoder un 
 
 (note2introPhon)=
 
-[2] En notation phonétique "simplifiée" pour faciliter la compréhension.
+[2] Comme dans le reste de ce chapitre, les phonèmes sont indiqués en notation phonétique "simplifiée" pour faciliter la compréhension.
 
 ## Références
 

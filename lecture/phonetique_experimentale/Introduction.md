@@ -12,7 +12,8 @@ Quelque soit le système de télécommunication considéré, la situation peut �
 ```{figure} Shannon1.jpg
 ---
 name: Shannon1.jpg
-alt: XXXXX
+alt: L’image est un montage combinant deux photographies en noir et blanc de personnes communicant en morse. Au centre de l’image, entre les deux photographies, se trouve une illustration représentant une succession de traits et de points, symbolisant la transmission du code morse par ondes électromagnétiques.
+Sous cet ensemble visuel se trouve un schéma conceptuel issu de la théorie de l'information de Shannon et Weaver. Le schéma est composé de rectangles alignés horizontalement, reliés par des flèches. De gauche à droite, on lit : “Source”, d’où provient le message ; “Transmitter”, qui envoie le message transformé en signal ; “Signal”, représenté comme une flèche allant vers la droite ; “Received signal”, avec une flèche entrante ; “Receiver”, l’élément qui capte le signal ; enfin “Destination”, où le message est reçu. Sous la ligne principale se trouve un carré supplémentaire, relié au signal par une flèche ascendante, portant l’étiquette “Noise”.
 width: 90%
 align: center
 ---
@@ -24,7 +25,7 @@ Cette conceptualisation de la télécommunication comme une opération de codage
 ```{figure} Shannon2.jpg
 ---
 name: Shannon2.jpg
-alt: XXXXX
+alt: Même schéma que précédemment mais les deux photographies illustrent une conversation entre deux personnages (Iggy Pop et Tom Waits, dans le film Coffee and Cigarettes). Au centre de l’image, entre les deux photographies, se trouve une illustration représentant des ondes acoustiques, symbolisant la transmission du son de parole d’une personne à l’autre.
 width: 90%
 align: center
 ---

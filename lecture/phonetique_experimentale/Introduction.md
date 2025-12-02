@@ -16,7 +16,7 @@ alt: XXXXX
 width: 90%
 align: center
 ---
-*Schéma du principe de la télécommunication, ici pour la transmission morse.*
+Schéma du principe de la télécommunication, ici pour la transmission morse.
 ```
 
 Cette conceptualisation de la télécommunication comme une opération de codage / transmission bruitée / décodage est également tout à fait valide dans le cas de la communication parlée ({numref}`Shannon1.jpg`). Les deux interlocuteur·ices qui se font face doivent ici, pour transmettre le message formé dans leur esprit, le convertir sous une forme pouvant être véhiculée dans l'air. **Cette forme est le son de parole, une organisation particulière des vibrations de l'air qui forme un code permettant de transporter une infinité de messages différents**. Comme nous le verrons plus loin, ce code est particulièrement robuste aux interférences, comme la présence d'un bruit de fond si la conversation n'a pas lieu dans un environnement parfaitement silencieux. 
@@ -28,7 +28,7 @@ alt: XXXXX
 width: 90%
 align: center
 ---
-*Même schéma que précédemment, dans le cas de la communication parlée. La seule différence est le medium (ici les vibrations de l'air) et le code utilisé.*
+Même schéma que précédemment, dans le cas de la communication parlée. La seule différence est le medium (ici les vibrations de l'air) et le code utilisé.
 ```
 
 ## Une double articulation : phrases, mots, phonèmes 
@@ -56,7 +56,7 @@ alt: XXXXX
 width: 100%
 align: center
 ---
-*Spectrogramme d'un son de parole extrait de *La Voix Humaine* de Cocteau, dans lequel Simone Signoret prononce la phrase "Mais non, c'est pas l'docteur Schmidt". Lorsque nous écoutons cet enregistrement, notre cerveau le décode en une succession de phonèmes comme indiqué au-dessus. Chacun de ces phonèmes correspond visuellement à un segment relativement bien délimité du son. *
+Spectrogramme d'un son de parole extrait de *La Voix Humaine* de Cocteau, dans lequel Simone Signoret prononce la phrase "Mais non, c'est pas l'docteur Schmidt". Lorsque nous écoutons cet enregistrement, notre cerveau le décode en une succession de phonèmes comme indiqué au-dessus. Chacun de ces phonèmes correspond visuellement à un segment relativement bien délimité du son.
 ```
 
 Le système auditif humain est ainsi capable de réaliser une "conversion acoustique-phonétique", et c'est à cette première étape de décodage de la parole que nous nous intéresserons dans ce chapitre 4. Il s'agit en quelque sorte de "craquer" le code de la parole, c'est-à-dire **d'identifier les indices acoustiques qui permettent au système auditif de différencier un phonème d'un autre**. 

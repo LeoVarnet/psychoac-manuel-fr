@@ -1,8 +1,4 @@
 
-```{warning}
-Page en cours de construction
-```
-
 # Introduction
 
 Les attributs auditifs forment les fondations de l'édifice perceptif, sur lesquelles reposent de nombreux étages de complexité croissante. Après avoir considéré comment nous percevons des caractéristiques sonores simples, comme la hauteur d'un ton pur, il est temps de nous tourner vers des sons plus naturels et plus communs. Dans ce chapitre, nous nous intéresserons à un type de stimuli extrêmement utiles pour les êtres humains : les sons de parole. Nous verrons en particulier comment les phonèmes, unités de base du langage oral, sont décodés par le cerveau.  
@@ -47,7 +43,7 @@ La combinatoire du langage parlé se déploie donc sur deux niveaux (phrase-mots
 
 ## Craquer le code de la parole 
 
-Le son de parole est donc un code formé par combinaison de petits sons élémentaires, les phonèmes, qui composent des unités linguistiques plus grandes. Pour être compris, le son doit tout d'abord être décodé en une série de phonèmes, qui seront ensuite assemblés en mots, pour former des phrases et reconstituer le sens du discours. Par exemple, pour comprendre l'extrait ci-dessous (dont le spectrogramme est représenté en {numref}`VoixHumaineSpectro.bmp`), il est nécessaire d'en extraire la succession de phonèmes "ménɔ̃sépaldoktœrʃmidt" [[2](note2introPhon)] avant de pouvoir identifier les mots "mais", "non", "c'", "est", "pas", "l'", "docteur" et "Schmidt" pour ensuite reconstruire le sens de la phrase. 
+Le son de parole est un code formé par combinaison de petits sons élémentaires, les phonèmes, qui composent des unités linguistiques plus grandes. Pour être compris, le son doit donc tout d'abord être décodé en une série de consonnes et de voyelles, qui seront ensuite assemblés en mots, pour former des phrases et reconstituer le sens du discours. Par exemple, pour comprendre l'extrait ci-dessous (dont le spectrogramme est représenté en {numref}`VoixHumaineSpectro.bmp`), il est nécessaire d'en extraire la succession de phonèmes "ménɔ̃sépaldoktœrʃmidt" [[2](note2introPhon)] avant de pouvoir identifier les mots "mais", "non", "c'", "est", "pas", "l'", "docteur" et "Schmidt" pour ensuite reconstruire le sens de la phrase. 
 
 <audio controls>
   <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/phonetique_experimentale/LaVoixHumaine_ex2.wav" type="audio/wav">
@@ -65,23 +61,23 @@ align: center
 
 Le système auditif humain est ainsi capable de réaliser une "conversion acoustique-phonétique", et c'est à cette première étape de décodage de la parole que nous nous intéresserons dans ce chapitre 4. Il s'agit en quelque sorte de "craquer" le code de la parole, c'est-à-dire **d'identifier les indices acoustiques qui permettent au système auditif de différencier un phonème d'un autre**. 
 
-Comme dans le cas de la psychoacoustique (chapitre 3), et plus généralement de la psychophysique (chapitre 1), l'objectif est donc de mettre en évidence la relation entre le stimulus (le son de parole) et les représentations mentales que celui-ci évoque dans notre esprit (ici des représentations linguistiques, les phonèmes). Par exemple, pourquoi tel son est-il perçu comme un "b" et tel autre comme un "d" ? Soulignons que le phonème est bien un objet cognitif, et non physique. Il n'est pas contenu dans le son même mais seulement dans l'esprit des locuteurs et locutrices de la langue.
+Comme dans le cas de la psychoacoustique (chapitre 3), et plus généralement de la psychophysique (chapitre 1), l'objectif est donc de mettre en évidence la relation entre le stimulus (le son de parole) et les représentations mentales que celui-ci évoque dans notre esprit (le phonème). Par exemple, pourquoi tel son est-il perçu comme un "b" et tel autre comme un "d" ? Soulignons que le phonème est bien une représentation mentale, c'est-à-dire un objet cognitif, et non physique. Il n'est pas contenu dans le son même mais seulement dans l'esprit des locuteurs et locutrices de la langue.
 
-## La parole est elle vraiment un code ?
+## La parole est elle seulement un code ?
 
-Avant d'explorer plus avant le fonctionnement du code acoustico-phonetique à la base de la communication parlée, prenons le temps de balayer plusieurs confusions pouvant être induites par la métaphore du code.
+Avant d'examiner plus en détail le fonctionnement du code acoustico-phonetique qui sous-tend la communication parlée, prenons le temps de dissiper plusieurs confusions pouvant être induites par la métaphore du code.
 
-Tout d'abord, les termes de "code", "message", "information" ou encore "communication" pourraient laisser penser que la finalité première du langage est de permettre la transmission d'informations entre deux individus. C'est parfois le cas, si par exemple je vous indique mon numéro de téléphone. Mais nombre d'interactions langagières n'ont pas véritablement de contenu informationnel, comme la question "Salut, ça va ?" qui n'attend le plus souvent pas de réponse. 
+Tout d'abord, l'utilisation des termes "code", "message", "information" ou "communication" pourrait laisser croire que la finalité première du langage est la transmission d'informations entre individus. C'est parfois le cas, par exemple si je vous indique mon nom et mon numéro de téléphone. Mais nombre d'interactions langagières n'ont pas véritablement de contenu informationnel, comme la question conventionnelle "Salut, ça va ?" qui n'attend le plus souvent pas de réponse. 
 
 > Il est faux de penser que l'usage du langage humain se caractérise par la volonté ou le fait d'apporter de l'information. Le langage humain peut être utilisé pour informer ou pour tromper, pour clarifier ses propres pensées, pour prouver son habileté ou tout simplement pour jouer. *(Noam Chomsky, Le langage et la pensée, 1967)*
 
-Du point de vue du "code" de la communication parlée, les termes de "message" et d' "information" désignent donc toute pensée que le locuteur ou la locutrice désire transmettre, sans prendre en compte sa pertinence. De ce point de vue, même "bla bla bla" est un message linguistique valable.
+Du point de vue de la théorie de l'information appliquée à la communication parlée, les notions de "message" et d' "information" renvoient donc à n'importe quelle pensée que le locuteur ou la locutrice désire transmettre, indépendamment de sa pertinence ou de sa véracité. À ce titre, même "bla bla bla" constitue un message linguistique valable.
 
-Une seconde confusion possible serait de penser que l'opération de décodage consiste uniquement à identifier les symboles sonores prononcés et à leur faire correspondre leur sens, stocké dans un grand dictionnaire mental. C'est effectivement le principe de nombreux codes, comme le code morse qui nécessite uniquement une table de correspondance alphabétique pour être compris par des néophytes, en revanche le compréhension de la parole est plus complexe. Comme nous le verrons par la suite, elle repose également sur des **inférences**. Imaginez par exemple que, lors d'une soirée si bruyante qu'il est difficile de s'entendre, votre partenaire vous regarde et vous fait un signe en pointant sa montre imaginaire. Dans cette interaction minimale le code se limite au signe signifiant "montre" ou "heure". Mais un certain nombre d'inférences vous permettent de déduire que le message sous-jacent n'est pas "est-ce que tu aurais l'heure ?" ou "j'ai perdu ma montre, est-ce que tu l'as vue quelque part ?" mais "on avait dit qu'on ne rentrerait pas plus tard que minuit, il est l'heure d'y aller". Le même genre de processus est à l'œuvre en continu dans la compréhension de la parole.
+Une seconde confusion consisterait à penser que l'opération de décodage suffit à elle seule à identifier le message transmis par notre interlocuteur·ice. En réalité, la compréhension repose également sur des **inférences**. Imaginez par exemple que, lors d'une soirée si bruyante qu'il est difficile de s'entendre, votre partenaire vous regarde et vous fait un signe en pointant une montre imaginaire à son poignet. Dans cette interaction minimale, le "code" se limite au signe signifiant "montre" ou "heure". Pourtant vous n'interprétez pas ce geste comme "est-ce que tu aurais l'heure ?" ou "j'ai perdu ma montre, est-ce que tu l'as vue quelque part ?". Un certain nombre d'inférences vous permettent de déduire que le message sous-jacent est en réalité "on avait convenu de rentrer avant minuit, il est temps d'y aller". Ce type de raisonnement inférentiel opère en continu dans la compréhension de la parole.
 
 > Il est est vrai que le langage est un code qui associe des représentations phonétiques et des représentations sémantiques des phrases. Cependant, un fossé sépare la représentation sémantique d'une phrase et la pensée veritablement communiquée. Ce fossé est franchi non au moyen d'un code supplémentaire mais grâce à des inférences. *(Sperber & Wilson, Relevance, 1986)*
 
-Comme nous le verrons, des inférences sont même à l'œuvre dès le niveau des phonèmes. Mais pour bien le comprendre il faut d'abord définir plus précisément la notion de "phonèmes".
+Finalement, une troisième confusion commune consiste à penser que décoder un son de parole revient simplement à identifier les symboles sonores prononcés et à leur faire correspondre leur sens, stocké dans un grand dictionnaire mental. C'est effectivement le principe de nombreux codes, comme le code Morse pour lequel une simple table de correspondance alphabétique suffit à comprendre le message, même pour des néophytes. La compréhension de la parole, en revanche, est nettement plus complexe comme nous allons le voir dans la section suivante.
 
 ## Notes
 

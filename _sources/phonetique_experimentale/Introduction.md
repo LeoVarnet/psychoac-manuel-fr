@@ -84,7 +84,7 @@ Finalement, une troisième confusion commune consiste à penser que décoder un 
 
 (note1introPhon)=
 
-[1] Il existe en réalité une troisième articulation, qui est souvent omise par soucis de simplicité. En effet, les mots sont parfois composés de morphèmes, des portions de mots qui leurs donnent leur sens exact, comme "incassable" formé à partir du morphème "cass", précédé du préfixe "in-" et suivi du suffixe "able", ce qui indique qu'il s'agit d'un adjectif relatif à l'impossibilité de l'action de casser.
+[1] Il existe en réalité une troisième articulation, qui est souvent omise par souci de simplicité. En effet, les mots sont parfois composés de morphèmes, des portions de mots qui leurs donnent leur sens exact, comme "incassable" formé à partir du morphème "cass", précédé du préfixe "in-" et suivi du suffixe "able", ce qui indique qu'il s'agit d'un adjectif relatif à l'impossibilité de l'action de casser.
 
 (note2introPhon)=
 

@@ -38,9 +38,9 @@ Etude systématique d’enregistrements de parole pour identifier les similarit�
 Le spectre des voyelles présente des formants à des fréquences relativement stables… 
 
 
-```{figure} Formants.png
+```{figure} Vowels.png
 ---
-name: Formants.png
+name: Vowels.png
 alt: XXXXX
 width: 70%
 align: center

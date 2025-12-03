@@ -120,10 +120,10 @@ align: center
 ---
 name: Consonnes.bmp
 alt: XXXXX
-width: 70%
+width: 100%
 align: center
 ---
-*XXX.*
+*Spectrogrammes de 12 consonnes du français, précédées et suivies d'un "a" : "aba", "ada", "aga", "apa", "ata", "aka", "afa", "asa", "aʃa", "ama", "ana" et "ala".*
 ```
 
 Les consonnes présentent des caractéristiques acoustiques plus complexes et plus diversifiées que les voyelles. 

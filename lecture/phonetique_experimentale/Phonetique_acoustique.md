@@ -45,7 +45,7 @@ alt: XXXXX
 width: 70%
 align: center
 ---
-*XXX.*
+*Spectrogrammes de 3 voyelles du français : "i", "a" et "ou". Deux enregistrements de chaque voyelle sont présentés, ce qui permet de remarquer une caractéristique frappante : la présences de quatre formants (F1, F2, F3 et F4) correspondant à des maxima d'énergies relativement stables dans le temps, et dont les fréquences semblent caractéristiques de la voyelle.*
 ```
 
 Les formants correspondent aux résonances de la cavité orale pour une configuration particulière des articulateurs (langue, lèvres, palais…)
@@ -116,7 +116,7 @@ align: center
 
 ## Les consonnes
 
-```{figure} Consonnes.bmp
+```{figure} Consonants.png
 ---
 name: Consonnes.bmp
 alt: XXXXX

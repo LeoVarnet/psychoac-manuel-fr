@@ -131,6 +131,10 @@ Les plosives /p/, /t/, /k/, /b/, /d/, /g/ correspondent à des caractéristique
 À nouveau, difficile d’associer transition et plosive de façon univoque
 
 
+<audio controls>
+  <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/phonetique_experimentale/didu.wav" type="audio/wav">
+</audio>
+
 ```{figure} Consonne2.png
 ---
 name: Consonne2.png

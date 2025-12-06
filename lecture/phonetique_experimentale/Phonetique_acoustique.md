@@ -162,6 +162,8 @@ align: center
 *XXX.*
 ```
 
+Pas d'alphabet. Par conséquent, impossible de synthétiser de la parole en collant des phonèmes les uns avec les autres.
+
 ## Conclusions temporaires
 
 La phonétique acoustique cherche à identifier des similarités entre différentes productions d’un même phonème. 

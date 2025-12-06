@@ -171,5 +171,7 @@ Les formants et transitions de formants sont un élément important du son de pa
 Mais impossible de tracer une correspondance bijective entre phonèmes et formants.
  Seule l’expérimentation psychoacoustique peut permettre de résoudre ce problème (i.e. la phonétique expérimentale)
 
+la phonétique est une illusion 
+
 
 

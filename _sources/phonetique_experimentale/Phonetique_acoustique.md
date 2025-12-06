@@ -32,6 +32,9 @@ align: center
 *XXX.*
 ```
 
+Le phonème, tout en étant un élément au service de la signification, est en lui-même dépourvu de propre signification. Ce qui le distingue de toutes les autres valeurs linguistiques et sémiotiques en général, c'est qu'il n'a qu'une charge négative. […] Saussure identifie ce train des choses avec le jeu d'échecs qui permet de remplacer une pièce détruite ou même égarée par une figure tout à fait dissemblable pourvu qu'on lui attribue le même rôle dans le jeu. [[Jakobson, 6 lecons]]
+
+
 …mais qu’est-ce qui caractérise acoustiquement un phonème ? Comment le cerveau procède-t-il pour distinguer un phonème d’un autre ?
 
 ## Les voyelles

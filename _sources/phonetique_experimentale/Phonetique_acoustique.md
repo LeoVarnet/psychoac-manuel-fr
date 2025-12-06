@@ -18,6 +18,10 @@ Une approche pour identifier les phonèmes d’une langue donnée :
 
 On peut ainsi construire des tables des phonèmes et de leurs relations
 
+
+**Système phonologique**  
+linguiste contemporain Nicolas Troubetzkoy (1890-1938) a voué les dix dernières années de sa vie presque uniquement aux recherches phono logiques. Parmi une série de brillantes découvertes, nous lui devons surtout le premier essai d'un classement phonologique des voyelles et par conséquent une typo logie des systèmes vocaliques du monde entier. Ce sont des découvertes d'une puissante envergure, et c'est à bon droit qu'on les a comparé au célèbre système des éléments chimiques établi par Mendeleev. […] C'est surtout dans les Travaux du Cercle linguistique de Prague, du premier volume au huitième (1929-1939), qu'on trouve maintes contribu tions phonologiques dues aux linguistes de divers pays
+
 ```{figure} IPA.png
 ---
 name: IPA.png

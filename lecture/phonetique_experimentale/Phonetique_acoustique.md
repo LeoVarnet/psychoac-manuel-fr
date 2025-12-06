@@ -5,11 +5,11 @@ Page en cours de construction
 
 # Phonétique acoustique
 
-Nous sommes constamment exposé·es à des sons de parole, que notre cerveau comprend quasi instantanément et sans effort apparent. Le processus semble aller de soi, à tel point qu'il est difficile a priori d'imaginer quelles complexités pourraient justifier que ce mécanisme de décodage fasse l'objet de recherches approfondies depuis maintenant plus d'un siècle. Après tout, il nous suffit de disposer d'une copie de l'alphabet morse pour être en mesure de déchiffrer un message codé en morse. De la même manière, ne suffit-il pas à notre cerveau de mémoriser la "table de conversion" des sons en phonèmes pour décoder les sons de parole ? Cette section présente les problèmes théoriques auquel se trouve confrontée cette explication intuitive.
+Nous sommes constamment exposé·es à des sons de parole, que notre cerveau comprend quasi-instantanément et sans effort apparent. Le processus semble aller de soi, à tel point qu'il est difficile a priori d'imaginer que ce mécanisme de décodage fasse l'objet de recherches approfondies depuis maintenant plus d'un siècle. De même qu'il suffit de disposer d'une copie de l'alphabet morse pour être en mesure de déchiffrer un message codé en morse, ne suffit-il pas à notre cerveau de mémoriser la table de conversion des sons en phonèmes pour décoder les sons de parole ? Dans cette section, nous tenterons d'établir cet "alphabet acoustico-phonétique", ce qui nous amènera à identifier les problèmes théoriques auquel se trouve confrontée cette explication intuitive.
 
 ## Qu’est-ce qu’un phonème ?
 
-Les linguistes définissent le **phonème"* comme le **plus petit élément porteur de sens dans le son de parole**, c'est à dire en quelque sorte comme l'atome, ou la brique de base, du langage parlé.
+Une étape préalable consiste bien sûr à identifier quels sont les phonèmes de la langue étudiée, ici le français. Les linguistes définissent le **phonème** comme le **plus petit élément porteur de sens dans le son de parole**, c'est à dire en quelque sorte comme l'atome, ou la brique de base, du langage parlé.
 
 > Quels sont exactement les rapports entre les sons et le sens à l’intérieur du mot et de la langue en général ? Finalement, il s'agit de dégager le plus petit élément phonique chargé d'une valeur significative, ou -- en termes métaphoriques -- il s'agit de trouver les quanta de la langue. *(Jakobson, Six leçons sur le son et le sens, 1942)*
 

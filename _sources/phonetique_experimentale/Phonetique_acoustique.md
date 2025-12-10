@@ -9,7 +9,7 @@ Nous sommes constamment exposé·es à des sons de parole, que notre cerveau com
 
 ## Qu’est-ce qu’un phonème ?
 
-Une étape préalable consiste bien sûr à identifier quels sont les phonèmes de la langue étudiée, ici le français. Les linguistes définissent le **phonème** comme le **plus petit élément porteur de sens dans le son de parole**, c'est à dire en quelque sorte comme l'atome, ou la brique de base, du langage parlé.
+Une étape préalable consiste bien sûr à identifier quels sont les phonèmes de la langue étudiée, ici le français. Les linguistes définissent le **phonème** comme le **plus petit élément porteur de sens dans le son de parole**, c'est-à-dire en quelque sorte comme l' "atome", ou la "brique de base", du langage parlé.
 
 > Quels sont exactement les rapports entre les sons et le sens à l’intérieur du mot et de la langue en général ? Finalement, il s'agit de dégager le plus petit élément phonique chargé d'une valeur significative, ou -- en termes métaphoriques -- il s'agit de trouver les quanta de la langue. *(Jakobson, Six leçons sur le son et le sens, 1942)*
 
@@ -34,7 +34,6 @@ align: center
 
 Le phonème, tout en étant un élément au service de la signification, est en lui-même dépourvu de propre signification. Ce qui le distingue de toutes les autres valeurs linguistiques et sémiotiques en général, c'est qu'il n'a qu'une charge négative. […] Saussure identifie ce train des choses avec le jeu d'échecs qui permet de remplacer une pièce détruite ou même égarée par une figure tout à fait dissemblable pourvu qu'on lui attribue le même rôle dans le jeu. [[Jakobson, 6 lecons]]
 
-
 …mais qu’est-ce qui caractérise acoustiquement un phonème ? Comment le cerveau procède-t-il pour distinguer un phonème d’un autre ?
 
 ## Les voyelles
@@ -43,7 +42,6 @@ Phonétique acoustique
 Etude systématique d’enregistrements de parole pour identifier les similarités entre différentes productions d’un même phonème.
 
 Le spectre des voyelles présente des formants à des fréquences relativement stables… 
-
 
 ```{figure} Vowels.png
 ---
@@ -70,6 +68,8 @@ align: center
 <video controls>
   <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/phonetique_experimentale/Reson.mp4" type="video/mp4">
 </video>
+
+en faites deux premiers formants sont suffisants 
 
 Triangle vocalique : Mesure des valeurs de F1 et F2 pour un grand nombre de productions de voyelles. 
 
@@ -135,7 +135,7 @@ align: center
 
 Les consonnes présentent des caractéristiques acoustiques plus complexes et plus diversifiées que les voyelles. 
 Les plosives /p/, /t/, /k/, /b/, /d/, /g/ correspondent à des caractéristiques transitoires.
-À nouveau, difficile d’associer transition et plosive de façon univoque
+À nouveau, difficile d’associer transition et plosive de façon univoque (manque d'invariance)
 
 ```{figure} VdV2.png
 ---
@@ -157,7 +157,7 @@ align: center
 *XXX.*
 ```
 
-Pas d'alphabet. Par conséquent, impossible de synthétiser de la parole en collant des phonèmes les uns avec les autres.
+Pas d'alphabet. Pas conséquent, impossible de synthétiser de la parole en collant des phonèmes les uns avec les autres. (Simone Signoret)
 
 ## Conclusions temporaires
 

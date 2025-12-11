@@ -13,7 +13,9 @@ Une étape préalable consiste bien sûr à identifier quels sont les phonèmes 
 
 > Quels sont exactement les rapports entre les sons et le sens à l’intérieur du mot et de la langue en général ? Finalement, il s'agit de dégager le plus petit élément phonique chargé d'une valeur significative, ou -- en termes métaphoriques -- il s'agit de trouver les quanta de la langue. *(Jakobson, Six leçons sur le son et le sens, 1942)*
 
-Jakobson ne propose pas seulement une définition théorique, mais également une méthode pratique pour recenser l'ensemble des phonèmes d’une langue donnée. Elle consiste à identifier des **paires minimales**, des couples de mots ne différant que par un son unique. Ainsi, en français, les mots "bagage" et "bagarre" ont des sens radicalement distincts, pourtant seul leur tout dernier son, /j/ ou /r/ est différent en français l’opposition g/r est porteuse de sens
+Jakobson ne propose pas seulement une définition théorique, mais également une méthode pratique pour recenser l'ensemble des phonèmes d’une langue donnée. Elle consiste à identifier des **paires minimales**, des couples de mots ne différant que par un son unique. Ainsi, en français, les mots "bagage" et "bagarre" ont des sens radicalement distincts, pourtant seul leur tout dernier son, /j/ ou /r/ est différent. Ceci indique que, dans notre langue, l’opposition /j/-/r/ est porteuse de sens, et donc que /j/ et /r/ constituent deux phonèmes distincts. De la même façon, "mal" et "mille" forment une paire minimale en français, séparée uniquement par les phonèmes /a/ et /i/.
+
+En appliquant cette approche de façon systématique, il devient possible de dresser l'inventaire des phonèmes d'une langue donnée.
 
 On peut ainsi construire des tables des phonèmes et de leurs relations
 

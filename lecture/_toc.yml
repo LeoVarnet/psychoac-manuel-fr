@@ -25,6 +25,7 @@ chapters:
   sections:
   - file: phonetique_experimentale/Introduction
   - file: phonetique_experimentale/Phonetique_acoustique
+  - file: phonetique_experimentale/phonetique_experimentale
 - file: perception_realite/main
 - file: general_information/Glossaire
 - file: general_information/course_material

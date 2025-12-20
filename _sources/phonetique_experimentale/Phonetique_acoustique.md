@@ -17,7 +17,9 @@ Jakobson ne propose pas seulement une définition théorique, mais également un
 
 En appliquant cette approche de façon systématique, il devient possible de dresser l'inventaire des phonèmes d'une langue donnée.  établies les tables de l'alphabet phonétique international (International Phonetic Alphabet IPA) 
 
-On peut ainsi construire des tables des phonèmes et de leurs relations
+On peut ainsi construire des tables des phonèmes et de leurs relations **structuraliste**
+
+On peut comparer ces tables qui énumèrent les différents phonèmes et leurs relations au célèbre système des éléments chimiques établi par Mendeleev.
 
 
 **Système phonologique**  

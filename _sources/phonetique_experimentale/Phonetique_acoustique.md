@@ -9,15 +9,13 @@ Nous sommes constamment exposé·es à des sons de parole, que notre cerveau com
 
 ## Qu’est-ce qu’un phonème ?
 
-Une étape préalable consiste bien sûr à identifier quels sont les phonèmes de la langue étudiée, ici le français. A la suite des travaux fondateurs du Cercle de Prague au début du XXe siècle, les linguistes définissent le **phonème** comme le **plus petit élément porteur de sens dans le son de parole**, c'est-à-dire en quelque sorte comme l' "atome", ou la "brique de base", du langage parlé.
+Une étape préalable consiste bien sûr à identifier quels sont les phonèmes de la langue étudiée, ici le français. À la suite des travaux fondateurs du Cercle de Prague au début du XXe siècle, les linguistes définissent le **phonème** comme le **plus petit élément porteur de sens dans le son de parole**, c'est-à-dire en quelque sorte comme l' "atome", ou la "brique de base", du langage parlé.
 
 > Quels sont exactement les rapports entre les sons et le sens à l’intérieur du mot et de la langue en général ? Finalement, il s'agit de dégager le plus petit élément phonique chargé d'une valeur significative, ou -- en termes métaphoriques -- il s'agit de trouver les quanta de la langue. *(Jakobson, Six leçons sur le son et le sens, 1942)*
 
 Jakobson et les autres linguistes du Cercle de Prague ne proposent pas seulement une définition théorique, mais également une méthode pratique pour recenser l'ensemble des phonèmes d’une langue donnée. Elle consiste à identifier des **paires minimales**, des couples de mots ne différant que par un son unique. Ainsi, en français, les mots "bagage" et "bagarre" ont des sens radicalement distincts, pourtant seul leur tout dernier son, /j/ ou /r/ est différent. Ceci indique que, dans notre langue, l’opposition /j/-/r/ est porteuse de sens, et donc que /j/ et /r/ constituent deux phonèmes distincts. De la même façon, "malle" et "mille" forment une paire minimale en français, séparée uniquement par les phonèmes /a/ et /i/.
 
-En appliquant cette approche de façon systématique, il devient possible de dresser l'inventaire des phonèmes d'une langue donnée. C'est ainsi que sont établies les tables de l'alphabet phonétique international (*International Phonetic Alphabet*, IPA). [Notez que cette présentation sous forme de table plutôt que d'une simple liste suppose également une certaine organisation des phonèmes entre eux. Il s'agit de la perspective dite structuraliste qui cherche à mettre en lumière les relations entre les phonèmes]
-
-On peut comparer ces tables énumèrant les différents phonèmes au célèbre système des éléments chimiques établi par Mendeleev.
+En appliquant cette approche de façon systématique, il devient possible de dresser l'inventaire des phonèmes d'une langue donnée. C'est ainsi que sont établies les tables de l'alphabet phonétique international (*International Phonetic Alphabet*, IPA). [Notez que cette présentation sous forme de table plutôt que d'une simple liste suggère une organisation particulière des phonèmes entre eux. Nous ne détaillerons pas dans ce chapitre cette perspective dite "structuraliste" -- car elle met en lumière la structure des relations entre les phonèmes -- néanmoins elle est fondamentale pour comprendre la phonologie.]. On peut comparer ces tableaux énumèrant les phonèmes dont sont composés tous les sons parlés au célèbre système des éléments chimiques établi par Mendeleev.
 
 
 **Système phonologique**  

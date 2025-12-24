@@ -17,10 +17,6 @@ Jakobson et les autres linguistes du Cercle de Prague ne proposent pas seulement
 
 En appliquant cette approche de façon systématique, il devient possible de dresser l'inventaire des phonèmes d'une langue donnée, et par extension d'établir une typologie des systèmes phonologiques du monde entier. Ce travail méticuleux est résumé dans les tables de l'alphabet phonétique international (*International Phonetic Alphabet*, IPA). [Notez que cette présentation sous forme de table plutôt que de simple liste suggère une organisation particulière des phonèmes entre eux. Bien que cette perspective dite "structuraliste" -- car elle met en lumière la structure des relations entre les phonèmes -- soit fondamentale en phonologie, nous ne la détaillerons pas dans ce chapitre par souci de concision.]. On peut faire analogie entre ces tableaux énumèrant les phonèmes dont sont composés tous les sons parlés au célèbre système des éléments chimiques établi par Mendeleev.
 
-
-**Système phonologique**  
-linguiste contemporain Nicolas Troubetzkoy (1890-1938) a voué les dix dernières années de sa vie presque uniquement aux recherches phono logiques. Parmi une série de brillantes découvertes, nous lui devons surtout le premier essai d'un classement phonologique des voyelles et par conséquent une typo logie des systèmes vocaliques du monde entier. Ce sont des découvertes d'une puissante envergure, et c'est à bon droit qu'on les a comparé au célèbre système des éléments chimiques établi par Mendeleev. […] C'est surtout dans les Travaux du Cercle linguistique de Prague, du premier volume au huitième (1929-1939), qu'on trouve maintes contribu tions phonologiques dues aux linguistes de divers pays
-
 ```{figure} IPA.png
 ---
 name: IPA.png

@@ -27,9 +27,9 @@ align: center
 *XXX.*
 ```
 
-Cette approche phonologique fournit un point de départ à notre exploration. Néanmoins, elle offre peu d'informations sur la caractérisation acoustique des phonèmes, encore moins sur la façon dont le cerveau traite ces sons. À vrai dire, comme le mentionne Ferdinand de Saussure, dans cette perspective le phonème est un élément abstrait dont l'association avec un son particulier est purement contingente : comme dans le jeu d'échecs, il serait possible d'utiliser un ensemble de pièces entièrement différent, ou même des caillous colorés, pourvu qu'on se mette d'accord sur leur rôle dans le jeu.
+Si cette approche phonologique fournit un point de départ à notre exploration en classifiant les phonèmes, elle offre néanmoins peu d'informations sur les aspects acoustiques qui nous intéressent. Comme le mentionne Ferdinand de Saussure, la perspective phonologique considère le phonème comme une entité abstraite dont l'association avec un son particulier est purement contingente. Bref, les phonèmes sont définis par leur rôle mais non par leur caractéristiques acoustiques -- un peu de la même manière que les pièces du jeu d'échecs qu'il est possible de remplacer par d'autres pourvu que les joueur·euses se mettent d'accord sur leur rôle dans le jeu. 
 
-…mais qu’est-ce qui caractérise acoustiquement un phonème ? Comment le cerveau procède-t-il pour distinguer un phonème d’un autre ?
+Cette définition laisse donc en suspens nos questions initiales : quelles sont les caractéristiques sonores qui distinguent un phonème d'un autre ? Comment le cerveau procède-t-il pour décoder ces sons ? 
 
 ## Les voyelles
 

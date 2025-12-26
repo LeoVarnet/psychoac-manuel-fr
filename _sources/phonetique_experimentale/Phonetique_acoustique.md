@@ -33,7 +33,7 @@ Cette définition laisse donc en suspens nos questions initiales : quelles sont 
 
 ## Les voyelles
 
-Le domaine de la **phonétique acoustique** vise à étudier de façon systématique des enregistrements de parole afin de trouver des dissemblances entre les différents phonèmes, pour identifier les similarités entre différentes productions d’un même phonème.
+Le domaine de la **phonétique acoustique** vise à étudier de façon systématique des enregistrements de parole afin d'identifier des régularités. Ainsi, pour percer le code acoustico-phonetique, on espère trouver pour chaque phonème quelles sont les propriétés acoustiques qui le caractérisent -- et le distinguent de tous les autres phonèmes. : pour un phonème donné peut-on trouver des dissemblances entre les différents phonèmes, pour identifier les similarités entre différentes productions d’un même phonème.
 
 Le spectre des voyelles présente des formants à des fréquences relativement stables… 
 

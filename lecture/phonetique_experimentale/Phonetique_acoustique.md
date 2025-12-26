@@ -35,7 +35,7 @@ Cette définition laisse donc en suspens nos questions initiales : quelles sont 
 
 Le domaine de la **phonétique acoustique** vise à étudier de façon systématique des enregistrements de parole afin d'identifier des régularités. Rappelons que notre objectif dans ce chapitre est de percer le code acoustico-phonetique ; ainsi, nous espérons trouver pour chaque phonème quelles sont les propriétés acoustiques qui le caractérisent -- et le distinguent de tous les autres phonèmes. 
 
-La figure suivante présente les spectrogrammes de 3 voyelles du français : "i", "a" et "ou". Deux enregistrements de chaque voyelle sont présentés, ce qui permet de remarquer une similarité frappante : la présences de bandes d'énergies relativement stables dans le temps, et dont les fréquences semblent dépendre de la voyelle prononcée. Ces maxima spectraux sont appelés **formants** : premier formantLe spectre des voyelles présente des formants à des fréquences relativement stables… 
+La figure suivante présente les spectrogrammes de 3 voyelles du français : "i", "a" et "ou". Deux enregistrements de chaque voyelle sont présentés, ce qui permet de remarquer une similarité frappante : la présences de bandes d'énergies relativement stables dans le temps, et dont les fréquences semblent dépendre de la voyelle prononcée. Ces maxima spectraux sont appelés **formants** et numérotés des basses fréquences vers les hautes : le premier formant (F1) est le plus grave, puis vient le deuxième formant. (F2), etc.
 
 ```{figure} Vowels.png
 ---

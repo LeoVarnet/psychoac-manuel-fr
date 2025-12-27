@@ -33,9 +33,9 @@ Cette définition laisse donc en suspens nos questions initiales : quelles sont 
 
 ## Les voyelles
 
-Le domaine de la **phonétique acoustique** vise à étudier de façon systématique des enregistrements de parole afin d'identifier des régularités. Rappelons que notre objectif dans ce chapitre est de percer le code acoustico-phonetique ; ainsi, nous espérons trouver pour chaque phonème quelles sont les propriétés acoustiques qui le caractérisent -- et le distinguent de tous les autres phonèmes. 
+Rappelons que notre objectif dans ce chapitre est de percer le code acoustico-phonétique. Nous cherchons à découvrir les signatures sonores des phonèmes : quelles propriétés physiques les caractérisent, et permettent de les différencier de manière systématique ? Une approche assez intuitive pour répondre à cette question consiste à examiner des enregistrements de parole afin d'y repérer des régularités acoustiques. 
 
-La figure suivante présente les spectrogrammes de 3 voyelles du français : "i", "a" et "ou". Deux enregistrements de chaque voyelle sont présentés, ce qui permet de remarquer une similarité frappante : la présences de bandes d'énergies relativement stables dans le temps, et dont les fréquences semblent dépendre de la voyelle prononcée. Ces maxima spectraux sont appelés **formants** et numérotés des basses fréquences vers les hautes : le premier formant (F1) est le plus grave, puis vient le deuxième formant (F2), etc. Notez que les spectrogrammes présentent également des raies verticales régulièrement espacées. Celles-ci correspondent à la périodicité du son et donc à la hauteur de la voix (appelée **fréquence fondamentale**).
+La figure suivante présente les spectrogrammes de 3 voyelles du français : "i", "a" et "ou". Deux enregistrements de chaque voyelle sont présentés, ce qui permet de remarquer une caractéristique frappante : la présences de bandes d'énergies relativement stables dans le temps, et dont les fréquences semblent dépendre de la voyelle prononcée. Ces maxima spectraux sont appelés **formants** et numérotés des basses fréquences vers les hautes : le premier formant (F1) est le plus grave, puis vient le deuxième formant (F2), etc. Notez que les spectrogrammes présentent également des raies verticales régulièrement espacées. Celles-ci correspondent à la périodicité du son et donc à la hauteur de la voix (appelée **fréquence fondamentale**), et elles sont globalement indépendantes des formants.
 
 ```{figure} Vowels.png
 ---
@@ -47,9 +47,9 @@ align: center
 *Spectrogrammes de 3 voyelles du français : "i", "a" et "ou". Deux enregistrements de chaque voyelle sont présentés, et les positions des quatre premiers formants (F1, F2, F3 et F4) sont indiqués par des flèches.*
 ```
 
-L'origine physique des formants est directement liée à la structure anatomique de l'appareil phonatoire, et notamment de la bouche. En effet, lorsque nous parlons, l’air en provenance des poumons traverse le larynx, puis entre en vibration dans la cavité buccale. Cette cavité agit comme un résonateur naturel, dont les propriétés acoustiques dépendent directement de sa forme et de ses dimensions à un instant donné.
-La configuration de la cavité buccale est elle-même déterminée par la position des **articulateurs** -- c’est-à-dire la langue, les lèvres, le palais et la mâchoire. Comme l'illustre la figure suivante, lorsque la langue se soulève vers l’arrière de la bouche et que les lèvres s'avancent pour produire la voyelle "ou", la cavité buccale se rétrécit et s’allonge, ce qui modifie les fréquences de résonance. À l’inverse, pour un son comme "a", la bouche s’ouvre largement, créant une cavité plus grande et plus uniforme, qui favorise des résonances différentes.
-Chaque configuration des articulateurs produit ainsi un filtre acoustique particulier, amplifiant certaines fréquences tout en atténuant d’autres. Ces fréquences renforcées sont les formants. Notamment le premier formant (F1) est généralement lié au degré d’ouverture de la bouche, tandis que le second (F2) est principalement influencé par la position antérieure ou postérieure de la langue. 
+L'origine physique des formants est directement liée à la structure anatomique de l'appareil phonatoire, et notamment de la bouche du locuteur ou de la locutrice. En effet, lorsque nous parlons, l’air en provenance des poumons traverse notre larynx, puis entre en vibration dans notre cavité buccale. Cette cavité agit comme un résonateur naturel, dont les propriétés acoustiques dépendent directement de sa forme et de ses dimensions à un instant donné.
+La configuration de la cavité buccale est elle-même déterminée par la position des **articulateurs** -- c’est-à-dire notre langue, nos lèvres, notre palais et notre mâchoire. Comme l'illustre la figure suivante, chaque voyelle correspond à une position spécifique des articulateurs, et donc à une certaine forme de la "caisse de résonance" formée par la bouche. Lorsque la langue se soulève vers l’arrière de la bouche et que les lèvres s'avancent pour produire la voyelle "ou", la cavité buccale se rétrécit et s’allonge, ce qui produit des fréquences de résonance plutôt graves XXXX. À l’inverse, pour un son comme "a", la bouche s’ouvre largement, créant une cavité plus grande et plus uniforme, qui favorise des résonances différentes.
+Chaque configuration des articulateurs produit ainsi un filtre acoustique particulier, amplifiant certaines fréquences tout en atténuant d’autres. Ces fréquences renforcées sont les formants, et peuvent être déterminées mathématiquement ou par des simulations informatiques (voir figure XXx, ligne inférieure) ou des modèles physiques (voir vidéo plus loin xxxx). le premier formant (F1) est généralement lié au degré d’ouverture de la bouche, tandis que le second (F2) est principalement influencé par la position antérieure ou postérieure de la langue. 
 
 ```{figure} Boeetal2019.jpg
 ---
@@ -58,7 +58,7 @@ alt: XXXXX
 width: 70%
 align: center
 ---
-*XXX.*
+*Illustration du lien entre forme de la cavité buccale et fréquence des formants. La ligne supérieure schématise les positions des articulateurs correspondant à trois voyelles. En dessous est représentée la forme de la "caisse de résonance" ainsi formée, depuis  Figure issue de Boë et al. (2019)*
 ```
 
 Leur étude permet de comprendre comment de subtiles variations anatomiques se traduisent par des différences perceptibles dans la parole.

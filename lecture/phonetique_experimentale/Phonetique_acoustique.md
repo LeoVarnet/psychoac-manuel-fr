@@ -29,7 +29,7 @@ align: center
 
 Si cette définition phonologique constitue un point de départ indispensable, elle est néanmoins peu informative sur les propriétés acoustiques des phonèmes, qui nous préoccupent dans ce chapitre. Comme le souligne Ferdinand de Saussure, la phonologie considère le phonème comme une unité abstraite, dont l'association avec un son concret particulier est purement contingente et arbitraire. Autrement dit, les phonèmes sont définis ici avant tout par leur fonction (celle de structurer les mots) plutôt que par leurs caractéristiques acoustiques. On pourrait les comparer aux pièces d’un jeu d’échecs, qu'il est possible de remplacer par n'importe quels autres petits objets pourvu que les joueur·euses se mettent d'accord sur leur rôle dans le jeu. 
 
-Cette définition laisse donc en suspens nos questions initiales : quelles sont les caractéristiques sonores qui distinguent un phonème d'un autre ? Comment le cerveau procède-t-il pour décoder ces sons ? Il est nécessaire à ce stade d'étudier d'un peu plus près la forme acoustique des phonèmes.
+Cette définition laisse donc en suspens nos questions initiales : quelles sont les caractéristiques sonores qui permettent de distinguer un phonème d’un autre ? Comment le cerveau interprète-t-il ces signaux pour en extraire du sens ? Pour y répondre, il devient indispensable d’examiner d'un peu plus près la forme acoustique des phonèmes.
 
 ## Les voyelles
 

@@ -47,8 +47,9 @@ align: center
 *Spectrogrammes de 3 voyelles du français : "i", "a" et "ou". Deux enregistrements de chaque voyelle sont présentés, et les positions des quatre premiers formants (F1, F2, F3 et F4) sont indiqués par des flèches.*
 ```
 
-L'origine physique des formants doit être cherchée dans l'appareil phonatoire. 
-Les formants correspondent aux résonances de la cavité orale pour une configuration particulière des articulateurs (langue, lèvres, palais…)
+L'origine physique des formants est directement liée à la structure anatomique de l'appareil phonatoire, et notamment de la bouche. En effet, lorsque nous parlons, l’air en provenance des poumons traverse le larynx, puis entre en vibration dans la cavité buccale. Cette cavité agit comme un résonateur naturel, dont les propriétés acoustiques dépendent directement de sa forme et de ses dimensions à un instant donné.
+La configuration de la cavité buccale est elle-même déterminée par la position des **articulateurs** -- c’est-à-dire la langue, les lèvres, le palais et la mâchoire. Comme l'illustre la figure suivante, lorsque la langue se soulève vers l’arrière de la bouche et que les lèvres s'avancent pour produire la voyelle "ou", la cavité buccale se rétrécit et s’allonge, ce qui modifie les fréquences de résonance. À l’inverse, pour un son comme "a", la bouche s’ouvre largement, créant une cavité plus grande et plus uniforme, qui favorise des résonances différentes.
+Chaque configuration des articulateurs produit ainsi un filtre acoustique particulier, amplifiant certaines fréquences tout en atténuant d’autres. Ces fréquences renforcées sont les formants. Notamment le premier formant (F1) est généralement lié au degré d’ouverture de la bouche, tandis que le second (F2) est principalement influencé par la position antérieure ou postérieure de la langue. 
 
 ```{figure} Boeetal2019.jpg
 ---
@@ -59,6 +60,8 @@ align: center
 ---
 *XXX.*
 ```
+
+Leur étude permet de comprendre comment de subtiles variations anatomiques se traduisent par des différences perceptibles dans la parole.
 
 <video controls>
   <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/phonetique_experimentale/Reson.mp4" type="video/mp4">

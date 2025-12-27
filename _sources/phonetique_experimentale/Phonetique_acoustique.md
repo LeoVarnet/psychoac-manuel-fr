@@ -61,7 +61,7 @@ align: center
 *Illustration du lien entre forme de la cavité buccale et fréquence des formants. La ligne supérieure schématise les positions des articulateurs correspondant à trois voyelles. En dessous est représentée la forme de la "caisse de résonance" ainsi formée, depuis la gorge jusqu'aux levres. Enfin, la dernière ligne présente le spectre des résonances produites par cette cavité (obtenues par simulation informatique). Ces spectres présentent des pics très marqués, correspondant aux formants. Figure issue de Boë et al. (2019)*
 ```
 
-Ainsi, de subtiles variations dans la position des articulateurs se traduisent par des différences perceptibles dans la parole.
+Ainsi, de subtiles variations dans la position des articulateurs se traduisent par des différences perceptibles dans les sons de parole. On peut se rendre compte facilement du fait que les résonances de la cavité orale sont déterminantes pour l'identité de la voyelle : dans la vidéo ci-dessous, différents tubes ont été conçus pour imiter la forme de la cavité buccale pour différentes voyelles (comme illustré dans la seconde ligne de la figure Xxxx). Un buzzer est placé à l'entrée de chacun de ces tubes, de façon à ce que le son résonne dans cette structure.
 
 <video controls>
   <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/phonetique_experimentale/Reson.mp4" type="video/mp4">

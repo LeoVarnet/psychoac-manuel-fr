@@ -27,7 +27,7 @@ align: center
 *XXX.*
 ```
 
-Si cette définition phonologique fournit un point de départ à notre exploration, elle offre néanmoins peu d'informations sur les aspects acoustiques qui nous intéressent. Comme le mentionne Ferdinand de Saussure, la phonologie considère le phonème comme une entité abstraite dont l'association avec un son particulier est purement contingente. Bref, les phonèmes sont définis par leur rôle (constituer des mots) plutôt que par leur caractéristiques acoustiques -- un peu de la même manière que les pièces du jeu d'échecs qu'il est possible de remplacer par d'autres pourvu que les joueur·euses se mettent d'accord sur leur rôle dans le jeu. 
+Si cette définition phonologique constitue un point de départ indispensable, elle est néanmoins peu informative sur les propriétés acoustiques des phonèmes, qui nous préoccupent dans ce chapitre. Comme le souligne Ferdinand de Saussure, la phonologie considère le phonème comme une unité abstraite, dont l'association avec un son concret particulier est purement contingente et arbitraire. Autrement dit, les phonèmes sont définis ici avant tout par leur fonction (celle de structurer les mots) plutôt que par leurs caractéristiques acoustiques. On pourrait les comparer aux pièces d’un jeu d’échecs, qu'il est possible de remplacer par n'importe quels autres petits objets pourvu que les joueur·euses se mettent d'accord sur leur rôle dans le jeu. 
 
 Cette définition laisse donc en suspens nos questions initiales : quelles sont les caractéristiques sonores qui distinguent un phonème d'un autre ? Comment le cerveau procède-t-il pour décoder ces sons ? Il est nécessaire à ce stade d'étudier d'un peu plus près la forme acoustique des phonèmes.
 

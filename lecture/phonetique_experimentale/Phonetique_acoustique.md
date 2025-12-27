@@ -35,7 +35,7 @@ Cette définition laisse donc en suspens nos questions initiales : quelles sont 
 
 Le domaine de la **phonétique acoustique** vise à étudier de façon systématique des enregistrements de parole afin d'identifier des régularités. Rappelons que notre objectif dans ce chapitre est de percer le code acoustico-phonetique ; ainsi, nous espérons trouver pour chaque phonème quelles sont les propriétés acoustiques qui le caractérisent -- et le distinguent de tous les autres phonèmes. 
 
-La figure suivante présente les spectrogrammes de 3 voyelles du français : "i", "a" et "ou". Deux enregistrements de chaque voyelle sont présentés, ce qui permet de remarquer une similarité frappante : la présences de bandes d'énergies relativement stables dans le temps, et dont les fréquences semblent dépendre de la voyelle prononcée. Ces maxima spectraux sont appelés **formants** et numérotés des basses fréquences vers les hautes : le premier formant (F1) est le plus grave, puis vient le deuxième formant. (F2), etc.
+La figure suivante présente les spectrogrammes de 3 voyelles du français : "i", "a" et "ou". Deux enregistrements de chaque voyelle sont présentés, ce qui permet de remarquer une similarité frappante : la présences de bandes d'énergies relativement stables dans le temps, et dont les fréquences semblent dépendre de la voyelle prononcée. Ces maxima spectraux sont appelés **formants** et numérotés des basses fréquences vers les hautes : le premier formant (F1) est le plus grave, puis vient le deuxième formant (F2), etc. Notez que les spectrogrammes présentent également des raies verticales régulièrement espacées. Celles-ci correspondent à la périodicité du son et donc à la hauteur de la voix (appelée **fréquence fondamentale**).
 
 ```{figure} Vowels.png
 ---
@@ -44,9 +44,10 @@ alt: XXXXX
 width: 70%
 align: center
 ---
-*Spectrogrammes de 3 voyelles du français : "i", "a" et "ou". Deux enregistrements de chaque voyelle sont présentés, ce qui permet de remarquer une caractéristique frappante : la présences de quatre formants (F1, F2, F3 et F4) correspondant à des maxima d'énergies relativement stables dans le temps, et dont les fréquences semblent caractéristiques de la voyelle.*
+*Spectrogrammes de 3 voyelles du français : "i", "a" et "ou". Deux enregistrements de chaque voyelle sont présentés, et les positions des quatre premiers formants (F1, F2, F3 et F4) sont indiqués par des flèches.*
 ```
 
+L'origine physique des formants doit être cherchée dans l'appareil phonatoire. 
 Les formants correspondent aux résonances de la cavité orale pour une configuration particulière des articulateurs (langue, lèvres, palais…)
 
 ```{figure} Boeetal2019.jpg

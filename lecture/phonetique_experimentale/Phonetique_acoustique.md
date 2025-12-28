@@ -3,7 +3,7 @@
 Page en cours de construction
 ```
 
-# Phonétique acoustique
+# Acoustique des phonèmes 
 
 Nous sommes constamment exposé·es à des sons de parole, que notre cerveau comprend quasi-instantanément et sans effort apparent. Le processus semble aller de soi, à tel point qu'il est difficile a priori d'imaginer que ce mécanisme de décodage puisse faire l'objet de recherches approfondies depuis maintenant plus d'un siècle. Après tout, ne suffit-il pas à notre cerveau de mémoriser l'association entre chaque phonème et le son correspondant pour décoder la parole -- de la même manière que nous pouvons déchiffrer un message en morse en consultant l'alphabet morse ? Pour le dire crûment : nous entendons le son "b", et nous en déduisons qu'il s'agit de la consonne /b/, qu'y-a-t'il de sorcier là-dedans ? Si chaque consonne et chaque voyelle est associée à un son particulier et spécifique, il est assez simple d'imaginer un mécanisme de décodage. Dans cette section, nous examinerons en détail des sons de parole pour tenter d'établir cet "alphabet acoustico-phonétique". Ceci nous amènera à identifier les problèmes théoriques auquel se trouve confrontée cette explication intuitive.
 
@@ -69,7 +69,7 @@ Ainsi, de subtiles variations dans la position des articulateurs se traduisent p
 
 Ainsi, le son des phonèmes est une "empreinte" acoustique de la position de la langue, des lèvres, du palais et de la mâchoire. Autrement dit, le langage parlé est une sorte de langue des signes, à ceci près que les mouvements ne sont pas réalisés par les mains mais par des muscles de la bouche et que, n'étant pas directement visibles à l'œil de l'interlocuteur·ice, ils sont rendus audibles par le phénomène de résonance.
 
-Des experiences en synthèse vocale suggèrent que les deux premiers formants sont suffisants pour identifier les voyelles, même lorsque les formants 3 et 4 sont fixés à des valeurs intermédiaires. Ceci a conduit les scientifiques à représenter les voyelles dans un espace à deux dimensions, correspondants aux fréquences du premier et du deuxième formant. Ainsi, Hillenbrand et collègues (1995) Xxxxx ont enregistré un grand nombre de productions de la voyelle /a/ par différents locuteurs et locutrices anglophones Xxxx, puis, pour chaque enregistrement, ont mesuré les valeurs de F1 et de F2 et les ont reportées sur un graphe. La figure Xxxx présente le résultat : chaque point (indiqué par le symbole Xxxxx) représente un enregistrement particulier de la voyelle, avec les valeurs de F1 et de F2 en x et en y, respectivement Xxxxx.
+Des experiences en synthèse vocale suggèrent que les deux premiers formants sont suffisants pour identifier les voyelles, même lorsque les formants 3 et 4 sont fixés à des valeurs intermédiaires. Ceci a conduit les scientifiques à représenter les voyelles dans un espace à deux dimensions, appelé **triangle vocalique** ou espace vocalique (*vowel space*), correspondants aux fréquences du premier et du deuxième formant. Ainsi, Hillenbrand et collègues (1995) Xxxxx ont enregistré un grand nombre de productions de la voyelle /a/ par différents locuteurs et locutrices anglophones Xxxx, puis, pour chaque enregistrement, ont mesuré les valeurs de F1 et de F2 et les ont reportées sur un graphe. La figure Xxxx présente le résultat : chaque point (indiqué par le symbole Xxxxx) représente un enregistrement particulier de la voyelle, avec les valeurs de F1 et de F2 en x et en y, respectivement Xxxxx.
 
 ```{figure} Hillen1.png
 ---
@@ -92,6 +92,8 @@ align: center
 ---
 *XXX.*
 ```
+
+triangle vocalique
 
 1er problème : subdivision
 Nécessité d’un mécanisme pour découper l’espace acoustique en régions correspondant aux différents phonèmes

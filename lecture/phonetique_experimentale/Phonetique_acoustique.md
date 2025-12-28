@@ -67,11 +67,9 @@ Ainsi, de subtiles variations dans la position des articulateurs se traduisent p
   <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/phonetique_experimentale/Reson.mp4" type="video/mp4">
 </video>
 
-Ainsi, le son des phonèmes est une "empreinte" acoustique de la position de la langue, des lèvres, du palais et de la mâchoire. Autrement dit, le langage parlé est une sorte de langue des signes, à ceci près que les mouvements ne sont pas réalisés par les mains mais par des muscles de la bouche et que, leurs mouvements étant en grande partie cachés à l'oeil de l'interlocuteur·ice, ils sont rendus perceptible en sculptant un son.
+Ainsi, le son des phonèmes est une "empreinte" acoustique de la position de la langue, des lèvres, du palais et de la mâchoire. Autrement dit, le langage parlé est une sorte de langue des signes, à ceci près que les mouvements ne sont pas réalisés par les mains mais par des muscles de la bouche et que, n'étant pas directement visibles à l'œil de l'interlocuteur·ice, ils sont rendus audibles par le phénomène de résonance.
 
-en faites deux premiers formants sont suffisants 
-
-Triangle vocalique : Mesure des valeurs de F1 et F2 pour un grand nombre de productions de voyelles. 
+Des experiences en synthèse vocale suggèrent que les deux premiers formants sont suffisants pour identifier les voyelles, même lorsque les formants 3 et 4 sont fixés à des valeurs intermédiaires. Ceci a conduit les scientifiques à représenter les voyelles dans un espace à deux dimensions, correspondants aux fréquences du premier et du deuxième formant. Ainsi, Hillenbrand et collègues (1995) Xxxxx ont enregistré un grand nombre de productions de la voyelle /a/ par différents locuteurs et locutrices anglophones Xxxx, puis, pour chaque enregistrement, ont mesuré les valeurs de F1 et de F2 et les ont reportées sur un graphe. La figure Xxxx présente le résultat : chaque point (indiqué par le symbole Xxxxx) représente un enregistrement particulier de la voyelle, avec les valeurs de F1 et de F2 en x et en y, respectivement Xxxxx.
 
 ```{figure} Hillen1.png
 ---

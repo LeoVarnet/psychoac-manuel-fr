@@ -95,7 +95,9 @@ align: center
 *XXX.*
 ```
 
-On constate que les voyelles se répartissent dans l’espace vocalique -- ce qui est, là encore, cohérent avec l'idée que chaque voyelle est définie par ses valeurs de F1 et F2. Ceci nous amène à formuler 
+On constate que les voyelles se répartissent dans l’espace vocalique -- ce qui est, là encore, cohérent avec l'idée que chaque voyelle est définie par ses valeurs de F1 et F2. 
+
+Ceci nous amène à formuler le **premier problème** théorique à résoudre pour expliquer la capacité du cerveau à comprendre les phonèmes : Le cerveau doit subdiviser l'espace acoustique continu en un nombre fini de régions correspondant aux différents phonèmes. Il s'agit donc d'un problème de discrétisation, ou même plus exactement de compression avec perte puisqu'on part d'une information extrêmement détaillée (les valeurs precises de F1 et F2) pour aboutir à 
 
 triangle vocalique
 

@@ -81,9 +81,9 @@ align: center
 *XXX.*
 ```
 
-Comme l'on s'y attendait d'après nos premières observations (figure xxxxx), les fréquences des formants F1 et F2 pour différentes réalisations d'une même voyelle (ici "xxxxx") sont très similaires (environ xxxx pour F1 et xxxx pour F2), ce qui nous conforte dans l'idée que les formants sont une propriété déterminante de l'identité des voyelles. Néanmoins, il est impossible pour un système biomécanique comme l'appareil phonatoire de produire exactement le même son à plusieurs reprises. Aussi observe-t-on une certaine dispersion des réalisations de "xxx" dans une certaine gamme de valeurs de F1 et F2.
+Comme l'on s'y attendait d'après nos premières observations (figure xxxxx), les fréquences des formants F1 et F2 pour différentes réalisations d'une voyelle donnée (ici "xxxxx") sont très similaires (environ xxxx pour F1 et xxxx pour F2), ce qui nous conforte dans l'idée que les formants sont une propriété déterminante de l'identité des voyelles. Néanmoins, il est impossible pour un système biomécanique comme l'appareil phonatoire humain de produire exactement le même son à plusieurs reprises. Aussi observe-t-on une certaine dispersion des réalisations de "xxx" dans une certaine gamme de valeurs de F1 et F2.
 
-Il est possible de réitérer la même analyse pour d'autres voyelles, comme xxxxx, afin de les représenter sur le même graphique.
+Il est possible de réitérer la même analyse pour les voyelles xxxxx, afin de les représenter sur le même graphique. On obtient alors la figure suivante :
 
 ```{figure} Hillen2.png
 ---
@@ -95,7 +95,7 @@ align: center
 *XXX.*
 ```
 
-Répartition des voyelles dans l’espace F1-F2
+On constate que les voyelles se répartissent dans l’espace vocalique -- ce qui est, là encore, cohérent avec l'idée que chaque voyelle est définie par ses valeurs de F1 et F2. Ceci nous amène à formuler 
 
 triangle vocalique
 

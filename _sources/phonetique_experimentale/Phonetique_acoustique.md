@@ -97,12 +97,12 @@ align: center
 
 On constate que les voyelles se répartissent dans l’espace vocalique -- ce qui est, là encore, cohérent avec l'idée que chaque voyelle est définie par ses valeurs de F1 et F2. 
 
-Ceci nous amène à formuler le **premier problème** théorique de la compréhension des phonèmes : Le cerveau doit subdiviser l'espace acoustique continu en un nombre fini de régions correspondant aux différents phonèmes. Il s'agit donc d'un problème de discrétisation, ou même plus exactement de compression avec perte puisqu'on part d'une information extrêmement détaillée (les valeurs precises de F1 et F2) pour aboutir à 
+Ceci nous conduit à formuler le **premier problème théorique** posé par la compréhension des phonèmes : le cerveau doit subdiviser un espace acoustique intrinsèquement continu en un nombre fini de catégories distinctes, chacune associée à un phonème. Une information acoustique initialement très détaillée (telle que les valeurs exactes des formants F1 et F2) est réduite à une représentation discrète, mais opérationnelle (le phonème correspondant). Il s'agit donc d'un problème de discrétisation -- voire même, pour faire une analogie informatique, de compression avec perte.
 
-triangle vocalique
 
-1er problème : subdivision
-Nécessité d’un mécanisme pour découper l’espace acoustique en régions correspondant aux différents phonèmes
+
+
+
 
 ```{figure} Hillen3.png
 ---
@@ -114,8 +114,6 @@ align: center
 *XXX.*
 ```
 
-2nd problème : « problème du manque d’invariance »
-Recouvrement des régions correspondant aux différents phonèmes. F1 et F2 ne suffisent pas à identifier les voyelles de façon univoque.
 
 ```{figure} Hillen4.png
 ---
@@ -126,6 +124,12 @@ align: center
 ---
 *XXX.*
 ```
+
+triangle vocalique
+
+2nd problème : « problème du manque d’invariance »
+Recouvrement des régions correspondant aux différents phonèmes. F1 et F2 ne suffisent pas à identifier les voyelles de façon univoque
+.
 
 ## Les consonnes
 

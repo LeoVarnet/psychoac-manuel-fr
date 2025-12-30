@@ -99,7 +99,7 @@ On constate que les voyelles se répartissent dans l’espace vocalique -- ce qu
 
 Ceci nous conduit à formuler le **premier problème théorique** posé par la compréhension des phonèmes : le cerveau doit subdiviser un espace acoustique continu (il existeune infinité de sons possibles, même si l'on ne considère que les valeurs des formants) en un nombre fini de catégories distinctes, chacune associée à un phonème. Une information acoustique initialement très détaillée (telle que les valeurs exactes des formants F1 et F2) est réduite à une représentation discrète, mais opérationnelle (le phonème correspondant). Il s'agit donc d'un problème de discrétisation -- voire même, pour faire une analogie informatique, de compression avec perte.
 
-Schématiquement, on peut dire qu'il est nécessaire de placer des frontières phonémiques dans l'espace acoustique pour délimiter quel ensemble de sons correspond à un "i", un "ou", un "a" ou un "ae", comme illustré sur la figure suivante. Il suffirait alors à notre cerveau, lorsqu'il reçoit un son, de mesurer ses valeurs de F1 et F2 et de vérifier comment celles-ci se situent par rapport aux diverses frontières phonémiques pour identifier la voyelle prononcée [cependant, notez que d'autres mécanismes de catégorisation sont envisageables, par exemple en calculant la distance du son perçu au centre de chaque catégorie].
+Schématiquement, on peut dire qu'il est nécessaire de placer des frontières phonémiques dans l'espace acoustique pour délimiter quel ensemble de sons correspond à un "i", un "ou", un "a" ou un "ae", comme illustré sur la figure suivante. Il suffirait alors à notre cerveau, lorsqu'il perçoit un son, de mesurer les valeurs de F1 et F2 et de vérifier comment celles-ci se situent par rapport aux diverses frontières phonémiques pour identifier la voyelle prononcée [Notez cependant que d'autres mécanismes de catégorisation sont envisageables, par exemple en calculant la distance du son perçu au centre de chaque catégorie].
 
 ```{figure} Hillen3.png
 ---
@@ -111,6 +111,7 @@ align: center
 *XXX.*
 ```
 
+Malheureusement, la situation n'est pas aussi simple. En continuant à remplir l'espace vocalique avec l'ensemble des voyelles de l'anglais, nous constatons rapidement que celles-ci se recouvrent dans une large mesure. Ainsi, par exemple, la région de l'espace F1-F2 correspondant à la voyelle Xxxx est partagée avec les voyelles xxx et xxx. Autrement dit, pour un grand nombre de sons (c'est-à-dire de points sur la figure), je ne peux pas déterminer avec certitude s'il s'agit d'une voyelle ou d'une autre : F1 et F2 ne permettent pas d'identifier les voyelles de façon univoque.
 
 ```{figure} Hillen4.png
 ---
@@ -122,11 +123,9 @@ align: center
 *XXX.*
 ```
 
-triangle vocalique
+Ce **second problème** est appelé **problème du manque d’invariance** (*lack of invariance problem*) car il semble à première vue que le signal de parole soit trop variable pour permettre au cerveau de décoder les phonèmes de manière robuste. 
 
-2nd problème : « problème du manque d’invariance »
-Recouvrement des régions correspondant aux différents phonèmes. F1 et F2 ne suffisent pas à identifier les voyelles de façon univoque
-.
+
 
 ## Les consonnes
 

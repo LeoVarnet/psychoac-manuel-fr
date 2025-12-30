@@ -97,12 +97,9 @@ align: center
 
 On constate que les voyelles se répartissent dans l’espace vocalique -- ce qui est, là encore, cohérent avec l'idée que chaque voyelle est définie par ses valeurs de F1 et F2. 
 
-Ceci nous conduit à formuler le **premier problème théorique** posé par la compréhension des phonèmes : le cerveau doit subdiviser un espace acoustique intrinsèquement continu en un nombre fini de catégories distinctes, chacune associée à un phonème. Une information acoustique initialement très détaillée (telle que les valeurs exactes des formants F1 et F2) est réduite à une représentation discrète, mais opérationnelle (le phonème correspondant). Il s'agit donc d'un problème de discrétisation -- voire même, pour faire une analogie informatique, de compression avec perte.
+Ceci nous conduit à formuler le **premier problème théorique** posé par la compréhension des phonèmes : le cerveau doit subdiviser un espace acoustique continu (il existeune infinité de sons possibles, même si l'on ne considère que les valeurs des formants) en un nombre fini de catégories distinctes, chacune associée à un phonème. Une information acoustique initialement très détaillée (telle que les valeurs exactes des formants F1 et F2) est réduite à une représentation discrète, mais opérationnelle (le phonème correspondant). Il s'agit donc d'un problème de discrétisation -- voire même, pour faire une analogie informatique, de compression avec perte.
 
-
-
-
-
+Schématiquement, on peut dire qu'il est nécessaire de placer des frontières phonémiques dans l'espace acoustique pour délimiter quel ensemble de sons correspond à un "i", un "ou", un "a" ou un "ae", comme illustré sur la figure suivante. Il suffirait alors à notre cerveau, lorsqu'il reçoit un son, de mesurer ses valeurs de F1 et F2 et de vérifier comment celles-ci se situent par rapport aux diverses frontières phonémiques pour identifier la voyelle prononcée [cependant, notez que d'autres mécanismes de catégorisation sont envisageables, par exemple en calculant la distance du son perçu au centre de chaque catégorie].
 
 ```{figure} Hillen3.png
 ---

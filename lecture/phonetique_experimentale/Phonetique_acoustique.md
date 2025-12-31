@@ -123,11 +123,11 @@ align: center
 *XXX.*
 ```
 
-Ce **second problème** est appelé **problème du manque d’invariance** (*lack of invariance problem*) car il semble à première vue que le signal de parole soit trop variable pour permettre au cerveau de décoder les phonèmes de manière robuste. 
-
-
+Ce **second problème** est appelé **problème du manque d’invariance** (*lack of invariance problem*) : le signal de parole semble à première vue trop variable pour permettre au cerveau de décoder les phonèmes de manière robuste. Le très large recouvrement entre les régions correspondant aux différentes voyelles semble en contradiction avec notre grande facilité à différencier une voyelle d'une autre.
 
 ## Les consonnes
+
+Le tableau apparaît tout aussi complexe lorsqu'on s'intéresse aux consonnes.
 
 ```{figure} Consonants.png
 ---
@@ -187,6 +187,9 @@ Mais impossible de tracer une correspondance bijective entre phonèmes et forman
  Seule l’expérimentation psychoacoustique peut permettre de résoudre ce problème (i.e. la phonétique expérimentale)
 
 la phonétique est une illusion 
+
+> to normal speakers, utterances appear as sequences of words that in turn are sequences of sounds. A basic task of phonology is to provide a proper account for this perceptual “illusion.” That it is appropriate to regard it as an illusion, i.e., as something in the speaker’s and hearer’s mind rather than as something directly present in the signal, becomes clearer when one considers the fact that our ability to recognize words and sounds in utterances is drastically impaired when instead of utterances in a language we know, we are presented with utterances in languages we do not know.  
+(Chomsky, mental representations)
 
 
 

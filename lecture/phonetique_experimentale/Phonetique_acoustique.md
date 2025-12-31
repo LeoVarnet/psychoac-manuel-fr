@@ -139,7 +139,7 @@ align: center
 *Spectrogrammes de 12 consonnes du français, précédées et suivies d'un "a" : "aba", "ada", "aga", "apa", "ata", "aka", "afa", "asa", "aʃa", "ama", "ana" et "ala".*
 ```
 
-On remarque que les consonnes présentent des caractéristiques acoustiques plus diversifiées que la simple répartition des formants que nous avons discuté dans le cas des voyelles. Dans chaque spectrogramme, les deux "a" sont clairement reconnaissables. L'intervalle entre les deux, correspondant à la consonne, est tantôt quasi-silencieux (comme pour le /t/), tantôt 
+On remarque que les consonnes présentent des caractéristiques acoustiques plus diversifiées que la simple répartition des formants que nous avons discuté dans le cas des voyelles. Dans chaque spectrogramme, les deux "a" sont clairement reconnaissables. L'intervalle entre les deux, correspondant a priori à la consonne, est tantôt quasi-silencieux (comme pour le /t/), tantôt ressemble à une voyelle (comme pour le /m/), tantôt à un bruit sans structure (comme pour /s/). Ces dissimilarités tiennent aux différents modes de production : les consonnes plosives sont produites en interrompant le flux d'air (d'où le quasi-silence) fricatives nécessitent de laisser passer un petit flux d'air chaotique 
 
 Les plosives /p/, /t/, /k/, /b/, /d/, /g/ correspondent à des caractéristiques transitoires.
 À nouveau, difficile d’associer transition et plosive de façon univoque (manque d'invariance)

@@ -139,9 +139,13 @@ align: center
 *Spectrogrammes de 12 consonnes du français, précédées et suivies d'un "a" : "aba", "ada", "aga", "apa", "ata", "aka", "afa", "asa", "aʃa", "ama", "ana" et "ala".*
 ```
 
-On remarque que les consonnes présentent des caractéristiques acoustiques plus diversifiées que la simple répartition des formants que nous avons discuté dans le cas des voyelles. Dans chaque spectrogramme, les deux "a" sont clairement reconnaissables. L'intervalle entre les deux, correspondant a priori à la consonne, est tantôt quasi-silencieux (comme pour le /t/), tantôt ressemble à une voyelle (comme pour le /m/), tantôt à un bruit sans structure (comme pour /s/). Ces dissimilarités tiennent aux différents modes de production : les consonnes plosives sont produites en interrompant le flux d'air (d'où le quasi-silence) fricatives nécessitent de laisser passer un petit flux d'air chaotique 
+On remarque que les consonnes présentent des caractéristiques acoustiques plus diversifiées que la simple répartition en fréquence des formants que nous avons détaillé dans le cas des voyelles. Dans chaque spectrogramme, les deux "a" sont clairement reconnaissables. L'intervalle entre les deux, correspondant a priori à la consonne, révèle des motifs très différents d'un son à l'autre. Ces dissimilarités tiennent en réalité aux différents modes de production des consonnes :
+- les **consonnes plosives**, que nous explorerons plus en détail dans la suite de ce chapitre, sont obtenues en interrompant momentanément le flux d'air avec les lèvres (/p/) ou la langue (/t/), ce qui engendre un bref silence
+- les consonnes fricatives nécessitent de générer un bruit de chuintement, là encore avec les lèvres (/f/) ou la langue (/s/), d'où la présence d'énergie sur une large portion du spectre
+- enfin, les autres consonnes, liquides ou nasales, fonctionnent sur un principe de résonances similaire à celui des voyelles. C'est pourquoi leur spectrogramme ressemble à celui des voyelles.
 
-Les plosives /p/, /t/, /k/, /b/, /d/, /g/ correspondent à des caractéristiques transitoires.
+Dans la suite de ce chapitre nous nous intéresserons principalement aux **consonnes plosives** (/p/, /t/, /k/, /b/, /d/, /g/)
+correspondent à des caractéristiques transitoires.
 À nouveau, difficile d’associer transition et plosive de façon univoque (manque d'invariance)
 
 ```{figure} VdV2.png

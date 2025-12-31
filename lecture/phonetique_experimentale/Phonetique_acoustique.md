@@ -127,7 +127,7 @@ Ce **second problème** est appelé **problème du manque d’invariance** (*lac
 
 ## Les consonnes
 
-Le tableau apparaît tout aussi complexe lorsqu'on s'intéresse aux consonnes.
+Le tableau apparaît tout aussi complexe lorsqu'on s'intéresse aux consonnes. La figure suivante représente les spectrogrammes de 12 sons "aXa", X correspondant à l'une des consonnes suivantes : "b", "d", "g", "p", "t", "k", "f", "s", "ch", "m", "n" et "l".
 
 ```{figure} Consonants.png
 ---
@@ -139,7 +139,8 @@ align: center
 *Spectrogrammes de 12 consonnes du français, précédées et suivies d'un "a" : "aba", "ada", "aga", "apa", "ata", "aka", "afa", "asa", "aʃa", "ama", "ana" et "ala".*
 ```
 
-Les consonnes présentent des caractéristiques acoustiques plus complexes et plus diversifiées que les voyelles. 
+On remarque que les consonnes présentent des caractéristiques acoustiques plus diversifiées que la simple répartition des formants que nous avons discuté dans le cas des voyelles. Dans chaque spectrogramme, les deux "a" sont clairement reconnaissables. L'intervalle entre les deux, correspondant à la consonne, est tantôt quasi-silencieux (comme pour le /t/), tantôt 
+
 Les plosives /p/, /t/, /k/, /b/, /d/, /g/ correspondent à des caractéristiques transitoires.
 À nouveau, difficile d’associer transition et plosive de façon univoque (manque d'invariance)
 

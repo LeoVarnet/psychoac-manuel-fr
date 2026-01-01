@@ -140,11 +140,11 @@ align: center
 ```
 
 On remarque que les consonnes présentent des caractéristiques acoustiques plus diversifiées que la simple répartition en fréquence des formants que nous avons détaillé dans le cas des voyelles. Dans chaque spectrogramme, les deux "a" sont clairement reconnaissables. L'intervalle entre les deux, correspondant a priori à la consonne, révèle des motifs très différents d'un son à l'autre. Ces dissimilarités tiennent en réalité aux différents modes de production des consonnes :
-- les **consonnes plosives**, que nous explorerons plus en détail dans la suite de ce chapitre, sont obtenues en interrompant momentanément le flux d'air avec les lèvres (/p/) ou la langue (/t/), ce qui engendre un bref silence
-- les consonnes fricatives nécessitent de générer un bruit de chuintement, là encore avec les lèvres (/f/) ou la langue (/s/), d'où la présence d'énergie sur une large portion du spectre
-- enfin, les autres consonnes, liquides ou nasales, fonctionnent sur un principe de résonances similaire à celui des voyelles. C'est pourquoi leur spectrogramme ressemble à celui des voyelles.
+- les **consonnes plosives**, que nous explorerons plus en détail dans la suite de ce chapitre, sont obtenues en interrompant momentanément le flux d'air avec les lèvres (/p/, /b/) ou la langue (/t/, /d/, /k/, /g/), engendrant ainsi un bref silence dans le son de parole 
+- les consonnes fricatives nécessitent de laisser passer seulement un filet d'air, là encore au moyen des lèvres (/f/, /v/, /ʃ/, /j/) ou de la langue (/s/, /z/), ce qui résulte en un bruit de chuintement 
+- enfin, les autres consonnes, liquides ou nasales, fonctionnent sur le même principe de résonances dans la cavité buccale (et nasale) que pour les voyelles. C'est pourquoi leur spectrogramme présente également des formants à des fréquences précises.
 
-Dans la suite de ce chapitre nous nous intéresserons principalement aux **consonnes plosives** (/p/, /t/, /k/, /b/, /d/, /g/)
+On retrouve pour les consonnes le même problème du manque d'invariance que pour les voyelles. Ainsi, il semble difficile d'associer un son à une consonne plosive de façon univoque. dans le cas des des voyelles Dans la suite de ce chapitre nous nous intéresserons principalement aux **consonnes plosives** (/p/, /t/, /k/, /b/, /d/, /g/)
 correspondent à des caractéristiques transitoires.
 À nouveau, difficile d’associer transition et plosive de façon univoque (manque d'invariance)
 

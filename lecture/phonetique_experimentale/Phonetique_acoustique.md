@@ -141,12 +141,13 @@ align: center
 
 On remarque que les consonnes présentent des caractéristiques acoustiques plus diversifiées que la simple répartition en fréquence des formants que nous avons détaillé dans le cas des voyelles. Dans chaque spectrogramme, les deux "a" sont clairement reconnaissables. L'intervalle entre les deux, correspondant a priori à la consonne, révèle des motifs très différents d'un son à l'autre. Ces dissimilarités tiennent en réalité aux différents mouvements articulatoires nécessaires pour les prononcer :
 - les **consonnes plosives**, que nous explorerons plus en détail dans la suite de ce chapitre, sont produites en interrompant momentanément le flux d'air avec les lèvres (/p/, /b/) ou la langue (/t/, /d/, /k/, /g/), engendrant ainsi un bref silence dans le son de parole. C'est la raison pour laquelle l'espace entre les deux "a" semble vide sur les spectrogrammed de /aba/, /ada/, /aga/, /apa/, /ata/ et /aka/.
-- les consonnes fricatives nécessitent de laisser passer seulement un filet d'air, là encore au moyen des lèvres (/f/, /v/, /ʃ/, /j/) ou de la langue (/s/, /z/), ce qui résulte en un bruit de chuintement. 
-- enfin, les autres consonnes, liquides ou nasales, fonctionnent sur le même principe de résonances dans la cavité buccale (et nasale) que pour les voyelles. C'est pourquoi leur spectrogramme présente également des formants à des fréquences précises.
+- les consonnes fricatives nécessitent de laisser passer seulement un filet d'air, là encore au moyen des lèvres (/f/, /v/, /ʃ/, /j/) ou de la langue (/s/, /z/), ce qui résulte en un bruit de chuintement. Ce bruit apparaît comme une plage d'énergie dans une certaine gamme de fréquences sur les spectrogrammes de /afa/, /asa/, et /aʃa/.
+- enfin, les autres consonnes, liquides ou nasales, fonctionnent essentiellement sur le même principe de résonances dans la cavité buccale (et nasale) que les voyelles. C'est pourquoi leur spectrogramme présente également des formants à des fréquences précises, mais évoluant dans le temps, pour /ama/, /ana, et /ala/.
 
-On retrouve pour les consonnes le même problème du manque d'invariance que pour les voyelles. Ainsi, il semble difficile d'associer un son à une consonne plosive de façon univoque. dans le cas des des voyelles Dans la suite de ce chapitre nous nous intéresserons principalement aux **consonnes plosives** (/p/, /t/, /k/, /b/, /d/, /g/)
-correspondent à des caractéristiques transitoires.
-À nouveau, difficile d’associer transition et plosive de façon univoque (manque d'invariance)
+On retrouve pour les consonnes le même problème du manque d'invariance que pour les voyelles. Ainsi, il semble difficile d'associer un son à une consonne plosive de façon univoque. Considérons de plus près les spectrogrammes de xxxx.
+
+
+
 
 ```{figure} VdV2.png
 ---

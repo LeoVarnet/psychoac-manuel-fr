@@ -144,8 +144,7 @@ On remarque que les consonnes présentent des caractéristiques acoustiques pl
 - les consonnes fricatives nécessitent de laisser passer seulement un filet d'air, là encore au moyen des lèvres (/f/, /v/, /ʃ/, /j/) ou de la langue (/s/, /z/), ce qui résulte en un bruit de chuintement. Ce bruit apparaît comme une plage d'énergie dans une certaine gamme de fréquences sur les spectrogrammes de /afa/, /asa/, et /aʃa/.
 - enfin, les autres consonnes, liquides ou nasales, fonctionnent essentiellement sur le même principe de résonances dans la cavité buccale (et nasale) que les voyelles. C'est pourquoi leur spectrogramme présente également des formants à des fréquences précises, mais évoluant dans le temps, pour /ama/, /ana, et /ala/.
 
-On retrouve pour les consonnes le même problème du manque d'invariance que pour les voyelles. Ainsi, il semble difficile d'associer un son à une consonne plosive de façon univoque. Considérons de plus près les spectrogrammes de xxxx.
-
+On retrouve pour les consonnes le même problème du manque d'invariance que pour les voyelles. Ainsi, il semble difficile d'associer un son à une consonne plosive de façon univoque. Considérons de plus près les spectrogrammes des deux consonnes plosives /d/ et /t/, précédées et suivies soit de "i", de "a", ou de "ou". On s'aperçoit rapidement que la forme acoustique des consonnes dépend considérablement du contexte, à tel point que le xxx prononcé en contexte xxx ressemble plus à un xxx en contexte xxx qu'à un autre xxx en contexte xxx.
 
 
 

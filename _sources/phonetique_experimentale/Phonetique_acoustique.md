@@ -127,7 +127,7 @@ Ce **second problème** est appelé **problème du manque d’invariance** (*lac
 
 ## Les consonnes
 
-Le tableau apparaît tout aussi complexe lorsqu'on s'intéresse aux consonnes. La figure suivante représente les spectrogrammes de 12 sons "aXa", X correspondant à l'une des consonnes suivantes : "b", "d", "g", "p", "t", "k", "f", "s", "ch", "m", "n" et "l".
+Le tableau apparaît tout aussi complexe du côté des consonnes. La figure suivante représente les spectrogrammes de 12 sons "aXa", le X correspondant à l'une des consonnes suivantes : "b", "d", "g", "p", "t", "k", "f", "s", "ch", "m", "n" et "l".
 
 ```{figure} Consonants.png
 ---
@@ -139,9 +139,9 @@ align: center
 *Spectrogrammes de 12 consonnes du français, précédées et suivies d'un "a" : "aba", "ada", "aga", "apa", "ata", "aka", "afa", "asa", "aʃa", "ama", "ana" et "ala".*
 ```
 
-On remarque que les consonnes présentent des caractéristiques acoustiques plus diversifiées que la simple répartition en fréquence des formants que nous avons détaillé dans le cas des voyelles. Dans chaque spectrogramme, les deux "a" sont clairement reconnaissables. L'intervalle entre les deux, correspondant a priori à la consonne, révèle des motifs très différents d'un son à l'autre. Ces dissimilarités tiennent en réalité aux différents mouvements articulatoires nécessaires pour les prononcer :
-- les **consonnes plosives**, que nous explorerons plus en détail dans la suite de ce chapitre, sont produites en interrompant momentanément le flux d'air avec les lèvres (/p/, /b/) ou la langue (/t/, /d/, /k/, /g/), engendrant ainsi un bref silence dans le son de parole. C'est la raison pour laquelle l'espace entre les deux "a" semble vide sur les spectrogrammed de /aba/, /ada/, /aga/, /apa/, /ata/ et /aka/.
-- les consonnes fricatives nécessitent de laisser passer seulement un filet d'air, là encore au moyen des lèvres (/f/, /v/, /ʃ/, /j/) ou de la langue (/s/, /z/), ce qui résulte en un bruit de chuintement. Ce bruit apparaît comme une plage d'énergie dans une certaine gamme de fréquences sur les spectrogrammes de /afa/, /asa/, et /aʃa/.
+On remarque que les consonnes présentent des caractéristiques acoustiques plus diversifiées que la simple répartition en fréquence des formants que nous avons détaillé dans le cas des voyelles. Dans chaque spectrogramme, les deux "a" sont clairement reconnaissables par la présence de formants horizontaux. L'intervalle entre les deux, correspondant a priori à la consonne, révèle des motifs très différents d'un son à l'autre. Ces dissimilarités acoustiques entre les consonnes tiennent en réalité à la diversité des mouvements articulatoires nécessaires pour les prononcer :
+- les **consonnes plosives**, que nous explorerons plus en détail dans la suite de ce chapitre, sont produites en interrompant momentanément le flux d'air (par exemple en joignant les lèvres pour /p/ ou /b/), engendrant ainsi un bref silence dans le son de parole. C'est la raison pour laquelle l'espace entre les deux "a" semble vide sur les spectrogrammed de /aba/, /ada/, /aga/, /apa/, /ata/ et /aka/.
+- les consonnes fricatives nécessitent de laisser passer seulement un filet d'air chaotique (par exemple en amenant la langue près du palais pour /s/ et /z/). Ceci résulte en un chuintement qui apparaît comme un bruit couvrant une certaine gamme de fréquences sur les spectrogrammes de /afa/, /asa/, et /aʃa/.
 - enfin, les autres consonnes, liquides ou nasales, fonctionnent essentiellement sur le même principe de résonances dans la cavité buccale (et nasale) que les voyelles. C'est pourquoi leur spectrogramme présente également des formants à des fréquences précises, mais évoluant dans le temps, pour /ama/, /ana, et /ala/.
 
 On retrouve pour les consonnes le même problème du manque d'invariance que pour les voyelles. Ainsi, il semble difficile d'associer un son à une consonne plosive de façon univoque. Considérons de plus près les spectrogrammes des deux consonnes plosives /d/ et /t/, précédées et suivies soit de "i", de "a", ou de "ou". On s'aperçoit rapidement que la forme acoustique des consonnes dépend considérablement du contexte, à tel point que le xxx prononcé en contexte xxx ressemble plus à un xxx en contexte xxx qu'à un autre xxx en contexte xxx.

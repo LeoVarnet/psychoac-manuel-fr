@@ -30,7 +30,7 @@
 
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=03e43079" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=eba8b062" />
-    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=9c3e77be" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
     <link rel="stylesheet" type="text/css" href="../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
@@ -50,7 +50,7 @@
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
-    <script src="../_static/togglebutton.js?v=4a39c7ea"></script>
+    <script src="../_static/togglebutton.js?v=1ae7504c"></script>
     <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script src="../_static/design-tabs.js?v=f930bc37"></script>
@@ -544,7 +544,7 @@ Chaque configuration des articulateurs produit ainsi un filtre acoustique partic
 </section>
 <section id="les-consonnes">
 <h2>Les consonnes<a class="headerlink" href="#les-consonnes" title="Link to this heading">#</a></h2>
-<p>Le tableau apparaît tout aussi complexe lorsqu’on s’intéresse aux consonnes. La figure suivante représente les spectrogrammes de 12 sons “aXa”, X correspondant à l’une des consonnes suivantes : “b”, “d”, “g”, “p”, “t”, “k”, “f”, “s”, “ch”, “m”, “n” et “l”.</p>
+<p>Le tableau apparaît tout aussi complexe du côté des consonnes. La figure suivante représente les spectrogrammes de 12 sons “aXa”, le X correspondant à l’une des consonnes suivantes : “b”, “d”, “g”, “p”, “t”, “k”, “f”, “s”, “ch”, “m”, “n” et “l”.</p>
 <figure class="align-center" id="consonnes-bmp">
 <a class="reference internal image-reference" href="../_images/Consonants.png"><img alt="XXXXX" src="../_images/Consonants.png" style="width: 100%;" />
 </a>
@@ -552,10 +552,10 @@ Chaque configuration des articulateurs produit ainsi un filtre acoustique partic
 <p><span class="caption-number">Fig. 93 </span><span class="caption-text"><em>Spectrogrammes de 12 consonnes du français, précédées et suivies d’un “a” : “aba”, “ada”, “aga”, “apa”, “ata”, “aka”, “afa”, “asa”, “aʃa”, “ama”, “ana” et “ala”.</em></span><a class="headerlink" href="#consonnes-bmp" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
-<p>On remarque que les consonnes présentent des caractéristiques acoustiques plus diversifiées que la simple répartition en fréquence des formants que nous avons détaillé dans le cas des voyelles. Dans chaque spectrogramme, les deux “a” sont clairement reconnaissables. L’intervalle entre les deux, correspondant a priori à la consonne, révèle des motifs très différents d’un son à l’autre. Ces dissimilarités tiennent en réalité aux différents mouvements articulatoires nécessaires pour les prononcer :</p>
+<p>On remarque que les consonnes présentent des caractéristiques acoustiques plus diversifiées que la simple répartition en fréquence des formants que nous avons détaillé dans le cas des voyelles. Dans chaque spectrogramme, les deux “a” sont clairement reconnaissables par la présence de formants horizontaux. L’intervalle entre les deux, correspondant a priori à la consonne, révèle des motifs très différents d’un son à l’autre. Ces dissimilarités acoustiques entre les consonnes tiennent en réalité à la diversité des mouvements articulatoires nécessaires pour les prononcer :</p>
 <ul class="simple">
-<li><p>les <strong>consonnes plosives</strong>, que nous explorerons plus en détail dans la suite de ce chapitre, sont produites en interrompant momentanément le flux d’air avec les lèvres (/p/, /b/) ou la langue (/t/, /d/, /k/, /g/), engendrant ainsi un bref silence dans le son de parole. C’est la raison pour laquelle l’espace entre les deux “a” semble vide sur les spectrogrammed de /aba/, /ada/, /aga/, /apa/, /ata/ et /aka/.</p></li>
-<li><p>les consonnes fricatives nécessitent de laisser passer seulement un filet d’air, là encore au moyen des lèvres (/f/, /v/, /ʃ/, /j/) ou de la langue (/s/, /z/), ce qui résulte en un bruit de chuintement. Ce bruit apparaît comme une plage d’énergie dans une certaine gamme de fréquences sur les spectrogrammes de /afa/, /asa/, et /aʃa/.</p></li>
+<li><p>les <strong>consonnes plosives</strong>, que nous explorerons plus en détail dans la suite de ce chapitre, sont produites en interrompant momentanément le flux d’air (par exemple en joignant les lèvres pour /p/ ou /b/), engendrant ainsi un bref silence dans le son de parole. C’est la raison pour laquelle l’espace entre les deux “a” semble vide sur les spectrogrammed de /aba/, /ada/, /aga/, /apa/, /ata/ et /aka/.</p></li>
+<li><p>les consonnes fricatives nécessitent de laisser passer seulement un filet d’air chaotique (par exemple en amenant la langue près du palais pour /s/ et /z/). Ceci résulte en un chuintement qui apparaît comme un bruit couvrant une certaine gamme de fréquences sur les spectrogrammes de /afa/, /asa/, et /aʃa/.</p></li>
 <li><p>enfin, les autres consonnes, liquides ou nasales, fonctionnent essentiellement sur le même principe de résonances dans la cavité buccale (et nasale) que les voyelles. C’est pourquoi leur spectrogramme présente également des formants à des fréquences précises, mais évoluant dans le temps, pour /ama/, /ana, et /ala/.</p></li>
 </ul>
 <p>On retrouve pour les consonnes le même problème du manque d’invariance que pour les voyelles. Ainsi, il semble difficile d’associer un son à une consonne plosive de façon univoque. Considérons de plus près les spectrogrammes des deux consonnes plosives /d/ et /t/, précédées et suivies soit de “i”, de “a”, ou de “ou”. On s’aperçoit rapidement que la forme acoustique des consonnes dépend considérablement du contexte, à tel point que le xxx prononcé en contexte xxx ressemble plus à un xxx en contexte xxx qu’à un autre xxx en contexte xxx.</p>

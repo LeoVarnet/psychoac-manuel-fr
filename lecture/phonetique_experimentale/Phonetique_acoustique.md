@@ -144,9 +144,7 @@ On remarque que les consonnes présentent des caractéristiques acoustiques pl
 - les consonnes fricatives nécessitent de laisser passer seulement un filet d'air chaotique (par exemple en amenant la langue près du palais pour /s/ et /z/). Ceci résulte en un chuintement qui apparaît comme un bruit couvrant une certaine gamme de fréquences sur les spectrogrammes de /afa/, /asa/, et /aʃa/.
 - enfin, les autres consonnes, liquides ou nasales, fonctionnent essentiellement sur le même principe de résonances dans la cavité buccale (et nasale) que les voyelles. C'est pourquoi leur spectrogramme présente également des formants à des fréquences précises, mais évoluant dans le temps, pour /ama/, /ana, et /ala/.
 
-On retrouve pour les consonnes le même problème du manque d'invariance que pour les voyelles. Ainsi, il semble difficile d'associer un son à une consonne plosive de façon univoque. Considérons de plus près les spectrogrammes des deux consonnes plosives /d/ et /t/, précédées et suivies soit de "i", de "a", ou de "ou". On s'aperçoit rapidement que la forme acoustique des consonnes dépend considérablement du contexte, à tel point que le xxx prononcé en contexte xxx ressemble plus à un xxx en contexte xxx qu'à un autre xxx en contexte xxx.
-
-
+On retrouve pour les consonnes les mêmes problèmes de la catégorisation et du manque d'invariance soulevés précédemment pour les voyelles. Ainsi, il semble difficile d'associer un son à une consonne plosive de façon univoque. Considérons de plus près les spectrogrammes des deux consonnes plosives /d/ et /t/, précédées et suivies soit de "i", de "a", ou de "ou". On s'aperçoit rapidement que la forme acoustique des consonnes dépend considérablement du contexte, à tel point que le xxx prononcé en contexte xxx ressemble plus à un xxx en contexte xxx qu'à un autre xxx en contexte xxx. Autrement dit, deux sons similaires en apparence peuvent être perçus comme des phonèmes différents -- un exemple frappant du manque d'invariance.
 
 ```{figure} VdV2.png
 ---
@@ -158,6 +156,9 @@ align: center
 *XXX.*
 ```
 
+L'inverse est également vraie : deux sons très différents peuvent être perçus comme un seul et même phonème. La figure suivante XxXxxxx
+On retrouve ici le premier problème de la catégorisation de sons distincts sous une même étiquette, sous une forme particulièrement saisissante puisque les deux sons n'ont pas grand chose en commun acoustiquement mais se traduisent néanmoins par une perception identique.
+
 ```{figure} VdV.png
 ---
 name: VdV.png
@@ -167,6 +168,9 @@ align: center
 ---
 *XXX.*
 ```
+
+Les deux problèmes relevés dans ce chapitre nous amènent à une conclusion inattendue : la phonétique est une illusion perceptuelle. Des sons très différents sont perçus de la même manière, tandis que d'autres, identiques, sont compris différemment. Le fait qu'il s'agisse d'une illusion, c'est à dire d'un phénomène dans l'esprit de l'auditeur ou l'auditrice plutôt que dans le son lui même, devient relativement évident lorsqu l'on considère notre capacité à identifier et différencier les phonèmes dans un langage que nous ne connaissons pas.
+
 
 Pas d'alphabet. Pas conséquent, impossible de synthétiser de la parole en collant des phonèmes les uns avec les autres. (Simone Signoret)
 
@@ -191,10 +195,6 @@ Les formants et transitions de formants sont un élément important du son de pa
 Mais impossible de tracer une correspondance bijective entre phonèmes et formants.
  Seule l’expérimentation psychoacoustique peut permettre de résoudre ce problème (i.e. la phonétique expérimentale)
 
-la phonétique est une illusion 
-
-> to normal speakers, utterances appear as sequences of words that in turn are sequences of sounds. A basic task of phonology is to provide a proper account for this perceptual “illusion.” That it is appropriate to regard it as an illusion, i.e., as something in the speaker’s and hearer’s mind rather than as something directly present in the signal, becomes clearer when one considers the fact that our ability to recognize words and sounds in utterances is drastically impaired when instead of utterances in a language we know, we are presented with utterances in languages we do not know.  
-(Chomsky, mental representations)
 
 
 

@@ -167,7 +167,11 @@ align: center
 *XXX.*
 ```
 
-Les deux problèmes soulevés dans ce chapitre nous conduisent donc à une conclusion inattendue : il semble difficile a priori d'établir une table de conversion acoustico-phonétique.
+## Conclusions temporaires
+
+Nous avons entamé cette section avec pour objectif d'explorer les spectrogrammes de différents phonèmes afin de dévoiler la table de conversion acoustico-phonetique qui permettrait de décoder un son en phonème. En effet, si les phonèmes avaient des formes acoustiques relativement stables, reproduites par les locutrices et locuteurs d'une production à l'autre, il serait alors relativement aisé d'expliquer la capacité de notre cerveau à identifier ces sons. 
+
+Malheureusement notre exploration des voyelles et des consonnes a soulevé deux problèmes théoriques majeurs. D'une part des sons parfois très différents sont perçus comme le même phonème (problème de la discrétisation). D'autre part, deux sons présentant des caractéristiques similaires peuvent être perçus comme un phonème ou un autre, notamment en fonction du contexte (problème du manque d'invariance). Ces deux problèmes remettent sérieusement en question le projet initial d'établir une table de conversion acoustico-phonétique.
 
 : la phonétique est une illusion perceptuelle. Des sons très différents sont perçus de la même manière, tandis que d'autres, identiques, sont compris différemment. Le fait qu'il s'agisse d'une illusion, c'est à dire d'un phénomène dans l'esprit de l'auditeur ou l'auditrice plutôt que dans le son lui même, devient relativement évident lorsqu l'on considère notre capacité à identifier et différencier les phonèmes dans un langage que nous ne connaissons pas.
 
@@ -187,8 +191,6 @@ align: center
 <video controls>
   <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/phonetique_experimentale/SimoneSignoret.wav" type="video/wav">
 </video>
-
-## Conclusions temporaires
 
 La phonétique acoustique cherche à identifier des similarités entre différentes productions 
 d’un même phonème. 

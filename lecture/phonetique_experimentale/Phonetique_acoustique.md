@@ -21,10 +21,10 @@ En appliquant cette approche de façon systématique, il devient possible de dre
 ---
 name: IPA.png
 alt: XXXXX
-width: 70%
+width: 100%
 align: center
 ---
-*XXX.*
+*Le tableau de l'Alphabet Phonétique International, présentant les principales consonnes et voyelles des différentes langues du mondes. (source: [www.internationalphoneticassociation.org]([https://duckduckgo.com](https://www.internationalphoneticassociation.org/IPAcharts/IPA_charts_E/IPA_charts_E.html)))*
 ```
 
 Cette définition phonologique, bien qu’indispensable, reste abstraite. Comme le souligne Ferdinand de Saussure, la phonologie considère le phonème comme une unité abstraite, dont l'association avec un son concret particulier est purement contingente et arbitraire. Autrement dit, les phonèmes sont définis ici avant tout par leur fonction (celle de structurer les mots) plutôt que par leurs caractéristiques acoustiques. On pourrait les comparer aux pièces d’un jeu d’échecs, qu'il est possible de remplacer par n'importe quels autres petits objets pourvu que les joueur·euses se mettent d'accord sur leur rôle dans le jeu. 
@@ -167,37 +167,15 @@ align: center
 *XXX.*
 ```
 
+Il apparaît ainsi que la compréhension des phonèmes repose sur une illusion perceptuelle : notre perception des sons ne reflète pas leur réalité acoustique. Des sons acoustiquement très différents sont perçus de manière identique, tandis que des sons similaires peuvent être interprétés différemment. Ce caractère illusoire est d’autant plus évident lorsque l’on considère notre capacité à identifier des phonèmes dans une langue étrangère. En l’absence de familiarité avec les règles phonétiques de cette langue, notre système perceptif peine à catégoriser correctement les sons, confirmant que la perception est ancrée dans le traitement cognitif de l’auditeur·rice, et non seulement dans les propriétés acoustiques intrinsèques des sons.
+
 ## Conclusions temporaires
 
-Nous avons entamé cette section avec pour objectif d'explorer les spectrogrammes de différents phonèmes afin de dévoiler la table de conversion acoustico-phonetique qui permettrait de décoder un son en phonème. En effet, si les phonèmes avaient des formes acoustiques relativement stables, reproduites par les locutrices et locuteurs d'une production à l'autre, il serait alors relativement aisé d'expliquer la capacité de notre cerveau à identifier ces sons. 
+Nous avons entamé cette section avec pour objectif d'explorer les spectrogrammes de divers phonèmes afin d'élaborer une table de conversion acoustico-phonetique qui permettrait, en théorie, de décoder n'importe quel signal en les phonèmes qui le compose. En effet, les phonèmes présentaient des signatures acoustiques invariables, reproduites de manière systématique par les locuteurs et locutrices lorsqu'ils et elles prononcent ces phonèmes, il serait alors relativement aisé d'expliquer la capacité du cerveau humain à identifier et catégoriser ces sons de façon robuste.
 
-Malheureusement notre exploration des voyelles et des consonnes a soulevé deux problèmes théoriques majeurs. D'une part des sons parfois très différents sont perçus comme le même phonème (problème de la discrétisation). D'autre part, deux sons présentant des caractéristiques similaires peuvent être perçus comme un phonème ou un autre, notamment en fonction du contexte (problème du manque d'invariance). Ces deux problèmes remettent sérieusement en question le projet initial d'établir une table de conversion acoustico-phonétique.
+Grâce à cette exploration, nous avons effectivement identifié que les formants constituent un élément très important pour l'identité des voyelles et, dans une certaine mesure, des consonnes. Cependant, notre analyse a également révélé deux problèmes théoriques majeurs, remettant en cause la faisabilité de notre projet initial. Premièrement, des réalisations acoustiques parfois très distinctes peuvent être perçues comme un seul et même phonème (problème de discrétisation). Deuxièmement, des sons partageant des caractéristiques acoustiques similaires peuvent être interprétés comme des phonèmes différents, notamment en fonction du contexte (problème du manque d'invariance). Ces observations soulèvent des questions fondamentales sur la possibilité d'établir une correspondance univoque entre les sons de parole et les unités phonémiques. Elles invitent donc à repenser notre modèle simpliste de la perception de la parole : il semble impossible que le cerveau stocke simplement en mémoire des "prototypes" des différents phonèmes et s'en serve pour identifier les sons qui lui parviennent.
 
-: la phonétique est une illusion perceptuelle. Des sons très différents sont perçus de la même manière, tandis que d'autres, identiques, sont compris différemment. Le fait qu'il s'agisse d'une illusion, c'est à dire d'un phénomène dans l'esprit de l'auditeur ou l'auditrice plutôt que dans le son lui même, devient relativement évident lorsqu l'on considère notre capacité à identifier et différencier les phonèmes dans un langage que nous ne connaissons pas.
-
-
-Pas d'alphabet. Pas conséquent, impossible de synthétiser de la parole en collant des phonèmes les uns avec les autres. (Simone Signoret)
-
-```{figure} SimoneSignoret.png
----
-name: SimoneSignoret.png
-alt: XXXXX
-width: 70%
-align: center
----
-*XXX.*
-```
-
-<video controls>
-  <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/phonetique_experimentale/SimoneSignoret.wav" type="video/wav">
-</video>
-
-La phonétique acoustique cherche à identifier des similarités entre différentes productions 
-d’un même phonème. 
-Les formants et transitions de formants sont un élément important du son de parole.
-Mais impossible de tracer une correspondance bijective entre phonèmes et formants.
- Seule l’expérimentation psychoacoustique peut permettre de résoudre ce problème 
-(i.e. la phonétique expérimentale)
+A ce stade, l'approche consistant à observer des spectrogrammes de sons de parole (la phonétique acoustique) se trouve dans une impasse. Seule l’expérimentation psychoacoustique (la phonétique expérimentale) peut nous permettre d'explorer plus avant les mécanismes de la compréhension de la parole par le cerveau.
 
 
 

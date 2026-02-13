@@ -27,7 +27,7 @@ align: center
 *Le tableau de l'Alphabet Phonétique International, présentant les principales consonnes et voyelles des différentes langues du mondes. (source: [www.internationalphoneticassociation.org]([https://duckduckgo.com](https://www.internationalphoneticassociation.org/IPAcharts/IPA_charts_E/IPA_charts_E.html)))*
 ```
 
-Cette définition phonologique, bien qu’indispensable, demeure néanmoins relativement assez éloignée du niveau acoustique des sons de parole. Comme le souligne Ferdinand de Saussure, la phonologie considère le phonème comme une unité abstraite, dont l'association avec un son concret particulier est purement contingente et arbitraire. Autrement dit, les phonèmes sont définis ici avant tout par leur fonction (celle de structurer les mots) plutôt que par leurs caractéristiques acoustiques. On pourrait les comparer aux pièces d’un jeu d’échecs, qu'il est possible de remplacer par n'importe quels autres objets pourvu que les joueur·euses se mettent d'accord sur leur rôle dans le jeu. 
+Cette définition phonologique, bien qu’indispensable, demeure néanmoins relativement éloignée du niveau acoustique des sons de parole. Comme le souligne Ferdinand de Saussure, la phonologie considère le phonème comme une unité abstraite, dont l'association avec un son concret particulier est purement contingente et arbitraire. Autrement dit, les phonèmes sont définis ici avant tout par leur fonction (celle de structurer les mots) plutôt que par leurs caractéristiques acoustiques. On pourrait les comparer aux pièces d’un jeu d’échecs, qu'il est possible de remplacer par n'importe quels autres objets pourvu que les joueur·euses se mettent d'accord sur leur rôle dans le jeu. 
 
 Cette approche laisse donc en suspens les questions qui nous préoccupent dans ce chapitre : quelles sont les caractéristiques acoustiques qui permettent de distinguer un phonème d’un autre ? Comment le cerveau interprète-t-il ces signaux pour en extraire du sens ? Pour y répondre, il est nécessaire d’examiner de plus près la forme acoustique des phonèmes, en commençant par les voyelles.
 
@@ -96,9 +96,9 @@ align: center
 
 On constate que les voyelles se répartissent dans l’espace vocalique -- ce qui est, là encore, cohérent avec l'idée que chaque voyelle est définie par ses valeurs de F1 et F2. 
 
-Cette représentation met en évidence un **premier problème théorique** (le **problème de la discrétisation**) posé par la compréhension des phonèmes : le cerveau doit subdiviser un espace acoustique continu, où une infinité de sons est possible, en un nombre fini de catégories distinctes, chacune associée à un phonème. Autrement dit, une information acoustique initialement très détaillée (comme les valeurs exactes de F1 et F2) est réduite à une représentation discrète et opérationnelle (le phonème correspondant). Comme nous le verrons plus loin, ce processus de discrétisation évacue une information non pertinente pour la compréhension (le détail des valeurs des formants) pour ne garder que l'information cruciale, l'identité du phonème entendu.
+Cette représentation met en évidence un **premier problème théorique** posé par la compréhension des phonèmes : le **problème de la discrétisation**. Le cerveau doit subdiviser un espace acoustique continu, où une infinité de sons est possible, en un nombre fini de catégories distinctes, chacune associée à un phonème. Autrement dit, une information acoustique initialement très détaillée (comme les valeurs exactes de F1 et F2) est réduite à une représentation discrète et opérationnelle (le phonème correspondant). Comme nous le verrons plus loin, ce processus de discrétisation évacue une information non pertinente pour la compréhension (le détail des valeurs des formants) pour ne garder que l'information cruciale, l'identité du phonème entendu.
 
-Schématiquement, résoudre ce problème revient à placer des frontières (les **frontières phonémiques**) dans l'espace acoustique pour délimiter les régions correspondant à chaque voyelle, comme illustré sur la figure suivante. Lorsque nous percevons un son de voyelle, il suffirait alors à notre cerveau de mesurer les valeurs de F1 et F2 et de déterminer dans quelle région de l'espace vocalique se situe ce son [Notez cependant que d'autres mécanismes de catégorisation sont envisageables, par exemple en calculant la distance du son perçu au centre de chaque catégorie].
+Schématiquement, résoudre ce problème revient à placer des frontières (les **frontières phonémiques**) dans l'espace acoustique pour délimiter les régions correspondant à chaque voyelle, comme illustré sur la figure suivante. Lorsque nous percevons un son de voyelle, il suffirait alors à notre cerveau de mesurer les valeurs de F1 et F2 et de déterminer dans quelle région de l'espace vocalique se situe ce son [[2](note2phonac)].
 
 ```{figure} Hillen3.png
 ---
@@ -110,7 +110,7 @@ align: center
 *Exemple de frontières phonémiques hypothétiques dans l'espace F1-F2, délimitant les régions associées à chaque voyelle.*
 ```
 
-Malheureusement, cette solution se heurte à un second problème. En continuant à remplir l'espace vocalique avec l'ensemble des voyelles de l'anglais, nous constatons rapidement que celles-ci se recouvrent dans une large mesure. Ainsi, par exemple, la région de l'espace F1-F2 correspondant à la voyelle /ɪ/ (comme dans "kit") est entièrement superposée à celles des voyelles /i/ (comme dans "happy") et "e" (comme dans "dress"). Autrement dit, pour un grand nombre de sons (c'est-à-dire de points sur la figure), il est impossible d'identifier la voyelle de façon univoque, c'est à dire de déterminer avec certitude, sur la base de F1 et F2, s’il s’agit d’une voyelle plutôt que d’une autre.
+Malheureusement, cette solution se heurte à un second problème. En continuant à remplir l'espace vocalique avec l'ensemble des voyelles de l'anglais, nous constatons rapidement que celles-ci se recouvrent dans une large mesure. Ainsi, par exemple, la région de l'espace F1-F2 correspondant à la voyelle "ɪ" (comme dans "kit") est entièrement superposée à celles des voyelles "i" (comme dans "happy") et "e" (comme dans "dress"). Autrement dit, pour un grand nombre de sons (c'est-à-dire de points sur la figure), il est impossible d'identifier la voyelle de façon univoque, c'est-à-dire de déterminer avec certitude, sur la base de F1 et F2, s’il s’agit d’une voyelle plutôt que d’une autre.
 
 ```{figure} Hillen4.png
 ---
@@ -122,7 +122,7 @@ align: center
 *Répartition de toutes les voyelles de l'anglais dans l'espace vocalique défini par F1 et F2. Chaque couleur correspond à une voyelle distincte.*
 ```
 
-Ce **second problème** est appelé **problème du manque d’invariance** (*lack of invariance problem*) : la variabilité dans le signal de parole semble à première vue trop grande pour permettre au cerveau de décoder les phonèmes de manière robuste. Le très large recouvrement entre les régions correspondant aux différentes voyelles semble en contradiction avec notre grande facilité à différencier une voyelle d'une autre.
+Ce **second problème** est appelé **problème du manque d’invariance** (*lack-of-invariance problem*) : la variabilité dans le signal de parole semble à première vue trop grande pour permettre au cerveau de décoder les phonèmes de manière robuste. Le très large recouvrement entre les régions correspondant aux différentes voyelles semble en contradiction avec notre grande facilité à différencier une voyelle d'une autre.
 
 ## Les consonnes
 
@@ -138,10 +138,10 @@ align: center
 *Spectrogrammes de 12 consonnes du français, précédées et suivies d'un "a" : "aba", "ada", "aga", "apa", "ata", "aka", "afa", "asa", "acha", "ama", "ana" et "ala".*
 ```
 
-Contrairement aux voyelles, dont les caractéristiques acoustiques sont principalement déterminées par les formants, les consonnes présentent une diversité de motifs sonores bien plus complexes. Dans chaque spectrogramme, les deux "a" sont clairement reconnaissables par la présence de formants horizontaux à des valeurs relativement stables. L'intervalle entre les deux, correspondant *a priori* à la consonne, révèle des motifs très différents d'un son à l'autre. Ces dissimilarités acoustiques entre les consonnes tiennent en réalité à la diversité des mouvements articulatoires nécessaires pour les prononcer :
+Contrairement aux voyelles, principalement caractérisées par les positions de leurs formants, les consonnes présentent une diversité de motifs sonores bien plus complexes. Dans chaque spectrogramme, les deux "a" sont clairement reconnaissables par la présence de formants horizontaux à des valeurs relativement stables. L'intervalle entre les deux, correspondant à la consonne, révèle des motifs très différents d'un son à l'autre. Ces disparités acoustiques entre les consonnes reflètent directement la diversité des gestes articulatoires mis en œuvre pour les produire :
 - les **consonnes plosives**, que nous explorerons plus en détail dans la suite de ce chapitre, sont produites en interrompant momentanément le flux d'air, par exemple en joignant les lèvres pour "p" ou "b". Cette occlusion engendre un bref silence dans le son de parole, visible sous la forme d’un intervalle vide entre les deux voyelles "a" sur les spectrogrammes de "aba", "ada", "aga", "apa", "ata" et "aka".
 - les **consonnes fricatives** nécessitent de laisser passer seulement un filet d'air turbulent, par exemple en rapprochant la langue du palais pour "s" ou "ch". Ce phénomène produit un bruit de friction, visible comme une zone d’énergie couvrant une large bande de fréquences sur les spectrogrammes de "afa", "asa", et "acha".
-- enfin, les autres consonnes, **liquides** (comme "l") ou **nasales** (comme "m", "n"), fonctionnent essentiellement sur le même principe de résonances dans la cavité buccale (et nasale) que les voyelles. C'est pourquoi leur spectrogramme présente également des formants à des fréquences précises, mais d'intensité plus faible.
+- enfin, les **consonnes liquides** (comme "l") ou **nasales** (comme "m", "n"), fonctionnent essentiellement sur le même principe de résonances dans la cavité buccale (et nasale) que les voyelles. C'est pourquoi leur spectrogramme présente également des formants à des fréquences précises, mais d'intensité plus faible.
 
 On retrouve pour les consonnes les mêmes problèmes de la discrétisation et du manque d'invariance rencontrés précédemment avec les voyelles. Ainsi, il semble difficile d'associer un son à une consonne plosive de façon univoque. Considérons de plus près les spectrogrammes des deux consonnes plosives "d" et "t", précédées et suivies soit de "i", de "a", ou de "ou". On s'aperçoit rapidement que la forme acoustique des consonnes dépend considérablement du contexte, à tel point que le "d" prononcé en contexte "idi" ressemble plus à un "t" en contexte "iti" qu'à un autre "d" en contexte "ada" ou "oudou". Autrement dit, de façon contre-intuitive, des sons extrêmement proches peuvent être perçus comme des phonèmes distincts, une démonstration frappante du problème du manque d’invariance.
 
@@ -182,6 +182,10 @@ A ce stade, l'approche consistant à observer des spectrogrammes de sons de paro
 (note1phonac)=
 
 [1] Notez que cette présentation sous forme de table plutôt que de simple liste suggère une organisation particulière des phonèmes entre eux. Bien que cette perspective dite "structuraliste" -- car elle met en lumière la structure des relations entre les phonèmes -- soit fondamentale en phonologie, nous ne la détaillerons pas dans ce chapitre par souci de concision.
+
+(note2phonac)=
+
+[2] D'autres mécanismes de catégorisation sont néanmoins envisageables, par exemple en calculant la distance du son perçu au centre de chaque catégorie.
 
 ## Références
 

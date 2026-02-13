@@ -11,11 +11,11 @@ Nous sommes constamment exposé·es à des sons de parole, que notre cerveau com
 
 Avant d’étudier les caractéristiques acoustiques des phonèmes, il est essentiel de clarifier ce que l’on entend par ce terme. À la suite des travaux fondateurs du Cercle de Prague au début du XXe siècle, les linguistes définissent le **phonème** comme le **plus petit élément porteur de sens dans le son de parole**, c'est-à-dire en quelque sorte comme l' "atome", ou la "brique de base", du langage parlé.
 
-> Quels sont exactement les rapports entre les sons et le sens à l’intérieur du mot et de la langue en général ? Finalement, il s'agit de dégager le plus petit élément phonique chargé d'une valeur significative, ou -- en termes métaphoriques -- il s'agit de trouver les quanta de la langue. *(Jakobson, Six leçons sur le son et le sens, 1942)*
+> Quels sont exactement les rapports entre les sons et le sens à l’intérieur du mot et de la langue en général ? Finalement, il s'agit de dégager le plus petit élément phonique chargé d'une valeur significative, ou -- en termes métaphoriques -- il s'agit de trouver les quanta de la langue. *(Jakobson, Six leçons sur le son et le sens, 1973)*
 
 Jakobson et les autres linguistes du Cercle de Prague ne proposent pas seulement une définition théorique, mais également une méthode pratique pour recenser l'ensemble des phonèmes d’une langue donnée. Elle consiste à identifier des **paires minimales** : des couples de mots ne différant que par un son unique. Ainsi, en français, les mots "bagage" et "bagarre" ont des sens radicalement distincts, pourtant seul leur tout dernier son, /j/ ou /r/, est différent. Cette paire suffit à prouver que, dans notre langue, l’opposition /j/-/r/ est porteuse de sens, et donc que [j] et [r] constituent deux phonèmes distincts. De la même façon, "malle" et "mille" forment une paire minimale en français, séparée uniquement par les phonèmes [a] et [i].
 
-En appliquant cette approche de façon systématique, il devient possible de dresser l'inventaire des phonèmes d'une langue donnée, et par extension d'établir une typologie des systèmes phonologiques du monde entier. Ce travail méticuleux est compilé dans les tables de l'alphabet phonétique international (*International Phonetic Alphabet*, IPA). [Notez que cette présentation sous forme de table plutôt que de simple liste suggère une organisation particulière des phonèmes entre eux. Bien que cette perspective dite "structuraliste" -- car elle met en lumière la structure des relations entre les phonèmes -- soit fondamentale en phonologie, nous ne la détaillerons pas dans ce chapitre par souci de concision.]. On pourrait faire analogie entre ces tableaux, énumérant les phonèmes dont sont composés tous les sons parlés, et le célèbre système des éléments chimiques établi par Mendeleev.
+En appliquant cette approche de façon systématique, il devient possible de dresser l'inventaire des phonèmes d'une langue donnée, et par extension d'établir une typologie des systèmes phonologiques du monde entier. Ce travail méticuleux est compilé dans les tables de l'alphabet phonétique international (*International Phonetic Alphabet*, IPA) [[1](note1phonac)]. On pourrait faire analogie entre ces tableaux, énumérant les phonèmes dont sont composés tous les sons parlés, et le célèbre système des éléments chimiques établi par Mendeleev.
 
 ```{figure} IPA.png
 ---
@@ -177,6 +177,15 @@ Grâce à cette exploration, nous avons effectivement identifié que les formant
 
 A ce stade, l'approche consistant à observer des spectrogrammes de sons de parole (la phonétique acoustique) se trouve dans une impasse. Seule l’expérimentation psychoacoustique (la phonétique expérimentale) peut nous permettre d'explorer plus avant les mécanismes de la compréhension de la parole par le cerveau.
 
+## Notes
 
+(note1phonac)=
 
+[1] Notez que cette présentation sous forme de table plutôt que de simple liste suggère une organisation particulière des phonèmes entre eux. Bien que cette perspective dite "structuraliste" -- car elle met en lumière la structure des relations entre les phonèmes -- soit fondamentale en phonologie, nous ne la détaillerons pas dans ce chapitre par souci de concision.
+
+## Références
+
+- Boë, L.-J., Sawallis, T. R., Fagot, J., Badin, P., Barbier, G., Captier, G., Ménard, L., Heim, J.-L., & Schwartz, J.-L. (2019). Which way to the dawn of speech? : Reanalyzing half a century of debates and data in light of speech science. Science Advances, 5(12), eaaw3916. https://doi.org/10.1126/sciadv.aaw3916
+- Hillenbrand, J., Getty, L. A., Clark, M. J., & Wheeler, K. (1995). Acoustic characteristics of American English vowels. The Journal of the Acoustical Society of America, 97(5 Pt 1), 3099‑3111.
+- Jakobson, R. (1973). Six leçons sur le son et le sens. Éditions de Minuit.
 

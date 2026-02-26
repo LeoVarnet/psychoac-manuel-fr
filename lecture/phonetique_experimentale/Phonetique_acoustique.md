@@ -1,8 +1,4 @@
 
-```{warning}
-Page en cours de construction
-```
-
 # Caractérisation acoustique des phonèmes 
 
 Nous sommes constamment exposé·es à des sons de parole, que notre cerveau comprend quasi-instantanément et sans effort apparent. Le processus semble aller de soi, à tel point qu'il est difficile a priori d'imaginer que ce mécanisme de décodage puisse faire l'objet de recherches approfondies depuis maintenant plus d'un siècle. Ne suffit-il pas au cerveau de mémoriser l'association entre chaque phonème et le son qui lui correspond, comme on déchiffre un message en Morse en consultant le tableau de correspondance (l'alphabet Morse) ? Pour le dire crûment : si nous entendons le son "b" nous en déduisons qu'il s'agit de la consonne [b], si nous entendons le son "a" nous en déduisons qu'il s'agit de la voyelle [a], qu'y a-t-il de sorcier là-dedans ? Bref, si chaque consonne et chaque voyelle est associée à un son particulier et spécifique, imaginer un mécanisme de décodage est assez aisé. Dans cette section, nous examinerons en détail les propriétés acoustiques des sons de parole pour tenter d'établir les grandes lignes de cet "alphabet acoustico-phonétique". Cette exploration nous amènera à identifier les écueils auxquels se trouve confrontée cette explication intuitive.

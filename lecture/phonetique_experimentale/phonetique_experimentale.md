@@ -13,7 +13,7 @@ Comme nous l'avons vu au chapitre 1, les principales approches psychophysiques n
 
 ## Approche par filtrage
 
-L'une des toutes premières expériences visant à étudier la perception des phonèmes date des années 1920.
+La toute première expérience de psychoacoustique visant à étudier la perception des phonèmes date des années 1920. Elle fut mise au point par Harvey Fletcher, au sein des Bell labs. Ce centre de recherche et développement spécialisé dans les télécommunications dispose alors de systèmes électroniques permettant de filtrer les sons selon des paramètres variables -- une nouveauté pour l'époque. Harvey Fletcher réalise qu'il peut se servir de cet équipement pour étudier la façon dont les humains perçoivent les sons de parole. Son approche est la suivante : il rassemble un grand nombre d'enregistrements de syllabes différant par la consonne initiale (/ba/, /da/, /ga/, /pa/, /ta/, /ka/, /fa/, /sa/, etc.), et filtre chacun de ces sons passe-haut ou passe-bas avec diverses fréquences de coupure, c'est à dire en ne conservant que les informations au-dessus ou en-dessous d'une certaine fréquence.
 
 [Fletcher, 1922; Li, Menon & Allen, 2010]
 

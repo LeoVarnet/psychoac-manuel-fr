@@ -5,20 +5,11 @@ Page en cours de construction
 
 # Phonétique expérimentale
 
-Reconnaître les phonèmes
-Quelles caractéristiques acoustiques permettent à notre système auditif de distinguer une syllabe d’une autre ?
-→ Mesurer la contribution des différentes fréquences (et donc des différents formants) dans l’identification du phonème /b/
+Le chapitre précédent nous a conduit à la conclusion que l'observation approfondie d'enregistrements de sons de parole n'était pas suffisante pour déterminer les mécanismes perceptifs impliqués dans la compréhension des phonèmes. Il est donc nécessaire de mettre en œuvre des expériences psychoacoustiques afin de tester directement la perception humaine. 
 
-```{figure} bada.png
----
-name: bada.png
-alt: XXXXX
-width: 70%
-align: center
----
-*XXX.*
-```
+Dans ce qui suit, nous allons mettre au point diverses variantes de la méthode des stimuli constants pour identifier les caractéristiques acoustiques (ou indices acoustiques) qui permettent au système auditif de distinguer les consonnes /b/ et /d/. Bien entendu, ce choix particulier est à titre d'illustration, ces approches pouvant également être déployées pour explorer la perception de n'importe quel phonème. 
 
+Comme nous l'avons vu au chapitre 1, les principales approches psychophysiques nécessitent au préalable de choisir une "dimension d'intérêt", c'est à dire un paramètre physique dont nous souhaitons connaître l'influence sur la perception. Dans un premier temps, commençons par nous interroger sur la contribution des différentes fréquences dans l'intelligibilité des sons de parole.
 
 ## Approche par filtrage
 

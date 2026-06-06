@@ -9,9 +9,11 @@ Le chapitre précédent nous a conduit à la conclusion que l'observation approf
 
 Dans ce qui suit, nous allons mettre au point diverses variantes de la méthode des stimuli constants pour identifier les caractéristiques acoustiques (ou indices acoustiques) qui permettent au système auditif de distinguer les consonnes /b/ et /d/. Bien entendu, ce choix particulier est à titre d'illustration, ces approches pouvant également être déployées pour explorer la perception de n'importe quel phonème. 
 
-Comme nous l'avons vu au chapitre 1, les principales approches psychophysiques nécessitent au préalable de choisir une "dimension d'intérêt", c'est à dire un paramètre physique dont nous souhaitons connaître l'influence sur la perception. Dans un premier temps, commençons par nous interroger sur la contribution des différentes fréquences dans l'intelligibilité des sons de parole.
+Comme nous l'avons vu au chapitre 1, les principales approches psychophysiques nécessitent au préalable de choisir une "dimension d'intérêt", c'est à dire un paramètre physique dont nous souhaitons connaître l'influence sur la perception. Dans un premier temps, nous commençons par nous interroger sur la contribution des différentes fréquences dans l'intelligibilité des sons de parole avant d'investiguer des détails acoustiques plus fins.
 
 ## Approche par filtrage
+
+L'une des toutes premières expériences visant à étudier la perception des phonèmes date des années 1920.
 
 [Fletcher, 1922; Li, Menon & Allen, 2010]
 

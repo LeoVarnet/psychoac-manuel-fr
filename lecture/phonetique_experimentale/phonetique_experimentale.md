@@ -17,7 +17,54 @@ La toute première expérience de psychoacoustique visant à étudier la percept
 
 [Fletcher, 1922; Li, Menon & Allen, 2010]
 
-XXX figure XXX
+
+
+```{figure} Continua_1.png
+---
+name: Continua_1.png
+alt: XXXXX
+width: 100%
+align: center
+---
+*XXX.*
+```
+<audio controls>
+  <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/phonetique_experimentale/ba_continuum_LP.wav" type="audio/wav">
+</audio>
+
+```{figure} Continua_2.png
+---
+name: Continua_2.png
+alt: XXXXX
+width: 100%
+align: center
+---
+*XXX.*
+```
+
+
+```{figure} Continua_3.png
+---
+name: Continua_3.png
+alt: XXXXX
+width: 100%
+align: center
+---
+*XXX.*
+```
+<audio controls>
+  <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/phonetique_experimentale/ba_continuum_HP.wav" type="audio/wav">
+</audio>
+
+```{figure} Continua_4.png
+---
+name: Continua_4.png
+alt: XXXXX
+width: 100%
+align: center
+---
+*XXX.*
+```
 
 Stimuli : syllabes consonne+/a/, filtrées passe-bas ou passe-haut. 
 Dimension : fréquence de coupure du filtrage
@@ -86,11 +133,25 @@ Méthode : méthode des stimuli constants
 Paradigme : yes/no
 
 
-```{figure} PatternPlayback.jpg
+
+```{figure} Continua_5.png
 ---
-name: PatternPlayback.jpg
+name: Continua_5.png
 alt: XXXXX
-width: 70%
+width: 100%
+align: center
+---
+*XXX.*
+```
+<audio controls>
+  <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/phonetique_experimentale/badaga_continuum.wav" type="audio/wav">
+</audio>
+
+```{figure} Continua_6.png
+---
+name: Continua_6.png
+alt: XXXXX
+width: 100%
 align: center
 ---
 *XXX.*

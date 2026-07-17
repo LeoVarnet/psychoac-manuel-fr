@@ -3,7 +3,7 @@
 Page en cours de construction
 ```
 
-# Phonétique expérimentale
+# Perception catégorielle des phonèmes
 
 Le chapitre précédent nous a conduit à la conclusion que l'observation approfondie d'enregistrements de sons de parole n'était pas suffisante pour déterminer les mécanismes perceptifs impliqués dans la compréhension des phonèmes. Il est donc nécessaire de mettre en œuvre des expériences psychoacoustiques afin de tester directement la perception humaine. 
 

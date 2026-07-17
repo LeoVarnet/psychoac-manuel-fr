@@ -165,6 +165,123 @@ Quand on modifie la transition de F2, le /b/ devient /d/ puis /g/.
 L’approche par continuum de parole synthétique a été généralisée à de nombreuses questions, avec des stimuli synthétiques de plus en plus réalistes.
 
 
+```{figure} Winn2020.png
+---
+name: Winn2020.png
+alt: XXXXX
+width: 70%
+align: center
+---
+*.*
+```
 
 
+```{figure} Delattre1968.png
+---
+name: Delattre1968.png
+alt: XXXXX
+width: 70%
+align: center
+---
+*.*
+```
 
+discrimination entre deux stimuli adjacents
+Les différences de F2 ne sont pas perçues (performance de discrimination ≈ 50%), sauf entre deux catégories.
+
+```{figure} Liberman3.png
+---
+name: Liberman3.png
+alt: XXXXX
+width: 70%
+align: center
+---
+*.*
+```
+
+Perception catégorielle : définition
+1. La fonction psychométrique de catégorisation de phonème a une très forte pente ( peu de stimuli ambigus). Le seuil à 50% s’appelle frontière phonémique. 
+2. La discrimination au niveau d’une frontière phonémique est facilitée. Au contraire, les exemplaires d’une même catégorie phonémique sont difficiles à différencier.
+
+
+```{figure} Chang2010.png
+---
+name: Chang2010.png
+alt: XXXXX
+width: 70%
+align: center
+---
+*.*
+```
+
+Perception catégorielle de la parole : 
+La perception des phonèmes (catégorisation et discrimination) présente des discontinuités marquées au niveau des frontières phonémiques.
+Permet de subdiviser l’espace acoustique ! (comme figure 91)
+
+
+Perception catégorielle : un mécanisme perceptuel très général
+
+```{figure} Todorova2020.png
+---
+name: Todorova2020.png
+alt: XXXXX
+width: 70%
+align: center
+---
+*.*
+```
+
+Certaines catégories (mais pas toutes) dépendent de la culture :
+P.ex., les différentes langues n’ont pas le même répertoire 
+de phonèmes
+debt-death-deaf (/t/-/θ/-/f/) 
+dough-thought-fought (/d/-/θ/-/f/)
+bit-beat (/ɪ/-/iː/)
+… donc pas les mêmes frontières phonémiques.
+ 
+Les frontières sont apprises au cours du développement de 
+l’enfant (dans les 6 premiers mois de la vie, capacités de 
+discrimination des phonèmes non-spécifiques à la langue). 
+
+```{figure} Miyawaki1975.png
+---
+name: Miyawaki1975.png
+alt: XXXXX
+width: 70%
+align: center
+---
+*.*
+```
+
+Les catégorisations spontanées surviennent en permanence dans notre cerveau et dépendent non seulement de notre langue, mais aussi de notre culture.
+Une catégorie réunit utilement un ensemble d’éléments. Elle rend disponibles des propriétés qui ne sont pas immédiatement perceptibles. 
+Sans perception catégorielle, pas de langage ni de pensée organisée.
+
+```{figure} 1000chairs.png
+---
+name: 1000chairs.png
+alt: XXXXX
+width: 70%
+align: center
+---
+*.*
+```
+
+
+```{figure} Hofstadter1985.png
+---
+name: Hofstadter1985.png
+alt: XXXXX
+width: 70%
+align: center
+---
+*.*
+```
+
+Conclusions: 
+La perception catégorielle distord l’espace perceptuel. 
+Elle revient à ignorer les variations non pertinentes (au sein d’une catégorie)…
+…tout en améliorant la sensibilité aux variations pertinentes (entre catégories).
+Elle réalise ainsi une forme de conversion analogique-numérique (espace physique continu → espace perceptuel discret)
+Les formants et transition des formants jouent un rôle fondamental dans la reconnaissance des phonèmes (p.ex. attaque du F2 pour /b/-/d/-/g/)
+Le problème du manque d’invariance subsiste.

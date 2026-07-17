@@ -19,6 +19,10 @@ La toute première expérience de psychoacoustique visant à étudier la percept
 
 
 
+<audio controls>
+  <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/phonetique_experimentale/ba_continuum_LP.wav" type="audio/wav">
+</audio>
+
 ```{figure} Continua_1.png
 ---
 name: Continua_1.png
@@ -26,11 +30,8 @@ alt: XXXXX
 width: 100%
 align: center
 ---
-*XXX.*
+*Continuum de parole filtrée passe-bas. Le premier spectrogramme correspond à un son "ba" clairement intelligible. Les fréquences hautes sont ensuite progressivement filtrées par pas successifs (une nouvelle bande de 450 Hz est retirée à chaque stimulus), de sorte que le dernier stimulus ne conserve que les fréquences de 0 Hz à 500 Hz.*
 ```
-<audio controls>
-  <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/phonetique_experimentale/ba_continuum_LP.wav" type="audio/wav">
-</audio>
 
 ```{figure} Continua_2.png
 ---
@@ -39,10 +40,13 @@ alt: XXXXX
 width: 100%
 align: center
 ---
-*XXX.*
+*Même continuum que {numref}`Continua_1.png`, avec les trajectoires des formants F1, F2, F3 et F4 représentés en bleu.*
 ```
 
 
+<audio controls>
+  <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/phonetique_experimentale/ba_continuum_HP.wav" type="audio/wav">
+</audio>
 ```{figure} Continua_3.png
 ---
 name: Continua_3.png
@@ -50,11 +54,8 @@ alt: XXXXX
 width: 100%
 align: center
 ---
-*XXX.*
+*Continuum de parole filtrée passe-haut. Le premier spectrogramme correspond à un son "ba" clairement intelligible. Les fréquences basses sont ensuite progressivement filtrées par pas successifs (une nouvelle bande de 450 Hz est retirée à chaque stimulus), de sorte que le dernier stimulus ne conserve que les fréquences de 4550 Hz à 5000 Hz.*
 ```
-<audio controls>
-  <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/phonetique_experimentale/ba_continuum_HP.wav" type="audio/wav">
-</audio>
 
 ```{figure} Continua_4.png
 ---
@@ -63,7 +64,7 @@ alt: XXXXX
 width: 100%
 align: center
 ---
-*XXX.*
+*Même continuum que {numref}`Continua_3.png`, avec les trajectoires des formants F1, F2, F3 et F4 représentés en bleu.*
 ```
 
 Stimuli : syllabes consonne+/a/, filtrées passe-bas ou passe-haut. 
@@ -134,6 +135,9 @@ Paradigme : yes/no
 
 
 
+<audio controls>
+  <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/phonetique_experimentale/badaga_continuum.wav" type="audio/wav">
+</audio>
 ```{figure} Continua_5.png
 ---
 name: Continua_5.png
@@ -143,9 +147,6 @@ align: center
 ---
 *XXX.*
 ```
-<audio controls>
-  <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/phonetique_experimentale/badaga_continuum.wav" type="audio/wav">
-</audio>
 
 ```{figure} Continua_6.png
 ---

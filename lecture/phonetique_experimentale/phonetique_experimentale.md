@@ -47,6 +47,7 @@ align: center
 <audio controls>
   <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/phonetique_experimentale/ba_continuum_HP.wav" type="audio/wav">
 </audio>
+
 ```{figure} Continua_3.png
 ---
 name: Continua_3.png
@@ -138,6 +139,7 @@ Paradigme : yes/no
 <audio controls>
   <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/phonetique_experimentale/badaga_continuum.wav" type="audio/wav">
 </audio>
+
 ```{figure} Continua_5.png
 ---
 name: Continua_5.png
@@ -145,7 +147,7 @@ alt: XXXXX
 width: 100%
 align: center
 ---
-*XXX.*
+*Continuum de parole synthétique. Le premier son correspond à un "ba" généré avec un algorithme de synthèse rudimentaire (synthétiseur de Klatt). Un seul des paramètres acoustiques de ce stimulus est ensuite varié : la fréquence d'attaque du F2. Celle-ci est fixée à 900 Hz dans le premier stimulus, puis évolue par pas de 150 Hz jusqu'à atteindre 2400 Hz dans le dernier stimulus. En conséquence, la pente d'attaque du F2 est montante au début du continuum, mais descendante à la fin.*
 ```
 
 ```{figure} Continua_6.png
@@ -155,7 +157,7 @@ alt: XXXXX
 width: 100%
 align: center
 ---
-*XXX.*
+*Même continuum que {numref}`Continua_5.png`, avec les trajectoires des formants F1, F2 et F3 représentés en bleu.*
 ```
 
 Quand on modifie la transition de F2, le /b/ devient /d/ puis /g/.

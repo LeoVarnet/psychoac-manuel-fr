@@ -13,9 +13,11 @@ Comme nous l'avons vu au chapitre 1, la plupart des méthodes psychophysiques n�
 
 ## Approche par filtrage
 
-La toute première expérience de psychoacoustique visant à étudier la perception des phonèmes fut mise au point par Harvey Fletcher dans les années 1920. À l'époque, celui-ci travaillait au sein des Bell labs, un centre de recherche et développement spécialisé dans les télécommunications qui dispose alors de systèmes électroniques permettant de filtrer les sons selon des paramètres variables -- une nouveauté pour l'époque. Fletcher réalisa qu'il pouvait qse servir de cet équipement pour étudier la façon dont les humains perçoivent la parole. Son approche consistait à filtrer des sons pour supprimer une gamme plus où moins large de fréquences, et ainsi déterminer les fréquences cruciales pour la bonne compréhension du message. Il rassembla pour cela un grand nombre d'enregistrements de syllabes différant par la consonne initiale (/ba/, /da/, /ga/, /pa/, /ta/, /ka/, /fa/, /sa/, etc.), et filtra chacun de ces sons passe-haut ou passe-bas, c'est à dire en ne conservant que les informations au-dessus ou en-dessous d'une certaine fréquence. Puis il demanda à des volontaires d'écouter ces sons filtrés et d'identifier les phonèmes.
+La toute première expérience de psychoacoustique visant à étudier la perception des phonèmes fut mise au point par Harvey Fletcher dans les années 1920, alors qu'il travaillait aux Bell Laboratories. Ce centre de recherche, pionnier dans le domaine des télécommunications, disposait alors de systèmes électroniques innovants pour l'époque qui permettaient de filtrer les sons selon des paramètres de fréquence ajustables. Fletcher comprit rapidement le potentiel de ces outils pour explorer la manière dont les humains perçoivent la parole, marquant ainsi le début d’une approche expérimentale rigoureuse en phonétique expérimentale. 
 
-L'exemple suivant illustre le principe de cette expérience historique. Contrairement à Fletcher, je n'ai utilisé qu'un seul enregistrement de parole : un "ba" clairement intelligible. J'ai ensuite progressivement éliminé les fréquences hautes de ce son par filtrage passe-bas. Les "ba" contenant de moins en moins d'information forment ainsi un continuum le long de notre dimension d'intérêt : la plus haute fréquence conservée dans le son ou "fréquence de coupure". Écoutez ces sons de plus en plus altérés en essayant de déterminer à quel point du continuum vous ne parvenez plus à identifier le "ba" initial.
+Son approche reposait sur une méthode de filtrage progressif : en supprimant progressivement des bandes de fréquences, il cherchait à identifier les composantes fréquentielles critiques pour la compréhension des sons de la parole. Pour ce faire, il rassembla un grand nombre d'enregistrements de syllabes consonne-voyelle différant par la consonne initiale (/ba/, /da/, /ga/, /pa/, /ta/, /ka/, /fa/, /sa/, etc.). Chaque enregistrement fut ensuite soumis à différents filtrages passe-haut ou passe-bas, c'est à dire en ne conservant que les informations au-dessus ou en-dessous d'une certaine fréquence de coupure donnée. Les volontaires devaient écouter ces stimuli filtrés, dans un ordre aléatoire, et identifier à chaque fois le phonème perçu. 
+
+L'exemple suivant illustre le principe de cette expérience historique. Pour les besoins de cette démo, je n'ai utilisé qu'un unique enregistrement de parole : un "ba" clairement intelligible. En appliquant un filtrage passe-bas avec des fréquences de coupure de plus en plus basses, nous supprimons progressivement les fréquences aigües du signal, créant ainsi un continuum acoustique le long de notre dimension d'intérêt. Écoutez ces sons de plus en plus altérés en essayant de déterminer à partir de quel point du continuum vous ne parvenez plus à identifier le "ba" initial.
 
 <audio controls>
   <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/phonetique_experimentale/ba_continuum_LP.wav" type="audio/wav">
@@ -28,13 +30,10 @@ alt: XXXXX
 width: 100%
 align: center
 ---
-*Continuum de parole filtrée passe-bas. Le premier spectrogramme correspond à un son "ba" clairement intelligible. Les fréquences hautes sont ensuite progressivement filtrées par pas successifs (une nouvelle bande de 450 Hz est retirée à chaque stimulus), de sorte que le dernier stimulus ne conserve que les fréquences de 0 Hz à 500 Hz.*
+*Continuum de parole filtrée passe-bas. Le premier spectrogramme correspond à la syllabe "ba" clairement intelligible. Les fréquences hautes sont ensuite progressivement filtrées par pas successifs (une nouvelle bande de 450 Hz est retirée à chaque stimulus), de sorte que le dernier stimulus ne conserve que les fréquences de 0 Hz à 500 Hz.*
 ```
 
-[Fletcher, 1922; Li, Menon & Allen, 2010]
-
-
-
+La plupart des auditeurs et auditrices rapportent que la qualité du son se dégrade progressivement le long du continuum, mais que le "ba" devient véritablement inintelligible à partir du 9ème stimulus -- c'est à dire quand la fréquence de coupure atteint 1400 Hz. Pour comprendre la raison de cette transition abrupte, la figure suivante représente les positions des formants F1, F2, F3 et F4 pour l’ensemble des stimuli du continuum. 
 
 ```{figure} Continua_2.png
 ---
@@ -45,6 +44,11 @@ align: center
 ---
 *Même continuum que {numref}`Continua_1.png`, avec les trajectoires des formants F1, F2, F3 et F4 représentés en bleu.*
 ```
+
+
+
+[Fletcher, 1922; Li, Menon & Allen, 2010]
+
 
 
 <audio controls>

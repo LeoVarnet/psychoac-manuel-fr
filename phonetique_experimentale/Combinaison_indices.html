@@ -181,6 +181,10 @@
   
 
   
+    <button class="pst-navbar-icon sidebar-toggle secondary-toggle" aria-label="On this page">
+      <span class="fa-solid fa-outdent"></span>
+    </button>
+  
 </div>
 
     </header>
@@ -462,7 +466,9 @@
 <button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <i class="fa-solid fa-magnifying-glass fa-lg"></i>
 </button>
-
+<button class="sidebar-toggle secondary-toggle btn btn-sm pst-navbar-icon" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
 </div></div>
       
     </div>
@@ -478,6 +484,16 @@
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="pst-show_toc_level nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#approche-par-gating">Approche par gating</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#images-de-classification-auditives">Images de Classification Auditives</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#perception-multimodale">Perception multimodale</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -498,7 +514,9 @@ la sonie d’un son complexe est une somme des sonies mesurées indépendamment 
 la hauteur d’un son dépend de sa fondamentale, des harmoniques, et de la périodicité
 La localisation combine ITD, ILD, filtrage par le pavillon, direct/reflection ratio, loudness…
 En va-t-il de même pour la perception des phonèmes ?</p>
-<p>Approche par gating</p>
+<section id="approche-par-gating">
+<h2>Approche par gating<a class="headerlink" href="#approche-par-gating" title="Link to this heading">#</a></h2>
+<p>[Warren &amp; Marslen-Wilson, 1987]</p>
 <p>Stimuli : paires de mots différant seulement par leur consonne finale (p.ex. « bagarre » et « bagage »), avec troncation de la fin du son
 Méthode des stimuli constants sur la durée du son tronqué + paradigme yes/no + tâche de catégorisation</p>
 <audio controls>
@@ -511,6 +529,68 @@ Méthode des stimuli constants sur la durée du son tronqué + paradigme yes/no 
 <p><span class="caption-number">Fig. 114 </span><span class="caption-text"><em>Continuum de parole tronquée. Le dernier stimulus correspond au son complet “a?a” (avec “?” une consonne à identifier). Les autres stimuli sont composés en retirant un segment de plus en plus long de la fin du son, par pas de 25 ms.</em></span><a class="headerlink" href="#continua-7-png" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
+<figure class="align-center" id="warren1987-png">
+<a class="reference internal image-reference" href="../_images/Warren1987.png"><img alt="XXXXX" src="../_images/Warren1987.png" style="width: 100%;" />
+</a>
+<figcaption>
+<p><span class="caption-number">Fig. 115 </span><span class="caption-text"><em>.</em></span><a class="headerlink" href="#warren1987-png" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="images-de-classification-auditives">
+<h2>Images de Classification Auditives<a class="headerlink" href="#images-de-classification-auditives" title="Link to this heading">#</a></h2>
+<p>L’Image de Classification, une nouvelle méthode psychophysique développée à partir des années 2000 [Murray, 2011]
+… et adaptée récemment à la modalité auditive [Varnet et al., 2013]
+Un moyen de visualiser directement les
+indices acoustiques auxquels les
+participant·e·s prêtent attention pour
+catégoriser les phonèmes, au moyen de
+stimuli de parole naturelle présentés
+dans le bruit, au seuil de catégorisation
+à 70%.</p>
+<p>Application à une tâche de catégorisation /aba/-/ada/ (paradigme yes/no)
+D’après ce que nous avons vu dans la partie précédente, la transition de F2 joue un rôle important pour cette tâche.</p>
+<figure class="align-center" id="aci-1-png">
+<a class="reference internal image-reference" href="../_images/ACI_1.png"><img alt="XXXXX" src="../_images/ACI_1.png" style="width: 100%;" />
+</a>
+<figcaption>
+<p><span class="caption-number">Fig. 116 </span><span class="caption-text"><em>.</em></span><a class="headerlink" href="#aci-1-png" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<p>L’Image de Classification Auditive révèle les régions temps-fréquence utilisées pour réaliser la tâche (zones rouges et bleues)… c’est à dire la position des indices acoustiques.</p>
+<figure class="align-center" id="aci-2-png">
+<a class="reference internal image-reference" href="../_images/ACI_2.png"><img alt="XXXXX" src="../_images/ACI_2.png" style="width: 100%;" />
+</a>
+<figcaption>
+<p><span class="caption-number">Fig. 117 </span><span class="caption-text"><em>.</em></span><a class="headerlink" href="#aci-2-png" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<p>Confirme que l’attaque du F2 est un indice pour catégoriser /b/-/d/.
+Trois indices supplémentaires ! (notamment un indice de coarticulation sur la voyelle initiale)</p>
+<p>Multiplicité des indices acoustiques</p>
+<p>Le problème du manque d’invariance (partiellement) résolu : pour identifier les phonèmes de façon univoque, le système auditif se base sur de multiples indices acoustiques.
+Du fait de la coarticulation, ces indices dépassent les frontières du phonème lui-même.</p>
+<p>(en fait, sans ce phénomène de tuilage de l’information il serait impossible d’obtenir un débit de parole naturel de 15 phonème/s)</p>
+</section>
+<section id="perception-multimodale">
+<h2>Perception multimodale<a class="headerlink" href="#perception-multimodale" title="Link to this heading">#</a></h2>
+<p>[McGurk &amp; MacDonald, 1976]</p>
+<p>Effet McGurk: influence de la vision sur l’audition lors de la perception de parole</p>
+<video controls>
+  <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/phonetique_experimentale/McGurk.avi" type="video/mp4">
+</video>
+<video controls>
+  <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/phonetique_experimentale/McGurk2.avi" type="video/mp4">
+</video>
+<p>Stimulus : son /ba/ + vidéo /ga/ (et autres combinaisons)
+Méthode : mesure de performance
+Tâche : intelligibilité (ou catégorisation ba/da/ga)
+Pas de dimension ni de paradigme</p>
+<p>Stimulus : son /ba/ + vidéo /ga/ (et autres combinaisons)
+Méthode : mesure de performance
+Tâche : intelligibilité (ou catégorisation ba/da/ga)
+Pas de dimension ni de paradigme</p>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -567,6 +647,25 @@ Méthode des stimuli constants sur la durée du son tronqué + paradigme yes/no 
             </div>
             
             
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item"><div
+    id="pst-page-navigation-heading-2"
+    class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav id="pst-page-toc-nav" class="page-toc" aria-labelledby="pst-page-navigation-heading-2">
+    <ul class="pst-show_toc_level nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#approche-par-gating">Approche par gating</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#images-de-classification-auditives">Images de Classification Auditives</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#perception-multimodale">Perception multimodale</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>

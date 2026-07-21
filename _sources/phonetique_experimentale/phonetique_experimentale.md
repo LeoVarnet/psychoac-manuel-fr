@@ -190,6 +190,11 @@ align: center
 ```
 
 discrimination entre deux stimuli adjacents
+
+<audio controls>
+  <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/phonetique_experimentale/badaga_disc.wav" type="audio/wav">
+</audio>
+
 Les différences de F2 ne sont pas perçues (performance de discrimination ≈ 50%), sauf entre deux catégories.
 
 ```{figure} Liberman3.png

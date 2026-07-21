@@ -100,11 +100,11 @@ Du fait de la coarticulation, ces indices dépassent les frontières du phonème
 
 Effet McGurk: influence de la vision sur l'audition lors de la perception de parole
 
-<video controls>
+<video width="620" controls>
   <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/phonetique_experimentale/McGurk.mp4" type="video/mp4">
 </video>
 
-<video controls>
+<video width="620" controls>
   <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/phonetique_experimentale/McGurk2.mp4" type="video/mp4">
 </video>
 

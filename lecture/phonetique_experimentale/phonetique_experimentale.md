@@ -45,9 +45,9 @@ align: center
 *Même continuum que {numref}`Continua_1.png`, avec les trajectoires des formants F1, F2, F3 et F4 représentés en bleu.*
 ```
 
-Les stimuli étant progressivement privés de leurs composantes haute fréquence, les formants disparaissent eux aussi progressivement en commençant par les derniers. Ainsi le F4 est supprimé à partir du simulus numéro x et le F3 à partir du stimulus numéro x. De façon intéressante, le moment où le son "ba" devient subitement inintelligible correspond à la disparition du F2, au 9ème stimulus.
+Les stimuli étant progressivement privés de leurs composantes haute fréquence, les formants disparaissent eux aussi progressivement en commençant par les derniers. Ainsi le F4 est supprimé à partir du simulus numéro 4 et le F3 à partir du stimulus numéro 7. De façon intéressante, le moment où le son "ba" devient subitement inintelligible correspond à la disparition du F2, à partir du 10ème stimulus.
 
-Il est également possible de réaliser la même expérience en supprimant progressivement les basses fréquences -- ce qui correspond à un filtrage passe-haut -- comme dans la démo suivante :
+Il est également possible de réaliser la même expérience en supprimant progressivement les basses fréquences pour ne conserver que les fréquences élevées -- ce qui correspond à un filtrage passe-haut -- comme dans la démo suivante :
 
 <audio controls>
   <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/phonetique_experimentale/ba_continuum_HP.wav" type="audio/wav">
@@ -63,7 +63,7 @@ align: center
 *Continuum de parole filtrée passe-haut. Le premier spectrogramme correspond à un son "ba" clairement intelligible. Les fréquences basses sont ensuite progressivement filtrées par pas successifs (une nouvelle bande de 450 Hz est retirée à chaque stimulus), de sorte que le dernier stimulus ne conserve que les fréquences de 4550 Hz à 5000 Hz.*
 ```
 
-Dans ce second exemple, le son "ba" devient inintelligible à partir du stimulus numéro x. La figure suivante qui représente les trajectoires des formants confirme que, là encore, cette transition brutale d'une syllabe claire à un son incompréhensible correspond au moment de la disparition du F2.
+Dans ce second exemple, le son "ba" devient inintelligible à partir du stimulus numéro 4. La figure suivante qui représente les trajectoires des formants confirme que, là encore, cette transition brutale d'une syllabe claire à un son incompréhensible correspond au moment de la disparition du F2.
 
 ```{figure} Continua_4.png
 ---
@@ -77,7 +77,12 @@ align: center
 
 Ces deux exemples sonores semblent donc pointer vers la même conclusion : en l'absence de F2, la consonne "b" n’est pas intelligible. Autrement dit, le cerveau s'appuie sur le F2 pour reconnaître ce phonème.
 
-L'expérience menée par Fletcher était bien sûr plus exhaustive et mieux contrôlée que ces démos audio. Néanmoins, la conclusion demeurait identique : pour les phonèmes de façon générale, la region autour de 1200 Hz semble porter le plus d'information car l'intelligibilité chute lorsqu'elle est filtrée passe-haut ou passe-bas.
+L'expérience menée par Fletcher était bien sûr plus complète et mieux contrôlée que ces petites démos audio. Néanmoins, la conclusion demeurait identique : pour les phonèmes de façon générale, la region autour de 1500 Hz semble porter le plus d'information car l'intelligibilité chute lorsqu'elle est filtrée passe-haut ou passe-bas. La figure suivante correspond à une réplication de l'expérience de Fletcher par l'équipe de Jont Allen à l'Université d'Illinois, en 2010. Elle représente
+
+```{note}
+:class: dropdown
+The note body will be hidden!
+```
 
 Stimuli : syllabes consonne+/a/, filtrées passe-bas ou passe-haut. 
 Dimension : fréquence de coupure du filtrage

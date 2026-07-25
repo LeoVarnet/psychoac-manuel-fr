@@ -77,6 +77,15 @@ align: center
 
 Ces deux exemples sonores semblent donc pointer vers la même conclusion : en l'absence de F2, la consonne "b" n’est pas intelligible. Autrement dit, le cerveau s'appuie sur le F2 pour reconnaître ce phonème.
 
+```{dropdown} Here's my dropdown
+And here's my dropdown content
+```
+
+```{note}
+:class: dropdown
+The note body will be hidden!
+```
+
 L'expérience menée par Fletcher était bien sûr plus rigoureuse et mieux contrôlée que les illustrations ci-dessus. La figure suivante correspond à une réplication récente de l'expérience de Fletcher par l'équipe de Jont Allen à l'Université d'Illinois. Le pourcentage de réponses correctes est ici représenté en fonction de la fréquence de coupure, pour une syllabe "ba" filtrée soit passe-bas (trait rouge), soit passe-haut (trait bleu pointillé). On constate que, pour le filtrage passe-bas, l’intelligibilité diminue brutalement pour des fréquences de coupure inférieures à 1500 Hz. De même, le filtrage passe-haut révèle qu’une fréquence de coupure similaire, aux alentours de 1500 Hz, constitue un seuil critique pour le maintien de l’intelligibilité. Ces résultats soulignent l'importance des fréquences autour de 1500 Hz, c'est à dire dans la région du F2, pour la perception du "ba".
 
 

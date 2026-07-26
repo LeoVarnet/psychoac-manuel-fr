@@ -17,7 +17,7 @@ La toute première expérience de psychoacoustique visant à étudier la percept
 
 Son approche reposait sur une méthode de filtrage progressif : en supprimant progressivement des bandes de fréquences, il cherchait à identifier les composantes fréquentielles critiques pour la compréhension des sons de la parole. Pour ce faire, il rassembla un grand nombre d'enregistrements de syllabes consonne-voyelle différant par la consonne initiale (/ba/, /da/, /ga/, /pa/, /ta/, /ka/, /fa/, /sa/, etc.). Chaque enregistrement fut ensuite soumis à différents filtrages passe-haut ou passe-bas, c'est à dire en ne conservant que les informations au-dessus ou en-dessous d'une certaine fréquence de coupure donnée. Les volontaires devaient écouter ces stimuli filtrés, dans un ordre aléatoire, et identifier à chaque fois le phonème perçu. 
 
-L'exemple suivant illustre le principe de cette expérience historique. Pour les besoins de cette démo, je n'ai utilisé qu'un unique enregistrement de parole : un "ba" clairement intelligible. En appliquant un filtrage passe-bas avec des fréquences de coupure de plus en plus basses, nous supprimons progressivement les fréquences aigües du signal, créant ainsi un continuum acoustique le long de notre dimension d'intérêt. Écoutez ces sons de plus en plus altérés en essayant de déterminer à partir de quel point du continuum vous ne parvenez plus à identifier le "ba" initial.
+L'exemple suivant illustre le résultat principal de cette expérience historique. Pour les besoins de cette démo, un unique enregistrement de parole est considéré : un "ba" clairement intelligible. En appliquant un filtrage passe-bas avec des fréquences de coupure de plus en plus basses, nous supprimons progressivement les fréquences aigües du signal, créant ainsi un continuum acoustique le long de notre dimension d'intérêt. Écoutez ces sons de plus en plus altérés en essayant de déterminer à partir de quel point du continuum vous ne parvenez plus à identifier le "ba" initial.
 
 <audio controls>
   <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/phonetique_experimentale/ba_continuum_LP.wav" type="audio/wav">
@@ -77,19 +77,18 @@ align: center
 
 Ces deux exemples sonores semblent donc pointer vers la même conclusion : en l'absence de F2, la consonne "b" n’est pas intelligible. Autrement dit, le cerveau s'appuie sur le F2 pour reconnaître ce phonème.
 
-L'expérience menée par Fletcher était bien sûr plus rigoureuse et mieux contrôlée que les illustrations ci-dessus. La figure suivante correspond à une réplication récente de l'expérience de Fletcher par l'équipe de Jont Allen à l'Université d'Illinois. Le pourcentage de réponses correctes est ici représenté en fonction de la fréquence de coupure, pour une syllabe "ba" filtrée soit passe-bas (trait rouge), soit passe-haut (trait bleu pointillé). On constate que, pour le filtrage passe-bas, l’intelligibilité diminue brutalement pour des fréquences de coupure inférieures à 1500 Hz. De même, le filtrage passe-haut révèle qu’une fréquence de coupure similaire, aux alentours de 1500 Hz, constitue un seuil critique pour le maintien de l’intelligibilité. Ces résultats soulignent l'importance des fréquences autour de 1500 Hz, c'est à dire dans la région du F2, pour la perception du "ba".
+L'expérience menée par Fletcher était bien sûr plus rigoureuse et mieux contrôlée que la démo ci-dessus (voir encart Méthodologie plus loin) ; en particulier les sons correspondant à différentes syllabes et différents filtrages étaient présentés dans un ordre aléatoire. La figure suivante correspond à une réplication récente de cette expérience par l'équipe de Jont Allen à l'Université d'Illinois. Le pourcentage de réponses correctes est ici représenté en fonction de la fréquence de coupure, pour une syllabe "ba" filtrée soit passe-bas (trait rouge), soit passe-haut (trait bleu pointillé). On constate que, dans les deux cas, l’intelligibilité diminue brutalement en dessus ou au dessous de 1500 Hz environ, en accord avec notre démo, c'est à dire dans la région du F2.
 
+```{dropdown} Méthodologie (Fletcher, 1922; Li & Allen, 2009)
+**Stimuli** : syllabes consonne + /a/, filtrées passe-bas ou passe-haut.
 
-```{dropdown} Méthodologie (Fletcher, 1922; Li, Allen, 2009)
-Stimuli : syllabes consonne+/a/, filtrées passe-bas ou passe-haut.
+**Dimension d'intérêt** : fréquence de coupure du filtrage
 
-Dimension : fréquence de coupure du filtrage
+**Tâche** : intelligibilité ("quelle syllabe avez-vous entendu ?")
 
-Tâche : intelligibilité
+**Méthode"" : méthode des stimuli constants
 
-Méthode : méthode des stimuli constants
-
-Paradigme : -
+**Paradigme** : -
 ```
 
 
@@ -102,7 +101,7 @@ alt: XXXXX
 width: 60%
 align: center
 ---
-*XXX (Li, Menon, Allen, 2010).*
+*XXX Figure adaptée de Li, Menon & Allen (2010).*
 ```
 
 
@@ -114,7 +113,7 @@ alt: XXXXX
 width: 70%
 align: center
 ---
-*XXX.*
+*Figure issue de Li & Allen (2009).*
 ```
 
 

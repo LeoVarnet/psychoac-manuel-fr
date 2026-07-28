@@ -113,10 +113,11 @@ align: center
 *Même représentation que {numref}`LiMenonAllen1.png` pour toutes les consonnes utilisées dans l'expérience. Attention, l'axe des ordonnées correspond ici au taux d'erreurs, et donc inversé par rapport à la figure précédente. En revanche l'axe des abscisses est identique malgré le changement d'unité. Figure adaptée de Li & Allen (2009).*
 ```
 
+Ce premier type d'expérience nous enseigne ainsi que le second formant est essentiel à la bonne compréhension de la syllabe "ba". Nous allons à présent examiner quelles caractéristiques de ce formant sont déterminantes.
 
 ## Approche par synthèse vocale
 
-[Liberman, Delattre, Cooper, 1954]
+
 
 Evaluer le rôle de la transition du formant F2 dans dans l’identification du phonème /b/…
 …En utilisant un Pattern Playback
@@ -133,11 +134,18 @@ align: center
 *XXX.*
 ```
 
-Stimuli : syllabes synthétiques consonne+/a/
-Dimension : fréquence d’attaque du 2ème formant.
-Tâche : catégorisation /b/-/d/
-Méthode : méthode des stimuli constants
-Paradigme : yes/no
+
+```{dropdown} Méthodologie (Liberman, Delattre, Cooper, 1954)
+**Stimuli** : multiples syllabes synthétiques formées en suivant les formants de "ba" et en modifiant la fréquence d'attaque du deuxième formant.
+
+**Dimension d'intérêt** : fréquence d’attaque du 2ème formant.
+
+**Tâche** : catégorisation "ba"/"da"/"ga"
+
+**Méthode"" : méthode des stimuli constants
+
+**Paradigme** : yes/no
+```
 
 
 

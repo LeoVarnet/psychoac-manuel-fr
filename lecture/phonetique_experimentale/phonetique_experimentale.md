@@ -129,9 +129,7 @@ align: center
 *XXX. Figure isue de  [Cooper, Liberman, Borst, 1951]*
 ```
 
-<iframe width="560" height="315" src="https://youtu.be/rCKp7OfoT9Y?si=Y0HcXWyeL367lM-v&t=204" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rCKp7OfoT9Y?si=Y0HcXWyeL367lM-v&amp;start=204" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 ```{dropdown} Méthodologie (Liberman, Delattre, Cooper, 1954)

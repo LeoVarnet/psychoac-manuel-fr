@@ -114,6 +114,8 @@ Méthode : mesure de performance
 Tâche : intelligibilité (ou catégorisation ba/da/ga)
 Pas de dimension ni de paradigme
 
+Although the consonant formant patterns exhibit massive context-dependence, the 3-D space shows three configurations that do not overlap. The point is this: If other dimensions were also considered (spectral dynamics, aspects of the burst spectra etc), we would expect even better separability. Owing to the large coarticulation effects there are no absolute invariants. However, the phonetic correlates of the three stop categories are nevertheless distinct. They meet the condition of "sufficient contrast". (Lidblom)
+
 Stimulus : son /ba/ + vidéo /ga/ (et autres combinaisons)
 Méthode : mesure de performance
 Tâche : intelligibilité (ou catégorisation ba/da/ga)

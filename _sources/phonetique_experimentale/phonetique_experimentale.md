@@ -17,6 +17,18 @@ La toute première expérience de psychoacoustique visant à étudier la percept
 
 Son approche reposait sur une méthode de filtrage progressif : en supprimant progressivement des bandes de fréquences, il cherchait à identifier les composantes fréquentielles critiques pour la compréhension des sons de la parole. Pour ce faire, il rassembla un grand nombre d'enregistrements de syllabes consonne-voyelle différant par la consonne initiale (/ba/, /da/, /ga/, /pa/, /ta/, /ka/, /fa/, /sa/, etc.). Chaque enregistrement fut ensuite soumis à différents filtrages passe-haut ou passe-bas, c'est à dire en ne conservant que les informations au-dessus ou en-dessous d'une certaine fréquence de coupure donnée. Les volontaires devaient écouter ces stimuli filtrés, dans un ordre aléatoire, et identifier à chaque fois le phonème perçu. 
 
+```{dropdown} Méthodologie (Fletcher, 1922; Li & Allen, 2009)
+**Stimuli** : multiples enregistrements de syllabes formées par une consonne suivie de la voyelle "a" : "pa", "ta", "ka", "fa", "sa", "cha", "ba", "da", "ga", "va", "za", "ja", "ma", "na", et deux autres comportant des consonnes n'existant qu'en anglais -- soit un total de 16 syllabes possibles. Ces enregistrements sont filtrés passe-bas ou passe-haut avec différentes fréquences de coupure.
+
+**Dimension d'intérêt** : fréquence de coupure du filtrage
+
+**Tâche** : intelligibilité ("quelle syllabe avez-vous entendu ?"). Le participant ou la participante répond en appuyant sur un des 16 boutons correspondant aux 16 syllabes possibles.
+
+**Méthode** : méthode des stimuli constants
+
+**Paradigme** : -
+```
+
 L'exemple suivant illustre le résultat principal de cette expérience historique. Pour les besoins de cette démo, un unique enregistrement de parole est considéré : un "ba" clairement intelligible. En appliquant un filtrage passe-bas avec des fréquences de coupure de plus en plus basses, nous supprimons progressivement les fréquences aigües du signal, créant ainsi un continuum acoustique le long de notre dimension d'intérêt. Écoutez ces sons de plus en plus altérés en essayant de déterminer à partir de quel point du continuum vous ne parvenez plus à identifier le "ba" initial.
 
 <audio controls>
@@ -79,18 +91,6 @@ Ces deux exemples sonores semblent donc pointer vers la même conclusion : en l'
 
 L'expérience menée par Fletcher était bien sûr plus rigoureuse et mieux contrôlée que la démo ci-dessus (voir encart Méthodologie) ; en particulier les sons correspondant à différentes syllabes et différents filtrages étaient présentés dans un ordre aléatoire. La figure suivante correspond à une réplication récente de cette expérience par l'équipe de Jont Allen à l'Université d'Illinois. Le pourcentage de réponses correctes est ici représenté en fonction de la fréquence de coupure, pour une syllabe "ba" filtrée soit passe-bas (trait rouge), soit passe-haut (trait bleu pointillé). On constate que, dans les deux cas, l’intelligibilité diminue brutalement en dessus ou au dessous de 1500 Hz environ, en accord avec notre démo, c'est à dire dans la région du F2.
 
-```{dropdown} Méthodologie (Fletcher, 1922; Li & Allen, 2009)
-**Stimuli** : multiples enregistrements de syllabes formées par une consonne suivie de la voyelle "a" : "pa", "ta", "ka", "fa", "sa", "cha", "ba", "da", "ga", "va", "za", "ja", "ma", "na", et deux autres comportant des consonnes n'existant qu'en anglais -- soit un total de 16 syllabes possibles. Ces enregistrements sont filtrés passe-bas ou passe-haut avec différentes fréquences de coupure.
-
-**Dimension d'intérêt** : fréquence de coupure du filtrage
-
-**Tâche** : intelligibilité ("quelle syllabe avez-vous entendu ?"). Le participant ou la participante répond en appuyant sur un des 16 boutons correspondant aux 16 syllabes possibles.
-
-**Méthode** : méthode des stimuli constants
-
-**Paradigme** : -
-```
-
 ```{figure} LiMenonAllen1.png
 ---
 name: LiMenonAllen1.png
@@ -133,7 +133,7 @@ align: center
   <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/phonetique_experimentale/PatternPlayback.mp4" type="video/mp4">
 </video>
 
-
+Munie de ce nouvel outil, l'équipe de Liberman s'employa à explorer la perception des phonèmes. En effet, la synthèse vocale permettait désormais de manipuler de façon fine et contrôlée n'importe quel paramètre du son, afin d’en observer l’impact sur la perception auditive. Une expérience marquante, publiée en 1954, illustre cette approche : elle porte sur la perception des consonnes plosives, en particulier les syllabes "ba", "da" et "ga". À partir d’une représentation spectrographique du son "ba", les chercheurs en produisirent une version synthétique à l’aide du *Pattern Playback*. Ensuite, ils générèrent des variantes de ce son en modifiant uniquement la fréquence d’attaque du deuxième formant (F2). La {numref}`Continua_5.png` représente un continuum similaire -- créé ici au moyen d'un autre outil de synthèse vocale rudimentaire, le synthétiseur de Klatt. Tous les sons de parole qui le composent sont identiques, à l'exception de l'attaque du F2 (voir {numref}`Continua_6.png`) qui évolue par pas égaux depuis 900 Hz dans le premier son jusqu'à 2400 Hz dans le dernier. Les sons synthétiques étaient présentés dans un ordre aléatoire à des participants et participantes, qui devaient les catégoriser comme "ba", "da", ou "ga".
 
 
 ```{dropdown} Méthodologie (Liberman, Delattre, Cooper, 1954)
@@ -148,7 +148,7 @@ align: center
 **Paradigme** : yes/no
 ```
 
-
+Le son suivant fournit une illustration de cette expérience. Ici tous les sons du continuum {numref}`Continua_5.png` sont joués dans l'ordre en commençant par le "ba" original. Essayez d'identifier les syllabes auxquelles ils correspondent.
 
 <audio controls>
   <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/phonetique_experimentale/badaga_continuum.wav" type="audio/wav">

@@ -117,12 +117,7 @@ Ce premier type d'expérience nous enseigne ainsi que le second formant est esse
 
 ## Approche par synthèse vocale
 
-
-
-Evaluer le rôle de la transition du formant F2 dans dans l’identification du phonème /b/…
-…En utilisant un Pattern Playback
-Pattern Playback : l’un des premiers synthétiseurs de parole [Cooper, Liberman, Borst, 1951]
-
+Dans les années 50, l'équipe d'Alvin Liberman aux Haskins Laboratories développa une approche complémentaire pour identifier les indices acoustiques utilisés dans la compréhnesion des phonèmes, et en particulier pour explorer le rôle de la transition du formant F2 dans dans l’identification du phonème "b". Ce groupe de scientifiques s'appuya pour cela sur un système appelé *Pattern Playback*, l'un des tout premiers synthétiseurs vocaux, mis au point quelques années auparavant. Celui-ci permet de jouer des spectrogrammes de parole peints manuellement sur une bande transparente. Sans entrer dans les détails, il est composé d'une "tête de lecture" devant laquelle défile la bande peinte, et d'un système de conversion des motifs en sons de différentes fréquences.
 
 ```{figure} PatternPlayback.jpg
 ---
@@ -131,8 +126,12 @@ alt: XXXXX
 width: 70%
 align: center
 ---
-*XXX.*
+*XXX. Figure isue de  [Cooper, Liberman, Borst, 1951]*
 ```
+
+<iframe width="560" height="315" src="https://youtu.be/rCKp7OfoT9Y?si=Y0HcXWyeL367lM-v&t=204" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
 
 
 ```{dropdown} Méthodologie (Liberman, Delattre, Cooper, 1954)

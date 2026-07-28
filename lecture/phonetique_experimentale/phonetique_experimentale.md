@@ -77,22 +77,19 @@ align: center
 
 Ces deux exemples sonores semblent donc pointer vers la même conclusion : en l'absence de F2, la consonne "b" n’est pas intelligible. Autrement dit, le cerveau s'appuie sur le F2 pour reconnaître ce phonème.
 
-L'expérience menée par Fletcher était bien sûr plus rigoureuse et mieux contrôlée que la démo ci-dessus (voir encart Méthodologie plus loin) ; en particulier les sons correspondant à différentes syllabes et différents filtrages étaient présentés dans un ordre aléatoire. La figure suivante correspond à une réplication récente de cette expérience par l'équipe de Jont Allen à l'Université d'Illinois. Le pourcentage de réponses correctes est ici représenté en fonction de la fréquence de coupure, pour une syllabe "ba" filtrée soit passe-bas (trait rouge), soit passe-haut (trait bleu pointillé). On constate que, dans les deux cas, l’intelligibilité diminue brutalement en dessus ou au dessous de 1500 Hz environ, en accord avec notre démo, c'est à dire dans la région du F2.
+L'expérience menée par Fletcher était bien sûr plus rigoureuse et mieux contrôlée que la démo ci-dessus (voir encart Méthodologie) ; en particulier les sons correspondant à différentes syllabes et différents filtrages étaient présentés dans un ordre aléatoire. La figure suivante correspond à une réplication récente de cette expérience par l'équipe de Jont Allen à l'Université d'Illinois. Le pourcentage de réponses correctes est ici représenté en fonction de la fréquence de coupure, pour une syllabe "ba" filtrée soit passe-bas (trait rouge), soit passe-haut (trait bleu pointillé). On constate que, dans les deux cas, l’intelligibilité diminue brutalement en dessus ou au dessous de 1500 Hz environ, en accord avec notre démo, c'est à dire dans la région du F2.
 
 ```{dropdown} Méthodologie (Fletcher, 1922; Li & Allen, 2009)
-**Stimuli** : syllabes consonne + /a/, filtrées passe-bas ou passe-haut.
+**Stimuli** : multiples enregistrements de syllabes formées par une consonne suivie de la voyelle "a" : "pa", "ta", "ka", "fa", "sa", "cha", "ba", "da", "ga", "va", "za", "ja", "ma", "na", et deux autres comportant des consonnes n'existant qu'en anglais -- soit un total de 16 syllabes possibles. Ces enregistrements sont filtrés passe-bas ou passe-haut avec différentes fréquences de coupure.
 
 **Dimension d'intérêt** : fréquence de coupure du filtrage
 
-**Tâche** : intelligibilité ("quelle syllabe avez-vous entendu ?")
+**Tâche** : intelligibilité ("quelle syllabe avez-vous entendu ?"). Le participant ou la participante répond en appuyant sur un des 16 boutons correspondant aux 16 syllabes possibles.
 
 **Méthode"" : méthode des stimuli constants
 
 **Paradigme** : -
 ```
-
-
-
 
 ```{figure} LiMenonAllen1.png
 ---
@@ -101,10 +98,10 @@ alt: XXXXX
 width: 60%
 align: center
 ---
-*XXX Figure adaptée de Li, Menon & Allen (2010).*
+*Evolution de l'intelligibilité de la syllabe "ba" filtrée passe-haut (trait bleu pointillé) ou passe-bas (trait rouge), en fonction de la fréquence de coupure. Seules les réponses aux essais où la syllabe "ba" sont présentées ; néanmoins, l'expérience comprenant 16 réponses possibles, le taux de réussite dû à la chance est de 100% / 16 = 6.25% (ligne pointillée noire). Figure adaptée de Li, Menon & Allen (2010).*
 ```
 
-
+Cette approche peut être également appliquée à l'analyse des autres consonnes ({numref}`LiAllen2009.png`). Les courbes obtenues diffèrent selon les phonèmes, confirmant que les indices acoustiques impliqués dans leur identification varient d’un phonème à l’autre.
 
 ```{figure} LiAllen2009.png
 ---
@@ -113,7 +110,7 @@ alt: XXXXX
 width: 70%
 align: center
 ---
-*Figure issue de Li & Allen (2009).*
+*Même représentation que {numref}`LiMenonAllen1.png` pour toutes les consonnes utilisées dans l'expérience. Attention, l'axe des ordonnées correspond ici au taux d'erreurs, et donc inversé par rapport à la figure précédente. En revanche l'axe des abscisses est identique malgré le changement d'unité. Figure adaptée de Li & Allen (2009).*
 ```
 
 

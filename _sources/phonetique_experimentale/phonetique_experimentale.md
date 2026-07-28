@@ -129,9 +129,10 @@ align: center
 *XXX. Figure isue de  [Cooper, Liberman, Borst, 1951]*
 ```
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rCKp7OfoT9Y?si=Y0HcXWyeL367lM-v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<video controls>
+  <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/phonetique_experimentale/PatternPlayback.mp4" type="video/mp4">
+</video>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bZdOSCDwbGs?si=2wCw_6LQ2WMtSqnd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ```{dropdown} Méthodologie (Liberman, Delattre, Cooper, 1954)
 **Stimuli** : multiples syllabes synthétiques reproduisant les trajectoires des formants de "ba", mais avec une modification de la fréquence d'attaque du deuxième formant.

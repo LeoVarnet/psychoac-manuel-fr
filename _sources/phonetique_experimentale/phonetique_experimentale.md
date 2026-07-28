@@ -117,7 +117,7 @@ Ce premier type d'expérience nous enseigne ainsi que le second formant est esse
 
 ## Approche par synthèse vocale
 
-Dans les années 50, l'équipe d'Alvin Liberman aux Haskins Laboratories développa une approche complémentaire pour identifier les indices acoustiques utilisés dans la compréhnesion des phonèmes, et en particulier pour explorer le rôle de la transition du formant F2 dans dans l’identification du phonème "b". Ce groupe de scientifiques s'appuya pour cela sur un système appelé *Pattern Playback*, l'un des tout premiers synthétiseurs vocaux, mis au point quelques années auparavant. Celui-ci permet de jouer des spectrogrammes de parole peints manuellement sur une bande transparente. Sans entrer dans les détails, il est composé d'une "tête de lecture" devant laquelle défile la bande peinte, et d'un système de conversion des motifs en sons de différentes fréquences. La figure suivante illustre le principe de l'appareil. La vidéo ci-dessous est extraite d'un documentaire d'époque qui permet de voir le Pattern Playback en fonctionnement (démarrer à 3:24).
+Dans les années 50, l'équipe d'Alvin Liberman aux Haskins Laboratories développa une approche complémentaire pour identifier les indices acoustiques utilisés dans la compréhnesion des phonèmes, et en particulier pour explorer le rôle de la transition du formant F2 dans dans l’identification du phonème "b". Ce groupe de scientifiques s'appuya pour cela sur un système appelé *Pattern Playback*, l'un des tout premiers synthétiseurs vocaux, mis au point quelques années auparavant. Celui-ci permet de jouer des spectrogrammes de parole peints manuellement sur une bande transparente. Sans entrer dans les détails, il est composé d'une "tête de lecture" devant laquelle défile la bande peinte, et d'un système de conversion des motifs en sons de différentes fréquences. La figure suivante illustre le principe de l'appareil. La vidéo plus bas est extraite d'un [documentaire d'époque](https://www.youtube.com/watch?si=Y0HcXWyeL367lM-v&t=204&v=rCKp7OfoT9Y&feature=youtu.be) qui permet de voir le Pattern Playback en fonctionnement.
 
 ```{figure} PatternPlayback.jpg
 ---
@@ -126,12 +126,14 @@ alt: XXXXX
 width: 70%
 align: center
 ---
-*XXX. Figure isue de  [Cooper, Liberman, Borst, 1951]*
+*Schéma de fonctionnement du Pattern Playback. Le tapis roulant correspond à la bande transparente sur laquelle sont dessinés des motifs spectrographiques. Ceux-ci passent entre un faisceau lumineux et une série de photorécepteurs, ce qui permet de "lire" la composition spectrale dessinée à chaque instant, alors que la bande progresse. Ce système de tête de lecture est ensuite connecté à un amplificateur qui convertit chaque fréquence lue en le son correspondant. Figure issue de Cooper, Liberman, Borst (1951)*
 ```
 
 <video controls width="500">
   <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/phonetique_experimentale/PatternPlayback.mp4" type="video/mp4">
 </video>
+
+
 
 
 ```{dropdown} Méthodologie (Liberman, Delattre, Cooper, 1954)
@@ -325,5 +327,6 @@ Le problème du manque d’invariance subsiste.
 ## Références
 
 
-[Fletcher, 1922; Li, Menon & Allen, 2010
-]
+[Fletcher, 1922; Li, Menon & Allen, 2010; Li allen 2009]
+Cooper, Liberman, Borst (1951)
+(Liberman, Delattre, Cooper, 1954)

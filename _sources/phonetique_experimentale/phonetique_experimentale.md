@@ -86,7 +86,7 @@ L'expérience menée par Fletcher était bien sûr plus rigoureuse et mieux cont
 
 **Tâche** : intelligibilité ("quelle syllabe avez-vous entendu ?"). Le participant ou la participante répond en appuyant sur un des 16 boutons correspondant aux 16 syllabes possibles.
 
-**Méthode"" : méthode des stimuli constants
+**Méthode** : méthode des stimuli constants
 
 **Paradigme** : -
 ```
@@ -142,7 +142,7 @@ align: center
 
 **Tâche** : catégorisation "ba"/"da"/"ga"
 
-**Méthode"" : méthode des stimuli constants
+**Méthode** : méthode des stimuli constants
 
 **Paradigme** : yes/no
 ```

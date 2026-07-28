@@ -129,7 +129,7 @@ align: center
 *XXX. Figure isue de  [Cooper, Liberman, Borst, 1951]*
 ```
 
-<video controls>
+<video controls width="500">
   <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/phonetique_experimentale/PatternPlayback.mp4" type="video/mp4">
 </video>
 

@@ -175,21 +175,17 @@ align: center
 *Même continuum que {numref}`Continua_5.png`, avec les trajectoires des formants F1, F2 et F3 représentés en bleu.*
 ```
 
-Quand on modifie la transition de F2, le /b/ devient /d/ puis /g/.
+Cette approche par continuum de parole synthétique s’avère donc particulièrement utile pour identifier les indices acoustiques impliqués dans la perception des phonèmes. En effet, elle permet de tester le rôle d’une caractéristique acoustique spécifique dans la compréhension des sons. Pour cela, il suffit aux scientifiques de construire un continuum de stimuli où seule cette caractéristique varie, puis d'observer si la perception évolue le long de ce continuum. Si c'est le cas, l'expérience valide l’implication de cette caractéristique dans la reconnaissance des phonèmes. Il n'est donc pas surprenant que cette méthode ait été utilisée abondamment, tout d'abord par l'équipe de Liberman pour explorer tous les types de consonnes (voir {numref}`Delattre1968.png`), puis plus récemment par d'autres scientifiques qui ont mis au point des stimuli synthétiques de plus en plus réalistes.
 
-L’approche par continuum de parole synthétique a été généralisée à de nombreuses questions, avec des stimuli synthétiques de plus en plus réalistes.
-
-
-```{figure} Winn2020.png
----
-name: Winn2020.png
-alt: XXXXX
-width: 70%
-align: center
----
-*.*
-```
-
+<!-- ```{figure} Winn2020.png -->
+<!-- --- -->
+<!-- name: Winn2020.png -->
+<!-- alt: XXXXX -->
+<!-- width: 70% -->
+<!-- align: center -->
+<!-- --- -->
+<!-- *.* -->
+<!-- ``` -->
 
 ```{figure} Delattre1968.png
 ---
@@ -198,8 +194,12 @@ alt: XXXXX
 width: 70%
 align: center
 ---
-*.*
+*Synthèse des résultats obtenus par l'équipe de Liberman en appliquant l'approche par continuum de parole synthétique à l'étude de différentes consonnes. Le spectrogramme de chaque consonne du français est ici représenté de façon schématique pour souligner les principaux indices acoustiques impliqués dans la compréhension. Figure issue de Delattre (1968).*
 ```
+
+## La perception catégorielle
+
+Les conclusions de l'expérience de Liberman et collègues ne se limitent pas à l'identification des indices acoustiques, mais portent également sur le mécanisme de compréhension des phonèmes. Observons de plus près les résultats de l'expérience du continuum synthétique, {numref}`Liberman3.png` (partie supérieure). Le pourcentage de réponses "ba", "da", ou "ga" est représenté en fonction du numéro du stimulus, c'est à dire le long du continuum. On peut noter que la compréhension "bascule" brutalement d'une syllabe à une autre. Autrement dit la plupart des sons sont perçus sans ambiguïté : à l'exception des stimuli numéros 4, 9 et 10, tous sont catégorisés de façon unanime comme un "ba", un "da", ou un "ga". 
 
 discrimination entre deux stimuli adjacents
 
@@ -331,3 +331,4 @@ Le problème du manque d’invariance subsiste.
 [Fletcher, 1922; Li, Menon & Allen, 2010; Li allen 2009]
 Cooper, Liberman, Borst (1951)
 (Liberman, Delattre, Cooper, 1954)
+Delattre (1968)

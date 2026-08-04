@@ -89,7 +89,7 @@ align: center
 
 Ces deux exemples sonores semblent donc pointer vers la même conclusion : en l'absence de F2, la consonne "b" n’est pas intelligible. Autrement dit, le cerveau s'appuie sur le F2 pour reconnaître ce phonème.
 
-L'expérience menée par Fletcher était bien sûr plus rigoureuse et mieux contrôlée que la démo ci-dessus (voir encart Méthodologie) ; en particulier les sons correspondant à différentes syllabes et différents filtrages étaient présentés dans un ordre aléatoire. La figure suivante correspond à une réplication récente de cette expérience par l'équipe de Jont Allen à l'Université d'Illinois. Le pourcentage de réponses correctes est ici représenté en fonction de la fréquence de coupure, pour une syllabe "ba" filtrée soit passe-bas (trait rouge), soit passe-haut (trait bleu pointillé). On constate que, dans les deux cas, l’intelligibilité diminue brutalement en dessus ou au dessous de 1500 Hz environ, en accord avec notre démo, c'est à dire dans la région du F2.
+L'expérience menée par Fletcher était bien sûr plus rigoureuse et mieux contrôlée que la démo ci-dessus (voir encart Méthodologie) ; en particulier les sons correspondant à différentes syllabes et différents filtrages étaient présentés dans un ordre aléatoire. La figure suivante correspond à une réplication récente de cette expérience par l'équipe de Jont Allen à l'Université d'Illinois. Le pourcentage de réponses correctes est ici représenté en fonction de la fréquence de coupure, pour une syllabe "ba" filtrée soit passe-bas (trait rouge), soit passe-haut (trait bleu pointillé). On constate que, dans les deux cas, l’intelligibilité diminue brutalement en dessus ou au dessous de 1500 Hz environ, c'est à dire dans la région du F2, en accord avec notre démo.
 
 ```{figure} LiMenonAllen1.png
 ---
@@ -133,8 +133,7 @@ align: center
   <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/phonetique_experimentale/PatternPlayback.mp4" type="video/mp4">
 </video>
 
-Munie de ce nouvel outil, l'équipe de Liberman s'employa à explorer la perception des phonèmes. En effet, la synthèse vocale permettait désormais de manipuler de façon fine et contrôlée n'importe quel paramètre du son, afin d’en observer l’impact sur la perception auditive. Une expérience marquante, publiée en 1954, illustre cette approche : elle porte sur la perception des consonnes plosives, en particulier les syllabes "ba", "da" et "ga". À partir d’une représentation spectrographique du son "ba", les chercheurs en produisirent une version synthétique à l’aide du *Pattern Playback*. Ensuite, ils générèrent des variantes de ce son en modifiant uniquement la fréquence d’attaque du deuxième formant (F2). La {numref}`Continua_5.png` représente un continuum similaire -- créé ici au moyen d'un autre outil de synthèse vocale rudimentaire, le synthétiseur de Klatt. Tous les sons de parole qui le composent sont identiques, à l'exception de l'attaque du F2 (voir {numref}`Continua_6.png`) qui évolue par pas égaux depuis 900 Hz dans le premier son jusqu'à 2400 Hz dans le dernier. Les sons synthétiques étaient présentés dans un ordre aléatoire à des participants et participantes, qui devaient les catégoriser comme "ba", "da", ou "ga".
-
+Munie de ce nouvel outil, l'équipe de Liberman s'employa à explorer la perception des phonèmes. En effet, la synthèse vocale permettait désormais de manipuler de façon fine et contrôlée n'importe quel paramètre du son, afin d’en observer l’impact sur la perception auditive. Une expérience marquante, publiée en 1954, illustre cette approche : elle porte sur la perception des consonnes plosives, en particulier les syllabes "ba", "da" et "ga". À partir d’une représentation spectrographique du son "ba", les chercheurs en produisirent une version synthétique à l’aide du *Pattern Playback*. Ensuite, ils générèrent des variantes de ce son en modifiant uniquement la fréquence d’attaque du deuxième formant (F2). Les sons synthétiques étaient présentés dans un ordre aléatoire à des participants et participantes, qui devaient les catégoriser comme "ba", "da", ou "ga".
 
 ```{dropdown} Méthodologie (Liberman, Delattre, Cooper, 1954)
 **Stimuli** : multiples syllabes synthétiques reproduisant les trajectoires des formants de "ba", mais avec une modification de la fréquence d'attaque du deuxième formant.
@@ -148,7 +147,7 @@ Munie de ce nouvel outil, l'équipe de Liberman s'employa à explorer la percept
 **Paradigme** : yes/no
 ```
 
-Le son suivant fournit une illustration de cette expérience. Ici tous les sons du continuum {numref}`Continua_5.png` sont joués dans l'ordre en commençant par le "ba" original. Essayez d'identifier les syllabes auxquelles ils correspondent.
+La {numref}`Continua_5.png` représente un continuum similaire à celui utilisé par Liberman, créé ici au moyen d'un autre outil de synthèse vocale rudimentaire, le synthétiseur de Klatt. Tous les sons de parole qui le composent sont exactement identiques, à l'exception de l'attaque du F2 (voir {numref}`Continua_6.png`) qui évolue par pas égaux depuis 900 Hz dans le premier son jusqu'à 2400 Hz dans le dernier. Vous pouvez écouter ce continuum ci-dessous. Par souci de simplicité, les stimuli sont ici joués dans l'ordre en commençant par la syllabe "ba" originale. 
 
 <audio controls>
   <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/phonetique_experimentale/badaga_continuum.wav" type="audio/wav">
@@ -163,6 +162,8 @@ align: center
 ---
 *Continuum de parole synthétique. Le premier son correspond à un "ba" généré avec un algorithme de synthèse rudimentaire (synthétiseur de Klatt). Un seul des paramètres acoustiques de ce stimulus est ensuite varié : la fréquence d'attaque du F2. Celle-ci est fixée à 900 Hz dans le premier stimulus, puis évolue par pas de 150 Hz jusqu'à atteindre 2400 Hz dans le dernier stimulus. En conséquence, la pente d'attaque du F2 est montante au début du continuum, mais descendante à la fin.*
 ```
+
+Liberman et ses collègues observèrent que les participants et participantes percevaient les stimuli du continuum comme des "ba" pour les fréquences d'attaque basses, puis des "da" pour les fréqunces d'attaque intermédiaires, et enfin des "ga" pour les fréquences d'attaque hautes. Puisque seul le F2 diffère entre les stimuli du continuum ({numref}`Continua_6.png`), ce résultat confirme que le F2 joue un rôle clé dans la compréhension de la consonne "b" -- comme nous l'avions noté dans l'expérience précédente. Mais il permet également de préciser cette conclusion : c'est plus spécifiquement l'attaque de ce formant qui permet de distinguer le "b" du "d" et du "g".
 
 ```{figure} Continua_6.png
 ---

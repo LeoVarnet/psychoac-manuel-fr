@@ -199,7 +199,8 @@ align: center
 
 ## La perception catégorielle
 
-Les conclusions de l'expérience de Liberman et collègues ne se limitent pas à l'identification des indices acoustiques, mais portent également sur le mécanisme de compréhension des phonèmes. Observons de plus près les résultats de l'expérience du continuum synthétique, {numref}`Liberman3.png` (partie supérieure). Le pourcentage de réponses "ba", "da", ou "ga" est représenté en fonction du numéro du stimulus, c'est à dire le long du continuum. On peut noter que la compréhension "bascule" brutalement d'une syllabe à une autre. Autrement dit la plupart des sons sont perçus sans ambiguïté : à l'exception des stimuli numéros 4, 9 et 10, tous sont catégorisés de façon unanime comme un "ba", un "da", ou un "ga". 
+Les conclusions de l'expérience de Liberman et collègues ne se limitent pas à l'identification des indices acoustiques, mais portent également sur le mécanisme de compréhension des phonèmes. Observons de plus près les résultats de l'expérience du continuum synthétique, {numref}`Liberman3.png` (partie supérieure). Le pourcentage de réponses "ba", "da", ou "ga" est représenté en fonction du numéro du stimulus, c'est à dire le long du continuum. On peut noter que la compréhension "bascule" brutalement d'une syllabe à une autre. Autrement dit, la plupart des sons sont perçus sans ambiguïté comme un "ba", un "da", ou un "ga" (à l'exception des stimuli numéros 4, 9 et 10, seuls à produire des pourcentages de réponse intermédiaires entre 0% et 100%). Pourtant le continuum de parole synthétique a été conçu par pas égaux et progressifs. On voit donc que **le long d'un continuum physique linéaire, la perception peut être hautement discontinue**. 
+Speech sounds are treated discontinuously;  a sound that is acoustically halfway between bat and pat does not mean something halfway between batting and patting. (Pinker, Language instinct)
 
 discrimination entre deux stimuli adjacents
 
@@ -238,7 +239,7 @@ Perception catégorielle de la parole :
 La perception des phonèmes (catégorisation et discrimination) présente des discontinuités marquées au niveau des frontières phonémiques.
 Permet de subdiviser l’espace acoustique ! (comme figure 91)
 
-Speech sounds are treated discontinuously;  a sound that is acoustically halfway between bat and pat does not mean something halfway between batting and patting. (Pinker, Language instinct)
+
 
 
 Perception catégorielle : un mécanisme perceptuel très général

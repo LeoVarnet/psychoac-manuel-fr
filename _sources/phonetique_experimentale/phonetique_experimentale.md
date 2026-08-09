@@ -215,8 +215,9 @@ Dans une seconde expérience, Liberman et collègues remplacèrent la tâche de 
 **Paradigme** : yes/no
 ```
 
-La démo suivante ne comporte que deux paires de stimuli, séparés par une distance égale sur le continuum. La première correspond aux stimuli #5 et #7, la seconde aux stimuli #8 et #10. Bien que chaque paire ne diffère que par un écart de 300 Hz dans l'attaque du F2, la première paire semble presque indifférenciable, tandis que la seconde est clairement composée de deux stimuli différents.
+La démo suivante comporte deux paires de sons de parole synthétique, séparés par une distance égale sur le continuum. La première correspond aux stimuli #5 et #7, la seconde aux stimuli #8 et #10. Bien que chaque paire ne diffère que par un écart de 300 Hz dans l'attaque du F2, la première paire semble presque indifférenciable, tandis que la seconde est clairement composée de deux stimuli différents.
 
+De même, l'expérience de Liberman démontra que la capacité à discriminer les syllabes synthétiques était inégale le long du continuum ( {numref}`Liberman3.png`, partie inférieure). Les paired de stimuli adjacents étaient dans la grande majorité indiscriminables, comme l'indiquent les scores proches de 50% -- le taux de bonnes réponses obtenu en répondant au hasard. En revanche, certaines paires de stimuli sont plus aisément differentiables, comme la paire composée des # et # (x% de réponses correctes) ou celle composée des # et # (x% de réponses correctes).
 
 <audio controls>
   <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/phonetique_experimentale/badaga_disc.wav" type="audio/wav">

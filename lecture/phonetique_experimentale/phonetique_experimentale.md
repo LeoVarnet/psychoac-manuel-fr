@@ -199,11 +199,23 @@ align: center
 
 ## La perception catégorielle
 
-Les conclusions de l'expérience de Liberman et collègues ne se limitent pas à l'identification des indices acoustiques, mais portent également sur le mécanisme de compréhension des phonèmes. Observons de plus près les résultats de l'expérience du continuum synthétique, {numref}`Liberman3.png` (partie supérieure). Le pourcentage de réponses "ba", "da", ou "ga" est représenté en fonction du numéro du stimulus, c'est à dire le long du continuum. On peut noter que la compréhension "bascule" brutalement d'une syllabe à une autre. Autrement dit, la plupart des sons sont perçus sans ambiguïté comme un "ba", un "da", ou un "ga" (à l'exception des stimuli numéros 4, 9 et 10, seuls à produire des pourcentages de réponse intermédiaires entre 0% et 100%). Pourtant le continuum de parole synthétique a été conçu par pas égaux et progressifs. On voit donc que **le long d'un continuum physique linéaire, la perception peut être hautement discontinue**. En d'autres termes, un son à mi-chemin entre "ba" et "da" n'est pas perçu comme une syllabe intermédiaire entre le "ba" et le "da". Il s'agit de la première caractéristique de la **perception catégorielle** des phonèmes.
+Les conclusions de l'expérience de Liberman et collègues ne se limitent pas à l'identification des indices acoustiques, mais portent également sur le mécanisme de compréhension des phonèmes. Observons de plus près les résultats de l'expérience du continuum synthétique, {numref}`Liberman3.png` (partie supérieure). Le pourcentage de réponses "ba", "da", ou "ga" est représenté en fonction du numéro du stimulus, c'est à dire le long du continuum. On peut noter que la compréhension "bascule" brutalement d'une syllabe à une autre. Autrement dit, la plupart des sons sont perçus sans ambiguïté comme un "ba", un "da", ou un "ga" (à l'exception des stimuli numéros 4, 9 et 10, seuls à produire des pourcentages de réponse intermédiaires entre 0% et 100%). Pourtant le continuum de parole synthétique a été conçu par pas égaux et progressifs. On voit donc que **le long d'un continuum physique linéaire, la perception peut être hautement discontinue**. En d'autres termes, un son à mi-chemin entre "ba" et "da" n'est pas perçu comme une syllabe intermédiaire entre le "ba" et le "da", mais comme un exemplaire clair de l'une ou l'autre de ces syllabes. Il s'agit de la première caractéristique de la **perception catégorielle** des phonèmes.
 
-Speech sounds are treated discontinuously;  a sound that is acoustically halfway between bat and pat does not mean something halfway between batting and patting. (Pinker, Language instinct)
+Dans une seconde expérience, Liberman et collègues remplacèrent la tâche de catégorisation (*le stimulus que vous venez d'entendre correspondait-il à un "ba", un "da" ou un "ga" ?*) par une tâche de discrimination (*les deux stimuli que vous venez d'entendre étaient-ils identiques ou différents ?*). La méthodologie était par ailleurs identique à celle de l'expérience précédente.
 
-discrimination entre deux stimuli adjacents
+```{dropdown} Méthodologie expérience discrimination (Liberman, Delattre, Cooper, 1954)
+**Stimuli** : multiples syllabes synthétiques reproduisant les trajectoires des formants de "ba", mais avec une modification de la fréquence d'attaque du deuxième formant. 
+
+**Dimension d'intérêt** : fréquence d’attaque du 2ème formant.
+
+**Tâche** : *discrimination (deux stimuli sont présentés, soit identiques soit adjacents sur le continuum)*
+
+**Méthode** : méthode des stimuli constants
+
+**Paradigme** : yes/no
+```
+
+La démo suivante illustre le résultat principal. 
 
 <audio controls>
   <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/phonetique_experimentale/badaga_disc.wav" type="audio/wav">

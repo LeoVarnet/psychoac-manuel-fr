@@ -223,7 +223,7 @@ La démo suivante comporte deux paires de sons de parole synthétique, situés �
 
 Comme le suggère cette démo, l'expérience de Liberman démontra que la capacité à discriminer les syllabes synthétiques était inégale le long du continuum ({numref}`Liberman3.png`, partie inférieure). Les paires de stimuli adjacents étaient dans la grande majorité indiscriminables, conduisant à des scores proches de 50% -- le taux de bonnes réponses obtenu en répondant au hasard. En revanche, certaines paires de stimuli étaient plus aisément differentiables, comme la paire composée des # et # (x% de réponses correctes) ou celle composée des # et # (x% de réponses correctes). 
 
-Si l'on met en regard les résultats des expériences de catégorisation et discrimination, on constate que les paires de stimuli qui sont perçues comme plus différentes sont celles qui tombent de part et d'autre d'une frontière phonétique 
+Si l'on met en regard les résultats des expériences de catégorisation et discrimination, on constate que les paires de stimuli qui sont perçues comme les plus différentes sont celles qui tombent de part et d'autre d'une frontière phonétique. Au contraire, deux syllabes synthétiques appartenant à la même catégorie s'avèrent particulièrement difficile à discriminer. D'une certaine manière, les différents exemplaires de "ba" se révèlent être perceptuellement équivalents, puisqu'ils sont presque indistinguables, de même que les différents exemplaires de "da" ou les différents exemplaires de "ga".
 
 
 Les différences de F2 ne sont pas perçues (performance de discrimination ≈ 50%), sauf entre deux catégories.

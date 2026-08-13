@@ -221,12 +221,9 @@ La démo suivante comporte deux paires de sons de parole synthétique, situés �
   <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/phonetique_experimentale/badaga_disc.wav" type="audio/wav">
 </audio>
 
-Comme le suggère cette démo, l'expérience de Liberman démontra que la capacité à discriminer les syllabes synthétiques était inégale le long du continuum ({numref}`Liberman3.png`, partie inférieure). Les paires de stimuli adjacents étaient dans la grande majorité indiscriminables, conduisant à des scores proches de 50% -- le taux de bonnes réponses obtenu en répondant au hasard. En revanche, certaines paires de stimuli étaient plus aisément differentiables, comme la paire composée des # et # (x% de réponses correctes) ou celle composée des # et # (x% de réponses correctes). 
+Comme le suggère cette démo, l'expérience de Liberman démontra que la capacité à discriminer les syllabes synthétiques était inégale le long du continuum ({numref}`Liberman3.png`, partie inférieure). Les differences de F2 entre stimuli adjacents étaient dans la grande majorité imperceptibles, conduisant à des scores de discrimination proches de 50% -- le taux de bonnes réponses obtenu en répondant au hasard. En revanche, certaines paires de stimuli étaient plus aisément differentiables, comme la paire composée des # et # (x% de réponses correctes) ou celle composée des # et # (x% de réponses correctes). 
 
 Si l'on met en regard les résultats des expériences de catégorisation et discrimination, on constate que les paires de stimuli qui sont perçues comme les plus différentes sont celles qui tombent de part et d'autre d'une frontière phonétique. Au contraire, deux syllabes synthétiques appartenant à la même catégorie s'avèrent particulièrement difficile à discriminer. D'une certaine manière, les différents exemplaires de "ba" se révèlent être perceptuellement équivalents, puisqu'ils sont presque indistinguables, de même que les différents exemplaires de "da" ou les différents exemplaires de "ga".
-
-
-Les différences de F2 ne sont pas perçues (performance de discrimination ≈ 50%), sauf entre deux catégories.
 
 ```{figure} Liberman3.png
 ---
@@ -238,10 +235,13 @@ align: center
 *.*
 ```
 
-Perception catégorielle : définition
-1. La fonction psychométrique de catégorisation de phonème a une très forte pente ( peu de stimuli ambigus). Le seuil à 50% s’appelle frontière phonémique. 
-2. La discrimination au niveau d’une frontière phonémique est facilitée. Au contraire, les exemplaires d’une même catégorie phonémique sont difficiles à différencier.
+Les résultats des expériences de catégorisation et de discrimination conduisirent Liberman et son équipe à proposer une définition en deux points de la perception catégorielle :
 
+1. La fonction psychométrique de catégorisation des phonèmes a une très forte pente (c'est à dire que peu de stimuli sont perçus de façon ambigue). Le seuil à 50% s’appelle frontière phonémique.
+2. La discrimination au niveau d’une frontière phonémique est facilitée. Au contraire, les exemplaires d’une même catégorie phonémique sont difficiles à différencier.
+[en réalité, une troisième condition doit être remplie pour pouvoir parler de perception catégorielle : les performances dans la tâche de discrimination doivent être entièrement prédictibles à partir des performances dans la tâche de catégorisation, indiquant que la seule information sur laquelle se base le cerveau pour distinguer les sons est leur identité linguistique, et non leurs caractéristiques acoustiques].
+
+Comme mentionné précédemment, les expériences de perception catégorielle des phonèmes sont un fondement de la psycholinguistique et ont depuis été répliquées de nombreuses fois. La figure suivante en fournit un exemple recent.
 
 ```{figure} Chang2010.png
 ---
@@ -257,7 +257,17 @@ Perception catégorielle de la parole :
 La perception des phonèmes (catégorisation et discrimination) présente des discontinuités marquées au niveau des frontières phonémiques.
 Permet de subdiviser l’espace acoustique ! (comme figure 91)
 
+Schématiquement, résoudre le problème de la discrétisation revient à placer des frontières (les **frontières phonémiques**) dans l'espace acoustique pour délimiter les régions correspondant à chaque voyelle, comme illustré sur la figure suivante. Lorsque nous percevons un son de voyelle, il suffirait alors à notre cerveau de mesurer les valeurs de F1 et F2 et de déterminer dans quelle région de l'espace vocalique se situe ce son [[2](note2phonac)].
 
+```{figure} Hillen3.png
+---
+name: Hillen3.png
+alt: XXXXX
+width: 70%
+align: center
+---
+*Exemple de frontières phonémiques hypothétiques dans l'espace F1-F2, délimitant les régions associées à chaque voyelle.*
+```
 
 
 Perception catégorielle : un mécanisme perceptuel très général

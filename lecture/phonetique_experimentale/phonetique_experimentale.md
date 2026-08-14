@@ -265,6 +265,7 @@ align: center
 *Exemple de frontières phonémiques hypothétiques dans l'espace F1-F2, délimitant les régions associées à chaque voyelle.*
 ```
 
+Nous reviendrons sur les implications du phénomène de catégorisation perceptuelle, en particulier pour conférer à notre système auditif une capacité d'abstraction nécessaire à la compréhension du langage, dans la conclusion de ce chapitre. ici juste noter que le second problème n'est pas réglé 
 
 Perception catégorielle : un mécanisme perceptuel très général
 

@@ -238,7 +238,7 @@ align: center
 Les résultats des expériences de catégorisation et de discrimination conduisirent Liberman et son équipe à proposer une définition en deux points de la perception catégorielle :
 
 1. La fonction psychométrique de catégorisation des phonèmes a une très forte pente (c'est à dire que peu de stimuli sont perçus de façon ambigue). Le seuil à 50% s’appelle frontière phonémique.
-2. La discrimination au niveau d’une frontière phonémique est facilitée. Au contraire, les exemplaires d’une même catégorie phonémique sont difficiles à différencier.
+2. La discrimination au niveau d’une frontière phonémique est facilitée. Au contraire, les exemplaires d’une même catégorie phonémique sont difficiles à différencier. [[1](note1percat)].
 [en réalité, une troisième condition doit être remplie pour pouvoir parler de perception catégorielle : les performances dans la tâche de discrimination doivent être entièrement prédictibles à partir des performances dans la tâche de catégorisation, indiquant que la seule information sur laquelle se base le cerveau pour distinguer les sons est leur identité linguistique, et non leurs caractéristiques acoustiques].
 
 Comme mentionné précédemment, les expériences de perception catégorielle des phonèmes sont un fondement de la psycholinguistique et ont depuis été répliquées de nombreuses fois. La figure suivante en fournit un exemple recent.
@@ -253,13 +253,9 @@ align: center
 *.*
 ```
 
-Perception catégorielle de la parole : 
-La perception des phonèmes (catégorisation et discrimination) présente des discontinuités marquées au niveau des frontières phonémiques.
-Permet de subdiviser l’espace acoustique ! (comme figure 91)
+Le phénomène de perception catégorielle permet de résoudre en partie le problème de la discrétisation évoqué au chapitre précédent. En effet, nous venons de voir que la perception des phonèmes (catégorisation et discrimination) présente des discontinuités marquées au niveau des frontières phonémiques. Ceci permet de subdiviser l’espace acoustique en délimitant les régions correspondant à chaque phonème (comme dans le cas des voyelles déjà évoqué au chapitre précédent, voir figure {numref}`Hillen3bis.png`).
 
-Schématiquement, résoudre le problème de la discrétisation revient à placer des frontières (les **frontières phonémiques**) dans l'espace acoustique pour délimiter les régions correspondant à chaque voyelle, comme illustré sur la figure suivante. Lorsque nous percevons un son de voyelle, il suffirait alors à notre cerveau de mesurer les valeurs de F1 et F2 et de déterminer dans quelle région de l'espace vocalique se situe ce son [[2](note2phonac)].
-
-```{figure} Hillen3.png
+```{figure} Hillen3bis.png
 ---
 name: Hillen3.png
 alt: XXXXX

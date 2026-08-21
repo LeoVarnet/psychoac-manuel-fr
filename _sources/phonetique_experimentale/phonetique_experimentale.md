@@ -265,9 +265,7 @@ align: center
 *Exemple de frontières phonémiques hypothétiques dans l'espace F1-F2, délimitant les régions associées à chaque voyelle.*
 ```
 
-Nous reviendrons sur les implications du phénomène de catégorisation perceptuelle, en particulier pour conférer à notre système auditif une capacité d'abstraction nécessaire à la compréhension du langage, dans la conclusion de ce chapitre. ici juste noter que le second problème n'est pas réglé 
-
-Perception catégorielle : un mécanisme perceptuel très général
+La perception catégorielle est un phénomène très général, qui peut être observé non seulement dans la perception des phonèmes mais également sur certaines tâches non linguistiques, et dans d'autres modalités comme la vision. La figure suivante illustre ainsi une expérience de perception des visages XXX
 
 ```{figure} Todorova2020.png
 ---
@@ -278,6 +276,9 @@ align: center
 ---
 *.*
 ```
+
+Nous reviendrons sur les implications du phénomène de catégorisation perceptuelle, en particulier pour conférer à notre système auditif une capacité d'abstraction nécessaire à la compréhension du langage, dans la conclusion de ce chapitre. ici juste noter que le second problème n'est pas réglé 
+
 
 Certaines catégories (mais pas toutes) dépendent de la culture :
 P.ex., les différentes langues n’ont pas le même répertoire 

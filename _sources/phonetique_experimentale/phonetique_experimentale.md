@@ -253,7 +253,7 @@ align: center
 *.*
 ```
 
-Le phénomène de perception catégorielle permet de résoudre en partie le problème de la discrétisation évoqué au chapitre précédent. En effet, nous venons de voir que la perception des phonèmes (catégorisation et discrimination) présente des discontinuités marquées au niveau des frontières phonémiques. Ceci permet de subdiviser l’espace acoustique en délimitant les régions correspondant à chaque phonème (comme dans le cas des voyelles déjà évoqué au chapitre précédent, voir figure {numref}`Hillen3bis.png`).
+Ces observations permettent de répondre en partie au problème de la discrétisation évoqué au chapitre précédent. En effet, nous venons de voir que la perception des phonèmes (catégorisation et discrimination) présente des discontinuités marquées au niveau des frontières phonémiques. Ceci permet de subdiviser l’espace acoustique en délimitant les régions correspondant à chaque phonème (comme dans le cas des voyelles déjà évoqué au chapitre précédent, voir figure {numref}`Hillen3bis.png`). Plutôt que de percevoir des différences graduelles entre les sons de façon égale, notre cerveau en amplifie certaines et en fait disparaitre d'autres. En pratique, ceci permet de définir des zones de l'espace acoustique où tous les sons sont équivalents 
 
 ```{figure} Hillen3bis.png
 ---

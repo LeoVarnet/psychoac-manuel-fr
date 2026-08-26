@@ -253,7 +253,7 @@ align: center
 *.*
 ```
 
-Ces observations permettent de répondre en partie au problème de la discrétisation évoqué au chapitre précédent. En effet, nous venons de voir que la perception des phonèmes (catégorisation et discrimination) présente des discontinuités marquées au niveau des frontières phonémiques. Ceci permet de subdiviser l’espace acoustique en délimitant les régions correspondant à chaque phonème (comme dans le cas des voyelles déjà évoqué au chapitre précédent, voir figure {numref}`Hillen3bis.png`). Plutôt que de percevoir des différences graduelles entre les sons de façon égale, notre cerveau en amplifie certaines et en fait disparaitre d'autres. En pratique, ceci permet de définir des zones de l'espace acoustique où tous les sons sont équivalents 
+Ces observations permettent de répondre en partie au problème de la discrétisation évoqué au chapitre précédent. En effet, nous venons de voir que la perception des phonèmes (catégorisation et discrimination) présente des discontinuités marquées au niveau des frontières phonémiques. Ceci permet de subdiviser l’espace acoustique en délimitant les régions correspondant à chaque phonème (comme dans le cas des voyelles déjà évoqué au chapitre précédent, voir figure {numref}`Hillen3bis.png`). Plutôt que de percevoir des différences graduelles entre les sons de façon égale, notre cerveau en amplifie certaines et en fait disparaitre d'autres. En pratique, ceci permet de définir des zones de l'espace acoustique où tous les sons sont équivalents, c'est-à-dire qu'ils sont catégorisés comme un seul et même phonème. En pratique ce
 
 ```{figure} Hillen3bis.png
 ---

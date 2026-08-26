@@ -241,7 +241,7 @@ Les résultats des expériences de catégorisation et de discrimination conduisi
 2. La discrimination au niveau d’une frontière phonémique est facilitée. Au contraire, les exemplaires d’une même catégorie phonémique sont difficiles à différencier. [[1](note1percat)].
 [en réalité, une troisième condition doit être remplie pour pouvoir parler de perception catégorielle : les performances dans la tâche de discrimination doivent être entièrement prédictibles à partir des performances dans la tâche de catégorisation, indiquant que la seule information sur laquelle se base le cerveau pour distinguer les sons est leur identité linguistique, et non leurs caractéristiques acoustiques].
 
-Comme mentionné précédemment, les expériences de perception catégorielle des phonèmes sont un fondement de la psycholinguistique et ont depuis été répliquées de nombreuses fois. La figure suivante en fournit un exemple recent.
+Comme mentionné précédemment, les expériences de perception catégorielle des phonèmes sont un fondement de la psycholinguistique et ont depuis été répliquées de nombreuses fois. La figure suivante en fournit un exemple récent.
 
 ```{figure} Chang2010.png
 ---
@@ -253,7 +253,7 @@ align: center
 *.*
 ```
 
-Ces observations permettent de répondre en partie au problème de la discrétisation évoqué au chapitre précédent. En effet, nous venons de voir que la perception des phonèmes (catégorisation et discrimination) présente des discontinuités marquées au niveau des frontières phonémiques. Ceci permet de subdiviser l’espace acoustique en délimitant les régions correspondant à chaque phonème (comme dans le cas des voyelles déjà évoqué au chapitre précédent, voir figure {numref}`Hillen3bis.png`). Plutôt que de percevoir des différences graduelles entre les sons de façon égale, notre cerveau en amplifie certaines et en fait disparaitre d'autres. En pratique, ceci permet de définir des zones de l'espace acoustique où tous les sons sont équivalents, c'est-à-dire qu'ils sont catégorisés comme un seul et même phonème. En pratique ce
+Ces observations permettent de répondre en partie au problème de la discrétisation soulevé au chapitre précédent. En effet, la catégorisation et la discrimination des phonèmes présentent des discontinuités marquées au niveau des frontières phonémiques, subdivisant l’espace acoustique en régions distinctes, chacune correspondant à un phonème spécifique. Plutôt que de percevoir les différences entre les sons de manière uniforme, notre système auditif amplifie certaines distinctions tout en atténuant d’autres. Ces non-linéarités définissent ainsi des catégories de sons qui, bien que physiquement différents, sont perçus comme équivalents. Ceci permet ainsi de réunir et d'assimiler différentes productions d'un même phonème malgré les différences acoustiques existant entre celles-ci (ce que nous avions illustré figure {numref}`Hillen3bis.png` dans le cas des voyelles). Ce mécanisme joue donc un rôle fondamental dans la compréhension de la parole. Non seulement il répond au problème de la discrétisation, mais il renforce également la robustesse de la perception des phonèmes. En effet, les différences acoustiques pertinentes pour le langage (celles qui séparent deux catégories phonémiques distinctes) sont amplifiées, tandis que les variations non pertinentes (celles observées entre deux occurrences d’un même phonème), sont réduites.
 
 ```{figure} Hillen3bis.png
 ---

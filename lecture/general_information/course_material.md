@@ -8,7 +8,7 @@
 - Cours 2 (06/10 13h30-16h30, S9) : Physiologie du système auditif ([slides](https://sdrive.cnrs.fr/s/9rAAnyQR8mAWS6n))
 - Cours 3 (20/10 13h30-16h30, S9) : Attributs perceptifs simples et capacités auditives bas niveau ([slides](https://sdrive.cnrs.fr/s/jFtGC5cd8TBZxZQ))
 - Cours 4 (17/11 13h30-16h30, A-105) : Psycholinguistique et perception des phonèmes ([slides](https://sdrive.cnrs.fr/s/R4WHBkH4pyKAASE))
-- Cours 5 (01/12 13h30-16h30, A-105) : Perception et réalité ([slides](https://sdrive.cnrs.fr/s/sTnbPYfNjCdBYrF))
+- Cours 5 (24/11 13h30-16h30, A-105) : Perception et réalité ([slides](https://sdrive.cnrs.fr/s/sTnbPYfNjCdBYrF))
 
 ### Exercices
 

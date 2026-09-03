@@ -28,6 +28,7 @@ Annales :
 - Examen 2022-2023 : [sujet](https://sdrive.cnrs.fr/s/8AEdTG97PksEAyE) / [corrigé](https://sdrive.cnrs.fr/s/GGDsrbjQiCJzbrM)
 - Examen 2023-2024 : [sujet](https://sdrive.cnrs.fr/s/BpBqt6qXa34Z9Aw) / [corrigé](https://sdrive.cnrs.fr/s/AMTgMYPa7DSG5wj)
 - Examen 2024-2025 : [sujet](https://sdrive.cnrs.fr/s/XTCrtYfyYQXmTWE) / [corrigé](https://sdrive.cnrs.fr/s/L4MdyzpfkzqTDyj)
+- Examen 2025-2026 : [sujet](https://sdrive.cnrs.fr/s/LDjdn8ZzfPqW3dq) / [corrigé](https://sdrive.cnrs.fr/s/2CBfLgLyc6tZKc3)
 
 ## **Perception, memory and core knowledge** (Ecole Normale Supérieure de Paris, year 2025-2026)
 

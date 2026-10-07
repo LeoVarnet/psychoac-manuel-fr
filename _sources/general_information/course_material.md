@@ -33,8 +33,8 @@ Annales :
 ## **Perception, memory and core knowledge** (Ecole Normale Supérieure de Paris, year 2025-2026)
 
 - Lecture 1: Methodology of Psychophysics ([slides](https://sdrive.cnrs.fr/s/EyZ5Q5WQNjBi8SE))
-- Lecture 4: Basic Auditory Attributes: Loudness, Pitch, Location & Timbre ([slides](https://sdrive.cnrs.fr/s/byMzdPbSadFwJqY))
-- Lecture 5: Phoneme Perception ([slides](https://sdrive.cnrs.fr/s/kAmAkATbw53bssL))
+- Lecture 2: Basic Auditory Attributes: Loudness, Pitch, Location & Timbre ([slides](https://sdrive.cnrs.fr/s/byMzdPbSadFwJqY))
+- Lecture 3: Phoneme Perception ([slides](https://sdrive.cnrs.fr/s/kAmAkATbw53bssL))
 
 ```{note}
 For more info about this course, check the Moodle

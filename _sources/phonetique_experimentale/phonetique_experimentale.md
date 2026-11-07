@@ -215,13 +215,13 @@ Dans une seconde expérience, Liberman et collègues remplacèrent la tâche de 
 **Paradigme** : yes/no
 ```
 
-La démo suivante comporte deux paires de sons de parole synthétique, situés à une distance égale sur le continuum. La première correspond aux stimuli # et #, la seconde aux stimuli # et #. Bien que chaque paire ne diffère que par un écart de 300 Hz dans l'attaque du F2, la première paire semble presque indifférenciable, tandis que la seconde est clairement composée de deux stimuli différents.
+La démo suivante comporte deux paires de sons de parole synthétique, situés à une distance égale sur le continuum. La première correspond aux stimuli #4 et #8, la seconde aux stimuli #7 et #11. Bien que chaque paire ne diffère que par un écart de 300 Hz dans l'attaque du F2, la première paire semble presque indifférenciable, tandis que la seconde est clairement composée de deux stimuli différents.
 
 <audio controls>
   <source src="https://github.com/LeoVarnet/psychoac-manuel-fr/raw/refs/heads/main/lecture/phonetique_experimentale/badaga_disc.wav" type="audio/wav">
 </audio>
 
-Comme le suggère cette démo, l'expérience de Liberman démontra que la capacité à discriminer les syllabes synthétiques était inégale le long du continuum ({numref}`Liberman3.png`, partie inférieure). Les differences de F2 entre stimuli adjacents étaient dans la grande majorité imperceptibles, conduisant à des scores de discrimination proches de 50% -- le taux de bonnes réponses obtenu en répondant au hasard. En revanche, certaines paires de stimuli étaient plus aisément differentiables, comme la paire composée des # et # (x% de réponses correctes) ou celle composée des # et # (x% de réponses correctes). 
+Comme le suggère cette démo, l'expérience de Liberman démontra que la capacité à discriminer les syllabes synthétiques était inégale le long du continuum ({numref}`Liberman3.png`, partie inférieure). Les différences de F2 entre stimuli adjacents étaient dans la grande majorité imperceptibles, conduisant à des scores de discrimination proches de 50% -- le taux de bonnes réponses obtenu en répondant au hasard. En revanche, certaines paires de stimuli étaient plus aisément differentiables, comme la paire composée des #3 et #4 (80% de réponses correctes) ou celle composée des #8 et #9 (75% de réponses correctes). 
 
 Si l'on met en regard les résultats des expériences de catégorisation et discrimination, on constate que les paires de stimuli qui sont perçues comme les plus différentes sont celles qui tombent de part et d'autre d'une frontière phonétique. Au contraire, deux syllabes synthétiques appartenant à la même catégorie s'avèrent particulièrement difficile à discriminer. D'une certaine manière, les différents exemplaires de "ba" se révèlent être perceptuellement équivalents, puisqu'ils sont presque indistinguables, de même que les différents exemplaires de "da" ou les différents exemplaires de "ga".
 
@@ -229,10 +229,10 @@ Si l'on met en regard les résultats des expériences de catégorisation et disc
 ---
 name: Liberman3.png
 alt: XXXXX
-width: 70%
+width: 60%
 align: center
 ---
-*.*
+*Résultats des expériences de Liberman, Delattre, et Cooper (1954). En haut : tâche de catégorisation (pourcentage de réponses "ba", "da" et "ga" le long du continuum de stimuli synthétiques). En bas : tâche de discrimination (pourcentage de réponses correctes dans la discrimination entre le stimulus N et le stimulus N+1).*
 ```
 
 Les résultats des expériences de catégorisation et de discrimination conduisirent Liberman et son équipe à proposer une définition en deux points de la perception catégorielle :
@@ -250,36 +250,24 @@ alt: XXXXX
 width: 70%
 align: center
 ---
-*.*
+*Réplication récente de l'expérience de la {numref}`Liberman3.png` par Chang et al. (2010). En bas : continuum synthétique. EN haut résultats de la tâche de catégorisation (b) et de la tâche de discrimination (c)*
 ```
 
-Ces observations permettent de répondre en partie au problème de la discrétisation soulevé au chapitre précédent. En effet, la catégorisation et la discrimination des phonèmes présentent des discontinuités marquées au niveau des frontières phonémiques, subdivisant l’espace acoustique en régions distinctes, chacune correspondant à un phonème spécifique. Plutôt que de percevoir les différences entre les sons de manière uniforme, notre système auditif amplifie certaines distinctions tout en atténuant d’autres. Ces non-linéarités définissent ainsi des catégories de sons qui, bien que physiquement différents, sont perçus comme équivalents. Ceci permet ainsi de réunir et d'assimiler différentes productions d'un même phonème malgré les différences acoustiques existant entre celles-ci (ce que nous avions illustré figure {numref}`Hillen3bis.png` dans le cas des voyelles). Ce mécanisme joue donc un rôle fondamental dans la compréhension de la parole. Non seulement il répond au problème de la discrétisation, mais il renforce également la robustesse de la perception des phonèmes. En effet, les différences acoustiques pertinentes pour le langage (celles qui séparent deux catégories phonémiques distinctes) sont amplifiées, tandis que les variations non pertinentes (celles observées entre deux occurrences d’un même phonème), sont réduites.
+Ces observations permettent de répondre en partie au problème de la discrétisation soulevé au chapitre précédent. En effet, la catégorisation et la discrimination des phonèmes présentent des discontinuités marquées au niveau des frontières phonémiques, subdivisant l’espace acoustique en régions distinctes, chacune correspondant à un phonème spécifique. Plutôt que de percevoir les différences entre les sons de manière uniforme, notre système auditif amplifie certaines distinctions tout en atténuant d’autres. Ces non-linéarités définissent ainsi des catégories de sons qui, bien que physiquement différents, sont perçus comme équivalents. Ceci permet ainsi de réunir et d'assimiler différentes productions d'un même phonème malgré les différences acoustiques existant entre celles-ci (ce que nous avions illustré figure {numref}`Hillen3.png` dans le cas des voyelles). Ce mécanisme joue donc un rôle fondamental dans la compréhension de la parole. Non seulement il répond au problème de la discrétisation, mais il renforce également la robustesse de la perception des phonèmes. En effet, les différences acoustiques pertinentes pour le langage (celles qui séparent deux catégories phonémiques distinctes) sont amplifiées, tandis que les variations non pertinentes (celles observées entre deux occurrences d’un même phonème), sont réduites.
 
-```{figure} Hillen3bis.png
----
-name: Hillen3.png
-alt: XXXXX
-width: 70%
-align: center
----
-*Exemple de frontières phonémiques hypothétiques dans l'espace F1-F2, délimitant les régions associées à chaque voyelle.*
-```
-
-La perception catégorielle est un phénomène très général, qui peut être observé non seulement dans la perception des phonèmes mais également sur certaines tâches non linguistiques, et dans d'autres modalités comme la vision. La figure suivante illustre ainsi une expérience de perception des visages XXX
+La perception catégorielle est un phénomène très général, qui peut être observé non seulement dans la perception des phonèmes mais également sur certaines tâches non linguistiques, et dans d'autres modalités comme la vision. La figure suivante illustre ainsi une expérience de perception des visages masculins et féminins. Le long d'un continuum synthétique de visages allant d'un visage clairement masculin à un visage clairement féminin, la perception du genre mesurée par une tâche de catégorisation (ce visage est-il masculin ou féminin ?) présente une discontinuité marquée. Ainsi les visages sont presque tous perçus de façon non ambiguë comme masculins ou comme féminins, et la perception bascule de "100% masculin" à "100% féminin" en l'espace de quelques stimuli seulement.
 
 ```{figure} Todorova2020.png
 ---
 name: Todorova2020.png
 alt: XXXXX
-width: 70%
+width: 90%
 align: center
 ---
-*.*
+*Exemple de phénomène de perception catégorielle dans la perception des visages masculins et féminins. En bas, continuum synthétique de visages obtenu par morphing entre un visage masculin (à gauche) et un visage féminin (à droite). En haut : pourcentage de jugements du visage comme étant masculin, le long du continuum. Figure adaptée de Todorova et al. (2020)*
 ```
 
-Nous reviendrons sur les implications du phénomène de catégorisation perceptuelle, en particulier pour conférer à notre système auditif une capacité d'abstraction nécessaire à la compréhension du langage, dans la conclusion de ce chapitre. ici juste noter que le second problème n'est pas réglé 
-
-
+Dans la 
 Certaines catégories (mais pas toutes) dépendent de la culture :
 P.ex., les différentes langues n’ont pas le même répertoire 
 de phonèmes
@@ -351,6 +339,9 @@ Elle revient à ignorer les variations non pertinentes (au sein d’une catégor
 Elle réalise ainsi une forme de conversion analogique-numérique (espace physique continu → espace perceptuel discret)
 Les formants et transition des formants jouent un rôle fondamental dans la reconnaissance des phonèmes (p.ex. attaque du F2 pour /b/-/d/-/g/)
 Le problème du manque d’invariance subsiste.
+
+
+Nous reviendrons sur les implications du phénomène de catégorisation perceptuelle, en particulier pour conférer à notre système auditif une capacité d'abstraction nécessaire à la compréhension du langage, dans la conclusion de ce chapitre. ici juste noter que le second problème n'est pas réglé 
 
 ## Références
 

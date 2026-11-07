@@ -253,7 +253,19 @@ align: center
 *Réplication récente de l'expérience de la {numref}`Liberman3.png` par Chang et al. (2010). En bas : continuum synthétique. EN haut résultats de la tâche de catégorisation (b) et de la tâche de discrimination (c)*
 ```
 
-Ces observations permettent de répondre en partie au problème de la discrétisation soulevé au chapitre précédent. En effet, la catégorisation et la discrimination des phonèmes présentent des discontinuités marquées au niveau des frontières phonémiques, subdivisant l’espace acoustique en régions distinctes, chacune correspondant à un phonème spécifique. Plutôt que de percevoir les différences entre les sons de manière uniforme, notre système auditif amplifie certaines distinctions tout en atténuant d’autres. Ces non-linéarités définissent ainsi des catégories de sons qui, bien que physiquement différents, sont perçus comme équivalents. Ceci permet ainsi de réunir et d'assimiler différentes productions d'un même phonème malgré les différences acoustiques existant entre celles-ci (ce que nous avions illustré figure {numref}`Hillen3.png` dans le cas des voyelles). Ce mécanisme joue donc un rôle fondamental dans la compréhension de la parole. Non seulement il répond au problème de la discrétisation, mais il renforce également la robustesse de la perception des phonèmes. En effet, les différences acoustiques pertinentes pour le langage (celles qui séparent deux catégories phonémiques distinctes) sont amplifiées, tandis que les variations non pertinentes (celles observées entre deux occurrences d’un même phonème), sont réduites.
+Ces observations apportent une réponse partielle au problème de la discrétisation soulevé au chapitre précédent. Bien que les phonèmes se distribuent dans un espace acoustique continu et présentent une grande variabilité, y compris entre différentes productions d’un même phonème ({numref}`Hillen2.png`), leur perception, quant à elle, n’est pas uniforme. La catégorisation et la discrimination des sons de parole présentent des discontinuités marquées au niveau des frontières phonémiques, qui subdivisent l’espace acoustique en un nombre fini de catégories distinctes (comme illustré schématiquement {numref}`Hillen3.png`). Autrement dit, le mécanisme de perception catégorielle permet de réunir et d'assimiler différentes productions d'un même phonème malgré les différences acoustiques existant entre celles-ci : deux sons différents peuvent être perçus comme identiques dès lors qu’ils appartiennent à une même catégorie phonémique. Plus précisément, notre système auditif tend à amplifier les différences acoustiques pertinentes pour le langage (celles qui séparent deux catégories phonémiques distinctes), tout en atténuant les variations non pertinentes (celles qui existent entre différentes productions d’un même phonème). Ainsi, la perception catégorielle joue donc un rôle fondamental dans la compréhension de la parole, renforçant sa robustesse en permettant de reconnaître un même phonème malgré la variabilité acoustique inhérente à ses productions.
+
+Une question se pose alors : tous les individus ne perçoivent-ils pas les phonèmes de la même manière ? En effet, les langues du monde ne possèdent pas toutes le même répertoire phonémique -- par exemple, la distinction entre la première consonne des mots anglais "dough" et "thought", ou celle entre la première voyelle des mots allemand "bieten" et "bitten", n'existent pas en français. Deux individus parlant des langues différentes ne disposent donc pas nécessairement des mêmes frontières phonémiques et, par conséquent, ne catégorisent pas les sons de la même manière. C'est effectivement ce que l'on observe au cours du développement. Durant les six premiers mois de leur vie, les nourrissons présentent des capacités de discrimination phonémique relativement similaires, quelle que soit leur langue maternelle. Ils sont ainsi capables de distinguer un large éventail de contrastes phonétiques, y compris ceux qui ne sont pas utilisés dans leur langue d'exposition. À partir de six mois environ, leurs capacités perceptives commencent toutefois à se spécialiser : ils deviennent progressivement plus sensibles aux distinctions pertinentes dans leur langue maternelle, tandis que leur sensibilité à certains contrastes non pertinents dans celle-ci diminue. A l'âge adulte, les auditeurs et auditrices possèdent un système auditif "accordé" à leur langue.
+
+```{figure} Miyawaki1975.png
+---
+name: Miyawaki1975.png
+alt: XXXXX
+width: 70%
+align: center
+---
+*.*
+```
 
 La perception catégorielle est un phénomène très général, qui peut être observé non seulement dans la perception des phonèmes mais également sur certaines tâches non linguistiques, et dans d'autres modalités comme la vision. La figure suivante illustre ainsi une expérience de perception des visages masculins et féminins. Le long d'un continuum synthétique de visages allant d'un visage clairement masculin à un visage clairement féminin, la perception du genre mesurée par une tâche de catégorisation (ce visage est-il masculin ou féminin ?) présente une discontinuité marquée. Ainsi les visages sont presque tous perçus de façon non ambiguë comme masculins ou comme féminins, et la perception bascule de "100% masculin" à "100% féminin" en l'espace de quelques stimuli seulement.
 
@@ -267,28 +279,6 @@ align: center
 *Exemple de phénomène de perception catégorielle dans la perception des visages masculins et féminins. En bas, continuum synthétique de visages obtenu par morphing entre un visage masculin (à gauche) et un visage féminin (à droite). En haut : pourcentage de jugements du visage comme étant masculin, le long du continuum. Figure adaptée de Todorova et al. (2020)*
 ```
 
-Dans la 
-Certaines catégories (mais pas toutes) dépendent de la culture :
-P.ex., les différentes langues n’ont pas le même répertoire 
-de phonèmes
-debt-death-deaf (/t/-/θ/-/f/) 
-dough-thought-fought (/d/-/θ/-/f/)
-bit-beat (/ɪ/-/iː/)
-… donc pas les mêmes frontières phonémiques.
- 
-Les frontières sont apprises au cours du développement de 
-l’enfant (dans les 6 premiers mois de la vie, capacités de 
-discrimination des phonèmes non-spécifiques à la langue). 
-
-```{figure} Miyawaki1975.png
----
-name: Miyawaki1975.png
-alt: XXXXX
-width: 70%
-align: center
----
-*.*
-```
 
 Les catégorisations spontanées surviennent en permanence dans notre cerveau et dépendent non seulement de notre langue, mais aussi de notre culture.
 Une catégorie réunit utilement un ensemble d’éléments. Elle rend disponibles des propriétés qui ne sont pas immédiatement perceptibles. 

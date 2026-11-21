@@ -279,6 +279,7 @@ align: center
 *Exemple de phénomène de perception catégorielle dans la perception des visages masculins et féminins. En bas, continuum synthétique de visages obtenu par morphing entre un visage masculin (à gauche) et un visage féminin (à droite). En haut : pourcentage de jugements du visage comme étant masculin, le long du continuum. Figure adaptée de Todorova et al. (2020)*
 ```
 
+Comme nous l'avons vu, un certain degré de perception catégorielle est nécessaire à compréhension des 
 
 Les catégorisations spontanées surviennent en permanence dans notre cerveau et dépendent non seulement de notre langue, mais aussi de notre culture.
 Une catégorie réunit utilement un ensemble d’éléments. Elle rend disponibles des propriétés qui ne sont pas immédiatement perceptibles. 

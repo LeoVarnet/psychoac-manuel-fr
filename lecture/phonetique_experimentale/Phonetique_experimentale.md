@@ -172,7 +172,7 @@ alt: XXXXX
 width: 100%
 align: center
 ---
-*Même continuum que {numref}`Continua_5.png`, avec les trajectoires des formants F1, F2 et F3 représentés en bleu.*
+*Même continuum que {numref}`Continua_5.png`, avec les trajectoires des formants F1, F2 et F3 représentées en bleu.*
 ```
 
 Cette approche par continuum de parole synthétique s’avère donc particulièrement utile pour identifier les indices acoustiques impliqués dans la perception des phonèmes. En effet, elle permet de tester le rôle d’une caractéristique acoustique spécifique dans la compréhension des sons. Pour cela, il suffit aux scientifiques de construire un continuum de stimuli où seule cette caractéristique varie, puis d'observer si la perception évolue le long de ce continuum. Si c'est le cas, l'expérience valide l’implication de cette caractéristique dans la reconnaissance des phonèmes. Il n'est donc pas surprenant que cette méthode ait été utilisée abondamment, tout d'abord par l'équipe de Liberman pour explorer tous les types de consonnes (voir {numref}`Delattre1968.png`), puis plus récemment par d'autres scientifiques qui ont mis au point des stimuli synthétiques de plus en plus réalistes.
@@ -293,8 +293,11 @@ Nous reviendrons sur les implications du phénomène de catégorisation perceptu
 
 ## Références
 
+- Li, F., Menon, A. & Allen, J. B. A psychoacoustic method to find the perceptual cues of stop consonants in natural speech. J. Acoust. Soc. Am. 127, 2599–2610 (2010).
+- Liberman, A. M., Delattre, P. C., Cooper, F. S. & Gerstman, L. J. The role of consonant-vowel transitions in the perception of the stop and nasal consonants. Psychological Monographs: General and Applied 68, 1–13 (1954).
+- Li, F. & Allen, J. B. Multiband product rule and consonant identification. J. Acoust. Soc. Am. 126, 347–353 (2009).
+- Delattre, P. From Acoustic Cues to Distinctive Features. PHO 18, 198–230 (1968).
+- Fletcher, H. The nature of speech and its interpretation. Journal of the Franklin Institute 193, 729–747 (1922).
+- Miyawaki, K. et al. An effect of linguistic experience: The discrimination of [r] and [l] by native speakers of Japanese and English. Perception & Psychophysics 18, 331–340 (1975).
+- Todorova, L. & Neville, D. A. Associative and Identity Words Promote the Speed of Visual Categorization: A Hierarchical Drift Diffusion Account. Front. Psychol. 11, (2020).
 
-[Fletcher, 1922; Li, Menon & Allen, 2010; Li allen 2009]
-Cooper, Liberman, Borst (1951)
-(Liberman, Delattre, Cooper, 1954)
-Delattre (1968)

@@ -280,16 +280,7 @@ align: center
 
 Comme nous l'avons vu, un certain degré de perception catégorielle est indispensable à la compréhension des phonèmes. Pour autant, le système auditif n'élimine pas toute information non-linguistique. Ainsi, lorsque nous décrochons le téléphone, nous reconnaissons notre interlocuteur ou notre interlocutrice au son de sa voix, tout en comprenant son propos, c'est-à-dire en décodant les phonèmes. Ceci suggère que la catégorisation intervient assez tardivement dans le traitement auditif, si bien que les informations non-linguistiques demeurent disponibles pour d'autres fonctions auditives. Par ailleurs, certaines données de recherche indiquent que, même pour la compréhension de la parole, nous ne retenons pas seulement l' "étiquette" correspondant aux phonèmes prononcés, mais des détails acoustiques plus fins : malgré notre capacité limitée à discriminer deux productions d'un même phonème, démontrée plus haut, il nous est cependant possible de juger qu'un son constitue une "bonne" ou une "mauvaise" prononciation d'une même voyelle.
 
-Conclusions: 
-La perception catégorielle distord l’espace perceptuel. 
-Elle revient à ignorer les variations non pertinentes (au sein d’une catégorie)…
-…tout en améliorant la sensibilité aux variations pertinentes (entre catégories).
-Elle réalise ainsi une forme de conversion analogique-numérique (espace physique continu → espace perceptuel discret)
-Les formants et transition des formants jouent un rôle fondamental dans la reconnaissance des phonèmes (p.ex. attaque du F2 pour /b/-/d/-/g/)
-Le problème du manque d’invariance subsiste.
-
-
-Nous reviendrons sur les implications du phénomène de catégorisation perceptuelle, en particulier pour conférer à notre système auditif une capacité d'abstraction nécessaire à la compréhension du langage, dans la conclusion de ce chapitre. ici juste noter que le second problème n'est pas réglé 
+En discordant l'espace acoustique pour rendre plus similaires deux productions d'un même phonème et améliorer notre capacité à discriminer deux sons correspondant à deux phonèmes différents, la perception catégorielle répond au problème de la discrétisation évoqué au chapitre précédent. Nous reviendrons plus loin sur les implications de ce phénomène pour conférer à notre système auditif une capacité d'abstraction nécessaire à la compréhension du langage. Dans l'immédiat, notons que le problème du "manque d'invariance" demeure quant à lui entier : les éléments évoqués jusqu'ici ne permettent pas d'expliquer comment le cerveau parvient à identifier de façon robuste des catégories de phonèmes qui semblent se recouvrir en grande partie. C'est ce second problème que nous allons aborder dans le chapitre suivant.
 
 ## Références
 

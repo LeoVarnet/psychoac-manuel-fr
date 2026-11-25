@@ -1,4 +1,4 @@
-# Chapitre 1 : Méthodologie de la psychophysique et de la psychoacostique
+# Chapitre 1 : Méthodologie de la psychophysique et de la psychoacoustique
 
 Plan du chapitre :
 1. [Introduction](Introduction)

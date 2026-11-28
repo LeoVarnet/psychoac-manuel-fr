@@ -1,5 +1,19 @@
 # Conclusion
 
+
+
+La perception catégorielle est un phénomène très général, qui peut être observé non seulement dans la perception des phonèmes mais également sur certaines tâches non linguistiques, et dans d'autres modalités comme la vision. La figure suivante illustre ainsi une expérience de perception des visages masculins et féminins. Le long d'un continuum synthétique de visages allant d'un visage clairement masculin à un visage clairement féminin, la perception du genre mesurée par une tâche de catégorisation (ce visage est-il masculin ou féminin ?) présente une discontinuité marquée. Ainsi les visages sont presque tous perçus de façon non ambiguë comme masculins ou comme féminins, et la perception bascule de "100% masculin" à "100% féminin" en l'espace de quelques stimuli seulement.
+
+```{figure} Todorova2020.png
+---
+name: Todorova2020.png
+alt: XXXXX
+width: 90%
+align: center
+---
+*Exemple de phénomène de perception catégorielle dans la perception des visages masculins et féminins. En bas, continuum synthétique de visages obtenu par morphing entre un visage masculin (à gauche) et un visage féminin (à droite). En haut : pourcentage de jugements du visage comme étant masculin, le long du continuum. Figure adaptée de Todorova et al. (2020)*
+```
+
 Les catégorisations spontanées surviennent en permanence dans notre cerveau et dépendent non seulement de notre langue, mais aussi de notre culture.
 Une catégorie réunit utilement un ensemble d’éléments. Elle rend disponibles des propriétés qui ne sont pas immédiatement perceptibles. 
 Sans perception catégorielle, pas de langage ni de pensée organisée.
